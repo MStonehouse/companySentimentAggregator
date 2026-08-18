@@ -1,4 +1,36 @@
 const DATA_URL = "data/signals.json";
+
+function storyMatchesCompany(story, company) {
+  if (!story || !company) return false;
+  if (story.ticker && story.ticker === company.ticker) return true;
+  const hay = `${story.title || ""} ${story.summary || ""}`.toLowerCase();
+  const ticker = (company.ticker || "").toLowerCase();
+  const name = (company.company_name || "").toLowerCase();
+  if (ticker && new RegExp(`(^|[^a-z0-9])${ticker.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-z0-9]|$)`, "i").test(hay)) return true;
+  if (name && name.length >= 4 && hay.includes(name)) return true;
+  return false;
+}
+
+const THEME_MATCHERS = {
+  "AI infrastructure": ["ai", "artificial intelligence", "data center", "data centre", "gpu", "accelerator", "hyperscale"],
+  "Semiconductors": ["semiconductor", "chip", "foundry", "wafer", "fab", "processor", "gpu"],
+  "Power & grid": ["power grid", "grid", "electricity", "transmission", "substation", "utility", "power demand"],
+  "Nuclear & uranium": ["nuclear", "uranium", "reactor", "small modular reactor", "smr"],
+  "Cybersecurity": ["cybersecurity", "cyber security", "ransomware", "breach", "zero trust"],
+  "Robotics & automation": ["robotics", "robot", "automation", "autonomous", "industrial automation"],
+  "Defense & aerospace": ["defense", "defence", "aerospace", "missile", "drone", "military", "satellite"],
+  "Biotech & therapeutics": ["biotech", "therapeutic", "clinical trial", "drug", "fda", "phase 1", "phase 2", "phase 3"],
+  "Critical minerals": ["critical mineral", "lithium", "rare earth", "copper", "nickel", "graphite", "mining"],
+  "Quantum computing": ["quantum computing", "quantum computer", "qubit"],
+  "Cloud & software": ["cloud", "saas", "software platform", "enterprise software"],
+  "Financial technology": ["fintech", "payments", "digital banking", "payment network"]
+};
+
+function storyMatchesTheme(story, theme) {
+  const hay = `${story?.title || ""} ${story?.summary || ""}`.toLowerCase();
+  const terms = THEME_MATCHERS[theme] || [String(theme || "").toLowerCase()];
+  return terms.some(term => term && hay.includes(term.toLowerCase()));
+}
 const WATCH_KEY = "companySignal.watchlist.v1";
 const state = { companies: [], meta: {}, rankings: {}, briefing: {}, sectors: [], themes: [], watchlist: new Set() };
 const $ = id => document.getElementById(id);
@@ -141,7 +173,7 @@ function metricRow(label,value){return `<div class="fund-row"><span>${esc(label)
 function openCompany(ticker) {
   const c=companyByTicker(ticker); if(!c) return;
   const f=c.fundamentals||{}, m=c.metrics||{}, d=c.discovery_metrics||{}, mat=c.materiality||{};
-  const stories=(c.stories||[]).map(s=>`<article class="story"><div class="story-meta"><span>${esc(s.source||"Unknown")}</span><span>${fmtDate(s.published_at)}</span><span>${esc(s.evidence_type||"Reporting")}</span></div><h4>${esc(s.title||"")}</h4><p>${esc(s.summary||"")}</p>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Open original source ↗</a>`:""}</article>`).join("");
+  const stories = (c.stories || []).filter(s => storyMatchesCompany(s, c)).filter(s => !s.ticker || s.ticker === c.ticker).map(s =>`<article class="story"><div class="story-meta"><span>${esc(s.source||"Unknown")}</span><span>${fmtDate(s.published_at)}</span><span>${esc(s.evidence_type||"Reporting")}</span></div><h4>${esc(s.title||"")}</h4><p>${esc(s.summary||"")}</p>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Open original source ↗</a>`:""}</article>`).join("");
   const watched=state.watchlist.has(c.ticker);
   $("dialogContent").innerHTML=`
     <div class="detail-header"><div class="detail-title-row"><div><p class="eyebrow">${esc(c.ticker)}${c.company_name?` · ${esc(c.company_name)}`:""}</p><h2>${esc(c.primary_catalyst||"Credible company development")}</h2></div><button class="watch-button detail-watch ${watched?'active':''}" data-dialog-watch="${esc(c.ticker)}">★ ${watched?'Watching':'Watch'}</button></div>
@@ -172,6 +204,64 @@ function populateFilters() {
   $("catalystFilter").innerHTML=`<option value="">All catalysts</option>`+cats.map(x=>`<option>${esc(x)}</option>`).join("");
 }
 function renderAll(){renderRankings();renderWatchlist();}
+
+
+function openTheme(themeName) {
+  const related = [];
+  for (const company of (state.companies || [])) {
+    for (const story of (company.stories || [])) {
+      if (storyMatchesTheme(story, themeName) && storyMatchesCompany(story, company)) {
+        related.push({ ...story, ticker: company.ticker, company_name: company.company_name });
+      }
+    }
+  }
+
+  const unique = [];
+  const seen = new Set();
+  for (const story of related) {
+    const key = `${story.ticker}|${story.url || ""}|${story.title || ""}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    unique.push(story);
+  }
+
+  unique.sort((a,b) => new Date(b.published_at || 0) - new Date(a.published_at || 0));
+
+  $("dialogContent").innerHTML = `
+    <div class="detail-header">
+      <p class="eyebrow">THEME</p>
+      <h2>${escapeHtml(themeName)}</h2>
+      <p>${unique.length} relevant stor${unique.length === 1 ? "y" : "ies"} across the current signal set.</p>
+    </div>
+    ${unique.length ? unique.map(s => `
+      <article class="story">
+        <div class="story-meta">
+          <span>${escapeHtml(s.ticker || "")}</span>
+          <span>${escapeHtml(s.source || "Unknown source")}</span>
+          <span>${formatDate(s.published_at)}</span>
+        </div>
+        <h4>${escapeHtml(s.title || "")}</h4>
+        <p>${escapeHtml(s.summary || "")}</p>
+        ${s.url ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">Open original source ↗</a>` : ""}
+      </article>
+    `).join("") : `<div class="empty-state">No current stories specifically match this theme.</div>`}
+  `;
+  $("companyDialog").showModal();
+}
+
+
+function bindThemeChips() {
+  document.querySelectorAll(".theme-chip").forEach(chip => {
+    if (chip.dataset.boundTheme === "1") return;
+    chip.dataset.boundTheme = "1";
+    chip.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const theme = chip.dataset.theme || chip.getAttribute("data-name") || chip.textContent.trim();
+      openTheme(theme);
+    });
+  });
+}
 
 async function init() {
   loadWatch(); renderMethodology();

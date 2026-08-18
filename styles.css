@@ -1620,3 +1620,10 @@ footer,
     background: #000000;
   }
 }
+
+
+/* Theme/topic tiles: subtle corners instead of pills */
+.theme-chip,
+.theme-badge {
+  border-radius: 6px !important;
+}
