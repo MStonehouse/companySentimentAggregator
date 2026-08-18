@@ -1,149 +1,81 @@
-# Company Signal
+# Company Signal v3
 
-A free-first GitHub Pages dashboard for discovering publicly traded companies that are experiencing an unusual increase in **credible, company-specific information**.
+Company Signal is a free-first, evidence-focused GitHub Pages dashboard for answering four questions:
 
-This project deliberately excludes social-media popularity from its score.
+1. **Who are the established market leaders receiving the strongest credible attention?**
+2. **Which companies are receiving unusually more attention than is normal for them?**
+3. **What materially changed since the previous period?**
+4. **Which sectors and themes are beginning to cluster across multiple companies?**
 
-## What it uses
+The project deliberately excludes social-media popularity from its scoring model.
 
-- **SEC EDGAR** — primary evidence from recent 8-K filings.
-- **Alpha Vantage NEWS_SENTIMENT** — broad financial-news discovery, ticker relevance and sentiment.
-- **Finnhub Company News** — optional enrichment for the highest-ranked discovered tickers.
-- **Local history** — stores recent daily article counts to estimate coverage acceleration.
+## What v3 adds
 
-The site is static. API keys never enter the browser. GitHub Actions reads them from repository secrets, writes `data/signals.json`, and GitHub Pages serves only the finished JSON.
+- Market Leaders and Emerging Signals as separate rankings.
+- Catalyst classification (contracts, earnings, M&A, FDA, financing, product/technology, etc.).
+- Confidence Score separate from Signal/Discovery scores.
+- Cached company fundamentals and industry context.
+- Automated materiality estimate when a monetary event value can be extracted.
+- 30-day Signal and Discovery history.
+- New-to-radar, accelerating and cooling states.
+- Sector activity map.
+- Cross-company theme detection.
+- Daily intelligence briefing: new emerging, accelerating, cooling, major catalysts and names leaving the emerging top 20.
+- Browser-local watchlist with no account/database.
+- Filters by industry and catalyst category.
 
-## Signal Score (0–100)
+## Data sources
+
+### SEC EDGAR
+Primary evidence from recent 8-K filings plus a canonical ticker/company-name map.
+
+### Alpha Vantage
+`NEWS_SENTIMENT` is the broad discovery layer for company-related financial reporting, ticker relevance and article sentiment.
+
+### Finnhub
+Company News enriches shortlisted names. Company Profile 2 and Basic Financials provide cached company context such as industry, market capitalization and selected financial ratios/metrics.
+
+The browser never receives any API key. GitHub Actions reads secrets, processes the information and commits only JSON output.
+
+## Scoring
+
+### Signal Score — 0 to 100
 
 | Component | Max |
 |---|---:|
 | Primary evidence | 25 |
 | Coverage acceleration | 20 |
 | Catalyst strength | 20 |
-| Independent corroboration | 15 |
+| Corroboration | 15 |
 | Source quality | 10 |
 | Sentiment signal | 10 |
 
-This is intentionally transparent and easy to change in `scripts/update_signals.py`.
+Signal Score answers: **How strong and well-supported is the current company information signal?**
 
-## Setup
+### Discovery Score — 0 to 100
 
-### 1. Create a new GitHub repository
+| Component | Max |
+|---|---:|
+| Attention lift | 35 |
+| Novelty | 20 |
+| Source breadth | 15 |
+| Catalyst strength | 15 |
+| Primary evidence | 10 |
+| Sentiment | 5 |
 
-Upload the entire contents of this folder **without adding another enclosing folder**. Your repository root should contain:
+Discovery Score answers: **How unusual is the current attention for this particular company?**
 
-```text
-index.html
-styles.css
-app.js
-README.md
-data/
-scripts/
-.github/
-```
+### Confidence Score — 0 to 100
 
-### 2. Add GitHub repository secrets
+Confidence is deliberately separate. It rewards primary evidence, independent corroboration, source quality and unique story clusters. A negative development can have very high confidence.
 
-Go to:
+### Materiality
 
-**Settings → Secrets and variables → Actions → New repository secret**
+When an article about a contract, acquisition, financing, government award or similar event contains an extractable dollar value, Company Signal compares that amount with cached market capitalization.
 
-Add:
+This is an **automated context estimate, not a verified financial calculation**. The UI labels it accordingly and tells the user to verify the original source.
 
-#### `SEC_USER_AGENT`
-
-The SEC requests that automated clients identify themselves. Use an app name and an email address you control, for example:
-
-```text
-CompanySignal your-email@example.com
-```
-
-This is not an SEC API key.
-
-#### `ALPHA_VANTAGE_API_KEY`
-
-Create a free Alpha Vantage key and paste only the key value.
-
-#### `FINNHUB_API_KEY`
-
-Create a free Finnhub key and paste only the key value.
-
-You can omit Alpha Vantage or Finnhub and the updater will still run with whatever sources are enabled. For meaningful discovery, Alpha Vantage is strongly recommended.
-
-### 3. Run the workflow manually once
-
-Open:
-
-**Actions → Update company signals → Run workflow**
-
-When it succeeds, `data/signals.json` and `data/history.json` will be updated.
-
-### 4. Enable GitHub Pages
-
-Open:
-
-**Settings → Pages**
-
-Under **Build and deployment**:
-
-- Source: **Deploy from a branch**
-- Branch: **main**
-- Folder: **/(root)**
-
-Save.
-
-### 5. Scheduled updates
-
-The included GitHub Action runs four times per day. You can change the cron schedule in:
-
-```text
-.github/workflows/update-signals.yml
-```
-
-GitHub Actions cron uses UTC.
-
-## Important design choices
-
-### No direct scraping of major news websites
-
-The updater does not scrape Reuters, Bloomberg, WSJ, etc. directly. Professional reporting can enter through data providers such as Alpha Vantage and Finnhub. This avoids building the project around brittle HTML scraping or bypassing publisher access controls.
-
-### Duplicate-story clustering
-
-The updater fingerprints similar headlines and keeps the strongest representative source. This is intentionally conservative: 20 websites repeating one story should not count as 20 independent confirmations.
-
-### SEC first
-
-A recent material 8-K can contribute up to 25 points because it is primary evidence. Company press releases are not automatically treated as independent corroboration.
-
-### Free tier discipline
-
-Finnhub is used only on the top candidates found in the first pass. That makes much better use of limited free requests than querying every listed stock.
-
-## Local test
-
-You can preview the website without installing anything:
-
-```bash
-python -m http.server 8000
-```
-
-Then visit:
-
-```text
-http://localhost:8000
-```
-
-To run the updater locally on Linux/macOS:
-
-```bash
-export SEC_USER_AGENT="CompanySignal your-email@example.com"
-export ALPHA_VANTAGE_API_KEY="your_key"
-export FINNHUB_API_KEY="your_key"
-python scripts/update_signals.py
-```
-
-## Files
+## Repository structure
 
 ```text
 company_signal/
@@ -153,7 +85,8 @@ company_signal/
 ├── README.md
 ├── data/
 │   ├── signals.json
-│   └── history.json
+│   ├── history.json
+│   └── fundamentals_cache.json
 ├── scripts/
 │   └── update_signals.py
 └── .github/
@@ -161,30 +94,97 @@ company_signal/
         └── update-signals.yml
 ```
 
-## Caveats
+## GitHub Secrets
 
-- A high Signal Score is **not** a buy recommendation.
-- A company can rank highly because of significant negative news.
-- News APIs may change free-tier quotas or licensing.
-- Source names reported by aggregators are not always perfectly normalized.
-- The current catalyst classifier is deliberately simple and explainable; it can later be replaced with a stronger model while preserving the same data structure.
+Go to **Settings → Secrets and variables → Actions** and add:
 
-## Version 2: Market Leaders + Emerging Signals
+```text
+SEC_USER_AGENT
+ALPHA_VANTAGE_API_KEY
+FINNHUB_API_KEY
+```
 
-The dashboard now maintains two rankings from the same vetted evidence:
+`SEC_USER_AGENT` is an identifier, not an API key. Use an application name plus an email address you control, for example:
 
-- **Market Leaders** use `signal_score` (0–100) to rank the absolute strength of credible company-specific attention.
-- **Emerging Signals** use `discovery_score` (0–100) to rank attention that is unusual relative to each company's own stored baseline.
+```text
+CompanySignal your-email@example.com
+```
 
-### Discovery Score
+## Scheduled updater
 
-| Component | Max |
-|---|---:|
-| Attention lift vs. baseline | 35 |
-| Novelty / normally quiet coverage | 20 |
-| Independent source breadth | 15 |
-| Catalyst strength | 15 |
-| Primary evidence | 10 |
-| Sentiment strength | 5 |
+The included workflow runs four times per day and can also be run manually:
 
-`data/history.json` builds the baseline over time. Discovery Scores are marked as provisional until at least 7 prior days of history are available. The updater also uses the SEC ticker map to fill in company names for tickers discovered through the news APIs whenever possible.
+**Actions → Update company signals → Run workflow**
+
+The workflow commits:
+
+```text
+data/signals.json
+data/history.json
+data/fundamentals_cache.json
+```
+
+The fundamentals cache matters: it prevents the app from repeatedly querying the same company profile/financial metrics on every scheduled run. Cached fundamentals are refreshed after seven days when the company is shortlisted again.
+
+## History and baseline behavior
+
+`history.json` stores:
+
+- Daily 24-hour article counts.
+- Daily Signal/Discovery score snapshots.
+- Daily top rankings.
+- First-seen dates.
+
+The Emerging model works immediately, but it labels the baseline as **building** until at least seven prior days are available. The 30-day history charts populate automatically over time.
+
+## Watchlist
+
+The watchlist uses browser `localStorage`. Nothing is transmitted anywhere and no account is required. Because it is browser-local, a watchlist on one phone/computer will not automatically appear on another device.
+
+## Updating from your local Git repo
+
+Because GitHub Actions commits data back to `main`, pull before pushing code changes:
+
+```bash
+git pull --rebase origin main
+```
+
+Then:
+
+```bash
+git add .
+git commit -m "Describe your change"
+git push origin main
+```
+
+Avoid force-pushing merely because the Action has added newer data commits.
+
+## Local preview
+
+```bash
+python -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000
+```
+
+To run the updater locally:
+
+```bash
+export SEC_USER_AGENT="CompanySignal your-email@example.com"
+export ALPHA_VANTAGE_API_KEY="your_key"
+export FINNHUB_API_KEY="your_key"
+python scripts/update_signals.py
+```
+
+## Important caveats
+
+- A high score is not a buy recommendation.
+- High-confidence news can be strongly negative.
+- Automated catalyst/theme classification is deliberately transparent and rule-based, so occasional misclassification is possible.
+- Monetary materiality extraction can misinterpret context; verify the original article/filing.
+- Free API quotas and endpoint availability can change over time.
+- Fundamentals are cached and therefore will not necessarily reflect changes made within the cache window.

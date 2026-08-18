@@ -3,172 +3,83 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#0b1020" />
+  <meta name="theme-color" content="#070b14" />
   <title>Company Signal</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div>
-      <p class="eyebrow">VERIFIED COMPANY DISCOVERY</p>
+      <p class="eyebrow">VERIFIED COMPANY INTELLIGENCE</p>
       <h1>Company Signal</h1>
-      <p class="subtitle">A verified snapshot of both established market leaders and companies gaining unusual attention.</p>
+      <p class="subtitle">A quiet, evidence-first view of who leads the market, who is emerging, and what materially changed.</p>
     </div>
-    <div class="updated-card">
-      <span>Last updated</span>
-      <strong id="lastUpdated">Loading…</strong>
-    </div>
+    <div class="updated-card"><span>Last updated</span><strong id="lastUpdated">Loading…</strong></div>
   </header>
 
   <main>
     <section class="summary-grid">
-      <article class="summary-card">
-        <span>Companies scanned</span>
-        <strong id="companiesScanned">—</strong>
-      </article>
-      <article class="summary-card">
-        <span>Signals found</span>
-        <strong id="signalsFound">—</strong>
-      </article>
-      <article class="summary-card">
-        <span>High-confidence</span>
-        <strong id="highConfidence">—</strong>
-      </article>
-      <article class="summary-card">
-        <span>Primary-source events</span>
-        <strong id="primaryEvents">—</strong>
-      </article>
+      <article class="summary-card"><span>Companies scanned</span><strong id="companiesScanned">—</strong></article>
+      <article class="summary-card"><span>Signals retained</span><strong id="signalsFound">—</strong></article>
+      <article class="summary-card"><span>High confidence</span><strong id="highConfidence">—</strong></article>
+      <article class="summary-card"><span>Primary-source events</span><strong id="primaryEvents">—</strong></article>
     </section>
 
-    <p id="baselineNote" class="baseline-note dashboard-baseline"></p>
+    <p id="baselineNote" class="baseline-note"></p>
 
-    <section class="controls snapshot-controls">
+    <section class="controls">
+      <div><label for="searchInput">Find company</label><input id="searchInput" type="search" placeholder="Ticker or company name" autocomplete="off" /></div>
+      <div><label for="minScore">Minimum score</label><select id="minScore"><option value="0">All</option><option value="40">40+</option><option value="60" selected>60+</option><option value="75">75+</option><option value="85">85+</option></select></div>
+      <div><label for="sectorFilter">Industry</label><select id="sectorFilter"><option value="">All industries</option></select></div>
+      <div><label for="catalystFilter">Catalyst</label><select id="catalystFilter"><option value="">All catalysts</option></select></div>
+    </section>
+
+    <section class="briefing-panel">
+      <div class="section-heading">
+        <div><p class="eyebrow">WHAT CHANGED</p><h2>Daily intelligence briefing</h2><p class="ranking-description">A compressed view of new, accelerating, cooling and high-impact developments.</p></div>
+      </div>
+      <div id="briefingGrid" class="briefing-grid"></div>
+    </section>
+
+    <section class="two-column-layout">
       <div>
-        <label for="searchInput">Find company</label>
-        <input id="searchInput" type="search" placeholder="Ticker or company name" autocomplete="off" />
+        <div class="section-heading"><div><p class="eyebrow">MARKET LEADERS</p><h2>Who commands attention now</h2><p class="ranking-description">Absolute strength of vetted coverage, primary evidence and catalyst significance.</p></div><span id="leaderCount" class="result-count"></span></div>
+        <div id="leaderGrid" class="company-grid single-column"></div>
+        <div id="leaderEmpty" class="empty-state" hidden>No market leaders match the filters.</div>
       </div>
       <div>
-        <label for="minScore">Minimum score</label>
-        <select id="minScore">
-          <option value="0">All</option>
-          <option value="40">40+</option>
-          <option value="60" selected>60+</option>
-          <option value="75">75+</option>
-          <option value="85">85+</option>
-        </select>
+        <div class="section-heading"><div><p class="eyebrow">EMERGING SIGNALS</p><h2>Who is gaining unusual attention</h2><p class="ranking-description">Attention measured relative to each company’s own recent baseline.</p></div><span id="emergingCount" class="result-count"></span></div>
+        <div id="emergingGrid" class="company-grid single-column"></div>
+        <div id="emergingEmpty" class="empty-state" hidden>No emerging signals match the filters.</div>
       </div>
     </section>
 
-    <section class="explanation">
-      <div>
-        <p class="eyebrow">TWO LENSES, SAME EVIDENCE</p>
-        <h2>See where attention is — and where it is moving.</h2>
-      </div>
-      <p>
-        Market Leaders rewards absolute strength of credible coverage. Emerging Signals rewards
-        unusual attention relative to each company's own history. Both use vetted sources, primary
-        filings and duplicate-story clustering rather than social-media popularity.
-      </p>
+    <section class="watchlist-section">
+      <div class="section-heading"><div><p class="eyebrow">YOUR WATCHLIST</p><h2>Companies you want to keep close</h2><p class="ranking-description">Stored only in this browser. No account or database required.</p></div><span id="watchCount" class="result-count"></span></div>
+      <div id="watchGrid" class="company-grid"></div>
+      <div id="watchEmpty" class="empty-state">Star a company to add it here.</div>
     </section>
 
-    <section class="ranking-section leaders-section">
-      <div class="section-heading ranking-heading">
-        <div>
-          <p class="eyebrow">MARKET LEADERS</p>
-          <h2>Companies commanding credible market attention</h2>
-          <p class="ranking-description">The strongest absolute company signals across credible coverage, primary evidence, corroboration and catalyst significance.</p>
-        </div>
-        <span id="leaderCount" class="result-count"></span>
-      </div>
-      <div id="leaderGrid" class="company-grid"></div>
-      <div id="leaderEmpty" class="empty-state" hidden>No market leaders match the current filters.</div>
-    </section>
-
-    <section class="ranking-section emerging-section">
-      <div class="section-heading ranking-heading">
-        <div>
-          <p class="eyebrow">EMERGING SIGNALS</p>
-          <h2>Companies gaining unusual credible attention</h2>
-          <p class="ranking-description">The largest increases in credible attention relative to each company's own recent baseline—not simply the companies that are always in the news.</p>
-        </div>
-        <span id="emergingCount" class="result-count"></span>
-      </div>
-      <div id="emergingGrid" class="company-grid"></div>
-      <div id="emergingEmpty" class="empty-state" hidden>No emerging signals match the current filters.</div>
+    <section class="landscape-grid">
+      <article class="landscape-panel">
+        <p class="eyebrow">SECTOR MAP</p><h2>Where activity is clustering</h2><p class="ranking-description">Discovery intensity aggregated by industry.</p>
+        <div id="sectorMap" class="heat-list"></div>
+      </article>
+      <article class="landscape-panel">
+        <p class="eyebrow">EMERGING THEMES</p><h2>What connects the signals</h2><p class="ranking-description">Recurring topics across multiple companies.</p>
+        <div id="themeMap" class="theme-list"></div>
+      </article>
     </section>
 
     <section class="methodology">
-      <p class="eyebrow">SCORING MODEL</p>
-      <h2>Signal Score</h2>
-      <div class="method-grid">
-        <div class="method-item">
-          <strong>25</strong>
-          <span>Primary evidence
-            <button class="info-button" type="button" aria-label="About primary evidence">i
-              <span class="info-tooltip">Measures whether the signal is backed by a primary source such as an SEC or regulatory filing. Primary evidence receives the highest confidence weighting.</span>
-            </button>
-          </span>
-          <small>SEC / regulatory filing</small>
-        </div>
-        <div class="method-item">
-          <strong>20</strong>
-          <span>Coverage acceleration
-            <button class="info-button" type="button" aria-label="About coverage acceleration">i
-              <span class="info-tooltip">Measures how quickly credible coverage is increasing compared with that company's recent normal level. A sudden jump in attention scores higher than steady background coverage.</span>
-            </button>
-          </span>
-          <small>Current vs. recent baseline</small>
-        </div>
-        <div class="method-item">
-          <strong>20</strong>
-          <span>Catalyst strength
-            <button class="info-button" type="button" aria-label="About catalyst strength">i
-              <span class="info-tooltip">Estimates how significant the underlying event appears to be. Major contracts, acquisitions, regulatory approvals, earnings surprises and similar material developments receive more weight.</span>
-            </button>
-          </span>
-          <small>Contracts, earnings, approvals, M&amp;A, etc.</small>
-        </div>
-        <div class="method-item">
-          <strong>15</strong>
-          <span>Corroboration
-            <button class="info-button" type="button" aria-label="About corroboration">i
-              <span class="info-tooltip">Measures how many independent credible sources support the story. Repeated copies of the same syndicated article are not treated as separate confirmations.</span>
-            </button>
-          </span>
-          <small>Independent reputable sources</small>
-        </div>
-        <div class="method-item">
-          <strong>10</strong>
-          <span>Source quality
-            <button class="info-button" type="button" aria-label="About source quality">i
-              <span class="info-tooltip">Rates the credibility of the reporting sources. Established financial journalism and specialist industry reporting score higher than weak or unknown sources.</span>
-            </button>
-          </span>
-          <small>Professional / specialist reporting</small>
-        </div>
-        <div class="method-item">
-          <strong>10</strong>
-          <span>Sentiment signal
-            <button class="info-button" type="button" aria-label="About sentiment signal">i
-              <span class="info-tooltip">Measures the strength of the positive or negative direction in the coverage. It helps describe the tone of the signal but is not a buy or sell recommendation.</span>
-            </button>
-          </span>
-          <small>Direction, not a recommendation</small>
-        </div>
+      <p class="eyebrow">TRANSPARENT SCORING</p><h2>How the system thinks</h2>
+      <div class="methodology-columns">
+        <div><h3>Signal Score</h3><p class="model-intro">How strong and well-supported the company’s current information signal is.</p><div class="method-grid" id="signalMethod"></div></div>
+        <div><h3>Discovery Score</h3><p class="model-intro">How unusual the current attention is for that company specifically.</p><div class="method-grid" id="discoveryMethod"></div></div>
       </div>
-
-      <div class="secondary-model">
-        <p class="eyebrow">EMERGING MODEL</p>
-        <h2>Discovery Score</h2>
-        <p class="model-intro">A separate 0–100 score that asks whether attention is unusual for this company, rather than whether the company is already famous.</p>
-        <div class="method-grid">
-          <div><strong>35</strong><span>Attention lift</span><small>Current coverage vs. company baseline</small></div>
-          <div><strong>20</strong><span>Novelty</span><small>Rewards companies with a normally quiet news footprint</small></div>
-          <div><strong>15</strong><span>Source breadth</span><small>Independent credible sources</small></div>
-          <div><strong>15</strong><span>Catalyst strength</span><small>Materiality of the underlying event</small></div>
-          <div><strong>10</strong><span>Primary evidence</span><small>SEC / regulatory evidence</small></div>
-          <div><strong>5</strong><span>Sentiment</span><small>Strength of directional tone</small></div>
-        </div>
+      <div class="score-extras">
+        <article><strong>Confidence Score</strong><p>Measures evidence quality and corroboration separately from whether the news is positive, negative or exciting.</p></article>
+        <article><strong>Materiality</strong><p>When a monetary value can be extracted, compares the event with company size. Automated estimates are explicitly labelled and should be verified.</p></article>
       </div>
     </section>
   </main>
@@ -178,10 +89,7 @@
     <div id="dialogContent"></div>
   </dialog>
 
-  <footer>
-    <p>Company Signal is an information-discovery tool, not investment advice. Verify material information at the original source.</p>
-  </footer>
-
+  <footer><p>Company Signal is an information-discovery tool, not investment advice. Automated classifications and materiality estimates should be verified against original sources.</p></footer>
   <script src="app.js"></script>
 </body>
 </html>

@@ -3,7 +3,6 @@ name: Update company signals
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron is UTC. Runs 4x daily.
     - cron: "23 13,17,21,1 * * *"
 
 permissions:
@@ -12,7 +11,6 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -28,13 +26,14 @@ jobs:
           ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
           FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
           MAX_COMPANIES: "30"
+          FUNDAMENTAL_ENRICH_LIMIT: "20"
         run: python scripts/update_signals.py
 
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/signals.json data/history.json
+          git add data/signals.json data/history.json data/fundamentals_cache.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else
