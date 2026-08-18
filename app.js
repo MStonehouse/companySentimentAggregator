@@ -196,7 +196,7 @@ function openCompany(ticker) {
     <div class="detail-header"><div class="detail-title-row"><div><p class="eyebrow">${esc(c.ticker)}${c.company_name?` · ${esc(c.company_name)}`:""}</p><h2>${esc(c.primary_catalyst||"Credible company development")}</h2></div><button class="watch-button detail-watch ${watched?'active':''}" data-dialog-watch="${esc(c.ticker)}">★ ${watched?'Watching':'Watch'}</button></div>
       <div class="detail-tags"><span class="badge">${esc(c.catalyst_category||"Other")}</span><span class="badge">${esc(c.attention_status||"Normal")}</span><span class="badge confidence">Confidence ${Math.round(c.confidence_score||0)}</span>${c.new_to_radar?`<span class="badge new">NEW TO RADAR</span>`:""}</div>
       <p>${esc(c.why_it_matters||"")}</p>
-      <div class="triple-score"><div><span>Signal</span><strong>${Math.round(c.signal_score||0)}</strong><small>absolute attention</small></div><div><span>Discovery</span><strong>${Math.round(c.discovery_score||0)}</strong><small>vs. baseline</small></div><div><span>Confidence</span><strong>${Math.round(c.confidence_score||0)}</strong><small>evidence quality</small></div></div>
+      <div class="triple-score"><div><span>Attention</span><strong>${Math.round(c.market_attention_score ?? c.signal_score ?? 0)}</strong><small>all credible coverage</small></div><div><span>Discovery</span><strong>${Math.round(c.discovery_score||0)}</strong><small>vs. baseline</small></div><div><span>Confidence</span><strong>${Math.round(c.confidence_score||0)}</strong><small>evidence quality</small></div></div>
     </div>
 
     <div class="detail-grid">

@@ -316,10 +316,8 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
     """
     Broad discovery feed.
 
-    IMPORTANT:
-    Alpha Vantage treats comma-separated `topics` as an AND filter. We therefore
-    intentionally do NOT send a topics parameter here; otherwise discovery can
-    collapse to zero articles when several unrelated topics are combined.
+    Ranking/aggregation uses ALL ticker associations supplied by Alpha Vantage.
+    Displayed company news is filtered separately and much more strictly.
     """
     if not ALPHA_KEY:
         return [], []
@@ -332,20 +330,19 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
     }
     data = http_json("https://www.alphavantage.co/query?" + urllib.parse.urlencode(params))
 
-    # Alpha Vantage may return a message/note instead of feed data when there is
-    # an entitlement, quota or request problem. Surface that clearly.
     feed = data.get("feed")
     if not isinstance(feed, list):
         detail = data.get("Information") or data.get("Note") or data.get("Error Message") or str(data)[:500]
         raise RuntimeError(f"Alpha Vantage NEWS_SENTIMENT returned no feed: {detail}")
 
-    scoring_stories = []
+    aggregation_stories = []
     general_news = []
 
     for article in feed:
         general_news.append(general_article_from_alpha(article))
         source = normalize_source(article.get("source", "Unknown"))
-        title, summary = article.get("title", ""), article.get("summary", "")
+        title = article.get("title", "")
+        summary = article.get("summary", "")
         published_at = parse_av_time(article.get("time_published", ""))
 
         for ts in article.get("ticker_sentiment", []):
@@ -360,12 +357,6 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
             except Exception:
                 relevance, sentiment = 0.0, 0.0
 
-            # Use Alpha Vantage's ticker association for ranking/discovery.
-            # Displayed company news remains subject to the much stricter
-            # headline-identity rule.
-            if relevance < 0.15:
-                continue
-
             candidate = {
                 "ticker": ticker,
                 "company_name": company_name,
@@ -379,15 +370,17 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
                 "fingerprint": story_fingerprint(title),
                 "relevance": relevance,
             }
+
+            # Strict display flag only. This does NOT affect ranking.
             candidate["display_relevant"] = is_strict_company_story(candidate, ticker, company_name)
-            scoring_stories.append(candidate)
+            aggregation_stories.append(candidate)
 
     print(
         f"Alpha Vantage: {len(feed)} articles, "
-        f"{len(scoring_stories)} ticker-linked scoring stories, "
-        f"{len({s['ticker'] for s in scoring_stories})} unique tickers."
+        f"{len(aggregation_stories)} ticker associations, "
+        f"{len({s['ticker'] for s in aggregation_stories})} unique tickers."
     )
-    return scoring_stories, dedupe_general_news(general_news)
+    return aggregation_stories, dedupe_general_news(general_news)
 
 def fetch_finnhub_news(ticker: str, company_name: str) -> list[dict]:
     if not FINNHUB_KEY:
@@ -413,6 +406,37 @@ def fetch_finnhub_news(ticker: str, company_name: str) -> list[dict]:
         stories.append(candidate)
     return stories
 
+
+
+
+def aggregation_weight(story: dict) -> float:
+    """
+    Weight ALL ticker-linked news for market-attention aggregation.
+    API relevance affects contribution size but never determines inclusion.
+    """
+    if story.get("evidence_type") == "SEC filing":
+        return 1.0
+    try:
+        relevance = float(story.get("relevance", 0.0))
+    except Exception:
+        relevance = 0.0
+    # Even weak mentions count, but less than articles centrally about the company.
+    return max(0.10, min(1.0, relevance))
+
+def weighted_recent_coverage(stories: list[dict], hours: int = 24) -> float:
+    cutoff = NOW - dt.timedelta(hours=hours)
+    return sum(
+        aggregation_weight(s)
+        for s in stories
+        if parse_dt(s.get("published_at", "")) >= cutoff
+    )
+
+def weighted_source_breadth(stories: list[dict]) -> float:
+    by_source = {}
+    for s in stories:
+        source = normalize_source(s.get("source", ""))
+        by_source[source] = max(by_source.get(source, 0.0), aggregation_weight(s))
+    return sum(by_source.values())
 
 
 def dedupe_general_news(stories: list[dict], limit: int = 40) -> list[dict]:
@@ -613,13 +637,15 @@ def score_company(ticker: str, stories: list[dict], baseline: float, baseline_da
     primary_count = sum(s.get("evidence_type") == "SEC filing" for s in stories)
     independent_sources = len({normalize_source(s.get("source", "")) for s in stories if s.get("source")})
     current_count = len(recent24)
+    weighted_current = weighted_recent_coverage(stories, 24)
+    weighted_breadth = weighted_source_breadth(stories)
     unique_clusters = len({s.get("fingerprint") for s in stories})
 
     if baseline <= 0:
-        ratio = float(current_count) if current_count else 0.0
-        coverage_accel = min(20.0, current_count * 5.0)
+        ratio = float(weighted_current) if weighted_current else 0.0
+        coverage_accel = min(20.0, weighted_current * 5.0)
     else:
-        ratio = current_count / max(0.5, baseline)
+        ratio = weighted_current / max(0.5, baseline)
         coverage_accel = min(20.0, max(0.0, 8.0 * math.log2(max(1.0, ratio))))
 
     catalyst_details = [classify_catalyst(f"{s.get('title','')} {s.get('summary','')}") for s in stories]
@@ -635,7 +661,7 @@ def score_company(ticker: str, stories: list[dict], baseline: float, baseline_da
 
     attention_lift = min(35.0, current_count * 8.0) if baseline <= 0 else min(35.0, max(0.0, 12.0 * math.log2(max(1.0, ratio))))
     novelty = max(0.0, 20.0 - min(20.0, baseline * 2.5))
-    source_breadth = min(15.0, independent_sources * 3.0)
+    source_breadth = min(15.0, weighted_breadth * 3.0)
     catalyst15 = min(15.0, strongest_cat["strength"] / 20.0 * 15.0)
     primary10 = 10.0 if primary_count else 0.0
     sentiment5 = min(5.0, sentiment_signal / 10.0 * 5.0)
@@ -647,6 +673,18 @@ def score_company(ticker: str, stories: list[dict], baseline: float, baseline_da
         min(25, src_quality * 2.5) +
         min(20, unique_clusters * 4), 1
     ))
+
+    # Absolute attention score uses the entire vetted news universe.
+    # This is what powers "Market Leaders".
+    article_weight_24h = min(40.0, weighted_current * 4.0)
+    source_weight = min(25.0, weighted_breadth * 4.0)
+    persistence_weight = min(15.0, len(stories) * 0.75)
+    primary_weight = 10.0 if primary_count else 0.0
+    catalyst_weight = min(10.0, strongest_cat["strength"] / 2.0)
+    market_attention_score = min(
+        100.0,
+        round(article_weight_24h + source_weight + persistence_weight + primary_weight + catalyst_weight, 1)
+    )
 
     if avg_sent > .15:
         sentiment_label = "Positive"
@@ -687,6 +725,7 @@ def score_company(ticker: str, stories: list[dict], baseline: float, baseline_da
         "ticker": ticker,
         "company_name": company_name or fundamentals.get("name", "") or next((s.get("company_name") for s in stories if s.get("company_name")), ""),
         "signal_score": signal_score,
+        "market_attention_score": market_attention_score,
         "discovery_score": discovery_score,
         "confidence_score": confidence,
         "primary_catalyst": primary_catalyst,
@@ -715,12 +754,16 @@ def score_company(ticker: str, stories: list[dict], baseline: float, baseline_da
             "catalyst_strength": strongest_cat["strength"], "corroboration": round(corroboration, 1),
             "source_quality": src_quality, "sentiment_signal": round(sentiment_signal, 1),
             "coverage_ratio_vs_baseline": round(ratio, 2),
+            "weighted_coverage_24h": round(weighted_current, 2),
+            "weighted_source_breadth": round(weighted_breadth, 2),
         },
         "discovery_metrics": {
             "attention_lift": round(attention_lift, 1), "novelty": round(novelty, 1),
             "source_breadth": round(source_breadth, 1), "catalyst_strength": round(catalyst15, 1),
             "primary_evidence": round(primary10, 1), "sentiment": round(sentiment5, 1),
             "coverage_ratio_vs_baseline": round(ratio, 2),
+            "weighted_coverage_24h": round(weighted_current, 2),
+            "weighted_source_breadth": round(weighted_breadth, 2),
         },
         "baseline": {
             "avg_items_24h": round(float(baseline), 2), "days_available": baseline_days,
@@ -815,7 +858,11 @@ def score_history_for(history: dict, ticker: str, current: dict) -> list[dict]:
 def save_history(history: dict, counts: dict[str, int], companies: list[dict], leaders: list[dict], emerging: list[dict]) -> None:
     history.setdefault("days", {})[TODAY.isoformat()] = counts
     history.setdefault("scores", {})[TODAY.isoformat()] = {
-        c["ticker"]: {"signal_score": c["signal_score"], "discovery_score": c["discovery_score"]}
+        c["ticker"]: {
+            "signal_score": c["signal_score"],
+            "market_attention_score": c.get("market_attention_score", c["signal_score"]),
+            "discovery_score": c["discovery_score"],
+        }
         for c in companies
     }
     history.setdefault("rankings", {})[TODAY.isoformat()] = {
@@ -891,7 +938,7 @@ def main() -> None:
         company = score_company(ticker, stories, baseline_for(history, ticker), baseline_days,
                                 ticker_names.get(ticker, ""), {}, history)
         prelim.append(company)
-    leader_pre = sorted(prelim, key=lambda x: x["signal_score"], reverse=True)[:MAX_COMPANIES]
+    leader_pre = sorted(prelim, key=lambda x: x["market_attention_score"], reverse=True)[:MAX_COMPANIES]
     emerging_pre = sorted(prelim, key=lambda x: x["discovery_score"], reverse=True)[:MAX_COMPANIES]
     candidates = list(dict.fromkeys([c["ticker"] for c in leader_pre + emerging_pre]))[:MAX_COMPANIES * 2]
 
@@ -928,7 +975,7 @@ def main() -> None:
     for ticker, stories in grouped.items():
         prelim2.append(score_company(ticker, stories, baseline_for(history, ticker), baseline_days,
                                      ticker_names.get(ticker, ""), {}, history))
-    leader2 = sorted(prelim2, key=lambda x: x["signal_score"], reverse=True)[:MAX_COMPANIES]
+    leader2 = sorted(prelim2, key=lambda x: x["market_attention_score"], reverse=True)[:MAX_COMPANIES]
     emerging2 = sorted(prelim2, key=lambda x: x["discovery_score"], reverse=True)[:MAX_COMPANIES]
     enrichment_tickers = list(dict.fromkeys([c["ticker"] for c in leader2[:15] + emerging2[:15]]))
     fundamentals_map = enrich_fundamentals(enrichment_tickers, fund_cache)
@@ -942,7 +989,7 @@ def main() -> None:
                           ticker_names.get(ticker, ""), fundamentals_map.get(ticker, {}), history)
         companies.append(c)
 
-    leaders = sorted(companies, key=lambda x: x["signal_score"], reverse=True)[:MAX_COMPANIES]
+    leaders = sorted(companies, key=lambda x: x["market_attention_score"], reverse=True)[:MAX_COMPANIES]
     emerging = sorted(companies, key=lambda x: x["discovery_score"], reverse=True)[:MAX_COMPANIES]
     selected = {c["ticker"] for c in leaders + emerging}
     companies = [c for c in companies if c["ticker"] in selected]
@@ -955,15 +1002,15 @@ def main() -> None:
             c["materiality"] = materiality(c.get("stories", []), c["fundamentals"])
         c["history"] = score_history_for(history, c["ticker"], c)
 
-    leaders = sorted(companies, key=lambda x: x["signal_score"], reverse=True)[:MAX_COMPANIES]
+    leaders = sorted(companies, key=lambda x: x["market_attention_score"], reverse=True)[:MAX_COMPANIES]
     emerging = sorted(companies, key=lambda x: x["discovery_score"], reverse=True)[:MAX_COMPANIES]
-    companies.sort(key=lambda x: max(x["signal_score"], x["discovery_score"]), reverse=True)
+    companies.sort(key=lambda x: max(x.get("market_attention_score",0), x["signal_score"], x["discovery_score"]), reverse=True)
 
     output = {
         "meta": {
             "generated_at": NOW.isoformat(), "companies_scanned": len(grouped),
             "sources_enabled": {"sec_edgar": bool(SEC_USER_AGENT), "alpha_vantage": bool(ALPHA_KEY), "finnhub": bool(FINNHUB_KEY)},
-            "model_version": "4.2-broad-discovery-strict-display", "baseline_days": baseline_days,
+            "model_version": "4.3-all-news-aggregation", "baseline_days": baseline_days,
             "baseline_maturity": "established" if baseline_days >= 7 else "building",
             "fundamentals_cache_days": 7,
         },
