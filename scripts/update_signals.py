@@ -248,17 +248,83 @@ def fetch_sec_8k(by_cik: dict[str, dict]) -> list[dict]:
     return stories
 
 
-def fetch_alpha_news() -> list[dict]:
+
+CORPORATE_SUFFIXES = {
+    "inc", "incorporated", "corp", "corporation", "co", "company", "companies",
+    "ltd", "limited", "plc", "llc", "group", "holdings", "holding", "sa", "ag",
+    "nv", "lp", "the"
+}
+
+def normalized_company_core(name: str) -> str:
+    words = re.findall(r"[a-z0-9]+", (name or "").lower())
+    while words and words[-1] in CORPORATE_SUFFIXES:
+        words.pop()
+    while words and words[0] == "the":
+        words.pop(0)
+    return " ".join(words).strip()
+
+def title_mentions_ticker(title: str, ticker: str) -> bool:
+    ticker = (ticker or "").upper().strip()
+    if not ticker:
+        return False
+    # Single-letter tickers are too ambiguous unless explicitly formatted.
+    if len(ticker) == 1:
+        explicit = [
+            rf"\${re.escape(ticker)}\b",
+            rf"\({re.escape(ticker)}\)",
+            rf"(?:NYSE|NASDAQ|AMEX)\s*:\s*{re.escape(ticker)}\b",
+        ]
+        return any(re.search(p, title or "", re.I) for p in explicit)
+    return bool(re.search(rf"(?<![A-Z0-9])\$?{re.escape(ticker)}(?![A-Z0-9])", title or "", re.I))
+
+def title_mentions_company(title: str, company_name: str) -> bool:
+    core = normalized_company_core(company_name)
+    if len(core) < 3:
+        return False
+    title_norm = " ".join(re.findall(r"[a-z0-9]+", (title or "").lower()))
+    if core in title_norm:
+        return True
+    # For longer legal names, require the first two meaningful words together.
+    words = [w for w in core.split() if len(w) > 1]
+    if len(words) >= 2:
+        short = " ".join(words[:2])
+        if len(short) >= 5 and short in title_norm:
+            return True
+    return False
+
+def is_strict_company_story(story: dict, ticker: str, company_name: str) -> bool:
+    # SEC filing entries are inherently company-specific and are retained.
+    if story.get("evidence_type") == "SEC filing":
+        return True
+    title = story.get("title", "")
+    return title_mentions_company(title, company_name) or title_mentions_ticker(title, ticker)
+
+def general_article_from_alpha(article: dict) -> dict:
+    return {
+        "source": normalize_source(article.get("source", "Unknown")),
+        "title": article.get("title", ""),
+        "summary": safe_summary(article.get("summary", "")),
+        "url": article.get("url", ""),
+        "published_at": parse_av_time(article.get("time_published", "")),
+        "sentiment": float(article.get("overall_sentiment_score", 0) or 0),
+        "sentiment_label": article.get("overall_sentiment_label", ""),
+        "fingerprint": story_fingerprint(article.get("title", "")),
+    }
+
+
+def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dict]]:
     if not ALPHA_KEY:
-        return []
+        return [], []
     params = {
         "function": "NEWS_SENTIMENT",
         "topics": "technology,financial_markets,earnings,mergers_and_acquisitions,ipo",
         "sort": "LATEST", "limit": "1000", "apikey": ALPHA_KEY,
     }
     data = http_json("https://www.alphavantage.co/query?" + urllib.parse.urlencode(params))
-    stories = []
+    company_stories = []
+    general_news = []
     for article in data.get("feed", []):
+        general_news.append(general_article_from_alpha(article))
         source = normalize_source(article.get("source", "Unknown"))
         title, summary = article.get("title", ""), article.get("summary", "")
         published_at = parse_av_time(article.get("time_published", ""))
@@ -266,24 +332,27 @@ def fetch_alpha_news() -> list[dict]:
             ticker = (ts.get("ticker") or "").upper().strip()
             if not re.fullmatch(r"[A-Z][A-Z0-9.\-]{0,7}", ticker):
                 continue
+            company_name = ticker_names.get(ticker, "")
             try:
                 relevance = float(ts.get("relevance_score", 0))
                 sentiment = float(ts.get("ticker_sentiment_score", 0))
             except Exception:
                 relevance, sentiment = 0.0, 0.0
+            # High API relevance is useful, but headline identity is mandatory.
             if relevance < 0.15:
                 continue
-            stories.append({
-                "ticker": ticker, "company_name": "", "source": source, "title": title,
+            candidate = {
+                "ticker": ticker, "company_name": company_name, "source": source, "title": title,
                 "summary": safe_summary(summary), "url": article.get("url", ""),
                 "published_at": published_at, "sentiment": sentiment,
                 "evidence_type": "Professional reporting", "fingerprint": story_fingerprint(title),
                 "relevance": relevance,
-            })
-    return stories
+            }
+            if is_strict_company_story(candidate, ticker, company_name):
+                company_stories.append(candidate)
+    return company_stories, dedupe_general_news(general_news)
 
-
-def fetch_finnhub_news(ticker: str) -> list[dict]:
+def fetch_finnhub_news(ticker: str, company_name: str) -> list[dict]:
     if not FINNHUB_KEY:
         return []
     url = "https://finnhub.io/api/v1/company-news?" + urllib.parse.urlencode({
@@ -297,13 +366,27 @@ def fetch_finnhub_news(ticker: str) -> list[dict]:
     stories = []
     for row in rows[:30]:
         title = row.get("headline", "")
-        stories.append({
-            "ticker": ticker, "company_name": "", "source": normalize_source(row.get("source", "Finnhub")),
+        candidate = {
+            "ticker": ticker, "company_name": company_name, "source": normalize_source(row.get("source", "Finnhub")),
             "title": title, "summary": safe_summary(row.get("summary", "")), "url": row.get("url", ""),
             "published_at": iso_from_epoch(row.get("datetime")), "sentiment": 0.0,
             "evidence_type": "Professional reporting", "fingerprint": story_fingerprint(title),
-        })
+        }
+        if is_strict_company_story(candidate, ticker, company_name):
+            stories.append(candidate)
     return stories
+
+
+
+def dedupe_general_news(stories: list[dict], limit: int = 40) -> list[dict]:
+    best = {}
+    for s in stories:
+        fp = s.get("fingerprint") or story_fingerprint(s.get("title", ""))
+        existing = best.get(fp)
+        if not existing or source_quality(s.get("source", "")) > source_quality(existing.get("source", "")):
+            best[fp] = s
+    rows = sorted(best.values(), key=lambda s: s.get("published_at", ""), reverse=True)
+    return rows[:limit]
 
 
 def dedupe_stories(stories: list[dict]) -> list[dict]:
@@ -722,6 +805,7 @@ def main() -> None:
     fund_cache = cache_fundamentals()
 
     all_stories = []
+    general_news = []
     ticker_names: dict[str, str] = {}
     by_ticker: dict[str, dict] = {}
 
@@ -737,7 +821,8 @@ def main() -> None:
 
     if ALPHA_KEY:
         try:
-            all_stories.extend(fetch_alpha_news())
+            alpha_company_stories, general_news = fetch_alpha_news(ticker_names)
+            all_stories.extend(alpha_company_stories)
         except Exception as exc:
             print(f"Alpha Vantage collection warning: {exc}")
     else:
@@ -760,10 +845,21 @@ def main() -> None:
     if FINNHUB_KEY:
         for ticker in candidates:
             try:
-                all_stories.extend(fetch_finnhub_news(ticker))
+                all_stories.extend(fetch_finnhub_news(ticker, ticker_names.get(ticker, '')))
                 time.sleep(0.7)
             except Exception as exc:
                 print(f"Finnhub news warning for {ticker}: {exc}")
+
+    # Final hard relevance gate. No company can be ranked from an article whose headline
+    # does not clearly identify that company. SEC filings are inherently specific.
+    strict_stories = []
+    for s in all_stories:
+        ticker = s.get("ticker", "")
+        company_name = ticker_names.get(ticker, s.get("company_name", ""))
+        if is_strict_company_story(s, ticker, company_name):
+            s["company_name"] = company_name or s.get("company_name", "")
+            strict_stories.append(s)
+    all_stories = strict_stories
 
     grouped = collections.defaultdict(list)
     for s in dedupe_stories(all_stories):
@@ -809,7 +905,7 @@ def main() -> None:
         "meta": {
             "generated_at": NOW.isoformat(), "companies_scanned": len(grouped),
             "sources_enabled": {"sec_edgar": bool(SEC_USER_AGENT), "alpha_vantage": bool(ALPHA_KEY), "finnhub": bool(FINNHUB_KEY)},
-            "model_version": "3.0", "baseline_days": baseline_days,
+            "model_version": "4.0-strict-relevance", "baseline_days": baseline_days,
             "baseline_maturity": "established" if baseline_days >= 7 else "building",
             "fundamentals_cache_days": 7,
         },
@@ -820,6 +916,7 @@ def main() -> None:
         "briefing": build_briefing(companies, history, emerging),
         "sectors": build_sector_summary(companies),
         "themes": build_theme_summary(companies),
+        "general_news": dedupe_general_news(general_news, 30),
         "companies": companies,
     }
     OUT.write_text(json.dumps(output, indent=2, ensure_ascii=False))

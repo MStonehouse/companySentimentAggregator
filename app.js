@@ -2,13 +2,29 @@ const DATA_URL = "data/signals.json";
 
 function storyMatchesCompany(story, company) {
   if (!story || !company) return false;
-  if (story.ticker && story.ticker === company.ticker) return true;
-  const hay = `${story.title || ""} ${story.summary || ""}`.toLowerCase();
-  const ticker = (company.ticker || "").toLowerCase();
-  const name = (company.company_name || "").toLowerCase();
-  if (ticker && new RegExp(`(^|[^a-z0-9])${ticker.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-z0-9]|$)`, "i").test(hay)) return true;
-  if (name && name.length >= 4 && hay.includes(name)) return true;
-  return false;
+  if (story.evidence_type === "SEC filing") return story.ticker === company.ticker;
+  const title = String(story.title || "");
+  const ticker = String(company.ticker || "").trim();
+  const name = String(company.company_name || "").trim();
+
+  const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const suffixes = new Set(["inc","incorporated","corp","corporation","co","company","companies","ltd","limited","plc","llc","group","holdings","holding","sa","ag","nv","lp","the"]);
+  const words = name.toLowerCase().match(/[a-z0-9]+/g) || [];
+  while (words.length && suffixes.has(words[words.length - 1])) words.pop();
+  while (words.length && words[0] === "the") words.shift();
+  const core = words.join(" ");
+  const titleNorm = (title.toLowerCase().match(/[a-z0-9]+/g) || []).join(" ");
+
+  if (core.length >= 3 && titleNorm.includes(core)) return true;
+  if (words.length >= 2) {
+    const short = words.slice(0, 2).join(" ");
+    if (short.length >= 5 && titleNorm.includes(short)) return true;
+  }
+
+  if (ticker.length === 1) {
+    return new RegExp(`(\\$${escRe(ticker)}\\b|\\(${escRe(ticker)}\\)|(?:NYSE|NASDAQ|AMEX)\\s*:\\s*${escRe(ticker)}\\b)`, "i").test(title);
+  }
+  return ticker.length > 1 && new RegExp(`(^|[^A-Z0-9])\\$?${escRe(ticker)}([^A-Z0-9]|$)`, "i").test(title);
 }
 
 const THEME_MATCHERS = {
@@ -32,7 +48,7 @@ function storyMatchesTheme(story, theme) {
   return terms.some(term => term && hay.includes(term.toLowerCase()));
 }
 const WATCH_KEY = "companySignal.watchlist.v1";
-const state = { companies: [], meta: {}, rankings: {}, briefing: {}, sectors: [], themes: [], watchlist: new Set() };
+const state = { companies: [], meta: {}, rankings: {}, briefing: {}, sectors: [], themes: [], general_news: [], watchlist: new Set() };
 const $ = id => document.getElementById(id);
 
 function esc(v="") { return String(v).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"})[c]); }
@@ -160,6 +176,7 @@ function renderLandscape() {
   $("sectorMap").innerHTML=state.sectors.length?state.sectors.map(s=>`<div class="heat-row"><div class="heat-label"><strong>${esc(s.sector)}</strong><span>${s.company_count} companies · ${s.tickers.map(esc).join(" · ")}</span></div><div class="heat-track"><span style="width:${Math.max(5,(s.discovery_intensity/maxSector)*100)}%"></span></div><b>${Math.round(s.discovery_intensity)}</b></div>`).join(""):`<p class="muted">Sector data will fill in as fundamentals are cached.</p>`;
   $("themeMap").innerHTML=state.themes.length?state.themes.map(t=>`<button class="theme-chip" data-theme-tickers="${esc(t.tickers.join(','))}"><strong>${esc(t.theme)}</strong><span>${t.company_count} companies · intensity ${Math.round(t.intensity)}</span><small>${t.tickers.map(esc).join(" · ")}</small></button>`).join(""):`<p class="muted">No multi-company themes detected yet.</p>`;
   document.querySelectorAll("[data-theme-tickers]").forEach(btn=>btn.addEventListener("click",()=>{const first=btn.dataset.themeTickers.split(',')[0]; if(first) openCompany(first);}));
+  bindThemeChips();
 }
 
 function sparkline(points, key) {
@@ -230,19 +247,19 @@ function openTheme(themeName) {
   $("dialogContent").innerHTML = `
     <div class="detail-header">
       <p class="eyebrow">THEME</p>
-      <h2>${escapeHtml(themeName)}</h2>
+      <h2>${esc(themeName)}</h2>
       <p>${unique.length} relevant stor${unique.length === 1 ? "y" : "ies"} across the current signal set.</p>
     </div>
     ${unique.length ? unique.map(s => `
       <article class="story">
         <div class="story-meta">
-          <span>${escapeHtml(s.ticker || "")}</span>
-          <span>${escapeHtml(s.source || "Unknown source")}</span>
-          <span>${formatDate(s.published_at)}</span>
+          <span>${esc(s.ticker || "")}</span>
+          <span>${esc(s.source || "Unknown source")}</span>
+          <span>${fmtDate(s.published_at)}</span>
         </div>
-        <h4>${escapeHtml(s.title || "")}</h4>
-        <p>${escapeHtml(s.summary || "")}</p>
-        ${s.url ? `<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">Open original source ↗</a>` : ""}
+        <h4>${esc(s.title || "")}</h4>
+        <p>${esc(s.summary || "")}</p>
+        ${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Open original source ↗</a>` : ""}
       </article>
     `).join("") : `<div class="empty-state">No current stories specifically match this theme.</div>`}
   `;
@@ -263,14 +280,36 @@ function bindThemeChips() {
   });
 }
 
+
+function renderGeneralNews() {
+  const host = $("generalNewsGrid");
+  if (!host) return;
+  const rows = (state.general_news || []).slice(0, 24);
+  if (!rows.length) {
+    host.innerHTML = `<div class="empty-state">No general market news is available from the current update.</div>`;
+    return;
+  }
+  host.innerHTML = rows.map(s => `
+    <article class="general-news-card">
+      <div class="story-meta">
+        <span>${esc(s.source || "Unknown source")}</span>
+        <span>${fmtDate(s.published_at)}</span>
+      </div>
+      <h3>${esc(s.title || "")}</h3>
+      <p>${esc(s.summary || "")}</p>
+      ${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Open source ↗</a>` : ""}
+    </article>
+  `).join("");
+}
+
 async function init() {
   loadWatch(); renderMethodology();
   try {
     const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"}); if(!r.ok) throw new Error(`HTTP ${r.status}`);
-    const data=await r.json(); state.companies=data.companies||[]; state.meta=data.meta||{}; state.rankings=data.rankings||{}; state.briefing=data.briefing||{}; state.sectors=data.sectors||[]; state.themes=data.themes||[];
+    const data=await r.json(); state.companies=data.companies||[]; state.meta=data.meta||{}; state.rankings=data.rankings||{}; state.briefing=data.briefing||{}; state.sectors=data.sectors||[]; state.themes=data.themes||[]; state.general_news=data.general_news||[];
     $("lastUpdated").textContent=fmtDate(state.meta.generated_at); $("companiesScanned").textContent=state.meta.companies_scanned??"—"; $("signalsFound").textContent=state.companies.length; $("highConfidence").textContent=state.companies.filter(c=>(c.confidence_score||0)>=75).length; $("primaryEvents").textContent=state.companies.filter(c=>(c.evidence?.primary_source_count||0)>0).length;
     const days=state.meta.baseline_days||0; $("baselineNote").textContent=days>=7?`Emerging baseline: ${days} days of stored history.`:`Emerging baseline is building (${days} prior day${days===1?'':'s'}). Discovery rankings become more reliable as history accumulates.`;
-    populateFilters(); renderBriefing(); renderLandscape(); renderAll();
+    populateFilters(); renderBriefing(); renderLandscape(); renderGeneralNews(); renderAll();
   } catch(err) { console.error(err); $("lastUpdated").textContent="Data unavailable"; $("leaderGrid").innerHTML=`<div class="empty-state">Could not load ${DATA_URL}. Run the updater once.</div>`; }
 }
 
