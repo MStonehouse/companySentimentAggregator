@@ -321,7 +321,7 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
         "sort": "LATEST", "limit": "1000", "apikey": ALPHA_KEY,
     }
     data = http_json("https://www.alphavantage.co/query?" + urllib.parse.urlencode(params))
-    company_stories = []
+    scoring_stories = []
     general_news = []
     for article in data.get("feed", []):
         general_news.append(general_article_from_alpha(article))
@@ -338,9 +338,12 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
                 sentiment = float(ts.get("ticker_sentiment_score", 0))
             except Exception:
                 relevance, sentiment = 0.0, 0.0
-            # High API relevance is useful, but headline identity is mandatory.
-            if relevance < 0.15:
+
+            # Ranking can use strongly ticker-tagged API stories.
+            # Display still requires headline-level identity.
+            if relevance < 0.35:
                 continue
+
             candidate = {
                 "ticker": ticker, "company_name": company_name, "source": source, "title": title,
                 "summary": safe_summary(summary), "url": article.get("url", ""),
@@ -348,9 +351,9 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
                 "evidence_type": "Professional reporting", "fingerprint": story_fingerprint(title),
                 "relevance": relevance,
             }
-            if is_strict_company_story(candidate, ticker, company_name):
-                company_stories.append(candidate)
-    return company_stories, dedupe_general_news(general_news)
+            candidate["display_relevant"] = is_strict_company_story(candidate, ticker, company_name)
+            scoring_stories.append(candidate)
+    return scoring_stories, dedupe_general_news(general_news)
 
 def fetch_finnhub_news(ticker: str, company_name: str) -> list[dict]:
     if not FINNHUB_KEY:
@@ -372,8 +375,8 @@ def fetch_finnhub_news(ticker: str, company_name: str) -> list[dict]:
             "published_at": iso_from_epoch(row.get("datetime")), "sentiment": 0.0,
             "evidence_type": "Professional reporting", "fingerprint": story_fingerprint(title),
         }
-        if is_strict_company_story(candidate, ticker, company_name):
-            stories.append(candidate)
+        candidate["display_relevant"] = is_strict_company_story(candidate, ticker, company_name)
+        stories.append(candidate)
     return stories
 
 
@@ -571,6 +574,7 @@ def materiality(stories: list[dict], fundamentals: dict) -> dict:
 def score_company(ticker: str, stories: list[dict], baseline: float, baseline_days: int,
                   company_name: str, fundamentals: dict, history: dict) -> dict:
     stories = sorted(stories, key=lambda s: s.get("published_at", ""), reverse=True)
+    display_stories = [s for s in stories if s.get("display_relevant") or s.get("evidence_type") == "SEC filing"]
     recent24 = [s for s in stories if parse_dt(s.get("published_at", "")) >= NOW - dt.timedelta(hours=24)]
     primary_count = sum(s.get("evidence_type") == "SEC filing" for s in stories)
     independent_sources = len({normalize_source(s.get("source", "")) for s in stories if s.get("source")})
@@ -691,7 +695,7 @@ def score_company(ticker: str, stories: list[dict], baseline: float, baseline_da
         "materiality": mat,
         "fundamentals": fundamentals,
         "themes": themes,
-        "stories": top_stories,
+        "stories": [s for s in top_stories if s.get("display_relevant") or s.get("evidence_type") == "SEC filing"][:6],
     }
 
 
@@ -850,16 +854,16 @@ def main() -> None:
             except Exception as exc:
                 print(f"Finnhub news warning for {ticker}: {exc}")
 
-    # Final hard relevance gate. No company can be ranked from an article whose headline
-    # does not clearly identify that company. SEC filings are inherently specific.
-    strict_stories = []
+    # Ranking uses vetted ticker-tagged stories. Visible company news is filtered
+    # later to headline-specific stories only.
     for s in all_stories:
         ticker = s.get("ticker", "")
         company_name = ticker_names.get(ticker, s.get("company_name", ""))
-        if is_strict_company_story(s, ticker, company_name):
-            s["company_name"] = company_name or s.get("company_name", "")
-            strict_stories.append(s)
-    all_stories = strict_stories
+        s["company_name"] = company_name or s.get("company_name", "")
+        if s.get("evidence_type") == "SEC filing":
+            s["display_relevant"] = True
+        elif "display_relevant" not in s:
+            s["display_relevant"] = is_strict_company_story(s, ticker, company_name)
 
     grouped = collections.defaultdict(list)
     for s in dedupe_stories(all_stories):
@@ -905,7 +909,7 @@ def main() -> None:
         "meta": {
             "generated_at": NOW.isoformat(), "companies_scanned": len(grouped),
             "sources_enabled": {"sec_edgar": bool(SEC_USER_AGENT), "alpha_vantage": bool(ALPHA_KEY), "finnhub": bool(FINNHUB_KEY)},
-            "model_version": "4.0-strict-relevance", "baseline_days": baseline_days,
+            "model_version": "4.1-strict-display", "baseline_days": baseline_days,
             "baseline_maturity": "established" if baseline_days >= 7 else "building",
             "fundamentals_cache_days": 7,
         },
