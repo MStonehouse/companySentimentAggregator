@@ -97,7 +97,18 @@ function renderWatchlist() {
 }
 
 function briefingItem(title, items, cls="") {
-  const content=items.length?items.map(x=>typeof x==="string"?`<button class="ticker-link" data-open="${esc(x)}">${esc(x)}</button>`:`<button class="ticker-link" data-open="${esc(x.ticker)}">${esc(x.ticker)}</button>${x.delta!==undefined?` <span class="brief-delta ${x.delta>=0?'up':'down'}">${x.delta>0?'+':''}${fmtNum(x.delta)}</span>`:""}${x.category?` <span class="brief-category">${esc(x.category)}</span>`:""}`).join(""):"<span class=\"muted\">None this period</span>";
+  const content = items.length
+    ? items.map(x => {
+        if (typeof x === "string") {
+          return `<div class="brief-pill"><button class="ticker-link" data-open="${esc(x)}">${esc(x)}</button></div>`;
+        }
+        return `<div class="brief-pill">
+          <button class="ticker-link" data-open="${esc(x.ticker)}">${esc(x.ticker)}</button>
+          ${x.delta !== undefined ? `<span class="brief-delta ${x.delta >= 0 ? "up" : "down"}">${x.delta > 0 ? "+" : ""}${fmtNum(x.delta)}</span>` : ""}
+          ${x.category ? `<span class="brief-category">${esc(x.category)}</span>` : ""}
+        </div>`;
+      }).join("")
+    : `<span class="muted">None this period</span>`;
   return `<article class="brief-card ${cls}"><h3>${esc(title)}</h3><div class="brief-content">${content}</div></article>`;
 }
 function renderBriefing() {

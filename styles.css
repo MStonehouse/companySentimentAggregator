@@ -15,3 +15,264 @@ footer{border-top:1px solid var(--line);color:var(--muted);padding:22px 0 34px;f
 @media(max-width:980px){.briefing-grid{grid-template-columns:repeat(3,1fr)}.two-column-layout,.landscape-grid{grid-template-columns:1fr}.controls{grid-template-columns:1fr 1fr}.methodology-columns{grid-template-columns:1fr}}
 @media(max-width:700px){.site-header{align-items:start;flex-direction:column;padding-top:30px}.updated-card{width:100%}.summary-grid{grid-template-columns:repeat(2,1fr)}.briefing-grid{grid-template-columns:1fr 1fr}.controls{grid-template-columns:1fr}.company-grid{grid-template-columns:1fr}.score-extras,.detail-grid,.chart-pair{grid-template-columns:1fr}.triple-score{grid-template-columns:repeat(3,1fr)}.detail-title-row{flex-direction:column}.method-grid{grid-template-columns:1fr 1fr}.info-tooltip{position:fixed;left:16px;right:16px;bottom:20px;width:auto;transform:translateY(8px)}.info-button:hover .info-tooltip,.info-button:focus .info-tooltip{transform:translateY(0)}}
 @media(max-width:430px){.site-header,main,footer{width:min(100% - 20px,1240px)}.summary-grid,.briefing-grid,.method-grid{grid-template-columns:1fr}.triple-score{grid-template-columns:1fr}.heat-row{grid-template-columns:1fr 70px 30px}.company-card{padding:15px}}
+
+
+/* =========================================================
+   Company Signal — Trance-inspired theme
+   ========================================================= */
+:root {
+  --bg: #180f24;
+  --panel: #21152f;
+  --panel2: #2a1a3b;
+  --line: #46315f;
+  --text: #f3eefe;
+  --muted: #a895b8;
+  --accent: #ff5fd7;
+  --good: #72f1d1;
+  --warn: #ffd166;
+  --danger: #ff6b8a;
+  --violet: #9f7cff;
+  --cyan: #6fe7ff;
+  --shadow: 0 18px 45px rgba(8, 3, 15, .42);
+}
+
+html,
+body {
+  background:
+    radial-gradient(circle at 18% -10%, rgba(159, 124, 255, .12), transparent 34rem),
+    radial-gradient(circle at 88% 0%, rgba(255, 95, 215, .08), transparent 30rem),
+    var(--bg);
+}
+
+body {
+  font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", "Roboto Mono",
+    "Liberation Mono", Menlo, Consolas, monospace;
+}
+
+.site-header {
+  border-bottom-color: rgba(111, 231, 255, .20);
+}
+
+h1 {
+  color: var(--text);
+  text-shadow: 0 0 30px rgba(255, 95, 215, .10);
+}
+
+.eyebrow {
+  color: var(--accent);
+}
+
+.summary-card,
+.brief-card,
+.landscape-panel,
+.detail-panel,
+.updated-card,
+.company-card,
+.method-item,
+.methodology-columns > div,
+.score-extras article {
+  background: rgba(33, 21, 47, .92);
+  border-color: var(--line);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.018);
+}
+
+.summary-card:hover,
+.company-card:hover,
+.theme-chip:hover {
+  border-color: #76539a;
+}
+
+input,
+select {
+  background: #20132d;
+  border-color: var(--line);
+}
+
+input:focus,
+select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(255, 95, 215, .10);
+}
+
+.brief-card.good { border-top-color: var(--good); }
+.brief-card.accent { border-top-color: var(--accent); }
+.brief-card.warn { border-top-color: var(--warn); }
+
+.brief-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 7px;
+  line-height: 1.35;
+}
+
+.brief-pill {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  min-height: 30px;
+  padding: 5px 9px;
+  border: 1px solid #503566;
+  border-radius: 8px;
+  background: #291936;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.025);
+}
+
+.brief-pill:hover {
+  border-color: var(--accent);
+  background: #311d42;
+}
+
+.brief-pill .ticker-link {
+  color: var(--text);
+  font-size: .78rem;
+  letter-spacing: .045em;
+}
+
+.brief-pill .ticker-link:hover {
+  color: var(--accent);
+}
+
+.brief-pill .brief-delta {
+  margin: 0;
+  font-weight: 850;
+}
+
+.brief-pill .brief-category {
+  flex-basis: 100%;
+  display: block;
+  padding-top: 1px;
+  color: var(--muted);
+  font-size: .62rem;
+  line-height: 1.15;
+}
+
+.company-card {
+  background: linear-gradient(145deg, rgba(33,21,47,.98), rgba(28,17,40,.98));
+}
+
+.emerging-card {
+  background:
+    linear-gradient(145deg, rgba(40,24,55,.98), rgba(29,17,43,.98));
+}
+
+.score-ring {
+  border-color: var(--accent);
+  box-shadow: 0 0 18px rgba(255, 95, 215, .10);
+}
+
+.discovery-ring {
+  border-color: var(--violet);
+  box-shadow: 0 0 18px rgba(159, 124, 255, .10);
+}
+
+.catalyst-type,
+.badge.confidence {
+  color: var(--cyan);
+}
+
+.badge {
+  background: #291937;
+  border-color: #4b3262;
+}
+
+.badge.primary,
+.badge.positive {
+  color: var(--good);
+}
+
+.badge.new,
+.discovery-badge,
+.theme-badge {
+  color: #c6a8ff;
+}
+
+.badge.new {
+  border-color: #72539a;
+  background: rgba(159,124,255,.12);
+}
+
+.watch-button.active {
+  color: var(--accent);
+  text-shadow: 0 0 12px rgba(255,95,215,.28);
+}
+
+.heat-track {
+  background: #2c1a3d;
+}
+
+.heat-track span {
+  background: linear-gradient(90deg, var(--accent), var(--violet), var(--cyan));
+}
+
+.theme-chip,
+.close-button,
+.detail-watch,
+.info-button {
+  background: #2a193a;
+  border-color: var(--line);
+}
+
+.info-button {
+  color: var(--accent);
+}
+
+.info-tooltip {
+  background: #170d21;
+  border-color: #5a3b72;
+}
+
+dialog {
+  background: #1a1026;
+  border-color: #5a3b72;
+}
+
+.sparkline {
+  background: #281737;
+}
+
+.sparkline line {
+  stroke: #49305e;
+}
+
+.sparkline polyline {
+  stroke: var(--accent);
+}
+
+.chart-pair > div:nth-child(2) .sparkline polyline {
+  stroke: var(--cyan);
+}
+
+a {
+  color: var(--cyan);
+}
+
+.story a:hover {
+  color: var(--accent);
+}
+
+.empty-state {
+  border-color: #4b3262;
+}
+
+footer,
+.watchlist-section,
+.methodology {
+  border-color: rgba(111, 231, 255, .16);
+}
+
+/* Keep neon accents controlled on small screens. */
+@media (max-width: 700px) {
+  html,
+  body {
+    background:
+      radial-gradient(circle at 30% -8%, rgba(159, 124, 255, .10), transparent 24rem),
+      var(--bg);
+  }
+
+  .brief-pill {
+    min-height: 32px;
+    padding: 6px 10px;
+  }
+}
