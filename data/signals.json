@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "generated_at": "2026-08-18T20:00:00+00:00",
+    "companies_scanned": 3,
+    "sources_enabled": {
+      "sec_edgar": true,
+      "alpha_vantage": true,
+      "finnhub": true
+    },
+    "model_version": "1.0-sample"
+  },
+  "companies": [
+    {
+      "ticker": "DEMO",
+      "company_name": "Demonstration Technologies",
+      "signal_score": 88,
+      "primary_catalyst": "Example: company discloses a material supply agreement",
+      "why_it_matters": "Sample data only. A material SEC filing is corroborated by multiple professional sources.",
+      "sentiment_label": "Positive",
+      "coverage_acceleration_label": "Surging",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-08-18T18:30:00+00:00",
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 4,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 18,
+        "catalyst_strength": 18,
+        "corroboration": 15,
+        "source_quality": 8,
+        "sentiment_signal": 4
+      },
+      "stories": [
+        {
+          "source": "SEC EDGAR",
+          "title": "Sample material agreement filing",
+          "summary": "Demonstration only \u2014 replace by running the updater.",
+          "url": "https://www.sec.gov/edgar/search/",
+          "published_at": "2026-08-18T18:30:00+00:00",
+          "evidence_type": "SEC filing"
+        }
+      ]
+    }
+  ]
+}
