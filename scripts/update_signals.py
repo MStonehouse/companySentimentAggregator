@@ -33,6 +33,7 @@ DATA_DIR = ROOT / "data"
 OUT = DATA_DIR / "signals.json"
 HISTORY = DATA_DIR / "history.json"
 FUND_CACHE = DATA_DIR / "fundamentals_cache.json"
+NEWS_CACHE = DATA_DIR / "news_cache.json"
 
 SEC_USER_AGENT = os.getenv("SEC_USER_AGENT", "").strip()
 ALPHA_KEY = os.getenv("ALPHA_VANTAGE_API_KEY", "").strip()
@@ -204,7 +205,7 @@ def sec_ticker_map() -> tuple[dict[str, dict], dict[str, dict]]:
         return {}, {}
     data = http_json(
         "https://www.sec.gov/files/company_tickers.json",
-        headers={"User-Agent": SEC_USER_AGENT, "Accept-Encoding": "gzip, deflate"},
+        headers={"User-Agent": SEC_USER_AGENT},
     )
     by_cik, by_ticker = {}, {}
     for row in data.values():
@@ -312,14 +313,47 @@ def general_article_from_alpha(article: dict) -> dict:
     }
 
 
+
+def load_news_cache() -> dict:
+    return load_json(NEWS_CACHE, {"generated_at": None, "aggregation_stories": [], "general_news": []})
+
+def save_news_cache(aggregation_stories: list[dict], general_news: list[dict]) -> None:
+    payload = {
+        "generated_at": NOW.isoformat(),
+        "aggregation_stories": aggregation_stories,
+        "general_news": general_news,
+    }
+    NEWS_CACHE.write_text(json.dumps(payload, indent=2, ensure_ascii=False))
+
+def cached_news_is_usable(cache: dict, max_age_hours: int = 48) -> bool:
+    try:
+        generated = parse_dt(cache.get("generated_at", ""))
+        age = NOW - generated
+        return (
+            age <= dt.timedelta(hours=max_age_hours)
+            and isinstance(cache.get("aggregation_stories"), list)
+            and len(cache.get("aggregation_stories", [])) > 0
+        )
+    except Exception:
+        return False
+
+
 def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dict]]:
     """
     Broad discovery feed.
 
-    Ranking/aggregation uses ALL ticker associations supplied by Alpha Vantage.
-    Displayed company news is filtered separately and much more strictly.
+    Aggregation uses all ticker associations supplied by Alpha Vantage.
+    Company-news display remains strictly filtered by headline identity.
+
+    If Alpha Vantage is temporarily rate-limited, reuse the last successful
+    cached news snapshot rather than emptying the dashboard.
     """
+    cache = load_news_cache()
+
     if not ALPHA_KEY:
+        if cached_news_is_usable(cache):
+            print("Alpha Vantage key unavailable; using cached news snapshot.")
+            return cache["aggregation_stories"], cache.get("general_news", [])
         return [], []
 
     params = {
@@ -328,11 +362,21 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
         "limit": "1000",
         "apikey": ALPHA_KEY,
     }
-    data = http_json("https://www.alphavantage.co/query?" + urllib.parse.urlencode(params))
+
+    try:
+        data = http_json("https://www.alphavantage.co/query?" + urllib.parse.urlencode(params))
+    except Exception as exc:
+        if cached_news_is_usable(cache):
+            print(f"Alpha Vantage request failed ({exc}); using cached news snapshot.")
+            return cache["aggregation_stories"], cache.get("general_news", [])
+        raise
 
     feed = data.get("feed")
     if not isinstance(feed, list):
         detail = data.get("Information") or data.get("Note") or data.get("Error Message") or str(data)[:500]
+        if cached_news_is_usable(cache):
+            print(f"Alpha Vantage unavailable ({detail}); using cached news snapshot.")
+            return cache["aggregation_stories"], cache.get("general_news", [])
         raise RuntimeError(f"Alpha Vantage NEWS_SENTIMENT returned no feed: {detail}")
 
     aggregation_stories = []
@@ -370,17 +414,19 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
                 "fingerprint": story_fingerprint(title),
                 "relevance": relevance,
             }
-
-            # Strict display flag only. This does NOT affect ranking.
             candidate["display_relevant"] = is_strict_company_story(candidate, ticker, company_name)
             aggregation_stories.append(candidate)
+
+    general_news = dedupe_general_news(general_news)
+    save_news_cache(aggregation_stories, general_news)
 
     print(
         f"Alpha Vantage: {len(feed)} articles, "
         f"{len(aggregation_stories)} ticker associations, "
-        f"{len({s['ticker'] for s in aggregation_stories})} unique tickers."
+        f"{len({s['ticker'] for s in aggregation_stories})} unique tickers. "
+        "News cache refreshed."
     )
-    return aggregation_stories, dedupe_general_news(general_news)
+    return aggregation_stories, general_news
 
 def fetch_finnhub_news(ticker: str, company_name: str) -> list[dict]:
     if not FINNHUB_KEY:
@@ -1010,7 +1056,7 @@ def main() -> None:
         "meta": {
             "generated_at": NOW.isoformat(), "companies_scanned": len(grouped),
             "sources_enabled": {"sec_edgar": bool(SEC_USER_AGENT), "alpha_vantage": bool(ALPHA_KEY), "finnhub": bool(FINNHUB_KEY)},
-            "model_version": "4.3-all-news-aggregation", "baseline_days": baseline_days,
+            "model_version": "4.4-resilient-cache", "baseline_days": baseline_days,
             "baseline_maturity": "established" if baseline_days >= 7 else "building",
             "fundamentals_cache_days": 7,
         },
