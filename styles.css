@@ -1390,3 +1390,233 @@ button {
     padding: 5px 8px;
   }
 }
+
+
+/* =========================================================
+   Company Signal — Gogh Blazer theme
+   Palette:
+   #000000 #B87A7A #7AB87A #B8B87A #7A7AB8 #B87AB8
+   #7AB8B8 #D9D9D9 #262626 #DBBDBD #BDDBBD #DBDBBD
+   #BDBDDB #DBBDDB #BDDBDB #FFFFFF
+   ========================================================= */
+
+:root {
+  --bg: #000000;
+  --panel: #151515;
+  --panel2: #262626;
+  --line: #343434;
+  --text: #D9D9D9;
+  --muted: #8f8f8f;
+  --accent: #7A7AB8;
+  --good: #7AB87A;
+  --warn: #B8B87A;
+  --danger: #B87A7A;
+  --violet: #B87AB8;
+  --cyan: #7AB8B8;
+  --bright-red: #DBBDBD;
+  --bright-green: #BDDBBD;
+  --bright-yellow: #DBDBBD;
+  --bright-blue: #BDBDDB;
+  --bright-magenta: #DBBDDB;
+  --bright-cyan: #BDDBDB;
+  --bright-white: #FFFFFF;
+  --shadow: 0 12px 36px rgba(0,0,0,.42);
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.site-header {
+  border-bottom-color: var(--line);
+}
+
+h1,
+h2,
+.updated-card strong,
+.ticker,
+.score-ring,
+.discovery-ring,
+.detail-score,
+.score-number {
+  color: var(--bright-white);
+}
+
+.subtitle,
+.company-name,
+.result-count,
+.card-footer,
+.method-item small,
+.updated-card span,
+.brief-category,
+footer {
+  color: var(--muted);
+}
+
+.eyebrow,
+.method-item strong,
+.story a,
+a {
+  color: var(--bright-blue);
+}
+
+.updated-card,
+.summary-card,
+.brief-card,
+.company-card,
+.emerging-card,
+.landscape-panel,
+.detail-panel,
+.method-item,
+.breakdown div,
+.score-extras article {
+  background: var(--panel);
+  border-color: var(--line);
+}
+
+input,
+select,
+.close-button,
+.detail-watch,
+.info-button,
+.theme-chip,
+.brief-pill,
+.badge {
+  background: var(--panel2);
+  border-color: #3a3a3a;
+}
+
+input,
+select {
+  color: var(--text);
+}
+
+input:focus,
+select:focus {
+  border-color: var(--bright-blue);
+  box-shadow: 0 0 0 3px rgba(189,189,219,.08);
+}
+
+.company-card:hover,
+.emerging-card:hover {
+  background: #1a1a1a;
+  border-color: #4a4a4a;
+}
+
+.brief-pill:hover,
+.theme-chip:hover {
+  background: #2e2e2e;
+  border-color: #5a5a5a;
+}
+
+.score-ring {
+  border-color: var(--accent);
+}
+
+.discovery-ring {
+  border-color: var(--violet);
+}
+
+.badge.primary,
+.badge.positive {
+  color: var(--bright-green);
+}
+
+.badge.new,
+.discovery-badge,
+.theme-badge {
+  color: var(--bright-magenta);
+}
+
+.badge.confidence,
+.catalyst-type {
+  color: var(--bright-cyan);
+}
+
+.badge.negative {
+  color: var(--bright-red);
+}
+
+.badge.neutral {
+  color: var(--bright-yellow);
+}
+
+.watch-button.active {
+  color: var(--bright-yellow);
+}
+
+.brief-delta.up {
+  color: var(--bright-green);
+}
+
+.brief-delta.down {
+  color: var(--bright-red);
+}
+
+.heat-track {
+  background: #202020;
+}
+
+.heat-track span {
+  background: var(--cyan);
+}
+
+.info-button {
+  color: var(--bright-blue);
+}
+
+.info-tooltip {
+  background: #0d0d0d;
+  border-color: #4a4a4a;
+  color: var(--bright-white);
+}
+
+dialog {
+  background: #0d0d0d;
+  border-color: #454545;
+  color: var(--text);
+}
+
+.sparkline {
+  background: #101010;
+}
+
+.sparkline line {
+  stroke: #303030;
+}
+
+.sparkline polyline {
+  stroke: var(--bright-blue);
+}
+
+.chart-pair > div:nth-child(2) .sparkline polyline {
+  stroke: var(--bright-magenta);
+}
+
+.story {
+  border-top-color: var(--line);
+}
+
+.story a:hover,
+a:hover {
+  color: var(--bright-cyan);
+}
+
+.empty-state {
+  border-color: #3a3a3a;
+}
+
+footer,
+.watchlist-section,
+.methodology {
+  border-color: var(--line);
+}
+
+@media (max-width: 700px) {
+  html,
+  body {
+    background: #000000;
+  }
+}
