@@ -313,25 +313,46 @@ def general_article_from_alpha(article: dict) -> dict:
 
 
 def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dict]]:
+    """
+    Broad discovery feed.
+
+    IMPORTANT:
+    Alpha Vantage treats comma-separated `topics` as an AND filter. We therefore
+    intentionally do NOT send a topics parameter here; otherwise discovery can
+    collapse to zero articles when several unrelated topics are combined.
+    """
     if not ALPHA_KEY:
         return [], []
+
     params = {
         "function": "NEWS_SENTIMENT",
-        "topics": "technology,financial_markets,earnings,mergers_and_acquisitions,ipo",
-        "sort": "LATEST", "limit": "1000", "apikey": ALPHA_KEY,
+        "sort": "LATEST",
+        "limit": "1000",
+        "apikey": ALPHA_KEY,
     }
     data = http_json("https://www.alphavantage.co/query?" + urllib.parse.urlencode(params))
+
+    # Alpha Vantage may return a message/note instead of feed data when there is
+    # an entitlement, quota or request problem. Surface that clearly.
+    feed = data.get("feed")
+    if not isinstance(feed, list):
+        detail = data.get("Information") or data.get("Note") or data.get("Error Message") or str(data)[:500]
+        raise RuntimeError(f"Alpha Vantage NEWS_SENTIMENT returned no feed: {detail}")
+
     scoring_stories = []
     general_news = []
-    for article in data.get("feed", []):
+
+    for article in feed:
         general_news.append(general_article_from_alpha(article))
         source = normalize_source(article.get("source", "Unknown"))
         title, summary = article.get("title", ""), article.get("summary", "")
         published_at = parse_av_time(article.get("time_published", ""))
+
         for ts in article.get("ticker_sentiment", []):
             ticker = (ts.get("ticker") or "").upper().strip()
             if not re.fullmatch(r"[A-Z][A-Z0-9.\-]{0,7}", ticker):
                 continue
+
             company_name = ticker_names.get(ticker, "")
             try:
                 relevance = float(ts.get("relevance_score", 0))
@@ -339,20 +360,33 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
             except Exception:
                 relevance, sentiment = 0.0, 0.0
 
-            # Ranking can use strongly ticker-tagged API stories.
-            # Display still requires headline-level identity.
-            if relevance < 0.35:
+            # Use Alpha Vantage's ticker association for ranking/discovery.
+            # Displayed company news remains subject to the much stricter
+            # headline-identity rule.
+            if relevance < 0.15:
                 continue
 
             candidate = {
-                "ticker": ticker, "company_name": company_name, "source": source, "title": title,
-                "summary": safe_summary(summary), "url": article.get("url", ""),
-                "published_at": published_at, "sentiment": sentiment,
-                "evidence_type": "Professional reporting", "fingerprint": story_fingerprint(title),
+                "ticker": ticker,
+                "company_name": company_name,
+                "source": source,
+                "title": title,
+                "summary": safe_summary(summary),
+                "url": article.get("url", ""),
+                "published_at": published_at,
+                "sentiment": sentiment,
+                "evidence_type": "Professional reporting",
+                "fingerprint": story_fingerprint(title),
                 "relevance": relevance,
             }
             candidate["display_relevant"] = is_strict_company_story(candidate, ticker, company_name)
             scoring_stories.append(candidate)
+
+    print(
+        f"Alpha Vantage: {len(feed)} articles, "
+        f"{len(scoring_stories)} ticker-linked scoring stories, "
+        f"{len({s['ticker'] for s in scoring_stories})} unique tickers."
+    )
     return scoring_stories, dedupe_general_news(general_news)
 
 def fetch_finnhub_news(ticker: str, company_name: str) -> list[dict]:
@@ -832,9 +866,24 @@ def main() -> None:
     else:
         print("ALPHA_VANTAGE_API_KEY not set; Alpha Vantage source skipped.")
 
+    print(
+        f"Collection totals before ranking: {len(all_stories)} stories across "
+        f"{len({s.get('ticker') for s in all_stories if s.get('ticker')})} tickers."
+    )
+
     grouped = collections.defaultdict(list)
     for s in dedupe_stories(all_stories):
         grouped[s["ticker"]].append(s)
+
+    # Never replace a working dashboard with an empty result. If every upstream
+    # source fails or returns nothing, fail the workflow loudly instead.
+    if not grouped:
+        raise RuntimeError(
+            "No companies were collected. Existing signals.json has been left untouched. "
+            "Check the SEC/Alpha Vantage diagnostics above."
+        )
+
+    print(f"Initial ranking universe: {len(grouped)} companies.")
 
     baseline_days = history_day_count(history)
     prelim = []
@@ -868,6 +917,11 @@ def main() -> None:
     grouped = collections.defaultdict(list)
     for s in dedupe_stories(all_stories):
         grouped[s["ticker"]].append(s)
+
+    if not grouped:
+        raise RuntimeError("Ranking universe became empty after enrichment; refusing to overwrite signals.json.")
+
+    print(f"Final ranking universe after enrichment: {len(grouped)} companies.")
 
     # Enrich fundamentals only for the most useful union, with a 7-day cache.
     prelim2 = []
@@ -909,7 +963,7 @@ def main() -> None:
         "meta": {
             "generated_at": NOW.isoformat(), "companies_scanned": len(grouped),
             "sources_enabled": {"sec_edgar": bool(SEC_USER_AGENT), "alpha_vantage": bool(ALPHA_KEY), "finnhub": bool(FINNHUB_KEY)},
-            "model_version": "4.1-strict-display", "baseline_days": baseline_days,
+            "model_version": "4.2-broad-discovery-strict-display", "baseline_days": baseline_days,
             "baseline_maturity": "established" if baseline_days >= 7 else "building",
             "fundamentals_cache_days": 7,
         },
@@ -925,7 +979,11 @@ def main() -> None:
     }
     OUT.write_text(json.dumps(output, indent=2, ensure_ascii=False))
     save_history(history, today_counts, companies, leaders, emerging)
-    print(f"Wrote {OUT} with {len(leaders)} leaders, {len(emerging)} emerging signals, {len(output['themes'])} themes.")
+    print(
+        f"Wrote {OUT}: {len(companies)} displayed companies, "
+        f"{len(leaders)} leaders, {len(emerging)} emerging signals, "
+        f"{len(output['themes'])} themes, {len(output.get('general_news', []))} general-news items."
+    )
 
 
 if __name__ == "__main__":
