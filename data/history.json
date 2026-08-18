@@ -1,67 +1,185 @@
 {
   "days": {
     "2026-08-18": {
+      "A": 0,
+      "AAPL": 15,
+      "ABNB": 0,
+      "ACN": 0,
+      "ADBE": 3,
+      "AKAM": 0,
+      "ALAB": 2,
+      "AMD": 4,
+      "AMZN": 22,
       "ANGH": 0,
+      "APO": 0,
+      "APP": 0,
       "ARBE": 0,
+      "ASYS": 0,
       "ATGL": 0,
+      "ATHR": 0,
+      "AVGO": 4,
       "AZI": 0,
+      "BA": 0,
+      "BAC": 0,
+      "BBAI": 0,
+      "BKR": 0,
+      "BLK": 0,
+      "BMY": 0,
+      "BSP": 0,
+      "BSY": 0,
+      "BUG": 0,
+      "BX": 0,
+      "CCL": 0,
+      "CDNS": 0,
       "CEVA": 0,
       "CFLT": 0,
       "CINT": 0,
+      "CMCSA": 0,
+      "CME": 0,
       "CRDO": 0,
+      "CRM": 3,
+      "CRWD": 0,
       "CRWV": 0,
+      "CSCO": 6,
       "CTSH": 0,
-      "DDI": 0,
+      "DDOG": 0,
       "DELL": 0,
+      "DFIN": 0,
+      "DIS": 0,
+      "DJT": 0,
+      "DOMH": 0,
       "DT": 0,
+      "DXYZ": 0,
+      "EA": 0,
       "EBAY": 0,
       "ECX": 0,
+      "EG": 0,
       "EM": 0,
+      "EXPE": 0,
+      "F": 0,
+      "FDS": 0,
+      "FDX": 0,
+      "FENG": 0,
+      "FIG": 0,
       "FLY": 0,
+      "FOX": 0,
+      "FOXA": 0,
+      "FRSH": 0,
+      "FSLR": 0,
+      "FSLY": 0,
+      "FTNT": 0,
       "GCL": 0,
       "GCTS": 0,
+      "GD": 0,
+      "GE": 0,
+      "GILT": 0,
       "GLE": 0,
+      "GM": 0,
+      "GME": 0,
+      "GOOG": 17,
+      "GOOGL": 20,
+      "GRYP": 0,
+      "GS": 0,
       "GSAT": 0,
-      "GXAI": 0,
       "HKD": 0,
+      "HPE": 0,
+      "IAC": 0,
       "IAS": 0,
+      "IBM": 3,
+      "ICE": 0,
+      "INFY": 0,
+      "INGM": 0,
+      "INTC": 7,
       "IONQ": 0,
-      "IPO": 0,
       "IQST": 0,
+      "JPM": 1,
+      "KEYS": 0,
       "KKR": 0,
+      "KLTR": 0,
+      "KRMN": 0,
       "LAZR": 0,
+      "LBTYA": 0,
+      "LMT": 0,
+      "LUNL": 0,
+      "LWLG": 0,
+      "MBLY": 0,
+      "MEOA": 0,
+      "META": 20,
+      "MGM": 0,
       "MMYT": 0,
       "MNDO": 0,
       "MNTN": 0,
       "MOBX": 0,
+      "MRCC": 0,
+      "MS": 1,
       "MSCI": 0,
-      "MSFT": 0,
+      "MSFT": 15,
+      "MTCH": 0,
+      "MU": 0,
       "MYPS": 0,
+      "NDAQ": 1,
+      "NFLX": 4,
       "NIO": 0,
+      "NMBL": 0,
+      "NOC": 0,
       "NOTE": 0,
+      "NOW": 0,
+      "NTAP": 0,
       "NTCL": 0,
+      "NUTR": 0,
+      "NVDA": 30,
+      "NYAX": 0,
       "ONFO": 0,
+      "ORCL": 0,
+      "PANW": 0,
+      "PLTK": 0,
+      "PLTR": 0,
       "PSKY": 0,
       "PTRN": 0,
-      "RKLB": 0,
+      "QBTS": 0,
+      "QCOM": 0,
+      "QUBT": 0,
+      "RILY": 0,
+      "RKLB": 3,
+      "RTX": 0,
+      "RXT": 0,
+      "RZLV": 0,
       "SAGT": 0,
+      "SAIL": 0,
+      "SGN": 0,
       "SHAZ": 0,
       "SLE": 0,
-      "SNAP": 0,
+      "SMCI": 0,
+      "SNDKV": 0,
       "SOPA": 0,
       "SPCX": 0,
       "SPGI": 0,
+      "SWKS": 0,
+      "T": 2,
       "TEAD": 0,
       "TME": 0,
+      "TROW": 0,
+      "TSLA": 0,
+      "TTD": 0,
+      "TXN": 0,
       "U": 0,
+      "UBER": 0,
+      "UPST": 0,
+      "V": 0,
       "VOYG": 0,
+      "VZ": 1,
+      "WBD": 0,
+      "WDC": 0,
       "WTO": 0,
+      "WYNN": 0,
+      "XLK": 0,
       "XNET": 0,
       "YAAS": 0,
       "YMT": 0,
-      "YSS": 1,
+      "YSS": 5,
       "ZENV": 0,
       "ZETA": 0,
+      "ZS": 0,
       "ZSPC": 0
     }
   },
@@ -271,176 +389,172 @@
   "rankings": {
     "2026-08-18": {
       "emerging_signals": [
+        "NVDA",
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "CSCO",
+        "GOOG",
+        "AAPL",
+        "INTC",
         "YSS",
+        "AVGO",
+        "NFLX",
+        "AMD",
         "RKLB",
-        "SOPA",
-        "YMT",
-        "GLE",
-        "SNAP",
-        "YAAS",
-        "TME",
-        "MMYT",
-        "U",
-        "ATGL",
-        "ARBE",
-        "ONFO",
-        "CEVA",
-        "PTRN",
-        "PSKY",
-        "SAGT",
-        "ZSPC",
-        "LAZR",
-        "DDI"
+        "CRM",
+        "ADBE",
+        "IBM",
+        "T",
+        "ALAB",
+        "MS"
       ],
       "market_leaders": [
-        "RKLB",
-        "YSS",
-        "SOPA",
-        "SNAP",
-        "YMT",
-        "GLE",
-        "YAAS",
-        "PTRN",
-        "U",
-        "TME",
-        "MMYT",
-        "ATGL",
-        "ARBE",
-        "ONFO",
-        "CEVA",
-        "PSKY",
-        "MSCI",
+        "AMZN",
+        "NVDA",
+        "AVGO",
+        "AAPL",
         "MSFT",
-        "ZSPC",
-        "SAGT"
+        "GOOGL",
+        "META",
+        "NFLX",
+        "AMD",
+        "INTC",
+        "GOOG",
+        "CSCO",
+        "YSS",
+        "RKLB",
+        "ADBE",
+        "CRM",
+        "IBM",
+        "ALAB",
+        "T",
+        "VZ"
       ]
     }
   },
   "scores": {
     "2026-08-18": {
-      "ARBE": {
-        "discovery_score": 41.5,
-        "signal_score": 32.0
+      "AAPL": {
+        "discovery_score": 87.6,
+        "signal_score": 67.2
       },
-      "ATGL": {
-        "discovery_score": 41.5,
-        "signal_score": 32.0
+      "ADBE": {
+        "discovery_score": 76.9,
+        "signal_score": 62.3
       },
-      "CEVA": {
-        "discovery_score": 41.2,
-        "signal_score": 31.3
+      "ALAB": {
+        "discovery_score": 66.6,
+        "signal_score": 57.2
       },
-      "CRWV": {
-        "discovery_score": 38.4,
-        "signal_score": 28.2
+      "AMD": {
+        "discovery_score": 84.6,
+        "signal_score": 66.6
       },
-      "DDI": {
-        "discovery_score": 40.6,
-        "signal_score": 30.1
+      "AMZN": {
+        "discovery_score": 87.8,
+        "signal_score": 67.6
       },
-      "FLY": {
-        "discovery_score": 36.8,
-        "signal_score": 27.2
+      "AVGO": {
+        "discovery_score": 85.1,
+        "signal_score": 67.5
       },
-      "GLE": {
-        "discovery_score": 43.8,
-        "signal_score": 35.6
+      "CRM": {
+        "discovery_score": 77.1,
+        "signal_score": 62.1
       },
-      "GSAT": {
-        "discovery_score": 40.5,
-        "signal_score": 30.1
+      "CSCO": {
+        "discovery_score": 87.7,
+        "signal_score": 65.3
       },
-      "GXAI": {
-        "discovery_score": 40.5,
-        "signal_score": 30.0
+      "DFIN": {
+        "discovery_score": 46.5,
+        "signal_score": 40.1
       },
-      "IQST": {
-        "discovery_score": 38.4,
-        "signal_score": 28.7
+      "DJT": {
+        "discovery_score": 47.8,
+        "signal_score": 42.5
       },
-      "LAZR": {
-        "discovery_score": 40.7,
-        "signal_score": 30.3
+      "GILT": {
+        "discovery_score": 47.8,
+        "signal_score": 42.5
       },
-      "MMYT": {
-        "discovery_score": 41.6,
-        "signal_score": 32.2
+      "GOOG": {
+        "discovery_score": 87.6,
+        "signal_score": 65.7
       },
-      "MOBX": {
-        "discovery_score": 40.0,
-        "signal_score": 30.0
+      "GOOGL": {
+        "discovery_score": 87.8,
+        "signal_score": 67.0
       },
-      "MSCI": {
-        "discovery_score": 40.1,
-        "signal_score": 31.1
+      "IBM": {
+        "discovery_score": 76.6,
+        "signal_score": 61.3
+      },
+      "INTC": {
+        "discovery_score": 87.6,
+        "signal_score": 66.6
+      },
+      "JPM": {
+        "discovery_score": 59.5,
+        "signal_score": 49.0
+      },
+      "MBLY": {
+        "discovery_score": 50.2,
+        "signal_score": 47.0
+      },
+      "META": {
+        "discovery_score": 87.8,
+        "signal_score": 66.9
+      },
+      "MS": {
+        "discovery_score": 60.8,
+        "signal_score": 50.7
       },
       "MSFT": {
-        "discovery_score": 40.1,
-        "signal_score": 31.1
+        "discovery_score": 88.1,
+        "signal_score": 67.1
       },
-      "MYPS": {
-        "discovery_score": 39.0,
-        "signal_score": 28.0
+      "MTCH": {
+        "discovery_score": 50.0,
+        "signal_score": 48.6
       },
-      "NTCL": {
-        "discovery_score": 39.1,
-        "signal_score": 29.6
+      "NDAQ": {
+        "discovery_score": 60.6,
+        "signal_score": 50.3
       },
-      "ONFO": {
-        "discovery_score": 41.3,
-        "signal_score": 31.5
+      "NFLX": {
+        "discovery_score": 85.1,
+        "signal_score": 66.7
       },
-      "PSKY": {
-        "discovery_score": 41.1,
-        "signal_score": 31.3
-      },
-      "PTRN": {
-        "discovery_score": 41.1,
-        "signal_score": 33.3
+      "NVDA": {
+        "discovery_score": 88.2,
+        "signal_score": 67.6
       },
       "RKLB": {
-        "discovery_score": 50.0,
-        "signal_score": 46.0
+        "discovery_score": 77.3,
+        "signal_score": 63.3
       },
-      "SAGT": {
-        "discovery_score": 40.8,
-        "signal_score": 30.5
-      },
-      "SNAP": {
-        "discovery_score": 43.5,
-        "signal_score": 37.6
-      },
-      "SOPA": {
-        "discovery_score": 44.6,
-        "signal_score": 38.1
-      },
-      "TME": {
-        "discovery_score": 41.8,
-        "signal_score": 32.6
+      "T": {
+        "discovery_score": 68.8,
+        "signal_score": 56.0
       },
       "U": {
-        "discovery_score": 41.6,
-        "signal_score": 33.1
+        "discovery_score": 47.6,
+        "signal_score": 43.2
       },
-      "XNET": {
-        "discovery_score": 37.3,
-        "signal_score": 26.7
+      "VZ": {
+        "discovery_score": 60.7,
+        "signal_score": 50.9
       },
       "YAAS": {
-        "discovery_score": 42.5,
-        "signal_score": 34.1
-      },
-      "YMT": {
-        "discovery_score": 44.5,
-        "signal_score": 37.0
+        "discovery_score": 50.4,
+        "signal_score": 46.8
       },
       "YSS": {
-        "discovery_score": 53.4,
-        "signal_score": 43.9
-      },
-      "ZSPC": {
-        "discovery_score": 40.8,
-        "signal_score": 30.7
+        "discovery_score": 86.7,
+        "signal_score": 64.5
       }
     }
   }

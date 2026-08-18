@@ -1,299 +1,327 @@
 {
   "meta": {
-    "generated_at": "2026-08-18T23:15:04.684892+00:00",
-    "companies_scanned": 62,
+    "generated_at": "2026-08-18T23:24:32.858742+00:00",
+    "companies_scanned": 180,
     "sources_enabled": {
       "sec_edgar": true,
       "alpha_vantage": true,
       "finnhub": true
     },
-    "model_version": "4.0-strict-relevance",
+    "model_version": "4.1-strict-display",
     "baseline_days": 0,
     "baseline_maturity": "building",
     "fundamentals_cache_days": 7
   },
   "rankings": {
     "market_leaders": [
-      "RKLB",
-      "YSS",
-      "SOPA",
-      "SNAP",
-      "YMT",
-      "GLE",
-      "YAAS",
-      "PTRN",
-      "U",
-      "TME",
-      "MMYT",
-      "ATGL",
-      "ARBE",
-      "ONFO",
-      "CEVA",
-      "PSKY",
-      "MSCI",
+      "AMZN",
+      "NVDA",
+      "AVGO",
+      "AAPL",
       "MSFT",
-      "ZSPC",
-      "SAGT",
-      "LAZR",
-      "DDI",
-      "GSAT",
-      "MOBX",
-      "GXAI",
-      "NTCL",
-      "IQST",
-      "CRWV",
-      "MYPS",
-      "FLY"
+      "GOOGL",
+      "META",
+      "NFLX",
+      "AMD",
+      "INTC",
+      "GOOG",
+      "CSCO",
+      "YSS",
+      "RKLB",
+      "ADBE",
+      "CRM",
+      "IBM",
+      "ALAB",
+      "T",
+      "VZ",
+      "MS",
+      "NDAQ",
+      "JPM",
+      "MTCH",
+      "MBLY",
+      "YAAS",
+      "U",
+      "GILT",
+      "DJT",
+      "DFIN"
     ],
     "emerging_signals": [
-      "YSS",
-      "RKLB",
-      "SOPA",
-      "YMT",
-      "GLE",
-      "SNAP",
-      "YAAS",
-      "TME",
-      "MMYT",
-      "U",
-      "ATGL",
-      "ARBE",
-      "ONFO",
-      "CEVA",
-      "PTRN",
-      "PSKY",
-      "SAGT",
-      "ZSPC",
-      "LAZR",
-      "DDI",
-      "GSAT",
-      "GXAI",
-      "MSCI",
+      "NVDA",
       "MSFT",
-      "MOBX",
-      "NTCL",
-      "MYPS",
-      "CRWV",
-      "IQST",
-      "XNET"
+      "AMZN",
+      "META",
+      "GOOGL",
+      "CSCO",
+      "GOOG",
+      "AAPL",
+      "INTC",
+      "YSS",
+      "AVGO",
+      "NFLX",
+      "AMD",
+      "RKLB",
+      "CRM",
+      "ADBE",
+      "IBM",
+      "T",
+      "ALAB",
+      "MS",
+      "VZ",
+      "NDAQ",
+      "JPM",
+      "YAAS",
+      "MBLY",
+      "MTCH",
+      "GILT",
+      "DJT",
+      "U",
+      "DFIN"
     ]
   },
   "briefing": {
     "new_emerging": [
-      "YSS",
-      "RKLB",
-      "SOPA",
-      "YMT",
-      "GLE",
-      "SNAP",
-      "YAAS",
-      "TME"
+      "NVDA",
+      "MSFT",
+      "AMZN",
+      "META",
+      "GOOGL",
+      "CSCO",
+      "GOOG",
+      "AAPL"
     ],
     "accelerating": [],
     "cooling": [],
     "major_catalysts": [
       {
+        "ticker": "AMZN",
+        "category": "M&A",
+        "headline": "Arm shares edge higher as Nvidia sells entire stake in company"
+      },
+      {
+        "ticker": "AAPL",
+        "category": "M&A",
+        "headline": "Apple overhauls Europe app store fees to resolve payments clash"
+      },
+      {
         "ticker": "RKLB",
         "category": "M&A",
-        "headline": "RKLB Earnings Preview: Can Rocket Lab Escape from SpaceX’s Slipstream?"
+        "headline": "Rocket Lab surges 34% in best day ever on revenue beat, record-setting launch deal"
       },
       {
-        "ticker": "YSS",
-        "category": "Major contract",
-        "headline": "Canaccord Genuity Downgrades York Space Systems (YSS)"
-      },
-      {
-        "ticker": "SNAP",
+        "ticker": "AMD",
         "category": "M&A",
-        "headline": "China's Tencent takes 12 percent stake in Snap as shares plunge"
+        "headline": "S&P 500 edges lower as traders weigh AI optimism vs. Iran tensions: Live updates "
       },
       {
-        "ticker": "YMT",
+        "ticker": "ADBE",
         "category": "M&A",
-        "headline": "YMT - Yimutian Inc ADR Stock Price and Quote Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Theme Help Login Register Upgrade to Finviz Elite: Get our fastest platform speed, real-time data, and unlimited screening & charting. Start Free Trial YMT Yimutian Inc ADR"
+        "headline": "Adobe to buy Semrush for $1.9 billion, sending marketing platform's shares up 74%"
       },
       {
-        "ticker": "GLE",
+        "ticker": "NVDA",
         "category": "M&A",
-        "headline": "GLE - Global Engine Group Holding Ltd Stock Price and Quote"
+        "headline": "SB Energy co-CEO on PORTS-Pike project: Nvidia's financing will help ensure the project's success"
       },
       {
-        "ticker": "SOPA",
+        "ticker": "AVGO",
         "category": "M&A",
-        "headline": "Society Pass Incorporated Stock (NASDAQ: SOPA) Surges 58% as New Analyst Targets Spotlight NusaTrip and AI Pivot — What Investors Should Watch Next"
+        "headline": "S&P 500 edges lower as traders weigh AI optimism vs. Iran tensions: Live updates "
       },
       {
-        "ticker": "FLY",
-        "category": "Legal / investigation",
-        "headline": "Firefly Aerospace (NASDAQ: FLY) Stock: Why Shares Are Sliding in Today’s Post-Christmas Session, Key Catalysts, and Wall Street Forecasts"
-      },
-      {
-        "ticker": "PTRN",
+        "ticker": "GOOGL",
         "category": "M&A",
-        "headline": "Pattern Group Inc. (PTRN) Stock: Weekend Market Close, Latest News, Analyst Targets, and What to Watch Before Monday’s Open"
+        "headline": "Arm shares edge higher as Nvidia sells entire stake in company"
       }
     ],
     "left_emerging_top20": []
   },
   "sectors": [
     {
+      "sector": "Retail",
+      "company_count": 1,
+      "discovery_intensity": 87.8,
+      "signal_intensity": 67.6,
+      "tickers": [
+        "AMZN"
+      ]
+    },
+    {
+      "sector": "Communications",
+      "company_count": 1,
+      "discovery_intensity": 87.7,
+      "signal_intensity": 65.3,
+      "tickers": [
+        "CSCO"
+      ]
+    },
+    {
+      "sector": "Media",
+      "company_count": 4,
+      "discovery_intensity": 87.1,
+      "signal_intensity": 66.6,
+      "tickers": [
+        "META",
+        "GOOGL",
+        "GOOG",
+        "NFLX"
+      ]
+    },
+    {
+      "sector": "Semiconductors",
+      "company_count": 4,
+      "discovery_intensity": 86.4,
+      "signal_intensity": 67.1,
+      "tickers": [
+        "NVDA",
+        "INTC",
+        "AVGO",
+        "AMD"
+      ]
+    },
+    {
       "sector": "Aerospace & Defense",
       "company_count": 2,
-      "discovery_intensity": 51.7,
-      "signal_intensity": 45.0,
+      "discovery_intensity": 82.0,
+      "signal_intensity": 63.9,
       "tickers": [
         "YSS",
         "RKLB"
       ]
     },
     {
-      "sector": "Media",
-      "company_count": 5,
-      "discovery_intensity": 43.1,
-      "signal_intensity": 35.4,
-      "tickers": [
-        "SOPA",
-        "YMT",
-        "SNAP",
-        "TME",
-        "ONFO"
-      ]
-    },
-    {
       "sector": "Technology",
-      "company_count": 5,
-      "discovery_intensity": 41.9,
-      "signal_intensity": 33.2,
+      "company_count": 6,
+      "discovery_intensity": 71.3,
+      "signal_intensity": 58.1,
       "tickers": [
-        "GLE",
+        "MSFT",
+        "AAPL",
+        "CRM",
+        "ADBE",
         "YAAS",
-        "U",
-        "ATGL",
-        "MSFT"
-      ]
-    },
-    {
-      "sector": "Hotels, Restaurants & Leisure",
-      "company_count": 1,
-      "discovery_intensity": 41.6,
-      "signal_intensity": 32.2,
-      "tickers": [
-        "MMYT"
-      ]
-    },
-    {
-      "sector": "Electrical Equipment",
-      "company_count": 1,
-      "discovery_intensity": 41.5,
-      "signal_intensity": 32.0,
-      "tickers": [
-        "ARBE"
-      ]
-    },
-    {
-      "sector": "Semiconductors",
-      "company_count": 1,
-      "discovery_intensity": 41.2,
-      "signal_intensity": 31.3,
-      "tickers": [
-        "CEVA"
-      ]
-    },
-    {
-      "sector": "Retail",
-      "company_count": 1,
-      "discovery_intensity": 41.1,
-      "signal_intensity": 33.3,
-      "tickers": [
-        "PTRN"
+        "U"
       ]
     },
     {
       "sector": "Unclassified",
-      "company_count": 15,
-      "discovery_intensity": 39.6,
-      "signal_intensity": 29.5,
+      "company_count": 12,
+      "discovery_intensity": 58.0,
+      "signal_intensity": 49.7,
       "tickers": [
-        "PSKY",
-        "SAGT",
-        "ZSPC",
-        "LAZR",
-        "DDI",
-        "GSAT"
+        "IBM",
+        "T",
+        "ALAB",
+        "MS",
+        "VZ",
+        "NDAQ"
       ]
     }
   ],
   "themes": [
     {
       "theme": "AI infrastructure",
-      "company_count": 11,
-      "intensity": 40.5,
+      "company_count": 22,
+      "intensity": 77.2,
       "tickers": [
-        "SOPA",
-        "GLE",
-        "MMYT",
-        "PTRN",
-        "SAGT",
-        "GXAI",
-        "MSCI",
-        "NTCL"
+        "NVDA",
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "CSCO",
+        "GOOG",
+        "AAPL"
       ]
     },
     {
       "theme": "Cloud & software",
-      "company_count": 10,
-      "intensity": 41.2,
+      "company_count": 21,
+      "intensity": 72.8,
       "tickers": [
-        "SOPA",
-        "YMT",
-        "YAAS",
-        "TME",
-        "MMYT",
-        "U",
-        "SAGT",
-        "MYPS"
+        "MSFT",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "GOOG",
+        "AAPL",
+        "INTC",
+        "YSS"
+      ]
+    },
+    {
+      "theme": "Semiconductors",
+      "company_count": 13,
+      "intensity": 83.2,
+      "tickers": [
+        "NVDA",
+        "AMZN",
+        "META",
+        "GOOGL",
+        "CSCO",
+        "AAPL",
+        "INTC",
+        "AVGO"
+      ]
+    },
+    {
+      "theme": "Robotics & automation",
+      "company_count": 5,
+      "intensity": 81.4,
+      "tickers": [
+        "NVDA",
+        "GOOGL",
+        "GOOG",
+        "IBM",
+        "ALAB"
+      ]
+    },
+    {
+      "theme": "Cybersecurity",
+      "company_count": 5,
+      "intensity": 78.6,
+      "tickers": [
+        "MSFT",
+        "CSCO",
+        "INTC",
+        "T",
+        "VZ"
+      ]
+    },
+    {
+      "theme": "Financial technology",
+      "company_count": 4,
+      "intensity": 74.2,
+      "tickers": [
+        "MSFT",
+        "AAPL",
+        "VZ",
+        "NDAQ"
       ]
     },
     {
       "theme": "Defense & aerospace",
       "company_count": 3,
-      "intensity": 43.6,
+      "intensity": 80.2,
       "tickers": [
         "YSS",
-        "GXAI",
-        "FLY"
+        "RKLB",
+        "IBM"
       ]
     },
     {
-      "theme": "Semiconductors",
+      "theme": "Quantum computing",
       "company_count": 1,
-      "intensity": 44.6,
+      "intensity": 88.2,
       "tickers": [
-        "SOPA"
+        "NVDA"
       ]
     },
     {
-      "theme": "Robotics & automation",
+      "theme": "Biotech & therapeutics",
       "company_count": 1,
-      "intensity": 41.5,
+      "intensity": 87.7,
       "tickers": [
-        "ARBE"
-      ]
-    },
-    {
-      "theme": "Cybersecurity",
-      "company_count": 1,
-      "intensity": 38.4,
-      "tickers": [
-        "IQST"
-      ]
-    },
-    {
-      "theme": "Financial technology",
-      "company_count": 1,
-      "intensity": 38.4,
-      "tickers": [
-        "IQST"
+        "CSCO"
       ]
     }
   ],
@@ -601,17 +629,882 @@
   ],
   "companies": [
     {
+      "ticker": "NVDA",
+      "company_name": "NVIDIA Corp",
+      "signal_score": 67.6,
+      "discovery_score": 88.2,
+      "confidence_score": 65.8,
+      "primary_catalyst": "SB Energy co-CEO on PORTS-Pike project: Nvidia's financing will help ensure the project's success",
+      "catalyst_category": "M&A",
+      "why_it_matters": "41 unique credible information items from 10 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Breaking out",
+      "article_count_24h": 30,
+      "latest_event_at": "2026-08-18T19:10:06+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 10,
+        "unique_story_clusters": 41
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 6.3,
+        "sentiment_signal": 6.3,
+        "coverage_ratio_vs_baseline": 30.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 3.2,
+        "coverage_ratio_vs_baseline": 30.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 500000000000.0,
+        "market_cap_ratio": 0.0918,
+        "score": 14,
+        "label": "Material",
+        "basis": "'Bond King' Jeff Gundlach Compares Nvidia's $500 Billion AI Financing Push to Bonds Backed by Bananas: 'Will Not Age Well'",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "NVIDIA Corp",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1999-01-22",
+        "weburl": "https://www.nvidia.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959144056.png",
+        "market_cap": 5445242088563.96,
+        "pe_ttm": 33.9758,
+        "ps_ttm": 21.3932,
+        "pb_annual": 28.8075,
+        "revenue_growth_ttm_yoy": 70.68,
+        "eps_growth_ttm_yoy": 110.34,
+        "gross_margin_ttm": 74.15,
+        "net_margin_ttm": 62.97,
+        "current_ratio": 3.9053,
+        "debt_equity": 0.0538,
+        "beta": 2.2490773
+      },
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Robotics & automation",
+        "Quantum computing"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 67.6,
+          "discovery_score": 88.2
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "company_name": "Microsoft Corp",
+      "signal_score": 67.1,
+      "discovery_score": 88.1,
+      "confidence_score": 65.0,
+      "primary_catalyst": "Salesforce buys Slack in a $27.7B megadeal",
+      "catalyst_category": "M&A",
+      "why_it_matters": "41 unique credible information items from 13 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Breaking out",
+      "article_count_24h": 15,
+      "latest_event_at": "2026-08-18T18:23:06+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 13,
+        "unique_story_clusters": 41
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 6.0,
+        "sentiment_signal": 6.1,
+        "coverage_ratio_vs_baseline": 15.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 3.1,
+        "coverage_ratio_vs_baseline": 15.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 100000000000.0,
+        "market_cap_ratio": 0.028,
+        "score": 10,
+        "label": "Meaningful",
+        "basis": "How a $10,000 Investment in Broadcom Under Hock Tan Grew to $3.2M",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Microsoft Corp",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1986-03-13",
+        "weburl": "https://www.microsoft.com/en-in/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
+        "market_cap": 3566860693823.02,
+        "pe_ttm": 27.6621,
+        "ps_ttm": 11.1493,
+        "pb_annual": 6.2636,
+        "revenue_growth_ttm_yoy": 17.79,
+        "eps_growth_ttm_yoy": 31.56,
+        "gross_margin_ttm": 67.94,
+        "net_margin_ttm": 40.31,
+        "current_ratio": 1.2303,
+        "debt_equity": 0.2416,
+        "beta": 1.1032884
+      },
+      "themes": [
+        "AI infrastructure",
+        "Cybersecurity",
+        "Cloud & software",
+        "Financial technology"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "discovery_score": 40.1,
+          "signal_score": 31.1
+        },
+        {
+          "date": "2026-08-18",
+          "signal_score": 67.1,
+          "discovery_score": 88.1
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "company_name": "Amazon.com Inc",
+      "signal_score": 67.6,
+      "discovery_score": 87.8,
+      "confidence_score": 67.5,
+      "primary_catalyst": "Arm shares edge higher as Nvidia sells entire stake in company",
+      "catalyst_category": "M&A",
+      "why_it_matters": "42 unique credible information items from 12 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 22,
+      "latest_event_at": "2026-08-18T19:10:06+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 12,
+        "unique_story_clusters": 42
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 7.0,
+        "sentiment_signal": 5.6,
+        "coverage_ratio_vs_baseline": 22.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.8,
+        "coverage_ratio_vs_baseline": 22.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 40000000000.0,
+        "market_cap_ratio": 0.0142,
+        "score": 6,
+        "label": "Limited relative size",
+        "basis": "Arm shares edge higher as Nvidia sells entire stake in company",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Amazon.com Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1997-05-15",
+        "weburl": "https://www.amazon.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
+        "market_cap": 2818571764247.689,
+        "pe_ttm": 21.1395,
+        "ps_ttm": 3.6868,
+        "pb_annual": 6.0027,
+        "revenue_growth_ttm_yoy": 15.77,
+        "eps_growth_ttm_yoy": 89.71,
+        "gross_margin_ttm": 50.77,
+        "net_margin_ttm": 17.44,
+        "current_ratio": 1.0508,
+        "debt_equity": 0.2172,
+        "beta": 1.4593238
+      },
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Cloud & software"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 67.6,
+          "discovery_score": 87.8
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "company_name": "Meta Platforms Inc",
+      "signal_score": 66.9,
+      "discovery_score": 87.8,
+      "confidence_score": 65.8,
+      "primary_catalyst": "What the Meta Platform trial means for investors",
+      "catalyst_category": "M&A",
+      "why_it_matters": "34 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 20,
+      "latest_event_at": "2026-08-18T17:41:38+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 6,
+        "unique_story_clusters": 34
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 6.3,
+        "sentiment_signal": 5.6,
+        "coverage_ratio_vs_baseline": 20.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.8,
+        "coverage_ratio_vs_baseline": 20.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 100000000000.0,
+        "market_cap_ratio": 0.069,
+        "score": 10,
+        "label": "Meaningful",
+        "basis": "How a $10,000 Investment in Broadcom Under Hock Tan Grew to $3.2M",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Meta Platforms Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2012-05-18",
+        "weburl": "https://www.meta.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FB.png",
+        "market_cap": 1449454505050.3794,
+        "pe_ttm": 22.2575,
+        "ps_ttm": 6.6406,
+        "pb_annual": 7.6586,
+        "revenue_growth_ttm_yoy": 27.65,
+        "eps_growth_ttm_yoy": -3.69,
+        "gross_margin_ttm": 81.75,
+        "net_margin_ttm": 29.84,
+        "current_ratio": 2.5988,
+        "debt_equity": 0.2759,
+        "beta": 1.2161179
+      },
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "META",
+          "company_name": "",
+          "source": "CNBC",
+          "title": "What the Meta Platform trial means for investors",
+          "summary": "Meta could pay hundreds of billions in damages, but potential changes to how content is served are a bigger concern for shareholders",
+          "url": "https://finnhub.io/api/news?id=61419e5ccce82ee534a5eccc54a21c4c6a90de6020ba5752811beb171565cdd9",
+          "published_at": "2026-08-18T12:51:53+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "bf5f1cade293",
+          "display_relevant": true
+        },
+        {
+          "ticker": "META",
+          "company_name": "",
+          "source": "CNBC",
+          "title": "Opening statements begin in landmark Meta trial",
+          "summary": "CNBC's Julia Boorstin joins 'Squawk on the Street' to discuss opening statements in Meta's landmark child safety trial.",
+          "url": "https://finnhub.io/api/news?id=e9369dc5b73c72314f5280f9ab40c4dc9b7c6faf57dbfbec0b1369c96dc56a99",
+          "published_at": "2026-08-18T12:47:22+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "a215cdefd8d5",
+          "display_relevant": true
+        },
+        {
+          "ticker": "META",
+          "company_name": "",
+          "source": "CNBC",
+          "title": "Former Assistant Attorney General Jonathan Kanter on Meta's federal trial over child safety",
+          "summary": "Former Assistant Attorney General Jonathan Kanter joins ‘Squawk on the Street’ to discuss Meta’s federal trial over child safety, which begins on Tuesday, what it means for other social media giants, and more.",
+          "url": "https://finnhub.io/api/news?id=56a2e8bedc2c552c3e5a7bd7aef0935449cb6f75fade55ee628108f3ce0bf3b6",
+          "published_at": "2026-08-18T10:34:40+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "899dbe7ebc1a",
+          "display_relevant": true
+        },
+        {
+          "ticker": "META",
+          "company_name": "",
+          "source": "CNBC",
+          "title": "Landmark Meta trial kicks off: Here's what to know",
+          "summary": "CNBC's Julia Boorstin reports on the latest news on Meta.",
+          "url": "https://finnhub.io/api/news?id=d3373c89481a8d135818b2d62628ef1dfb002c6297eabf800fb791c0ce7b9136",
+          "published_at": "2026-08-18T08:20:02+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "00ab5640e124",
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 66.9,
+          "discovery_score": 87.8
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "company_name": "Alphabet Inc",
+      "signal_score": 67.0,
+      "discovery_score": 87.8,
+      "confidence_score": 65.8,
+      "primary_catalyst": "Arm shares edge higher as Nvidia sells entire stake in company",
+      "catalyst_category": "M&A",
+      "why_it_matters": "37 unique credible information items from 9 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 20,
+      "latest_event_at": "2026-08-18T19:10:06+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 9,
+        "unique_story_clusters": 37
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 6.3,
+        "sentiment_signal": 5.7,
+        "coverage_ratio_vs_baseline": 20.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.8,
+        "coverage_ratio_vs_baseline": 20.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 40000000000.0,
+        "market_cap_ratio": 0.0095,
+        "score": 6,
+        "label": "Limited relative size",
+        "basis": "Arm shares edge higher as Nvidia sells entire stake in company",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Alphabet Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2004-08-19",
+        "weburl": "https://abc.xyz/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+        "market_cap": 4207120000000.0,
+        "pe_ttm": 17.3095,
+        "ps_ttm": 9.4805,
+        "pb_annual": 9.1044,
+        "revenue_growth_ttm_yoy": 20.05,
+        "eps_growth_ttm_yoy": 115.31,
+        "gross_margin_ttm": 60.9,
+        "net_margin_ttm": 54.77,
+        "current_ratio": 2.0053,
+        "debt_equity": 0.1229,
+        "beta": 1.2179185
+      },
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Robotics & automation",
+        "Cloud & software"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 67.0,
+          "discovery_score": 87.8
+        }
+      ]
+    },
+    {
+      "ticker": "CSCO",
+      "company_name": "Cisco Systems Inc",
+      "signal_score": 65.3,
+      "discovery_score": 87.7,
+      "confidence_score": 62.5,
+      "primary_catalyst": "Explore the top gainers and losers within the dow jones index in today's session.",
+      "catalyst_category": "M&A",
+      "why_it_matters": "15 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 6,
+      "latest_event_at": "2026-08-18T19:10:06+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 6,
+        "unique_story_clusters": 15
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 5.0,
+        "sentiment_signal": 5.3,
+        "coverage_ratio_vs_baseline": 6.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.7,
+        "coverage_ratio_vs_baseline": 6.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 1000000000.0,
+        "market_cap_ratio": 0.0022,
+        "score": 6,
+        "label": "Limited relative size",
+        "basis": "HP Enterprise buys Nimble Storage for $1B to fill product-line gap",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Cisco Systems Inc",
+        "industry": "Communications",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1990-02-16",
+        "weburl": "https://www.cisco.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950800186156.png",
+        "market_cap": 444987991767.773,
+        "pe_ttm": 37.4005,
+        "ps_ttm": 7.3624,
+        "pb_annual": 5.7418,
+        "revenue_growth_ttm_yoy": 9.21,
+        "eps_growth_ttm_yoy": 22.99,
+        "gross_margin_ttm": 64.33,
+        "net_margin_ttm": 19.69,
+        "current_ratio": 0.9978,
+        "debt_equity": 0.5997,
+        "beta": 0.97960585
+      },
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Cybersecurity",
+        "Biotech & therapeutics"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 65.3,
+          "discovery_score": 87.7
+        }
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "company_name": "Alphabet Inc",
+      "signal_score": 65.7,
+      "discovery_score": 87.6,
+      "confidence_score": 63.8,
+      "primary_catalyst": "How a $10,000 Investment in Broadcom Under Hock Tan Grew to $3.2M",
+      "catalyst_category": "M&A",
+      "why_it_matters": "34 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 17,
+      "latest_event_at": "2026-08-18T18:23:06+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 6,
+        "unique_story_clusters": 34
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 5.5,
+        "sentiment_signal": 5.2,
+        "coverage_ratio_vs_baseline": 17.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.6,
+        "coverage_ratio_vs_baseline": 17.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 100000000000.0,
+        "market_cap_ratio": 0.0238,
+        "score": 10,
+        "label": "Meaningful",
+        "basis": "How a $10,000 Investment in Broadcom Under Hock Tan Grew to $3.2M",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Alphabet Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2004-08-19",
+        "weburl": "https://abc.xyz/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+        "market_cap": 4207120000000.0,
+        "pe_ttm": 17.3095,
+        "ps_ttm": 9.4805,
+        "pb_annual": 9.1044,
+        "revenue_growth_ttm_yoy": 20.05,
+        "eps_growth_ttm_yoy": 115.31,
+        "gross_margin_ttm": 60.9,
+        "net_margin_ttm": 54.77,
+        "current_ratio": 2.0053,
+        "debt_equity": 0.1229,
+        "beta": 1.2179185
+      },
+      "themes": [
+        "AI infrastructure",
+        "Robotics & automation",
+        "Cloud & software"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 65.7,
+          "discovery_score": 87.6
+        }
+      ]
+    },
+    {
+      "ticker": "AAPL",
+      "company_name": "Apple Inc",
+      "signal_score": 67.2,
+      "discovery_score": 87.6,
+      "confidence_score": 67.5,
+      "primary_catalyst": "Apple overhauls Europe app store fees to resolve payments clash",
+      "catalyst_category": "M&A",
+      "why_it_matters": "37 unique credible information items from 9 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 15,
+      "latest_event_at": "2026-08-18T19:10:06+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 9,
+        "unique_story_clusters": 37
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 7.0,
+        "sentiment_signal": 5.2,
+        "coverage_ratio_vs_baseline": 15.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.6,
+        "coverage_ratio_vs_baseline": 15.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 35000000000.0,
+        "market_cap_ratio": 0.0078,
+        "score": 6,
+        "label": "Limited relative size",
+        "basis": "Biz Break: Adobe shoots to record high after Fotolia acquisition",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Apple Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1980-12-12",
+        "weburl": "https://www.apple.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
+        "market_cap": 4459835263931.044,
+        "pe_ttm": 34.3608,
+        "ps_ttm": 9.49,
+        "pb_annual": 50.978,
+        "revenue_growth_ttm_yoy": 14.24,
+        "eps_growth_ttm_yoy": 32.61,
+        "gross_margin_ttm": 48.65,
+        "net_margin_ttm": 27.62,
+        "current_ratio": 0.8933,
+        "debt_equity": 1.3547,
+        "beta": 1.0768425
+      },
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Cloud & software",
+        "Financial technology"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 67.2,
+          "discovery_score": 87.6
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "company_name": "Intel Corp",
+      "signal_score": 66.6,
+      "discovery_score": 87.6,
+      "confidence_score": 65.8,
+      "primary_catalyst": "Stocks making the biggest moves premarket: Alibaba, Intel, Sandisk & more",
+      "catalyst_category": "M&A",
+      "why_it_matters": "36 unique credible information items from 11 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 7,
+      "latest_event_at": "2026-08-18T18:05:02+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 11,
+        "unique_story_clusters": 36
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 6.3,
+        "sentiment_signal": 5.3,
+        "coverage_ratio_vs_baseline": 7.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.6,
+        "coverage_ratio_vs_baseline": 7.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 740000000.0,
+        "market_cap_ratio": 0.0014,
+        "score": 6,
+        "label": "Limited relative size",
+        "basis": "McAfee goes public…again",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Intel Corp",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1971-10-13",
+        "weburl": "https://www.intel.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/INTC.png",
+        "market_cap": 522003560000.0,
+        "pe_ttm": null,
+        "ps_ttm": 9.366,
+        "pb_annual": 1.531,
+        "revenue_growth_ttm_yoy": 7.47,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 38.6,
+        "net_margin_ttm": -19.79,
+        "current_ratio": 2.017,
+        "debt_equity": 0.4076,
+        "beta": 2.2952907
+      },
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Cybersecurity",
+        "Cloud & software"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 66.6,
+          "discovery_score": 87.6
+        }
+      ]
+    },
+    {
       "ticker": "YSS",
       "company_name": "York Space Systems Inc",
-      "signal_score": 43.9,
-      "discovery_score": 53.4,
-      "confidence_score": 48.5,
+      "signal_score": 64.5,
+      "discovery_score": 86.7,
+      "confidence_score": 62.5,
       "primary_catalyst": "Canaccord Genuity Downgrades York Space Systems (YSS)",
       "catalyst_category": "Major contract",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "11 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
+      "attention_status": "Breaking out",
+      "article_count_24h": 5,
       "latest_event_at": "2026-08-18T22:19:34+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
@@ -621,26 +1514,26 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 3,
-        "unique_story_clusters": 3
+        "independent_sources": 6,
+        "unique_story_clusters": 11
       },
       "metrics": {
         "primary_evidence": 0,
-        "coverage_acceleration": 5.0,
+        "coverage_acceleration": 20.0,
         "catalyst_strength": 18,
-        "corroboration": 10.0,
+        "corroboration": 15.0,
         "source_quality": 5.0,
-        "sentiment_signal": 5.9,
-        "coverage_ratio_vs_baseline": 1.0
+        "sentiment_signal": 6.5,
+        "coverage_ratio_vs_baseline": 5.0
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
+        "attention_lift": 35.0,
         "novelty": 20.0,
-        "source_breadth": 9.0,
+        "source_breadth": 15.0,
         "catalyst_strength": 13.5,
         "primary_evidence": 0.0,
-        "sentiment": 2.9,
-        "coverage_ratio_vs_baseline": 1.0
+        "sentiment": 3.2,
+        "coverage_ratio_vs_baseline": 5.0
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -676,7 +1569,9 @@
         "beta": null
       },
       "themes": [
-        "Defense & aerospace"
+        "AI infrastructure",
+        "Defense & aerospace",
+        "Cloud & software"
       ],
       "stories": [
         {
@@ -689,61 +1584,36 @@
           "published_at": "2026-08-18T22:19:34+00:00",
           "sentiment": 0.0,
           "evidence_type": "Professional reporting",
-          "fingerprint": "6ba4d22a9f47"
-        },
-        {
-          "ticker": "YSS",
-          "company_name": "",
-          "source": "Blockonomi",
-          "title": "York Space Systems (YSS) Stock Climbs on Strong Q4 Performance and 52% Annual Revenue Surge",
-          "summary": "York Space Systems (YSS) exceeded Q4 2025 financial expectations, reporting an adjusted EBITDA loss of $1.4M against a projected $3.5M loss, and achieving $105M in sales. The company's full-year 2025 revenue surged by 52% to $386M, driven by significant U.S. government defense contracts and successful satellite deployments. Analysts maintain a bullish outlook, with a consensus \"Buy\" rating and a price target of $38,…",
-          "url": "https://blockonomi.com/york-space-systems-yss-stock-climbs-on-strong-q4-performance-and-52-annual-revenue-surge/",
-          "published_at": "2026-03-20T10:39:03+00:00",
-          "sentiment": 0.494327,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "97607f1d5cf3",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "YSS",
-          "company_name": "",
-          "source": "FinancialContent",
-          "title": "York Space Systems Inc. Common Stock (NYSE:YSS) Stock Quote",
-          "summary": "This article provides a stock quote and recent news for York Space Systems Inc. Common Stock (NYSE:YSS). The stock closed at 19.81, down 0.85%, as of March 13, 2026. It also includes performance figures and answers frequently asked questions about the company's publicly traded status and exchange.",
-          "url": "https://markets.financialcontent.com/stocks/quote?Symbol=NY%3AYSS",
-          "published_at": "2026-03-12T15:52:49+00:00",
-          "sentiment": -0.136881,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "766e44a99f37",
-          "relevance": 0.953322
+          "fingerprint": "6ba4d22a9f47",
+          "display_relevant": true
         }
       ],
       "history": [
         {
           "date": "2026-08-18",
-          "discovery_score": 59.7,
-          "signal_score": 49.4
+          "discovery_score": 53.4,
+          "signal_score": 43.9
         },
         {
           "date": "2026-08-18",
-          "signal_score": 43.9,
-          "discovery_score": 53.4
+          "signal_score": 64.5,
+          "discovery_score": 86.7
         }
       ]
     },
     {
-      "ticker": "RKLB",
-      "company_name": "Rocket Lab Corp",
-      "signal_score": 46.0,
-      "discovery_score": 50.0,
-      "confidence_score": 58.5,
-      "primary_catalyst": "RKLB Earnings Preview: Can Rocket Lab Escape from SpaceX’s Slipstream?",
+      "ticker": "AVGO",
+      "company_name": "Broadcom Inc",
+      "signal_score": 67.5,
+      "discovery_score": 85.1,
+      "confidence_score": 65.8,
+      "primary_catalyst": "S&P 500 edges lower as traders weigh AI optimism vs. Iran tensions: Live updates ",
       "catalyst_category": "M&A",
-      "why_it_matters": "4 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "23 unique credible information items from 7 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-08-03T15:12:26+00:00",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-08-18T11:42:44+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -752,26 +1622,341 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 4,
-        "unique_story_clusters": 4
+        "independent_sources": 7,
+        "unique_story_clusters": 23
       },
       "metrics": {
         "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
+        "coverage_acceleration": 20.0,
         "catalyst_strength": 20,
         "corroboration": 15.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 6.0,
-        "coverage_ratio_vs_baseline": 0.0
+        "source_quality": 6.3,
+        "sentiment_signal": 6.2,
+        "coverage_ratio_vs_baseline": 4.0
       },
       "discovery_metrics": {
-        "attention_lift": 0.0,
+        "attention_lift": 32.0,
         "novelty": 20.0,
-        "source_breadth": 12.0,
+        "source_breadth": 15.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
-        "sentiment": 3.0,
-        "coverage_ratio_vs_baseline": 0.0
+        "sentiment": 3.1,
+        "coverage_ratio_vs_baseline": 4.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 100000000000.0,
+        "market_cap_ratio": 0.0536,
+        "score": 10,
+        "label": "Meaningful",
+        "basis": "How a $10,000 Investment in Broadcom Under Hock Tan Grew to $3.2M",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Broadcom Inc",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2009-08-06",
+        "weburl": "https://www.broadcom.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AVGO.png",
+        "market_cap": 1867017103664.4546,
+        "pe_ttm": 68.3526,
+        "ps_ttm": 26.5539,
+        "pb_annual": 21.061,
+        "revenue_growth_ttm_yoy": 32.29,
+        "eps_growth_ttm_yoy": 125.78,
+        "gross_margin_ttm": 68.35,
+        "net_margin_ttm": 38.85,
+        "current_ratio": 1.7054,
+        "debt_equity": 0.8013,
+        "beta": 1.4667739
+      },
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Cloud & software"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 67.5,
+          "discovery_score": 85.1
+        }
+      ]
+    },
+    {
+      "ticker": "NFLX",
+      "company_name": "Netflix Inc",
+      "signal_score": 66.7,
+      "discovery_score": 85.1,
+      "confidence_score": 63.8,
+      "primary_catalyst": "Stock Market Today, Jan. 13: Netflix Rises After HSBC Upgrade Sparks Optimism Ahead of Earnings",
+      "catalyst_category": "M&A",
+      "why_it_matters": "17 unique credible information items from 7 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-08-18T18:05:02+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 7,
+        "unique_story_clusters": 17
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 5.5,
+        "sentiment_signal": 6.2,
+        "coverage_ratio_vs_baseline": 4.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 32.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 3.1,
+        "coverage_ratio_vs_baseline": 4.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 2000000000.0,
+        "market_cap_ratio": 0.0063,
+        "score": 6,
+        "label": "Limited relative size",
+        "basis": "Rocket Lab USA Inc Stock (RKLB) Moved Up by 11.59% on Apr 16: What Investors Need To Know",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Netflix Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2002-05-23",
+        "weburl": "https://www.netflix.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NFLX.png",
+        "market_cap": 316542729176.88556,
+        "pe_ttm": 23.4437,
+        "ps_ttm": 6.6155,
+        "pb_annual": 16.0972,
+        "revenue_growth_ttm_yoy": 16.02,
+        "eps_growth_ttm_yoy": 35.26,
+        "gross_margin_ttm": 49.12,
+        "net_margin_ttm": 28.22,
+        "current_ratio": 1.1857,
+        "debt_equity": 0.5434,
+        "beta": 1.5998079
+      },
+      "themes": [],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 66.7,
+          "discovery_score": 85.1
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "company_name": "Advanced Micro Devices Inc",
+      "signal_score": 66.6,
+      "discovery_score": 84.6,
+      "confidence_score": 66.2,
+      "primary_catalyst": "S&P 500 edges lower as traders weigh AI optimism vs. Iran tensions: Live updates ",
+      "catalyst_category": "M&A",
+      "why_it_matters": "23 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-08-18T17:25:13+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 6,
+        "unique_story_clusters": 23
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 20.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 6.5,
+        "sentiment_signal": 5.1,
+        "coverage_ratio_vs_baseline": 4.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 32.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.6,
+        "coverage_ratio_vs_baseline": 4.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 15500000000.0,
+        "market_cap_ratio": 0.0188,
+        "score": 6,
+        "label": "Limited relative size",
+        "basis": "Buy This 1 Stock Hand Over Fist Before SpaceX Goes Public This Year",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Advanced Micro Devices Inc",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1979-10-15",
+        "weburl": "https://www.amd.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMD.png",
+        "market_cap": 826032361169.7933,
+        "pe_ttm": 123.2831,
+        "ps_ttm": 19.2036,
+        "pb_annual": 5.5719,
+        "revenue_growth_ttm_yoy": 39.54,
+        "eps_growth_ttm_yoy": 124.33,
+        "gross_margin_ttm": 53.2,
+        "net_margin_ttm": 15.58,
+        "current_ratio": 2.85,
+        "debt_equity": 0.0511,
+        "beta": 2.528805
+      },
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors"
+      ],
+      "stories": [
+        {
+          "ticker": "AMD",
+          "company_name": "",
+          "source": "SeekingAlpha",
+          "title": "AMD: On Dilution And Insider Sales",
+          "summary": "Advanced Micro Devices, Inc. stock surged on AI deals, but dilution, insider selling, and margin risk threaten long-term earnings. Click for more on AMD prospects.",
+          "url": "https://finnhub.io/api/news?id=66ab3affb53046c7710ef217f37050fe03579ce79910d4c241482d9ea6d6c1bc",
+          "published_at": "2026-08-18T17:25:13+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "cba1e0d58db7",
+          "display_relevant": true
+        },
+        {
+          "ticker": "AMD",
+          "company_name": "",
+          "source": "Benzinga",
+          "title": "Nvidia, AMD, Broadcom, Meta Slide as Bond Yields Surge: Why Tech Stocks Are Getting Hit",
+          "summary": "Nvidia, AMD, Broadcom and Meta fell as bond yields surged, putting pressure on high-growth tech stocks and AI names.",
+          "url": "https://finnhub.io/api/news?id=8be0662f56a93fc1a3eafb7348c7ea178f1847ba7757168a8bfdfcfd45768efa",
+          "published_at": "2026-08-18T11:42:44+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "642b83682996",
+          "display_relevant": true
+        },
+        {
+          "ticker": "AMD",
+          "company_name": "",
+          "source": "Benzinga",
+          "title": "What's Going On With AMD Stock Tuesday?",
+          "summary": "AMD slides 3% premarket as tech stocks pull back. Key support levels, analyst consensus, and technical analysis breakdown.",
+          "url": "https://finnhub.io/api/news?id=16fef30b843d35a67ae59b0ff83b3cec43a9dd3155b3271cc8dc40767c48071f",
+          "published_at": "2026-08-18T08:32:12+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "51535f08ceef",
+          "display_relevant": true
+        },
+        {
+          "ticker": "AMD",
+          "company_name": "",
+          "source": "Benzinga",
+          "title": "Cathie Wood Buys $22.8 Million of Nvidia Stock, Ark Invest Dumps AMD and Palantir Shares",
+          "summary": "Ark Invest bought $22.8 million of Nvidia while dumping AMD and Palantir shares on Monday, Aug. 17, 2026.",
+          "url": "https://finnhub.io/api/news?id=fd3e9ba94570bca6a5ee34786841d34189e66d4838b31aca3d46ab82ada60ccb",
+          "published_at": "2026-08-17T22:37:31+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "9e14792bcfc8",
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 66.6,
+          "discovery_score": 84.6
+        }
+      ]
+    },
+    {
+      "ticker": "RKLB",
+      "company_name": "Rocket Lab Corp",
+      "signal_score": 63.3,
+      "discovery_score": 77.3,
+      "confidence_score": 66.8,
+      "primary_catalyst": "Rocket Lab surges 34% in best day ever on revenue beat, record-setting launch deal",
+      "catalyst_category": "M&A",
+      "why_it_matters": "23 unique credible information items from 11 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Breaking out",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-08-18T14:16:06+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 11,
+        "unique_story_clusters": 23
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 15.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 6.7,
+        "sentiment_signal": 6.6,
+        "coverage_ratio_vs_baseline": 3.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 24.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 3.3,
+        "coverage_ratio_vs_baseline": 3.0
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -806,87 +1991,39 @@
         "debt_equity": 0.0982,
         "beta": 3.0194492
       },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "RKLB",
-          "company_name": "",
-          "source": "CMC Markets",
-          "title": "RKLB Earnings Preview: Can Rocket Lab Escape from SpaceX’s Slipstream?",
-          "summary": "This article previews Rocket Lab's upcoming Q2 earnings report, discussing whether the company can establish its own trajectory separate from SpaceX's influence. It highlights Rocket Lab's expanded strategy beyond launches to include satellite components and services, driven by key contract wins and the planned acquisition of Iridium. The report also details earnings expectations and the importance of its Neutron ro…",
-          "url": "https://www.cmcmarkets.com/en-au/opto/rklb-earnings-preview-can-rocket-lab-escape-from-spacexs-slipstream",
-          "published_at": "2026-08-03T15:12:26+00:00",
-          "sentiment": 0.10961,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "77f5c4e256a1",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "RKLB",
-          "company_name": "",
-          "source": "Stocktwits",
-          "title": "RKLB Stock Suffers Worst Selloff In 2 Years — President, COO, Other Insiders Cashed Out $18M After Record Highs",
-          "summary": "Shares of Rocket Lab USA, Inc. (RKLB) experienced their largest selloff in over two years after four company insiders sold $18 million worth of stock following a record rally in May. The insider sales included President Marvin Clevenger, COO Frank Klein, General Counsel Arjun Kampani, and Director Alexander Slusky. The stock's performance was also impacted by a Blue Origin rocket explosion and cooling sentiment arou…",
-          "url": "https://stocktwits.com/news-articles/markets/equity/rklb-stock-insiders-cash-out-18m-after-record-highs/cZ0iNg9RevA",
-          "published_at": "2026-06-02T04:02:18+00:00",
-          "sentiment": -0.26445,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "cb8c8aec3a96",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "RKLB",
-          "company_name": "",
-          "source": "IndexBox",
-          "title": "Rocket Lab Investment Opportunity | RKLB Stock Analysis 2026 - News and Statistics",
-          "summary": "This article analyzes Rocket Lab (RKLB) as a compelling investment opportunity in 2026, highlighting its strong Q1 2026 financial performance, revenue diversification into non-rocket technology, and strategic acquisitions. It contrasts Rocket Lab's growth with SpaceX's market dominance, suggesting RKLB offers a strong investment case despite SpaceX's larger valuation and market share in launch services and satellite…",
-          "url": "https://www.indexbox.io/blog/rocket-lab-vs-spacex-why-investors-should-consider-rklb-in-2026/",
-          "published_at": "2026-05-18T12:13:20+00:00",
-          "sentiment": 0.455244,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "228f5fa98ea9",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "RKLB",
-          "company_name": "",
-          "source": "TradingKey",
-          "title": "Rocket Lab USA Inc Stock (RKLB) Moved Up by 11.59% on Apr 16: What Investors Need To Know",
-          "summary": "Rocket Lab USA Inc (RKLB) stock increased by 11.59% on April 16, driven by new contracts, including a $190 million deal for hypersonic test flights and a multi-launch agreement with BlackSky, boosting its backlog to over $2 billion. The company also completed the acquisition of Mynaric AG to enhance space communications and received \"Buy\" ratings from analysts with an average price target of $85.30. These developmen…",
-          "url": "https://www.tradingkey.com/news/market-movers/261791567-market-movers-rklb-20260416",
-          "published_at": "2026-04-16T18:09:51+00:00",
-          "sentiment": 0.469761,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "c70570f6dfcd",
-          "relevance": 1.0
-        }
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Defense & aerospace",
+        "Cloud & software"
       ],
+      "stories": [],
       "history": [
         {
           "date": "2026-08-18",
-          "discovery_score": 77.3,
-          "signal_score": 63.2
+          "discovery_score": 50.0,
+          "signal_score": 46.0
         },
         {
           "date": "2026-08-18",
-          "signal_score": 46.0,
-          "discovery_score": 50.0
+          "signal_score": 63.3,
+          "discovery_score": 77.3
         }
       ]
     },
     {
-      "ticker": "SOPA",
-      "company_name": "Society Pass Inc",
-      "signal_score": 38.1,
-      "discovery_score": 44.6,
-      "confidence_score": 39.0,
-      "primary_catalyst": "Society Pass Incorporated Stock (NASDAQ: SOPA) Surges 58% as New Analyst Targets Spotlight NusaTrip and AI Pivot — What Investors Should Watch Next",
+      "ticker": "CRM",
+      "company_name": "Salesforce Inc",
+      "signal_score": 62.1,
+      "discovery_score": 77.1,
+      "confidence_score": 65.0,
+      "primary_catalyst": "Salesforce buys Slack in a $27.7B megadeal",
       "catalyst_category": "M&A",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "10 unique credible information items from 7 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2025-12-30T14:08:37+00:00",
+      "attention_status": "Breaking out",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-08-18T19:10:06+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -895,26 +2032,26 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
+        "independent_sources": 7,
+        "unique_story_clusters": 10
       },
       "metrics": {
         "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
+        "coverage_acceleration": 15.0,
         "catalyst_strength": 20,
-        "corroboration": 5.0,
+        "corroboration": 15.0,
         "source_quality": 6.0,
-        "sentiment_signal": 7.1,
-        "coverage_ratio_vs_baseline": 0.0
+        "sentiment_signal": 6.1,
+        "coverage_ratio_vs_baseline": 3.0
       },
       "discovery_metrics": {
-        "attention_lift": 0.0,
+        "attention_lift": 24.0,
         "novelty": 20.0,
-        "source_breadth": 6.0,
+        "source_breadth": 15.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
-        "sentiment": 3.6,
-        "coverage_ratio_vs_baseline": 0.0
+        "sentiment": 3.1,
+        "coverage_ratio_vs_baseline": 3.0
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -922,87 +2059,162 @@
         "maturity": "building"
       },
       "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
+        "estimated_event_value": 27700000000.0,
+        "market_cap_ratio": 0.1771,
+        "score": 14,
+        "label": "Material",
+        "basis": "Salesforce buys Slack in a $27.7B megadeal",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
       },
       "fundamentals": {
-        "name": "Society Pass Inc",
-        "industry": "Media",
+        "name": "Salesforce Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2004-06-23",
+        "weburl": "https://www.salesforce.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CRM.png",
+        "market_cap": 156404435352.14325,
+        "pe_ttm": 19.8896,
+        "ps_ttm": 3.7258,
+        "pb_annual": 3.3399,
+        "revenue_growth_ttm_yoy": 10.98,
+        "eps_growth_ttm_yoy": 35.08,
+        "gross_margin_ttm": 77.64,
+        "net_margin_ttm": 18.73,
+        "current_ratio": 0.7603,
+        "debt_equity": 0.2532,
+        "beta": 1.2047938
+      },
+      "themes": [
+        "AI infrastructure",
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "CRM",
+          "company_name": "",
+          "source": "Benzinga",
+          "title": "Salesforce's and ServiceNow’s Business Models Are in Danger, Expert Cautions: What Does It Mean For CRM and NOW?",
+          "summary": "Parnassus CIO Todd Ahlsten warns AI could pressure Salesforce and ServiceNow’s per-seat model as companies do more work with fewer employees.",
+          "url": "https://finnhub.io/api/news?id=0ec6ccc31a21442974170482fd7a9ba42b24496d0c757b178775ce03d7041e3a",
+          "published_at": "2026-08-18T11:46:22+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "0e2f50185aa8",
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 62.1,
+          "discovery_score": 77.1
+        }
+      ]
+    },
+    {
+      "ticker": "ADBE",
+      "company_name": "Adobe Inc",
+      "signal_score": 62.3,
+      "discovery_score": 76.9,
+      "confidence_score": 66.2,
+      "primary_catalyst": "Adobe to buy Semrush for $1.9 billion, sending marketing platform's shares up 74%",
+      "catalyst_category": "M&A",
+      "why_it_matters": "12 unique credible information items from 8 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Breaking out",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-08-18T19:05:01+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 8,
+        "unique_story_clusters": 12
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 15.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 6.5,
+        "sentiment_signal": 5.8,
+        "coverage_ratio_vs_baseline": 3.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 24.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.9,
+        "coverage_ratio_vs_baseline": 3.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 35000000000.0,
+        "market_cap_ratio": 0.3466,
+        "score": 17,
+        "label": "Very material",
+        "basis": "Biz Break: Adobe shoots to record high after Fotolia acquisition",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Adobe Inc",
+        "industry": "Technology",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2021-11-09",
-        "weburl": "https://thesocietypass.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950811437186.png",
-        "market_cap": 610000.0,
-        "pe_ttm": null,
-        "ps_ttm": 0.0029,
-        "pb_annual": 1.8591,
-        "revenue_growth_ttm_yoy": 4.65,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 45.75,
-        "net_margin_ttm": -146,
-        "current_ratio": 0.6231,
-        "debt_equity": 0.004,
-        "beta": 1.3947853
+        "ipo_date": "1986-08-20",
+        "weburl": "https://www.adobe.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ADBE.png",
+        "market_cap": 100980895798.07333,
+        "pe_ttm": 13.9689,
+        "ps_ttm": 4.0075,
+        "pb_annual": 11.5294,
+        "revenue_growth_ttm_yoy": 11.49,
+        "eps_growth_ttm_yoy": 11.83,
+        "gross_margin_ttm": 89.4,
+        "net_margin_ttm": 28.69,
+        "current_ratio": 0.9964,
+        "debt_equity": 0.5343,
+        "beta": 1.3909494
       },
       "themes": [
         "AI infrastructure",
         "Semiconductors",
         "Cloud & software"
       ],
-      "stories": [
-        {
-          "ticker": "SOPA",
-          "company_name": "",
-          "source": "ts2.tech",
-          "title": "Society Pass Incorporated Stock (NASDAQ: SOPA) Surges 58% as New Analyst Targets Spotlight NusaTrip and AI Pivot — What Investors Should Watch Next",
-          "summary": "Society Pass (NASDAQ: SOPA) stock saw a dramatic 58% surge, fueled by new analyst reports highlighting its NusaTrip subsidiary and a strategic pivot towards AI-driven acquisitions and M&A. This surge occurred in a thinly traded post-Christmas market, leading to significant share turnover and amplified price movements. Investors are advised to monitor potential dilution risks and the regulatory status of NusaTrip, wh…",
-          "url": "https://ts2.tech/en/society-pass-incorporated-stock-nasdaq-sopa-surges-58-as-new-analyst-targets-spotlight-nusatrip-and-ai-pivot-what-investors-should-watch-next/",
-          "published_at": "2025-12-30T14:08:37+00:00",
-          "sentiment": 0.202255,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "12b384976a76",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "SOPA",
-          "company_name": "",
-          "source": "StocksToTrade",
-          "title": "SOPA Stock Rockets with M&A and AI Investment Strategy",
-          "summary": "Society Pass Incorporated (SOPA) stock has surged by 64.35% due to its ambitious M&A strategy targeting valuation arbitrage and significant AI-driven investments in software and telecommunications across Southeast Asia, Europe, and North America. Despite current negative profitability margins, analysts maintain a positive outlook, citing substantial undervaluation and the strategic roadmap involving upcoming IPOs an…",
-          "url": "https://stockstotrade.com/news/societypassincorporated-sopa-news-2025_12_27/",
-          "published_at": "2025-12-27T19:09:31+00:00",
-          "sentiment": 0.644534,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "71deee602e9e",
-          "relevance": 1.0
-        }
-      ],
+      "stories": [],
       "history": [
         {
           "date": "2026-08-18",
-          "signal_score": 38.1,
-          "discovery_score": 44.6
+          "signal_score": 62.3,
+          "discovery_score": 76.9
         }
       ]
     },
     {
-      "ticker": "YMT",
-      "company_name": "Yimutian Inc",
-      "signal_score": 37.0,
-      "discovery_score": 44.5,
-      "confidence_score": 40.5,
-      "primary_catalyst": "YMT - Yimutian Inc ADR Stock Price and Quote Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Theme Help Login Register Upgrade to Finviz Elite: Get our fastest platform speed, real-time data, and unlimited screening & charting. Start Free Trial YMT Yimutian Inc ADR",
+      "ticker": "IBM",
+      "company_name": "",
+      "signal_score": 61.3,
+      "discovery_score": 76.6,
+      "confidence_score": 65.0,
+      "primary_catalyst": "Firefly Aerospace Stock (NASDAQ: FLY) News Today, Dec. 19, 2025: Analyst Coverage, Lawsuit Deadline, and What Investors Are Watching",
       "catalyst_category": "M&A",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Negative",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-05-29T18:08:59+00:00",
+      "why_it_matters": "12 unique credible information items from 8 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-08-18T19:10:06+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -1011,26 +2223,26 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
+        "independent_sources": 8,
+        "unique_story_clusters": 12
       },
       "metrics": {
         "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
+        "coverage_acceleration": 15.0,
         "catalyst_strength": 20,
-        "corroboration": 5.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 7.0,
-        "coverage_ratio_vs_baseline": 0.0
+        "corroboration": 15.0,
+        "source_quality": 6.0,
+        "sentiment_signal": 5.3,
+        "coverage_ratio_vs_baseline": 3.0
       },
       "discovery_metrics": {
-        "attention_lift": 0.0,
+        "attention_lift": 24.0,
         "novelty": 20.0,
-        "source_breadth": 6.0,
+        "source_breadth": 15.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
-        "sentiment": 3.5,
-        "coverage_ratio_vs_baseline": 0.0
+        "sentiment": 2.6,
+        "coverage_ratio_vs_baseline": 3.0
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -1038,98 +2250,56 @@
         "maturity": "building"
       },
       "materiality": {
-        "estimated_event_value": null,
+        "estimated_event_value": 1600000000.0,
         "market_cap_ratio": null,
         "score": 5,
         "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
+        "basis": "Quantum computing firm D-Wave to IPO via $1.6bn SPAC merger",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
       },
-      "fundamentals": {
-        "name": "Yimutian Inc",
-        "industry": "Media",
-        "country": "CN",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2025-08-19",
-        "weburl": "",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950956453266.png",
-        "market_cap": 2420000.0,
-        "pe_ttm": null,
-        "ps_ttm": 0.0565,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": -3.35,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 83.26,
-        "net_margin_ttm": -29.45,
-        "current_ratio": 0.4974,
-        "debt_equity": null,
-        "beta": 2.3409204
-      },
+      "fundamentals": {},
       "themes": [
-        "Cloud & software"
+        "AI infrastructure",
+        "Semiconductors",
+        "Robotics & automation",
+        "Defense & aerospace"
       ],
       "stories": [
         {
-          "ticker": "YMT",
+          "ticker": "IBM",
           "company_name": "",
-          "source": "Finviz",
-          "title": "YMT - Yimutian Inc ADR Stock Price and Quote Home News Screener Charts Maps Groups Portfolio Insider Futures Forex Crypto Calendar Pricing Theme Help Login Register Upgrade to Finviz Elite: Get our fastest platform speed, real-time data, and unlimited screening & charting. Start Free Trial YMT Yimutian Inc ADR",
-          "summary": "This page provides an overview of Yimutian Inc. ADR (YMT) stock information, including its latest closing price, financial metrics, and recent news headlines. It highlights the company's activities in agricultural AI, Nasdaq compliance issues, and strategic acquisitions, along with key financial data and an IPO date.",
-          "url": "https://finviz.com/stock?t=YMT",
-          "published_at": "2026-05-29T18:08:59+00:00",
-          "sentiment": -0.154702,
+          "source": "SeekingAlpha",
+          "title": "IBM: Big Blue Sees Red Hat; Mainframe Headwinds, Software Tailwinds",
+          "summary": "International Business Machines is a Buy, appearing fairly valued after a sharp drop driven by a 42% Q2'26 mainframe sales decline. Click for more on IBM stock.",
+          "url": "https://finnhub.io/api/news?id=da9d9e9d7b1e034598215b33fe1e27adb45547a7f4c3a701190aef14b173b15d",
+          "published_at": "2026-08-18T07:32:25+00:00",
+          "sentiment": 0.0,
           "evidence_type": "Professional reporting",
-          "fingerprint": "1335964030d5",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "YMT",
-          "company_name": "",
-          "source": "Finviz",
-          "title": "YMT - Yimutian Inc ADR Stock Price and Quote",
-          "summary": "Yimutian Inc. (YMT) is an agricultural B2B platform based in China, providing digital solutions for agricultural product transactions. The company recently announced receipt of Nasdaq delisting notices, which triggered a sharp selloff in its stock. Despite these challenges, Yimutian has been actively pursuing strategic initiatives, including launching an AI-powered sales assistant, increasing its ADS facility, and p…",
-          "url": "https://finviz.com/quote?t=YMT",
-          "published_at": "2026-04-30T14:10:55+00:00",
-          "sentiment": -0.636896,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "541b7e5b0309",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "YMT",
-          "company_name": "",
-          "source": "TradingView",
-          "title": "YMT Stock Price and Chart — NASDAQ:YMT",
-          "summary": "This article provides an overview of Yimutian Inc. (NASDAQ: YMT), including its stock price performance, key financial statistics, and company profile. It highlights a recent strategic pivot announced by the company, involving the acquisition of a premium camellia oil producer, Jiufeng Agriculture. The article also provides technical indicators and discusses the company's B2B platform for agricultural product transa…",
-          "url": "https://www.tradingview.com/symbols/NASDAQ-YMT/",
-          "published_at": "2026-03-08T16:51:22+00:00",
-          "sentiment": -0.416102,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "bfb12ddc159b",
-          "relevance": 1.0
+          "fingerprint": "4790c53902c3",
+          "display_relevant": true
         }
       ],
       "history": [
         {
           "date": "2026-08-18",
-          "signal_score": 37.0,
-          "discovery_score": 44.5
+          "signal_score": 61.3,
+          "discovery_score": 76.6
         }
       ]
     },
     {
-      "ticker": "GLE",
-      "company_name": "Global Engine Group Holding Ltd",
-      "signal_score": 35.6,
-      "discovery_score": 43.8,
-      "confidence_score": 40.5,
-      "primary_catalyst": "GLE - Global Engine Group Holding Ltd Stock Price and Quote",
+      "ticker": "T",
+      "company_name": "",
+      "signal_score": 56.0,
+      "discovery_score": 68.8,
+      "confidence_score": 63.8,
+      "primary_catalyst": "Telecom Turmoil: Comcast Rises 7% on Media Spinoff, AT&T Falls 5% on CFO Exit and Starlink Threat, Verizon Sinks 7% on Dow Exit",
       "catalyst_category": "M&A",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "12 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-05-30T00:10:27+00:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-08-18T13:27:13+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -1138,26 +2308,26 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
+        "independent_sources": 6,
+        "unique_story_clusters": 12
       },
       "metrics": {
         "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
+        "coverage_acceleration": 10.0,
         "catalyst_strength": 20,
-        "corroboration": 5.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 5.6,
-        "coverage_ratio_vs_baseline": 0.0
+        "corroboration": 15.0,
+        "source_quality": 5.5,
+        "sentiment_signal": 5.5,
+        "coverage_ratio_vs_baseline": 2.0
       },
       "discovery_metrics": {
-        "attention_lift": 0.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
-        "source_breadth": 6.0,
+        "source_breadth": 15.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
         "sentiment": 2.8,
-        "coverage_ratio_vs_baseline": 0.0
+        "coverage_ratio_vs_baseline": 2.0
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -1165,98 +2335,40 @@
         "maturity": "building"
       },
       "materiality": {
-        "estimated_event_value": null,
+        "estimated_event_value": 42000000.0,
         "market_cap_ratio": null,
         "score": 5,
         "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
+        "basis": "Tutor Perini (TPC) Stock Is Up, What You Need To Know",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
       },
-      "fundamentals": {
-        "name": "Global Engine Group Holding Ltd",
-        "industry": "Technology",
-        "country": "HK",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2024-09-20",
-        "weburl": "https://www.globalengine.com.hk/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950834212126.png",
-        "market_cap": 7502999.999999998,
-        "pe_ttm": null,
-        "ps_ttm": 1.8083,
-        "pb_annual": 3.4706,
-        "revenue_growth_ttm_yoy": -56.13,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 16.8,
-        "net_margin_ttm": -37.44,
-        "current_ratio": 3.4354,
-        "debt_equity": 0,
-        "beta": 2.4945526
-      },
+      "fundamentals": {},
       "themes": [
-        "AI infrastructure"
+        "Cybersecurity",
+        "Cloud & software"
       ],
-      "stories": [
-        {
-          "ticker": "GLE",
-          "company_name": "",
-          "source": "Finviz",
-          "title": "GLE - Global Engine Group Holding Ltd Stock Price and Quote",
-          "summary": "This article provides comprehensive financial data and news headlines for Global Engine Group Holding Ltd (GLE). It includes stock performance metrics, valuation ratios, insider and institutional ownership, and a chronological list of recent press releases detailing company activities such as strategic partnerships, IPOs, acquisitions, and compliance notices.",
-          "url": "https://finviz.com/stock?t=GLE",
-          "published_at": "2026-05-30T00:10:27+00:00",
-          "sentiment": -0.132238,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "c7c31d4175d5",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "GLE",
-          "company_name": "",
-          "source": "Stock Titan",
-          "title": "Global Engine Group Holding (GLE) Stock Price, News & Analysis",
-          "summary": "Global Engine Group Holding (GLE) is a Hong Kong-headquartered integrated solutions provider in the information communication technologies (ICT) sector, operating through wholly owned subsidiaries. The company offers ICT solution services, technical services, and project management, targeting telecom operators, data center providers, and IoT solution providers in Hong Kong and Southeast Asia. GLE recently announced…",
-          "url": "https://www.stocktitan.net/overview/GLE/",
-          "published_at": "2025-04-25T02:10:27+00:00",
-          "sentiment": 0.132816,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "935ba48e30c1",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "GLE",
-          "company_name": "",
-          "source": "Stock Titan",
-          "title": "GLE - Global Engine Group Holding Limited Latest Stock News & Market Updates",
-          "summary": "This page provides the latest news and updates for Global Engine Group Holding Limited (GLE), an integrated ICT solutions provider based in Hong Kong. It covers public announcements, market disclosures, financial results, corporate governance actions, and listing status, including recent news on a Nasdaq minimum bid price deficiency notice, approval of a dual-class share structure, and an acquisition of a minority s…",
-          "url": "https://www.stocktitan.net/news/GLE/",
-          "published_at": "2024-09-16T22:52:03+00:00",
-          "sentiment": -0.338535,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "0bd44611af50",
-          "relevance": 1.0
-        }
-      ],
+      "stories": [],
       "history": [
         {
           "date": "2026-08-18",
-          "signal_score": 35.6,
-          "discovery_score": 43.8
+          "signal_score": 56.0,
+          "discovery_score": 68.8
         }
       ]
     },
     {
-      "ticker": "SNAP",
-      "company_name": "Snap Inc",
-      "signal_score": 37.6,
-      "discovery_score": 43.5,
-      "confidence_score": 46.8,
-      "primary_catalyst": "China's Tencent takes 12 percent stake in Snap as shares plunge",
+      "ticker": "ALAB",
+      "company_name": "",
+      "signal_score": 57.2,
+      "discovery_score": 66.6,
+      "confidence_score": 62.5,
+      "primary_catalyst": "Connection Announces Partnership With Microsoft, Qualcomm, And OEM Partners To Launch Copilot+ PCs, A New Generation Of Windows-Based Devices For AI Workloads",
       "catalyst_category": "M&A",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-08-17T09:19:31+00:00",
+      "why_it_matters": "8 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-08-18T11:29:19+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -1265,26 +2377,26 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
+        "independent_sources": 4,
+        "unique_story_clusters": 8
       },
       "metrics": {
         "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
+        "coverage_acceleration": 10.0,
         "catalyst_strength": 20,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.1,
-        "coverage_ratio_vs_baseline": 0.0
+        "corroboration": 15.0,
+        "source_quality": 5.0,
+        "sentiment_signal": 7.2,
+        "coverage_ratio_vs_baseline": 2.0
       },
       "discovery_metrics": {
-        "attention_lift": 0.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
-        "source_breadth": 6.0,
+        "source_breadth": 12.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0
+        "sentiment": 3.6,
+        "coverage_ratio_vs_baseline": 2.0
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -1299,87 +2411,326 @@
         "basis": "",
         "caution": "No reliably extractable event value found."
       },
-      "fundamentals": {
-        "name": "Snap Inc",
-        "industry": "Media",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2017-03-02",
-        "weburl": "https://snap.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SNAP.png",
-        "market_cap": 8760404229.622921,
-        "pe_ttm": null,
-        "ps_ttm": 1.3904,
-        "pb_annual": 6.0816,
-        "revenue_growth_ttm_yoy": 12.65,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 57.47,
-        "net_margin_ttm": -4.9,
-        "current_ratio": 3.5628,
-        "debt_equity": 1.5502,
-        "beta": 1.0688066
+      "fundamentals": {},
+      "themes": [
+        "AI infrastructure",
+        "Semiconductors",
+        "Robotics & automation",
+        "Cloud & software"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 57.2,
+          "discovery_score": 66.6
+        }
+      ]
+    },
+    {
+      "ticker": "MS",
+      "company_name": "",
+      "signal_score": 50.7,
+      "discovery_score": 60.8,
+      "confidence_score": 62.5,
+      "primary_catalyst": "Bitcoin Custody for Institutional Clients Is Coming to Citi Later This Year",
+      "catalyst_category": "M&A",
+      "why_it_matters": "9 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-08-18T13:59:24+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
       },
-      "themes": [],
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 6,
+        "unique_story_clusters": 9
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 5.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 5.0,
+        "sentiment_signal": 5.7,
+        "coverage_ratio_vs_baseline": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 8.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.8,
+        "coverage_ratio_vs_baseline": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 40000000000.0,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "Grab shares plunge following giant $40B Nasdaq SPAC merger debut",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {},
+      "themes": [
+        "Cloud & software"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 50.7,
+          "discovery_score": 60.8
+        }
+      ]
+    },
+    {
+      "ticker": "VZ",
+      "company_name": "",
+      "signal_score": 50.9,
+      "discovery_score": 60.7,
+      "confidence_score": 63.8,
+      "primary_catalyst": "Telecom Turmoil: Comcast Rises 7% on Media Spinoff, AT&T Falls 5% on CFO Exit and Starlink Threat, Verizon Sinks 7% on Dow Exit",
+      "catalyst_category": "M&A",
+      "why_it_matters": "6 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-08-18T02:34:40+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 5,
+        "unique_story_clusters": 6
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 5.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 5.5,
+        "sentiment_signal": 5.4,
+        "coverage_ratio_vs_baseline": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 8.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.7,
+        "coverage_ratio_vs_baseline": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "themes": [
+        "AI infrastructure",
+        "Cybersecurity",
+        "Cloud & software",
+        "Financial technology"
+      ],
       "stories": [
         {
-          "ticker": "SNAP",
+          "ticker": "VZ",
           "company_name": "",
-          "source": "Reuters",
-          "title": "China's Tencent takes 12 percent stake in Snap as shares plunge",
-          "summary": "China's Tencent Holdings Ltd has acquired a 12 percent stake in Snap Inc, the parent company of Snapchat, a day after Snap's shares fell significantly following disappointing quarterly results. Investors view Tencent's move as a financial investment rather than a precursor to a merger, especially given Snap's slowing user growth and non-voting Class A shares bought by Tencent. Despite potential for a business partne…",
-          "url": "https://www.reuters.com/article/technology/chinas-tencent-takes-12-percent-stake-in-snap-as-shares-plunge-idUSKBN1D81G1/",
-          "published_at": "2017-11-08T18:11:00+00:00",
-          "sentiment": 0.012833,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "22ef9e734f75",
-          "relevance": 0.303128
-        },
-        {
-          "ticker": "SNAP",
-          "company_name": "",
-          "source": "Benzinga",
-          "title": "Snap Stock Drops Monday: What's Driving the Move?",
-          "summary": "Snap Inc. (NYSE: SNAP) shares are trading lower Monday as Wall Street weighs a 9th U.S. Circuit ruling and insider stock sales.",
-          "url": "https://finnhub.io/api/news?id=97d79e91dea43283c2294c758df568485bfc8674d1c9f312770b4d37cdc600af",
-          "published_at": "2026-08-17T09:19:31+00:00",
+          "source": "Yahoo",
+          "title": "Verizon (VZ) Brings AI And 5G To Airspace Monitoring Pilots",
+          "summary": "Verizon Communications (NYSE: VZ) and Lockheed Martin are collaborating on NetSense Airspace Awareness-as-a-Service, using AI and 5G to support unmanned aircraft systems detection and critical infrastructure protection. The partners are working with additional technology providers to connect sensor data over Verizon's 5G network for real-time monitoring of UAS activity. The initiative includes planned pilot deployme…",
+          "url": "https://finnhub.io/api/news?id=ad9f1caaa08cac42d5985a0a3e447cc9580836ca6cdfef0c54243a76af7ab9f8",
+          "published_at": "2026-08-15T12:10:23+00:00",
           "sentiment": 0.0,
           "evidence_type": "Professional reporting",
-          "fingerprint": "fd9f65d9995f"
-        },
-        {
-          "ticker": "SNAP",
-          "company_name": "",
-          "source": "Benzinga",
-          "title": "Evolution Metals & Technologies, Barfresh Food Group, Snap And Other Big Stocks Moving Lower In Monday’s Pre-Market Session",
-          "summary": "U.S. stock futures were mixed this morning, with the Nasdaq 100 futures up 150 points. Evolution Metals & Technologies Corp (EMAT) drops in pre-market trading due to weak sales. Other stocks, such as BRFH, SNAP, and VCRE also decline.",
-          "url": "https://finnhub.io/api/news?id=fd4fd046518755001b539130bf207265a16b454c9132641251c6bcfe3d3c99a1",
-          "published_at": "2026-08-17T08:05:04+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "0a209f8f22f7"
+          "fingerprint": "a334dc8a41f7",
+          "display_relevant": true
         }
       ],
       "history": [
         {
           "date": "2026-08-18",
-          "signal_score": 37.6,
-          "discovery_score": 43.5
+          "signal_score": 50.9,
+          "discovery_score": 60.7
+        }
+      ]
+    },
+    {
+      "ticker": "NDAQ",
+      "company_name": "",
+      "signal_score": 50.3,
+      "discovery_score": 60.6,
+      "confidence_score": 62.5,
+      "primary_catalyst": "Wall Street Breakfast Podcast: Return Of The Bond Vigilantes?",
+      "catalyst_category": "M&A",
+      "why_it_matters": "7 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-08-18T06:58:00+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 5,
+        "unique_story_clusters": 7
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 5.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 5.0,
+        "sentiment_signal": 5.3,
+        "coverage_ratio_vs_baseline": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 8.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 2.6,
+        "coverage_ratio_vs_baseline": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "themes": [
+        "AI infrastructure",
+        "Financial technology"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 50.3,
+          "discovery_score": 60.6
+        }
+      ]
+    },
+    {
+      "ticker": "JPM",
+      "company_name": "",
+      "signal_score": 49.0,
+      "discovery_score": 59.5,
+      "confidence_score": 62.5,
+      "primary_catalyst": "Which dow jones stocks are moving on Tuesday?",
+      "catalyst_category": "Financial distress",
+      "why_it_matters": "14 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-08-18T16:40:06+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 6,
+        "unique_story_clusters": 14
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 5.0,
+        "catalyst_strength": 18,
+        "corroboration": 15.0,
+        "source_quality": 5.0,
+        "sentiment_signal": 6.0,
+        "coverage_ratio_vs_baseline": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 8.0,
+        "novelty": 20.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 0.0,
+        "sentiment": 3.0,
+        "coverage_ratio_vs_baseline": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "themes": [
+        "AI infrastructure",
+        "Cloud & software"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 49.0,
+          "discovery_score": 59.5
         }
       ]
     },
     {
       "ticker": "YAAS",
-      "company_name": "Youxin Technology Ltd",
-      "signal_score": 34.1,
-      "discovery_score": 42.5,
-      "confidence_score": 24.5,
-      "primary_catalyst": "Youxin Technology (Nasdaq:YAAS) - Stock Analysis",
+      "company_name": "",
+      "signal_score": 46.8,
+      "discovery_score": 50.4,
+      "confidence_score": 58.5,
+      "primary_catalyst": "12 Information Technology Stocks Moving In Monday's After-Market Session",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
+      "why_it_matters": "4 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Negative",
       "attention_status": "Normal",
       "article_count_24h": 0,
-      "latest_event_at": "2026-05-25T15:39:59+00:00",
+      "latest_event_at": "2026-08-17T17:06:23+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -1388,25 +2739,25 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
+        "independent_sources": 4,
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 0,
         "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
-        "corroboration": 0.0,
+        "corroboration": 15.0,
         "source_quality": 5.0,
-        "sentiment_signal": 9.1,
+        "sentiment_signal": 6.8,
         "coverage_ratio_vs_baseline": 0.0
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
         "novelty": 20.0,
-        "source_breadth": 3.0,
+        "source_breadth": 12.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
-        "sentiment": 4.5,
+        "sentiment": 3.4,
         "coverage_ratio_vs_baseline": 0.0
       },
       "baseline": {
@@ -1443,6 +2794,7 @@
         "beta": 1.0834237
       },
       "themes": [
+        "AI infrastructure",
         "Cloud & software"
       ],
       "stories": [
@@ -1457,35 +2809,36 @@
           "sentiment": -0.810809,
           "evidence_type": "Professional reporting",
           "fingerprint": "a7348e4c6b7a",
-          "relevance": 1.0
+          "relevance": 1.0,
+          "display_relevant": true
         }
       ],
       "history": [
         {
           "date": "2026-08-18",
-          "discovery_score": 50.3,
-          "signal_score": 46.7
+          "discovery_score": 42.5,
+          "signal_score": 34.1
         },
         {
           "date": "2026-08-18",
-          "signal_score": 34.1,
-          "discovery_score": 42.5
+          "signal_score": 46.8,
+          "discovery_score": 50.4
         }
       ]
     },
     {
-      "ticker": "TME",
-      "company_name": "Tencent Music Entertainment Group",
-      "signal_score": 32.6,
-      "discovery_score": 41.8,
-      "confidence_score": 24.5,
-      "primary_catalyst": "The Audio Architect: A Deep-Dive into Tencent Music Entertainment Group (TME) in 2026",
+      "ticker": "MBLY",
+      "company_name": "",
+      "signal_score": 47.0,
+      "discovery_score": 50.2,
+      "confidence_score": 59.8,
+      "primary_catalyst": "Intel To Carve-Out Mobileye On October 26",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
+      "why_it_matters": "4 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Positive",
       "attention_status": "Normal",
       "article_count_24h": 0,
-      "latest_event_at": "2026-03-17T09:58:00+00:00",
+      "latest_event_at": "2025-03-09T03:31:29+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -1494,22 +2847,156 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
+        "independent_sources": 4,
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 0,
         "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 7.6,
+        "corroboration": 15.0,
+        "source_quality": 5.5,
+        "sentiment_signal": 6.5,
         "coverage_ratio_vs_baseline": 0.0
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
         "novelty": 20.0,
-        "source_breadth": 3.0,
+        "source_breadth": 12.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 3.2,
+        "coverage_ratio_vs_baseline": 0.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 78000000.0,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "Point72 buys 5% stake in Mobileye",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {},
+      "themes": [],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 47.0,
+          "discovery_score": 50.2
+        }
+      ]
+    },
+    {
+      "ticker": "MTCH",
+      "company_name": "",
+      "signal_score": 48.6,
+      "discovery_score": 50.0,
+      "confidence_score": 65.2,
+      "primary_catalyst": "Bumble's $14 billion date: Blackstone-backed dating app soars on market debut",
+      "catalyst_category": "M&A",
+      "why_it_matters": "4 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2021-05-25T22:23:09+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 4,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 7.7,
+        "sentiment_signal": 5.9,
+        "coverage_ratio_vs_baseline": 0.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 20.0,
+        "source_breadth": 12.0,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 0.0,
+        "sentiment": 3.0,
+        "coverage_ratio_vs_baseline": 0.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 0,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": 3100000000.0,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "Match Group Seeks to Raise up to $466M in IPO",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {},
+      "themes": [
+        "Cloud & software"
+      ],
+      "stories": [],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "signal_score": 48.6,
+          "discovery_score": 50.0
+        }
+      ]
+    },
+    {
+      "ticker": "GILT",
+      "company_name": "",
+      "signal_score": 42.5,
+      "discovery_score": 47.8,
+      "confidence_score": 48.5,
+      "primary_catalyst": "Ituran: The Market Is Pricing In Too Much Of A Slowdown",
+      "catalyst_category": "M&A",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-08-15T11:22:17+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 0,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 0,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 20,
+        "corroboration": 10.0,
+        "source_quality": 5.0,
+        "sentiment_signal": 7.5,
+        "coverage_ratio_vs_baseline": 0.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 20.0,
+        "source_breadth": 9.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
         "sentiment": 3.8,
@@ -1528,65 +3015,30 @@
         "basis": "",
         "caution": "No reliably extractable event value found."
       },
-      "fundamentals": {
-        "name": "Tencent Music Entertainment Group",
-        "industry": "Media",
-        "country": "CN",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2018-12-12",
-        "weburl": "https://www.tencentmusic.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TME.png",
-        "market_cap": 12273706963.390602,
-        "pe_ttm": 9.1002,
-        "ps_ttm": 2.3917,
-        "pb_annual": 2.1087,
-        "revenue_growth_ttm_yoy": 12.09,
-        "eps_growth_ttm_yoy": -13.46,
-        "gross_margin_ttm": 44.32,
-        "net_margin_ttm": 26.28,
-        "current_ratio": 2.2248,
-        "debt_equity": 0.0475,
-        "beta": 0.75632685
-      },
-      "themes": [
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "TME",
-          "company_name": "",
-          "source": "FinancialContent",
-          "title": "The Audio Architect: A Deep-Dive into Tencent Music Entertainment Group (TME) in 2026",
-          "summary": "Tencent Music Entertainment Group (TME) has transformed into a profitable subscription powerhouse, shifting from its previous livestreaming-heavy model. With a dominant market share in China's digital audio landscape, TME's strategic pivot to online music subscriptions and its acquisition of Ximalaya for long-form audio content have solidified its position. The company's strong financial performance, leadership, and…",
-          "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-3-17-the-audio-architect-a-deep-dive-into-tencent-music-entertainment-group-tme-in-2026",
-          "published_at": "2026-03-17T09:58:00+00:00",
-          "sentiment": 0.510443,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "5c93f7260b1e",
-          "relevance": 1.0
-        }
-      ],
+      "fundamentals": {},
+      "themes": [],
+      "stories": [],
       "history": [
         {
           "date": "2026-08-18",
-          "signal_score": 32.6,
-          "discovery_score": 41.8
+          "signal_score": 42.5,
+          "discovery_score": 47.8
         }
       ]
     },
     {
-      "ticker": "MMYT",
-      "company_name": "MakeMyTrip Ltd",
-      "signal_score": 32.2,
-      "discovery_score": 41.6,
-      "confidence_score": 24.5,
-      "primary_catalyst": "AI push, new deals and possible India listing for MakeMyTrip (NASDAQ: MMYT)",
+      "ticker": "DJT",
+      "company_name": "",
+      "signal_score": 42.5,
+      "discovery_score": 47.8,
+      "confidence_score": 48.5,
+      "primary_catalyst": "Joe Rogan Hits at Trump’s Crypto Billions, Says ‘Shady’ Family Deals Could Trigger Arrests: 'Who's Telling Him...'",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Positive",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Negative",
       "attention_status": "Normal",
       "article_count_24h": 0,
-      "latest_event_at": "2026-03-16T13:08:33+00:00",
+      "latest_event_at": "2026-08-15T12:31:26+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -1595,25 +3047,25 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
+        "independent_sources": 3,
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 0,
         "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
-        "corroboration": 0.0,
+        "corroboration": 10.0,
         "source_quality": 5.0,
-        "sentiment_signal": 7.2,
+        "sentiment_signal": 7.5,
         "coverage_ratio_vs_baseline": 0.0
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
         "novelty": 20.0,
-        "source_breadth": 3.0,
+        "source_breadth": 9.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
-        "sentiment": 3.6,
+        "sentiment": 3.8,
         "coverage_ratio_vs_baseline": 0.0
       },
       "baseline": {
@@ -1622,73 +3074,37 @@
         "maturity": "building"
       },
       "materiality": {
-        "estimated_event_value": null,
+        "estimated_event_value": 1000000000.0,
         "market_cap_ratio": null,
         "score": 5,
         "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
+        "basis": "Trump Media replaces CEO Devin Nunes as its losses top $1 billion",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
       },
-      "fundamentals": {
-        "name": "MakeMyTrip Ltd",
-        "industry": "Hotels, Restaurants & Leisure",
-        "country": "IN",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2010-08-12",
-        "weburl": "https://investors.makemytrip.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MMYT.png",
-        "market_cap": 5615301829.875869,
-        "pe_ttm": 166.904,
-        "ps_ttm": 5.3861,
-        "pb_annual": 9.0656,
-        "revenue_growth_ttm_yoy": 6.86,
-        "eps_growth_ttm_yoy": -61.63,
-        "gross_margin_ttm": 73.45,
-        "net_margin_ttm": 3.23,
-        "current_ratio": 3.0491,
-        "debt_equity": 0.1967,
-        "beta": 1.0546808
-      },
-      "themes": [
-        "AI infrastructure",
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "MMYT",
-          "company_name": "",
-          "source": "Stock Titan",
-          "title": "AI push, new deals and possible India listing for MakeMyTrip (NASDAQ: MMYT)",
-          "summary": "MakeMyTrip (NASDAQ: MMYT) is strategically enhancing its leadership in India's travel market through acquisitions, AI investments, and a potential India listing. The company has acquired Flamingo Transworld and invested in Atlys to expand its offerings, while leveraging AI for personalized customer experiences through its Myra platform. A proposed domestic listing of MakeMyTrip India aims to access local capital and…",
-          "url": "https://www.stocktitan.net/sec-filings/MMYT/6-k-make-my-trip-ltd-current-report-foreign-issuer-a808b0cf2445.html",
-          "published_at": "2026-03-16T13:08:33+00:00",
-          "sentiment": 0.43422,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "be7e9a7be1ec",
-          "relevance": 1.0
-        }
-      ],
+      "fundamentals": {},
+      "themes": [],
+      "stories": [],
       "history": [
         {
           "date": "2026-08-18",
-          "signal_score": 32.2,
-          "discovery_score": 41.6
+          "signal_score": 42.5,
+          "discovery_score": 47.8
         }
       ]
     },
     {
       "ticker": "U",
-      "company_name": "Unity Software Inc",
-      "signal_score": 33.1,
-      "discovery_score": 41.6,
-      "confidence_score": 27.0,
-      "primary_catalyst": "Unity Software (U) Is Up 11.5% After Q3 Beat And Epic Deal News Has The Bull Case Changed?",
+      "company_name": "",
+      "signal_score": 43.2,
+      "discovery_score": 47.6,
+      "confidence_score": 51.0,
+      "primary_catalyst": "Unity Software stock jumps 10% as analysts credit it with dodging Apple's online-ad crackdown",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Positive",
       "attention_status": "Normal",
       "article_count_24h": 0,
-      "latest_event_at": "2025-12-11T18:11:00+00:00",
+      "latest_event_at": "2026-08-17T16:31:51+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -1697,22 +3113,22 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
+        "independent_sources": 3,
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 0,
         "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
-        "corroboration": 0.0,
+        "corroboration": 10.0,
         "source_quality": 6.0,
-        "sentiment_signal": 7.1,
+        "sentiment_signal": 7.2,
         "coverage_ratio_vs_baseline": 0.0
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
         "novelty": 20.0,
-        "source_breadth": 3.0,
+        "source_breadth": 9.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
         "sentiment": 3.6,
@@ -1766,614 +3182,36 @@
           "sentiment": 0.429995,
           "evidence_type": "Professional reporting",
           "fingerprint": "a2a0f1ea3a8e",
-          "relevance": 1.0
+          "relevance": 1.0,
+          "display_relevant": true
         }
       ],
       "history": [
         {
           "date": "2026-08-18",
-          "discovery_score": 47.6,
-          "signal_score": 43.2
+          "discovery_score": 41.6,
+          "signal_score": 33.1
         },
         {
           "date": "2026-08-18",
-          "signal_score": 33.1,
-          "discovery_score": 41.6
+          "signal_score": 43.2,
+          "discovery_score": 47.6
         }
       ]
     },
     {
-      "ticker": "ATGL",
-      "company_name": "Alpha Technology Group Ltd",
-      "signal_score": 32.0,
-      "discovery_score": 41.5,
-      "confidence_score": 24.5,
-      "primary_catalyst": "Alpha Technology Group (Nasdaq:ATGL) - Stock Analysis",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Negative",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-05-05T09:11:13+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 7.0,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 3.5,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": 247900000.0,
-        "market_cap_ratio": 2.1512,
-        "score": 20,
-        "label": "Potentially transformative",
-        "basis": "Alpha Technology Group (Nasdaq:ATGL) - Stock Analysis",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "Alpha Technology Group Ltd",
-        "industry": "Technology",
-        "country": "HK",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2023-10-31",
-        "weburl": "https://techlution.io/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950867088256.png",
-        "market_cap": 115237499.99999999,
-        "pe_ttm": null,
-        "ps_ttm": 94.3095,
-        "pb_annual": 125.3489,
-        "revenue_growth_ttm_yoy": -43.13,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 48.07,
-        "net_margin_ttm": -727.68,
-        "current_ratio": 3.3292,
-        "debt_equity": 0.1634,
-        "beta": 4.045543
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "ATGL",
-          "company_name": "",
-          "source": "Simply Wall Street",
-          "title": "Alpha Technology Group (Nasdaq:ATGL) - Stock Analysis",
-          "summary": "Alpha Technology Group (ATGL) is a Hong Kong-based IT solutions and services provider with a current market cap of US$247.9m. The company has experienced significant financial challenges, with earnings declining by 81.5% per year over the past five years and consistently reporting losses. Recent news includes a letter of intent to acquire Rainbow Capital Holdings Limited",
-          "url": "https://simplywall.st/stocks/us/software/nasdaq-atgl/alpha-technology-group",
-          "published_at": "2026-05-05T09:11:13+00:00",
-          "sentiment": -0.392425,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "d9070b566b2a",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 32.0,
-          "discovery_score": 41.5
-        }
-      ]
-    },
-    {
-      "ticker": "ARBE",
-      "company_name": "Arbe Robotics Ltd",
-      "signal_score": 32.0,
-      "discovery_score": 41.5,
-      "confidence_score": 24.5,
-      "primary_catalyst": "Arbe Robotics lists on Nasdaq as SPAC merger completed",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2021-10-07T09:31:00+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 7.0,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 3.5,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": 525000000.0,
-        "market_cap_ratio": 5.265,
-        "score": 20,
-        "label": "Potentially transformative",
-        "basis": "Arbe Robotics lists on Nasdaq as SPAC merger completed",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "Arbe Robotics Ltd",
-        "industry": "Electrical Equipment",
-        "country": "IL",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2020-10-08",
-        "weburl": "https://arberobotics.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950600691946.png",
-        "market_cap": 99714242.97666833,
-        "pe_ttm": null,
-        "ps_ttm": 117.5964,
-        "pb_annual": 3.1361,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 6.52516,
-        "net_margin_ttm": -3563.365,
-        "current_ratio": 2.1807,
-        "debt_equity": 0.6257,
-        "beta": 1.2111372
-      },
-      "themes": [
-        "Robotics & automation"
-      ],
-      "stories": [
-        {
-          "ticker": "ARBE",
-          "company_name": "",
-          "source": "Globes - Israel Business News",
-          "title": "Arbe Robotics lists on Nasdaq as SPAC merger completed",
-          "summary": "Arbe Robotics has completed its SPAC merger with Industrial Tech Acquisitions, Inc. and will begin trading on Nasdaq under the ticker ARBE. The company, which develops 4D imaging radar solutions for smart cars, merged at a valuation of $525 million and raised $118 million, including a private placement from investors like Eyal Waldman. Despite a significant portion of SPAC shareholders redeeming their shares, Arbe R…",
-          "url": "https://en.globes.co.il/en/article-arbe-robotics-lists-on-nasdaq-friday-as-spac-merger-completed-1001386505",
-          "published_at": "2021-10-07T09:31:00+00:00",
-          "sentiment": 0.403242,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "563a3bb529d8",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 32.0,
-          "discovery_score": 41.5
-        }
-      ]
-    },
-    {
-      "ticker": "ONFO",
-      "company_name": "Onfolio Holdings Inc",
-      "signal_score": 31.5,
-      "discovery_score": 41.3,
-      "confidence_score": 24.5,
-      "primary_catalyst": "What is Onfolio Holdings Inc. (ONFO) stock_business overview_development history",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-06-15T11:39:47+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 6.5,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 3.3,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Onfolio Holdings Inc",
-        "industry": "Media",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2022-08-26",
-        "weburl": "https://onfolio.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950769429446.png",
-        "market_cap": 1997500.0,
-        "pe_ttm": null,
-        "ps_ttm": 0.2788,
-        "pb_annual": 1.6064,
-        "revenue_growth_ttm_yoy": -34.16,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 54.95,
-        "net_margin_ttm": -51.32,
-        "current_ratio": 0.4364,
-        "debt_equity": 0.8636,
-        "beta": 2.3605912
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "ONFO",
-          "company_name": "",
-          "source": "Bitget",
-          "title": "What is Onfolio Holdings Inc. (ONFO) stock_business overview_development history",
-          "summary": "Onfolio Holdings Inc. (ONFO) is a NASDAQ-listed company that acquires and manages a diversified portfolio of high cash-flow online businesses, prioritizing operational efficiency and long-term value creation. The company has shifted focus to acquiring larger, stable businesses and integrating AI-driven optimization tools, demonstrating strong revenue growth but still working towards consistent net profitability. Ana…",
-          "url": "https://www.bitget.com/stock/nasdaq-onfo/what-is",
-          "published_at": "2026-06-15T11:39:47+00:00",
-          "sentiment": 0.301678,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "199df07ca640",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 31.5,
-          "discovery_score": 41.3
-        }
-      ]
-    },
-    {
-      "ticker": "CEVA",
-      "company_name": "CEVA Inc",
-      "signal_score": 31.3,
-      "discovery_score": 41.2,
-      "confidence_score": 24.5,
-      "primary_catalyst": "CEVA (CEVA) Starts Underwritten Public Offering",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2025-11-29T01:11:00+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 6.3,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 3.2,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "CEVA Inc",
-        "industry": "Semiconductors",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2002-11-01",
-        "weburl": "https://www.ceva-ip.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959063066.png",
-        "market_cap": 920919654.664964,
-        "pe_ttm": null,
-        "ps_ttm": 7.8141,
-        "pb_annual": 1.7281,
-        "revenue_growth_ttm_yoy": 2.99,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 87.19,
-        "net_margin_ttm": -10.47,
-        "current_ratio": 9.9305,
-        "debt_equity": 0,
-        "beta": 1.9968692
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "CEVA",
-          "company_name": "",
-          "source": "Finviz",
-          "title": "CEVA (CEVA) Starts Underwritten Public Offering",
-          "summary": "CEVA, Inc. (NASDAQ: CEVA) has commenced an underwritten public offering of 3,000,000 shares of its common stock, with an option for underwriters to purchase an additional 450,000 shares. The company intends to use the net proceeds for potential acquisitions, investments, working capital, capital expenditures, share repurchases, and other general corporate purposes. This follows CEVA's Q3 2025 financial results, wher…",
-          "url": "https://finviz.com/news/241230/ceva-ceva-starts-underwritten-public-offering",
-          "published_at": "2025-11-29T01:11:00+00:00",
-          "sentiment": 0.266158,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "7e4ac3a7f4ae",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 31.3,
-          "discovery_score": 41.2
-        }
-      ]
-    },
-    {
-      "ticker": "PTRN",
-      "company_name": "Pattern Group Inc",
-      "signal_score": 33.3,
-      "discovery_score": 41.1,
-      "confidence_score": 29.5,
-      "primary_catalyst": "Pattern Group Inc. (PTRN) Stock: Weekend Market Close, Latest News, Analyst Targets, and What to Watch Before Monday’s Open",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2025-12-27T19:19:00+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 7.0,
-        "sentiment_signal": 6.3,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 3.1,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Pattern Group Inc",
-        "industry": "Retail",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2025-09-19",
-        "weburl": "",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950967445826.png",
-        "market_cap": 3655822093.2187505,
-        "pe_ttm": 178.1385,
-        "ps_ttm": 1.4759,
-        "pb_annual": 3.5003,
-        "revenue_growth_ttm_yoy": 36.18,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 43.69,
-        "net_margin_ttm": 0.83,
-        "current_ratio": 2.3411,
-        "debt_equity": 0,
-        "beta": 1.9232002
-      },
-      "themes": [
-        "AI infrastructure"
-      ],
-      "stories": [
-        {
-          "ticker": "PTRN",
-          "company_name": "",
-          "source": "TechStock²",
-          "title": "Pattern Group Inc. (PTRN) Stock: Weekend Market Close, Latest News, Analyst Targets, and What to Watch Before Monday’s Open",
-          "summary": "Pattern Group Inc. (NASDAQ: PTRN) is heading into the last full trading week of 2025 with its stock closing at $11.84 on Friday, December 26, up 3.14%, but dipping slightly after hours. The company, an e-commerce accelerator, recently acquired NextWave, a TikTok commerce agency, as it pushes for diversification beyond Amazon. While analysts maintain \"Moderate Buy\" ratings and average price targets around $21, implyi…",
-          "url": "https://ts2.tech/en/pattern-group-inc-ptrn-stock-weekend-market-close-latest-news-analyst-targets-and-what-to-watch-before-mondays-open/",
-          "published_at": "2025-12-27T19:19:00+00:00",
-          "sentiment": 0.257682,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "bd57e96e9f56",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 33.3,
-          "discovery_score": 41.1
-        }
-      ]
-    },
-    {
-      "ticker": "PSKY",
+      "ticker": "DFIN",
       "company_name": "",
-      "signal_score": 31.3,
-      "discovery_score": 41.1,
-      "confidence_score": 24.5,
-      "primary_catalyst": "PSKY Stock Price, Forecast & Analysis | PARAMOUNT SKYDANCE CL B (NASDAQ:PSKY)",
+      "signal_score": 40.1,
+      "discovery_score": 46.5,
+      "confidence_score": 48.5,
+      "primary_catalyst": "DA Davidson reiterates Buy on Donnelley Financial stock at $62 By Investing.com",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Negative",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2025-08-07T15:40:54+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 6.3,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 3.1,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "PSKY",
-          "company_name": "",
-          "source": "ChartMill",
-          "title": "PSKY Stock Price, Forecast & Analysis | PARAMOUNT SKYDANCE CL B (NASDAQ:PSKY)",
-          "summary": "Paramount Skydance Corp. (PSKY) is a global media and entertainment company formed via the merger of Paramount Global and Skydance Media, currently trading at $10.91. While the stock has a consensus price target of $14.60, indicating a potential 33.82% upside, its fundamental rating remains low at 3/10 due to financial health concerns and decreasing EPS.",
-          "url": "https://www.chartmill.com/stock/quote/PSKY/profile",
-          "published_at": "2025-08-07T15:40:54+00:00",
-          "sentiment": -0.259962,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "2517cdbafdda",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 31.3,
-          "discovery_score": 41.1
-        }
-      ]
-    },
-    {
-      "ticker": "SAGT",
-      "company_name": "",
-      "signal_score": 30.5,
-      "discovery_score": 40.8,
-      "confidence_score": 28.5,
-      "primary_catalyst": "SAGT - Sagtec Global Ltd Stock Price and Quote",
-      "catalyst_category": "M&A",
-      "why_it_matters": "2 unique credible information items from 1 independent source. This company is new to the stored baseline.",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
-      "latest_event_at": "2026-05-29T16:40:31+00:00",
+      "latest_event_at": "2026-07-09T14:02:21+00:00",
       "new_to_radar": true,
       "days_on_radar": 1,
       "change": {
@@ -2382,270 +3220,14 @@
       },
       "evidence": {
         "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 2
+        "independent_sources": 3,
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 0,
         "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 5.5,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 2.8,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": 19100000.0,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "SAGT",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {},
-      "themes": [
-        "AI infrastructure",
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "SAGT",
-          "company_name": "",
-          "source": "Finviz",
-          "title": "SAGT - Sagtec Global Ltd Stock Price and Quote",
-          "summary": "This article provides a comprehensive overview of Sagtec Global Ltd (SAGT) stock performance, financial data, and recent news. It highlights the company's financial metrics such as market cap, P/E ratio, and revenue growth, alongside key corporate developments including partnerships, acquisitions, and expansions in AI and F&B technology sectors. The data also includes insider trading activities, showing a significan…",
-          "url": "https://finviz.com/stock?t=SAGT",
-          "published_at": "2026-05-29T16:40:31+00:00",
-          "sentiment": 0.433403,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "343664413498",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "SAGT",
-          "company_name": "",
-          "source": "Finviz",
-          "title": "SAGT",
-          "summary": "Sagtec Global Ltd (SAGT), a Malaysian technology company specializing in software and cloud computing services, recently reported record revenue of US$19.1 million in fiscal year 2025, marking a 49% year-over-year growth. The company has been actively expanding its AI-driven solutions, making strategic acquisitions in the F&B sector, and securing significant contracts for its AI platforms across Southeast Asia and t…",
-          "url": "https://finviz.com/quote?t=SAGT",
-          "published_at": "2026-04-29T03:39:50+00:00",
-          "sentiment": -0.646477,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "dfcb6a48910b",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 30.5,
-          "discovery_score": 40.8
-        }
-      ]
-    },
-    {
-      "ticker": "ZSPC",
-      "company_name": "",
-      "signal_score": 30.7,
-      "discovery_score": 40.8,
-      "confidence_score": 24.5,
-      "primary_catalyst": "ZSPC - zSpace Inc Latest Stock News & Market Updates",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2025-12-11T17:10:01+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 5.7,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 2.8,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "ZSPC",
-          "company_name": "",
-          "source": "Stock Titan",
-          "title": "ZSPC - zSpace Inc Latest Stock News & Market Updates",
-          "summary": "This page provides the latest news and market updates for zSpace Inc (ZSPC), a company focused on augmented reality (AR) and virtual reality (VR) solutions for education. It details recent events such as acquisitions, financial results, conference participation, index inclusions, and product launches. The compilation highlights zSpace's strategic advancements in immersive learning and its financial performance as a…",
-          "url": "https://www.stocktitan.net/news/ZSPC/page-4.html",
-          "published_at": "2025-12-11T17:10:01+00:00",
-          "sentiment": 0.130943,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "166ee3cfdacb",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 30.7,
-          "discovery_score": 40.8
-        }
-      ]
-    },
-    {
-      "ticker": "LAZR",
-      "company_name": "",
-      "signal_score": 30.3,
-      "discovery_score": 40.7,
-      "confidence_score": 24.5,
-      "primary_catalyst": "Tema Photonics & Optical ETF (LAZR) Stock News",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2025-08-12T09:16:57+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 5.3,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 2.7,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "LAZR",
-          "company_name": "",
-          "source": "Stock Titan",
-          "title": "Tema Photonics & Optical ETF (LAZR) Stock News",
-          "summary": "This page provides news and insights for investors interested in Tema Photonics & Optical ETF (LAZR). It covers company updates, financial results, strategic developments, and acquisition news related to Luminar Technologies, which is a significant component of the ETF. Recent news highlights include LAZR adding Anthropic as a top holding, Luminar's Q2'25 financials, and its initiation of voluntary Chapter 11 procee…",
-          "url": "https://www.stocktitan.net/news/LAZR/",
-          "published_at": "2025-08-12T09:16:57+00:00",
-          "sentiment": 0.066227,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "f2e3cc5d898c",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 30.3,
-          "discovery_score": 40.7
-        }
-      ]
-    },
-    {
-      "ticker": "DDI",
-      "company_name": "",
-      "signal_score": 30.1,
-      "discovery_score": 40.6,
-      "confidence_score": 24.5,
-      "primary_catalyst": "DDI - DoubleDown Interactive Co Ltd ADR Stock Price and Quote",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-06-13T03:09:34+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
+        "corroboration": 10.0,
         "source_quality": 5.0,
         "sentiment_signal": 5.1,
         "coverage_ratio_vs_baseline": 0.0
@@ -2653,167 +3235,7 @@
       "discovery_metrics": {
         "attention_lift": 0.0,
         "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 2.6,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "DDI",
-          "company_name": "",
-          "source": "Finviz",
-          "title": "DDI - DoubleDown Interactive Co Ltd ADR Stock Price and Quote",
-          "summary": "This page provides a detailed financial overview and recent news for DoubleDown Interactive Co Ltd (DDI), an ADR in the electronic gaming and multimedia sector. It includes stock quotes, key financial metrics like market cap, P/E ratio, and dividend information, alongside a comprehensive list of analyst ratings and corporate press releases, highlighting recent earnings, acquisitions, and philanthropic activities.",
-          "url": "https://finviz.com/stock?t=DDI",
-          "published_at": "2026-06-13T03:09:34+00:00",
-          "sentiment": 0.02475,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "fd8db403f151",
-          "relevance": 0.349266
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 30.1,
-          "discovery_score": 40.6
-        }
-      ]
-    },
-    {
-      "ticker": "GSAT",
-      "company_name": "",
-      "signal_score": 30.1,
-      "discovery_score": 40.5,
-      "confidence_score": 24.5,
-      "primary_catalyst": "GSAT Stock News Today | Earnings, Events & Price Alerts",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-05-30T13:09:31+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 5.1,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 0.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": 11600000000.0,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "GSAT Stock News Today | Earnings, Events & Price Alerts",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "GSAT",
-          "company_name": "",
-          "source": "Intellectia AI",
-          "title": "GSAT Stock News Today | Earnings, Events & Price Alerts",
-          "summary": "This article provides recent news and events for Globalstar (GSAT) stock. Key updates include Amazon acquiring Apple's 20% stake in Globalstar as part of an $11.6 billion acquisition, Globalstar's postponement and subsequent launch of HIBLEO-4 satellites for its LEO constellation, and the company's Q1 revenue report which was slightly below consensus.",
-          "url": "https://intellectia.ai/en/stock/GSAT/news",
-          "published_at": "2026-05-30T13:09:31+00:00",
-          "sentiment": 0.014341,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "f92bfd765bc4",
-          "relevance": 0.341579
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 30.1,
-          "discovery_score": 40.5
-        }
-      ]
-    },
-    {
-      "ticker": "GXAI",
-      "company_name": "",
-      "signal_score": 30.0,
-      "discovery_score": 40.5,
-      "confidence_score": 24.5,
-      "primary_catalyst": "GXAI",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-05-26T22:09:29+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
+        "source_breadth": 9.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 0.0,
         "sentiment": 2.5,
@@ -2835,870 +3257,14 @@
       "fundamentals": {},
       "themes": [
         "AI infrastructure",
-        "Defense & aerospace"
-      ],
-      "stories": [
-        {
-          "ticker": "GXAI",
-          "company_name": "",
-          "source": "Finviz",
-          "title": "GXAI",
-          "summary": "Gaxos.AI Inc. (GXAI) is a technology company focused on developing AI applications to enhance user experience, founded by Vadim Mats. The company's stock closed at $1.19 on May 28, with a 6.25% increase. GXAI is involved in various AI initiatives, including music generation, AI chat, 3D model creation, and strategic acquisitions in drone defense and health tech areas, as evidenced by numerous recent announcements.",
-          "url": "https://finviz.com/stock?t=GXAI",
-          "published_at": "2026-05-26T22:09:29+00:00",
-          "sentiment": 0.008778,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "97e42d5d24e3",
-          "relevance": 0.339982
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 30.0,
-          "discovery_score": 40.5
-        }
-      ]
-    },
-    {
-      "ticker": "MSCI",
-      "company_name": "",
-      "signal_score": 31.1,
-      "discovery_score": 40.1,
-      "confidence_score": 40.5,
-      "primary_catalyst": "Insilico Medicine Included in MSCI Global Small Cap Indexes, Gaining Capital Market Endorsement in Core Strengths",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-08-17T12:30:00+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 7.1,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 6.0,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 0.0,
-        "sentiment": 3.6,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [
-        "AI infrastructure"
-      ],
-      "stories": [
-        {
-          "ticker": "MSCI",
-          "company_name": "",
-          "source": "Yahoo",
-          "title": "Insilico Medicine Included in MSCI Global Small Cap Indexes, Gaining Capital Market Endorsement in Core Strengths",
-          "summary": "Insilico Medicine (\"Insilico\", HKEX: 3696), a clinical-stage drug discovery company powered by generative artificial intelligence (AI), announced that it will be included in MSCI Global Small Cap Indexes compiled by Morgan Stanley Capital International (MSCI). The change will take effect as of the close of August 31, 2026.",
-          "url": "https://finnhub.io/api/news?id=507a55145d548128a8d30a67b9d8d2c7024c854eabca4e274f7ae2106a60a01c",
-          "published_at": "2026-08-17T12:30:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "22575616b8a0"
-        },
-        {
-          "ticker": "MSCI",
-          "company_name": "",
-          "source": "Yahoo",
-          "title": "Q2 Rundown: MSCI (NYSE:MSCI) Vs Other Financial Exchanges & Data Stocks",
-          "summary": "Earnings results often indicate what direction a company will take in the months ahead. With Q2 behind us, let’s have a look at MSCI (NYSE:MSCI) and its peers.",
-          "url": "https://finnhub.io/api/news?id=247b40892a6d01ec202e639890f6764d8da4e2fac361524ed94e71d9aeedc05f",
-          "published_at": "2026-08-16T22:29:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "4610e935bdc6"
-        },
-        {
-          "ticker": "MSCI",
-          "company_name": "",
-          "source": "PR Newswire",
-          "title": "NYSE Content Update: Two MSCI Indexes to Begin Trading on NYSE Arca Options",
-          "summary": "The New York Stock Exchange (NYSE) announced that MSCI Emerging Markets Index Options and MSCI EAFE Index Options will begin trading today on NYSE Arca Options under the ticker symbols MXEF and MXEA. This is part of their daily pre-market update providing market insights. The update also covered other market news including Nvidia's upcoming earnings release and Dynatrace's milestone achievement.",
-          "url": "https://www.prnewswire.com/apac/news-releases/nyse-content-update-two-msci-indexes-to-begin-trading-on-nyse-arca-options-302697127.html",
-          "published_at": "2026-02-25T20:50:42+00:00",
-          "sentiment": 0.42318,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "375c25219d67",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 31.1,
-          "discovery_score": 40.1
-        }
-      ]
-    },
-    {
-      "ticker": "MSFT",
-      "company_name": "",
-      "signal_score": 31.1,
-      "discovery_score": 40.1,
-      "confidence_score": 36.5,
-      "primary_catalyst": "Microsoft (NASDAQ:MSFT): A Best Dividend Screen Pick with Quality and Sustainability",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-08-17T12:11:38+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 7.1,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 6.0,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 0.0,
-        "sentiment": 3.6,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Microsoft Corp",
-        "industry": "Technology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1986-03-13",
-        "weburl": "https://www.microsoft.com/en-in/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
-        "market_cap": 3566860693823.02,
-        "pe_ttm": 27.6621,
-        "ps_ttm": 11.1493,
-        "pb_annual": 6.2636,
-        "revenue_growth_ttm_yoy": 17.79,
-        "eps_growth_ttm_yoy": 31.56,
-        "gross_margin_ttm": 67.94,
-        "net_margin_ttm": 40.31,
-        "current_ratio": 1.2303,
-        "debt_equity": 0.2416,
-        "beta": 1.1032884
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "MSFT",
-          "company_name": "",
-          "source": "ChartMill",
-          "title": "Microsoft (NASDAQ:MSFT): A Best Dividend Screen Pick with Quality and Sustainability",
-          "summary": "Microsoft passes Best Dividend screen: 7/10 dividend rating, 0.73% yield, low payout, strong health/profitability. Reliable dividend growth.",
-          "url": "https://finnhub.io/api/news?id=8e69b6d1f00fb041f75c76c8e94a8a2120310cdc3398aa2f6d5fb87e212a74e4",
-          "published_at": "2026-08-17T12:11:38+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "356563d1a064"
-        },
-        {
-          "ticker": "MSFT",
-          "company_name": "",
-          "source": "MarketBeat",
-          "title": "TD Asset Management Inc Purchases 204,588 Shares of Microsoft Corporation $MSFT",
-          "summary": "TD Asset Management Inc increased its holdings in Microsoft Corporation by 2.2% in the second quarter, acquiring an additional 204,588 shares and making Microsoft its largest position. The article details other institutional investments in Microsoft, the company's price performance, recent earnings, dividend increase, and insider transactions by CEO Satya Nadella and insider Bradford L. Smith. Wall Street analysts m…",
-          "url": "https://www.marketbeat.com/instant-alerts/filing-td-asset-management-inc-purchases-204588-shares-of-microsoft-corporation-msft-2025-11-11/",
-          "published_at": "2025-11-11T10:46:44+00:00",
-          "sentiment": 0.422478,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "2c48b54abf29",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "discovery_score": 88.1,
-          "signal_score": 67.1
-        },
-        {
-          "date": "2026-08-18",
-          "signal_score": 31.1,
-          "discovery_score": 40.1
-        }
-      ]
-    },
-    {
-      "ticker": "MOBX",
-      "company_name": "",
-      "signal_score": 30.0,
-      "discovery_score": 40.0,
-      "confidence_score": 24.5,
-      "primary_catalyst": "Mobix Labs (NASDAQ: MOBX) resale filing details 3.74M-share overhang",
-      "catalyst_category": "Financial distress",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Negative",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-06-18T11:10:43+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 18,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 7.0,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 0.0,
-        "sentiment": 3.5,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "MOBX",
-          "company_name": "",
-          "source": "Stock Titan",
-          "title": "Mobix Labs (NASDAQ: MOBX) resale filing details 3.74M-share overhang",
-          "summary": "Mobix Labs has filed a resale registration for 3.74 million Class A common shares, representing about 25% of its current Class A float, without receiving direct proceeds from these resales, except for potential warrant exercises. The company faces significant financial challenges, including substantial operating losses and accumulated deficits, raising concerns about its ability to continue as a going concern and th…",
-          "url": "https://www.stocktitan.net/sec-filings/MOBX/s-1-mobix-labs-inc-files-ipo-registration-statement-b3fa285a2f2d.html",
-          "published_at": "2026-06-18T11:10:43+00:00",
-          "sentiment": -0.400367,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "07a86cdf8abb",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 30.0,
-          "discovery_score": 40.0
-        }
-      ]
-    },
-    {
-      "ticker": "NTCL",
-      "company_name": "",
-      "signal_score": 29.6,
-      "discovery_score": 39.1,
-      "confidence_score": 36.5,
-      "primary_catalyst": "NTCL - NetClass Technology Inc Stock Price and Quote",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Negative",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-06-01T15:40:32+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 13,
-        "corroboration": 5.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 6.6,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 6.0,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 0.0,
-        "sentiment": 3.3,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [
-        "AI infrastructure"
-      ],
-      "stories": [
-        {
-          "ticker": "NTCL",
-          "company_name": "",
-          "source": "Finviz",
-          "title": "NTCL - NetClass Technology Inc Stock Price and Quote",
-          "summary": "NetClass Technology Inc (NTCL) recently announced a 1-for-50 reverse stock split for its Class A and B shares to regain Nasdaq's minimum bid compliance. The company's stock closed at $0.1155, experiencing a significant decline. NTCL, which provides IT solutions and is expanding into AI, has been actively engaging in strategic partnerships and private placements, while facing challenges like Nasdaq compliance and not…",
-          "url": "https://finviz.com/stock?t=NTCL",
-          "published_at": "2026-06-01T15:40:32+00:00",
-          "sentiment": -0.413702,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "6b81ce06aaff",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "NTCL",
-          "company_name": "",
-          "source": "FinancialContent",
-          "title": "Press Releases about NETCLASS TECHNOLOGY INC - Class A Ordinary Shares (Nasdaq:NTCL)",
-          "summary": "This article compiles various press releases concerning NETCLASS TECHNOLOGY INC (NTCL), detailing significant company updates between December 2024 and April 2026. Key announcements include efforts to advance AI business, a Nasdaq minimum bid price deficiency notification, successful private placements, strategic partnerships, headquarters relocation, and IPO closing information. Additionally, the Rosen Law Firm has…",
-          "url": "https://www.financialcontent.com/quote/NQ:NTCL/pressReleases",
-          "published_at": "2026-04-13T16:39:43+00:00",
-          "sentiment": -0.236559,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "dee602b726f2",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 29.6,
-          "discovery_score": 39.1
-        }
-      ]
-    },
-    {
-      "ticker": "MYPS",
-      "company_name": "",
-      "signal_score": 28.0,
-      "discovery_score": 39.0,
-      "confidence_score": 24.5,
-      "primary_catalyst": "MYPS - Playstudios Inc Latest Stock News & Market Updates",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-02-28T03:51:59+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 18,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 0.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [
         "Cloud & software"
       ],
-      "stories": [
-        {
-          "ticker": "MYPS",
-          "company_name": "",
-          "source": "Stock Titan",
-          "title": "MYPS - Playstudios Inc Latest Stock News & Market Updates",
-          "summary": "This page provides investors and traders with the latest news and insights on Playstudios (MYPS), a publisher and developer of free-to-play mobile and social games known for its playAWARDS and myVIP loyalty platforms. The news feed aggregates earnings announcements, operational updates, and press releases, including those detailing financial performance, product developments like the Tetris mobile app, and loyalty p…",
-          "url": "https://www.stocktitan.net/news/MYPS/page-8.html",
-          "published_at": "2026-02-28T03:51:59+00:00",
-          "sentiment": 0.009906,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "a9b53273c4e0",
-          "relevance": 1.0
-        }
-      ],
+      "stories": [],
       "history": [
         {
           "date": "2026-08-18",
-          "signal_score": 28.0,
-          "discovery_score": 39.0
-        }
-      ]
-    },
-    {
-      "ticker": "CRWV",
-      "company_name": "",
-      "signal_score": 28.2,
-      "discovery_score": 38.4,
-      "confidence_score": 24.5,
-      "primary_catalyst": "Pomerantz Law Firm Announces the Filing of a Class Action Against CoreWeave, Inc. and Certain Officers - CRWV",
-      "catalyst_category": "Legal / investigation",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Negative",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-02-13T12:57:31+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 15,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 8.2,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 11.2,
-        "primary_evidence": 0.0,
-        "sentiment": 4.1,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [
-        "AI infrastructure",
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "CRWV",
-          "company_name": "",
-          "source": "PR Newswire",
-          "title": "Pomerantz Law Firm Announces the Filing of a Class Action Against CoreWeave, Inc. and Certain Officers - CRWV",
-          "summary": "Pomerantz LLP has filed a class action lawsuit against CoreWeave, Inc. (NASDAQ: CRWV) and some of its officers, alleging violations of federal securities laws. The lawsuit claims that CoreWeave made materially false and misleading statements regarding its ability to meet customer demand for its AI cloud services, downplaying risks associated with its reliance on a single third-party data center supplier. Investors w…",
-          "url": "https://www.prnewswire.com/news-releases/pomerantz-law-firm-announces-the-filing-of-a-class-action-against-coreweave-inc--and-certain-officers--crwv-302686901.html",
-          "published_at": "2026-02-13T12:57:31+00:00",
-          "sentiment": -0.644355,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "78bec61de7f9",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 28.2,
-          "discovery_score": 38.4
-        }
-      ]
-    },
-    {
-      "ticker": "IQST",
-      "company_name": "",
-      "signal_score": 28.7,
-      "discovery_score": 38.4,
-      "confidence_score": 24.5,
-      "primary_catalyst": "IQST Surges After NASDAQ Uplisting And Vision To Reach $1 Bln In Revenue",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2025-05-14T11:29:00+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 9.7,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 0.0,
-        "sentiment": 4.9,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [
-        "AI infrastructure",
-        "Cybersecurity",
-        "Financial technology"
-      ],
-      "stories": [
-        {
-          "ticker": "IQST",
-          "company_name": "",
-          "source": "Nasdaq",
-          "title": "IQST Surges After NASDAQ Uplisting And Vision To Reach $1 Bln In Revenue",
-          "summary": "IQSTEL Inc. (IQST) shares surged after its uplisting to the NASDAQ Capital Market, marking a significant transition from a telecom operator to a high-tech global enterprise. The company forecasts revenues of $340 million for 2025 and aims to achieve $1 billion in annual revenue by 2027, driven by strategic shifts into Fintech, AI Telecom Services, and Cybersecurity. This move is expected to enhance commercial trust…",
-          "url": "https://www.nasdaq.com/articles/iqst-surges-after-nasdaq-uplisting-and-vision-reach-1-bln-revenue",
-          "published_at": "2025-05-14T11:29:00+00:00",
-          "sentiment": 0.949835,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "c6819ee677dd",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 28.7,
-          "discovery_score": 38.4
-        }
-      ]
-    },
-    {
-      "ticker": "XNET",
-      "company_name": "",
-      "signal_score": 26.7,
-      "discovery_score": 37.3,
-      "confidence_score": 24.5,
-      "primary_catalyst": "XNET - Xunlei Ltd Latest Stock News & Market Updates",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2025-04-25T21:09:18+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 0.0,
-        "source_quality": 5.0,
-        "sentiment_signal": 7.7,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 0.0,
-        "sentiment": 3.8,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [
-        "AI infrastructure",
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "XNET",
-          "company_name": "",
-          "source": "Stock Titan",
-          "title": "XNET - Xunlei Ltd Latest Stock News & Market Updates",
-          "summary": "Xunlei Ltd (XNET) is a Chinese cloud-based acceleration technology company that offers innovative digital platforms and value-added services. The company's core business involves high-performance products like the Xunlei Accelerator, providing rapid and reliable access to digital content and enhancing user experience through cloud computing. Xunlei generates revenue through subscription fees, usage-based models for…",
-          "url": "https://www.stocktitan.net/overview/XNET/",
-          "published_at": "2025-04-25T21:09:18+00:00",
-          "sentiment": 0.534804,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "7ba6aff26388",
-          "relevance": 1.0
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "signal_score": 26.7,
-          "discovery_score": 37.3
-        }
-      ]
-    },
-    {
-      "ticker": "FLY",
-      "company_name": "",
-      "signal_score": 27.2,
-      "discovery_score": 36.8,
-      "confidence_score": 37.5,
-      "primary_catalyst": "Firefly Aerospace (NASDAQ: FLY) Stock: Why Shares Are Sliding in Today’s Post-Christmas Session, Key Catalysts, and Wall Street Forecasts",
-      "catalyst_category": "Legal / investigation",
-      "why_it_matters": "3 unique credible information items from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2025-12-26T18:08:26+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 0,
-        "independent_sources": 1,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 0,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 15,
-        "corroboration": 0.0,
-        "source_quality": 7.0,
-        "sentiment_signal": 5.2,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 11.2,
-        "primary_evidence": 0.0,
-        "sentiment": 2.6,
-        "coverage_ratio_vs_baseline": 0.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 0,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "themes": [
-        "Defense & aerospace"
-      ],
-      "stories": [
-        {
-          "ticker": "FLY",
-          "company_name": "",
-          "source": "ts2.tech",
-          "title": "Firefly Aerospace (NASDAQ: FLY) Stock: Why Shares Are Sliding in Today’s Post-Christmas Session, Key Catalysts, and Wall Street Forecasts",
-          "summary": "Firefly Aerospace (NASDAQ: FLY) stock is down roughly 11% in today's post-Christmas session due to resurfacing legal/lawsuit headlines and analysts resetting expectations after a turbulent post-IPO period. The company's future depends on proving its ability to run scalable launch and lunar missions, with investors closely watching milestones, earnings, and operational updates. Analysts' price targets vary widely, re…",
-          "url": "https://ts2.tech/en/firefly-aerospace-nasdaq-fly-stock-why-shares-are-sliding-in-todays-post-christmas-session-key-catalysts-and-wall-street-forecasts/",
-          "published_at": "2025-12-26T18:08:26+00:00",
-          "sentiment": -0.283264,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "9791a28172cf",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "FLY",
-          "company_name": "",
-          "source": "ts2.tech",
-          "title": "Firefly Aerospace Stock (NASDAQ: FLY) News Today: Fresh Catalysts, Analyst Forecasts, and Key Risks to Watch (Dec. 22, 2025)",
-          "summary": "Firefly Aerospace (NASDAQ: FLY) is under investor scrutiny due to new leadership, commercial and defense advancements, updated analyst coverage, and upcoming securities lawsuit deadlines. The company's recent appointment of Ramon Sanchez as COO aims to scale operations, while analysts provide generally bullish price targets despite caution regarding launch reliability and profitability. Investors are closely watchin…",
-          "url": "https://ts2.tech/en/firefly-aerospace-stock-nasdaq-fly-news-today-fresh-catalysts-analyst-forecasts-and-key-risks-to-watch-dec-22-2025/",
-          "published_at": "2025-12-22T10:08:43+00:00",
-          "sentiment": 0.133079,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "151d7ab64265",
-          "relevance": 1.0
-        },
-        {
-          "ticker": "FLY",
-          "company_name": "",
-          "source": "ts2.tech",
-          "title": "Firefly Aerospace Stock (NASDAQ: FLY) News Today, Dec. 19, 2025: Analyst Coverage, Lawsuit Deadline, and What Investors Are Watching",
-          "summary": "Firefly Aerospace stock (NASDAQ: FLY) experienced high volatility on December 19, 2025, driven by KeyBanc initiating coverage with a \"Sector Weight\" rating and reminders about an investor class-action lawsuit with a January 12, 2026 deadline for lead plaintiff status. The company is actively building its Alpha launch cadence, expanding lunar services with Blue Ghost Mission 2, and strengthening its national security…",
-          "url": "https://ts2.tech/en/firefly-aerospace-stock-nasdaq-fly-news-today-dec-19-2025-analyst-coverage-lawsuit-deadline-and-what-investors-are-watching/",
-          "published_at": "2025-12-19T17:08:39+00:00",
-          "sentiment": 0.05207,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "e4f19d85a999",
-          "relevance": 0.973687
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "discovery_score": 68.7,
-          "signal_score": 56.4
-        },
-        {
-          "date": "2026-08-18",
-          "signal_score": 27.2,
-          "discovery_score": 36.8
+          "signal_score": 40.1,
+          "discovery_score": 46.5
         }
       ]
     }
