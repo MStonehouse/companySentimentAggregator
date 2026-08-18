@@ -213,3 +213,139 @@ footer { border-top:1px solid var(--line); color:var(--muted); padding:22px 0 34
   .summary-grid, .method-grid { grid-template-columns:1fr; }
   .company-card { padding:16px; }
 }
+
+
+.method-item { position: relative; }
+
+.method-item > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.info-button {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--panel-2);
+  color: var(--accent);
+  font-size: .72rem;
+  font-weight: 900;
+  line-height: 1;
+  cursor: help;
+}
+
+.info-tooltip {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 10px);
+  z-index: 20;
+  width: min(290px, 78vw);
+  padding: 11px 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: #080e1b;
+  color: var(--text);
+  box-shadow: var(--shadow);
+  font-size: .76rem;
+  font-weight: 500;
+  line-height: 1.45;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, 5px);
+  transition: opacity .14s ease, transform .14s ease, visibility .14s ease;
+  pointer-events: none;
+}
+
+.info-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: #080e1b;
+}
+
+.info-button:hover .info-tooltip,
+.info-button:focus .info-tooltip,
+.info-button:focus-visible .info-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
+}
+
+@media (max-width: 760px) {
+  .info-tooltip {
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    bottom: 22px;
+    width: auto;
+    transform: translateY(8px);
+  }
+
+  .info-tooltip::after { display: none; }
+
+  .info-button:hover .info-tooltip,
+  .info-button:focus .info-tooltip,
+  .info-button:focus-visible .info-tooltip {
+    transform: translateY(0);
+  }
+}
+
+.view-switcher {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 26px;
+}
+.view-tab {
+  text-align: left;
+  border: 1px solid var(--line);
+  background: var(--panel);
+  color: var(--text);
+  border-radius: 16px;
+  padding: 17px 18px;
+  cursor: pointer;
+  transition: border-color .15s ease, background .15s ease, transform .15s ease;
+}
+.view-tab:hover { transform: translateY(-1px); border-color: #3d547c; }
+.view-tab.active { border-color: var(--accent); background: rgba(132,215,255,.07); }
+.view-tab strong { display:block; font-size:1rem; }
+.view-tab span { display:block; color:var(--muted); font-size:.78rem; margin-top:4px; }
+.baseline-note { color:var(--muted); font-size:.78rem; margin:10px 2px 0; }
+.ranking-description { color:var(--muted); max-width:760px; margin:7px 0 0; font-size:.86rem; }
+.ranking-heading { align-items:end; }
+.discovery-ring { border-color: var(--good); }
+.discovery-badge { color: var(--good); }
+.emerging-card { background: linear-gradient(145deg, var(--panel), rgba(111,227,168,.035)); }
+.dual-score { display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:18px 0 10px; }
+.dual-score > div { border:1px solid var(--line); background:var(--panel-2); border-radius:14px; padding:13px; }
+.dual-score span, .dual-score small { display:block; color:var(--muted); }
+.dual-score strong { display:block; color:var(--accent); font-size:2rem; line-height:1; margin:5px 0; }
+.dual-score small { font-size:.72rem; }
+.status-line { color:var(--muted); font-size:.82rem; }
+.discovery-breakdown strong { color:var(--good); }
+.secondary-model { margin-top:34px; padding-top:28px; border-top:1px solid var(--line); }
+.model-intro { color:var(--muted); max-width:760px; margin:8px 0 0; }
+
+@media (max-width: 760px) {
+  .view-switcher { grid-template-columns:1fr; }
+  .dual-score { grid-template-columns:1fr 1fr; }
+}
+@media (max-width: 430px) {
+  .dual-score { grid-template-columns:1fr; }
+}
+
+.snapshot-controls { grid-template-columns: 2fr 1fr; }
+.dashboard-baseline { margin-top: 24px; }
+.ranking-section { margin-top: 34px; }
+.emerging-section { padding-top: 34px; border-top: 1px solid var(--line); }
+@media (max-width: 760px) { .snapshot-controls { grid-template-columns: 1fr; } }

@@ -433,6 +433,93 @@ def score_company(ticker: str, stories: list[dict], baseline: float, company_nam
         "stories": top_stories,
     }
 
+
+def history_day_count(history: dict) -> int:
+    """Number of usable prior days in the local baseline."""
+    count = 0
+    for day in history.get("days", {}):
+        try:
+            d = dt.date.fromisoformat(day)
+        except Exception:
+            continue
+        if d < TODAY and d >= TODAY - dt.timedelta(days=30):
+            count += 1
+    return count
+
+
+def add_discovery_score(company: dict, baseline: float, baseline_days: int) -> dict:
+    """Add a separate Emerging/Discovery score without changing Signal Score.
+
+    Signal Score rewards absolute evidence quality and importance. Discovery Score
+    rewards unusual attention relative to the company's own stored baseline.
+    """
+    current = float(company.get("article_count_24h", 0) or 0)
+    sources = int(company.get("evidence", {}).get("independent_sources", 0) or 0)
+    primary = int(company.get("evidence", {}).get("primary_source_count", 0) or 0)
+    catalyst20 = float(company.get("metrics", {}).get("catalyst_strength", 0) or 0)
+    sentiment10 = float(company.get("metrics", {}).get("sentiment_signal", 5) or 5)
+
+    # 35 points: acceleration vs this company's normal level.
+    if baseline <= 0:
+        # New-to-the-baseline companies need several credible items to max this out.
+        attention_lift = min(35.0, current * 8.0)
+        ratio = current if current else 0.0
+    else:
+        ratio = current / max(0.5, baseline)
+        attention_lift = min(35.0, max(0.0, 12.0 * math.log2(max(1.0, ratio))))
+
+    # 20 points: novelty. Companies with a heavy normal news footprint get less.
+    novelty = max(0.0, 20.0 - min(20.0, baseline * 2.5))
+
+    # 15 points: independent credible source breadth.
+    source_breadth = min(15.0, sources * 3.0)
+
+    # 15 points: strength of the underlying catalyst.
+    catalyst = min(15.0, catalyst20 / 20.0 * 15.0)
+
+    # 10 points: primary evidence.
+    primary_evidence = 10.0 if primary else 0.0
+
+    # 5 points: strength of directional sentiment; neutral is not penalized to zero.
+    sentiment = min(5.0, sentiment10 / 10.0 * 5.0)
+
+    discovery = min(100.0, round(
+        attention_lift + novelty + source_breadth + catalyst + primary_evidence + sentiment, 1
+    ))
+
+    # Classifications are descriptive only; they do not affect the scores.
+    signal = float(company.get("signal_score", 0) or 0)
+    if discovery >= 80 and signal >= 75:
+        status = "Accelerating leader"
+    elif discovery >= 75:
+        status = "Breaking out"
+    elif discovery >= 60:
+        status = "Emerging"
+    elif signal >= 80:
+        status = "Established leader"
+    elif ratio > 1.2:
+        status = "Above baseline"
+    else:
+        status = "Normal"
+
+    company["discovery_score"] = discovery
+    company["attention_status"] = status
+    company["baseline"] = {
+        "avg_items_24h": round(float(baseline), 2),
+        "days_available": baseline_days,
+        "maturity": "established" if baseline_days >= 7 else "building",
+    }
+    company["discovery_metrics"] = {
+        "attention_lift": round(attention_lift, 1),
+        "novelty": round(novelty, 1),
+        "source_breadth": round(source_breadth, 1),
+        "catalyst_strength": round(catalyst, 1),
+        "primary_evidence": round(primary_evidence, 1),
+        "sentiment": round(sentiment, 1),
+        "coverage_ratio_vs_baseline": round(ratio, 2),
+    }
+    return company
+
 def main() -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     history = load_history()
@@ -444,11 +531,12 @@ def main() -> None:
     if SEC_USER_AGENT:
         try:
             secmap = sec_ticker_map()
+            # SEC's ticker file also gives us a free canonical company-name lookup
+            # for tickers discovered through news APIs.
+            for info in secmap.values():
+                ticker_names[info["ticker"]] = info["company_name"]
             secstories = fetch_sec_8k(secmap)
             all_stories.extend(secstories)
-            for s in secstories:
-                if s.get("company_name"):
-                    ticker_names[s["ticker"]] = s["company_name"]
         except Exception as exc:
             print(f"SEC collection warning: {exc}")
     else:
@@ -468,12 +556,16 @@ def main() -> None:
     for s in dedupe_stories(all_stories):
         grouped[s["ticker"]].append(s)
 
+    baseline_days = history_day_count(history)
     preliminary = []
     for ticker, stories in grouped.items():
-        preliminary.append(score_company(ticker, stories, baseline_for(history, ticker), ticker_names.get(ticker,"")))
-    preliminary.sort(key=lambda x: x["signal_score"], reverse=True)
+        baseline = baseline_for(history, ticker)
+        company = score_company(ticker, stories, baseline, ticker_names.get(ticker,""))
+        preliminary.append(add_discovery_score(company, baseline, baseline_days))
 
-    candidates = [x["ticker"] for x in preliminary[:MAX_COMPANIES]]
+    leader_candidates = sorted(preliminary, key=lambda x: x["signal_score"], reverse=True)[:MAX_COMPANIES]
+    emerging_candidates = sorted(preliminary, key=lambda x: x["discovery_score"], reverse=True)[:MAX_COMPANIES]
+    candidates = list(dict.fromkeys([x["ticker"] for x in leader_candidates + emerging_candidates]))[:MAX_COMPANIES * 2]
     if FINNHUB_KEY:
         for idx, ticker in enumerate(candidates):
             try:
@@ -499,10 +591,16 @@ def main() -> None:
             except Exception:
                 pass
         today_counts[ticker] = count24
-        companies.append(score_company(ticker, stories, baseline_for(history, ticker), ticker_names.get(ticker,"")))
+        baseline = baseline_for(history, ticker)
+        company = score_company(ticker, stories, baseline, ticker_names.get(ticker,""))
+        companies.append(add_discovery_score(company, baseline, baseline_days))
 
-    companies.sort(key=lambda x: x["signal_score"], reverse=True)
-    companies = companies[:MAX_COMPANIES]
+    # Keep enough companies for both views. The same company can appear in both.
+    leaders = sorted(companies, key=lambda x: x["signal_score"], reverse=True)[:MAX_COMPANIES]
+    emerging = sorted(companies, key=lambda x: x["discovery_score"], reverse=True)[:MAX_COMPANIES]
+    selected_tickers = {c["ticker"] for c in leaders + emerging}
+    companies = [c for c in companies if c["ticker"] in selected_tickers]
+    companies.sort(key=lambda x: max(x["signal_score"], x["discovery_score"]), reverse=True)
 
     output = {
         "meta": {
@@ -513,13 +611,19 @@ def main() -> None:
                 "alpha_vantage": bool(ALPHA_KEY),
                 "finnhub": bool(FINNHUB_KEY),
             },
-            "model_version": "1.0",
+            "model_version": "2.0",
+            "baseline_days": baseline_days,
+            "baseline_maturity": "established" if baseline_days >= 7 else "building",
+        },
+        "rankings": {
+            "market_leaders": [c["ticker"] for c in leaders],
+            "emerging_signals": [c["ticker"] for c in emerging],
         },
         "companies": companies,
     }
     OUT.write_text(json.dumps(output, indent=2, ensure_ascii=False))
     save_history(history, today_counts)
-    print(f"Wrote {OUT} with {len(companies)} ranked companies.")
+    print(f"Wrote {OUT} with {len(leaders)} leaders and {len(emerging)} emerging signals.")
 
 if __name__ == "__main__":
     main()

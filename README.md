@@ -168,3 +168,23 @@ company_signal/
 - News APIs may change free-tier quotas or licensing.
 - Source names reported by aggregators are not always perfectly normalized.
 - The current catalyst classifier is deliberately simple and explainable; it can later be replaced with a stronger model while preserving the same data structure.
+
+## Version 2: Market Leaders + Emerging Signals
+
+The dashboard now maintains two rankings from the same vetted evidence:
+
+- **Market Leaders** use `signal_score` (0–100) to rank the absolute strength of credible company-specific attention.
+- **Emerging Signals** use `discovery_score` (0–100) to rank attention that is unusual relative to each company's own stored baseline.
+
+### Discovery Score
+
+| Component | Max |
+|---|---:|
+| Attention lift vs. baseline | 35 |
+| Novelty / normally quiet coverage | 20 |
+| Independent source breadth | 15 |
+| Catalyst strength | 15 |
+| Primary evidence | 10 |
+| Sentiment strength | 5 |
+
+`data/history.json` builds the baseline over time. Discovery Scores are marked as provisional until at least 7 prior days of history are available. The updater also uses the SEC ticker map to fill in company names for tickers discovered through the news APIs whenever possible.
