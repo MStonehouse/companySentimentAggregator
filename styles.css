@@ -827,3 +827,566 @@ button {
     max-width: 100%;
   }
 }
+
+
+/* =========================================================
+   Company Signal — Clean Research Terminal
+   ========================================================= */
+
+:root {
+  --bg: #0f141a;
+  --panel: #151b22;
+  --panel2: #1b232d;
+  --line: #27313c;
+  --text: #eef2f6;
+  --muted: #8f9aa6;
+  --accent: #72b7ff;
+  --good: #66d19e;
+  --warn: #e9bd63;
+  --danger: #ef7f86;
+  --violet: #a897ff;
+  --cyan: #71d4e8;
+  --shadow: 0 12px 36px rgba(0,0,0,.22);
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  letter-spacing: 0;
+}
+
+.site-header,
+main,
+footer {
+  width: min(1240px, calc(100% - 36px));
+}
+
+.site-header {
+  min-height: auto;
+  align-items: flex-end;
+  padding: 34px 0 24px;
+  border-bottom: 1px solid var(--line);
+}
+
+.site-header > div:first-child {
+  max-width: 760px;
+}
+
+h1 {
+  margin: 5px 0 10px;
+  font-size: clamp(2.4rem, 6vw, 4.8rem);
+  line-height: .95;
+  font-weight: 700;
+  letter-spacing: -.055em;
+  color: var(--text);
+  text-shadow: none;
+}
+
+h2 {
+  font-weight: 650;
+  letter-spacing: -.035em;
+}
+
+.subtitle {
+  max-width: 700px;
+  color: var(--muted);
+  font-size: .98rem;
+}
+
+.eyebrow {
+  color: var(--accent);
+  font-size: .68rem;
+  font-weight: 750;
+  letter-spacing: .13em;
+}
+
+.updated-card {
+  min-width: 210px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  padding: 12px 14px;
+  box-shadow: none;
+}
+
+.updated-card span {
+  color: var(--muted);
+}
+
+.updated-card strong {
+  color: var(--text);
+}
+
+main {
+  padding-top: 22px;
+}
+
+.summary-grid {
+  gap: 10px;
+  border: 0;
+}
+
+.summary-card {
+  min-height: 112px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: none;
+  padding: 15px 16px;
+}
+
+.summary-card span {
+  color: var(--muted);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: .76rem;
+}
+
+.summary-card strong {
+  margin-top: 18px;
+  color: var(--text);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -.04em;
+}
+
+.controls {
+  gap: 10px;
+  padding: 22px 0 26px;
+}
+
+.controls label {
+  color: var(--muted);
+  font-size: .72rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+input,
+select {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  color: var(--text);
+  padding: 11px 12px;
+}
+
+input:focus,
+select:focus {
+  border-color: #3e84c7;
+  box-shadow: 0 0 0 3px rgba(114,183,255,.08);
+}
+
+.briefing-section,
+.watchlist-section,
+.market-landscape,
+.methodology {
+  margin-top: 40px;
+}
+
+.section-heading {
+  margin-bottom: 12px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.section-heading h2 {
+  font-size: clamp(1.7rem, 3vw, 2.6rem);
+  line-height: 1;
+}
+
+.result-count {
+  color: var(--muted);
+}
+
+.briefing-grid {
+  gap: 10px;
+  background: transparent;
+  border: 0;
+}
+
+.brief-card {
+  min-height: 118px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: none;
+  padding: 14px;
+}
+
+.brief-card h3 {
+  margin: 0 0 14px;
+  font-size: .72rem;
+  text-transform: none;
+  letter-spacing: .02em;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.brief-card.good,
+.brief-card.accent,
+.brief-card.warn {
+  border-top: 1px solid var(--line);
+}
+
+.brief-content {
+  gap: 6px;
+}
+
+.brief-pill {
+  min-height: 28px;
+  padding: 4px 8px;
+  border: 1px solid #33404d;
+  border-radius: 7px;
+  background: var(--panel2);
+  box-shadow: none;
+}
+
+.brief-pill:hover {
+  border-color: #4a5d70;
+  background: #202a35;
+  color: var(--text);
+}
+
+.brief-pill .ticker-link {
+  color: var(--text);
+  font-size: .74rem;
+  font-weight: 700;
+}
+
+.brief-pill:hover .ticker-link {
+  color: var(--text);
+}
+
+.brief-pill .brief-category {
+  color: var(--muted);
+}
+
+.rankings-grid {
+  gap: 16px;
+  background: transparent;
+}
+
+.ranking-column {
+  background: transparent;
+}
+
+.company-grid {
+  grid-template-columns: 1fr;
+  gap: 10px;
+  background: transparent;
+  border: 0;
+}
+
+.company-card,
+.emerging-card {
+  min-height: 168px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  box-shadow: none;
+  padding: 16px;
+}
+
+.company-card:hover,
+.emerging-card:hover {
+  transform: translateY(-1px);
+  border-color: #39495a;
+  background: #18202a;
+}
+
+.card-top {
+  align-items: flex-start;
+}
+
+.ticker {
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: .015em;
+}
+
+.company-name {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.score-ring,
+.discovery-ring {
+  width: 58px;
+  height: 58px;
+  min-width: 58px;
+  border: 5px solid var(--accent);
+  border-radius: 50%;
+  box-shadow: none;
+  display: grid;
+  place-items: center;
+  font-size: 1.08rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.discovery-ring {
+  border-color: var(--violet);
+}
+
+.score-label {
+  color: var(--muted);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: .64rem;
+}
+
+.catalyst {
+  margin-top: 16px;
+  max-width: 100%;
+  font-size: .92rem;
+  font-weight: 600;
+  line-height: 1.42;
+}
+
+.meta-row {
+  margin-top: 12px;
+  gap: 5px;
+}
+
+.badge {
+  border: 1px solid #33404d;
+  border-radius: 999px;
+  background: var(--panel2);
+  color: var(--muted);
+  padding: 4px 8px;
+  font-size: .66rem;
+}
+
+.badge.primary,
+.badge.positive {
+  color: var(--good);
+}
+
+.badge.new,
+.discovery-badge,
+.theme-badge {
+  color: var(--violet);
+}
+
+.badge.confidence,
+.catalyst-type {
+  color: var(--cyan);
+}
+
+.card-footer {
+  margin-top: 14px;
+  padding-top: 11px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.watch-button {
+  color: var(--muted);
+}
+
+.watch-button.active {
+  color: var(--warn);
+  text-shadow: none;
+}
+
+.landscape-grid {
+  gap: 12px;
+  background: transparent;
+  border: 0;
+}
+
+.landscape-panel,
+.detail-panel {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--panel);
+  box-shadow: none;
+}
+
+.theme-chip {
+  border: 1px solid #33404d;
+  border-radius: 999px;
+  background: var(--panel2);
+  color: var(--text);
+}
+
+.theme-chip:hover {
+  border-color: #4a5d70;
+  background: #202a35;
+  color: var(--text);
+}
+
+.heat-track {
+  height: 6px;
+  border-radius: 999px;
+  background: #222b35;
+}
+
+.heat-track span {
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.method-grid {
+  gap: 10px;
+  background: transparent;
+  border: 0;
+}
+
+.method-item {
+  min-height: 150px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: none;
+}
+
+.method-item strong {
+  color: var(--accent);
+  font-size: 2.1rem;
+  font-weight: 750;
+  letter-spacing: -.04em;
+}
+
+.method-item span {
+  margin-top: 14px;
+  color: var(--text);
+}
+
+.method-item small {
+  color: var(--muted);
+}
+
+.info-button {
+  border-color: #41505f;
+  background: var(--panel2);
+  color: var(--accent);
+}
+
+.info-tooltip {
+  background: #10161c;
+  border-color: #36424f;
+  color: var(--text);
+}
+
+dialog {
+  background: #121820;
+  color: var(--text);
+  border: 1px solid #36424f;
+  border-radius: 16px;
+  box-shadow: 0 28px 80px rgba(0,0,0,.42);
+}
+
+.close-button,
+.detail-watch {
+  background: var(--panel2);
+  border-color: #36424f;
+  color: var(--text);
+}
+
+.breakdown div,
+.score-extras article {
+  border-radius: 10px;
+  border-color: var(--line);
+  background: var(--panel);
+}
+
+.detail-score,
+.score-number {
+  color: var(--text);
+}
+
+.story {
+  border-top-color: var(--line);
+}
+
+.story a,
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.story a:hover {
+  text-decoration: underline;
+}
+
+.sparkline {
+  background: #111820;
+  border-radius: 8px;
+}
+
+.sparkline line {
+  stroke: #2c3742;
+}
+
+.sparkline polyline {
+  stroke: var(--accent);
+}
+
+.chart-pair > div:nth-child(2) .sparkline polyline {
+  stroke: var(--violet);
+}
+
+.empty-state {
+  border: 1px dashed #34414e;
+  border-radius: 12px;
+  background: transparent;
+}
+
+footer {
+  margin-top: 54px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+}
+
+.company-card,
+.brief-pill,
+.theme-chip,
+input,
+select,
+button {
+  transition: background-color .15s ease, border-color .15s ease, transform .15s ease;
+}
+
+@media (max-width: 900px) {
+  .rankings-grid {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 700px) {
+  .site-header,
+  main,
+  footer {
+    width: min(100% - 20px, 1240px);
+  }
+
+  .site-header {
+    padding-top: 24px;
+  }
+
+  h1 {
+    font-size: clamp(2.7rem, 15vw, 4.6rem);
+  }
+
+  .summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .summary-card {
+    min-height: 98px;
+  }
+
+  .brief-pill {
+    min-height: 29px;
+    padding: 5px 8px;
+  }
+}
