@@ -1,3 +1,66 @@
 {
-  "updated": {}
+  "updated": {
+    "TGT": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Target Corporation",
+        "description": "Target Corporation is an American retail corporation. Their retail formats include the discount store Target, the hypermarket SuperTarget, and small-format stores previously named CityTarget and TargetExpress before being consolidated under the Target branding.",
+        "industry": "DISCOUNT STORES",
+        "sector": "CONSUMER DEFENSIVE",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "PGR": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Progressive Corp",
+        "description": "The Progressive Corporation is an American insurance company, one of the largest providers of car insurance in the United States. The company insures motorcycles, boats, RVs, and commercial vehicles and provides home insurance through select companies.",
+        "industry": "INSURANCE - PROPERTY & CASUALTY",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "MRK": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Merck & Company Inc",
+        "description": "Merck & Co. is an American multinational pharmaceutical company headquartered in Kenilworth, New Jersey. It is named after the Merck family, which set up Merck Group in Germany in 1668.",
+        "industry": "DRUG MANUFACTURERS - GENERAL",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "MRNA": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Moderna Inc",
+        "description": "Moderna, Inc., a biotechnology company, develops messenger RNA-based vaccines and therapies for the treatment of infectious diseases, immuno-oncology, rare diseases, cardiovascular diseases, and autoimmune diseases. The company is headquartered in Cambridge, Massachusetts.",
+        "industry": "BIOTECHNOLOGY",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    }
+  }
 }
