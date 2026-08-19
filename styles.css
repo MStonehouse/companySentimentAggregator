@@ -1678,3 +1678,101 @@ footer,
     grid-template-columns: 1fr;
   }
 }
+
+
+/* =========================================================
+   v4.5 — collapsible dashboard layout
+   ========================================================= */
+
+.dashboard-section {
+  margin-top: 18px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  overflow: hidden;
+}
+
+.dashboard-section > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dashboard-section > summary::-webkit-details-marker {
+  display: none;
+}
+
+.dashboard-section > summary:hover {
+  background: var(--panel2);
+}
+
+.dashboard-section > summary h2 {
+  margin: 3px 0 4px;
+  font-size: 1.35rem;
+}
+
+.dashboard-section > summary .ranking-description {
+  margin: 0;
+}
+
+.summary-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.summary-chevron {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  border: 1px solid #3a3a3a;
+  border-radius: 5px;
+  color: var(--bright-blue, var(--accent));
+  font-size: 1.1rem;
+  line-height: 1;
+  transition: transform .15s ease;
+}
+
+.dashboard-section[open] > summary .summary-chevron {
+  transform: rotate(45deg);
+}
+
+.dashboard-section-body {
+  border-top: 1px solid var(--line);
+  padding: 16px;
+}
+
+.dashboard-section .company-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.dashboard-section .general-news-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 760px) {
+  .dashboard-section > summary {
+    padding: 15px;
+    align-items: flex-start;
+  }
+
+  .dashboard-section > summary h2 {
+    font-size: 1.15rem;
+  }
+
+  .dashboard-section .company-grid,
+  .dashboard-section .general-news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-section-body {
+    padding: 12px;
+  }
+}

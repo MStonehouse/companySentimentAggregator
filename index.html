@@ -34,66 +34,95 @@
       <div><label for="catalystFilter">Catalyst</label><select id="catalystFilter"><option value="">All catalysts</option></select></div>
     </section>
 
-    <section class="briefing-panel">
-      <div class="section-heading">
+    <details class="dashboard-section">
+      <summary>
         <div><p class="eyebrow">WHAT CHANGED</p><h2>Daily intelligence briefing</h2><p class="ranking-description">A compressed view of new, accelerating, cooling and high-impact developments.</p></div>
+        <span class="summary-chevron">+</span>
+      </summary>
+      <div class="dashboard-section-body">
+        <div id="briefingGrid" class="briefing-grid"></div>
       </div>
-      <div id="briefingGrid" class="briefing-grid"></div>
-    </section>
+    </details>
 
-    <section class="two-column-layout">
-      <div>
-        <div class="section-heading"><div><p class="eyebrow">MARKET LEADERS</p><h2>Who commands attention now</h2><p class="ranking-description">Absolute strength of vetted coverage, primary evidence and catalyst significance.</p></div><span id="leaderCount" class="result-count"></span></div>
-        <div id="leaderGrid" class="company-grid single-column"></div>
+    <details class="dashboard-section" open>
+      <summary>
+        <div><p class="eyebrow">MARKET LEADERS</p><h2>Who commands attention now</h2><p class="ranking-description">Top 12 companies by absolute credible market attention.</p></div>
+        <div class="summary-right"><span id="leaderCount" class="result-count"></span><span class="summary-chevron">+</span></div>
+      </summary>
+      <div class="dashboard-section-body">
+        <div id="leaderGrid" class="company-grid"></div>
         <div id="leaderEmpty" class="empty-state" hidden>No market leaders match the filters.</div>
       </div>
-      <div>
-        <div class="section-heading"><div><p class="eyebrow">EMERGING SIGNALS</p><h2>Who is gaining unusual attention</h2><p class="ranking-description">Attention measured relative to each company’s own recent baseline.</p></div><span id="emergingCount" class="result-count"></span></div>
-        <div id="emergingGrid" class="company-grid single-column"></div>
+    </details>
+
+    <details class="dashboard-section" open>
+      <summary>
+        <div><p class="eyebrow">EMERGING SIGNALS</p><h2>Who is gaining unusual attention</h2><p class="ranking-description">Top 12 companies by unusual attention relative to their own baseline.</p></div>
+        <div class="summary-right"><span id="emergingCount" class="result-count"></span><span class="summary-chevron">+</span></div>
+      </summary>
+      <div class="dashboard-section-body">
+        <div id="emergingGrid" class="company-grid"></div>
         <div id="emergingEmpty" class="empty-state" hidden>No emerging signals match the filters.</div>
       </div>
-    </section>
+    </details>
 
-    <section class="watchlist-section">
-      <div class="section-heading"><div><p class="eyebrow">YOUR WATCHLIST</p><h2>Companies you want to keep close</h2><p class="ranking-description">Stored only in this browser. No account or database required.</p></div><span id="watchCount" class="result-count"></span></div>
-      <div id="watchGrid" class="company-grid"></div>
-      <div id="watchEmpty" class="empty-state">Star a company to add it here.</div>
-    </section>
+    <details class="dashboard-section">
+      <summary>
+        <div><p class="eyebrow">YOUR WATCHLIST</p><h2>Companies you want to keep close</h2><p class="ranking-description">Stored only in this browser. No account or database required.</p></div>
+        <div class="summary-right"><span id="watchCount" class="result-count"></span><span class="summary-chevron">+</span></div>
+      </summary>
+      <div class="dashboard-section-body">
+        <div id="watchGrid" class="company-grid"></div>
+        <div id="watchEmpty" class="empty-state">Star a company to add it here.</div>
+      </div>
+    </details>
 
-    <section class="landscape-grid">
-      <article class="landscape-panel">
-        <p class="eyebrow">SECTOR MAP</p><h2>Where activity is clustering</h2><p class="ranking-description">Discovery intensity aggregated by industry.</p>
+    <details class="dashboard-section">
+      <summary>
+        <div><p class="eyebrow">SECTOR MAP</p><h2>Where activity is clustering</h2><p class="ranking-description">Discovery intensity aggregated by industry.</p></div>
+        <span class="summary-chevron">+</span>
+      </summary>
+      <div class="dashboard-section-body">
         <div id="sectorMap" class="heat-list"></div>
-      </article>
-      <article class="landscape-panel">
-        <p class="eyebrow">EMERGING THEMES</p><h2>What connects the signals</h2><p class="ranking-description">Recurring topics across multiple companies.</p>
+      </div>
+    </details>
+
+    <details class="dashboard-section">
+      <summary>
+        <div><p class="eyebrow">EMERGING THEMES</p><h2>What connects the signals</h2><p class="ranking-description">Recurring topics across multiple companies.</p></div>
+        <span class="summary-chevron">+</span>
+      </summary>
+      <div class="dashboard-section-body">
         <div id="themeMap" class="theme-list"></div>
-      </article>
-    </section>
+      </div>
+    </details>
 
+    <details class="dashboard-section">
+      <summary>
+        <div><p class="eyebrow">GENERAL MARKET NEWS</p><h2>News of the day</h2><p class="ranking-description">Eight broad market stories for context; these are not attached to company tiles.</p></div>
+        <span class="summary-chevron">+</span>
+      </summary>
+      <div class="dashboard-section-body">
+        <div id="generalNewsGrid" class="general-news-grid"></div>
+      </div>
+    </details>
 
-    <section class="general-news-section">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">GENERAL MARKET NEWS</p>
-          <h2>News of the day</h2>
+    <details class="dashboard-section">
+      <summary>
+        <div><p class="eyebrow">TRANSPARENT SCORING</p><h2>How the system thinks</h2><p class="ranking-description">Definitions for Signal, Discovery, Confidence and Materiality.</p></div>
+        <span class="summary-chevron">+</span>
+      </summary>
+      <div class="dashboard-section-body">
+        <div class="methodology-columns">
+          <div><h3>Signal Score</h3><p class="model-intro">How strong and well-supported the company’s current information signal is.</p><div class="method-grid" id="signalMethod"></div></div>
+          <div><h3>Discovery Score</h3><p class="model-intro">How unusual the current attention is for that company specifically.</p><div class="method-grid" id="discoveryMethod"></div></div>
         </div>
-        <span class="result-count">Broad market context — not attached to company tiles</span>
+        <div class="score-extras">
+          <article><strong>Confidence Score</strong><p>Measures evidence quality and corroboration separately from whether the news is positive, negative or exciting.</p></article>
+          <article><strong>Materiality</strong><p>When a monetary value can be extracted, compares the event with company size. Automated estimates are explicitly labelled and should be verified.</p></article>
+        </div>
       </div>
-      <div id="generalNewsGrid" class="general-news-grid"></div>
-    </section>
-
-    <section class="methodology">
-      <p class="eyebrow">TRANSPARENT SCORING</p><h2>How the system thinks</h2>
-      <div class="methodology-columns">
-        <div><h3>Signal Score</h3><p class="model-intro">How strong and well-supported the company’s current information signal is.</p><div class="method-grid" id="signalMethod"></div></div>
-        <div><h3>Discovery Score</h3><p class="model-intro">How unusual the current attention is for that company specifically.</p><div class="method-grid" id="discoveryMethod"></div></div>
-      </div>
-      <div class="score-extras">
-        <article><strong>Confidence Score</strong><p>Measures evidence quality and corroboration separately from whether the news is positive, negative or exciting.</p></article>
-        <article><strong>Materiality</strong><p>When a monetary value can be extracted, compares the event with company size. Automated estimates are explicitly labelled and should be verified.</p></article>
-      </div>
-    </section>
+    </details>
   </main>
 
   <dialog id="companyDialog">

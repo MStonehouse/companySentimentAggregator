@@ -91,7 +91,12 @@ function scoreRing(score, type="signal") { return `<div><div class="score-ring $
 function deltaBadge(delta, label="") { if(delta===null||delta===undefined) return ""; const cls=delta>0?"positive":delta<0?"negative":"neutral"; return `<span class="badge ${cls}">${label}${delta>0?'+':''}${fmtNum(delta,1)}</span>`; }
 function companyCard(c, type="signal") {
   const discovery=type==="discovery";
-  const score=discovery?c.discovery_score:c.signal_score;
+  const attention=type==="attention";
+  const score=discovery
+    ? c.discovery_score
+    : attention
+      ? (c.market_attention_score ?? c.signal_score)
+      : c.signal_score;
   const ratio=c.discovery_metrics?.coverage_ratio_vs_baseline;
   const watched=state.watchlist.has(c.ticker);
   return `<article class="company-card ${discovery?'emerging-card':''}" data-ticker="${esc(c.ticker)}" tabindex="0">
@@ -106,19 +111,31 @@ function companyCard(c, type="signal") {
       ${c.evidence?.primary_source_count?`<span class="badge primary">Primary filing</span>`:""}
       ${discovery&&ratio!==undefined?`<span class="badge discovery-badge">${c.baseline?.avg_items_24h>0?`${fmtNum(ratio,1)}× baseline`:"New baseline"}</span>`:""}
     </div>
-    <div class="card-footer"><span>${c.article_count_24h||0} items / 24h</span><span>${c.days_on_radar||1} day${c.days_on_radar===1?'':'s'} on radar</span>${deltaBadge(discovery?c.change?.discovery_delta:c.change?.signal_delta,"Δ ")}</div>
+    <div class="card-footer"><span>${c.article_count_24h||0} items / 24h</span><span>${c.days_on_radar||1} day${c.days_on_radar===1?'':'s'} on radar</span>${discovery ? deltaBadge(c.change?.discovery_delta,"Δ ") : ""}</div>
   </article>`;
 }
 
 function getFiltered(kind) {
-  const key=kind==='discovery'?'emerging_signals':'market_leaders';
-  const list=(state.rankings[key]||[]).map(companyByTicker).filter(Boolean);
-  const q=$("searchInput").value.trim().toLowerCase(); const min=Number($("minScore").value);
-  const sector=$("sectorFilter").value; const cat=$("catalystFilter").value;
+  const key=kind==="discovery" ? "emerging_signals" : "market_leaders";
+  const list=(state.rankings[key]||[])
+    .slice(0,12)
+    .map(companyByTicker)
+    .filter(Boolean);
+
+  const q=$("searchInput").value.trim().toLowerCase();
+  const min=Number($("minScore").value);
+  const sector=$("sectorFilter").value;
+  const cat=$("catalystFilter").value;
+
   return list.filter(c=>{
-    const score=kind==='discovery'?c.discovery_score:c.signal_score;
-    const hay=`${c.ticker} ${c.company_name||''}`.toLowerCase();
-    return score>=min && hay.includes(q) && (!sector||(c.fundamentals?.industry||"")===sector) && (!cat||c.catalyst_category===cat);
+    const score=kind==="discovery"
+      ? (c.discovery_score||0)
+      : (c.market_attention_score ?? c.signal_score ?? 0);
+    const hay=`${c.ticker} ${c.company_name||""}`.toLowerCase();
+    return score>=min &&
+      hay.includes(q) &&
+      (!sector||(c.fundamentals?.industry||"")===sector) &&
+      (!cat||c.catalyst_category===cat);
   });
 }
 
@@ -131,8 +148,8 @@ function attachCards() {
 }
 
 function renderRankings() {
-  const leaders=getFiltered("signal"), emerging=getFiltered("discovery");
-  $("leaderGrid").innerHTML=leaders.map(c=>companyCard(c,"signal")).join("");
+  const leaders=getFiltered("attention"), emerging=getFiltered("discovery");
+  $("leaderGrid").innerHTML=leaders.map(c=>companyCard(c,"attention")).join("");
   $("emergingGrid").innerHTML=emerging.map(c=>companyCard(c,"discovery")).join("");
   $("leaderEmpty").hidden=leaders.length>0; $("emergingEmpty").hidden=emerging.length>0;
   $("leaderCount").textContent=`${leaders.length} shown`; $("emergingCount").textContent=`${emerging.length} shown`; attachCards();
@@ -284,7 +301,7 @@ function bindThemeChips() {
 function renderGeneralNews() {
   const host = $("generalNewsGrid");
   if (!host) return;
-  const rows = (state.general_news || []).slice(0, 24);
+  const rows = (state.general_news || []).slice(0, 8);
   if (!rows.length) {
     host.innerHTML = `<div class="empty-state">No general market news is available from the current update.</div>`;
     return;
