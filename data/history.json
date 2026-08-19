@@ -922,7 +922,7 @@
       "JBL": 4,
       "JBS": 1,
       "JCI": 1,
-      "JKHY": 9,
+      "JKHY": 10,
       "JMSB": 1,
       "JNJ": 5,
       "JPM": 27,
@@ -2765,8 +2765,8 @@
         "GOOG",
         "GOOGL",
         "BAX",
-        "MSFT",
-        "JKHY"
+        "JKHY",
+        "MSFT"
       ]
     }
   },
@@ -3036,8 +3036,8 @@
       },
       "JKHY": {
         "discovery_score": 38.8,
-        "market_attention_score": 74.3,
-        "signal_score": 68.1
+        "market_attention_score": 76.6,
+        "signal_score": 68.3
       },
       "JPM": {
         "discovery_score": 32.6,

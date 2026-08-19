@@ -61,6 +61,300 @@
         ],
         "source": "Alpha Vantage Company Overview"
       }
+    },
+    "ADI": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Analog Devices Inc",
+        "description": "Analog Devices, Inc. (ADI), also known simply as Analog, is an American multinational semiconductor company specializing in data conversion, signal processing and power management technology, headquartered in Wilmington, Massachusetts.",
+        "industry": "SEMICONDUCTORS",
+        "sector": "TECHNOLOGY",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "TJX": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "TJX Companies Inc",
+        "description": "TJX Companies Inc is a publicly traded company operating in the Retail industry with company information identifying US as its home market.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.tjx.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "NVDA": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "NVIDIA Corp",
+        "description": "We create the world’s fastest supercomputer and largest gaming platform.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.nvidia.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      }
+    },
+    "JPM": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "JPMorgan Chase & Co",
+        "description": "JPMorgan Chase & Co is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.jpmorganchase.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "MS": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Morgan Stanley",
+        "description": "Meet our people and discover our ideas.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.morganstanley.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "INTC": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Intel Corp",
+        "description": "Deliver AI at scale across cloud, data center, edge, and client with comprehensive hardware and software solutions.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.intel.com/",
+        "products_markets": [
+          "AI & accelerated computing",
+          "Semiconductors",
+          "Data centers"
+        ],
+        "source": "Company website"
+      }
+    },
+    "PANW": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Palo Alto Networks Inc",
+        "description": "Implement Zero Trust, Secure your Network, Cloud workloads, Hybrid Workforce, Leverage Threat Intelligence & Security Consulting. Cybersecurity Services & Education for CISO’s, Head of Infrastructure, Network Security Engineers, Cloud Architects & SOC Managers",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.paloaltonetworks.com/",
+        "products_markets": [
+          "Cybersecurity"
+        ],
+        "source": "Company website"
+      }
+    },
+    "AMZN": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Amazon.com Inc",
+        "description": "Amazon.com Inc is a publicly traded company operating in the Retail industry with company information identifying US as its home market.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.amazon.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "LOW": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Lowe's Companies Inc",
+        "description": "Shop tools, appliances, building supplies, carpet, bathroom, lighting and more. Pros can take advantage of Pro offers, credit and business resources.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.lowes.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "BA": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Boeing Co",
+        "description": "Discover news and information about The Boeing Company, a leading global aerospace company that develops, manufactures and services commercial airplanes, defense products and space systems.",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.boeing.com",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ORCL": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Oracle Corp",
+        "description": "Oracle Corp is a publicly traded company operating in the Technology industry with company information identifying US as its home market.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.oracle.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "UAMY": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "United States Antimony Corp",
+        "description": "Discover United States Antimony Corporation (NYSE: UAMY), North America's premier fully integrated supplier of critical defense and clean energy minerals.",
+        "industry": "Metals & Mining",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://www.usantimony.com/",
+        "products_markets": [
+          "Energy",
+          "Mining",
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SYBT": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Stock Yards Bancorp Inc",
+        "description": "Stock Yards Bancorp Inc is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.syb.com",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "PLTK": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Playtika Holding Corp",
+        "description": "Playtika Holding Corp is a publicly traded company operating in the Media industry with company information identifying IL as its home market.",
+        "industry": "Media",
+        "country": "IL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.playtika.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "MMM": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "3M Co",
+        "description": "3M Co is a publicly traded company operating in the Industrial Conglomerates industry with company information identifying US as its home market.",
+        "industry": "Industrial Conglomerates",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.3m.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "TWST": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Twist Bioscience Corp",
+        "description": "Twist Bioscience Corp is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.twistbioscience.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "SKYE": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Skye Bioscience Inc",
+        "description": "Skye Bioscience Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://skyebioscience.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "TRT": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Trio-Tech International",
+        "description": "Trio-Tech International is a publicly traded company operating in the Semiconductors industry with company information identifying US as its home market.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://triotech.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "REGN": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "Regeneron Pharmaceuticals Inc",
+        "description": "Regeneron Pharmaceuticals Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.regeneron.com/",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "AXP": {
+      "updated_at": "2026-08-19",
+      "data": {
+        "name": "American Express Co",
+        "description": "American Express Co is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.americanexpress.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }

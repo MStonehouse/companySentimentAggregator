@@ -1,18 +1,19 @@
 {
   "meta": {
-    "generated_at": "2026-08-19T17:46:46.407614+00:00",
+    "generated_at": "2026-08-19T17:54:14.553691+00:00",
     "companies_scanned": 639,
     "sources_enabled": {
       "sec_edgar": true,
       "alpha_vantage": true,
       "finnhub": true
     },
-    "model_version": "4.7-company-profiles",
+    "model_version": "4.7.1-primary-source-profiles",
     "baseline_days": 1,
     "baseline_maturity": "building",
     "fundamentals_cache_days": 7,
     "profile_refresh_days": 180,
-    "profile_fetch_limit_per_run": 4
+    "profile_fetch_limit_per_run": 12,
+    "alpha_profile_fallback_limit_per_run": 1
   },
   "rankings": {
     "market_leaders": [
@@ -34,8 +35,8 @@
       "GOOG",
       "GOOGL",
       "BAX",
-      "MSFT",
       "JKHY",
+      "MSFT",
       "BLK",
       "AMAT",
       "UAMY",
@@ -874,9 +875,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 85.4,
-          "market_attention_score": 98.1,
-          "signal_score": 93.1
+          "discovery_score": 89.9,
+          "market_attention_score": 100.0,
+          "signal_score": 94.4
         },
         {
           "date": "2026-08-19",
@@ -965,7 +966,19 @@
         "debt_equity": 0.2541,
         "beta": 1.264093
       },
-      "profile": {},
+      "profile": {
+        "name": "Analog Devices Inc",
+        "description": "Analog Devices, Inc. (ADI), also known simply as Analog, is an American multinational semiconductor company specializing in data conversion, signal processing and power management technology, headquartered in Wilmington, Massachusetts.",
+        "industry": "SEMICONDUCTORS",
+        "sector": "TECHNOLOGY",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      },
       "themes": [
         "AI infrastructure",
         "Semiconductors",
@@ -1020,9 +1033,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 77.4,
-          "market_attention_score": 97.8,
-          "signal_score": 88.9
+          "discovery_score": 80.0,
+          "market_attention_score": 100.0,
+          "signal_score": 90.0
         },
         {
           "date": "2026-08-19",
@@ -1111,7 +1124,20 @@
         "debt_equity": 0.0014,
         "beta": 0.32497567
       },
-      "profile": {},
+      "profile": {
+        "name": "United States Antimony Corp",
+        "description": "Discover United States Antimony Corporation (NYSE: UAMY), North America's premier fully integrated supplier of critical defense and clean energy minerals.",
+        "industry": "Metals & Mining",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://www.usantimony.com/",
+        "products_markets": [
+          "Energy",
+          "Mining",
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      },
       "themes": [],
       "stories": [
         {
@@ -1207,6 +1233,12 @@
       "history": [
         {
           "date": "2026-08-19",
+          "discovery_score": 97.0,
+          "market_attention_score": 71.5,
+          "signal_score": 92.0
+        },
+        {
+          "date": "2026-08-19",
           "signal_score": 92.0,
           "discovery_score": 97.0
         }
@@ -1292,7 +1324,18 @@
         "debt_equity": 0.1363,
         "beta": 0.75831884
       },
-      "profile": {},
+      "profile": {
+        "name": "Stock Yards Bancorp Inc",
+        "description": "Stock Yards Bancorp Inc is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.syb.com",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      },
       "themes": [],
       "stories": [
         {
@@ -1371,6 +1414,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 94.5,
+          "market_attention_score": 60.8,
+          "signal_score": 89.4
+        },
         {
           "date": "2026-08-19",
           "signal_score": 89.4,
@@ -1458,7 +1507,16 @@
         "debt_equity": 0.3493,
         "beta": 1.0638467
       },
-      "profile": {},
+      "profile": {
+        "name": "Playtika Holding Corp",
+        "description": "Playtika Holding Corp is a publicly traded company operating in the Media industry with company information identifying IL as its home market.",
+        "industry": "Media",
+        "country": "IL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.playtika.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
       "themes": [],
       "stories": [
         {
@@ -1615,7 +1673,16 @@
         "debt_equity": 2.6801,
         "beta": 0.99092233
       },
-      "profile": {},
+      "profile": {
+        "name": "3M Co",
+        "description": "3M Co is a publicly traded company operating in the Industrial Conglomerates industry with company information identifying US as its home market.",
+        "industry": "Industrial Conglomerates",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.3m.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
       "themes": [],
       "stories": [
         {
@@ -1666,9 +1733,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 79.9,
-          "market_attention_score": 44.2,
-          "signal_score": 86.1
+          "discovery_score": 93.6,
+          "market_attention_score": 53.9,
+          "signal_score": 91.0
         },
         {
           "date": "2026-08-19",
@@ -1757,7 +1824,18 @@
         "debt_equity": 0,
         "beta": 2.1987412
       },
-      "profile": {},
+      "profile": {
+        "name": "Twist Bioscience Corp",
+        "description": "Twist Bioscience Corp is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.twistbioscience.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      },
       "themes": [
         "AI infrastructure",
         "Biotech & therapeutics",
@@ -1840,6 +1918,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 93.2,
+          "market_attention_score": 63.9,
+          "signal_score": 86.9
+        },
         {
           "date": "2026-08-19",
           "signal_score": 86.9,
@@ -1927,7 +2011,16 @@
         "debt_equity": 0.2816,
         "beta": 0.57614875
       },
-      "profile": {},
+      "profile": {
+        "name": "TJX Companies Inc",
+        "description": "TJX Companies Inc is a publicly traded company operating in the Retail industry with company information identifying US as its home market.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.tjx.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
       "themes": [
         "AI infrastructure",
         "Robotics & automation"
@@ -2011,9 +2104,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 93.8,
-          "market_attention_score": 84.4,
-          "signal_score": 94.3
+          "discovery_score": 91.2,
+          "market_attention_score": 93.0,
+          "signal_score": 88.1
         },
         {
           "date": "2026-08-19",
@@ -2102,7 +2195,18 @@
         "debt_equity": 0,
         "beta": 2.8917618
       },
-      "profile": {},
+      "profile": {
+        "name": "Skye Bioscience Inc",
+        "description": "Skye Bioscience Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://skyebioscience.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      },
       "themes": [],
       "stories": [
         {
@@ -2168,8 +2272,8 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 88.8,
-          "market_attention_score": 53.8,
+          "discovery_score": 92.0,
+          "market_attention_score": 55.3,
           "signal_score": 89.3
         },
         {
@@ -2354,9 +2458,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 83.7,
-          "market_attention_score": 60.3,
-          "signal_score": 89.5
+          "discovery_score": 90.9,
+          "market_attention_score": 90.5,
+          "signal_score": 87.3
         },
         {
           "date": "2026-08-19",
@@ -2445,7 +2549,18 @@
         "debt_equity": 0.0538,
         "beta": 2.2490773
       },
-      "profile": {},
+      "profile": {
+        "name": "NVIDIA Corp",
+        "description": "We create the world’s fastest supercomputer and largest gaming platform.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.nvidia.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      },
       "themes": [
         "AI infrastructure",
         "Semiconductors",
@@ -2478,9 +2593,9 @@
         },
         {
           "date": "2026-08-19",
-          "discovery_score": 32.7,
-          "market_attention_score": 87.4,
-          "signal_score": 47.4
+          "discovery_score": 32.8,
+          "market_attention_score": 90.0,
+          "signal_score": 48.6
         },
         {
           "date": "2026-08-19",
@@ -2569,7 +2684,18 @@
         "debt_equity": 2.55,
         "beta": 1.0190868
       },
-      "profile": {},
+      "profile": {
+        "name": "JPMorgan Chase & Co",
+        "description": "JPMorgan Chase & Co is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.jpmorganchase.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      },
       "themes": [
         "AI infrastructure",
         "Semiconductors",
@@ -2602,9 +2728,9 @@
         },
         {
           "date": "2026-08-19",
-          "discovery_score": 36.1,
-          "market_attention_score": 88.3,
-          "signal_score": 47.9
+          "discovery_score": 32.6,
+          "market_attention_score": 90.0,
+          "signal_score": 47.8
         },
         {
           "date": "2026-08-19",
@@ -2775,9 +2901,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 48.0,
-          "market_attention_score": 78.2,
-          "signal_score": 54.6
+          "discovery_score": 61.2,
+          "market_attention_score": 90.0,
+          "signal_score": 63.5
         },
         {
           "date": "2026-08-19",
@@ -2866,7 +2992,18 @@
         "debt_equity": 7.9002,
         "beta": 1.2144122
       },
-      "profile": {},
+      "profile": {
+        "name": "Morgan Stanley",
+        "description": "Meet our people and discover our ideas.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.morganstanley.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      },
       "themes": [
         "AI infrastructure",
         "Power & grid",
@@ -2953,9 +3090,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 44.1,
-          "market_attention_score": 89.4,
-          "signal_score": 54.6
+          "discovery_score": 50.3,
+          "market_attention_score": 90.0,
+          "signal_score": 59.9
         },
         {
           "date": "2026-08-19",
@@ -3044,7 +3181,20 @@
         "debt_equity": 0.4076,
         "beta": 2.2952907
       },
-      "profile": {},
+      "profile": {
+        "name": "Intel Corp",
+        "description": "Deliver AI at scale across cloud, data center, edge, and client with comprehensive hardware and software solutions.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.intel.com/",
+        "products_markets": [
+          "AI & accelerated computing",
+          "Semiconductors",
+          "Data centers"
+        ],
+        "source": "Company website"
+      },
       "themes": [
         "AI infrastructure",
         "Semiconductors",
@@ -3071,9 +3221,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 52.9,
-          "market_attention_score": 72.1,
-          "signal_score": 63.0
+          "discovery_score": 58.1,
+          "market_attention_score": 90.0,
+          "signal_score": 60.3
         },
         {
           "date": "2026-08-19",
@@ -3245,8 +3395,8 @@
         {
           "date": "2026-08-19",
           "discovery_score": 87.4,
-          "market_attention_score": 71.8,
-          "signal_score": 69.2
+          "market_attention_score": 89.0,
+          "signal_score": 69.1
         },
         {
           "date": "2026-08-19",
@@ -3335,7 +3485,18 @@
         "debt_equity": 0,
         "beta": 0.9440666
       },
-      "profile": {},
+      "profile": {
+        "name": "Palo Alto Networks Inc",
+        "description": "Implement Zero Trust, Secure your Network, Cloud workloads, Hybrid Workforce, Leverage Threat Intelligence & Security Consulting. Cybersecurity Services & Education for CISO’s, Head of Infrastructure, Network Security Engineers, Cloud Architects & SOC Managers",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.paloaltonetworks.com/",
+        "products_markets": [
+          "Cybersecurity"
+        ],
+        "source": "Company website"
+      },
       "themes": [
         "AI infrastructure",
         "Semiconductors",
@@ -3407,9 +3568,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 86.1,
-          "market_attention_score": 82.8,
-          "signal_score": 68.7
+          "discovery_score": 85.7,
+          "market_attention_score": 88.5,
+          "signal_score": 68.0
         },
         {
           "date": "2026-08-19",
@@ -3498,7 +3659,18 @@
         "debt_equity": 0.0255,
         "beta": 1.992334
       },
-      "profile": {},
+      "profile": {
+        "name": "Trio-Tech International",
+        "description": "Trio-Tech International is a publicly traded company operating in the Semiconductors industry with company information identifying US as its home market.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://triotech.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Structured company profile"
+      },
       "themes": [
         "Semiconductors",
         "Cloud & software"
@@ -3565,6 +3737,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 87.8,
+          "market_attention_score": 50.0,
+          "signal_score": 87.1
+        },
         {
           "date": "2026-08-19",
           "signal_score": 87.1,
@@ -3652,7 +3830,19 @@
         "debt_equity": 0.0866,
         "beta": 0.15152037
       },
-      "profile": {},
+      "profile": {
+        "name": "Regeneron Pharmaceuticals Inc",
+        "description": "Regeneron Pharmaceuticals Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.regeneron.com/",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Structured company profile"
+      },
       "themes": [
         "Biotech & therapeutics"
       ],
@@ -3736,9 +3926,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 85.5,
-          "market_attention_score": 57.0,
-          "signal_score": 65.7
+          "discovery_score": 87.6,
+          "market_attention_score": 62.4,
+          "signal_score": 65.1
         },
         {
           "date": "2026-08-19",
@@ -3827,7 +4017,16 @@
         "debt_equity": 0.2172,
         "beta": 1.4593238
       },
-      "profile": {},
+      "profile": {
+        "name": "Amazon.com Inc",
+        "description": "Amazon.com Inc is a publicly traded company operating in the Retail industry with company information identifying US as its home market.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.amazon.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
       "themes": [
         "AI infrastructure",
         "Semiconductors",
@@ -3861,8 +4060,8 @@
         {
           "date": "2026-08-19",
           "discovery_score": 32.8,
-          "market_attention_score": 87.2,
-          "signal_score": 46.0
+          "market_attention_score": 87.0,
+          "signal_score": 46.9
         },
         {
           "date": "2026-08-19",
@@ -3951,7 +4150,16 @@
         "debt_equity": 15.1566,
         "beta": 0.8778626
       },
-      "profile": {},
+      "profile": {
+        "name": "Lowe's Companies Inc",
+        "description": "Shop tools, appliances, building supplies, carpet, bathroom, lighting and more. Pros can take advantage of Pro offers, credit and business resources.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.lowes.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
       "themes": [
         "AI infrastructure",
         "Quantum computing"
@@ -3990,9 +4198,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 61.5,
-          "market_attention_score": 71.9,
-          "signal_score": 74.7
+          "discovery_score": 69.3,
+          "market_attention_score": 86.6,
+          "signal_score": 81.2
         },
         {
           "date": "2026-08-19",
@@ -4081,7 +4289,18 @@
         "debt_equity": 6.2809,
         "beta": 1.0901959
       },
-      "profile": {},
+      "profile": {
+        "name": "American Express Co",
+        "description": "American Express Co is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.americanexpress.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      },
       "themes": [
         "Financial technology"
       ],
@@ -4165,9 +4384,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 88.5,
-          "market_attention_score": 81.7,
-          "signal_score": 69.5
+          "discovery_score": 84.7,
+          "market_attention_score": 53.7,
+          "signal_score": 66.8
         },
         {
           "date": "2026-08-19",
@@ -4336,9 +4555,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 78.3,
-          "market_attention_score": 61.3,
-          "signal_score": 82.0
+          "discovery_score": 83.3,
+          "market_attention_score": 70.8,
+          "signal_score": 84.6
         },
         {
           "date": "2026-08-19",
@@ -4494,6 +4713,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 83.6,
+          "market_attention_score": 41.2,
+          "signal_score": 63.9
+        },
         {
           "date": "2026-08-19",
           "signal_score": 63.9,
@@ -4663,6 +4888,12 @@
       "history": [
         {
           "date": "2026-08-19",
+          "discovery_score": 83.3,
+          "market_attention_score": 61.7,
+          "signal_score": 66.2
+        },
+        {
+          "date": "2026-08-19",
           "signal_score": 66.2,
           "discovery_score": 83.3
         }
@@ -4748,7 +4979,18 @@
         "debt_equity": 9.919,
         "beta": 1.2698662
       },
-      "profile": {},
+      "profile": {
+        "name": "Boeing Co",
+        "description": "Discover news and information about The Boeing Company, a leading global aerospace company that develops, manufactures and services commercial airplanes, defense products and space systems.",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.boeing.com",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      },
       "themes": [
         "AI infrastructure",
         "Semiconductors",
@@ -4810,9 +5052,9 @@
         },
         {
           "date": "2026-08-19",
-          "discovery_score": 31.2,
-          "market_attention_score": 70.9,
-          "signal_score": 44.8
+          "discovery_score": 31.3,
+          "market_attention_score": 83.1,
+          "signal_score": 45.1
         },
         {
           "date": "2026-08-19",
@@ -4901,7 +5143,16 @@
         "debt_equity": 3.0087,
         "beta": 1.757973
       },
-      "profile": {},
+      "profile": {
+        "name": "Oracle Corp",
+        "description": "Oracle Corp is a publicly traded company operating in the Technology industry with company information identifying US as its home market.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.oracle.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
       "themes": [
         "AI infrastructure",
         "Semiconductors",
@@ -4973,9 +5224,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 77.1,
-          "market_attention_score": 80.8,
-          "signal_score": 65.6
+          "discovery_score": 78.8,
+          "market_attention_score": 83.0,
+          "signal_score": 68.2
         },
         {
           "date": "2026-08-19",
@@ -5112,9 +5363,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 78.1,
-          "market_attention_score": 42.0,
-          "signal_score": 61.2
+          "discovery_score": 81.4,
+          "market_attention_score": 47.0,
+          "signal_score": 61.3
         },
         {
           "date": "2026-08-19",
@@ -5267,6 +5518,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 81.2,
+          "market_attention_score": 43.1,
+          "signal_score": 66.8
+        },
         {
           "date": "2026-08-19",
           "signal_score": 66.8,
@@ -5432,6 +5689,12 @@
       "history": [
         {
           "date": "2026-08-19",
+          "discovery_score": 81.1,
+          "market_attention_score": 53.5,
+          "signal_score": 59.2
+        },
+        {
+          "date": "2026-08-19",
           "signal_score": 59.2,
           "discovery_score": 81.1
         }
@@ -5550,6 +5813,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 80.7,
+          "market_attention_score": 40.8,
+          "signal_score": 60.2
+        },
         {
           "date": "2026-08-19",
           "signal_score": 60.2,
@@ -5685,6 +5954,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 80.4,
+          "market_attention_score": 44.0,
+          "signal_score": 64.8
+        },
         {
           "date": "2026-08-19",
           "signal_score": 64.8,
@@ -5839,6 +6114,12 @@
       "history": [
         {
           "date": "2026-08-19",
+          "discovery_score": 80.1,
+          "market_attention_score": 39.5,
+          "signal_score": 63.0
+        },
+        {
+          "date": "2026-08-19",
           "signal_score": 63.0,
           "discovery_score": 80.1
         }
@@ -5940,6 +6221,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 80.0,
+          "market_attention_score": 38.8,
+          "signal_score": 62.8
+        },
         {
           "date": "2026-08-19",
           "signal_score": 62.8,
@@ -6052,6 +6339,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 69.8,
+          "market_attention_score": 78.6,
+          "signal_score": 59.5
+        },
         {
           "date": "2026-08-19",
           "signal_score": 59.5,
@@ -6187,6 +6480,12 @@
       "history": [
         {
           "date": "2026-08-19",
+          "discovery_score": 78.6,
+          "market_attention_score": 41.0,
+          "signal_score": 60.2
+        },
+        {
+          "date": "2026-08-19",
           "signal_score": 60.2,
           "discovery_score": 78.6
         }
@@ -6308,6 +6607,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 78.5,
+          "market_attention_score": 44.7,
+          "signal_score": 63.0
+        },
         {
           "date": "2026-08-19",
           "signal_score": 63.0,
@@ -6455,6 +6760,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 69.1,
+          "market_attention_score": 61.0,
+          "signal_score": 78.3
+        },
         {
           "date": "2026-08-19",
           "signal_score": 78.3,
@@ -6620,6 +6931,12 @@
         },
         {
           "date": "2026-08-19",
+          "discovery_score": 29.4,
+          "market_attention_score": 78.1,
+          "signal_score": 44.3
+        },
+        {
+          "date": "2026-08-19",
           "signal_score": 44.3,
           "discovery_score": 29.4
         }
@@ -6773,9 +7090,9 @@
         },
         {
           "date": "2026-08-19",
-          "discovery_score": 41.6,
-          "market_attention_score": 57.8,
-          "signal_score": 61.6
+          "discovery_score": 52.4,
+          "market_attention_score": 76.9,
+          "signal_score": 71.7
         },
         {
           "date": "2026-08-19",
@@ -6940,6 +7257,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-08-19",
+          "discovery_score": 76.8,
+          "market_attention_score": 55.1,
+          "signal_score": 64.3
+        },
         {
           "date": "2026-08-19",
           "signal_score": 64.3,
@@ -7107,8 +7430,165 @@
       "history": [
         {
           "date": "2026-08-19",
+          "discovery_score": 76.7,
+          "market_attention_score": 67.0,
+          "signal_score": 60.9
+        },
+        {
+          "date": "2026-08-19",
           "signal_score": 60.9,
           "discovery_score": 76.7
+        }
+      ]
+    },
+    {
+      "ticker": "JKHY",
+      "company_name": "JACK HENRY & ASSOCIATES INC",
+      "signal_score": 68.3,
+      "market_attention_score": 76.6,
+      "discovery_score": 38.8,
+      "confidence_score": 94.2,
+      "primary_catalyst": "JACK HENRY & ASSOCIATES INC (0000779152) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "15 unique credible information items from 10 independent sources. Coverage is 0.6× the stored baseline.",
+      "sentiment_label": "Positive",
+      "attention_status": "Normal",
+      "article_count_24h": 10,
+      "latest_event_at": "2026-08-19T16:35:01+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 2,
+      "change": {
+        "signal_delta": -19.9,
+        "discovery_delta": -55.2
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 10,
+        "unique_story_clusters": 15
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 14,
+        "corroboration": 15.0,
+        "source_quality": 7.7,
+        "sentiment_signal": 6.6,
+        "coverage_ratio_vs_baseline": 0.6,
+        "weighted_coverage_24h": 6.04,
+        "weighted_source_breadth": 6.04
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 0.0,
+        "source_breadth": 15.0,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 3.3,
+        "coverage_ratio_vs_baseline": 0.6,
+        "weighted_coverage_24h": 6.04,
+        "weighted_source_breadth": 6.04
+      },
+      "baseline": {
+        "avg_items_24h": 10.0,
+        "days_available": 1,
+        "maturity": "building"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Jack Henry & Associates Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1985-11-21",
+        "weburl": "https://www.jackhenry.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/JKHY.png",
+        "market_cap": 10648380416.391626,
+        "pe_ttm": 20.7811,
+        "ps_ttm": 4.2885,
+        "pb_annual": 6.1569,
+        "revenue_growth_ttm_yoy": 8.44,
+        "eps_growth_ttm_yoy": 21.74,
+        "gross_margin_ttm": 44.06,
+        "net_margin_ttm": 20.64,
+        "current_ratio": 1.2719,
+        "debt_equity": 0,
+        "beta": 0.5282312
+      },
+      "profile": {},
+      "themes": [
+        "AI infrastructure",
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "JKHY",
+          "company_name": "JACK HENRY & ASSOCIATES INC",
+          "source": "SEC EDGAR",
+          "title": "JACK HENRY & ASSOCIATES INC (0000779152) (Filer)",
+          "summary": "Filed: 2026-08-18 AccNo: 0000779152-26-000057 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000057/0000779152-26-000057-index.htm",
+          "published_at": "2026-08-18T16:38:48-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "e6263d342be6",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "JKHY",
+          "company_name": "JACK HENRY & ASSOCIATES INC",
+          "source": "The Globe and Mail",
+          "title": "JKHY Q4 Earnings Beat, Revenues Rise on Processing & Cloud Growth",
+          "summary": "Jack Henry & Associates (JKHY) reported better-than-expected fourth-quarter fiscal 2026 results, with earnings surpassing the Zacks Consensus Estimate by 9% and revenues rising 4.7% year-over-year to $644 million, driven by growth in processing and cloud-related data. Despite increased costs impacting quarterly margins, the company issued a positive fiscal 2027 growth outlook for both GAAP and non-GAAP revenues and…",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/MU/pressreleases/3933481/jkhy-q4-earnings-beat-revenues-rise-on-processing-cloud-growth/",
+          "published_at": "2026-08-19T16:34:26+00:00",
+          "sentiment": 0.335019,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "bd586281eb54",
+          "relevance": 0.994001,
+          "display_relevance": 0.956,
+          "display_relevant": true
+        },
+        {
+          "ticker": "JKHY",
+          "company_name": "JACK HENRY & ASSOCIATES INC",
+          "source": "Investing.com",
+          "title": "Earnings call transcript: Jack Henry beats Q4 2026 estimates, shares jump 8.4%",
+          "summary": "Jack Henry & Associates exceeded Q4 2026 earnings and revenue estimates, reporting EPS of $1.57 and revenue of $644 million. This strong performance, including record full-year sales and an increase in non-GAAP operating margin, led to an 8.41% jump in the company's shares. Management highlighted strategic growth drivers such as AI integration, cloud migration, and increased market share, particularly among larger f…",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-jack-henry-beats-q4-2026-estimates-shares-jump-84-93CH-4867783",
+          "published_at": "2026-08-19T14:22:41+00:00",
+          "sentiment": 0.501673,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "b371692afc7f",
+          "relevance": 1.0,
+          "display_relevance": 0.92,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-08-18",
+          "discovery_score": 94.0,
+          "market_attention_score": 79.5,
+          "signal_score": 88.2
+        },
+        {
+          "date": "2026-08-19",
+          "discovery_score": 38.8,
+          "market_attention_score": 74.3,
+          "signal_score": 68.1
+        },
+        {
+          "date": "2026-08-19",
+          "signal_score": 68.3,
+          "discovery_score": 38.8
         }
       ]
     },
@@ -7255,189 +7735,14 @@
         },
         {
           "date": "2026-08-19",
-          "discovery_score": 27.8,
-          "market_attention_score": 69.0,
-          "signal_score": 46.8
+          "discovery_score": 32.9,
+          "market_attention_score": 75.9,
+          "signal_score": 47.7
         },
         {
           "date": "2026-08-19",
           "signal_score": 47.7,
           "discovery_score": 32.9
-        }
-      ]
-    },
-    {
-      "ticker": "JKHY",
-      "company_name": "JACK HENRY & ASSOCIATES INC",
-      "signal_score": 68.1,
-      "market_attention_score": 74.3,
-      "discovery_score": 38.8,
-      "confidence_score": 93.8,
-      "primary_catalyst": "JACK HENRY & ASSOCIATES INC (0000779152) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "13 unique credible information items from 9 independent sources. Coverage is 0.6× the stored baseline.",
-      "sentiment_label": "Positive",
-      "attention_status": "Normal",
-      "article_count_24h": 9,
-      "latest_event_at": "2026-08-19T16:35:01+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 2,
-      "change": {
-        "signal_delta": -20.1,
-        "discovery_delta": -55.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 9,
-        "unique_story_clusters": 13
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 6.6,
-        "coverage_ratio_vs_baseline": 0.59,
-        "weighted_coverage_24h": 5.94,
-        "weighted_source_breadth": 5.94
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 0.0,
-        "source_breadth": 15.0,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 3.3,
-        "coverage_ratio_vs_baseline": 0.59,
-        "weighted_coverage_24h": 5.94,
-        "weighted_source_breadth": 5.94
-      },
-      "baseline": {
-        "avg_items_24h": 10.0,
-        "days_available": 1,
-        "maturity": "building"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Jack Henry & Associates Inc",
-        "industry": "Financial Services",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1985-11-21",
-        "weburl": "https://www.jackhenry.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/JKHY.png",
-        "market_cap": 10648380416.391626,
-        "pe_ttm": 20.7811,
-        "ps_ttm": 4.2885,
-        "pb_annual": 6.1569,
-        "revenue_growth_ttm_yoy": 8.44,
-        "eps_growth_ttm_yoy": 21.74,
-        "gross_margin_ttm": 44.06,
-        "net_margin_ttm": 20.64,
-        "current_ratio": 1.2719,
-        "debt_equity": 0,
-        "beta": 0.5282312
-      },
-      "profile": {},
-      "themes": [
-        "AI infrastructure",
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "JKHY",
-          "company_name": "JACK HENRY & ASSOCIATES INC",
-          "source": "SEC EDGAR",
-          "title": "JACK HENRY & ASSOCIATES INC (0000779152) (Filer)",
-          "summary": "Filed: 2026-08-18 AccNo: 0000779152-26-000057 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/779152/000077915226000057/0000779152-26-000057-index.htm",
-          "published_at": "2026-08-18T16:38:48-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "e6263d342be6",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "JKHY",
-          "company_name": "JACK HENRY & ASSOCIATES INC",
-          "source": "The Globe and Mail",
-          "title": "JKHY Q4 Earnings Beat, Revenues Rise on Processing & Cloud Growth",
-          "summary": "Jack Henry & Associates (JKHY) reported better-than-expected fourth-quarter fiscal 2026 results, with earnings surpassing the Zacks Consensus Estimate by 9% and revenues rising 4.7% year-over-year to $644 million, driven by growth in processing and cloud-related data. Despite increased costs impacting quarterly margins, the company issued a positive fiscal 2027 growth outlook for both GAAP and non-GAAP revenues and…",
-          "url": "https://www.theglobeandmail.com/investing/markets/stocks/MU/pressreleases/3933481/jkhy-q4-earnings-beat-revenues-rise-on-processing-cloud-growth/",
-          "published_at": "2026-08-19T16:34:26+00:00",
-          "sentiment": 0.335019,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "bd586281eb54",
-          "relevance": 0.994001,
-          "display_relevance": 0.956,
-          "display_relevant": true
-        },
-        {
-          "ticker": "JKHY",
-          "company_name": "JACK HENRY & ASSOCIATES INC",
-          "source": "Investing.com",
-          "title": "Earnings call transcript: Jack Henry beats Q4 2026 estimates, shares jump 8.4%",
-          "summary": "Jack Henry & Associates exceeded Q4 2026 earnings and revenue estimates, reporting EPS of $1.57 and revenue of $644 million. This strong performance, including record full-year sales and an increase in non-GAAP operating margin, led to an 8.41% jump in the company's shares. Management highlighted strategic growth drivers such as AI integration, cloud migration, and increased market share, particularly among larger f…",
-          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-jack-henry-beats-q4-2026-estimates-shares-jump-84-93CH-4867783",
-          "published_at": "2026-08-19T14:22:41+00:00",
-          "sentiment": 0.501673,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "b371692afc7f",
-          "relevance": 1.0,
-          "display_relevance": 0.92,
-          "display_relevant": true
-        },
-        {
-          "ticker": "JKHY",
-          "company_name": "JACK HENRY & ASSOCIATES INC",
-          "source": "MarketBeat",
-          "title": "Jack Henry & Associates (NASDAQ:JKHY) Shares Gap Up Following Better-Than-Expected Earnings",
-          "summary": "Jack Henry & Associates (NASDAQ:JKHY) saw its shares gap up after reporting better-than-expected quarterly earnings. The company beat consensus estimates for both EPS and revenue, reporting $1.57 EPS on $633.1 million in revenue. Despite a decline in GAAP EPS and operating income year-over-year indicating margin pressure, management issued optimistic fiscal 2027 EPS guidance of $7.33–$7.38, surpassing analyst expect…",
-          "url": "https://www.marketbeat.com/instant-alerts/jack-henry-associates-nasdaqjkhy-shares-gap-up-following-better-than-expected-earnings-2026-08-19/",
-          "published_at": "2026-08-19T14:22:41+00:00",
-          "sentiment": 0.332467,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "dee14e394f41",
-          "relevance": 1.0,
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "JKHY",
-          "company_name": "JACK HENRY & ASSOCIATES INC",
-          "source": "marketscreener.com",
-          "title": "Oppenheimer Raises Price Target on Jack Henry & Associates to $209 From $208, Maintains Outperform Rating",
-          "summary": "Oppenheimer has increased its price target for Jack Henry & Associates (JKHY) to $209 from $208, while reiterating an \"Outperform\" rating on the stock. This adjustment comes amidst recent positive news for Jack Henry, including beating quarterly estimates, setting fiscal 2027 guidance, and strong financial performance indicators. The company, a leading provider of technology solutions for the financial services indu…",
-          "url": "https://www.marketscreener.com/news/oppenheimer-raises-price-target-on-jack-henry-associates-to-209-from-208-maintains-outperform-r-ce7859d2da8af627",
-          "published_at": "2026-08-19T13:59:34+00:00",
-          "sentiment": 0.314997,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "0bda5a60967c",
-          "relevance": 1.0,
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-18",
-          "discovery_score": 94.0,
-          "market_attention_score": 79.5,
-          "signal_score": 88.2
-        },
-        {
-          "date": "2026-08-19",
-          "signal_score": 68.1,
-          "discovery_score": 38.8
         }
       ]
     },
@@ -7548,9 +7853,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 56.5,
-          "market_attention_score": 72.4,
-          "signal_score": 60.3
+          "discovery_score": 51.3,
+          "market_attention_score": 72.7,
+          "signal_score": 61.0
         },
         {
           "date": "2026-08-19",
@@ -7675,6 +7980,12 @@
       "history": [
         {
           "date": "2026-08-19",
+          "discovery_score": 39.6,
+          "market_attention_score": 71.9,
+          "signal_score": 44.8
+        },
+        {
+          "date": "2026-08-19",
           "signal_score": 44.8,
           "discovery_score": 39.6
         }
@@ -7766,9 +8077,9 @@
       "history": [
         {
           "date": "2026-08-19",
-          "discovery_score": 63.2,
-          "market_attention_score": 59.4,
-          "signal_score": 56.3
+          "discovery_score": 65.7,
+          "market_attention_score": 64.0,
+          "signal_score": 62.0
         },
         {
           "date": "2026-08-19",
