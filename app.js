@@ -185,6 +185,7 @@ function openCompany(ticker) {
       <p class="eyebrow">ABOUT THE COMPANY</p>
       <h3>${esc(c.profile?.name || c.company_name || c.ticker)}</h3>
       <p class="company-description">${esc(c.profile.description)}</p>
+      ${c.profile?.source ? `<p class="profile-source">Profile source: ${esc(c.profile.source)}</p>` : ""}
       ${c.profile?.products_markets?.length ? `
         <div class="products-markets">
           <span class="profile-label">Products &amp; markets</span>

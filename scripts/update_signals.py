@@ -42,7 +42,8 @@ FINNHUB_KEY = os.getenv("FINNHUB_API_KEY", "").strip()
 MAX_COMPANIES = int(os.getenv("MAX_COMPANIES", "30"))
 FUNDAMENTAL_ENRICH_LIMIT = int(os.getenv("FUNDAMENTAL_ENRICH_LIMIT", "20"))
 PROFILE_REFRESH_DAYS = int(os.getenv("PROFILE_REFRESH_DAYS", "180"))
-PROFILE_FETCH_LIMIT = int(os.getenv("PROFILE_FETCH_LIMIT", "4"))
+PROFILE_FETCH_LIMIT = int(os.getenv("PROFILE_FETCH_LIMIT", "12"))
+ALPHA_PROFILE_FALLBACK_LIMIT = int(os.getenv("ALPHA_PROFILE_FALLBACK_LIMIT", "1"))
 
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = NOW.date()
@@ -720,6 +721,88 @@ def infer_products_markets(description: str, industry: str = "") -> list[str]:
             break
     return out
 
+
+def extract_meta_description(page: str) -> str:
+    """
+    Extract a site's own meta/OG description without external dependencies.
+    """
+    if not page:
+        return ""
+    patterns = [
+        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description["\']',
+        r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']description["\']',
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, page, re.I | re.S)
+        if match:
+            return clean_profile_description(match.group(1), 700)
+    return ""
+
+
+def fetch_company_website_description(fundamentals: dict) -> dict:
+    url = (fundamentals or {}).get("weburl", "") or ""
+    if not url:
+        return {}
+
+    # Normalize URLs returned without a scheme.
+    if not re.match(r"^https?://", url, re.I):
+        url = "https://" + url.lstrip("/")
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 CompanySignal/1.0",
+        "Accept": "text/html,application/xhtml+xml",
+    }
+    try:
+        page = http_text(url, headers=headers, timeout=12)
+    except Exception as exc:
+        print(f"Company website profile warning for {url}: {exc}")
+        return {}
+
+    description = extract_meta_description(page)
+    if not description:
+        return {}
+
+    industry = fundamentals.get("industry", "") or ""
+    return {
+        "name": fundamentals.get("name", "") or "",
+        "description": description,
+        "industry": industry,
+        "country": fundamentals.get("country", "") or "",
+        "exchange": fundamentals.get("exchange", "") or "",
+        "website": url,
+        "products_markets": infer_products_markets(description, industry),
+        "source": "Company website",
+    }
+
+
+def fallback_company_profile(ticker: str, fundamentals: dict) -> dict:
+    """
+    Last-resort context so a company never has a completely blank About section
+    once structured fundamentals are available.
+    """
+    name = fundamentals.get("name", "") or ticker
+    industry = fundamentals.get("industry", "") or ""
+    country = fundamentals.get("country", "") or ""
+    parts = [f"{name} is a publicly traded company"]
+    if industry:
+        parts.append(f"operating in the {industry} industry")
+    if country:
+        parts.append(f"with company information identifying {country} as its home market")
+    description = " ".join(parts) + "."
+    return {
+        "name": name,
+        "description": description,
+        "industry": industry,
+        "country": country,
+        "exchange": fundamentals.get("exchange", "") or "",
+        "website": fundamentals.get("weburl", "") or "",
+        "products_markets": infer_products_markets(description, industry),
+        "source": "Structured company profile",
+    }
+
+
 def fetch_alpha_company_overview(ticker: str) -> dict:
     if not ALPHA_KEY:
         return {}
@@ -753,9 +836,19 @@ def fetch_alpha_company_overview(ticker: str) -> dict:
     }
 
 def enrich_company_profiles(tickers: list[str], cache: dict, fundamentals_map: dict[str, dict]) -> dict[str, dict]:
+    """
+    Profile source priority:
+    1. Fresh persistent cache
+    2. Company website description (free, primary source)
+    3. Alpha Vantage Company Overview (limited fallback)
+    4. Structured fundamentals fallback
+
+    This avoids spending the news API's daily quota on descriptions.
+    """
     updated = cache.setdefault("updated", {})
     result = {}
-    fetch_budget = PROFILE_FETCH_LIMIT
+    website_budget = PROFILE_FETCH_LIMIT
+    alpha_budget = ALPHA_PROFILE_FALLBACK_LIMIT
 
     for ticker in tickers:
         entry = updated.get(ticker, {})
@@ -763,19 +856,36 @@ def enrich_company_profiles(tickers: list[str], cache: dict, fundamentals_map: d
             result[ticker] = entry.get("data", {})
             continue
 
-        if fetch_budget <= 0:
-            if entry:
-                result[ticker] = entry.get("data", {})
-            continue
+        fundamentals = fundamentals_map.get(ticker, {}) or {}
+        data = {}
 
-        data = fetch_alpha_company_overview(ticker)
-        if data:
-            if not data.get("industry"):
-                data["industry"] = fundamentals_map.get(ticker, {}).get("industry", "")
-            updated[ticker] = {"updated_at": TODAY.isoformat(), "data": data}
-            result[ticker] = data
-            fetch_budget -= 1
+        if website_budget > 0 and fundamentals.get("weburl"):
+            data = fetch_company_website_description(fundamentals)
+            website_budget -= 1
+            time.sleep(0.25)
+
+        if not data and alpha_budget > 0:
+            data = fetch_alpha_company_overview(ticker)
+            alpha_budget -= 1
+            if data:
+                if not data.get("industry"):
+                    data["industry"] = fundamentals.get("industry", "")
+                if not data.get("products_markets"):
+                    data["products_markets"] = infer_products_markets(
+                        data.get("description", ""),
+                        data.get("industry", "")
+                    )
             time.sleep(0.8)
+
+        if not data and fundamentals:
+            data = fallback_company_profile(ticker, fundamentals)
+
+        if data:
+            updated[ticker] = {
+                "updated_at": TODAY.isoformat(),
+                "data": data,
+            }
+            result[ticker] = data
         elif entry:
             result[ticker] = entry.get("data", {})
 
@@ -1291,11 +1401,12 @@ def main() -> None:
         "meta": {
             "generated_at": NOW.isoformat(), "companies_scanned": len(grouped),
             "sources_enabled": {"sec_edgar": bool(SEC_USER_AGENT), "alpha_vantage": bool(ALPHA_KEY), "finnhub": bool(FINNHUB_KEY)},
-            "model_version": "4.7-company-profiles", "baseline_days": baseline_days,
+            "model_version": "4.7.1-primary-source-profiles", "baseline_days": baseline_days,
             "baseline_maturity": "established" if baseline_days >= 7 else "building",
             "fundamentals_cache_days": 7,
             "profile_refresh_days": PROFILE_REFRESH_DAYS,
             "profile_fetch_limit_per_run": PROFILE_FETCH_LIMIT,
+            "alpha_profile_fallback_limit_per_run": ALPHA_PROFILE_FALLBACK_LIMIT,
         },
         "rankings": {
             "market_leaders": [c["ticker"] for c in leaders],
