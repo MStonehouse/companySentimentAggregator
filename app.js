@@ -3,28 +3,26 @@ const DATA_URL = "data/signals.json";
 function storyMatchesCompany(story, company) {
   if (!story || !company) return false;
   if (story.evidence_type === "SEC filing") return story.ticker === company.ticker;
+  if (story.display_relevant !== undefined) return Boolean(story.display_relevant);
+
+  const relevance = Number(story.relevance || 0);
   const title = String(story.title || "");
-  const ticker = String(company.ticker || "").trim();
-  const name = String(company.company_name || "").trim();
+  const summary = String(story.summary || "");
+  const ticker = String(company.ticker || "");
+  const name = String(company.company_name || "");
 
-  const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const text = `${title} ${summary}`.toLowerCase();
+  const companyWords = name.toLowerCase().match(/[a-z0-9]+/g) || [];
   const suffixes = new Set(["inc","incorporated","corp","corporation","co","company","companies","ltd","limited","plc","llc","group","holdings","holding","sa","ag","nv","lp","the"]);
-  const words = name.toLowerCase().match(/[a-z0-9]+/g) || [];
-  while (words.length && suffixes.has(words[words.length - 1])) words.pop();
-  while (words.length && words[0] === "the") words.shift();
-  const core = words.join(" ");
-  const titleNorm = (title.toLowerCase().match(/[a-z0-9]+/g) || []).join(" ");
+  while (companyWords.length && suffixes.has(companyWords[companyWords.length - 1])) companyWords.pop();
+  const core = companyWords.join(" ");
+  const escRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const tickerHit = ticker.length > 1 && new RegExp(`(^|[^A-Z0-9])\\$?${escRe(ticker)}([^A-Z0-9]|$)`, "i").test(`${title} ${summary}`);
+  const nameHit = core.length >= 3 && text.includes(core);
 
-  if (core.length >= 3 && titleNorm.includes(core)) return true;
-  if (words.length >= 2) {
-    const short = words.slice(0, 2).join(" ");
-    if (short.length >= 5 && titleNorm.includes(short)) return true;
-  }
-
-  if (ticker.length === 1) {
-    return new RegExp(`(\\$${escRe(ticker)}\\b|\\(${escRe(ticker)}\\)|(?:NYSE|NASDAQ|AMEX)\\s*:\\s*${escRe(ticker)}\\b)`, "i").test(title);
-  }
-  return ticker.length > 1 && new RegExp(`(^|[^A-Z0-9])\\$?${escRe(ticker)}([^A-Z0-9]|$)`, "i").test(title);
+  if (relevance >= .68) return true;
+  if (relevance >= .38 && (tickerHit || nameHit)) return true;
+  return false;
 }
 
 const THEME_MATCHERS = {
@@ -45,10 +43,15 @@ const THEME_MATCHERS = {
 function storyMatchesTheme(story, theme) {
   const hay = `${story?.title || ""} ${story?.summary || ""}`.toLowerCase();
   const terms = THEME_MATCHERS[theme] || [String(theme || "").toLowerCase()];
-  return terms.some(term => term && hay.includes(term.toLowerCase()));
+  const matches = terms.filter(term => term && hay.includes(term.toLowerCase()));
+  if (!matches.length) return false;
+
+  const title = String(story?.title || "").toLowerCase();
+  const titleMatches = terms.filter(term => term && title.includes(term.toLowerCase()));
+
+  return matches.length >= 2 || titleMatches.length >= 1;
 }
-const WATCH_KEY = "companySignal.watchlist.v1";
-const state = { companies: [], meta: {}, rankings: {}, briefing: {}, sectors: [], themes: [], general_news: [], watchlist: new Set() };
+const state = { companies: [], meta: {}, rankings: {}, briefing: {}, sectors: [], themes: [], general_news: [] };
 const $ = id => document.getElementById(id);
 
 function esc(v="") { return String(v).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"})[c]); }
@@ -58,29 +61,6 @@ function fmtMoney(v) { if(!v) return "—"; const n=Number(v); if(n>=1e12) retur
 function pct(v) { return (v===null||v===undefined)?"—":`${Number(v).toFixed(1)}%`; }
 function sentimentClass(s="") { s=s.toLowerCase(); return s.includes("positive")?"positive":s.includes("negative")?"negative":"neutral"; }
 function companyByTicker(t) { return state.companies.find(c=>c.ticker===t); }
-function loadWatch() { try { state.watchlist=new Set(JSON.parse(localStorage.getItem(WATCH_KEY)||"[]")); } catch { state.watchlist=new Set(); } }
-function saveWatch() { localStorage.setItem(WATCH_KEY, JSON.stringify([...state.watchlist])); }
-function toggleWatch(ticker) { state.watchlist.has(ticker)?state.watchlist.delete(ticker):state.watchlist.add(ticker); saveWatch(); renderAll(); }
-
-const scoreDefs = {
-  signal: [
-    [25,"Primary evidence","SEC or regulatory filing supports the signal. Primary-source evidence receives the highest confidence weighting."],
-    [20,"Coverage acceleration","Current credible coverage compared with the company’s recent baseline."],
-    [20,"Catalyst strength","Estimated significance of the underlying event: contracts, M&A, approvals, earnings, financing and similar developments."],
-    [15,"Corroboration","Independent credible sources supporting the development. Duplicated/syndicated stories are clustered."],
-    [10,"Source quality","Weight assigned to established financial journalism, primary filings and specialist reporting."],
-    [10,"Sentiment signal","Strength of directional tone in coverage. This is descriptive, not a buy/sell recommendation."],
-  ],
-  discovery: [
-    [35,"Attention lift","How far current coverage is above the company’s own normal level."],
-    [20,"Novelty","Rewards companies that normally have a quiet information footprint."],
-    [15,"Source breadth","Number of independent credible sources covering the company."],
-    [15,"Catalyst strength","How consequential the underlying development appears."],
-    [10,"Primary evidence","Whether SEC/regulatory evidence supports the story."],
-    [5,"Sentiment","Strength of positive or negative directional tone."],
-  ]
-};
-
 function infoBubble(text) { return `<button class="info-button" type="button" aria-label="More information">i<span class="info-tooltip">${esc(text)}</span></button>`; }
 function renderMethodology() {
   $("signalMethod").innerHTML = scoreDefs.signal.map(([n,name,desc])=>`<div class="method-item"><strong>${n}</strong><span>${esc(name)} ${infoBubble(desc)}</span></div>`).join("");
@@ -98,9 +78,8 @@ function companyCard(c, type="signal") {
       ? (c.market_attention_score ?? c.signal_score)
       : c.signal_score;
   const ratio=c.discovery_metrics?.coverage_ratio_vs_baseline;
-  const watched=state.watchlist.has(c.ticker);
   return `<article class="company-card ${discovery?'emerging-card':''}" data-ticker="${esc(c.ticker)}" tabindex="0">
-    <div class="card-top"><div><div class="ticker-line"><span class="ticker">${esc(c.ticker)}</span><button class="watch-button ${watched?'active':''}" data-watch="${esc(c.ticker)}" aria-label="${watched?'Remove from':'Add to'} watchlist">★</button></div>${c.company_name?`<div class="company-name">${esc(c.company_name)}</div>`:""}</div>${scoreRing(score, discovery?'discovery':'signal')}</div>
+    <div class="card-top"><div><div class="ticker-line"><span class="ticker">${esc(c.ticker)}</span></div>${c.company_name?`<div class="company-name">${esc(c.company_name)}</div>`:""}</div>${scoreRing(score, discovery?'discovery':'signal')}</div>
     <div class="catalyst-type">${esc(c.catalyst_category||"Company development")}</div>
     <div class="catalyst">${esc(c.primary_catalyst||"Credible company development")}</div>
     <div class="meta-row">
@@ -140,163 +119,16 @@ function getFiltered(kind) {
 }
 
 function attachCards() {
-  document.querySelectorAll(".company-card").forEach(card=>{
-    card.addEventListener("click", e=>{ if(e.target.closest("[data-watch]")) return; openCompany(card.dataset.ticker); });
-    card.addEventListener("keydown", e=>{ if((e.key==="Enter"||e.key===" ")&&!e.target.closest("[data-watch]")){e.preventDefault();openCompany(card.dataset.ticker);} });
-  });
-  document.querySelectorAll("[data-watch]").forEach(btn=>btn.addEventListener("click", e=>{e.stopPropagation();toggleWatch(btn.dataset.watch);}));
-}
-
-function renderRankings() {
-  const leaders=getFiltered("attention"), emerging=getFiltered("discovery");
-  $("leaderGrid").innerHTML=leaders.map(c=>companyCard(c,"attention")).join("");
-  $("emergingGrid").innerHTML=emerging.map(c=>companyCard(c,"discovery")).join("");
-  $("leaderEmpty").hidden=leaders.length>0; $("emergingEmpty").hidden=emerging.length>0;
-  $("leaderCount").textContent=`${leaders.length} shown`; $("emergingCount").textContent=`${emerging.length} shown`; attachCards();
-}
-
-function renderWatchlist() {
-  const rows=[...state.watchlist].map(companyByTicker).filter(Boolean).sort((a,b)=>Math.max(b.signal_score,b.discovery_score)-Math.max(a.signal_score,a.discovery_score));
-  $("watchGrid").innerHTML=rows.map(c=>companyCard(c, c.discovery_score>c.signal_score?"discovery":"signal")).join("");
-  $("watchEmpty").hidden=rows.length>0; $("watchCount").textContent=rows.length?`${rows.length} watched`:""; attachCards();
-}
-
-function briefingItem(title, items, cls="") {
-  const content = items.length
-    ? items.map(x => {
-        if (typeof x === "string") {
-          return `<div class="brief-pill"><button class="ticker-link" data-open="${esc(x)}">${esc(x)}</button></div>`;
-        }
-        return `<div class="brief-pill">
-          <button class="ticker-link" data-open="${esc(x.ticker)}">${esc(x.ticker)}</button>
-          ${x.delta !== undefined ? `<span class="brief-delta ${x.delta >= 0 ? "up" : "down"}">${x.delta > 0 ? "+" : ""}${fmtNum(x.delta)}</span>` : ""}
-          ${x.category ? `<span class="brief-category">${esc(x.category)}</span>` : ""}
-        </div>`;
-      }).join("")
-    : `<span class="muted">None this period</span>`;
-  return `<article class="brief-card ${cls}"><h3>${esc(title)}</h3><div class="brief-content">${content}</div></article>`;
-}
-function renderBriefing() {
-  const b=state.briefing||{};
-  $("briefingGrid").innerHTML=[
-    briefingItem("New emerging", b.new_emerging||[], "good"),
-    briefingItem("Accelerating", b.accelerating||[], "good"),
-    briefingItem("Major catalysts", b.major_catalysts||[], "accent"),
-    briefingItem("Cooling", b.cooling||[], "warn"),
-    briefingItem("Left emerging top 20", b.left_emerging_top20||[], "quiet"),
-  ].join("");
-  document.querySelectorAll("[data-open]").forEach(b=>b.addEventListener("click",()=>openCompany(b.dataset.open)));
-}
-
-function renderLandscape() {
-  const maxSector=Math.max(1,...state.sectors.map(s=>s.discovery_intensity||0));
-  $("sectorMap").innerHTML=state.sectors.length?state.sectors.map(s=>`<div class="heat-row"><div class="heat-label"><strong>${esc(s.sector)}</strong><span>${s.company_count} companies · ${s.tickers.map(esc).join(" · ")}</span></div><div class="heat-track"><span style="width:${Math.max(5,(s.discovery_intensity/maxSector)*100)}%"></span></div><b>${Math.round(s.discovery_intensity)}</b></div>`).join(""):`<p class="muted">Sector data will fill in as fundamentals are cached.</p>`;
-  $("themeMap").innerHTML=state.themes.length?state.themes.map(t=>`<button class="theme-chip" data-theme-tickers="${esc(t.tickers.join(','))}"><strong>${esc(t.theme)}</strong><span>${t.company_count} companies · intensity ${Math.round(t.intensity)}</span><small>${t.tickers.map(esc).join(" · ")}</small></button>`).join(""):`<p class="muted">No multi-company themes detected yet.</p>`;
-  document.querySelectorAll("[data-theme-tickers]").forEach(btn=>btn.addEventListener("click",()=>{const first=btn.dataset.themeTickers.split(',')[0]; if(first) openCompany(first);}));
-  bindThemeChips();
-}
-
-function sparkline(points, key) {
-  if(!points||points.length<2) return `<div class="chart-placeholder">History builds automatically with each daily run.</div>`;
-  const vals=points.map(p=>Number(p[key]||0)); const w=520,h=120,pad=8; const min=Math.min(...vals,0), max=Math.max(...vals,100); const span=Math.max(1,max-min);
-  const coords=vals.map((v,i)=>`${pad+(i/(vals.length-1))*(w-pad*2)},${h-pad-((v-min)/span)*(h-pad*2)}`).join(" ");
-  return `<svg class="sparkline" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(key)} history"><line x1="8" y1="112" x2="512" y2="112"></line><polyline points="${coords}"></polyline></svg>`;
-}
-function metricRow(label,value){return `<div class="fund-row"><span>${esc(label)}</span><strong>${esc(value)}</strong></div>`;}
-
-function openCompany(ticker) {
-  const c=companyByTicker(ticker); if(!c) return;
-  const f=c.fundamentals||{}, m=c.metrics||{}, d=c.discovery_metrics||{}, mat=c.materiality||{};
-  const stories = (c.stories || []).filter(s => storyMatchesCompany(s, c)).filter(s => !s.ticker || s.ticker === c.ticker).map(s =>`<article class="story"><div class="story-meta"><span>${esc(s.source||"Unknown")}</span><span>${fmtDate(s.published_at)}</span><span>${esc(s.evidence_type||"Reporting")}</span></div><h4>${esc(s.title||"")}</h4><p>${esc(s.summary||"")}</p>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Open original source ↗</a>`:""}</article>`).join("");
-  const watched=state.watchlist.has(c.ticker);
-  $("dialogContent").innerHTML=`
-    <div class="detail-header"><div class="detail-title-row"><div><p class="eyebrow">${esc(c.ticker)}${c.company_name?` · ${esc(c.company_name)}`:""}</p><h2>${esc(c.primary_catalyst||"Credible company development")}</h2></div><button class="watch-button detail-watch ${watched?'active':''}" data-dialog-watch="${esc(c.ticker)}">★ ${watched?'Watching':'Watch'}</button></div>
-      <div class="detail-tags"><span class="badge">${esc(c.catalyst_category||"Other")}</span><span class="badge">${esc(c.attention_status||"Normal")}</span><span class="badge confidence">Confidence ${Math.round(c.confidence_score||0)}</span>${c.new_to_radar?`<span class="badge new">NEW TO RADAR</span>`:""}</div>
-      <p>${esc(c.why_it_matters||"")}</p>
-      <div class="triple-score"><div><span>Attention</span><strong>${Math.round(c.market_attention_score ?? c.signal_score ?? 0)}</strong><small>all credible coverage</small></div><div><span>Discovery</span><strong>${Math.round(c.discovery_score||0)}</strong><small>vs. baseline</small></div><div><span>Confidence</span><strong>${Math.round(c.confidence_score||0)}</strong><small>evidence quality</small></div></div>
-    </div>
-
-    <div class="detail-grid">
-      <section class="detail-panel"><p class="eyebrow">FUNDAMENTALS</p><h3>Company context</h3>${metricRow("Industry",f.industry||"—")}${metricRow("Market cap",fmtMoney(f.market_cap))}${metricRow("P/E (TTM)",fmtNum(f.pe_ttm,2))}${metricRow("P/S (TTM)",fmtNum(f.ps_ttm,2))}${metricRow("Revenue growth",pct(f.revenue_growth_ttm_yoy))}${metricRow("EPS growth",pct(f.eps_growth_ttm_yoy))}${metricRow("Net margin",pct(f.net_margin_ttm))}${metricRow("Debt / equity",fmtNum(f.debt_equity,2))}</section>
-      <section class="detail-panel"><p class="eyebrow">MATERIALITY</p><h3>${esc(mat.label||"Unquantified")}</h3>${metricRow("Estimated event value",fmtMoney(mat.estimated_event_value))}${metricRow("Event / market cap",mat.market_cap_ratio!==null&&mat.market_cap_ratio!==undefined?`${(mat.market_cap_ratio*100).toFixed(1)}%`:"—")}${metricRow("Materiality score",`${mat.score||0} / 20`)}<p class="caution">${esc(mat.caution||"")}</p></section>
-    </div>
-
-    <section class="detail-panel history-panel"><div class="history-heading"><div><p class="eyebrow">SIGNAL HISTORY</p><h3>30-day trajectory</h3></div><div class="legend"><span>Signal</span><span>Discovery</span></div></div><div class="chart-pair"><div>${sparkline(c.history,"signal_score")}<small>Signal Score</small></div><div>${sparkline(c.history,"discovery_score")}<small>Discovery Score</small></div></div></section>
-
-    <div class="detail-grid score-detail"><section class="detail-panel"><p class="eyebrow">SIGNAL SCORE</p>${metricRow("Primary evidence",`${Math.round(m.primary_evidence||0)} / 25`)}${metricRow("Coverage acceleration",`${Math.round(m.coverage_acceleration||0)} / 20`)}${metricRow("Catalyst strength",`${Math.round(m.catalyst_strength||0)} / 20`)}${metricRow("Corroboration",`${Math.round(m.corroboration||0)} / 15`)}${metricRow("Source quality",`${Math.round(m.source_quality||0)} / 10`)}${metricRow("Sentiment",`${Math.round(m.sentiment_signal||0)} / 10`)}</section><section class="detail-panel"><p class="eyebrow">DISCOVERY SCORE</p>${metricRow("Attention lift",`${Math.round(d.attention_lift||0)} / 35`)}${metricRow("Novelty",`${Math.round(d.novelty||0)} / 20`)}${metricRow("Source breadth",`${Math.round(d.source_breadth||0)} / 15`)}${metricRow("Catalyst strength",`${Math.round(d.catalyst_strength||0)} / 15`)}${metricRow("Primary evidence",`${Math.round(d.primary_evidence||0)} / 10`)}${metricRow("Sentiment",`${Math.round(d.sentiment||0)} / 5`)}</section></div>
-
-    ${c.themes?.length?`<section class="detail-panel"><p class="eyebrow">THEMES</p><div class="meta-row">${c.themes.map(t=>`<span class="badge theme-badge">${esc(t)}</span>`).join("")}</div></section>`:""}
-    <section class="coverage-section"><p class="eyebrow">IMPORTANT COVERAGE</p>${stories||"<p>No detailed stories stored.</p>"}</section>`;
-  $("companyDialog").showModal();
-  document.querySelector("[data-dialog-watch]")?.addEventListener("click", e=>{toggleWatch(e.currentTarget.dataset.dialogWatch); $("companyDialog").close(); openCompany(ticker);});
-}
-
-function populateFilters() {
-  const sectors=[...new Set(state.companies.map(c=>c.fundamentals?.industry).filter(Boolean))].sort();
-  const cats=[...new Set(state.companies.map(c=>c.catalyst_category).filter(Boolean))].sort();
-  $("sectorFilter").innerHTML=`<option value="">All industries</option>`+sectors.map(x=>`<option>${esc(x)}</option>`).join("");
-  $("catalystFilter").innerHTML=`<option value="">All catalysts</option>`+cats.map(x=>`<option>${esc(x)}</option>`).join("");
-}
-function renderAll(){renderRankings();renderWatchlist();}
-
-
-function openTheme(themeName) {
-  const related = [];
-  for (const company of (state.companies || [])) {
-    for (const story of (company.stories || [])) {
-      if (storyMatchesTheme(story, themeName) && storyMatchesCompany(story, company)) {
-        related.push({ ...story, ticker: company.ticker, company_name: company.company_name });
+  document.querySelectorAll(".company-card").forEach(card => {
+    card.addEventListener("click", () => openCompany(card.dataset.ticker));
+    card.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openCompany(card.dataset.ticker);
       }
-    }
-  }
-
-  const unique = [];
-  const seen = new Set();
-  for (const story of related) {
-    const key = `${story.ticker}|${story.url || ""}|${story.title || ""}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    unique.push(story);
-  }
-
-  unique.sort((a,b) => new Date(b.published_at || 0) - new Date(a.published_at || 0));
-
-  $("dialogContent").innerHTML = `
-    <div class="detail-header">
-      <p class="eyebrow">THEME</p>
-      <h2>${esc(themeName)}</h2>
-      <p>${unique.length} relevant stor${unique.length === 1 ? "y" : "ies"} across the current signal set.</p>
-    </div>
-    ${unique.length ? unique.map(s => `
-      <article class="story">
-        <div class="story-meta">
-          <span>${esc(s.ticker || "")}</span>
-          <span>${esc(s.source || "Unknown source")}</span>
-          <span>${fmtDate(s.published_at)}</span>
-        </div>
-        <h4>${esc(s.title || "")}</h4>
-        <p>${esc(s.summary || "")}</p>
-        ${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">Open original source ↗</a>` : ""}
-      </article>
-    `).join("") : `<div class="empty-state">No current stories specifically match this theme.</div>`}
-  `;
-  $("companyDialog").showModal();
-}
-
-
-function bindThemeChips() {
-  document.querySelectorAll(".theme-chip").forEach(chip => {
-    if (chip.dataset.boundTheme === "1") return;
-    chip.dataset.boundTheme = "1";
-    chip.addEventListener("click", (e) => {
-      e.preventDefault();
-      e.stopPropagation();
-      const theme = chip.dataset.theme || chip.getAttribute("data-name") || chip.textContent.trim();
-      openTheme(theme);
     });
   });
 }
-
 
 function renderGeneralNews() {
   const host = $("generalNewsGrid");
@@ -320,7 +152,7 @@ function renderGeneralNews() {
 }
 
 async function init() {
-  loadWatch(); renderMethodology();
+  renderMethodology();
   try {
     const r=await fetch(`${DATA_URL}?v=${Date.now()}`,{cache:"no-store"}); if(!r.ok) throw new Error(`HTTP ${r.status}`);
     const data=await r.json(); state.companies=data.companies||[]; state.meta=data.meta||{}; state.rankings=data.rankings||{}; state.briefing=data.briefing||{}; state.sectors=data.sectors||[]; state.themes=data.themes||[]; state.general_news=data.general_news||[];

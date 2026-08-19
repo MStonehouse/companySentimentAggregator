@@ -293,12 +293,115 @@ def title_mentions_company(title: str, company_name: str) -> bool:
             return True
     return False
 
-def is_strict_company_story(story: dict, ticker: str, company_name: str) -> bool:
-    # SEC filing entries are inherently company-specific and are retained.
+def company_display_relevance(story: dict, ticker: str, company_name: str) -> float:
+    """
+    Score 0..1 for whether an article is centrally about the company.
+
+    Ranking uses all vetted ticker associations. This score is only for display.
+    """
+    if story.get("evidence_type") == "SEC filing":
+        return 1.0
+
+    title = story.get("title", "") or ""
+    summary = story.get("summary", "") or ""
+    title_low = title.lower()
+    summary_low = summary.lower()
+
+    try:
+        api_relevance = float(story.get("relevance", 0.0))
+    except Exception:
+        api_relevance = 0.0
+
+    core = normalized_company_core(company_name)
+    ticker_hit_title = title_mentions_ticker(title, ticker)
+    name_hit_title = title_mentions_company(title, company_name)
+
+    # Summary evidence.
+    summary_name_hits = 0
+    if core:
+        summary_name_hits = summary_low.count(core)
+    summary_ticker_hit = False
+    if ticker:
+        if len(ticker) == 1:
+            summary_ticker_hit = bool(re.search(
+                rf"(\${re.escape(ticker)}\b|\({re.escape(ticker)}\)|(?:NYSE|NASDAQ|AMEX)\s*:\s*{re.escape(ticker)}\b)",
+                summary, re.I
+            ))
+        else:
+            summary_ticker_hit = bool(re.search(
+                rf"(?<![A-Z0-9])\$?{re.escape(ticker)}(?![A-Z0-9])",
+                summary, re.I
+            ))
+
+    score = 0.0
+
+    # API's own ticker relevance is the strongest non-text signal.
+    score += min(0.62, max(0.0, api_relevance) * 0.62)
+
+    # Headline identity strongly implies main-subject relevance.
+    if name_hit_title:
+        score += 0.30
+    elif ticker_hit_title:
+        score += 0.24
+
+    # Summary evidence can qualify an article even when the headline is broader.
+    if summary_name_hits >= 2:
+        score += 0.22
+    elif summary_name_hits == 1:
+        score += 0.14
+
+    if summary_ticker_hit:
+        score += 0.10
+
+    return min(1.0, score)
+
+
+def should_display_company_story(story: dict, ticker: str, company_name: str) -> bool:
+    """
+    Moderate relevance policy:
+    - strong API association can pass without headline mention
+    - medium association needs textual confirmation
+    - weak association stays aggregation-only
+    """
     if story.get("evidence_type") == "SEC filing":
         return True
-    title = story.get("title", "")
-    return title_mentions_company(title, company_name) or title_mentions_ticker(title, ticker)
+
+    score = company_display_relevance(story, ticker, company_name)
+
+    try:
+        api_relevance = float(story.get("relevance", 0.0))
+    except Exception:
+        api_relevance = 0.0
+
+    title = story.get("title", "") or ""
+    summary = story.get("summary", "") or ""
+    text_confirmed = (
+        title_mentions_company(title, company_name)
+        or title_mentions_ticker(title, ticker)
+        or (normalized_company_core(company_name) and normalized_company_core(company_name) in summary.lower())
+        or (ticker and re.search(rf"(?<![A-Z0-9])\$?{re.escape(ticker)}(?![A-Z0-9])", summary, re.I))
+    )
+
+    if api_relevance >= 0.68:
+        return True
+    if api_relevance >= 0.38 and text_confirmed:
+        return True
+    return score >= 0.62
+
+
+def theme_relevance_score(story: dict, theme: str) -> float:
+    text = f" {story.get('title','')} {story.get('summary','')} ".lower()
+    keywords = THEME_RULES.get(theme, ())
+    if not keywords:
+        return 0.0
+    hits = sum(1 for k in keywords if k in text)
+    if hits == 0:
+        return 0.0
+    title_low = (story.get("title","") or "").lower()
+    title_hits = sum(1 for k in keywords if k in title_low)
+    score = min(1.0, hits * 0.18 + title_hits * 0.18)
+    return score
+
 
 def general_article_from_alpha(article: dict) -> dict:
     return {
@@ -414,7 +517,8 @@ def fetch_alpha_news(ticker_names: dict[str, str]) -> tuple[list[dict], list[dic
                 "fingerprint": story_fingerprint(title),
                 "relevance": relevance,
             }
-            candidate["display_relevant"] = is_strict_company_story(candidate, ticker, company_name)
+            candidate["display_relevance"] = round(company_display_relevance(candidate, ticker, company_name), 3)
+            candidate["display_relevant"] = should_display_company_story(candidate, ticker, company_name)
             aggregation_stories.append(candidate)
 
     general_news = dedupe_general_news(general_news)
@@ -448,7 +552,8 @@ def fetch_finnhub_news(ticker: str, company_name: str) -> list[dict]:
             "published_at": iso_from_epoch(row.get("datetime")), "sentiment": 0.0,
             "evidence_type": "Professional reporting", "fingerprint": story_fingerprint(title),
         }
-        candidate["display_relevant"] = is_strict_company_story(candidate, ticker, company_name)
+        candidate["display_relevance"] = round(company_display_relevance(candidate, ticker, company_name), 3)
+        candidate["display_relevant"] = should_display_company_story(candidate, ticker, company_name)
         stories.append(candidate)
     return stories
 
@@ -1003,9 +1108,13 @@ def main() -> None:
         company_name = ticker_names.get(ticker, s.get("company_name", ""))
         s["company_name"] = company_name or s.get("company_name", "")
         if s.get("evidence_type") == "SEC filing":
+            s["display_relevance"] = 1.0
             s["display_relevant"] = True
-        elif "display_relevant" not in s:
-            s["display_relevant"] = is_strict_company_story(s, ticker, company_name)
+        else:
+            if "display_relevance" not in s:
+                s["display_relevance"] = round(company_display_relevance(s, ticker, company_name), 3)
+            if "display_relevant" not in s:
+                s["display_relevant"] = should_display_company_story(s, ticker, company_name)
 
     grouped = collections.defaultdict(list)
     for s in dedupe_stories(all_stories):
@@ -1056,7 +1165,7 @@ def main() -> None:
         "meta": {
             "generated_at": NOW.isoformat(), "companies_scanned": len(grouped),
             "sources_enabled": {"sec_edgar": bool(SEC_USER_AGENT), "alpha_vantage": bool(ALPHA_KEY), "finnhub": bool(FINNHUB_KEY)},
-            "model_version": "4.4-resilient-cache", "baseline_days": baseline_days,
+            "model_version": "4.6-graded-display-relevance", "baseline_days": baseline_days,
             "baseline_maturity": "established" if baseline_days >= 7 else "building",
             "fundamentals_cache_days": 7,
         },
