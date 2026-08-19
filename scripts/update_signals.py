@@ -33,6 +33,7 @@ DATA_DIR = ROOT / "data"
 OUT = DATA_DIR / "signals.json"
 HISTORY = DATA_DIR / "history.json"
 FUND_CACHE = DATA_DIR / "fundamentals_cache.json"
+PROFILE_CACHE = DATA_DIR / "company_profiles.json"
 NEWS_CACHE = DATA_DIR / "news_cache.json"
 
 SEC_USER_AGENT = os.getenv("SEC_USER_AGENT", "").strip()
@@ -40,6 +41,8 @@ ALPHA_KEY = os.getenv("ALPHA_VANTAGE_API_KEY", "").strip()
 FINNHUB_KEY = os.getenv("FINNHUB_API_KEY", "").strip()
 MAX_COMPANIES = int(os.getenv("MAX_COMPANIES", "30"))
 FUNDAMENTAL_ENRICH_LIMIT = int(os.getenv("FUNDAMENTAL_ENRICH_LIMIT", "20"))
+PROFILE_REFRESH_DAYS = int(os.getenv("PROFILE_REFRESH_DAYS", "180"))
+PROFILE_FETCH_LIMIT = int(os.getenv("PROFILE_FETCH_LIMIT", "4"))
 
 NOW = dt.datetime.now(dt.timezone.utc)
 TODAY = NOW.date()
@@ -665,6 +668,120 @@ def first_seen(history: dict, ticker: str) -> str:
     return first
 
 
+
+def cache_profiles() -> dict:
+    return load_json(PROFILE_CACHE, {"updated": {}})
+
+def profile_is_fresh(entry: dict, days: int = PROFILE_REFRESH_DAYS) -> bool:
+    try:
+        stamp = dt.date.fromisoformat(entry.get("updated_at", ""))
+        return TODAY - stamp <= dt.timedelta(days=days)
+    except Exception:
+        return False
+
+def clean_profile_description(text: str, max_len: int = 700) -> str:
+    text = re.sub(r"\s+", " ", html.unescape(text or "")).strip()
+    if not text:
+        return ""
+    if len(text) <= max_len:
+        return text
+    cut = text[:max_len]
+    if "." in cut:
+        cut = cut[:cut.rfind(".")+1]
+    return cut.rstrip()
+
+def infer_products_markets(description: str, industry: str = "") -> list[str]:
+    text = f"{description} {industry}".lower()
+    rules = [
+        ("AI & accelerated computing", ("artificial intelligence", " ai ", "accelerated computing", "gpu", "accelerator")),
+        ("Semiconductors", ("semiconductor", "chip", "processor", "wafer")),
+        ("Data centers", ("data center", "data centre", "cloud infrastructure")),
+        ("Cloud software", ("cloud software", "cloud platform", "saas")),
+        ("Enterprise software", ("enterprise software", "business software")),
+        ("Cybersecurity", ("cybersecurity", "cyber security")),
+        ("Networking", ("networking", "network equipment")),
+        ("Automotive", ("automotive", "vehicle", "automobile")),
+        ("Biotechnology", ("biotechnology", "biotech")),
+        ("Therapeutics", ("therapeutic", "drug", "pharmaceutical")),
+        ("Medical devices", ("medical device", "medical equipment")),
+        ("Energy", ("energy", "power generation")),
+        ("Utilities", ("utility", "electric utility")),
+        ("Mining", ("mining", "mineral")),
+        ("Critical minerals", ("lithium", "uranium", "rare earth", "copper", "nickel", "graphite")),
+        ("Aerospace & defense", ("aerospace", "defense", "defence")),
+        ("Financial services", ("financial services", "banking", "payments")),
+        ("Industrial automation", ("automation", "robotics", "industrial systems")),
+    ]
+    out = []
+    for label, terms in rules:
+        if any(term in text for term in terms):
+            out.append(label)
+        if len(out) >= 5:
+            break
+    return out
+
+def fetch_alpha_company_overview(ticker: str) -> dict:
+    if not ALPHA_KEY:
+        return {}
+    params = {"function": "OVERVIEW", "symbol": ticker, "apikey": ALPHA_KEY}
+    try:
+        data = http_json("https://www.alphavantage.co/query?" + urllib.parse.urlencode(params))
+    except Exception as exc:
+        print(f"Alpha profile request failed for {ticker}: {exc}")
+        return {}
+
+    if not isinstance(data, dict) or not data.get("Symbol"):
+        detail = ""
+        if isinstance(data, dict):
+            detail = data.get("Information") or data.get("Note") or data.get("Error Message") or ""
+        if detail:
+            print(f"Alpha profile unavailable for {ticker}: {detail}")
+        return {}
+
+    description = clean_profile_description(data.get("Description", ""))
+    industry = data.get("Industry", "") or data.get("Sector", "")
+    return {
+        "name": data.get("Name", ""),
+        "description": description,
+        "industry": industry,
+        "sector": data.get("Sector", ""),
+        "country": data.get("Country", ""),
+        "exchange": data.get("Exchange", ""),
+        "currency": data.get("Currency", ""),
+        "products_markets": infer_products_markets(description, industry),
+        "source": "Alpha Vantage Company Overview",
+    }
+
+def enrich_company_profiles(tickers: list[str], cache: dict, fundamentals_map: dict[str, dict]) -> dict[str, dict]:
+    updated = cache.setdefault("updated", {})
+    result = {}
+    fetch_budget = PROFILE_FETCH_LIMIT
+
+    for ticker in tickers:
+        entry = updated.get(ticker, {})
+        if entry and profile_is_fresh(entry):
+            result[ticker] = entry.get("data", {})
+            continue
+
+        if fetch_budget <= 0:
+            if entry:
+                result[ticker] = entry.get("data", {})
+            continue
+
+        data = fetch_alpha_company_overview(ticker)
+        if data:
+            if not data.get("industry"):
+                data["industry"] = fundamentals_map.get(ticker, {}).get("industry", "")
+            updated[ticker] = {"updated_at": TODAY.isoformat(), "data": data}
+            result[ticker] = data
+            fetch_budget -= 1
+            time.sleep(0.8)
+        elif entry:
+            result[ticker] = entry.get("data", {})
+
+    PROFILE_CACHE.write_text(json.dumps(cache, indent=2, ensure_ascii=False))
+    return result
+
 def cache_fundamentals() -> dict:
     return load_json(FUND_CACHE, {"updated": {}})
 
@@ -781,7 +898,8 @@ def materiality(stories: list[dict], fundamentals: dict) -> dict:
 
 
 def score_company(ticker: str, stories: list[dict], baseline: float, baseline_days: int,
-                  company_name: str, fundamentals: dict, history: dict) -> dict:
+                  company_name: str, fundamentals: dict, history: dict, profile: dict | None = None) -> dict:
+    profile = profile or {}
     stories = sorted(stories, key=lambda s: s.get("published_at", ""), reverse=True)
     display_stories = [s for s in stories if s.get("display_relevant") or s.get("evidence_type") == "SEC filing"]
     recent24 = [s for s in stories if parse_dt(s.get("published_at", "")) >= NOW - dt.timedelta(hours=24)]
@@ -922,6 +1040,7 @@ def score_company(ticker: str, stories: list[dict], baseline: float, baseline_da
         },
         "materiality": mat,
         "fundamentals": fundamentals,
+        "profile": profile,
         "themes": themes,
         "stories": [s for s in top_stories if s.get("display_relevant") or s.get("evidence_type") == "SEC filing"][:6],
     }
@@ -1039,6 +1158,7 @@ def main() -> None:
     history.setdefault("rankings", {})
     history.setdefault("first_seen", {})
     fund_cache = cache_fundamentals()
+    profile_cache = cache_profiles()
 
     all_stories = []
     general_news = []
@@ -1087,7 +1207,7 @@ def main() -> None:
     prelim = []
     for ticker, stories in grouped.items():
         company = score_company(ticker, stories, baseline_for(history, ticker), baseline_days,
-                                ticker_names.get(ticker, ""), {}, history)
+                                ticker_names.get(ticker, ""), {}, history, {})
         prelim.append(company)
     leader_pre = sorted(prelim, key=lambda x: x["market_attention_score"], reverse=True)[:MAX_COMPANIES]
     emerging_pre = sorted(prelim, key=lambda x: x["discovery_score"], reverse=True)[:MAX_COMPANIES]
@@ -1129,11 +1249,14 @@ def main() -> None:
     prelim2 = []
     for ticker, stories in grouped.items():
         prelim2.append(score_company(ticker, stories, baseline_for(history, ticker), baseline_days,
-                                     ticker_names.get(ticker, ""), {}, history))
+                                     ticker_names.get(ticker, ""), {}, history, {}))
     leader2 = sorted(prelim2, key=lambda x: x["market_attention_score"], reverse=True)[:MAX_COMPANIES]
     emerging2 = sorted(prelim2, key=lambda x: x["discovery_score"], reverse=True)[:MAX_COMPANIES]
     enrichment_tickers = list(dict.fromkeys([c["ticker"] for c in leader2[:15] + emerging2[:15]]))
     fundamentals_map = enrich_fundamentals(enrichment_tickers, fund_cache)
+
+    profile_tickers = enrichment_tickers[:24]
+    profiles_map = enrich_company_profiles(profile_tickers, profile_cache, fundamentals_map)
 
     companies = []
     today_counts = {}
@@ -1141,7 +1264,7 @@ def main() -> None:
         count24 = sum(parse_dt(s.get("published_at", "")) >= NOW - dt.timedelta(hours=24) for s in stories)
         today_counts[ticker] = int(count24)
         c = score_company(ticker, stories, baseline_for(history, ticker), baseline_days,
-                          ticker_names.get(ticker, ""), fundamentals_map.get(ticker, {}), history)
+                          ticker_names.get(ticker, ""), fundamentals_map.get(ticker, {}), history, profiles_map.get(ticker, {}))
         companies.append(c)
 
     leaders = sorted(companies, key=lambda x: x["market_attention_score"], reverse=True)[:MAX_COMPANIES]
@@ -1151,10 +1274,13 @@ def main() -> None:
 
     # Re-run materiality for selected names if cached fundamentals exist outside enrichment set.
     cached_data = fund_cache.get("updated", {})
+    cached_profiles = profile_cache.get("updated", {})
     for c in companies:
         if not c.get("fundamentals") and c["ticker"] in cached_data:
             c["fundamentals"] = cached_data[c["ticker"]].get("data", {})
             c["materiality"] = materiality(c.get("stories", []), c["fundamentals"])
+        if not c.get("profile") and c["ticker"] in cached_profiles:
+            c["profile"] = cached_profiles[c["ticker"]].get("data", {})
         c["history"] = score_history_for(history, c["ticker"], c)
 
     leaders = sorted(companies, key=lambda x: x["market_attention_score"], reverse=True)[:MAX_COMPANIES]
@@ -1165,9 +1291,11 @@ def main() -> None:
         "meta": {
             "generated_at": NOW.isoformat(), "companies_scanned": len(grouped),
             "sources_enabled": {"sec_edgar": bool(SEC_USER_AGENT), "alpha_vantage": bool(ALPHA_KEY), "finnhub": bool(FINNHUB_KEY)},
-            "model_version": "4.6-graded-display-relevance", "baseline_days": baseline_days,
+            "model_version": "4.7-company-profiles", "baseline_days": baseline_days,
             "baseline_maturity": "established" if baseline_days >= 7 else "building",
             "fundamentals_cache_days": 7,
+            "profile_refresh_days": PROFILE_REFRESH_DAYS,
+            "profile_fetch_limit_per_run": PROFILE_FETCH_LIMIT,
         },
         "rankings": {
             "market_leaders": [c["ticker"] for c in leaders],

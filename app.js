@@ -180,6 +180,20 @@ function openCompany(ticker) {
       <div class="triple-score"><div><span>Attention</span><strong>${Math.round(c.market_attention_score ?? c.signal_score ?? 0)}</strong><small>all credible coverage</small></div><div><span>Discovery</span><strong>${Math.round(c.discovery_score||0)}</strong><small>vs. baseline</small></div><div><span>Confidence</span><strong>${Math.round(c.confidence_score||0)}</strong><small>evidence quality</small></div></div>
     </div>
 
+    ${c.profile?.description ? `
+    <section class="detail-panel company-profile-panel">
+      <p class="eyebrow">ABOUT THE COMPANY</p>
+      <h3>${esc(c.profile?.name || c.company_name || c.ticker)}</h3>
+      <p class="company-description">${esc(c.profile.description)}</p>
+      ${c.profile?.products_markets?.length ? `
+        <div class="products-markets">
+          <span class="profile-label">Products &amp; markets</span>
+          <div class="profile-tags">
+            ${c.profile.products_markets.map(item => `<span class="profile-tag">${esc(item)}</span>`).join("")}
+          </div>
+        </div>` : ""}
+    </section>` : ""}
+
     <div class="detail-grid">
       <section class="detail-panel"><p class="eyebrow">FUNDAMENTALS</p><h3>Company context</h3>${metricRow("Industry",f.industry||"—")}${metricRow("Market cap",fmtMoney(f.market_cap))}${metricRow("P/E (TTM)",fmtNum(f.pe_ttm,2))}${metricRow("P/S (TTM)",fmtNum(f.ps_ttm,2))}${metricRow("Revenue growth",pct(f.revenue_growth_ttm_yoy))}${metricRow("EPS growth",pct(f.eps_growth_ttm_yoy))}${metricRow("Net margin",pct(f.net_margin_ttm))}${metricRow("Debt / equity",fmtNum(f.debt_equity,2))}</section>
       <section class="detail-panel"><p class="eyebrow">MATERIALITY</p><h3>${esc(mat.label||"Unquantified")}</h3>${metricRow("Estimated event value",fmtMoney(mat.estimated_event_value))}${metricRow("Event / market cap",mat.market_cap_ratio!==null&&mat.market_cap_ratio!==undefined?`${(mat.market_cap_ratio*100).toFixed(1)}%`:"—")}${metricRow("Materiality score",`${mat.score||0} / 20`)}<p class="caution">${esc(mat.caution||"")}</p></section>
