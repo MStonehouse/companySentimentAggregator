@@ -950,6 +950,132 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "SCSC": {
+      "updated_at": "2026-08-20",
+      "data": {
+        "name": "Scansource Inc",
+        "description": "ScanSource sells—through specialized routes-to-market—offerings from industry-leading suppliers of point-of-sale, payments, barcode, physical security, unified communications and collaboration, telecom, and cloud services. ScanSource and its partners create, deliver and manage solutions for customers across most markets.",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.scansource.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "RIG": {
+      "updated_at": "2026-08-20",
+      "data": {
+        "name": "Transocean Ltd",
+        "description": "Transocean Ltd., provides offshore contract drilling services for oil and gas wells globally. The company is headquartered in Steinhausen, Switzerland.",
+        "industry": "OIL & GAS DRILLING",
+        "sector": "ENERGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "SKWD": {
+      "updated_at": "2026-08-20",
+      "data": {
+        "name": "Skyward Specialty Insurance Group Inc",
+        "description": "Welcome to Skyward Specialty Insurance. Explore our specialized insurance solutions and how we help you rise above limitations and succeed.",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.skywardinsurance.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "PPC": {
+      "updated_at": "2026-08-20",
+      "data": {
+        "name": "Pilgrims Pride Corp",
+        "description": "Pilgrims Pride Corp is a publicly traded company operating in the Food Products industry with company information identifying US as its home market.",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.pilgrims.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "SBEV": {
+      "updated_at": "2026-08-20",
+      "data": {
+        "name": "Splash Beverage Group Inc",
+        "description": "Splash Beverage Group Inc is a publicly traded company operating in the Beverages industry with company information identifying US as its home market.",
+        "industry": "Beverages",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://splashbeveragegroup.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "PFGC": {
+      "updated_at": "2026-08-20",
+      "data": {
+        "name": "Performance Food Group Co",
+        "description": "Global description for PFGC",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.pfgc.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "RARE": {
+      "updated_at": "2026-08-20",
+      "data": {
+        "name": "Ultragenyx Pharmaceutical Inc",
+        "description": "Ultragenyx is focused on developing first-ever approved treatments for rare and ultrarare diseases and moving the rare disease community forward.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.ultragenyx.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "RGTI": {
+      "updated_at": "2026-08-20",
+      "data": {
+        "name": "Rigetti Computing Inc",
+        "description": "Practical quantum computing. Delivered over the cloud.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.rigetti.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SLGL": {
+      "updated_at": "2026-08-20",
+      "data": {
+        "name": "Sol Gel Technologies Ltd",
+        "description": "Sol-Gel is a dermatology company developing breakthrough solutions for rare skin conditions.",
+        "industry": "Pharmaceuticals",
+        "country": "IL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "http://www.sol-gel.com",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
