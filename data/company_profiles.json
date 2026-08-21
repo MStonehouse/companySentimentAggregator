@@ -1484,6 +1484,152 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "AAPL": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Apple Inc",
+        "description": "Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.apple.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "GOSS": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Gossamer Bio Inc",
+        "description": "Science Seralutinib Seralutinib is an inhaled PDGFRα/β, CSF1R, and c‑KIT inhibitor designed to be delivered via dry powder inhaler for the potential treatment of pulmonary arterial hypertension (PAH) and pulmonary hypertension associated with interstitial lung disease (PH-ILD).",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.gossamerbio.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "YUM": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Yum! Brands Inc",
+        "description": "KFC, Pizza Hut, Taco Bell",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.yum.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "TSLA": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Tesla Inc",
+        "description": "Tesla, Inc. is an American electric vehicle and clean energy company based in Palo Alto, California. Tesla's current products include electric cars, battery energy storage from home to grid-scale, solar panels and solar roof tiles, as well as other related products and services. In 2020, Tesla had the highest sales in the plug-in and battery electric passenger car segments, capturing 16% of the plug-in market (which includes plug-in hybrids) and 23% of the battery-electric (purely electric) market. Through its subsidiary Tesla Energy, the company develops and is a major installer of solar photovoltaic energy generation systems in the United States.",
+        "industry": "AUTO MANUFACTURERS",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Automotive",
+          "Energy"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "JUNS": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Jupiter Neurosciences Inc",
+        "description": "Jupiter Neurosciences Inc is a publicly traded company operating in the Pharmaceuticals industry with company information identifying US as its home market.",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://jupiterneurosciences.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "INV": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Innventure Inc",
+        "description": "Innventure (NASDAQ:INV), an industrial growth conglomerate, focuses on building companies with billion-dollar valuations by commercializing breakthrough corporate market solutions. By systematically creating and operating industrial enterprises from the ground up, Innventure participates in early-stage economics and provides industrial operating expertise designed for global scale. Innventure’s approach seeks to uniquely bridge the ”Valley of Death\" between corporate innovation and commercialization through its distinctive combination of value-driven multinational partnerships, operational experience, and scaling expertise.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.innventure.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "PSX": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Phillips 66",
+        "description": "Phillips 66 leads in energy manufacturing and logistics. Discover how we're powering the future. Learn more!",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.phillips66.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "HCA": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "HCA Healthcare Inc",
+        "description": "HCA Healthcare Inc is a publicly traded company operating in the Health Care industry with company information identifying US as its home market.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://hcahealthcare.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "FIBK": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "First Interstate Bancsystem Inc",
+        "description": "First Interstate Bancsystem Inc is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://fibk.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "HBAN": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Huntington Bancshares Inc",
+        "description": "Huntington provides online banking solutions, mortgage, investing, loans, credit cards, and personal, small business, and commercial financial services.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.huntington.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
