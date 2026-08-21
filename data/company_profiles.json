@@ -1179,6 +1179,178 @@
         ],
         "source": "Company website"
       }
+    },
+    "DAL": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Delta Air Lines Inc",
+        "description": "Delta Air Lines, a leader in domestic and international travel, offers plane tickets and vacation packages to over 300 destinations in 60 countries.",
+        "industry": "Airlines",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.delta.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "GS": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Goldman Sachs Group Inc",
+        "description": "The Goldman Sachs Group, Inc. is a leading global investment banking, securities, and asset and wealth management firm that provides a wide range of financial services.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.goldmansachs.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "AVGO": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Broadcom Inc",
+        "description": "Broadcom delivers semiconductors and infrastructure software for global enterprises’ most complex, mission-critical needs.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.broadcom.com",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      }
+    },
+    "HOWL": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Werewolf Therapeutics Inc",
+        "description": "Developing transformative conditionally activated proinflammatory immune modulating medicines to unleash a powerful attack on cancer.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://werewolftx.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "FLO": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Flowers Foods Inc",
+        "description": "Flowers Foods Inc is a publicly traded company operating in the Food Products industry with company information identifying US as its home market.",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.flowersfoods.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "INGR": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Ingredion Inc",
+        "description": "Ingredion partners with food and beverage manufacturers to deliver innovative clean label, sugar reduction, plant-based proteins, and texture solutions.",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.ingredion.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "FLUX": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Flux Power Holdings Inc",
+        "description": "Switch to Flux Power’s lithium-ion batteries for material handling equipment, forklifts, and airport ground support. Enhance efficiency and cut costs now!",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.fluxpower.com/",
+        "products_markets": [
+          "Critical minerals"
+        ],
+        "source": "Company website"
+      }
+    },
+    "EPM": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Evolution Petroleum Corp",
+        "description": "We strive to provide investors with a lower risk investment opportunity in the energy sector that prioritizes free cash flow and generates a superior return through consistent dividends and growth.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://www.evolutionpetroleum.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "FBIZ": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "First Business Financial Services Inc",
+        "description": "Through strategic solutions and unmatched service, First Business Bank focuses on your business financial service, private wealth, and specialty finance needs.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://firstbusiness.bank/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ZTEK": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Zentek Ltd",
+        "description": "Zentek Ltd is a publicly traded company operating in the Health Care industry with company information identifying CA as its home market.",
+        "industry": "Health Care",
+        "country": "CA",
+        "exchange": "TSX VENTURE EXCHANGE - NEX",
+        "website": "https://www.zentek.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "BY": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Byline Bancorp Inc",
+        "description": "Byline Bancorp Inc is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.bylinebancorp.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "BPOP": {
+      "updated_at": "2026-08-21",
+      "data": {
+        "name": "Popular Inc",
+        "description": "Popular Inc is a publicly traded company operating in the Banking industry with company information identifying PR as its home market.",
+        "industry": "Banking",
+        "country": "PR",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.popular.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }
