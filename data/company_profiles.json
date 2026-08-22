@@ -2068,6 +2068,50 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "RF": {
+      "updated_at": "2026-08-22",
+      "data": {
+        "name": "Regions Financial Corporation",
+        "description": "Regions Financial Corporation is a bank holding company headquartered in the Regions Center in Birmingham, Alabama. The company provides retail banking and commercial banking, trust, stockbrokerage, and mortgage services.",
+        "industry": "BANKS - REGIONAL",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "OI": {
+      "updated_at": "2026-08-22",
+      "data": {
+        "name": "O-i Glass, Inc",
+        "description": "O-I Glass is a leading glass bottle manufacturer, designing innovative glass packaging for the world's leading brands. We love infinitely recyclable, healthy, sustainable glass packaging.",
+        "industry": "Packaging",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.o-i.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "HMC": {
+      "updated_at": "2026-08-22",
+      "data": {
+        "name": "Honda Motor Co Ltd",
+        "description": "本田技研工業株式会社の公式サイトです。Hondaの製品・サービス情報などをお伝えします。",
+        "industry": "Automobiles",
+        "country": "JP",
+        "exchange": "TOKYO STOCK EXCHANGE-TOKYO PRO MARKET",
+        "website": "https://www.honda.co.jp",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }

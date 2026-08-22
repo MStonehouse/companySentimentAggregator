@@ -5680,6 +5680,98 @@
         "debt_equity": 1.0205,
         "beta": 1.4474729
       }
+    },
+    "RF": {
+      "cached_at": "2026-08-22T21:41:52.342266+00:00",
+      "data": {
+        "name": "Regions Financial Corp",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.regions.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RF.png",
+        "market_cap": 25907175640.158173,
+        "pe_ttm": 12.0957,
+        "ps_ttm": 1.92217,
+        "pb_annual": 1.2479,
+        "revenue_growth_ttm_yoy": 45.41902,
+        "eps_growth_ttm_yoy": 11.87,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 30.49189,
+        "current_ratio": null,
+        "debt_equity": 0.2565,
+        "beta": 1.0695271
+      }
+    },
+    "OI": {
+      "cached_at": "2026-08-22T21:41:52.342266+00:00",
+      "data": {
+        "name": "O-i Glass, Inc",
+        "industry": "Packaging",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1991-12-11",
+        "weburl": "https://www.o-i.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/OI.png",
+        "market_cap": 1103276983.617555,
+        "pe_ttm": null,
+        "ps_ttm": 0.1672,
+        "pb_annual": 1.752,
+        "revenue_growth_ttm_yoy": -1.85,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 15.06,
+        "net_margin_ttm": -18.13,
+        "current_ratio": 1.2451,
+        "debt_equity": 3.8632,
+        "beta": 0.6461069
+      }
+    },
+    "HMC": {
+      "cached_at": "2026-08-22T21:41:52.342266+00:00",
+      "data": {
+        "name": "Honda Motor Co Ltd",
+        "industry": "Automobiles",
+        "country": "JP",
+        "exchange": "TOKYO STOCK EXCHANGE-TOKYO PRO MARKET",
+        "ipo_date": "1957-12-02",
+        "weburl": "https://www.honda.co.jp",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/7267.T.png",
+        "market_cap": 6778878461060.0,
+        "pe_ttm": null,
+        "ps_ttm": 0.2973,
+        "pb_annual": 0.4824,
+        "revenue_growth_ttm_yoy": 0.5,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 16.53,
+        "net_margin_ttm": -1.94,
+        "current_ratio": 1.2813,
+        "debt_equity": 1.1407,
+        "beta": 0.93538177
+      }
+    },
+    "UDR": {
+      "cached_at": "2026-08-22T21:41:52.342266+00:00",
+      "data": {
+        "name": "UDR Inc",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.udr.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959051706.png",
+        "market_cap": 12134149192.759884,
+        "pe_ttm": 23.1915,
+        "ps_ttm": 7.0562,
+        "pb_annual": 3.7174,
+        "revenue_growth_ttm_yoy": 1.54,
+        "eps_growth_ttm_yoy": 298.47,
+        "gross_margin_ttm": 65,
+        "net_margin_ttm": 30.43,
+        "current_ratio": 0.0011,
+        "debt_equity": 1.7702,
+        "beta": 0.69811535
+      }
     }
   }
 }
