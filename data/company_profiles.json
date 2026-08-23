@@ -2324,6 +2324,78 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "XPO": {
+      "updated_at": "2026-08-23",
+      "data": {
+        "name": "XPO Inc",
+        "description": "XPO (NYSE: XPO) is one of the largest providers of asset-based less-than-truckload (LTL) freight transportation shipping in North America. Get LTL Freight Quotes today.",
+        "industry": "Road & Rail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.xpo.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "SU": {
+      "updated_at": "2026-08-23",
+      "data": {
+        "name": "Suncor Energy Inc",
+        "description": "Suncor Energy Inc. is an integrated energy company. The company is headquartered in Calgary, Canada.",
+        "industry": "OIL & GAS INTEGRATED",
+        "sector": "ENERGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "TCBI": {
+      "updated_at": "2026-08-23",
+      "data": {
+        "name": "Texas Capital Bancshares Inc",
+        "description": "Bank boldly with Texas Capital.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.texascapitalbank.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SOFI": {
+      "updated_at": "2026-08-23",
+      "data": {
+        "name": "SoFi Technologies Inc",
+        "description": "SoFi Technologies Inc is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.sofi.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "WCC": {
+      "updated_at": "2026-08-23",
+      "data": {
+        "name": "Wesco International Inc",
+        "description": "Wesco International Inc is a publicly traded company operating in the Trading Companies & Distributors industry with company information identifying US as its home market.",
+        "industry": "Trading Companies & Distributors",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.wesco.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
     }
   }
 }
