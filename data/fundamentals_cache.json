@@ -6439,6 +6439,98 @@
         "debt_equity": 0.4873,
         "beta": 1.357593
       }
+    },
+    "IVZ": {
+      "cached_at": "2026-08-23T21:41:49.550889+00:00",
+      "data": {
+        "name": "Invesco Ltd",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1995-08-25",
+        "weburl": "https://www.invesco.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IVZ.png",
+        "market_cap": 14136823434.674746,
+        "pe_ttm": null,
+        "ps_ttm": 2.6823,
+        "pb_annual": 0.956,
+        "revenue_growth_ttm_yoy": -14.48,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 66.03,
+        "net_margin_ttm": -7.8,
+        "current_ratio": 0.8026,
+        "debt_equity": 0.7667,
+        "beta": 1.6278796
+      }
+    },
+    "CTRE": {
+      "cached_at": "2026-08-23T21:41:49.550889+00:00",
+      "data": {
+        "name": "CareTrust REIT Inc",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-05-20",
+        "weburl": "https://www.caretrustreit.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950406309776.png",
+        "market_cap": 9352484367.222837,
+        "pe_ttm": 25.8169,
+        "ps_ttm": 16.0566,
+        "pb_annual": 2.0436,
+        "revenue_growth_ttm_yoy": 53.03,
+        "eps_growth_ttm_yoy": 32.2,
+        "gross_margin_ttm": 98.79,
+        "net_margin_ttm": 62.19,
+        "current_ratio": 1.0674,
+        "debt_equity": 0.2216,
+        "beta": 0.7791599
+      }
+    },
+    "CBSH": {
+      "cached_at": "2026-08-23T21:41:49.550889+00:00",
+      "data": {
+        "name": "Commerce Bancshares Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.commercebank.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CBSH.png",
+        "market_cap": 8373570249.414286,
+        "pe_ttm": 14.7465,
+        "ps_ttm": 3.95449,
+        "pb_annual": 1.9194,
+        "revenue_growth_ttm_yoy": 41.29398,
+        "eps_growth_ttm_yoy": 0.9,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 31.99805,
+        "current_ratio": null,
+        "debt_equity": 0.7919,
+        "beta": 0.6122641
+      }
+    },
+    "E": {
+      "cached_at": "2026-08-23T21:41:49.550889+00:00",
+      "data": {
+        "name": "Eni SpA",
+        "industry": "Energy",
+        "country": "IT",
+        "exchange": "AIM ITALIA - MERCATO ALTERNATIVO DEL CAPITALE",
+        "ipo_date": "1995-11-28",
+        "weburl": "https://www.eni.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ENI.MI.png",
+        "market_cap": 71803779031.0,
+        "pe_ttm": 11.4666,
+        "ps_ttm": 0.677,
+        "pb_annual": 1.0247,
+        "revenue_growth_ttm_yoy": 20.59,
+        "eps_growth_ttm_yoy": 156.83,
+        "gross_margin_ttm": 20.17,
+        "net_margin_ttm": 5.9,
+        "current_ratio": 1.1924,
+        "debt_equity": 0.7134,
+        "beta": -0.27941027
+      }
     }
   }
 }

@@ -2396,6 +2396,33 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "IVZ": {
+      "updated_at": "2026-08-23",
+      "data": {
+        "name": "Invesco Plc",
+        "description": "Invesco Ltd. is an American independent investment management company that is headquartered in Atlanta, Georgia.",
+        "industry": "ASSET MANAGEMENT",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "CTRE": {
+      "updated_at": "2026-08-23",
+      "data": {
+        "name": "CareTrust REIT Inc",
+        "description": "CareTrust acquires and leases senior housing and healthcare properties across the country to operators of all sizes. Our mission is two-fold: To help top-notch healthcare operators realize their growth potential, while delivering steady value to our shareholders through accretive investments, a well-protected dividend, and a best-in-class tenant roster. Our real estate portfolio is …",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.caretrustreit.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
