@@ -2723,6 +2723,61 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "KRP": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Kimbell Royalty Partners LP",
+        "description": "Kimbell Royalty Partners, LP, acquires and owns mineral and royalty interests in oil and natural gas properties in the United States. The company is headquartered in Fort Worth, Texas.",
+        "industry": "OIL & GAS E&P",
+        "sector": "ENERGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Mining"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "FUL": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "H.B. Fuller Company",
+        "description": "H.B. Fuller leverages global adhesive manufacturing to innovate and share expertise, ensuring tailored solutions meet regional demands.",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.hbfuller.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "LUCY": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Innovative Eyewear Inc",
+        "description": "Discover the future of eyewear with Lucyd's innovative Smart Frames. Our advanced glasses seamlessly integrate technology into your daily life, enhancing productivity and connectivity. Explore our range today and experience the fusion of style, comfort, and cutting-edge tech.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://lucyd.co/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "LITE": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Lumentum Holdings Inc",
+        "description": "Lumentum Holdings Inc is a publicly traded company operating in the Communications industry with company information identifying US as its home market.",
+        "industry": "Communications",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://investor.lumentum.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
     }
   }
 }
