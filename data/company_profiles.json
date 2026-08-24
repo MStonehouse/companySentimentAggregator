@@ -2423,6 +2423,108 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "IRM": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Iron Mountain Incorporated",
+        "description": "Iron Mountain Inc. (NYSE: IRM) is an American enterprise information management services company founded in 1951 and headquartered in Boston, Massachusetts.",
+        "industry": "REIT - SPECIALTY",
+        "sector": "REAL ESTATE",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "EVRG": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Evergy Inc",
+        "description": "Everything you need to know about your energy service, saving, sustainability and more...",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.evergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "RACE": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Ferrari NV",
+        "description": "Ferrari NV is a publicly traded company operating in the Automobiles industry with company information identifying IT as its home market.",
+        "industry": "Automobiles",
+        "country": "IT",
+        "exchange": "AIM ITALIA - MERCATO ALTERNATIVO DEL CAPITALE",
+        "website": "https://www.ferrari.com/",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "SLF": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Sun Life Financial Inc",
+        "description": "Sun Life Financial Inc is a publicly traded company operating in the Insurance industry with company information identifying CA as its home market.",
+        "industry": "Insurance",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "website": "https://www.sunlife.ca/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "MTDR": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Matador Resources Co",
+        "description": "The Investor Relations website contains information about Matador Resources Company 's business for stockholders, potential investors, and financial analysts.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.matadorresources.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SYNA": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Synaptics Inc",
+        "description": "Synaptics revolutionizes human-device interaction with advanced touch, display, biometrics, AI-enhanced video, vision, audio, speech, and security technologies for superior digital experiences.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.synaptics.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      }
+    },
+    "BANC": {
+      "updated_at": "2026-08-24",
+      "data": {
+        "name": "Banc of California Inc",
+        "description": "We are the premier, relationship-focused, full-service business bank that offers financial solutions to maximize your operational efficiency.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://bancofcal.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
