@@ -3168,6 +3168,144 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "DKS": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Dick’s Sporting Goods Inc",
+        "description": "DICK'S Sporting Goods, Inc., is a sporting goods retailer primarily in the eastern United States. The company is headquartered in Coraopolis, Pennsylvania.",
+        "industry": "SPECIALTY RETAIL",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "CSCO": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Cisco Systems Inc",
+        "description": "Cisco is a worldwide technology leader powering an inclusive future for all. Learn more about our products, services, solutions, and innovations.",
+        "industry": "Communications",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.cisco.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "BX": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Blackstone Inc",
+        "description": "Blackstone Inc is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.blackstone.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "SMCI": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Super Micro Computer Inc",
+        "description": "The premier provider of advanced Server Building Block Solutions® for 5G/Edge, Data Center, Cloud, Enterprise, Big Data, HPC and Embedded markets worldwide.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.supermicro.com/en/",
+        "products_markets": [
+          "Data centers"
+        ],
+        "source": "Company website"
+      }
+    },
+    "CTRN": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Citi Trends Inc",
+        "description": "Shop the trends and hot brands at one of 600+ stores for men’s, ladies, kids, home décor & more. Up to 50% less than the others. Come often so you don’t miss out!",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://cititrends.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "FNGR": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "FingerMotion Inc",
+        "description": "Analytical Financial Solution",
+        "industry": "Telecommunication",
+        "country": "SG",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://fingermotion.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "FUN": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Six Flags Entertainment Corp",
+        "description": "Experience the excitement at Six Flags! Explore parks, rides, events & season passes. Plan your visit and grab exclusive offers online now.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.sixflags.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CALY": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Callaway Golf Co",
+        "description": "Buy Callaway Golf Clubs, including Drivers, Irons, Fairway Woods, Wedges and Hybrids at CallawayGolf.com",
+        "industry": "Leisure Products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://in.callawaygolf.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "EH": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "EHang Holdings Ltd",
+        "description": "EHang (NASDAQ: EH) is a world’s leading autonomous aerial vehicle (“AAV”) technology platform company. Our mission is to make safe, autonomous and eco-friendly air mobility accessible to everyone. EHang provides customers in various industries with AAV products and commercial solutions: urban air mobility (including passenger transportation and logistics), smart city management and aerial media solutions. As the forerunner of cutting-edge AAV technologies and commercial solutions in the global Urban Air Mobility industry, EHang continues to explore the boundaries of the sky to make flying technologies benefit our life in smart cities.",
+        "industry": "Aerospace & Defense",
+        "country": "CN",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.ehang.com/",
+        "products_markets": [
+          "Automotive",
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
+    },
+    "CDLR": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Cadeler A/S",
+        "description": "Cadeler is a global leader in offshore wind farm construction, maintenance, and decommissioning.",
+        "industry": "Construction",
+        "country": "DK",
+        "exchange": "OSLO BORS ASA",
+        "website": "https://www.cadeler.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
