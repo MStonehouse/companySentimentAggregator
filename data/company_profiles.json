@@ -3306,6 +3306,76 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "RHP": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Ryman Hospitality Properties Inc",
+        "description": "Ryman Hospitality Properties, Inc. (NYSE:RHP) is a REIT for federal income tax purposes, specializing in group-oriented, destination hotel assets in urban and resort markets.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.rymanhp.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "JAZZ": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Jazz Pharmaceuticals PLC",
+        "description": "Jazz Pharmaceuticals is focused on improving patients’ lives by identifying, developing, and commercializing products that address unmet medical needs.",
+        "industry": "Pharmaceuticals",
+        "country": "IE",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.jazzpharma.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SLNH": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Soluna Holdings Inc",
+        "description": "Soluna - Google",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.solunacomputing.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "RMSG": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Real Messenger Corporation Ordinary Shares",
+        "description": "Real Messenger Corporation (RMSG) is a leading player in the telecommunications sector, specializing in innovative messaging solutions that transform communication for individuals and enterprises alike. Leveraging a state-of-the-art technological infrastructure, RMSG offers secure and scalable messaging services that align with the increasing demand for real-time communication in today's digital environment. The company's dedication to enhancing user experience and facilitating seamless system integration positions it favorably to capitalize on growth opportunities within the rapidly evolving market.",
+        "industry": "SOFTWARE - APPLICATION",
+        "sector": "TECHNOLOGY",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "PRZO": {
+      "updated_at": "2026-08-25",
+      "data": {
+        "name": "Parazero Technologies Ltd",
+        "description": "ParaZero Technologies Ltd. (Nasdaq: PRZO) is an aerospace defense company pioneering smart, autonomous solutions for the global manned and unmanned aerial systems (UAS) industry",
+        "industry": "Electrical Equipment",
+        "country": "IL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://parazero.com/",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
