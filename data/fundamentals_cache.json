@@ -898,7 +898,7 @@
       }
     },
     "BA": {
-      "cached_at": "2026-08-18T23:30:09.077138+00:00",
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
       "data": {
         "name": "Boeing Co",
         "industry": "Aerospace & Defense",
@@ -907,7 +907,7 @@
         "ipo_date": "1934-09-05",
         "weburl": "https://www.boeing.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BA.png",
-        "market_cap": 178584098985.65158,
+        "market_cap": 166831300017.0,
         "pe_ttm": 75.2572,
         "ps_ttm": 1.9496,
         "pb_annual": 31.1735,
@@ -917,7 +917,7 @@
         "net_margin_ttm": 2.59,
         "current_ratio": 1.1882,
         "debt_equity": 9.919,
-        "beta": 1.2698662
+        "beta": 1.2621887
       }
     },
     "LLY": {
@@ -1105,7 +1105,7 @@
       }
     },
     "MU": {
-      "cached_at": "2026-08-18T23:48:44.884590+00:00",
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
       "data": {
         "name": "Micron Technology Inc",
         "industry": "Semiconductors",
@@ -1114,7 +1114,7 @@
         "ipo_date": "1984-06-01",
         "weburl": "https://www.micron.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MU.png",
-        "market_cap": 1142663403354.82,
+        "market_cap": 1053689816077.0002,
         "pe_ttm": 21.5314,
         "ps_ttm": 12.0374,
         "pb_annual": 2.5207,
@@ -1124,7 +1124,7 @@
         "net_margin_ttm": 55.91,
         "current_ratio": 2.518,
         "debt_equity": 0.2691,
-        "beta": 2.266983
+        "beta": 2.249269
       }
     },
     "JKHY": {
@@ -1933,7 +1933,7 @@
       }
     },
     "MS": {
-      "cached_at": "2026-08-19T14:02:54.176703+00:00",
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
       "data": {
         "name": "Morgan Stanley",
         "industry": "Financial Services",
@@ -1942,7 +1942,7 @@
         "ipo_date": "1986-03-21",
         "weburl": "https://www.morganstanley.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MS.png",
-        "market_cap": 341676705635.5495,
+        "market_cap": 340451660131.99994,
         "pe_ttm": 17.0888,
         "ps_ttm": 2.6742,
         "pb_annual": 2.5275,
@@ -1952,7 +1952,7 @@
         "net_margin_ttm": 15.65,
         "current_ratio": 0.2963,
         "debt_equity": 7.9002,
-        "beta": 1.2144122
+        "beta": 1.2143042
       }
     },
     "TJX": {
@@ -2094,7 +2094,7 @@
       }
     },
     "BLK": {
-      "cached_at": "2026-08-19T14:02:54.176703+00:00",
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
       "data": {
         "name": "BlackRock Inc",
         "industry": "Financial Services",
@@ -2103,7 +2103,7 @@
         "ipo_date": "1999-10-01",
         "weburl": "https://www.blackrock.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950002356066.png",
-        "market_cap": 187554387179.37018,
+        "market_cap": 191175986223.00003,
         "pe_ttm": 29.225,
         "ps_ttm": 7.0399,
         "pb_annual": 3.1244,
@@ -2113,7 +2113,7 @@
         "net_margin_ttm": 24.09,
         "current_ratio": 2.1321,
         "debt_equity": 0.2285,
-        "beta": 1.4242927
+        "beta": 1.4266196
       }
     },
     "LOW": {
@@ -8876,6 +8876,236 @@
         "current_ratio": 1.3417,
         "debt_equity": 0.6978,
         "beta": 0.4994233
+      }
+    },
+    "SJM": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "J.M. Smucker Co",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1965-10-20",
+        "weburl": "https://www.jmsmucker.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SJM.png",
+        "market_cap": 13408181468.999998,
+        "pe_ttm": null,
+        "ps_ttm": 1.4178,
+        "pb_annual": 1.8858,
+        "revenue_growth_ttm_yoy": 3.72,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 34.26,
+        "net_margin_ttm": -1.53,
+        "current_ratio": 0.7774,
+        "debt_equity": 1.258,
+        "beta": 0.24582975
+      }
+    },
+    "BSX": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "Boston Scientific Corp",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1992-05-19",
+        "weburl": "https://www.bostonscientific.com/en-US/Home.html",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BSX.png",
+        "market_cap": 72258583365.0,
+        "pe_ttm": 20.3957,
+        "ps_ttm": 3.5699,
+        "pb_annual": 5.833,
+        "revenue_growth_ttm_yoy": 13.53,
+        "eps_growth_ttm_yoy": 46.78,
+        "gross_margin_ttm": 69.5,
+        "net_margin_ttm": 17.5,
+        "current_ratio": 1.6168,
+        "debt_equity": 0.4719,
+        "beta": 0.5765765
+      }
+    },
+    "PEP": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "PepsiCo Inc",
+        "industry": "Beverages",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1919-12-18",
+        "weburl": "https://www.pepsico.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PEP.png",
+        "market_cap": 194183116619.00003,
+        "pe_ttm": 18.2277,
+        "ps_ttm": 1.9658,
+        "pb_annual": 9.6651,
+        "revenue_growth_ttm_yoy": 5.62,
+        "eps_growth_ttm_yoy": 38.92,
+        "gross_margin_ttm": 54.17,
+        "net_margin_ttm": 10.78,
+        "current_ratio": 0.853,
+        "debt_equity": 2.4102,
+        "beta": 0.36293876
+      }
+    },
+    "WM": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "Waste Management Inc",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1988-06-22",
+        "weburl": "https://www.wm.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WM.png",
+        "market_cap": 90467540000.0,
+        "pe_ttm": 31.7082,
+        "ps_ttm": 3.5245,
+        "pb_annual": 8.8603,
+        "revenue_growth_ttm_yoy": 7.17,
+        "eps_growth_ttm_yoy": 4.83,
+        "gross_margin_ttm": 40.88,
+        "net_margin_ttm": 11.12,
+        "current_ratio": 0.8888,
+        "debt_equity": 2.293,
+        "beta": 0.42470992
+      }
+    },
+    "RNST": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "Renasant Corp",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1992-04-21",
+        "weburl": "https://www.renasantbank.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RNST.png",
+        "market_cap": 3748497258.0,
+        "pe_ttm": 12.6954,
+        "ps_ttm": 2.35644,
+        "pb_annual": 0.8615,
+        "revenue_growth_ttm_yoy": 53.87987,
+        "eps_growth_ttm_yoy": 31.75,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 24.77165,
+        "current_ratio": null,
+        "debt_equity": 0.1301,
+        "beta": 1.0403848
+      }
+    },
+    "SON": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "Sonoco Products Co",
+        "industry": "Packaging",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.sonoco.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SON.png",
+        "market_cap": 5804951357.5200405,
+        "pe_ttm": 9.1793,
+        "ps_ttm": 0.7722,
+        "pb_annual": 1.1911,
+        "revenue_growth_ttm_yoy": 12.05,
+        "eps_growth_ttm_yoy": 12.74,
+        "gross_margin_ttm": 20.81,
+        "net_margin_ttm": 8.41,
+        "current_ratio": 1.0465,
+        "debt_equity": 1.1973,
+        "beta": 0.33684084
+      }
+    },
+    "ESS": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "Essex Property Trust Inc",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1994-06-07",
+        "weburl": "https://www.essexapartmenthomes.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959039476.png",
+        "market_cap": 18766384552.0,
+        "pe_ttm": 44.7985,
+        "ps_ttm": 9.6222,
+        "pb_annual": 3.0674,
+        "revenue_growth_ttm_yoy": 4.74,
+        "eps_growth_ttm_yoy": -48.35,
+        "gross_margin_ttm": 70.56,
+        "net_margin_ttm": 21.48,
+        "current_ratio": 0.7098,
+        "debt_equity": 1.2272,
+        "beta": 0.7146474
+      }
+    },
+    "AVAT": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "Avalanche Treasury Corp",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2025-02-03",
+        "weburl": "",
+        "logo": "",
+        "market_cap": 19529917.0,
+        "pe_ttm": 1.9454,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 1.9081,
+        "debt_equity": 0,
+        "beta": 0.13450383
+      }
+    },
+    "IR": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "Ingersoll Rand Inc",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2017-05-12",
+        "weburl": "https://www.irco.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IR.png",
+        "market_cap": 30485116722.0,
+        "pe_ttm": 34.0627,
+        "ps_ttm": 4.1134,
+        "pb_annual": 3.1022,
+        "revenue_growth_ttm_yoy": 7.85,
+        "eps_growth_ttm_yoy": 91.11,
+        "gross_margin_ttm": 42.82,
+        "net_margin_ttm": 12.08,
+        "current_ratio": 2.0558,
+        "debt_equity": 0.4742,
+        "beta": 1.1594708
+      }
+    },
+    "HUM": {
+      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "data": {
+        "name": "Humana Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1971-05-18",
+        "weburl": "https://www.humana.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HUM.png",
+        "market_cap": 46796495418.0,
+        "pe_ttm": 36.0936,
+        "ps_ttm": 0.3169,
+        "pb_annual": 1.7447,
+        "revenue_growth_ttm_yoy": 18.33,
+        "eps_growth_ttm_yoy": -18.96,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 0.88,
+        "current_ratio": 0.0059,
+        "debt_equity": 0.7005,
+        "beta": 0.7598023
       }
     }
   }
