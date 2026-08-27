@@ -944,7 +944,7 @@
       }
     },
     "JNJ": {
-      "cached_at": "2026-08-18T23:30:09.077138+00:00",
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
       "data": {
         "name": "Johnson & Johnson",
         "industry": "Pharmaceuticals",
@@ -953,7 +953,7 @@
         "ipo_date": "1944-09-25",
         "weburl": "https://www.jnj.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/JNJ.png",
-        "market_cap": 632285067869.8729,
+        "market_cap": 642840408203.125,
         "pe_ttm": 29.9333,
         "ps_ttm": 6.4302,
         "pb_annual": 6.1326,
@@ -963,7 +963,7 @@
         "net_margin_ttm": 21.48,
         "current_ratio": 1.0277,
         "debt_equity": 0.5878,
-        "beta": 0.19996098
+        "beta": 0.20310001
       }
     },
     "BX": {
@@ -9681,6 +9681,305 @@
         "current_ratio": 3.8158,
         "debt_equity": 0.0682,
         "beta": 0.30913657
+      }
+    },
+    "DLTR": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "Dollar Tree Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1995-03-06",
+        "weburl": "https://www.dollartree.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/DLTR.png",
+        "market_cap": 24774186033.951313,
+        "pe_ttm": 19.3504,
+        "ps_ttm": 1.2605,
+        "pb_annual": 6.2078,
+        "revenue_growth_ttm_yoy": 51.33,
+        "eps_growth_ttm_yoy": -4.81,
+        "gross_margin_ttm": 36.71,
+        "net_margin_ttm": 6.51,
+        "current_ratio": 1.0674,
+        "debt_equity": 0.6476,
+        "beta": 0.7153017
+      }
+    },
+    "AMGN": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "Amgen Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1983-06-17",
+        "weburl": "https://www.amgen.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMGN.png",
+        "market_cap": 238156511888.54587,
+        "pe_ttm": 25.8375,
+        "ps_ttm": 5.9299,
+        "pb_annual": 20.3569,
+        "revenue_growth_ttm_yoy": 9.1,
+        "eps_growth_ttm_yoy": 31.72,
+        "gross_margin_ttm": 74.3,
+        "net_margin_ttm": 22.95,
+        "current_ratio": 1.14,
+        "debt_equity": 6.3068,
+        "beta": 0.41517445
+      }
+    },
+    "LRCX": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "Lam Research Corp",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1984-05-11",
+        "weburl": "https://www.lamresearch.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LRCX.png",
+        "market_cap": 393452882294.89685,
+        "pe_ttm": 56.166,
+        "ps_ttm": 17.5644,
+        "pb_annual": 41.2056,
+        "revenue_growth_ttm_yoy": 26.02,
+        "eps_growth_ttm_yoy": 38.62,
+        "gross_margin_ttm": 50.47,
+        "net_margin_ttm": 31.27,
+        "current_ratio": 2.6293,
+        "debt_equity": 0.2995,
+        "beta": 1.8708835
+      }
+    },
+    "EQIX": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "Equinix Inc",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2000-08-11",
+        "weburl": "https://www.equinix.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959004916.png",
+        "market_cap": 106458852142.78091,
+        "pe_ttm": 69.0979,
+        "ps_ttm": 10.8034,
+        "pb_annual": 5.3387,
+        "revenue_growth_ttm_yoy": 9.64,
+        "eps_growth_ttm_yoy": 52.11,
+        "gross_margin_ttm": 51.49,
+        "net_margin_ttm": 15.63,
+        "current_ratio": 1.3165,
+        "debt_equity": 1.5023,
+        "beta": 0.98344624
+      }
+    },
+    "GEV": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "GE Vernova Inc",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2024-02-26",
+        "weburl": "https://www.gevernova.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950867201126.png",
+        "market_cap": 251818414215.79968,
+        "pe_ttm": 29.3342,
+        "ps_ttm": 6.7563,
+        "pb_annual": 15.8639,
+        "revenue_growth_ttm_yoy": 12.98,
+        "eps_growth_ttm_yoy": 744.44,
+        "gross_margin_ttm": 20.32,
+        "net_margin_ttm": 23.03,
+        "current_ratio": 0.9815,
+        "debt_equity": 0.0293,
+        "beta": 0.82062936
+      }
+    },
+    "ABNB": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "Airbnb Inc",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2020-12-10",
+        "weburl": "https://www.airbnb.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ABNB.png",
+        "market_cap": 111826227298.07707,
+        "pe_ttm": 41.1941,
+        "ps_ttm": 8.4241,
+        "pb_annual": 10.1893,
+        "revenue_growth_ttm_yoy": 13.64,
+        "eps_growth_ttm_yoy": 6.62,
+        "gross_margin_ttm": 72.42,
+        "net_margin_ttm": 20.45,
+        "current_ratio": 1.3772,
+        "debt_equity": 0.2438,
+        "beta": 1.2312553
+      }
+    },
+    "PPG": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "PPG Industries Inc",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1945-12-17",
+        "weburl": "https://www.ppg.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PPG.png",
+        "market_cap": 25421116442.032948,
+        "pe_ttm": 16.2553,
+        "ps_ttm": 1.5561,
+        "pb_annual": 2.8954,
+        "revenue_growth_ttm_yoy": 1.47,
+        "eps_growth_ttm_yoy": 58.96,
+        "gross_margin_ttm": 40.9,
+        "net_margin_ttm": 9.57,
+        "current_ratio": 1.6243,
+        "debt_equity": 0.9203,
+        "beta": 1.0507101
+      }
+    },
+    "BBCQW": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
+      }
+    },
+    "EQT": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "EQT Corp",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1950-06-05",
+        "weburl": "https://www.eqt.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EQT.png",
+        "market_cap": 33718440069.530117,
+        "pe_ttm": 12.4417,
+        "ps_ttm": 3.5592,
+        "pb_annual": 1.4083,
+        "revenue_growth_ttm_yoy": 30.17,
+        "eps_growth_ttm_yoy": 134,
+        "gross_margin_ttm": 62.54949,
+        "net_margin_ttm": 28.61,
+        "current_ratio": 0.7627,
+        "debt_equity": 0.33,
+        "beta": 0.6551669
+      }
+    },
+    "FBRX": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "Forte Biosciences Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2017-04-13",
+        "weburl": "https://www.fortebiorx.com/home/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FBRX.png",
+        "market_cap": 1634427427.0000002,
+        "pe_ttm": null,
+        "ps_ttm": 39368.9575,
+        "pb_annual": 5.601,
+        "revenue_growth_ttm_yoy": -99.78,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -158775,
+        "current_ratio": 3.8836,
+        "debt_equity": 0,
+        "beta": 2.2957423
+      }
+    },
+    "VTR": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "Ventas Inc",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1992-04-02",
+        "weburl": "https://www.ventasreit.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959052106.png",
+        "market_cap": 45383332185.181786,
+        "pe_ttm": 173.7798,
+        "ps_ttm": 7.0879,
+        "pb_annual": 2.9409,
+        "revenue_growth_ttm_yoy": 21.49,
+        "eps_growth_ttm_yoy": 25.98,
+        "gross_margin_ttm": 40.18,
+        "net_margin_ttm": 4.08,
+        "current_ratio": 0.2233,
+        "debt_equity": 1.0084,
+        "beta": 0.7445996
+      }
+    },
+    "LII": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "Lennox International Inc",
+        "industry": "Building",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1999-07-28",
+        "weburl": "https://www.lennox.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LII.png",
+        "market_cap": 13500091525.287664,
+        "pe_ttm": 18.2228,
+        "ps_ttm": 2.7292,
+        "pb_annual": 14.6425,
+        "revenue_growth_ttm_yoy": -2.11,
+        "eps_growth_ttm_yoy": -3.03,
+        "gross_margin_ttm": 33.47,
+        "net_margin_ttm": 14.98,
+        "current_ratio": 1.5974,
+        "debt_equity": 1.1937,
+        "beta": 1.1614219
+      }
+    },
+    "PCAR": {
+      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "data": {
+        "name": "Paccar Inc",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.paccar.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PCAR.png",
+        "market_cap": 66964144079.28067,
+        "pe_ttm": 27.3692,
+        "ps_ttm": 2.464,
+        "pb_annual": 2.9856,
+        "revenue_growth_ttm_yoy": -10.56,
+        "eps_growth_ttm_yoy": -18.58,
+        "gross_margin_ttm": 19.99,
+        "net_margin_ttm": 9,
+        "current_ratio": 0.7056,
+        "debt_equity": 0.8117,
+        "beta": 0.9831297
       }
     }
   }
