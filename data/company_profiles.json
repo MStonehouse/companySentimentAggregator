@@ -3759,6 +3759,123 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "SNPS": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "Synopsys Inc",
+        "description": "Synopsys delivers comprehensive silicon-to-systems solutions that help innovators accelerate development, reduce risk, and drive breakthroughs.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.synopsys.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "SYK": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "Stryker Corporation",
+        "description": "Stryker Corporation is an American multinational medical technologies corporation based in Kalamazoo, Michigan. Stryker's products include implants used in joint replacement and trauma surgeries; surgical equipment and surgical navigation systems; endoscopic and communications systems; patient handling and emergency medical equipment; neurosurgical, neurovascular and spinal devices; as well as other medical device products used in a variety of medical specialties.",
+        "industry": "MEDICAL DEVICES",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Medical devices"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "AMIX": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "Autonomix Medical Inc",
+        "description": "Autonomix Medical Inc is a publicly traded company operating in the Health Care industry with company information identifying US as its home market.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://autonomix.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "XBP": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "XBP Global Holdings Inc",
+        "description": "XBP Global is a workflow automation leader that leverages decades of industry experience, a global footprint, and Agentic AI to transform business processes.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://xbpglobal.com/",
+        "products_markets": [
+          "AI & accelerated computing",
+          "Financial services",
+          "Industrial automation"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SPRB": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "Spruce Biosciences, Inc",
+        "description": "Spruce is committed to advancing meaningful therapies for underserved neurological conditions like MPS IIIB (Sanfilippo Syndrome Type B). Our investigational therapy, TA-ERT, is guided by science, empathy, and patient voices to deliver urgently needed outcomes that transform lives.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://sprucebio.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "PWCM": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "LM Funding America Inc",
+        "description": "LM Funding America Inc is a publicly traded company operating in the Technology industry with company information identifying US as its home market.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.lmfunding.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "RADX": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "Radiopharm Theranostics Ltd",
+        "description": "Radiopharm Theranostics Ltd is a publicly traded company operating in the Biotechnology industry with company information identifying AU as its home market.",
+        "industry": "Biotechnology",
+        "country": "AU",
+        "exchange": "ASX - ALL MARKETS",
+        "website": "https://radiopharmtheranostics.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "BBIO": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "BridgeBio Pharma Inc",
+        "description": "BridgeBio is a biotechnology company designing transformative medicines for patients with genetic diseases and cancers with clear genetic drivers.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://bridgebio.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
