@@ -3876,6 +3876,89 @@
         ],
         "source": "Company website"
       }
+    },
+    "AME": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "Ametek Inc",
+        "description": "AMETEK, Inc. is an American global manufacturer of electronic instruments and electromechanical devices with a headquarters in the United States and over 220 manufacturing sites worldwide.",
+        "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+        "sector": "INDUSTRIALS",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "HPQ": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "HP Inc",
+        "description": "HP Inc is a publicly traded company operating in the Technology industry with company information identifying US as its home market.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://investor.hp.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "DG": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "Dollar General Corp",
+        "description": "Dollar General makes it easier to shop for everyday needs by offering the most popular brands at low everyday prices in convenient locations and online.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.dollargeneral.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "AJG": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "Arthur J. Gallagher & Co.",
+        "description": "Gallagher Insurance offers business insurance solutions through trusted brokers specializing in comprehensive risk management and consulting services",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.ajg.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "GWW": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "WW Grainger Inc",
+        "description": "WW Grainger Inc is a publicly traded company operating in the Trading Companies & Distributors industry with company information identifying US as its home market.",
+        "industry": "Trading Companies & Distributors",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.grainger.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "URG": {
+      "updated_at": "2026-08-27",
+      "data": {
+        "name": "Ur-Energy Inc",
+        "description": "Ur-Energy is a U.S. uranium mining company focused on developing and operating in-situ recovery (“ISR”) uranium projects in Wyoming. The Company owns and operates the Lost Creek ISR uranium facility in south-central Wyoming, which has&#8230;",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "website": "https://www.ur-energy.com/",
+        "products_markets": [
+          "Energy",
+          "Mining",
+          "Critical minerals"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
