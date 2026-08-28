@@ -4256,6 +4256,125 @@
         ],
         "source": "Structured company profile"
       }
+    },
+    "ADSK": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Autodesk Inc",
+        "description": "Autodesk is a leader in 3D design, engineering and entertainment software. We help people imagine, design, and create a better world.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.autodesk.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "MCK": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "McKesson Corp",
+        "description": "The leading healthcare company for wholesale medical supplies & equipment, pharmaceutical distribution, and healthcare technology solutions.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.mckesson.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "NXPI": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "NXP Semiconductors NV",
+        "description": "NXP is a global semiconductor company creating solutions that enable secure connections for a smarter world.",
+        "industry": "Semiconductors",
+        "country": "NL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.nxp.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      }
+    },
+    "GOVX": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "GeoVax Labs Inc",
+        "description": "GeoVax Labs, Inc., a clinical-stage biotechnology company, develops human vaccines and immunotherapies against infectious diseases and cancers using a modified vaccinia ankara virus-like particle vaccine platform. The company is headquartered in Smyrna, Georgia.",
+        "industry": "BIOTECHNOLOGY",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "UUUU": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Energy Fuels Inc",
+        "description": "American producer of uranium for the nuclear fuel cycle, rare earth oxides and critical minerals, operating the only U.S. conventional uranium mill. The company has begun commercial-scale processing of monazite, a low cost byproduct of mineral sand mining to produce the rare earth oxide neodymium-praseodymium (NdPr) at the mill in Utah as well as dysprosium (Dy) and Terbium (Tb). Additionally, it has acquired world significant heavy mineral sand mines for feedstock together with titanium and zirconium.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://www.energyfuels.com/",
+        "products_markets": [
+          "Energy",
+          "Mining",
+          "Critical minerals"
+        ],
+        "source": "Company website"
+      }
+    },
+    "OGEN": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Oragenics Inc",
+        "description": "Oragenics Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://www.oragenics.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "TE": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "T1 Energy Inc",
+        "description": "T1 Energy builds domestic solar and battery supply chains through advanced American manufacturing. Scalable, reliable, and low-cost energy for America.",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://t1energy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ORLY": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "O'Reilly Automotive Inc",
+        "description": "O’Reilly Auto Parts has led the auto parts industry since 1957, with quality parts, tools, excellent service, and strong core values at more than 6000 locations.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://corporate.oreillyauto.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }

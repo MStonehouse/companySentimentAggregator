@@ -760,7 +760,7 @@
       }
     },
     "GS": {
-      "cached_at": "2026-08-18T23:30:09.077138+00:00",
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
       "data": {
         "name": "Goldman Sachs Group Inc",
         "industry": "Financial Services",
@@ -769,7 +769,7 @@
         "ipo_date": "1999-05-04",
         "weburl": "https://www.goldmansachs.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GS.png",
-        "market_cap": 306111435596.30536,
+        "market_cap": 302955123070.6519,
         "pe_ttm": 14.5495,
         "ps_ttm": 2.26,
         "pb_annual": 2.1096,
@@ -779,7 +779,7 @@
         "net_margin_ttm": 15.53,
         "current_ratio": 0.315,
         "debt_equity": 9.3015,
-        "beta": 1.2885652
+        "beta": 1.2875345
       }
     },
     "NOW": {
@@ -1956,7 +1956,7 @@
       }
     },
     "TJX": {
-      "cached_at": "2026-08-19T14:02:54.176703+00:00",
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
       "data": {
         "name": "TJX Companies Inc",
         "industry": "Retail",
@@ -1965,7 +1965,7 @@
         "ipo_date": "1965-11-17",
         "weburl": "https://www.tjx.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TJX.png",
-        "market_cap": 166644675705.99997,
+        "market_cap": 147776317997.98102,
         "pe_ttm": 28.9551,
         "ps_ttm": 2.7223,
         "pb_annual": 16.3649,
@@ -1975,7 +1975,7 @@
         "net_margin_ttm": 9.4,
         "current_ratio": 1.1378,
         "debt_equity": 0.2816,
-        "beta": 0.57614875
+        "beta": 0.55435055
       }
     },
     "PANW": {
@@ -2002,7 +2002,7 @@
       }
     },
     "AXP": {
-      "cached_at": "2026-08-19T14:02:54.176703+00:00",
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
       "data": {
         "name": "American Express Co",
         "industry": "Financial Services",
@@ -2011,7 +2011,7 @@
         "ipo_date": "1977-05-18",
         "weburl": "https://www.americanexpress.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AXP.png",
-        "market_cap": 228605872578.74078,
+        "market_cap": 225452994398.0112,
         "pe_ttm": 20.102,
         "ps_ttm": 2.8324,
         "pb_annual": 7.6131,
@@ -2021,7 +2021,7 @@
         "net_margin_ttm": 14.09,
         "current_ratio": 0.6355,
         "debt_equity": 6.2809,
-        "beta": 1.0901959
+        "beta": 1.085947
       }
     },
     "ORCL": {
@@ -2692,7 +2692,7 @@
       }
     },
     "BAC": {
-      "cached_at": "2026-08-20T02:32:40.785265+00:00",
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
       "data": {
         "name": "Bank of America Corp",
         "industry": "Banking",
@@ -2701,7 +2701,7 @@
         "ipo_date": "1979-06-05",
         "weburl": "https://www.bankofamerica.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BAC.png",
-        "market_cap": 441731948052.33984,
+        "market_cap": 430578478162.961,
         "pe_ttm": 13.2926,
         "ps_ttm": 2.32875,
         "pb_annual": 1.3245,
@@ -2711,7 +2711,7 @@
         "net_margin_ttm": 30.15501,
         "current_ratio": null,
         "debt_equity": 2.3296,
-        "beta": 1.2253217
+        "beta": 1.2158628
       }
     },
     "JBSS": {
@@ -10164,6 +10164,259 @@
         "current_ratio": 0.9786,
         "debt_equity": 2.0667,
         "beta": 0.3050193
+      }
+    },
+    "ADSK": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "Autodesk Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1985-04-30",
+        "weburl": "https://www.autodesk.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ADSK.png",
+        "market_cap": 54369928702.09153,
+        "pe_ttm": 37.2041,
+        "ps_ttm": 7.2505,
+        "pb_annual": 17.7934,
+        "revenue_growth_ttm_yoy": 18.28,
+        "eps_growth_ttm_yoy": 46.5,
+        "gross_margin_ttm": 91.14,
+        "net_margin_ttm": 19.49,
+        "current_ratio": 0.8509,
+        "debt_equity": 0.8154,
+        "beta": 1.3174466
+      }
+    },
+    "MCK": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "McKesson Corp",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1994-11-10",
+        "weburl": "https://www.mckesson.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MCK.png",
+        "market_cap": 104104701765.18593,
+        "pe_ttm": 21.895,
+        "ps_ttm": 0.2446,
+        "pb_annual": 4.2901,
+        "revenue_growth_ttm_yoy": 8.84,
+        "eps_growth_ttm_yoy": 49.07,
+        "gross_margin_ttm": 3.64,
+        "net_margin_ttm": 1.12,
+        "current_ratio": 0.8537,
+        "debt_equity": 1.4507,
+        "beta": 0.30241406
+      }
+    },
+    "NXPI": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "NXP Semiconductors NV",
+        "industry": "Semiconductors",
+        "country": "NL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2010-08-06",
+        "weburl": "https://www.nxp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NXPI.png",
+        "market_cap": 56619681909.757034,
+        "pe_ttm": 19.6569,
+        "ps_ttm": 4.4353,
+        "pb_annual": 5.4324,
+        "revenue_growth_ttm_yoy": 8.77,
+        "eps_growth_ttm_yoy": 39.6,
+        "gross_margin_ttm": 56.79,
+        "net_margin_ttm": 22.56,
+        "current_ratio": 2.0459,
+        "debt_equity": 1.2154,
+        "beta": 1.8338466
+      }
+    },
+    "GOVX": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "GeoVax Labs Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1994-04-04",
+        "weburl": "https://www.geovax.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOVX.png",
+        "market_cap": 5084777.447698745,
+        "pe_ttm": null,
+        "ps_ttm": 0.8637,
+        "pb_annual": 1.3438,
+        "revenue_growth_ttm_yoy": 212.58,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -31.76,
+        "net_margin_ttm": -403.8,
+        "current_ratio": 2.7442,
+        "debt_equity": 0,
+        "beta": 3.7334142
+      }
+    },
+    "UUUU": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "Energy Fuels Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "1988-03-04",
+        "weburl": "https://www.energyfuels.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EFR.TO.png",
+        "market_cap": 3736976779.6235137,
+        "pe_ttm": null,
+        "ps_ttm": 33.8417,
+        "pb_annual": 5.0857,
+        "revenue_growth_ttm_yoy": 62.51,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 40.85,
+        "net_margin_ttm": -77.3,
+        "current_ratio": 30.6942,
+        "debt_equity": 0.996,
+        "beta": 1.8140968
+      }
+    },
+    "OGEN": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "Oragenics Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2003-07-09",
+        "weburl": "https://www.oragenics.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/OGEN.png",
+        "market_cap": 2391337.0864661657,
+        "pe_ttm": null,
+        "ps_ttm": 59.7947,
+        "pb_annual": 0.3942,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 61.29,
+        "net_margin_ttm": -19750,
+        "current_ratio": 5.6359,
+        "debt_equity": 0.0275,
+        "beta": 1.30518
+      }
+    },
+    "TE": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "T1 Energy Inc",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2020-01-10",
+        "weburl": "https://t1energy.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950867693306.png",
+        "market_cap": 1485889075.0665324,
+        "pe_ttm": null,
+        "ps_ttm": 1.521,
+        "pb_annual": 5.0822,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 7.6,
+        "net_margin_ttm": -42.3,
+        "current_ratio": 1.4312,
+        "debt_equity": 1.2121,
+        "beta": 2.3950553
+      }
+    },
+    "ORLY": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "O'Reilly Automotive Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1993-04-23",
+        "weburl": "https://corporate.oreillyauto.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ORLY.png",
+        "market_cap": 71253270108.0724,
+        "pe_ttm": 28.096,
+        "ps_ttm": 4.0094,
+        "pb_annual": 232.539,
+        "revenue_growth_ttm_yoy": 8.47,
+        "eps_growth_ttm_yoy": -76.61,
+        "gross_margin_ttm": 51.64,
+        "net_margin_ttm": 14.27,
+        "current_ratio": 0.7685,
+        "debt_equity": 29.45,
+        "beta": 0.5326554
+      }
+    },
+    "GCTK": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "GlucoTrack Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2013-04-09",
+        "weburl": "https://glucotrack.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950357048346.png",
+        "market_cap": 2962070.300489168,
+        "pe_ttm": null,
+        "ps_ttm": 38.2663,
+        "pb_annual": 1.2462,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -3871.6,
+        "current_ratio": 1.6063,
+        "debt_equity": 1.2069,
+        "beta": 0.5967496
+      }
+    },
+    "PH": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "Parker-Hannifin Corp",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1964-12-09",
+        "weburl": "https://www.parker.com/us/en/home.html",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PH.png",
+        "market_cap": 126907745607.68907,
+        "pe_ttm": 36.518,
+        "ps_ttm": 6.1965,
+        "pb_annual": 8.0062,
+        "revenue_growth_ttm_yoy": 8.31,
+        "eps_growth_ttm_yoy": 5.03,
+        "gross_margin_ttm": 37.84,
+        "net_margin_ttm": 16.97,
+        "current_ratio": 1.2623,
+        "debt_equity": 0.5531,
+        "beta": 1.1254712
+      }
+    },
+    "CSTUF": {
+      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "data": {
+        "name": "Constellation Acquisition Corp I",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "OTC MARKETS",
+        "ipo_date": "2021-01-27",
+        "weburl": "https://constellationacquisition.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950796835876.png",
+        "market_cap": 101744701.0,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 14.3214,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.0042,
+        "debt_equity": 0.5775,
+        "beta": -0.017954914
       }
     }
   }
