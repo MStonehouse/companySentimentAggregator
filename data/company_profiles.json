@@ -4130,6 +4130,132 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "KDP": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Keurig Dr Pepper Inc",
+        "description": "Keurig Dr Pepper is a leading beverage company in North America, with a portfolio of more than 125 owned, licensed and partner brands and powerful distribution capabilities to provide a beverage for every need, anytime, anywhere.",
+        "industry": "Beverages",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.keurigdrpepper.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CRWD": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "CrowdStrike Holdings Inc",
+        "description": "The Investor Relations website contains information about CrowdStrike Holdings, Inc.'s business for stockholders, potential investors, and financial analysts.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://ir.crowdstrike.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ANET": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Arista Networks",
+        "description": "Arista Networks (formerly Arastra) is an American computer networking company headquartered in Santa Clara, California. The company designs and sells multilayer network switches to deliver software-defined networking (SDN) solutions for large datacenter, cloud computing, high-performance computing, and high-frequency trading environments.",
+        "industry": "COMPUTER HARDWARE",
+        "sector": "TECHNOLOGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Networking"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "CTSH": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Cognizant Technology Solutions Corp",
+        "description": "The most impactful AI isn’t bought—it’s built. We bridge the gap between the AI that’s out there, and the AI your business needs.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.cognizant.com/",
+        "products_markets": [
+          "AI & accelerated computing"
+        ],
+        "source": "Company website"
+      }
+    },
+    "DECK": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Deckers Outdoor Corp",
+        "description": "Welcome to Deckers Brands. Learn more about our culture, careers, and impact.",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.deckers.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "DDOG": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Datadog Inc (Pre-Reincorporation)",
+        "description": "See metrics from all of your apps, tools & services in one place with Datadog’s cloud monitoring as a service solution. Try it for free.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.datadoghq.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "VST": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Vistra Corp",
+        "description": "Vistra is a premier Texas-based energy company focused on the competitive energy and power generation markets.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.vistracorp.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ADBE": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "Adobe Inc",
+        "description": "Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.adobe.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CMS": {
+      "updated_at": "2026-08-28",
+      "data": {
+        "name": "CMS Energy Corp",
+        "description": "CMS Energy Corp is a publicly traded company operating in the Utilities industry with company information identifying US as its home market.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.cmsenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }
