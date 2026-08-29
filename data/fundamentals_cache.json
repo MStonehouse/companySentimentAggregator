@@ -10855,6 +10855,98 @@
         "debt_equity": 0.2572,
         "beta": 0.29574946
       }
+    },
+    "BBY": {
+      "cached_at": "2026-08-29T23:26:34.758858+00:00",
+      "data": {
+        "name": "Best Buy Co Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1987-07-20",
+        "weburl": "https://investors.bestbuy.com/investor-relations/overview/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BBY.png",
+        "market_cap": 17312410760.82839,
+        "pe_ttm": 15.6978,
+        "ps_ttm": 0.4286,
+        "pb_annual": 4.6587,
+        "revenue_growth_ttm_yoy": 0.99,
+        "eps_growth_ttm_yoy": 32.32,
+        "gross_margin_ttm": 22.52,
+        "net_margin_ttm": 2.73,
+        "current_ratio": 1.1074,
+        "debt_equity": 0.3968,
+        "beta": 1.3170955
+      }
+    },
+    "CF": {
+      "cached_at": "2026-08-29T23:26:34.758858+00:00",
+      "data": {
+        "name": "CF Industries Holdings Inc",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2005-08-11",
+        "weburl": "https://www.cfindustries.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CF.png",
+        "market_cap": 19027741627.368153,
+        "pe_ttm": 8.6362,
+        "ps_ttm": 2.3423,
+        "pb_annual": 2.4934,
+        "revenue_growth_ttm_yoy": 20.04,
+        "eps_growth_ttm_yoy": 76.26,
+        "gross_margin_ttm": 42.49,
+        "net_margin_ttm": 27.12,
+        "current_ratio": 3.3653,
+        "debt_equity": 0.6645,
+        "beta": 0.51132065
+      }
+    },
+    "POOL": {
+      "cached_at": "2026-08-29T23:26:34.758858+00:00",
+      "data": {
+        "name": "Pool Corp",
+        "industry": "Distributors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1995-10-13",
+        "weburl": "https://www.poolcorp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/POOL.png",
+        "market_cap": 6848232135.443324,
+        "pe_ttm": 18.1204,
+        "ps_ttm": 1.3434,
+        "pb_annual": 7.1892,
+        "revenue_growth_ttm_yoy": 2.23,
+        "eps_growth_ttm_yoy": 0.4,
+        "gross_margin_ttm": 29.58,
+        "net_margin_ttm": 7.41,
+        "current_ratio": 2.2378,
+        "debt_equity": 1.012,
+        "beta": 1.0327256
+      }
+    },
+    "MNST": {
+      "cached_at": "2026-08-29T23:26:34.758858+00:00",
+      "data": {
+        "name": "Monster Beverage Corp",
+        "industry": "Beverages",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1985-12-09",
+        "weburl": "https://monsterbevcorp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MNST.png",
+        "market_cap": 91791371611.4201,
+        "pe_ttm": 42.3361,
+        "ps_ttm": 9.7709,
+        "pb_annual": 9.0753,
+        "revenue_growth_ttm_yoy": 20.37,
+        "eps_growth_ttm_yoy": 34.59,
+        "gross_margin_ttm": 55.55,
+        "net_margin_ttm": 23.08,
+        "current_ratio": 3.703,
+        "debt_equity": 0,
+        "beta": 0.48333922
+      }
     }
   }
 }

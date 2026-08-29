@@ -4628,6 +4628,63 @@
         ],
         "source": "Structured company profile"
       }
+    },
+    "BBY": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Best Buy Co. Inc",
+        "description": "Best Buy Co., Inc. is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota.",
+        "industry": "SPECIALTY RETAIL",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "LII": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Lennox International Inc",
+        "description": "Explore Lennox comfort and energy-efficient solutions for heating and cooling your space. Upgrade your home",
+        "industry": "Building",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.lennox.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "CF": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "CF Industries Holdings Inc",
+        "description": "CF Industries is a leading global manufacturer of hydrogen and nitrogen products",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.cfindustries.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CTRA": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Coterra Energy Inc",
+        "description": "Coterra Energy is a premier, diversified energy company well positioned to deliver superior and sustainable returns.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://coterra.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
