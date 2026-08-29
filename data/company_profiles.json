@@ -4375,6 +4375,117 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "CVX": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Chevron Corp",
+        "description": "Chevron Corporation is an American multinational energy corporation. One of the successor companies of Standard Oil, it is headquartered in San Ramon, California, and active in more than 180 countries. Chevron is engaged in every aspect of the oil and natural gas industries, including hydrocarbon exploration and production; refining, marketing and transport; chemicals manufacturing and sales; and power generation.",
+        "industry": "OIL & GAS INTEGRATED",
+        "sector": "ENERGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "GD": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "General Dynamics Corp",
+        "description": "General Dynamics Corp is a publicly traded company operating in the Aerospace & Defense industry with company information identifying US as its home market.",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.gd.com",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "AIZ": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Assurant Inc",
+        "description": "Leveraging insights and technology to build loyalty and drive value for brands, Assurant redefines the boundaries of protection for connected devices, homes, automobiles, and more.",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.assurant.com/",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Company website"
+      }
+    },
+    "BALL": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Ball Corp",
+        "description": "Ball Corp is a publicly traded company operating in the Packaging industry with company information identifying US as its home market.",
+        "industry": "Packaging",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.ball.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "MOH": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Molina Healthcare Inc",
+        "description": "Molina has provided the best healthcare quality and affordability for more than 30 years. See what sets us apart.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.molinahealthcare.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ITW": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Illinois Tool Works Inc",
+        "description": "Find out why our decentralized business model, customer-back innovation and support of our colleagues and community give us the competitive advantage.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.itw.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CB": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Chubb Limited",
+        "description": "Protect what matters most with Chubb’s personal and business insurance solutions. Discover tailored coverage and get your personalized quote today.",
+        "industry": "Insurance",
+        "country": "CH",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.chubb.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CNC": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Centene Corp",
+        "description": "As a managed care organization, we provide access to high-quality healthcare solutions that help families & individuals. Learn more about Centene.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.centene.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }

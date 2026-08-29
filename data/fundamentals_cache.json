@@ -714,7 +714,7 @@
       }
     },
     "CVX": {
-      "cached_at": "2026-08-18T23:30:09.077138+00:00",
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
       "data": {
         "name": "Chevron Corp",
         "industry": "Energy",
@@ -723,7 +723,7 @@
         "ipo_date": "1921-06-24",
         "weburl": "https://www.chevron.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CVX.png",
-        "market_cap": 400488830395.63446,
+        "market_cap": 398078397996.0577,
         "pe_ttm": 18.9191,
         "ps_ttm": 1.8665,
         "pb_annual": 1.6459,
@@ -733,7 +733,7 @@
         "net_margin_ttm": 9.87,
         "current_ratio": 1.1547,
         "debt_equity": 0.2186,
-        "beta": 0.5346055
+        "beta": 0.53421366
       }
     },
     "KKR": {
@@ -1519,7 +1519,7 @@
       }
     },
     "DLR": {
-      "cached_at": "2026-08-19T00:27:25.850285+00:00",
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
       "data": {
         "name": "Digital Realty Trust Inc",
         "industry": "Real Estate",
@@ -1528,7 +1528,7 @@
         "ipo_date": "2004-11-03",
         "weburl": "https://www.digitalrealty.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959090646.png",
-        "market_cap": 72249568186.14522,
+        "market_cap": 68721949760.22838,
         "pe_ttm": 91.879,
         "ps_ttm": 10.8421,
         "pb_annual": 2.3432,
@@ -1538,7 +1538,7 @@
         "net_margin_ttm": 11.8,
         "current_ratio": 1.176,
         "debt_equity": 0.8175,
-        "beta": 1.0281352
+        "beta": 1.017799
       }
     },
     "AXIL": {
@@ -2117,7 +2117,7 @@
       }
     },
     "LOW": {
-      "cached_at": "2026-08-19T14:02:54.176703+00:00",
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
       "data": {
         "name": "Lowe's Companies Inc",
         "industry": "Retail",
@@ -2126,7 +2126,7 @@
         "ipo_date": "1979-12-19",
         "weburl": "https://www.lowes.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LOW.png",
-        "market_cap": 120910876012.38995,
+        "market_cap": 116845754065.85182,
         "pe_ttm": 18.2487,
         "ps_ttm": 1.3706,
         "pb_annual": 85.0765,
@@ -2136,7 +2136,7 @@
         "net_margin_ttm": 7.51,
         "current_ratio": 1.0767,
         "debt_equity": 15.1566,
-        "beta": 0.8778626
+        "beta": 0.87220275
       }
     },
     "PLTK": {
@@ -4279,7 +4279,7 @@
       }
     },
     "ROK": {
-      "cached_at": "2026-08-21T14:03:39.515695+00:00",
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
       "data": {
         "name": "Rockwell Automation Inc",
         "industry": "Electrical Equipment",
@@ -4288,7 +4288,7 @@
         "ipo_date": "1956-08-29",
         "weburl": "https://www.rockwellautomation.com/en-in.html",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ROK.png",
-        "market_cap": 47911953137.75983,
+        "market_cap": 47925280194.07222,
         "pe_ttm": 41.4107,
         "ps_ttm": 5.5427,
         "pb_annual": 10.7551,
@@ -4298,7 +4298,7 @@
         "net_margin_ttm": 13.38,
         "current_ratio": 1.1353,
         "debt_equity": 0.8823,
-        "beta": 1.5150763
+        "beta": 1.5032067
       }
     },
     "UNP": {
@@ -10417,6 +10417,190 @@
         "current_ratio": 0.0042,
         "debt_equity": 0.5775,
         "beta": -0.017954914
+      }
+    },
+    "GD": {
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
+      "data": {
+        "name": "General Dynamics Corp",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1952-04-25",
+        "weburl": "https://www.gd.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GD.png",
+        "market_cap": 102714330929.9541,
+        "pe_ttm": 23.8002,
+        "ps_ttm": 1.9466,
+        "pb_annual": 3.5492,
+        "revenue_growth_ttm_yoy": 9.13,
+        "eps_growth_ttm_yoy": 10.13,
+        "gross_margin_ttm": 15.38,
+        "net_margin_ttm": 8.18,
+        "current_ratio": 1.4437,
+        "debt_equity": 0.328,
+        "beta": 0.31957424
+      }
+    },
+    "AIZ": {
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
+      "data": {
+        "name": "Assurant Inc",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2004-02-04",
+        "weburl": "https://www.assurant.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AIZ.png",
+        "market_cap": 14126573038.605022,
+        "pe_ttm": 13.2091,
+        "ps_ttm": 1.0437,
+        "pb_annual": 2.0543,
+        "revenue_growth_ttm_yoy": 9.36,
+        "eps_growth_ttm_yoy": 53.42,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 7.9,
+        "current_ratio": 0.0303,
+        "debt_equity": 0.3759,
+        "beta": 0.52737135
+      }
+    },
+    "BALL": {
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
+      "data": {
+        "name": "Ball Corp",
+        "industry": "Packaging",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1973-12-17",
+        "weburl": "https://www.ball.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BLL.png",
+        "market_cap": 16874837552.982485,
+        "pe_ttm": 17.393,
+        "ps_ttm": 1.1497,
+        "pb_annual": 2.6186,
+        "revenue_growth_ttm_yoy": 15.56,
+        "eps_growth_ttm_yoy": 82.34,
+        "gross_margin_ttm": 18.63,
+        "net_margin_ttm": 6.61,
+        "current_ratio": 1.1141,
+        "debt_equity": 1.2935,
+        "beta": 0.948104
+      }
+    },
+    "MOH": {
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
+      "data": {
+        "name": "Molina Healthcare Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2003-07-02",
+        "weburl": "https://www.molinahealthcare.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MOH.png",
+        "market_cap": 10460358153.25424,
+        "pe_ttm": 23.0144,
+        "ps_ttm": 0.244,
+        "pb_annual": 2.1922,
+        "revenue_growth_ttm_yoy": 2.55,
+        "eps_growth_ttm_yoy": -12.73,
+        "gross_margin_ttm": 12.65,
+        "net_margin_ttm": -0.02,
+        "current_ratio": 1.688,
+        "debt_equity": 0.9769,
+        "beta": 0.7584187
+      }
+    },
+    "ITW": {
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
+      "data": {
+        "name": "Illinois Tool Works Inc",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1973-03-13",
+        "weburl": "https://www.itw.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ITW.png",
+        "market_cap": 79917728384.54736,
+        "pe_ttm": 25.7809,
+        "ps_ttm": 5,
+        "pb_annual": 22.1555,
+        "revenue_growth_ttm_yoy": 4.3,
+        "eps_growth_ttm_yoy": -3.19,
+        "gross_margin_ttm": 44.16,
+        "net_margin_ttm": 19.39,
+        "current_ratio": 1.2095,
+        "debt_equity": 2.7811,
+        "beta": 0.97227305
+      }
+    },
+    "CB": {
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
+      "data": {
+        "name": "Chubb Limited",
+        "industry": "Insurance",
+        "country": "CH",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1993-03-25",
+        "weburl": "https://www.chubb.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CB.png",
+        "market_cap": 131324333956.59563,
+        "pe_ttm": 11.8429,
+        "ps_ttm": 2.1433,
+        "pb_annual": 1.6654,
+        "revenue_growth_ttm_yoy": 8.02,
+        "eps_growth_ttm_yoy": 24.7,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 18.1,
+        "current_ratio": 0.1528,
+        "debt_equity": 0.2393,
+        "beta": 0.36515838
+      }
+    },
+    "CNC": {
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
+      "data": {
+        "name": "Centene Corp",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2001-12-13",
+        "weburl": "https://www.centene.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CNC.png",
+        "market_cap": 32124495433.309048,
+        "pe_ttm": null,
+        "ps_ttm": 0.166,
+        "pb_annual": 1.0137,
+        "revenue_growth_ttm_yoy": 17.02,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 7.18,
+        "net_margin_ttm": -3.25,
+        "current_ratio": 1.1001,
+        "debt_equity": 0.8721,
+        "beta": 1.1208333
+      }
+    },
+    "MAS": {
+      "cached_at": "2026-08-29T07:56:48.718915+00:00",
+      "data": {
+        "name": "Masco Corp",
+        "industry": "Building",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1969-05-05",
+        "weburl": "https://masco.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MAS.png",
+        "market_cap": 14460741018.589159,
+        "pe_ttm": 16.7275,
+        "ps_ttm": 1.9406,
+        "pb_annual": 73.7123,
+        "revenue_growth_ttm_yoy": -0.56,
+        "eps_growth_ttm_yoy": 15.34,
+        "gross_margin_ttm": 36.96,
+        "net_margin_ttm": 11.6,
+        "current_ratio": 1.8055,
+        "debt_equity": 14.3333,
+        "beta": 1.2927961
       }
     }
   }
