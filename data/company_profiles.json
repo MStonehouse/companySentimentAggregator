@@ -4486,6 +4486,104 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "PH": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Parker-Hannifin Corporation",
+        "description": "Parker-Hannifin Corporation, originally Parker Appliance Company, usually referred to as just Parker, is an American corporation specializing in motion and control technologies. Its corporate headquarters are in Mayfield Heights, Ohio, in Greater Cleveland.",
+        "industry": "SPECIALTY INDUSTRIAL MACHINERY",
+        "sector": "INDUSTRIALS",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "GEN": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Gen Digital Inc",
+        "description": "Gen is a global leader in cybersecurity. Explore our trusted brands, including Norton, Avast, LifeLock, MoneyLion, and more.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.gendigital.com/us/en/",
+        "products_markets": [
+          "Cybersecurity"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ETN": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Eaton Corporation PLC",
+        "description": "Eaton Corporation PLC is a publicly traded company operating in the Electrical Equipment industry with company information identifying IE as its home market.",
+        "industry": "Electrical Equipment",
+        "country": "IE",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.eaton.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "SO": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Southern Co",
+        "description": "We’ve made our name as a leading producer of clean, safe, reliable and affordable energy, and we approach each day as a vital step in building the future of energy.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.southerncompany.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "CSX": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "CSX Corp",
+        "description": "CSX Corp is a publicly traded company operating in the Road & Rail industry with company information identifying US as its home market.",
+        "industry": "Road & Rail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.csx.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "LNT": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Alliant Energy Corp",
+        "description": "Alliant Energy Corp is a publicly traded company operating in the Utilities industry with company information identifying US as its home market.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.alliantenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "CSTUF": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Constellation Acquisition Corp I",
+        "description": "Constellation Acquisition Corp I (NYSE: CSTA) is an ESG-focused Special Purpose Acquisition Company led by Klaus Kleinfeld",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "OTC MARKETS",
+        "website": "https://constellationacquisition.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
