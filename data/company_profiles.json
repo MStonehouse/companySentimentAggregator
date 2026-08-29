@@ -4584,6 +4584,50 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "PAYC": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Paycom Software Inc",
+        "description": "Paycom’s #1 HR and payroll software eliminates thousands of decisions through full-solution automation across the entire employee life cycle to help employees and leaders work smarter — all in a single database.",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.paycom.com/",
+        "products_markets": [
+          "Industrial automation"
+        ],
+        "source": "Company website"
+      }
+    },
+    "CPT": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Camden Property Trust",
+        "description": "Camden Property Trust, an S&P 400 company, is a real estate company primarily engaged in the ownership, management, development, remodeling, acquisition, and construction of multi-family apartment communities.",
+        "industry": "REIT - RESIDENTIAL",
+        "sector": "REAL ESTATE",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "DVN": {
+      "updated_at": "2026-08-29",
+      "data": {
+        "name": "Devon Energy Corp",
+        "description": "Devon Energy Corp is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.devonenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }
