@@ -4670,7 +4670,7 @@
       }
     },
     "HBAN": {
-      "cached_at": "2026-08-21T17:52:20.864320+00:00",
+      "cached_at": "2026-08-30T06:51:36.319275+00:00",
       "data": {
         "name": "Huntington Bancshares Inc",
         "industry": "Banking",
@@ -4679,7 +4679,7 @@
         "ipo_date": "1980-03-17",
         "weburl": "https://www.huntington.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HBAN.png",
-        "market_cap": 34367257890.84391,
+        "market_cap": 34266238233.015423,
         "pe_ttm": 15.0267,
         "ps_ttm": 2.07303,
         "pb_annual": 1.1225,
@@ -4689,7 +4689,7 @@
         "net_margin_ttm": 31.21053,
         "current_ratio": null,
         "debt_equity": 0.5327,
-        "beta": 0.9849204
+        "beta": 0.98147887
       }
     },
     "TXN": {
@@ -10946,6 +10946,75 @@
         "current_ratio": 3.703,
         "debt_equity": 0,
         "beta": 0.48333922
+      }
+    },
+    "TTWO": {
+      "cached_at": "2026-08-30T06:51:36.319275+00:00",
+      "data": {
+        "name": "Take-Two Interactive Software Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1997-04-15",
+        "weburl": "https://www.take2games.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TTWO.png",
+        "market_cap": 43523436607.2067,
+        "pe_ttm": null,
+        "ps_ttm": 6.8259,
+        "pb_annual": 10.4167,
+        "revenue_growth_ttm_yoy": 18.16,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 57.22,
+        "net_margin_ttm": -4.48,
+        "current_ratio": 1.2359,
+        "debt_equity": 0.7172,
+        "beta": 0.9785436
+      }
+    },
+    "HII": {
+      "cached_at": "2026-08-30T06:51:36.319275+00:00",
+      "data": {
+        "name": "Huntington Ingalls Industries Inc",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2011-03-19",
+        "weburl": "https://hii.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HII.png",
+        "market_cap": 11590862903.98567,
+        "pe_ttm": 19.4197,
+        "ps_ttm": 0.9736,
+        "pb_annual": 2.6306,
+        "revenue_growth_ttm_yoy": 13.97,
+        "eps_growth_ttm_yoy": 25.7,
+        "gross_margin_ttm": 12.4,
+        "net_margin_ttm": 5.01,
+        "current_ratio": 1.1333,
+        "debt_equity": 0.5322,
+        "beta": 0.19574519
+      }
+    },
+    "TYL": {
+      "cached_at": "2026-08-30T06:51:36.319275+00:00",
+      "data": {
+        "name": "Tyler Technologies Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.tylertech.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TYL.png",
+        "market_cap": 15495521762.327997,
+        "pe_ttm": 39.5796,
+        "ps_ttm": 5.2881,
+        "pb_annual": 5.2751,
+        "revenue_growth_ttm_yoy": 8.19,
+        "eps_growth_ttm_yoy": 7.77,
+        "gross_margin_ttm": 47.21,
+        "net_margin_ttm": 13.36,
+        "current_ratio": 1.0504,
+        "debt_equity": 0.1619,
+        "beta": 0.84743136
       }
     }
   }

@@ -4685,6 +4685,61 @@
         ],
         "source": "Company website"
       }
+    },
+    "TTWO": {
+      "updated_at": "2026-08-30",
+      "data": {
+        "name": "Take-Two Interactive Software Inc",
+        "description": "Take-Two Interactive Software is a leading game publisher, creating games through its labels, Rockstar Games, 2K, Private Division, and Social Point.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.take2games.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "HII": {
+      "updated_at": "2026-08-30",
+      "data": {
+        "name": "Huntington Ingalls Industries Inc",
+        "description": "America's largest shipbuilder with 140+ years advancing U.S. national security — delivering powerful naval vessels, unmanned systems, and all-domain defense technologies.",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://hii.com/",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
+    },
+    "TYL": {
+      "updated_at": "2026-08-30",
+      "data": {
+        "name": "Tyler Technologies Inc",
+        "description": "Tyler Technologies, Inc., based in Plano, Texas, is the largest provider of software to the United States public sector.",
+        "industry": "SOFTWARE - APPLICATION",
+        "sector": "TECHNOLOGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "POOL": {
+      "updated_at": "2026-08-30",
+      "data": {
+        "name": "Pool Corp",
+        "description": "POOLCORP is the world’s largest wholesale distributor of swimming pool supplies, equipment, and outdoor living products, serving 125,000+ customers worldwide.",
+        "industry": "Distributors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.poolcorp.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
