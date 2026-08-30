@@ -4740,6 +4740,78 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "BMY": {
+      "updated_at": "2026-08-30",
+      "data": {
+        "name": "Bristol-Myers Squibb Co",
+        "description": "Bristol Myers Squibb is a global biopharmaceutical company committed to discovering, developing and delivering innovative medicines to patients with serious diseases.",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.bms.com",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "EOG": {
+      "updated_at": "2026-08-30",
+      "data": {
+        "name": "EOG Resources Inc",
+        "description": "EOG Resources, Inc. is an American energy company engaged in hydrocarbon exploration. It is organized in Delaware and headquartered in the Heritage Plaza building in Houston, Texas.",
+        "industry": "OIL & GAS E&P",
+        "sector": "ENERGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "RMD": {
+      "updated_at": "2026-08-30",
+      "data": {
+        "name": "Resmed Inc",
+        "description": "At Resmed, we creating life-changing health technologies that people love.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.resmed.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "GPN": {
+      "updated_at": "2026-08-30",
+      "data": {
+        "name": "Global Payments Inc",
+        "description": "Global Payments Inc is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.globalpayments.com/en-ap",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "RSG": {
+      "updated_at": "2026-08-30",
+      "data": {
+        "name": "Republic Services Inc",
+        "description": "Get reliable, responsible environmental service solutions. Republic Services also offers residential, commercial, and industrial trash pickup and recycling.",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.republicservices.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }

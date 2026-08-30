@@ -967,7 +967,7 @@
       }
     },
     "BX": {
-      "cached_at": "2026-08-18T23:30:09.077138+00:00",
+      "cached_at": "2026-08-30T17:38:29.370108+00:00",
       "data": {
         "name": "Blackstone Inc",
         "industry": "Financial Services",
@@ -976,7 +976,7 @@
         "ipo_date": "2007-06-22",
         "weburl": "https://www.blackstone.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BX.png",
-        "market_cap": 174564999380.3353,
+        "market_cap": 177644762936.13342,
         "pe_ttm": 52.8455,
         "ps_ttm": 11.5431,
         "pb_annual": 21.6979,
@@ -986,7 +986,7 @@
         "net_margin_ttm": 21.84,
         "current_ratio": 0.7337,
         "debt_equity": 1.4362,
-        "beta": 1.5790628
+        "beta": 1.5803477
       }
     },
     "PSA": {
@@ -4440,7 +4440,7 @@
       }
     },
     "RMD": {
-      "cached_at": "2026-08-21T14:03:39.515695+00:00",
+      "cached_at": "2026-08-30T17:38:29.370108+00:00",
       "data": {
         "name": "Resmed Inc",
         "industry": "Health Care",
@@ -4449,7 +4449,7 @@
         "ipo_date": "1995-06-01",
         "weburl": "https://www.resmed.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RMD.png",
-        "market_cap": 32952998956.707386,
+        "market_cap": 34665274051.681114,
         "pe_ttm": 21.4734,
         "ps_ttm": 5.7859,
         "pb_annual": 4.2926,
@@ -4459,7 +4459,7 @@
         "net_margin_ttm": 26.94,
         "current_ratio": 3.0999,
         "debt_equity": 0.1001,
-        "beta": 0.7339676
+        "beta": 0.7473814
       }
     },
     "HCA": {
@@ -11015,6 +11015,98 @@
         "current_ratio": 1.0504,
         "debt_equity": 0.1619,
         "beta": 0.84743136
+      }
+    },
+    "BMY": {
+      "cached_at": "2026-08-30T17:38:29.370108+00:00",
+      "data": {
+        "name": "Bristol-Myers Squibb Co",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.bms.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BMY.png",
+        "market_cap": 135983504697.53096,
+        "pe_ttm": 14.2108,
+        "ps_ttm": 2.682,
+        "pb_annual": 5.9443,
+        "revenue_growth_ttm_yoy": 3.11,
+        "eps_growth_ttm_yoy": 99.29,
+        "gross_margin_ttm": 71.66,
+        "net_margin_ttm": 18.87,
+        "current_ratio": 1.2551,
+        "debt_equity": 2.442,
+        "beta": 0.17487364
+      }
+    },
+    "EOG": {
+      "cached_at": "2026-08-30T17:38:29.370108+00:00",
+      "data": {
+        "name": "EOG Resources Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1989-10-04",
+        "weburl": "https://www.eogresources.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EOG.png",
+        "market_cap": 75254200708.95314,
+        "pe_ttm": 10.843,
+        "ps_ttm": 2.7643,
+        "pb_annual": 1.9099,
+        "revenue_growth_ttm_yoy": 18.67,
+        "eps_growth_ttm_yoy": 24.77,
+        "gross_margin_ttm": 79.47,
+        "net_margin_ttm": 25.49,
+        "current_ratio": 1.6321,
+        "debt_equity": 0.266,
+        "beta": 0.37818527
+      }
+    },
+    "GPN": {
+      "cached_at": "2026-08-30T17:38:29.370108+00:00",
+      "data": {
+        "name": "Global Payments Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2001-01-12",
+        "weburl": "https://www.globalpayments.com/en-ap",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GPN.png",
+        "market_cap": 24326366900.014343,
+        "pe_ttm": 17.146,
+        "ps_ttm": 2.3547,
+        "pb_annual": 0.8006,
+        "revenue_growth_ttm_yoy": 7.48,
+        "eps_growth_ttm_yoy": 142.72,
+        "gross_margin_ttm": 64.13,
+        "net_margin_ttm": -9.16,
+        "current_ratio": 1.6901,
+        "debt_equity": 0.9528,
+        "beta": 0.8124473
+      }
+    },
+    "RSG": {
+      "cached_at": "2026-08-30T17:38:29.370108+00:00",
+      "data": {
+        "name": "Republic Services Inc",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1998-07-01",
+        "weburl": "https://www.republicservices.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RSG.png",
+        "market_cap": 67970096977.98468,
+        "pe_ttm": 30.1967,
+        "ps_ttm": 3.9062,
+        "pb_annual": 5.4818,
+        "revenue_growth_ttm_yoy": 3.21,
+        "eps_growth_ttm_yoy": 4.18,
+        "gross_margin_ttm": 42,
+        "net_margin_ttm": 12.94,
+        "current_ratio": 0.6423,
+        "debt_equity": 1.1348,
+        "beta": 0.39343607
       }
     }
   }
