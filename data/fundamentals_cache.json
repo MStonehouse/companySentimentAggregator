@@ -3244,7 +3244,7 @@
       }
     },
     "CTVA": {
-      "cached_at": "2026-08-20T14:05:11.492089+00:00",
+      "cached_at": "2026-08-31T07:07:06.678583+00:00",
       "data": {
         "name": "Corteva Inc",
         "industry": "Chemicals",
@@ -3253,7 +3253,7 @@
         "ipo_date": "2019-05-24",
         "weburl": "https://www.corteva.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CTVA.png",
-        "market_cap": 52421590918.06391,
+        "market_cap": 55857648805.03397,
         "pe_ttm": 49.7851,
         "ps_ttm": 2.8202,
         "pb_annual": 1.876,
@@ -3263,7 +3263,7 @@
         "net_margin_ttm": 5.66,
         "current_ratio": 1.4297,
         "debt_equity": 0.1069,
-        "beta": 0.56042856
+        "beta": 0.57095736
       }
     },
     "JG": {
@@ -6142,7 +6142,7 @@
       }
     },
     "MET": {
-      "cached_at": "2026-08-23T13:50:56.103968+00:00",
+      "cached_at": "2026-08-31T07:07:06.678583+00:00",
       "data": {
         "name": "MetLife Inc",
         "industry": "Insurance",
@@ -6151,7 +6151,7 @@
         "ipo_date": "2000-04-05",
         "weburl": "https://www.metlife.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MET.png",
-        "market_cap": 59950892867.79199,
+        "market_cap": 61418845159.4826,
         "pe_ttm": 17.0664,
         "ps_ttm": 0.7805,
         "pb_annual": 1.8316,
@@ -6161,7 +6161,7 @@
         "net_margin_ttm": 4.57,
         "current_ratio": 0.1889,
         "debt_equity": 0.6683,
-        "beta": 0.78113353
+        "beta": 0.78250724
       }
     },
     "BK": {
@@ -6533,7 +6533,7 @@
       }
     },
     "IRM": {
-      "cached_at": "2026-08-24T02:40:06.840928+00:00",
+      "cached_at": "2026-08-31T07:07:06.678583+00:00",
       "data": {
         "name": "Iron Mountain Inc",
         "industry": "Real Estate",
@@ -6542,7 +6542,7 @@
         "ipo_date": "1996-02-01",
         "weburl": "https://www.ironmountain.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950443403966.png",
-        "market_cap": 36325698796.322754,
+        "market_cap": 34983059053.6263,
         "pe_ttm": 89.5978,
         "ps_ttm": 4.9601,
         "pb_annual": 96.5444,
@@ -6552,7 +6552,7 @@
         "net_margin_ttm": 5.54,
         "current_ratio": 0.7387,
         "debt_equity": 56.3822,
-        "beta": 1.2016006
+        "beta": 1.1931283
       }
     },
     "EVRG": {
@@ -11176,6 +11176,29 @@
         "current_ratio": 0.6818,
         "debt_equity": 1.8373,
         "beta": -0.0020565102
+      }
+    },
+    "EBAY": {
+      "cached_at": "2026-08-31T07:07:06.678583+00:00",
+      "data": {
+        "name": "eBay Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1998-09-23",
+        "weburl": "https://www.ebayinc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EBAY.png",
+        "market_cap": 46978648457.79231,
+        "pe_ttm": 20.758,
+        "ps_ttm": 3.8411,
+        "pb_annual": 8.5307,
+        "revenue_growth_ttm_yoy": 14.69,
+        "eps_growth_ttm_yoy": 6.66,
+        "gross_margin_ttm": 72.49,
+        "net_margin_ttm": 18.5,
+        "current_ratio": 1.0968,
+        "debt_equity": 1.4618,
+        "beta": 1.332659
       }
     }
   }
