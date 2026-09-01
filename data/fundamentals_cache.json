@@ -3060,7 +3060,7 @@
       }
     },
     "WMT": {
-      "cached_at": "2026-08-20T14:05:11.492089+00:00",
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
       "data": {
         "name": "Walmart Inc",
         "industry": "Retail",
@@ -3079,7 +3079,7 @@
         "net_margin_ttm": 3.13,
         "current_ratio": 0.7898,
         "debt_equity": 0.5172,
-        "beta": 0.58717227
+        "beta": 0.57617146
       }
     },
     "SYY": {
@@ -11843,6 +11843,236 @@
         "current_ratio": 3.6325,
         "debt_equity": 0,
         "beta": 0.8440515
+      }
+    },
+    "KFY": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "Korn Ferry",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1999-02-11",
+        "weburl": "https://www.kornferry.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/KFY.png",
+        "market_cap": 4428953025.696318,
+        "pe_ttm": 15.4807,
+        "ps_ttm": 1.4615,
+        "pb_annual": 1.7476,
+        "revenue_growth_ttm_yoy": 6.43,
+        "eps_growth_ttm_yoy": 13.4,
+        "gross_margin_ttm": 88.08,
+        "net_margin_ttm": 9.44,
+        "current_ratio": 1.9409,
+        "debt_equity": 0.2044,
+        "beta": 1.2662035
+      }
+    },
+    "PHGE": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "BiomX Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2018-12-18",
+        "weburl": "https://www.biomx.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950666264976.png",
+        "market_cap": 3663842.0,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 0.5496,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.874,
+        "debt_equity": 0,
+        "beta": 1.3150007
+      }
+    },
+    "INBS": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "Intelligent Bio Solutions Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2020-12-23",
+        "weburl": "https://ibs.inc/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950653623116.png",
+        "market_cap": 6720983.4,
+        "pe_ttm": null,
+        "ps_ttm": 1.7786,
+        "pb_annual": 4.2041,
+        "revenue_growth_ttm_yoy": 33.26,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 47.25,
+        "net_margin_ttm": -296.77,
+        "current_ratio": 0.7734,
+        "debt_equity": 0.0658,
+        "beta": 4.322128
+      }
+    },
+    "GPRO": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "GoPro Inc",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2014-06-26",
+        "weburl": "https://gopro.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GPRO.png",
+        "market_cap": 163974465.00000003,
+        "pe_ttm": null,
+        "ps_ttm": 0.1918,
+        "pb_annual": 2.9907,
+        "revenue_growth_ttm_yoy": -21.02,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 29.26,
+        "net_margin_ttm": -20.7,
+        "current_ratio": 0.9112,
+        "debt_equity": 0.835,
+        "beta": 2.524156
+      }
+    },
+    "MSIF": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "MSC Income Fund Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2020-10-09",
+        "weburl": "https://www.mscincomefund.com/investors/tax-information",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950373408516.png",
+        "market_cap": 584500032.0,
+        "pe_ttm": 6.5482,
+        "ps_ttm": 4.0256,
+        "pb_annual": 0.8345,
+        "revenue_growth_ttm_yoy": 4.41,
+        "eps_growth_ttm_yoy": 17.33,
+        "gross_margin_ttm": 60.99,
+        "net_margin_ttm": 61.48,
+        "current_ratio": 0.8709,
+        "debt_equity": 0.816,
+        "beta": 0.88096
+      }
+    },
+    "HLX": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "Helix Energy Solutions Group Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1997-07-01",
+        "weburl": "https://www.helixesg.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HLX.png",
+        "market_cap": 1520986873.9805825,
+        "pe_ttm": 104.2534,
+        "ps_ttm": 1.1495,
+        "pb_annual": 0.5837,
+        "revenue_growth_ttm_yoy": -2.91,
+        "eps_growth_ttm_yoy": -82.33,
+        "gross_margin_ttm": 10.79,
+        "net_margin_ttm": 1.1,
+        "current_ratio": 2.7529,
+        "debt_equity": 0.1949,
+        "beta": 1.2233471
+      }
+    },
+    "SAFX": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "XCF Global Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-11-26",
+        "weburl": "https://xcf.global/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950899938246.png",
+        "market_cap": 147894081.32733408,
+        "pe_ttm": 2.8533,
+        "ps_ttm": 8.5824,
+        "pb_annual": 1.5105,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": 27.12,
+        "gross_margin_ttm": -19.29,
+        "net_margin_ttm": 300.78,
+        "current_ratio": 0.111,
+        "debt_equity": 6.7809,
+        "beta": -0.49763867
+      }
+    },
+    "MSCI": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "MSCI Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2007-11-15",
+        "weburl": "https://www.msci.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSCI.png",
+        "market_cap": 41508791322.62036,
+        "pe_ttm": 29.9204,
+        "ps_ttm": 12.1885,
+        "pb_annual": 28.6774,
+        "revenue_growth_ttm_yoy": 11.62,
+        "eps_growth_ttm_yoy": 21.13,
+        "gross_margin_ttm": 82.97,
+        "net_margin_ttm": 40.74,
+        "current_ratio": 0.8989,
+        "debt_equity": 5.1821,
+        "beta": 1.2464837
+      }
+    },
+    "NUR": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "NuRAN Wireless Inc",
+        "industry": "N/A",
+        "country": "CA",
+        "exchange": "CANADIAN NATIONAL STOCK EXCHANGE",
+        "ipo_date": "2015-09-22",
+        "weburl": "https://nuranwireless.com/en/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950455180126.png",
+        "market_cap": 35328733.0,
+        "pe_ttm": null,
+        "ps_ttm": 27.6378,
+        "pb_annual": 0.1888,
+        "revenue_growth_ttm_yoy": -53.93,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 0.22,
+        "net_margin_ttm": -789.99,
+        "current_ratio": 0.7923,
+        "debt_equity": 2.2856,
+        "beta": -2.3750296
+      }
+    },
+    "FF": {
+      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "data": {
+        "name": "FutureFuel Corp",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2006-07-12",
+        "weburl": "https://www.futurefuelcorporation.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FF.png",
+        "market_cap": 233352837.76850098,
+        "pe_ttm": null,
+        "ps_ttm": 2.2617,
+        "pb_annual": 0.9032,
+        "revenue_growth_ttm_yoy": -45.63,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -36.97,
+        "net_margin_ttm": -47.51,
+        "current_ratio": 5.6677,
+        "debt_equity": 0,
+        "beta": 0.9335163
       }
     }
   }

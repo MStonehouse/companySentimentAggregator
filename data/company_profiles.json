@@ -5270,6 +5270,106 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "KFY": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Korn Ferry",
+        "description": "Korn Ferry is a global organizational consulting firm, bringing together strategy and talent to drive superior performance for our clients.",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.kornferry.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "PHGE": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Biomx Inc",
+        "description": "BiomX Inc., a clinical-stage microbiome company, develops products using natural and man-made phage technologies designed to target and kill specific harmful bacteria. The company is headquartered in Ness Ziona, Israel.",
+        "industry": "AEROSPACE & DEFENSE",
+        "sector": "INDUSTRIALS",
+        "country": "USA",
+        "exchange": "AMEX",
+        "currency": "USD",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "INBS": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Intelligent Bio Solutions Inc",
+        "description": "At IBS Inc. We're pioneering pain-free, accessible solutions that drive transformative change and improve the quality of life.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://ibs.inc/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "GPRO": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "GoPro Inc",
+        "description": "Discover the world's most versatile action cameras + accessories. Possibilities are endless with waterproof, live streaming, stabilizing features + more.",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://gopro.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "MSIF": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "MSC Income Fund Inc",
+        "description": "MSC Income Fund Inc is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.mscincomefund.com/investors/tax-information",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "HLX": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Helix Energy Solutions Group Inc",
+        "description": "Helix Energy Solutions Group Inc is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.helixesg.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "SAFX": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "XCF Global Inc",
+        "description": "XCF Global Inc is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://xcf.global/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }
