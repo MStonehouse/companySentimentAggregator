@@ -116,7 +116,7 @@
       }
     },
     "TSLA": {
-      "cached_at": "2026-08-18T21:53:57.120978+00:00",
+      "cached_at": "2026-09-01T00:40:55.257593+00:00",
       "data": {
         "name": "Tesla Inc",
         "industry": "Automobiles",
@@ -125,7 +125,7 @@
         "ipo_date": "2010-06-29",
         "weburl": "https://www.tesla.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSLA.png",
-        "market_cap": 1340081460183.479,
+        "market_cap": 1453236042150.4792,
         "pe_ttm": 352.782,
         "ps_ttm": 12.9579,
         "pb_annual": 18.2097,
@@ -135,7 +135,7 @@
         "net_margin_ttm": 3.67,
         "current_ratio": 2.1644,
         "debt_equity": 0.102,
-        "beta": 1.89713
+        "beta": 1.9009874
       }
     },
     "META": {
@@ -1013,7 +1013,7 @@
       }
     },
     "C": {
-      "cached_at": "2026-08-18T23:30:09.077138+00:00",
+      "cached_at": "2026-09-01T00:40:55.257593+00:00",
       "data": {
         "name": "Citigroup Inc",
         "industry": "Banking",
@@ -1022,7 +1022,7 @@
         "ipo_date": "1986-10-30",
         "weburl": "http://www.citigroup.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/C.png",
-        "market_cap": 232341769730.5101,
+        "market_cap": 220784217209.1065,
         "pe_ttm": 13.0451,
         "ps_ttm": 1.09533,
         "pb_annual": 0.9835,
@@ -1032,7 +1032,7 @@
         "net_margin_ttm": 17.3666,
         "current_ratio": null,
         "debt_equity": 3.3294,
-        "beta": 1.1206534
+        "beta": 1.1145719
       }
     },
     "LZB": {
@@ -6234,7 +6234,7 @@
       }
     },
     "FAST": {
-      "cached_at": "2026-08-23T13:50:56.103968+00:00",
+      "cached_at": "2026-09-01T00:40:55.257593+00:00",
       "data": {
         "name": "Fastenal Co",
         "industry": "Trading Companies & Distributors",
@@ -6243,7 +6243,7 @@
         "ipo_date": "1987-08-01",
         "weburl": "https://www.fastenal.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FAST.png",
-        "market_cap": 58820730933.320564,
+        "market_cap": 56583109246.31036,
         "pe_ttm": 43.9181,
         "ps_ttm": 6.7865,
         "pb_annual": 11.6824,
@@ -6253,7 +6253,7 @@
         "net_margin_ttm": 15.45,
         "current_ratio": 4.852,
         "debt_equity": 0.0317,
-        "beta": 0.695098
+        "beta": 0.6917511
       }
     },
     "WSM": {
@@ -11337,6 +11337,121 @@
         "current_ratio": 0.8647,
         "debt_equity": 1.3003,
         "beta": 0.57957774
+      }
+    },
+    "SLB": {
+      "cached_at": "2026-09-01T00:40:55.257593+00:00",
+      "data": {
+        "name": "SLB NV",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1962-02-02",
+        "weburl": "https://www.slb.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SLB.png",
+        "market_cap": 89197015812.50829,
+        "pe_ttm": 24.9878,
+        "ps_ttm": 2.1308,
+        "pb_annual": 2.1961,
+        "revenue_growth_ttm_yoy": 2.5,
+        "eps_growth_ttm_yoy": -29.35,
+        "gross_margin_ttm": 17.07,
+        "net_margin_ttm": 8.53,
+        "current_ratio": 1.3255,
+        "debt_equity": 0.4457,
+        "beta": 0.8274155
+      }
+    },
+    "BXP": {
+      "cached_at": "2026-09-01T00:40:55.257593+00:00",
+      "data": {
+        "name": "BXP Inc",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1997-06-18",
+        "weburl": "https://www.bxp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959035856.png",
+        "market_cap": 10855389421.048037,
+        "pe_ttm": 37.2634,
+        "ps_ttm": 3.1449,
+        "pb_annual": 2.1326,
+        "revenue_growth_ttm_yoy": 1.88,
+        "eps_growth_ttm_yoy": 6713.92,
+        "gross_margin_ttm": 60.07,
+        "net_margin_ttm": 8.44,
+        "current_ratio": 1.7305,
+        "debt_equity": 3.2969,
+        "beta": 1.0452522
+      }
+    },
+    "ALGN": {
+      "cached_at": "2026-09-01T00:40:55.257593+00:00",
+      "data": {
+        "name": "Align Technology Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2001-01-26",
+        "weburl": "https://www.aligntech.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ALGN.png",
+        "market_cap": 11351457496.634724,
+        "pe_ttm": 29.8612,
+        "ps_ttm": 2.9834,
+        "pb_annual": 2.7669,
+        "revenue_growth_ttm_yoy": 4.41,
+        "eps_growth_ttm_yoy": -2.55,
+        "gross_margin_ttm": 69.05,
+        "net_margin_ttm": 9.99,
+        "current_ratio": 1.3628,
+        "debt_equity": 0,
+        "beta": 1.6531973
+      }
+    },
+    "CEG": {
+      "cached_at": "2026-09-01T00:40:55.257593+00:00",
+      "data": {
+        "name": "Constellation Energy Corp",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2022-01-19",
+        "weburl": "https://www.constellationenergy.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950815008846.png",
+        "market_cap": 97353036892.36519,
+        "pe_ttm": 28.4918,
+        "ps_ttm": 3.1572,
+        "pb_annual": 7.5996,
+        "revenue_growth_ttm_yoy": 25.98,
+        "eps_growth_ttm_yoy": 7.2,
+        "gross_margin_ttm": 43.91,
+        "net_margin_ttm": 11.08,
+        "current_ratio": 1.5256,
+        "debt_equity": 0.6194,
+        "beta": 1.127364
+      }
+    },
+    "LHX": {
+      "cached_at": "2026-09-01T00:40:55.257593+00:00",
+      "data": {
+        "name": "L3Harris Technologies Inc",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1955-07-13",
+        "weburl": "https://www.l3harris.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LHX.png",
+        "market_cap": 49579642590.80359,
+        "pe_ttm": 28.6397,
+        "ps_ttm": 3.1072,
+        "pb_annual": 2.9006,
+        "revenue_growth_ttm_yoy": -19.18,
+        "eps_growth_ttm_yoy": 11.55,
+        "gross_margin_ttm": 25.18,
+        "net_margin_ttm": 8.17,
+        "current_ratio": 1.1892,
+        "debt_equity": 0.5661,
+        "beta": 0.49251333
       }
     }
   }

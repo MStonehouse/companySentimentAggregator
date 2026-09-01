@@ -5017,6 +5017,76 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "BXP": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "BXP Inc",
+        "description": "We shape great spaces and places as the largest publicly traded developer, owner, and manager of premier workplaces in the U.S.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.bxp.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ALGN": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Align Technology Inc",
+        "description": "Align Technology is a manufacturer of 3D digital scanners and the Invisalign clear aligners used in orthodontics. It is headquartered in San Jose, California.",
+        "industry": "MEDICAL INSTRUMENTS & SUPPLIES",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "CEG": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Constellation Energy Corp",
+        "description": "Discover how Constellation's strategy and purpose makes us the nation's largest producer of clean, reliable energy for homes, businesses and industries.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.constellationenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "FAST": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Fastenal Co",
+        "description": "Fastenal is the largest fastener distributor in North America. Shop our huge selection of OEM, MRO, construction, industrial, and safety products.",
+        "industry": "Trading Companies & Distributors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.fastenal.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "LHX": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "L3Harris Technologies Inc",
+        "description": "In a world of ever-accelerating change, we move forward faster.",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.l3harris.com/",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
