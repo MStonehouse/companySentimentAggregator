@@ -2186,7 +2186,7 @@
       }
     },
     "MRNA": {
-      "cached_at": "2026-08-19T14:02:54.176703+00:00",
+      "cached_at": "2026-09-01T20:01:09.631899+00:00",
       "data": {
         "name": "Moderna Inc",
         "industry": "Biotechnology",
@@ -2195,7 +2195,7 @@
         "ipo_date": "2018-12-07",
         "weburl": "https://www.modernatx.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MRNA.png",
-        "market_cap": 25135890040.96308,
+        "market_cap": 55621540006.86105,
         "pe_ttm": null,
         "ps_ttm": 11.3042,
         "pb_annual": 1.3321,
@@ -2205,7 +2205,7 @@
         "net_margin_ttm": -141.43,
         "current_ratio": 3.2934,
         "debt_equity": 0.0734,
-        "beta": 0.9475295
+        "beta": 1.1334279
       }
     },
     "REGN": {
@@ -11682,6 +11682,167 @@
         "current_ratio": 0.2973,
         "debt_equity": 3.1698,
         "beta": 1.5573632
+      }
+    },
+    "CRK": {
+      "cached_at": "2026-09-01T20:01:09.631899+00:00",
+      "data": {
+        "name": "Comstock Resources Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1996-12-17",
+        "weburl": "https://www.comstockresources.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CRK.png",
+        "market_cap": 4648013799.610535,
+        "pe_ttm": 7.8855,
+        "ps_ttm": 2.1291,
+        "pb_annual": 2.5665,
+        "revenue_growth_ttm_yoy": 13.81,
+        "eps_growth_ttm_yoy": -31.1,
+        "gross_margin_ttm": 56.85,
+        "net_margin_ttm": 27,
+        "current_ratio": 0.4948,
+        "debt_equity": 1.0613,
+        "beta": 0.49752557
+      }
+    },
+    "BMRN": {
+      "cached_at": "2026-09-01T20:01:09.631899+00:00",
+      "data": {
+        "name": "BioMarin Pharmaceutical Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1999-07-23",
+        "weburl": "https://www.biomarin.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BMRN.png",
+        "market_cap": 12725539702.183962,
+        "pe_ttm": 182.9841,
+        "ps_ttm": 3.9196,
+        "pb_annual": 1.8757,
+        "revenue_growth_ttm_yoy": 11.2,
+        "eps_growth_ttm_yoy": -89.17,
+        "gross_margin_ttm": 79.62,
+        "net_margin_ttm": 2.14,
+        "current_ratio": 5.2086,
+        "debt_equity": 0.0982,
+        "beta": 0.21045548
+      }
+    },
+    "BAFN": {
+      "cached_at": "2026-09-01T20:01:09.631899+00:00",
+      "data": {
+        "name": "Bayfirst Financial Corp",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2015-07-23",
+        "weburl": "https://bayfirstfinancialir.com/home/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942971620096.png",
+        "market_cap": 172297775.9890154,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 0.3684,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": 0.0863,
+        "beta": 0.46958536
+      }
+    },
+    "GGG": {
+      "cached_at": "2026-09-01T20:01:09.631899+00:00",
+      "data": {
+        "name": "Graco Inc",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.graco.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GGG.png",
+        "market_cap": 12493118257.011234,
+        "pe_ttm": 25.0543,
+        "ps_ttm": 5.8961,
+        "pb_annual": 5.2101,
+        "revenue_growth_ttm_yoy": 4.58,
+        "eps_growth_ttm_yoy": 12.85,
+        "gross_margin_ttm": 52.99,
+        "net_margin_ttm": 23.53,
+        "current_ratio": 3.15,
+        "debt_equity": 0.0093,
+        "beta": 0.8861346
+      }
+    },
+    "MTD": {
+      "cached_at": "2026-09-01T20:01:09.631899+00:00",
+      "data": {
+        "name": "Mettler-toledo International Inc",
+        "industry": "Life Sciences Tools & Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1997-11-14",
+        "weburl": "https://www.mt.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MTD.png",
+        "market_cap": 28009505662.64065,
+        "pe_ttm": 31.5273,
+        "ps_ttm": 6.9067,
+        "pb_annual": 1299.3992,
+        "revenue_growth_ttm_yoy": 6.91,
+        "eps_growth_ttm_yoy": 12.52,
+        "gross_margin_ttm": 60.26,
+        "net_margin_ttm": 21.91,
+        "current_ratio": 1.1373,
+        "debt_equity": 81.2298,
+        "beta": 1.2066952
+      }
+    },
+    "CRNX": {
+      "cached_at": "2026-09-01T20:01:09.631899+00:00",
+      "data": {
+        "name": "Crinetics Pharmaceuticals Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2018-07-18",
+        "weburl": "https://www.crinetics.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950376115606.png",
+        "market_cap": 9010240429.0,
+        "pe_ttm": null,
+        "ps_ttm": 212.4882,
+        "pb_annual": 4.4525,
+        "revenue_growth_ttm_yoy": 2928.45,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -1189.88,
+        "current_ratio": 12.323,
+        "debt_equity": 0,
+        "beta": 0.022579877
+      }
+    },
+    "GRMN": {
+      "cached_at": "2026-09-01T20:01:09.631899+00:00",
+      "data": {
+        "name": "Garmin Ltd",
+        "industry": "Consumer products",
+        "country": "CH",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2000-12-08",
+        "weburl": "https://www.garmin.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GRMN.png",
+        "market_cap": 54443228925.4812,
+        "pe_ttm": 32.2394,
+        "ps_ttm": 7.8894,
+        "pb_annual": 4.4072,
+        "revenue_growth_ttm_yoy": 13.51,
+        "eps_growth_ttm_yoy": 19.73,
+        "gross_margin_ttm": 60.08,
+        "net_margin_ttm": 24.47,
+        "current_ratio": 3.6325,
+        "debt_equity": 0,
+        "beta": 0.8440515
       }
     }
   }

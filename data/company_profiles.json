@@ -5198,6 +5198,78 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "CRK": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Comstock Resources Inc",
+        "description": "Comstock Resources, Inc., an independent energy company, engages in the acquisition, exploration, development, and production of oil and natural gas primarily in Texas, Louisiana, and North Dakota. The company is headquartered in Frisco, Texas.",
+        "industry": "OIL & GAS E&P",
+        "sector": "ENERGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "BMRN": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "BioMarin Pharmaceutical Inc",
+        "description": "BioMarin is a global biotechnology company that has developed medicines to treat conditions such as achondroplasia, severe hemophilia A, and several rare inherited and lysosomal storage diseases. Learn more.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.biomarin.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "BAFN": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Bayfirst Financial Corp",
+        "description": "Bayfirst Financial Corp is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://bayfirstfinancialir.com/home/default.aspx",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "GGG": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Graco Inc",
+        "description": "Graco is one of the world’s leading suppliers of fluid management products and packages. We manufacture equipment to move, measure, mix, control, dispense and spray fluids that are part of your daily life.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.graco.com",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "MTD": {
+      "updated_at": "2026-09-01",
+      "data": {
+        "name": "Mettler-toledo International Inc",
+        "description": "Mettler-toledo International Inc is a publicly traded company operating in the Life Sciences Tools & Services industry with company information identifying US as its home market.",
+        "industry": "Life Sciences Tools & Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.mt.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
     }
   }
 }
