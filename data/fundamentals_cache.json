@@ -231,7 +231,7 @@
       }
     },
     "INTC": {
-      "cached_at": "2026-08-18T21:53:57.120978+00:00",
+      "cached_at": "2026-09-02T19:53:43.040381+00:00",
       "data": {
         "name": "Intel Corp",
         "industry": "Semiconductors",
@@ -240,7 +240,7 @@
         "ipo_date": "1971-10-13",
         "weburl": "https://www.intel.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/INTC.png",
-        "market_cap": 522003560000.0,
+        "market_cap": 467495222045.99976,
         "pe_ttm": null,
         "ps_ttm": 9.366,
         "pb_annual": 1.531,
@@ -250,7 +250,7 @@
         "net_margin_ttm": -19.79,
         "current_ratio": 2.017,
         "debt_equity": 0.4076,
-        "beta": 2.2952907
+        "beta": 2.3951316
       }
     },
     "GOOG": {
@@ -1933,7 +1933,7 @@
       }
     },
     "MS": {
-      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "cached_at": "2026-09-02T19:53:43.040381+00:00",
       "data": {
         "name": "Morgan Stanley",
         "industry": "Financial Services",
@@ -1942,7 +1942,7 @@
         "ipo_date": "1986-03-21",
         "weburl": "https://www.morganstanley.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MS.png",
-        "market_cap": 340451660131.99994,
+        "market_cap": 331452319993.1266,
         "pe_ttm": 17.0888,
         "ps_ttm": 2.6742,
         "pb_annual": 2.5275,
@@ -1952,7 +1952,7 @@
         "net_margin_ttm": 15.65,
         "current_ratio": 0.2963,
         "debt_equity": 7.9002,
-        "beta": 1.2143042
+        "beta": 1.2285866
       }
     },
     "TJX": {
@@ -12257,6 +12257,144 @@
         "current_ratio": 3.5137,
         "debt_equity": 0.245,
         "beta": 0.9155353
+      }
+    },
+    "DH": {
+      "cached_at": "2026-09-02T19:53:43.040381+00:00",
+      "data": {
+        "name": "Definitive Healthcare Corp",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-09-15",
+        "weburl": "https://ir.definitivehc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950811801366.png",
+        "market_cap": 130688564.02589472,
+        "pe_ttm": null,
+        "ps_ttm": 0.3895,
+        "pb_annual": 1.4462,
+        "revenue_growth_ttm_yoy": -3.89,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 76.04,
+        "net_margin_ttm": -71.49,
+        "current_ratio": 1.643,
+        "debt_equity": 0.5864,
+        "beta": 1.3814919
+      }
+    },
+    "DAKT": {
+      "cached_at": "2026-09-02T19:53:43.040381+00:00",
+      "data": {
+        "name": "Daktronics Inc",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1994-02-10",
+        "weburl": "https://www.daktronics.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959061276.png",
+        "market_cap": 935200790.5867894,
+        "pe_ttm": 21.9727,
+        "ps_ttm": 1.1888,
+        "pb_annual": 3.093,
+        "revenue_growth_ttm_yoy": 10.87,
+        "eps_growth_ttm_yoy": 83.18,
+        "gross_margin_ttm": 27.3,
+        "net_margin_ttm": 5.41,
+        "current_ratio": 2.3127,
+        "debt_equity": 0.0358,
+        "beta": 1.7433034
+      }
+    },
+    "EXLS": {
+      "cached_at": "2026-09-02T19:53:43.040381+00:00",
+      "data": {
+        "name": "Exlservice Holdings Inc",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2006-10-20",
+        "weburl": "https://www.exlservice.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EXLS.png",
+        "market_cap": 5673340137.171219,
+        "pe_ttm": 21.4502,
+        "ps_ttm": 2.3969,
+        "pb_annual": 7.3795,
+        "revenue_growth_ttm_yoy": 13.63,
+        "eps_growth_ttm_yoy": 10.07,
+        "gross_margin_ttm": 38.51,
+        "net_margin_ttm": 11.17,
+        "current_ratio": 2.5606,
+        "debt_equity": 0.3295,
+        "beta": 0.8689344
+      }
+    },
+    "DELL": {
+      "cached_at": "2026-09-02T19:53:43.040381+00:00",
+      "data": {
+        "name": "Dell Technologies Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2016-08-01",
+        "weburl": "https://www.dell.com/en-in",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/DELL.png",
+        "market_cap": 275519449130.33704,
+        "pe_ttm": 38.1013,
+        "ps_ttm": 2.391,
+        "pb_annual": 18.5202,
+        "revenue_growth_ttm_yoy": 38.57,
+        "eps_growth_ttm_yoy": 92.08,
+        "gross_margin_ttm": 19.07,
+        "net_margin_ttm": 6.28,
+        "current_ratio": 0.9104,
+        "debt_equity": 13.2911,
+        "beta": 1.4422988
+      }
+    },
+    "AIG": {
+      "cached_at": "2026-09-02T19:53:43.040381+00:00",
+      "data": {
+        "name": "American International Group Inc",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1984-10-08",
+        "weburl": "https://www.aig.com/home",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AIG.png",
+        "market_cap": 39677130827.819275,
+        "pe_ttm": 12.6704,
+        "ps_ttm": 1.5033,
+        "pb_annual": 1.1221,
+        "revenue_growth_ttm_yoy": -2.31,
+        "eps_growth_ttm_yoy": -25.22,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 11.86,
+        "current_ratio": 0.0373,
+        "debt_equity": 0.2234,
+        "beta": 0.5186925
+      }
+    },
+    "ENOV": {
+      "cached_at": "2026-09-02T19:53:43.040381+00:00",
+      "data": {
+        "name": "Enovis Corp",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2008-05-08",
+        "weburl": "https://www.enovis.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CFX.png",
+        "market_cap": 1183954653.8283856,
+        "pe_ttm": null,
+        "ps_ttm": 0.6177,
+        "pb_annual": 1.0227,
+        "revenue_growth_ttm_yoy": 4.89,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 61.43,
+        "net_margin_ttm": -47.97,
+        "current_ratio": 2.0169,
+        "debt_equity": 0.8705,
+        "beta": 1.4491458
       }
     }
   }
