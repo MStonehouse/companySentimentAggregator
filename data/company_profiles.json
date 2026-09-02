@@ -5370,6 +5370,52 @@
         ],
         "source": "Structured company profile"
       }
+    },
+    "UCB": {
+      "updated_at": "2026-09-02",
+      "data": {
+        "name": "United Community Banks, Inc.",
+        "description": "United Community Banks, Inc. (UCB), headquartered in Blairsville, Georgia, operates as a leading regional bank providing a comprehensive suite of financial services, including commercial and retail banking, mortgage lending, and wealth management, with a strong presence in the Southeastern U.S. The bank's strategic emphasis on community engagement and prudent growth through targeted acquisitions positions it well for sustained profitability and expansion. UCB maintains robust risk management protocols and a steadfast commitment to customer service, reinforcing its reputation as a trusted financial partner for both individuals and businesses.",
+        "industry": "BANKS - REGIONAL",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "SBMT": {
+      "updated_at": "2026-09-02",
+      "data": {
+        "name": "Silver Bow Mining Corp",
+        "description": "Silver Bow Mining Corp. is advancing the Butte Mining District of Montana, targeting U.S.-designated Critical Minerals including silver, zinc, gold and lead.",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://silverbowmining.com",
+        "products_markets": [
+          "Mining"
+        ],
+        "source": "Company website"
+      }
+    },
+    "FF": {
+      "updated_at": "2026-09-02",
+      "data": {
+        "name": "FutureFuel Corp",
+        "description": "FutureFuel Chemical Company is a specialty chemical manufacturer providing custom chemical manufacturing and custom chemical synthesis, along with process development, and performance chemical solutions.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.futurefuelcorporation.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
