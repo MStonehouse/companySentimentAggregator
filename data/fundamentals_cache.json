@@ -5406,7 +5406,7 @@
       }
     },
     "MTCH": {
-      "cached_at": "2026-08-22T13:48:57.946657+00:00",
+      "cached_at": "2026-09-02T23:24:53.235890+00:00",
       "data": {
         "name": "Match Group Inc",
         "industry": "Media",
@@ -5415,7 +5415,7 @@
         "ipo_date": "1992-12-28",
         "weburl": "https://www.mtch.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MTCH.png",
-        "market_cap": 9381748181.88327,
+        "market_cap": 9620481917.183764,
         "pe_ttm": 11.8752,
         "ps_ttm": 2.3951,
         "pb_annual": null,
@@ -5425,7 +5425,7 @@
         "net_margin_ttm": 20.17,
         "current_ratio": 1.418,
         "debt_equity": 0.9869,
-        "beta": 1.4351935
+        "beta": 1.4797995
       }
     },
     "MAA": {
@@ -8074,7 +8074,7 @@
       }
     },
     "VICI": {
-      "cached_at": "2026-08-25T14:10:55.210488+00:00",
+      "cached_at": "2026-09-02T23:24:53.235890+00:00",
       "data": {
         "name": "VICI Properties Inc",
         "industry": "Real Estate",
@@ -8093,7 +8093,7 @@
         "net_margin_ttm": 67.5,
         "current_ratio": 0.6677,
         "debt_equity": 0.6344,
-        "beta": 0.67833936
+        "beta": 0.67452073
       }
     },
     "BARK": {
@@ -12395,6 +12395,98 @@
         "current_ratio": 2.0169,
         "debt_equity": 0.8705,
         "beta": 1.4491458
+      }
+    },
+    "FIVE": {
+      "cached_at": "2026-09-02T23:24:53.235890+00:00",
+      "data": {
+        "name": "Five Below Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2012-07-19",
+        "weburl": "https://www.fivebelow.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FIVE.png",
+        "market_cap": 13551784896.278074,
+        "pe_ttm": 30.3381,
+        "ps_ttm": 2.6314,
+        "pb_annual": 4.9743,
+        "revenue_growth_ttm_yoy": 25.87,
+        "eps_growth_ttm_yoy": 66.05,
+        "gross_margin_ttm": 36.81,
+        "net_margin_ttm": 8.67,
+        "current_ratio": 2.0091,
+        "debt_equity": 0,
+        "beta": 0.90066344
+      }
+    },
+    "NTAP": {
+      "cached_at": "2026-09-02T23:24:53.235890+00:00",
+      "data": {
+        "name": "NetApp Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1995-11-21",
+        "weburl": "https://www.netapp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NTAP.png",
+        "market_cap": 35942267258.905495,
+        "pe_ttm": 31.073,
+        "ps_ttm": 5.7255,
+        "pb_annual": 15.8785,
+        "revenue_growth_ttm_yoy": 5.37,
+        "eps_growth_ttm_yoy": 11.9,
+        "gross_margin_ttm": 70.74,
+        "net_margin_ttm": 18.43,
+        "current_ratio": 1.4365,
+        "debt_equity": 1.8409,
+        "beta": 1.539225
+      }
+    },
+    "CSWC": {
+      "cached_at": "2026-09-02T23:24:53.235890+00:00",
+      "data": {
+        "name": "Capital Southwest Corp",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.capitalsouthwest.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CSWC.png",
+        "market_cap": 1590797317.206101,
+        "pe_ttm": 14.5512,
+        "ps_ttm": 6.7924,
+        "pb_annual": 1.3163,
+        "revenue_growth_ttm_yoy": 13.48,
+        "eps_growth_ttm_yoy": 8.05,
+        "gross_margin_ttm": 70.55,
+        "net_margin_ttm": 46.68,
+        "current_ratio": 5.0665,
+        "debt_equity": 1.1189,
+        "beta": 0.71025234
+      }
+    },
+    "HSY": {
+      "cached_at": "2026-09-02T23:24:53.235890+00:00",
+      "data": {
+        "name": "Hershey Co",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1927-12-01",
+        "weburl": "https://www.thehersheycompany.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HSY.png",
+        "market_cap": 35362961646.12678,
+        "pe_ttm": 31.8841,
+        "ps_ttm": 3.7735,
+        "pb_annual": 7.9588,
+        "revenue_growth_ttm_yoy": -12.4,
+        "eps_growth_ttm_yoy": -33.52,
+        "gross_margin_ttm": 37.8,
+        "net_margin_ttm": 11.84,
+        "current_ratio": 1.1916,
+        "debt_equity": 1.1653,
+        "beta": 0.0686238
       }
     }
   }

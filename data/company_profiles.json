@@ -5538,6 +5538,76 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "DELL": {
+      "updated_at": "2026-09-02",
+      "data": {
+        "name": "Dell Technologies Inc",
+        "description": "Dell Technologies Inc. designs, develops, manufactures, markets, sells and supports information technology solutions, products and services worldwide. The company is headquartered in Round Rock, Texas.",
+        "industry": "COMPUTER HARDWARE",
+        "sector": "TECHNOLOGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "AIG": {
+      "updated_at": "2026-09-02",
+      "data": {
+        "name": "American International Group Inc",
+        "description": "American International Group, Inc, (AIG), is a global insurance organization providing a range of insurance and other financial services. Get to know us better.",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.aig.com/home",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "FIVE": {
+      "updated_at": "2026-09-02",
+      "data": {
+        "name": "Five Below Inc",
+        "description": "Five Below Inc is a publicly traded company operating in the Retail industry with company information identifying US as its home market.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.fivebelow.com",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "NTAP": {
+      "updated_at": "2026-09-02",
+      "data": {
+        "name": "NetApp Inc",
+        "description": "The only enterprise-grade storage service that's embedded into the major public cloud providers, NetApp turns disruption into opportunity with intelligent data infrastructure for any data, any workload, and any environment.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.netapp.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CSWC": {
+      "updated_at": "2026-09-02",
+      "data": {
+        "name": "Capital Southwest Corp",
+        "description": "Capital Southwest provides flexible capital solutions to help lower middle-market businesses grow through acquisitions and capital investment.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.capitalsouthwest.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
