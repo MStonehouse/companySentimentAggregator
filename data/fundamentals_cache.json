@@ -24,7 +24,7 @@
       }
     },
     "AMZN": {
-      "cached_at": "2026-08-26T02:41:57.658312+00:00",
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
       "data": {
         "name": "Amazon.com Inc",
         "industry": "Retail",
@@ -33,7 +33,7 @@
         "ipo_date": "1997-05-15",
         "weburl": "https://www.amazon.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMZN.png",
-        "market_cap": 2815875329829.8774,
+        "market_cap": 2749647164100.824,
         "pe_ttm": 21.1395,
         "ps_ttm": 3.6868,
         "pb_annual": 6.0027,
@@ -43,7 +43,7 @@
         "net_margin_ttm": 17.44,
         "current_ratio": 1.0508,
         "debt_equity": 0.2172,
-        "beta": 1.4698237
+        "beta": 1.502895
       }
     },
     "AVGO": {
@@ -346,7 +346,7 @@
       }
     },
     "CRM": {
-      "cached_at": "2026-08-26T02:41:57.658312+00:00",
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
       "data": {
         "name": "Salesforce Inc",
         "industry": "Technology",
@@ -355,7 +355,7 @@
         "ipo_date": "2004-06-23",
         "weburl": "https://www.salesforce.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CRM.png",
-        "market_cap": 168460108032.23956,
+        "market_cap": 212424537047.56357,
         "pe_ttm": 19.8896,
         "ps_ttm": 3.7258,
         "pb_annual": 3.3399,
@@ -365,7 +365,7 @@
         "net_margin_ttm": 18.73,
         "current_ratio": 0.7603,
         "debt_equity": 0.2532,
-        "beta": 1.2142118
+        "beta": 1.2369546
       }
     },
     "YSS": {
@@ -3106,7 +3106,7 @@
       }
     },
     "WFC": {
-      "cached_at": "2026-08-20T14:05:11.492089+00:00",
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
       "data": {
         "name": "Wells Fargo & Co",
         "industry": "Banking",
@@ -3125,7 +3125,7 @@
         "net_margin_ttm": 22.19029,
         "current_ratio": null,
         "debt_equity": 2.3505,
-        "beta": 0.9601281
+        "beta": 0.94360924
       }
     },
     "LYTS": {
@@ -4946,7 +4946,7 @@
       }
     },
     "BG": {
-      "cached_at": "2026-08-21T21:44:31.998756+00:00",
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
       "data": {
         "name": "Bunge Global SA",
         "industry": "Food Products",
@@ -4955,7 +4955,7 @@
         "ipo_date": "2001-08-07",
         "weburl": "https://www.bunge.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950866353246.png",
-        "market_cap": 22395326444.19684,
+        "market_cap": 23254098751.211773,
         "pe_ttm": 21.507,
         "ps_ttm": 0.2359,
         "pb_annual": 1.083,
@@ -4965,7 +4965,7 @@
         "net_margin_ttm": 1.1,
         "current_ratio": 1.6124,
         "debt_equity": 0.8966,
-        "beta": 0.73555315
+        "beta": 0.68744123
       }
     },
     "SCCO": {
@@ -8925,7 +8925,7 @@
       }
     },
     "PEP": {
-      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
       "data": {
         "name": "PepsiCo Inc",
         "industry": "Beverages",
@@ -8934,7 +8934,7 @@
         "ipo_date": "1919-12-18",
         "weburl": "https://www.pepsico.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PEP.png",
-        "market_cap": 194183116619.00003,
+        "market_cap": 190798174939.86646,
         "pe_ttm": 18.2277,
         "ps_ttm": 1.9658,
         "pb_annual": 9.6651,
@@ -8944,7 +8944,7 @@
         "net_margin_ttm": 10.78,
         "current_ratio": 0.853,
         "debt_equity": 2.4102,
-        "beta": 0.36293876
+        "beta": 0.33319673
       }
     },
     "WM": {
@@ -12142,6 +12142,121 @@
         "current_ratio": 2.9009,
         "debt_equity": 0.006,
         "beta": 0.26541337
+      }
+    },
+    "CVBF": {
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
+      "data": {
+        "name": "CVB Financial Corp",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1983-04-04",
+        "weburl": "https://www.cbbank.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CVBF.png",
+        "market_cap": 3849063949.8633285,
+        "pe_ttm": 19.4509,
+        "ps_ttm": 4.45204,
+        "pb_annual": 1.0985,
+        "revenue_growth_ttm_yoy": 24.00621,
+        "eps_growth_ttm_yoy": 5.1,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 42.79787,
+        "current_ratio": null,
+        "debt_equity": 0.2137,
+        "beta": 0.71174294
+      }
+    },
+    "CLBT": {
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
+      "data": {
+        "name": "Cellebrite DI Ltd",
+        "industry": "Technology",
+        "country": "IL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-08-31",
+        "weburl": "https://www.cellebrite.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950009357896.png",
+        "market_cap": 2955861859.1000004,
+        "pe_ttm": 37.4868,
+        "ps_ttm": 5.4267,
+        "pb_annual": 8.9149,
+        "revenue_growth_ttm_yoy": 18.43,
+        "eps_growth_ttm_yoy": -20.26,
+        "gross_margin_ttm": 83.86,
+        "net_margin_ttm": 14.48,
+        "current_ratio": 1.5578,
+        "debt_equity": 0,
+        "beta": 1.059172
+      }
+    },
+    "MDLZ": {
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
+      "data": {
+        "name": "Mondelez International Inc",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2001-06-13",
+        "weburl": "https://www.mondelezinternational.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MDLZ.png",
+        "market_cap": 78633334470.5236,
+        "pe_ttm": 22.8726,
+        "ps_ttm": 2.027,
+        "pb_annual": 2.6883,
+        "revenue_growth_ttm_yoy": 6.93,
+        "eps_growth_ttm_yoy": -0.41,
+        "gross_margin_ttm": 31.15,
+        "net_margin_ttm": 8.86,
+        "current_ratio": 0.5923,
+        "debt_equity": 0.8207,
+        "beta": 0.38217005
+      }
+    },
+    "KO": {
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
+      "data": {
+        "name": "Coca-Cola Co",
+        "industry": "Beverages",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1950-01-26",
+        "weburl": "https://www.coca-colacompany.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/KO.png",
+        "market_cap": 378624289056.6821,
+        "pe_ttm": 26.2553,
+        "ps_ttm": 7.4981,
+        "pb_annual": 9.3483,
+        "revenue_growth_ttm_yoy": 6.52,
+        "eps_growth_ttm_yoy": 17.61,
+        "gross_margin_ttm": 61.89,
+        "net_margin_ttm": 28.56,
+        "current_ratio": 1.4588,
+        "debt_equity": 1.4142,
+        "beta": 0.29944086
+      }
+    },
+    "NVR": {
+      "cached_at": "2026-09-02T17:13:04.243886+00:00",
+      "data": {
+        "name": "NVR Inc",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1987-06-25",
+        "weburl": "https://www.nvrinc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NVR.png",
+        "market_cap": 16724181697.323868,
+        "pe_ttm": 14.8804,
+        "ps_ttm": 1.7625,
+        "pb_annual": 5.3578,
+        "revenue_growth_ttm_yoy": -10.14,
+        "eps_growth_ttm_yoy": -18.58,
+        "gross_margin_ttm": 22.86,
+        "net_margin_ttm": 11.84,
+        "current_ratio": 3.5137,
+        "debt_equity": 0.245,
+        "beta": 0.9155353
       }
     }
   }
