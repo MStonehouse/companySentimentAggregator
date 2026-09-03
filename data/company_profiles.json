@@ -5815,6 +5815,35 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "BRC": {
+      "updated_at": "2026-09-03",
+      "data": {
+        "name": "Brady Corporation",
+        "description": "Brady Corporation manufactures and supplies Identification Solutions (IDS) and Workplace Security Products (WPS) to identify and protect facilities, products, and people in the United States and internationally. The company is headquartered in Milwaukee, Wisconsin.",
+        "industry": "SECURITY & PROTECTION SERVICES",
+        "sector": "INDUSTRIALS",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "BYRN": {
+      "updated_at": "2026-09-03",
+      "data": {
+        "name": "Byrna Technologies Inc",
+        "description": "One of the best defense products available is the Byrna SD, a legal, non-lethal self-defense weapon that fires pepper filled rounds up to 60 feet using CO2. Save lives without the risk of taking one. Empower yourself today!",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://byrna.com/",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
