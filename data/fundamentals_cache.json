@@ -12948,6 +12948,52 @@
         "debt_equity": 0,
         "beta": 1.8544201
       }
+    },
+    "AEP": {
+      "cached_at": "2026-09-03T23:21:36.008830+00:00",
+      "data": {
+        "name": "American Electric Power Company Inc",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1949-09-01",
+        "weburl": "https://www.aep.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AEP.png",
+        "market_cap": 67483501525.4382,
+        "pe_ttm": 21.6147,
+        "ps_ttm": 3.0457,
+        "pb_annual": 1.9754,
+        "revenue_growth_ttm_yoy": 10.6,
+        "eps_growth_ttm_yoy": -15.36,
+        "gross_margin_ttm": 41.85097,
+        "net_margin_ttm": 14.09,
+        "current_ratio": 0.4546,
+        "debt_equity": 1.5712,
+        "beta": 0.46630377
+      }
+    },
+    "CPRT": {
+      "cached_at": "2026-09-03T23:21:36.008830+00:00",
+      "data": {
+        "name": "Copart Inc",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1994-03-17",
+        "weburl": "https://www.copart.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CPRT.png",
+        "market_cap": 31505365992.585827,
+        "pe_ttm": 19.1695,
+        "ps_ttm": 6.4184,
+        "pb_annual": 4.771,
+        "revenue_growth_ttm_yoy": 1.05,
+        "eps_growth_ttm_yoy": 6.09,
+        "gross_margin_ttm": 45.53,
+        "net_margin_ttm": 33.48,
+        "current_ratio": 8.4221,
+        "debt_equity": 0.0003,
+        "beta": 1.0295582
+      }
     }
   }
 }

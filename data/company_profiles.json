@@ -5844,6 +5844,35 @@
         ],
         "source": "Company website"
       }
+    },
+    "EQBK": {
+      "updated_at": "2026-09-03",
+      "data": {
+        "name": "Equity Bancshares, Inc.",
+        "description": "Equity Bancshares, Inc. is Equity Bank's banking holding company providing a range of banking, mortgage banking and financial services to individual and corporate clients. The company is headquartered in Wichita, Kansas.",
+        "industry": "BANKS - REGIONAL",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "AEP": {
+      "updated_at": "2026-09-03",
+      "data": {
+        "name": "American Electric Power Company Inc",
+        "description": "American Electric Power Company Inc is a publicly traded company operating in the Utilities industry with company information identifying US as its home market.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.aep.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
     }
   }
 }
