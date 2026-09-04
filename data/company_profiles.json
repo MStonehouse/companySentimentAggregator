@@ -6053,6 +6053,48 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "MCD": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "McDonald's Corp",
+        "description": "McDonalds.com is your hub for everything McDonald",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.mcdonalds.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "AIP": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Arteris Inc",
+        "description": "Arteris network-on-chip (NoC) interconnect IP and SoC integration automation technology enable higher performance, lower power, faster time to market, and better SoC economics.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.arteris.com/",
+        "products_markets": [
+          "Semiconductors",
+          "Industrial automation"
+        ],
+        "source": "Company website"
+      }
+    },
+    "YOU": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Clear Secure Inc",
+        "description": "CLEAR’s identity verification platform makes experiences safer and easier—both physically and digitally. Skip long lines with CLEAR in airports and more.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.clearme.com",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
