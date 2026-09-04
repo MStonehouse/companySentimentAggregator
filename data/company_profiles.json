@@ -5873,6 +5873,105 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "MAMA": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Mama's Creations Inc",
+        "description": "We make our food just as Dan Mancini’s grandmother taught him—real ingredients, full flavor, and love. Taste tradition in every bite with our classic family recipe.",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://mamamancinis.com/our-story/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "NX": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Quanex Building Products Corp",
+        "description": "Quanex | Driven by innovation and fueled by technology, our locations and employees build components for a brighter future for all of us.",
+        "industry": "Building",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.quanex.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "GWRE": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Guidewire Software Inc",
+        "description": "Elevate your P&C insurance with Guidewire's industry-leading software! Streamline workflows, enhance customer experience, and drive growth. Learn more today!",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.guidewire.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "LBRX": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "LB Pharmaceuticals Inc Common Stock",
+        "description": "LB Pharmaceuticals Inc, a clinical-stage biopharmaceutical company, develops therapies for the treatment of schizophrenia, bipolar depression, and other neuropsychiatric diseases. The company is headquartered in New York, New York.",
+        "industry": "BIOTECHNOLOGY",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "DOCU": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "DocuSign Inc",
+        "description": "Create, commit to, and manage your agreements all in one platform with Docusign IAM. Electronically sign for free.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.docusign.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "NNE": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Nano Nuclear Energy Inc",
+        "description": "Nano Nuclear Energy Inc is a publicly traded company operating in the Electrical Equipment industry with company information identifying US as its home market.",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://nanonuclearenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "DTE": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "DTE Energy Co",
+        "description": "DTE Energy Co is a publicly traded company operating in the Utilities industry with company information identifying US as its home market.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://ir.dteenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }
