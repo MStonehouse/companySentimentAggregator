@@ -5972,6 +5972,87 @@
         ],
         "source": "Structured company profile"
       }
+    },
+    "COST": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Costco Wholesale Corp",
+        "description": "Shop Costco.com for electronics, computers, furniture, outdoor living, appliances, jewelry and more. Enjoy low warehouse prices on name-brands products delivered to your door",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.costco.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "IONS": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Ionis Pharmaceuticals Inc",
+        "description": "Discover how Ionis Pharmaceuticals is advancing RNA and DNA-targeted medicines to revolutionize treatment and improve lives. Join us on our mission to transform healthcare.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.ionis.com/",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SMA": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "SmartStop Self Storage REIT Inc",
+        "description": "Find affordable self storage units near you with up to 50% off. Clean, secure, facilities for personal and business use - reserve online today!",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://smartstopselfstorage.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "FICO": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Fair Isaac Corp",
+        "description": "FICO is the world’s leading provider of analytics software, solutions and services that transform the way organizations understand their customers and optimize business processes around them.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.fico.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "SWBI": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Smith & Wesson Brands Inc",
+        "description": "Since 1852 we’ve been an industry leading manufacturer of pistols, revolvers, rifles, and shooting accessories. We continue to bring innovative firearms to market that meet the needs of every shooter and deliver on exceptional quality with a brand you’ve learned to trust.",
+        "industry": "Leisure Products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.smith-wesson.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "EFX": {
+      "updated_at": "2026-09-04",
+      "data": {
+        "name": "Equifax Inc",
+        "description": "Get credit reports and credit scores for businesses and consumers from Equifax today! We also have identity protection tools with daily monitoring and alerts",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.equifax.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
