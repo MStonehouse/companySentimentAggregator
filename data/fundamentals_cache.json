@@ -2094,7 +2094,7 @@
       }
     },
     "BLK": {
-      "cached_at": "2026-08-26T14:09:26.125826+00:00",
+      "cached_at": "2026-09-05T19:10:08.982877+00:00",
       "data": {
         "name": "BlackRock Inc",
         "industry": "Financial Services",
@@ -2103,9 +2103,9 @@
         "ipo_date": "1999-10-01",
         "weburl": "https://www.blackrock.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950002356066.png",
-        "market_cap": 191175986223.00003,
-        "pe_ttm": 29.225,
-        "ps_ttm": 7.0399,
+        "market_cap": 182345406886.18005,
+        "pe_ttm": 27.8243,
+        "ps_ttm": 6.7025,
         "pb_annual": 3.1244,
         "revenue_growth_ttm_yoy": 26.54,
         "eps_growth_ttm_yoy": -3.67,
@@ -2113,7 +2113,7 @@
         "net_margin_ttm": 24.09,
         "current_ratio": 2.1321,
         "debt_equity": 0.2285,
-        "beta": 1.4266196
+        "beta": 1.4076517
       }
     },
     "LOW": {
@@ -3083,7 +3083,7 @@
       }
     },
     "SYY": {
-      "cached_at": "2026-08-20T14:05:11.492089+00:00",
+      "cached_at": "2026-09-05T19:10:08.982877+00:00",
       "data": {
         "name": "Sysco Corp",
         "industry": "Retail",
@@ -3092,9 +3092,9 @@
         "ipo_date": "1981-01-20",
         "weburl": "https://www.sysco.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SYY.png",
-        "market_cap": 39430935656.666176,
-        "pe_ttm": 22.9833,
-        "ps_ttm": 0.4773,
+        "market_cap": 38351638773.8684,
+        "pe_ttm": 22.311,
+        "ps_ttm": 0.4634,
         "pb_annual": 14.9589,
         "revenue_growth_ttm_yoy": 3.91,
         "eps_growth_ttm_yoy": -2.12,
@@ -3102,7 +3102,7 @@
         "net_margin_ttm": 2.08,
         "current_ratio": 1.2769,
         "debt_equity": 5.0698,
-        "beta": 0.6447231
+        "beta": 0.67542166
       }
     },
     "WFC": {
@@ -6165,7 +6165,7 @@
       }
     },
     "BK": {
-      "cached_at": "2026-08-23T13:50:56.103968+00:00",
+      "cached_at": "2026-09-05T19:10:08.982877+00:00",
       "data": {
         "name": "",
         "industry": "",
@@ -6184,7 +6184,7 @@
         "net_margin_ttm": 21.20521,
         "current_ratio": null,
         "debt_equity": 1.2026,
-        "beta": 1.0484113
+        "beta": 1.0196464
       }
     },
     "MRSH": {
@@ -13982,6 +13982,75 @@
         "current_ratio": 1.5878,
         "debt_equity": 0.7143,
         "beta": 1.183064
+      }
+    },
+    "MIAX": {
+      "cached_at": "2026-09-05T19:10:08.982877+00:00",
+      "data": {
+        "name": "Miami International Holdings Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2025-08-14",
+        "weburl": "https://www.miaxglobal.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950014306116.png",
+        "market_cap": 4206397590.963006,
+        "pe_ttm": 29.7841,
+        "ps_ttm": 2.8899,
+        "pb_annual": 4.4932,
+        "revenue_growth_ttm_yoy": 19.57,
+        "eps_growth_ttm_yoy": 3870.91,
+        "gross_margin_ttm": 34.35,
+        "net_margin_ttm": 9.7,
+        "current_ratio": 2.5358,
+        "debt_equity": 0.0019,
+        "beta": 1.1574522
+      }
+    },
+    "PBA": {
+      "cached_at": "2026-09-05T19:10:08.982877+00:00",
+      "data": {
+        "name": "Pembina Pipeline Corp",
+        "industry": "Energy",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "ipo_date": "1998-10-23",
+        "weburl": "https://www.pembina.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PPL.TO.png",
+        "market_cap": 38999076389.0,
+        "pe_ttm": 21.9134,
+        "ps_ttm": 4.9128,
+        "pb_annual": 1.8123,
+        "revenue_growth_ttm_yoy": -1.25,
+        "eps_growth_ttm_yoy": -4.73,
+        "gross_margin_ttm": 42.04,
+        "net_margin_ttm": 22.42,
+        "current_ratio": 0.6097,
+        "debt_equity": 0.7936,
+        "beta": -0.12056056
+      }
+    },
+    "NG": {
+      "cached_at": "2026-09-05T19:10:08.982877+00:00",
+      "data": {
+        "name": "NovaGold Resources Inc",
+        "industry": "Metals & Mining",
+        "country": "CA",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2003-12-02",
+        "weburl": "https://www.novagold.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NG.png",
+        "market_cap": 3540959632.1105766,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 25.2912,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 23.7924,
+        "debt_equity": 1.0153,
+        "beta": 0.94902354
       }
     }
   }
