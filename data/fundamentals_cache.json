@@ -2048,7 +2048,7 @@
       }
     },
     "MRK": {
-      "cached_at": "2026-08-19T14:02:54.176703+00:00",
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
       "data": {
         "name": "Merck & Co Inc",
         "industry": "Pharmaceuticals",
@@ -2057,9 +2057,9 @@
         "ipo_date": "1941-01-01",
         "weburl": "https://www.merck.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MRK.png",
-        "market_cap": 333487592337.5906,
-        "pe_ttm": 103.8615,
-        "ps_ttm": 4.9505,
+        "market_cap": 370889902351.1836,
+        "pe_ttm": 116.5006,
+        "ps_ttm": 5.553,
         "pb_annual": 4.9663,
         "revenue_growth_ttm_yoy": 4.64,
         "eps_growth_ttm_yoy": -80.7,
@@ -2067,7 +2067,7 @@
         "net_margin_ttm": 4.77,
         "current_ratio": 1.5362,
         "debt_equity": 0.9379,
-        "beta": 0.20446058
+        "beta": 0.14157374
       }
     },
     "DE": {
@@ -10213,7 +10213,7 @@
       }
     },
     "NXPI": {
-      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
       "data": {
         "name": "NXP Semiconductors NV",
         "industry": "Semiconductors",
@@ -10222,9 +10222,9 @@
         "ipo_date": "2010-08-06",
         "weburl": "https://www.nxp.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NXPI.png",
-        "market_cap": 56619681909.757034,
-        "pe_ttm": 19.6569,
-        "ps_ttm": 4.4353,
+        "market_cap": 57451824918.21221,
+        "pe_ttm": 19.3679,
+        "ps_ttm": 4.3701,
         "pb_annual": 5.4324,
         "revenue_growth_ttm_yoy": 8.77,
         "eps_growth_ttm_yoy": 39.6,
@@ -10232,7 +10232,7 @@
         "net_margin_ttm": 22.56,
         "current_ratio": 2.0459,
         "debt_equity": 1.2154,
-        "beta": 1.8338466
+        "beta": 1.8839908
       }
     },
     "GOVX": {
@@ -13798,6 +13798,190 @@
         "current_ratio": 0.6342,
         "debt_equity": 2.2054,
         "beta": -0.18988629
+      }
+    },
+    "MELI": {
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "data": {
+        "name": "MercadoLibre Inc",
+        "industry": "Retail",
+        "country": "UY",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2007-08-10",
+        "weburl": "https://www.mercadolibre.com.uy/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MELI.png",
+        "market_cap": 100296524412.69238,
+        "pe_ttm": 54.604,
+        "ps_ttm": 2.8915,
+        "pb_annual": 15.133,
+        "revenue_growth_ttm_yoy": 46.01,
+        "eps_growth_ttm_yoy": -9.25,
+        "gross_margin_ttm": 42.68,
+        "net_margin_ttm": 5.3,
+        "current_ratio": 1.1725,
+        "debt_equity": 1.3623,
+        "beta": 1.4269311
+      }
+    },
+    "ARMK": {
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "data": {
+        "name": "Aramark",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2013-12-12",
+        "weburl": "https://www.aramark.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ARMK.png",
+        "market_cap": 14968628913.552374,
+        "pe_ttm": 39.0508,
+        "ps_ttm": 0.7535,
+        "pb_annual": 3.2564,
+        "revenue_growth_ttm_yoy": 11.02,
+        "eps_growth_ttm_yoy": 6.08,
+        "gross_margin_ttm": 8.64,
+        "net_margin_ttm": 1.93,
+        "current_ratio": 0.9933,
+        "debt_equity": 1.7172,
+        "beta": 1.104836
+      }
+    },
+    "CHEF": {
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "data": {
+        "name": "Chefs' Warehouse Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2011-07-28",
+        "weburl": "https://www.chefswarehouse.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CHEF.png",
+        "market_cap": 4665439848.182821,
+        "pe_ttm": 50.3175,
+        "ps_ttm": 1.0537,
+        "pb_annual": 4.2772,
+        "revenue_growth_ttm_yoy": 11.16,
+        "eps_growth_ttm_yoy": 32.46,
+        "gross_margin_ttm": 24.46,
+        "net_margin_ttm": 2.09,
+        "current_ratio": 2.0485,
+        "debt_equity": 1.2387,
+        "beta": 1.4809929
+      }
+    },
+    "KYMR": {
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "data": {
+        "name": "Kymera Therapeutics Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2020-08-21",
+        "weburl": "https://www.kymeratx.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950760895136.png",
+        "market_cap": 9761051122.050308,
+        "pe_ttm": null,
+        "ps_ttm": 92.8762,
+        "pb_annual": 3.8888,
+        "revenue_growth_ttm_yoy": 134.84,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -285.34,
+        "current_ratio": 10.4698,
+        "debt_equity": 0.0021,
+        "beta": 2.0468802
+      }
+    },
+    "FUSB": {
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "data": {
+        "name": "First US Bancshares Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1987-01-01",
+        "weburl": "https://www.fusb.com/resources/company-profile",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959152576.png",
+        "market_cap": 90717596.40362537,
+        "pe_ttm": 11.6575,
+        "ps_ttm": 1.3378,
+        "pb_annual": 0.7626,
+        "revenue_growth_ttm_yoy": 27.59902,
+        "eps_growth_ttm_yoy": 36.25,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 20.42566,
+        "current_ratio": null,
+        "debt_equity": 0.1036,
+        "beta": 0.27074987
+      }
+    },
+    "GTM": {
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "data": {
+        "name": "Zoominfo Technologies Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2020-06-04",
+        "weburl": "https://ir.zoominfo.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950417986716.png",
+        "market_cap": 1202284458.3834953,
+        "pe_ttm": 9.6568,
+        "ps_ttm": 0.9536,
+        "pb_annual": 2.131,
+        "revenue_growth_ttm_yoy": 2.66,
+        "eps_growth_ttm_yoy": 34.74,
+        "gross_margin_ttm": 83.83,
+        "net_margin_ttm": -43.02,
+        "current_ratio": 0.6916,
+        "debt_equity": 0.7249,
+        "beta": 0.80919147
+      }
+    },
+    "KGC": {
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "data": {
+        "name": "Kinross Gold Corp",
+        "industry": "Metals & Mining",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "ipo_date": "1905-05-25",
+        "weburl": "https://www.kinross.com/home/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950872154416.png",
+        "market_cap": 51637057209.0,
+        "pe_ttm": 11.3135,
+        "ps_ttm": 4.2452,
+        "pb_annual": 3.9947,
+        "revenue_growth_ttm_yoy": 39.47,
+        "eps_growth_ttm_yoy": 112.36,
+        "gross_margin_ttm": 56.3,
+        "net_margin_ttm": 37.52,
+        "current_ratio": 2.3496,
+        "debt_equity": 0.0861,
+        "beta": 3.3891592
+      }
+    },
+    "GLW": {
+      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "data": {
+        "name": "Corning Inc",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1945-05-21",
+        "weburl": "https://www.corning.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GLW.png",
+        "market_cap": 132912215564.01439,
+        "pe_ttm": 64.0533,
+        "ps_ttm": 7.1741,
+        "pb_annual": 6.3581,
+        "revenue_growth_ttm_yoy": 19.41,
+        "eps_growth_ttm_yoy": 131.21,
+        "gross_margin_ttm": 36.38,
+        "net_margin_ttm": 11.2,
+        "current_ratio": 1.5878,
+        "debt_equity": 0.7143,
+        "beta": 1.183064
       }
     }
   }

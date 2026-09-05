@@ -6249,6 +6249,61 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "MELI": {
+      "updated_at": "2026-09-05",
+      "data": {
+        "name": "MercadoLibre Inc",
+        "description": "Comprá productos con Envío Gratis en el día en Mercado Libre Uruguay. Encontrá miles de marcas y productos a precios increíbles.",
+        "industry": "Retail",
+        "country": "UY",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.mercadolibre.com.uy/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ARMK": {
+      "updated_at": "2026-09-05",
+      "data": {
+        "name": "Aramark",
+        "description": "Aramark provides food services and facilities management to hospitals, universities, school districts, stadiums, and other businesses around the world.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.aramark.com",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CHEF": {
+      "updated_at": "2026-09-05",
+      "data": {
+        "name": "The Chefs Warehouse Inc",
+        "description": "The Chefs' Warehouse, Inc., distributes specialty food products in the United States and Canada. The company is headquartered in Ridgefield, Connecticut.",
+        "industry": "FOOD DISTRIBUTION",
+        "sector": "CONSUMER DEFENSIVE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "KYMR": {
+      "updated_at": "2026-09-05",
+      "data": {
+        "name": "Kymera Therapeutics Inc",
+        "description": "Kymera is inventing a new generation of small molecule medicines by tackling the root cause of disease with targeted protein degradation.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.kymeratx.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
