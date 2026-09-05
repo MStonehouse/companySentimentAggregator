@@ -6320,6 +6320,63 @@
         ],
         "source": "Alpha Vantage Company Overview"
       }
+    },
+    "KGC": {
+      "updated_at": "2026-09-05",
+      "data": {
+        "name": "Kinross Gold Corporation",
+        "description": "Kinross Gold Corporation is engaged in the acquisition, exploration and development of gold properties primarily in the United States, the Russian Federation, Brazil, Chile, Ghana and Mauritania. The company is headquartered in Toronto, Canada.",
+        "industry": "GOLD",
+        "sector": "BASIC MATERIALS",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "PBA": {
+      "updated_at": "2026-09-05",
+      "data": {
+        "name": "Pembina Pipeline Corp",
+        "description": "Pembina Pipeline Corp is a publicly traded company operating in the Energy industry with company information identifying CA as its home market.",
+        "industry": "Energy",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "website": "https://www.pembina.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "AM": {
+      "updated_at": "2026-09-05",
+      "data": {
+        "name": "Antero Midstream Corp",
+        "description": "Antero Midstream Corp is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.anteromidstream.com",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "TMDX": {
+      "updated_at": "2026-09-05",
+      "data": {
+        "name": "Transmedics Group Inc",
+        "description": "Transmedics Group Inc is a publicly traded company operating in the Health Care industry with company information identifying US as its home market.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.transmedics.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
     }
   }
 }

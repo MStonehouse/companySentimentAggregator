@@ -852,7 +852,7 @@
       }
     },
     "HD": {
-      "cached_at": "2026-08-18T23:30:09.077138+00:00",
+      "cached_at": "2026-09-05T23:02:05.751616+00:00",
       "data": {
         "name": "Home Depot Inc",
         "industry": "Retail",
@@ -861,17 +861,17 @@
         "ipo_date": "1984-04-19",
         "weburl": "https://www.homedepot.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HD.png",
-        "market_cap": 336905775768.0077,
-        "pe_ttm": 24.4148,
-        "ps_ttm": 2.0535,
+        "market_cap": 320308265087.42773,
+        "pe_ttm": 22.2659,
+        "ps_ttm": 1.8725,
         "pb_annual": 29.3782,
-        "revenue_growth_ttm_yoy": 2.23,
-        "eps_growth_ttm_yoy": -4.47,
-        "gross_margin_ttm": 33.13,
+        "revenue_growth_ttm_yoy": 2.5,
+        "eps_growth_ttm_yoy": -2.94,
+        "gross_margin_ttm": 33.21,
         "net_margin_ttm": 8.41,
         "current_ratio": 1.0607,
         "debt_equity": 4.3528,
-        "beta": 0.98718053
+        "beta": 0.9475214
       }
     },
     "ABBV": {
@@ -14051,6 +14051,167 @@
         "current_ratio": 23.7924,
         "debt_equity": 1.0153,
         "beta": 0.94902354
+      }
+    },
+    "AM": {
+      "cached_at": "2026-09-05T23:02:05.751616+00:00",
+      "data": {
+        "name": "Antero Midstream Corp",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2017-05-04",
+        "weburl": "https://www.anteromidstream.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AM.png",
+        "market_cap": 10727632216.865538,
+        "pe_ttm": 26.7387,
+        "ps_ttm": 8.6657,
+        "pb_annual": 4.2965,
+        "revenue_growth_ttm_yoy": 6.87,
+        "eps_growth_ttm_yoy": -11.4,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 32.41,
+        "current_ratio": 3.4074,
+        "debt_equity": 1.6341,
+        "beta": 0.70585525
+      }
+    },
+    "TMDX": {
+      "cached_at": "2026-09-05T23:02:05.751616+00:00",
+      "data": {
+        "name": "Transmedics Group Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2019-05-02",
+        "weburl": "https://www.transmedics.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950684842436.png",
+        "market_cap": 3120069595.617614,
+        "pe_ttm": 19.9503,
+        "ps_ttm": 4.5274,
+        "pb_annual": 8.7874,
+        "revenue_growth_ttm_yoy": 25.82,
+        "eps_growth_ttm_yoy": 105.49,
+        "gross_margin_ttm": 58.69,
+        "net_margin_ttm": 22.69,
+        "current_ratio": 7.1416,
+        "debt_equity": 1.0831,
+        "beta": 2.1459727
+      }
+    },
+    "FLEX": {
+      "cached_at": "2026-09-05T23:02:05.751616+00:00",
+      "data": {
+        "name": "Flex Ltd",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1994-03-22",
+        "weburl": "https://flex.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FLEX.png",
+        "market_cap": 40453317275.26583,
+        "pe_ttm": 40.8147,
+        "ps_ttm": 1.3569,
+        "pb_annual": 4.6788,
+        "revenue_growth_ttm_yoy": 12.25,
+        "eps_growth_ttm_yoy": 13.65,
+        "gross_margin_ttm": 9.53,
+        "net_margin_ttm": 3.32,
+        "current_ratio": 1.3592,
+        "debt_equity": 0.7292,
+        "beta": 1.7792453
+      }
+    },
+    "AMBA": {
+      "cached_at": "2026-09-05T23:02:05.751616+00:00",
+      "data": {
+        "name": "Ambarella Inc",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2012-10-10",
+        "weburl": "https://www.ambarella.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMBA.png",
+        "market_cap": 2758870083.901231,
+        "pe_ttm": null,
+        "ps_ttm": 7.269,
+        "pb_annual": 4.5512,
+        "revenue_growth_ttm_yoy": 28.12,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 58.82,
+        "net_margin_ttm": -17.18,
+        "current_ratio": 2.3056,
+        "debt_equity": 0,
+        "beta": 2.3866572
+      }
+    },
+    "MANE": {
+      "cached_at": "2026-09-05T23:02:05.751616+00:00",
+      "data": {
+        "name": "Veradermics Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2026-02-04",
+        "weburl": "https://www.veradermics.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950778985426.png",
+        "market_cap": 4115761208.445524,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 16.6624,
+        "debt_equity": 0,
+        "beta": -0.14473888
+      }
+    },
+    "GLOB": {
+      "cached_at": "2026-09-05T23:02:05.751616+00:00",
+      "data": {
+        "name": "Globant SA",
+        "industry": "Technology",
+        "country": "LU",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-07-18",
+        "weburl": "https://www.globant.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GLOB.png",
+        "market_cap": 1689615883.142751,
+        "pe_ttm": 14.8029,
+        "ps_ttm": 0.6849,
+        "pb_annual": 1.3753,
+        "revenue_growth_ttm_yoy": -1.26,
+        "eps_growth_ttm_yoy": 5.43,
+        "gross_margin_ttm": 34.52,
+        "net_margin_ttm": 4.63,
+        "current_ratio": 1.6436,
+        "debt_equity": 0.2262,
+        "beta": 0.9284543
+      }
+    },
+    "SUNB": {
+      "cached_at": "2026-09-05T23:02:05.751616+00:00",
+      "data": {
+        "name": "Sunbelt Rentals Holdings Inc",
+        "industry": "Trading Companies & Distributors",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2026-03-02",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/960000243546.png",
+        "market_cap": 28118302970.56206,
+        "pe_ttm": 20.5472,
+        "ps_ttm": 1.9386,
+        "pb_annual": 4.2384,
+        "revenue_growth_ttm_yoy": 4.88,
+        "eps_growth_ttm_yoy": -4.91,
+        "gross_margin_ttm": 43.95,
+        "net_margin_ttm": 9.43,
+        "current_ratio": 0.9015,
+        "debt_equity": 1.0466,
+        "beta": 1.5185709
       }
     }
   }
