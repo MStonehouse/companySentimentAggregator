@@ -1450,7 +1450,7 @@
       }
     },
     "SFM": {
-      "cached_at": "2026-08-19T00:27:25.850285+00:00",
+      "cached_at": "2026-09-06T22:56:02.469952+00:00",
       "data": {
         "name": "Sprouts Farmers Market Inc",
         "industry": "Retail",
@@ -1459,9 +1459,9 @@
         "ipo_date": "2013-08-01",
         "weburl": "https://www.sprouts.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SFM.png",
-        "market_cap": 7351642794.126551,
-        "pe_ttm": 15.3317,
-        "ps_ttm": 0.8562,
+        "market_cap": 7590356595.533933,
+        "pe_ttm": 15.0944,
+        "ps_ttm": 0.843,
         "pb_annual": 5.599,
         "revenue_growth_ttm_yoy": 7.2,
         "eps_growth_ttm_yoy": 7.54,
@@ -1469,7 +1469,7 @@
         "net_margin_ttm": 5.58,
         "current_ratio": 0.9301,
         "debt_equity": 0.0596,
-        "beta": 0.63571334
+        "beta": 0.7038629
       }
     },
     "CHTR": {
@@ -6694,7 +6694,7 @@
       }
     },
     "NFG": {
-      "cached_at": "2026-08-24T02:40:06.840928+00:00",
+      "cached_at": "2026-09-06T22:56:02.469952+00:00",
       "data": {
         "name": "National Fuel Gas Co",
         "industry": "Utilities",
@@ -6703,9 +6703,9 @@
         "ipo_date": "1955-07-25",
         "weburl": "https://www.nationalfuel.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NFG.png",
-        "market_cap": 7839320486.694306,
-        "pe_ttm": 11.518,
-        "ps_ttm": 1.7984,
+        "market_cap": 7919158031.245779,
+        "pe_ttm": 11.7273,
+        "ps_ttm": 1.8311,
         "pb_annual": 2.6977,
         "revenue_growth_ttm_yoy": 98.09,
         "eps_growth_ttm_yoy": 169.02,
@@ -6713,7 +6713,7 @@
         "net_margin_ttm": 15.61,
         "current_ratio": 0.4437,
         "debt_equity": 0.9155,
-        "beta": 0.40401712
+        "beta": 0.3737581
       }
     },
     "ADTN": {
@@ -14718,6 +14718,29 @@
         "current_ratio": 1.5289,
         "debt_equity": 0.4212,
         "beta": 5.138011
+      }
+    },
+    "NEOG": {
+      "cached_at": "2026-09-06T22:56:02.469952+00:00",
+      "data": {
+        "name": "Neogen Corp",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1989-08-23",
+        "weburl": "https://www.neogen.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NEOG.png",
+        "market_cap": 2580194089.7628865,
+        "pe_ttm": null,
+        "ps_ttm": 2.9644,
+        "pb_annual": 0.9277,
+        "revenue_growth_ttm_yoy": -2.71,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 46.93,
+        "net_margin_ttm": -0.91,
+        "current_ratio": 3.8217,
+        "debt_equity": 0.3792,
+        "beta": 1.893947
       }
     }
   }
