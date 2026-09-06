@@ -6423,6 +6423,75 @@
         ],
         "source": "Alpha Vantage Company Overview"
       }
+    },
+    "IBM": {
+      "updated_at": "2026-09-06",
+      "data": {
+        "name": "International Business Machines Corp",
+        "description": "For more than a century, IBM has been a global technology innovator, leading advances in AI, automation and hybrid cloud solutions that help businesses grow.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.ibm.com/",
+        "products_markets": [
+          "Industrial automation"
+        ],
+        "source": "Company website"
+      }
+    },
+    "DAR": {
+      "updated_at": "2026-09-06",
+      "data": {
+        "name": "Darling Ingredients Inc",
+        "description": "Discover how we help move the world toward a more circular economy. Restoring purpose to millions of tons of material. Nourishing the world and driving decarbonization.",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.darlingii.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CAKE": {
+      "updated_at": "2026-09-06",
+      "data": {
+        "name": "Cheesecake Factory Inc",
+        "description": "Over 250 menu items, freshly prepared and from scratch, to order, every day. Over 30 legendary cheesecakes and desserts. There's something for everyone! Order online today!",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.thecheesecakefactory.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ACA": {
+      "updated_at": "2026-09-06",
+      "data": {
+        "name": "Arcosa Inc",
+        "description": "Arcosa, Inc., headquartered in Dallas, Texas, is a growth-oriented manufacturer of infrastructure-related products and services with leading positions in construction, energy, and transportation markets.",
+        "industry": "Construction",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.arcosa.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "BBW": {
+      "updated_at": "2026-09-06",
+      "data": {
+        "name": "Build-A-Bear Workshop Inc",
+        "description": "Let",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.buildabear.com",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
