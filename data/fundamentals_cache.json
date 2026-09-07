@@ -829,7 +829,7 @@
       }
     },
     "TRGP": {
-      "cached_at": "2026-08-18T23:30:09.077138+00:00",
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
       "data": {
         "name": "Targa Resources Corp",
         "industry": "Energy",
@@ -838,9 +838,9 @@
         "ipo_date": "2010-12-07",
         "weburl": "https://www.targaresources.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TRGP.png",
-        "market_cap": 59598958159.56423,
-        "pe_ttm": 25.237,
-        "ps_ttm": 3.4183,
+        "market_cap": 62195717715.810455,
+        "pe_ttm": 27.428,
+        "ps_ttm": 3.7151,
         "pb_annual": 12.9093,
         "revenue_growth_ttm_yoy": -1.97,
         "eps_growth_ttm_yoy": 40.38,
@@ -848,7 +848,7 @@
         "net_margin_ttm": 13.54,
         "current_ratio": 0.6661,
         "debt_equity": 5.6822,
-        "beta": 0.78143126
+        "beta": 0.78127354
       }
     },
     "HD": {
@@ -5314,7 +5314,7 @@
       }
     },
     "STT": {
-      "cached_at": "2026-08-22T13:48:57.946657+00:00",
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
       "data": {
         "name": "State Street Corp",
         "industry": "Financial Services",
@@ -5323,8 +5323,8 @@
         "ipo_date": "1980-03-17",
         "weburl": "https://www.statestreet.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/STT.png",
-        "market_cap": 51404940853.55115,
-        "pe_ttm": 15.0677,
+        "market_cap": 53363562958.653305,
+        "pe_ttm": 15.4408,
         "ps_ttm": 1.80473,
         "pb_annual": 1.2943,
         "revenue_growth_ttm_yoy": 181.1518,
@@ -5333,7 +5333,7 @@
         "net_margin_ttm": 20.50025,
         "current_ratio": null,
         "debt_equity": 1.0705,
-        "beta": 1.4165567
+        "beta": 1.3860229
       }
     },
     "FFIV": {
@@ -5636,7 +5636,7 @@
       }
     },
     "CASY": {
-      "cached_at": "2026-08-22T17:42:02.002348+00:00",
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
       "data": {
         "name": "Caseys General Stores Inc",
         "industry": "Retail",
@@ -5645,9 +5645,9 @@
         "ipo_date": "1983-10-21",
         "weburl": "https://www.caseys.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CASY.png",
-        "market_cap": 30926486448.714233,
-        "pe_ttm": 43.8026,
-        "ps_ttm": 1.782,
+        "market_cap": 27979044288.884987,
+        "pe_ttm": 39.1618,
+        "ps_ttm": 1.5932,
         "pb_annual": 7.6893,
         "revenue_growth_ttm_yoy": 10.16,
         "eps_growth_ttm_yoy": 30.89,
@@ -5655,7 +5655,7 @@
         "net_margin_ttm": 4.07,
         "current_ratio": 1.0099,
         "debt_equity": 0.6153,
-        "beta": 0.5684085
+        "beta": 0.57710344
       }
     },
     "BLDR": {
@@ -15109,6 +15109,305 @@
         "current_ratio": null,
         "debt_equity": null,
         "beta": null
+      }
+    },
+    "LPG": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Dorian LPG Ltd",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-05-08",
+        "weburl": "https://dorianlpg.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LPG.png",
+        "market_cap": 2361603950.838156,
+        "pe_ttm": 7.3372,
+        "ps_ttm": 4.0357,
+        "pb_annual": 1.2835,
+        "revenue_growth_ttm_yoy": 81.06,
+        "eps_growth_ttm_yoy": 557.35,
+        "gross_margin_ttm": 86.76,
+        "net_margin_ttm": 55,
+        "current_ratio": 2.6669,
+        "debt_equity": 0.492,
+        "beta": 0.8196518
+      }
+    },
+    "WYNN": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Wynn Resorts Ltd",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2002-10-25",
+        "weburl": "https://www.wynnresorts.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WYNN.png",
+        "market_cap": 10451320000.0,
+        "pe_ttm": 21.165,
+        "ps_ttm": 1.2815,
+        "pb_annual": 8.5532,
+        "revenue_growth_ttm_yoy": 6.36,
+        "eps_growth_ttm_yoy": 21,
+        "gross_margin_ttm": 40.7,
+        "net_margin_ttm": 6.06,
+        "current_ratio": 1.6331,
+        "debt_equity": 5.9793,
+        "beta": 0.941629
+      }
+    },
+    "LE": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Lands' End Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1986-10-03",
+        "weburl": "https://www.landsend.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LE.png",
+        "market_cap": 336305082.00739366,
+        "pe_ttm": 0.9763,
+        "ps_ttm": 0.2562,
+        "pb_annual": 2.221,
+        "revenue_growth_ttm_yoy": -1.93,
+        "eps_growth_ttm_yoy": 9701.43,
+        "gross_margin_ttm": 47.91,
+        "net_margin_ttm": 26.24,
+        "current_ratio": 1.6121,
+        "debt_equity": 0.9301,
+        "beta": 2.2791333
+      }
+    },
+    "XEL": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Xcel Energy Inc",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1949-02-28",
+        "weburl": "https://mn.my.xcelenergy.com/s/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/XEL.png",
+        "market_cap": 48836610000.0,
+        "pe_ttm": 21.1811,
+        "ps_ttm": 3.2487,
+        "pb_annual": 1.8596,
+        "revenue_growth_ttm_yoy": 4.73,
+        "eps_growth_ttm_yoy": 1.34,
+        "gross_margin_ttm": 40.43668,
+        "net_margin_ttm": 15.34,
+        "current_ratio": 0.7073,
+        "debt_equity": 1.4903,
+        "beta": 0.36895218
+      }
+    },
+    "FCN": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "FTI Consulting Inc",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1996-05-09",
+        "weburl": "https://www.fticonsulting.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FCN.png",
+        "market_cap": 4188675818.690662,
+        "pe_ttm": 16.5698,
+        "ps_ttm": 1.0675,
+        "pb_annual": 3.0423,
+        "revenue_growth_ttm_yoy": 7.12,
+        "eps_growth_ttm_yoy": 16.28,
+        "gross_margin_ttm": 31.82,
+        "net_margin_ttm": 6.44,
+        "current_ratio": 1.5562,
+        "debt_equity": 0.2105,
+        "beta": -0.11004791
+      }
+    },
+    "YPF": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "YPF SA",
+        "industry": "Energy",
+        "country": "AR",
+        "exchange": "BOLSA DE COMERCIO DE BUENOS AIRES",
+        "ipo_date": "1999-04-14",
+        "weburl": "https://www.ypf.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/YPFD3.BA.png",
+        "market_cap": 31981949440000.0,
+        "pe_ttm": null,
+        "ps_ttm": 1.7291,
+        "pb_annual": 1.4153,
+        "revenue_growth_ttm_yoy": 2.63,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 27.47,
+        "net_margin_ttm": -5.81,
+        "current_ratio": 0.8703,
+        "debt_equity": 1.0313,
+        "beta": null
+      }
+    },
+    "UBS": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "UBS Group AG",
+        "industry": "Financial Services",
+        "country": "CH",
+        "exchange": "SWISS EXCHANGE",
+        "ipo_date": "2014-11-28",
+        "weburl": "https://www.ubs.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/UBSG.SW.png",
+        "market_cap": 134954520570.0,
+        "pe_ttm": 18.279,
+        "ps_ttm": 2.26569,
+        "pb_annual": 1.5803,
+        "revenue_growth_ttm_yoy": 155.0845,
+        "eps_growth_ttm_yoy": 85.75,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 77.37195,
+        "current_ratio": null,
+        "debt_equity": 4.0679,
+        "beta": 0.61654776
+      }
+    },
+    "SRE": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Sempra",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1998-06-29",
+        "weburl": "https://www.sempra.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SRE.png",
+        "market_cap": 54953788630.21687,
+        "pe_ttm": 24.092,
+        "ps_ttm": 4.6889,
+        "pb_annual": 1.8228,
+        "revenue_growth_ttm_yoy": 1.42,
+        "eps_growth_ttm_yoy": -17.11,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 19.46,
+        "current_ratio": 1.5912,
+        "debt_equity": 1.1078,
+        "beta": 0.57409817
+      }
+    },
+    "WFRD": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Weatherford International PLC",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2019-12-19",
+        "weburl": "https://www.weatherford.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WFRD.png",
+        "market_cap": 6072470000.0,
+        "pe_ttm": 18.7792,
+        "ps_ttm": 1.4385,
+        "pb_annual": 3.3041,
+        "revenue_growth_ttm_yoy": -7.17,
+        "eps_growth_ttm_yoy": -22.09,
+        "gross_margin_ttm": 30.51,
+        "net_margin_ttm": 7.66,
+        "current_ratio": 2.1939,
+        "debt_equity": 0.874,
+        "beta": 0.85193866
+      }
+    },
+    "PNFP": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Pinnacle Financial Partners Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2000-08-18",
+        "weburl": "https://www.pnfp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PNFP.png",
+        "market_cap": 15263888217.990528,
+        "pe_ttm": 18.5937,
+        "ps_ttm": 3.21891,
+        "pb_annual": 1.0508,
+        "revenue_growth_ttm_yoy": 82.7277,
+        "eps_growth_ttm_yoy": -2.14,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 35.57242,
+        "current_ratio": null,
+        "debt_equity": 0.1065,
+        "beta": 1.0560256
+      }
+    },
+    "KMT": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Kennametal Inc",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1981-05-22",
+        "weburl": "https://www.kennametal.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/KMT.png",
+        "market_cap": 2364314179.9999995,
+        "pe_ttm": 6.9053,
+        "ps_ttm": 1.0032,
+        "pb_annual": 1.7015,
+        "revenue_growth_ttm_yoy": 19.82,
+        "eps_growth_ttm_yoy": 268.24,
+        "gross_margin_ttm": 41.26,
+        "net_margin_ttm": 14.53,
+        "current_ratio": 2.6182,
+        "debt_equity": 0.457,
+        "beta": 1.3030906
+      }
+    },
+    "WIT": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Wipro Ltd",
+        "industry": "Technology",
+        "country": "IN",
+        "exchange": "NATIONAL STOCK EXCHANGE OF INDIA",
+        "ipo_date": "2000-10-19",
+        "weburl": "https://www.wipro.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WIPRO.NS.png",
+        "market_cap": 1843868150000.0,
+        "pe_ttm": 13.2717,
+        "ps_ttm": 1.8473,
+        "pb_annual": 2.2622,
+        "revenue_growth_ttm_yoy": 6.4,
+        "eps_growth_ttm_yoy": -1.8,
+        "gross_margin_ttm": 29.05,
+        "net_margin_ttm": 13.92,
+        "current_ratio": 2.0493,
+        "debt_equity": 0.2292,
+        "beta": 0.82423043
+      }
+    },
+    "MKTX": {
+      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "data": {
+        "name": "Marketaxess Holdings Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2004-11-05",
+        "weburl": "https://www.marketaxess.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MKTX.png",
+        "market_cap": 5749814266.575119,
+        "pe_ttm": 18.7657,
+        "ps_ttm": 6.6088,
+        "pb_annual": 5.8807,
+        "revenue_growth_ttm_yoy": 3.93,
+        "eps_growth_ttm_yoy": 42.77,
+        "gross_margin_ttm": 88.61,
+        "net_margin_ttm": 35.22,
+        "current_ratio": 2.1857,
+        "debt_equity": 0.192,
+        "beta": 0.8305999
       }
     }
   }

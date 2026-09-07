@@ -6736,6 +6736,117 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "LPG": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "Dorian LPG Ltd",
+        "description": "Dorian LPG Ltd., is dedicated to the transportation of liquefied petroleum gas (LPG) through its LPG tanker trucks worldwide. The company is headquartered in Stamford, Connecticut.",
+        "industry": "OIL & GAS MIDSTREAM",
+        "sector": "ENERGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "WYNN": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "Wynn Resorts Ltd",
+        "description": "Learn more about Wynn Resorts. Explore the latest financial reports, and stay informed with recent press releases and corporate news—all in one place.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.wynnresorts.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "LE": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "Lands' End Inc",
+        "description": "Lands",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.landsend.com",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "XEL": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "Xcel Energy Inc",
+        "description": "Xcel Energy Inc is a publicly traded company operating in the Utilities industry with company information identifying US as its home market.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://mn.my.xcelenergy.com/s/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "FCN": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "FTI Consulting Inc",
+        "description": "FTI Consulting, a trusted business consulting firm providing expert advisory services to optimize performance and navigate complex challenges.",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.fticonsulting.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "YPF": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "YPF SA",
+        "description": "YPF, líder en energía de Argentina, ofrece soluciones innovadoras en combustibles, lubricantes, movilidad, electricidad y transición energética para un futuro sostenible.",
+        "industry": "Energy",
+        "country": "AR",
+        "exchange": "BOLSA DE COMERCIO DE BUENOS AIRES",
+        "website": "https://www.ypf.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "UBS": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "UBS Group AG",
+        "description": "UBS is a global firm providing financial services in over 50 countries. Visit our site to find out what we offer.",
+        "industry": "Financial Services",
+        "country": "CH",
+        "exchange": "SWISS EXCHANGE",
+        "website": "https://www.ubs.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SRE": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "Sempra",
+        "description": "Sempra is a publicly traded company operating in the Utilities industry with company information identifying US as its home market.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.sempra.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
     }
   }
 }
