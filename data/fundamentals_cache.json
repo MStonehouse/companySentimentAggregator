@@ -139,7 +139,7 @@
       }
     },
     "META": {
-      "cached_at": "2026-08-30T23:37:34.563542+00:00",
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
       "data": {
         "name": "Meta Platforms Inc",
         "industry": "Media",
@@ -148,9 +148,9 @@
         "ipo_date": "2012-05-18",
         "weburl": "https://www.meta.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FB.png",
-        "market_cap": 1467720121281.3308,
-        "pe_ttm": 22.2575,
-        "ps_ttm": 6.6406,
+        "market_cap": 1571225339403.8027,
+        "pe_ttm": 23.073,
+        "ps_ttm": 6.8839,
         "pb_annual": 7.6586,
         "revenue_growth_ttm_yoy": 27.65,
         "eps_growth_ttm_yoy": -3.69,
@@ -158,7 +158,7 @@
         "net_margin_ttm": 29.84,
         "current_ratio": 2.5988,
         "debt_equity": 0.2759,
-        "beta": 1.2203197
+        "beta": 1.2853496
       }
     },
     "GOOGL": {
@@ -3635,7 +3635,7 @@
       }
     },
     "COIN": {
-      "cached_at": "2026-08-20T21:49:35.382463+00:00",
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
       "data": {
         "name": "Coinbase Global Inc",
         "industry": "Financial Services",
@@ -3644,9 +3644,9 @@
         "ipo_date": "2021-04-15",
         "weburl": "https://www.coinbase.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/COIN.png",
-        "market_cap": 45284982680.00001,
-        "pe_ttm": 32.2174,
-        "ps_ttm": 6.4627,
+        "market_cap": 48714863680.00001,
+        "pe_ttm": 38.6526,
+        "ps_ttm": 7.7536,
         "pb_annual": 4.1222,
         "revenue_growth_ttm_yoy": -10.35,
         "eps_growth_ttm_yoy": null,
@@ -3654,7 +3654,7 @@
         "net_margin_ttm": -15.72,
         "current_ratio": 2.3432,
         "debt_equity": 0.5177,
-        "beta": 3.408361
+        "beta": 3.3441136
       }
     },
     "ROST": {
@@ -14810,6 +14810,305 @@
         "current_ratio": 1.0679,
         "debt_equity": 1.2488,
         "beta": 1.0651699
+      }
+    },
+    "TBN": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "Tamboran Resources Corp",
+        "industry": "Energy",
+        "country": "AU",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2021-07-02",
+        "weburl": "https://www.tamboran.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950869357046.png",
+        "market_cap": 1374388257.911908,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 1.2375,
+        "debt_equity": 0.0033,
+        "beta": -0.9772953
+      }
+    },
+    "DASH": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "DoorDash Inc",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2020-12-09",
+        "weburl": "https://www.doordash.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/DASH.png",
+        "market_cap": 91747673565.38643,
+        "pe_ttm": 109.0935,
+        "ps_ttm": 5.7736,
+        "pb_annual": 9.7291,
+        "revenue_growth_ttm_yoy": 33.59,
+        "eps_growth_ttm_yoy": 8.3,
+        "gross_margin_ttm": 51.41,
+        "net_margin_ttm": 5.29,
+        "current_ratio": 1.4061,
+        "debt_equity": 0.2715,
+        "beta": 1.9625183
+      }
+    },
+    "ESI": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "Element Solutions Inc",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2013-05-21",
+        "weburl": "https://elementsolutionsinc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ESI.png",
+        "market_cap": 8775309291.49943,
+        "pe_ttm": 49.1339,
+        "ps_ttm": 2.7856,
+        "pb_annual": 2.2612,
+        "revenue_growth_ttm_yoy": 26.61,
+        "eps_growth_ttm_yoy": -25.89,
+        "gross_margin_ttm": 38.42,
+        "net_margin_ttm": 5.67,
+        "current_ratio": 3.6811,
+        "debt_equity": 0.6079,
+        "beta": 1.3018854
+      }
+    },
+    "LGHL": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "Lion Group Holding Ltd",
+        "industry": "Financial Services",
+        "country": "SG",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2020-05-20",
+        "weburl": "https://www.liongrouphl.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950742122906.png",
+        "market_cap": 405697.0,
+        "pe_ttm": null,
+        "ps_ttm": 0.0432,
+        "pb_annual": 0.0229,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 97.81,
+        "net_margin_ttm": 21.26,
+        "current_ratio": 3.4453,
+        "debt_equity": 0.7076,
+        "beta": 2.6987925
+      }
+    },
+    "APLD": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "Applied Digital Corp",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2002-07-22",
+        "weburl": "https://appliedblockchaininc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959019826.png",
+        "market_cap": 7686040549.675415,
+        "pe_ttm": null,
+        "ps_ttm": 13.3394,
+        "pb_annual": 7.6955,
+        "revenue_growth_ttm_yoy": 364.92,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 22.38,
+        "net_margin_ttm": -42.33,
+        "current_ratio": 4.0098,
+        "debt_equity": 2.8278,
+        "beta": 5.592967
+      }
+    },
+    "AMCR": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "Amcor PLC",
+        "industry": "Packaging",
+        "country": "CH",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2019-06-11",
+        "weburl": "https://www.amcor.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMCR.png",
+        "market_cap": 20874906840.81717,
+        "pe_ttm": 18.8742,
+        "ps_ttm": 0.8881,
+        "pb_annual": 1.7,
+        "revenue_growth_ttm_yoy": 56.61,
+        "eps_growth_ttm_yoy": 188.41,
+        "gross_margin_ttm": 19.95,
+        "net_margin_ttm": 4.71,
+        "current_ratio": 1.2543,
+        "debt_equity": 1.1885,
+        "beta": 0.5710558
+      }
+    },
+    "AMACU": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "AMR Resources Acquisition Corp",
+        "industry": "N/A",
+        "country": "KY",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2026-07-17",
+        "weburl": "",
+        "logo": "",
+        "market_cap": 268410000.00000003,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.0636,
+        "debt_equity": 2.8996,
+        "beta": null
+      }
+    },
+    "SOUNW": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 7.5276337
+      }
+    },
+    "LPSN": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "LivePerson Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2000-04-07",
+        "weburl": "https://www.liveperson.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LPSN.png",
+        "market_cap": 38245618.0,
+        "pe_ttm": null,
+        "ps_ttm": 0.5465,
+        "pb_annual": 6.3649,
+        "revenue_growth_ttm_yoy": -16.88199,
+        "eps_growth_ttm_yoy": 54.01334,
+        "gross_margin_ttm": 64.48279,
+        "net_margin_ttm": -23.69135,
+        "current_ratio": 1.1187,
+        "debt_equity": 12.1958,
+        "beta": 1.5362064
+      }
+    },
+    "PGACU": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "Pantages Capital Acquisition Corp",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2024-12-05",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950898187516.png",
+        "market_cap": 31917469.999999996,
+        "pe_ttm": 15.6798,
+        "ps_ttm": null,
+        "pb_annual": 1.2877,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": 43.25,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.3475,
+        "debt_equity": 0.008,
+        "beta": 0.006809401
+      }
+    },
+    "AEXA": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "American Exceptionalism Acquisition Corp A",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2025-09-26",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950966808196.png",
+        "market_cap": 564346730.0,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 1.7152,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 7.2778,
+        "debt_equity": 0,
+        "beta": 0.34555894
+      }
+    },
+    "IACQU": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "Irenic Acquisition Corp",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2026-04-28",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/960000955536.png",
+        "market_cap": 259322937.48000002,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.9062,
+        "debt_equity": null,
+        "beta": 0.0034456952
+      }
+    },
+    "TLACU": {
+      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
       }
     }
   }
