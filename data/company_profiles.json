@@ -6594,6 +6594,38 @@
         ],
         "source": "Company website"
       }
+    },
+    "HSIC": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "Henry Schein Inc",
+        "description": "Henry Schein is a worldwide distributor of medical and dental supplies including vaccines, pharmaceuticals, financial services and equipment.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.henryschein.com/",
+        "products_markets": [
+          "Therapeutics",
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ABCB": {
+      "updated_at": "2026-09-07",
+      "data": {
+        "name": "Ameris Bancorp",
+        "description": "Ameris Bancorp is the banking holding company for Ameris Bank providing a range of banking services to retail and business clients primarily in Georgia, Alabama, Florida and South Carolina. The company is headquartered in Atlanta, Georgia.",
+        "industry": "BANKS - REGIONAL",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
     }
   }
 }

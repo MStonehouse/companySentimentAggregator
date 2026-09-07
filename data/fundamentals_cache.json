@@ -14742,6 +14742,75 @@
         "debt_equity": 0.3792,
         "beta": 1.893947
       }
+    },
+    "HSIC": {
+      "cached_at": "2026-09-07T06:14:30.904968+00:00",
+      "data": {
+        "name": "Henry Schein Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1995-11-03",
+        "weburl": "https://www.henryschein.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HSIC.png",
+        "market_cap": 10009013899.340525,
+        "pe_ttm": 24.8363,
+        "ps_ttm": 0.7358,
+        "pb_annual": 2.7732,
+        "revenue_growth_ttm_yoy": 6.49,
+        "eps_growth_ttm_yoy": 10.34,
+        "gross_margin_ttm": 31.32,
+        "net_margin_ttm": 2.96,
+        "current_ratio": 1.3829,
+        "debt_equity": 0.9575,
+        "beta": 0.8674042
+      }
+    },
+    "ABCB": {
+      "cached_at": "2026-09-07T06:14:30.904968+00:00",
+      "data": {
+        "name": "Ameris Bancorp",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1994-05-19",
+        "weburl": "https://www.amerisbank.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ABCB.png",
+        "market_cap": 5774578018.843061,
+        "pe_ttm": 15.3447,
+        "ps_ttm": 2.70304,
+        "pb_annual": 1.2448,
+        "revenue_growth_ttm_yoy": 52.9989,
+        "eps_growth_ttm_yoy": -2.55,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 26.23069,
+        "current_ratio": null,
+        "debt_equity": 0.0354,
+        "beta": 1.0122274
+      }
+    },
+    "UE": {
+      "cached_at": "2026-09-07T06:14:30.904968+00:00",
+      "data": {
+        "name": "Urban Edge Properties",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2015-01-05",
+        "weburl": "https://uedge.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950433180356.png",
+        "market_cap": 2643899350.143667,
+        "pe_ttm": 24.4846,
+        "ps_ttm": 5.4357,
+        "pb_annual": 1.8911,
+        "revenue_growth_ttm_yoy": 7.25,
+        "eps_growth_ttm_yoy": 33.36,
+        "gross_margin_ttm": 64.58,
+        "net_margin_ttm": 22.2,
+        "current_ratio": 1.0679,
+        "debt_equity": 1.2488,
+        "beta": 1.0651699
+      }
     }
   }
 }
