@@ -6919,6 +6919,110 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "QCOM": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "Qualcomm Inc",
+        "description": "Learn how Qualcomm transforms industries with leading edge AI, high-performance, low-power computing and unrivaled connectivity.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.qualcomm.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      }
+    },
+    "VZ": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "Verizon Communications Inc",
+        "description": "Shop Verizon smartphone deals and wireless plans on the largest 4G LTE network. First to 5G. Get Fios for the fastest internet, TV and phone service.",
+        "industry": "Telecommunication",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.verizon.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ROIV": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "Roivant Sciences Ltd",
+        "description": "Roivant aims to improve health by rapidly delivering innovative medicines and technologies to patients. We do this by building Vants – nimble, entrepreneurial biotech and healthcare technology companies with a unique approach to sourcing talent, aligning incentives, and deploying technology.",
+        "industry": "Biotechnology",
+        "country": "GB",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "http://roivant.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "A": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "Agilent Technologies Inc",
+        "description": "Agilent delivers complete scientific solutions, helping customers achieve superior outcomes in their labs, clinics, and businesses, and the world they seek to improve.",
+        "industry": "Life Sciences Tools & Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.agilent.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "SGML": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "Sigma Lithium Corp",
+        "description": "We aim to support a sustainable energy future by fueling growth in the electric vehicle industry as one of the world’s largest and lowest cost suppliers of environmentally sustainable lithium products.",
+        "industry": "Metals & Mining",
+        "country": "CA",
+        "exchange": "TSX VENTURE EXCHANGE - NEX",
+        "website": "https://www.sigmalithiumresources.com/",
+        "products_markets": [
+          "Automotive",
+          "Energy",
+          "Mining",
+          "Critical minerals"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SNY": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "Sanofi SA",
+        "description": "Sanofi is a research & development-driven, AI-powered healthcare biopharma company committed to improving lives through innovative medicines & vaccines.",
+        "industry": "Pharmaceuticals",
+        "country": "FR",
+        "exchange": "NYSE EURONEXT - EURONEXT PARIS",
+        "website": "https://www.sanofi.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "GE": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "General Electric Co",
+        "description": "The future of GE's companies begins now with the planned spinoff of GE Aerospace and GE Vernova. See how the GE companies are empowering the next generation.",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.ge.com/",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
