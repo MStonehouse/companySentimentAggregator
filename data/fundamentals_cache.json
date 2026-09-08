@@ -1013,7 +1013,7 @@
       }
     },
     "C": {
-      "cached_at": "2026-09-01T00:40:55.257593+00:00",
+      "cached_at": "2026-09-08T06:03:36.072109+00:00",
       "data": {
         "name": "Citigroup Inc",
         "industry": "Banking",
@@ -1022,8 +1022,8 @@
         "ipo_date": "1986-10-30",
         "weburl": "http://www.citigroup.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/C.png",
-        "market_cap": 220784217209.1065,
-        "pe_ttm": 13.0451,
+        "market_cap": 231016593679.00003,
+        "pe_ttm": 12.9501,
         "ps_ttm": 1.09533,
         "pb_annual": 0.9835,
         "revenue_growth_ttm_yoy": 99.23775,
@@ -1032,7 +1032,7 @@
         "net_margin_ttm": 17.3666,
         "current_ratio": null,
         "debt_equity": 3.3294,
-        "beta": 1.1145719
+        "beta": 1.1609423
       }
     },
     "LZB": {
@@ -4716,7 +4716,7 @@
       }
     },
     "GTY": {
-      "cached_at": "2026-08-21T17:52:20.864320+00:00",
+      "cached_at": "2026-09-08T06:03:36.072109+00:00",
       "data": {
         "name": "Getty Realty Corp",
         "industry": "Real Estate",
@@ -4725,9 +4725,9 @@
         "ipo_date": "1980-03-17",
         "weburl": "https://gettyrealty.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959040726.png",
-        "market_cap": 2066694245.3892412,
-        "pe_ttm": 20.7083,
-        "ps_ttm": 8.8513,
+        "market_cap": 2014670692.0,
+        "pe_ttm": 20.2264,
+        "ps_ttm": 8.6454,
         "pb_annual": 1.472,
         "revenue_growth_ttm_yoy": 10.93,
         "eps_growth_ttm_yoy": 40.9,
@@ -4735,7 +4735,7 @@
         "net_margin_ttm": 42.74,
         "current_ratio": 0.9558,
         "debt_equity": 0.9313,
-        "beta": 0.75344586
+        "beta": 0.7220064
       }
     },
     "FCX": {
@@ -15408,6 +15408,144 @@
         "current_ratio": 2.1857,
         "debt_equity": 0.192,
         "beta": 0.8305999
+      }
+    },
+    "NVS": {
+      "cached_at": "2026-09-08T06:03:36.072109+00:00",
+      "data": {
+        "name": "Novartis AG",
+        "industry": "Pharmaceuticals",
+        "country": "CH",
+        "exchange": "SWISS EXCHANGE",
+        "ipo_date": "2001-05-07",
+        "weburl": "https://www.novartis.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NOVN.SW.png",
+        "market_cap": 237202583772.0,
+        "pe_ttm": 23.2666,
+        "ps_ttm": 5.2371,
+        "pb_annual": 5.5832,
+        "revenue_growth_ttm_yoy": 3.34,
+        "eps_growth_ttm_yoy": -3.49,
+        "gross_margin_ttm": 74.96,
+        "net_margin_ttm": 22.51,
+        "current_ratio": 1.1167,
+        "debt_equity": 0.7669,
+        "beta": 1.1636462
+      }
+    },
+    "TTE": {
+      "cached_at": "2026-09-08T06:03:36.072109+00:00",
+      "data": {
+        "name": "TotalEnergies SE",
+        "industry": "Energy",
+        "country": "FR",
+        "exchange": "NYSE EURONEXT - EURONEXT PARIS",
+        "ipo_date": "1973-09-26",
+        "weburl": "https://totalenergies.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TTE.PA.png",
+        "market_cap": 169869483923.0,
+        "pe_ttm": 11.3386,
+        "ps_ttm": 1.0299,
+        "pb_annual": 1.2298,
+        "revenue_growth_ttm_yoy": 4.95,
+        "eps_growth_ttm_yoy": 44.46,
+        "gross_margin_ttm": 37.68,
+        "net_margin_ttm": 9.08,
+        "current_ratio": 0.9666,
+        "debt_equity": 0.5229,
+        "beta": -0.35599965
+      }
+    },
+    "NVO": {
+      "cached_at": "2026-09-08T06:03:36.072109+00:00",
+      "data": {
+        "name": "Novo Nordisk A/S",
+        "industry": "Pharmaceuticals",
+        "country": "DK",
+        "exchange": "OMX NORDIC EXCHANGE COPENHAGEN A/S",
+        "ipo_date": "1974-05-17",
+        "weburl": "https://www.novonordisk.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NOVO B.CO.png",
+        "market_cap": 1324979138012.0,
+        "pe_ttm": 11.4797,
+        "ps_ttm": 4.0577,
+        "pb_annual": 7.4407,
+        "revenue_growth_ttm_yoy": 5.61,
+        "eps_growth_ttm_yoy": 4.93,
+        "gross_margin_ttm": 80.65,
+        "net_margin_ttm": 35.35,
+        "current_ratio": 0.7996,
+        "debt_equity": 0.6749,
+        "beta": 1.9325874
+      }
+    },
+    "EWAV": {
+      "cached_at": "2026-09-08T06:03:36.072109+00:00",
+      "data": {
+        "name": "",
+        "industry": "N/A",
+        "country": "",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2026-07-30",
+        "weburl": "https://spac.eastwestave.com",
+        "logo": "",
+        "market_cap": 130770525.00000001,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.803,
+        "debt_equity": 13.8601,
+        "beta": 0.056648158
+      }
+    },
+    "AV": {
+      "cached_at": "2026-09-08T06:03:36.072109+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
+      }
+    },
+    "CRDD": {
+      "cached_at": "2026-09-08T06:03:36.072109+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
       }
     }
   }

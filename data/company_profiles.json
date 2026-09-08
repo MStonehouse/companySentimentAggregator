@@ -6847,6 +6847,78 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "NVS": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "Novartis AG",
+        "description": "For more than 250 years–and 30 years as Novartis–we’ve pursued scientific breakthroughs for one purpose: people. Today, we take on the toughest challenges in healthcare and turn innovations into medicines that redefine the future for patients.",
+        "industry": "Pharmaceuticals",
+        "country": "CH",
+        "exchange": "SWISS EXCHANGE",
+        "website": "https://www.novartis.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "TTE": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "TotalEnergies SE",
+        "description": "TotalEnergies is a global integrated energy company that produces and markets energies: oil and biofuels, natural gas and green gases, renewables and electricity.",
+        "industry": "Energy",
+        "country": "FR",
+        "exchange": "NYSE EURONEXT - EURONEXT PARIS",
+        "website": "https://totalenergies.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "NVO": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "Novo Nordisk A/S",
+        "description": "Novo Nordisk is a leading global healthcare company, founded in 1923 and headquartered in Denmark. Our purpose is to drive change to defeat diabetes and other serious chronic diseases.",
+        "industry": "Pharmaceuticals",
+        "country": "DK",
+        "exchange": "OMX NORDIC EXCHANGE COPENHAGEN A/S",
+        "website": "https://www.novonordisk.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "EWAV": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "East West Ave Acquisition Corp. Common Stock",
+        "description": "None",
+        "industry": "SHELL COMPANIES",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "US",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "AV": {
+      "updated_at": "2026-09-08",
+      "data": {
+        "name": "AV",
+        "description": "AV is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
     }
   }
 }
