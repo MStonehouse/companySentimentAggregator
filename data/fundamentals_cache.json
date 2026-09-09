@@ -3037,7 +3037,7 @@
       }
     },
     "JOBY": {
-      "cached_at": "2026-08-20T02:32:40.785265+00:00",
+      "cached_at": "2026-09-09T23:22:14.760052+00:00",
       "data": {
         "name": "Joby Aviation Inc",
         "industry": "Airlines",
@@ -3046,9 +3046,9 @@
         "ipo_date": "2020-09-17",
         "weburl": "https://www.jobyaviation.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950606774776.png",
-        "market_cap": 7636039440.59085,
+        "market_cap": 6765609760.397625,
         "pe_ttm": null,
-        "ps_ttm": 70.2538,
+        "ps_ttm": 57.3257,
         "pb_annual": 8.5376,
         "revenue_growth_ttm_yoy": 69860.36,
         "eps_growth_ttm_yoy": null,
@@ -3056,11 +3056,11 @@
         "net_margin_ttm": -755.11,
         "current_ratio": 24.0855,
         "debt_equity": 0,
-        "beta": 2.6757486
+        "beta": 2.8217692
       }
     },
     "WMT": {
-      "cached_at": "2026-09-01T23:25:18.773007+00:00",
+      "cached_at": "2026-09-09T23:22:14.760052+00:00",
       "data": {
         "name": "Walmart Inc",
         "industry": "Retail",
@@ -3070,16 +3070,16 @@
         "weburl": "https://corporate.walmart.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WMT.png",
         "market_cap": 884142590000.0,
-        "pe_ttm": 40.6059,
-        "ps_ttm": 1.2729,
+        "pe_ttm": 38.6224,
+        "ps_ttm": 1.1587,
         "pb_annual": 9.9258,
-        "revenue_growth_ttm_yoy": 5.87,
-        "eps_growth_ttm_yoy": 21.78,
-        "gross_margin_ttm": 24.98,
-        "net_margin_ttm": 3.13,
+        "revenue_growth_ttm_yoy": 6.16,
+        "eps_growth_ttm_yoy": 4.13,
+        "gross_margin_ttm": 25.23,
+        "net_margin_ttm": 3,
         "current_ratio": 0.7898,
         "debt_equity": 0.5172,
-        "beta": 0.57617146
+        "beta": 0.5638519
       }
     },
     "SYY": {
@@ -4693,7 +4693,7 @@
       }
     },
     "TXN": {
-      "cached_at": "2026-08-21T17:52:20.864320+00:00",
+      "cached_at": "2026-09-09T23:22:14.760052+00:00",
       "data": {
         "name": "Texas Instruments Inc",
         "industry": "Semiconductors",
@@ -4702,9 +4702,9 @@
         "ipo_date": "1953-10-01",
         "weburl": "https://www.ti.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TXN.png",
-        "market_cap": 242558595055.65604,
-        "pe_ttm": 41.6877,
-        "ps_ttm": 12.9694,
+        "market_cap": 236458091710.859,
+        "pe_ttm": 38.9986,
+        "ps_ttm": 12.1328,
         "pb_annual": 9.687,
         "revenue_growth_ttm_yoy": 16.66,
         "eps_growth_ttm_yoy": 20.26,
@@ -4712,7 +4712,7 @@
         "net_margin_ttm": 31.11,
         "current_ratio": 4.3526,
         "debt_equity": 0.8633,
-        "beta": 1.3697829
+        "beta": 1.4228363
       }
     },
     "GTY": {
@@ -9132,7 +9132,7 @@
       }
     },
     "TH": {
-      "cached_at": "2026-08-26T19:22:11.764643+00:00",
+      "cached_at": "2026-09-09T23:22:14.760052+00:00",
       "data": {
         "name": "Target Hospitality Corp",
         "industry": "Hotels, Restaurants & Leisure",
@@ -9141,17 +9141,17 @@
         "ipo_date": "2018-03-05",
         "weburl": "https://www.targethospitality.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950683414936.png",
-        "market_cap": 1732451225.0000002,
+        "market_cap": 2017374316.8288934,
         "pe_ttm": null,
-        "ps_ttm": 5.0594,
+        "ps_ttm": 5.5982,
         "pb_annual": 2.0532,
-        "revenue_growth_ttm_yoy": -7.43,
+        "revenue_growth_ttm_yoy": 11.92,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 9.76,
-        "net_margin_ttm": -13.47,
+        "gross_margin_ttm": 13.73,
+        "net_margin_ttm": -10.85,
         "current_ratio": 0.8726,
         "debt_equity": 0.0097,
-        "beta": 1.4973829
+        "beta": 1.5221704
       }
     },
     "WKSP": {
@@ -16351,6 +16351,121 @@
         "current_ratio": 3.4123,
         "debt_equity": 0.0004,
         "beta": 1.3283322
+      }
+    },
+    "COO": {
+      "cached_at": "2026-09-09T23:22:14.760052+00:00",
+      "data": {
+        "name": "Cooper Companies Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1983-01-21",
+        "weburl": "https://www.coopercos.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/COO.png",
+        "market_cap": 13201622270.161373,
+        "pe_ttm": 57.558,
+        "ps_ttm": 3.2077,
+        "pb_annual": 1.687,
+        "revenue_growth_ttm_yoy": 6.09,
+        "eps_growth_ttm_yoy": -42.61,
+        "gross_margin_ttm": 65.55,
+        "net_margin_ttm": 5.57,
+        "current_ratio": 1.8929,
+        "debt_equity": 0.3041,
+        "beta": 0.8150786
+      }
+    },
+    "FDX": {
+      "cached_at": "2026-09-09T23:22:14.760052+00:00",
+      "data": {
+        "name": "FedEx Corp",
+        "industry": "Logistics & Transportation",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1978-12-28",
+        "weburl": "https://www.fedex.com/en-us/home.html",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FDX.png",
+        "market_cap": 74345282996.3859,
+        "pe_ttm": 17.2188,
+        "ps_ttm": 0.8059,
+        "pb_annual": 2.5521,
+        "revenue_growth_ttm_yoy": 7.73,
+        "eps_growth_ttm_yoy": 9.81,
+        "gross_margin_ttm": 62.11,
+        "net_margin_ttm": 4.68,
+        "current_ratio": 1.4754,
+        "debt_equity": 0.8125,
+        "beta": 1.2949798
+      }
+    },
+    "INVH": {
+      "cached_at": "2026-09-09T23:22:14.760052+00:00",
+      "data": {
+        "name": "Invitation Homes Inc",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2017-02-01",
+        "weburl": "https://www.invitationhomes.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950527954066.png",
+        "market_cap": 16667387192.05988,
+        "pe_ttm": 25.3809,
+        "ps_ttm": 5.873,
+        "pb_annual": 1.7985,
+        "revenue_growth_ttm_yoy": 6.72,
+        "eps_growth_ttm_yoy": 23.1,
+        "gross_margin_ttm": 56.37,
+        "net_margin_ttm": 23.14,
+        "current_ratio": 0.4168,
+        "debt_equity": 0.8807,
+        "beta": 0.81551296
+      }
+    },
+    "CI": {
+      "cached_at": "2026-09-09T23:22:14.760052+00:00",
+      "data": {
+        "name": "Cigna Group",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1982-04-01",
+        "weburl": "https://www.thecignagroup.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CI.png",
+        "market_cap": 72885456772.3116,
+        "pe_ttm": 11.6355,
+        "ps_ttm": 0.2644,
+        "pb_annual": 1.7625,
+        "revenue_growth_ttm_yoy": 7.77,
+        "eps_growth_ttm_yoy": 31.74,
+        "gross_margin_ttm": 9.14,
+        "net_margin_ttm": 2.27,
+        "current_ratio": 0.8486,
+        "debt_equity": 0.7543,
+        "beta": 0.2710791
+      }
+    },
+    "OSTX": {
+      "cached_at": "2026-09-09T23:22:14.760052+00:00",
+      "data": {
+        "name": "OS Therapies Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2024-08-01",
+        "weburl": "https://ostherapies.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950653647366.png",
+        "market_cap": 85041547.45212767,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 112.0165,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.0283,
+        "debt_equity": 0,
+        "beta": 1.3228828
       }
     }
   }
