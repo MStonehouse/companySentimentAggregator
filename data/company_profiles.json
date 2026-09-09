@@ -7239,6 +7239,47 @@
         ],
         "source": "Company website"
       }
+    },
+    "SIG": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "Signet Jewelers Ltd",
+        "description": "Signet Jewelers operates 2,600 stores in the U.S., UK and Ireland, under the name brands of KAY Jewelers, Zales, Jared and more. Shop our brands today",
+        "industry": "Retail",
+        "country": "BM",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.signetjewelers.com/our-home/default.aspx",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "DOW": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "Dow Inc",
+        "description": "Welcome to Dow Investor Relations. Explore financial data and learn about the ways that total shareholder return remains a foundational commitment.",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://investors.dow.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "XYL": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "Xylem Inc",
+        "description": "Xylem is a leader in developing innovative water solutions through smart technology. Learn more about Xylem's water, wastewater and energy solutions.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.xylem.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
