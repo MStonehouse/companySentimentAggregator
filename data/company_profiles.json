@@ -7143,6 +7143,102 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "XOM": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "Exxon Mobil Corp",
+        "description": "Exxon Mobil Corporation, stylized as ExxonMobil, is an American multinational oil and gas corporation headquartered in Irving, Texas. It is the largest direct descendant of John D. Rockefeller's Standard Oil, and was formed on November 30, 1999 by the merger of Exxon (formerly the Standard Oil Company of New Jersey) and Mobil (formerly the Standard Oil Company of New York). ExxonMobil's primary brands are Exxon, Mobil, Esso, and ExxonMobil Chemical. ExxonMobil is incorporated in New Jersey.",
+        "industry": "OIL & GAS INTEGRATED",
+        "sector": "ENERGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "IRT": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "Independence Realty Trust, Inc",
+        "description": "Discover IRT Living and learn more about our markets, steps to find your new home, who we are, and our investors.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.irtliving.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CSR": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "Centerspace",
+        "description": "Centerspace is a publicly traded company operating in the Real Estate industry with company information identifying US as its home market.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.centerspacehomes.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "JILL": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "JJill Inc",
+        "description": "J.Jill is your destination for polished and comfortable styles in sizes XS–4X, Petite & Tall. Visit our 250+ stores to find your perfect fit or shop online.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.jjill.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "RVTY": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "Revvity Inc",
+        "description": "Revvity Inc is a publicly traded company operating in the Life Sciences Tools & Services industry with company information identifying US as its home market.",
+        "industry": "Life Sciences Tools & Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.revvity.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "KURA": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "Kura Oncology Inc",
+        "description": "Our mission is to realize the promise of precision medicines to help patients with cancer lead better, longer lives.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.kuraoncology.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "EVMN": {
+      "updated_at": "2026-09-09",
+      "data": {
+        "name": "Evommune Inc",
+        "description": "Evommune is a clinical stage biotechnology company discovering and developing novel therapies to treat immune-mediated chronic inflammatory diseases.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.evommune.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
