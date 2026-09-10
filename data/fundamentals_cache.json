@@ -1933,7 +1933,7 @@
       }
     },
     "MS": {
-      "cached_at": "2026-09-02T19:53:43.040381+00:00",
+      "cached_at": "2026-09-10T06:07:42.669047+00:00",
       "data": {
         "name": "Morgan Stanley",
         "industry": "Financial Services",
@@ -1942,9 +1942,9 @@
         "ipo_date": "1986-03-21",
         "weburl": "https://www.morganstanley.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MS.png",
-        "market_cap": 331452319993.1266,
-        "pe_ttm": 17.0888,
-        "ps_ttm": 2.6742,
+        "market_cap": 338221457889.5731,
+        "pe_ttm": 16.8141,
+        "ps_ttm": 2.6312,
         "pb_annual": 2.5275,
         "revenue_growth_ttm_yoy": 13.96,
         "eps_growth_ttm_yoy": 38.56,
@@ -1952,7 +1952,7 @@
         "net_margin_ttm": 15.65,
         "current_ratio": 0.2963,
         "debt_equity": 7.9002,
-        "beta": 1.2285866
+        "beta": 1.2266092
       }
     },
     "TJX": {
@@ -5728,7 +5728,7 @@
       }
     },
     "HMC": {
-      "cached_at": "2026-08-22T21:41:52.342266+00:00",
+      "cached_at": "2026-09-10T06:07:42.669047+00:00",
       "data": {
         "name": "Honda Motor Co Ltd",
         "industry": "Automobiles",
@@ -5737,17 +5737,17 @@
         "ipo_date": "1957-12-02",
         "weburl": "https://www.honda.co.jp",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/7267.T.png",
-        "market_cap": 6778878461060.0,
+        "market_cap": 6268954212769.0,
         "pe_ttm": null,
-        "ps_ttm": 0.2973,
+        "ps_ttm": 0.2784,
         "pb_annual": 0.4824,
-        "revenue_growth_ttm_yoy": 0.5,
+        "revenue_growth_ttm_yoy": 4.13,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 16.53,
-        "net_margin_ttm": -1.94,
+        "gross_margin_ttm": 17.23,
+        "net_margin_ttm": -0.75,
         "current_ratio": 1.2813,
         "debt_equity": 1.1407,
-        "beta": 0.93538177
+        "beta": 0.756578
       }
     },
     "UDR": {
@@ -7039,7 +7039,7 @@
       }
     },
     "FBIN": {
-      "cached_at": "2026-08-24T14:08:10.992482+00:00",
+      "cached_at": "2026-09-10T06:07:42.669047+00:00",
       "data": {
         "name": "Fortune Brands Innovations Inc",
         "industry": "Building",
@@ -7048,9 +7048,9 @@
         "ipo_date": "2011-09-16",
         "weburl": "https://www.fbin.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FBHS.png",
-        "market_cap": 5315611737.695199,
-        "pe_ttm": 38.9883,
-        "ps_ttm": 1.3209,
+        "market_cap": 4860806313.124437,
+        "pe_ttm": 32.787,
+        "ps_ttm": 1.1108,
         "pb_annual": 2.5636,
         "revenue_growth_ttm_yoy": -2.31,
         "eps_growth_ttm_yoy": -61.18,
@@ -7058,7 +7058,7 @@
         "net_margin_ttm": 3.39,
         "current_ratio": 1.8423,
         "debt_equity": 1.0654,
-        "beta": 1.2898548
+        "beta": 1.2581997
       }
     },
     "KRP": {
@@ -16466,6 +16466,144 @@
         "current_ratio": 0.0283,
         "debt_equity": 0,
         "beta": 1.3228828
+      }
+    },
+    "CNP": {
+      "cached_at": "2026-09-10T06:07:42.669047+00:00",
+      "data": {
+        "name": "CenterPoint Energy Inc",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1943-08-16",
+        "weburl": "https://www.centerpointenergy.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CNP.png",
+        "market_cap": 26197307101.221592,
+        "pe_ttm": 23.3766,
+        "ps_ttm": 3.4691,
+        "pb_annual": 2.2443,
+        "revenue_growth_ttm_yoy": 1.35,
+        "eps_growth_ttm_yoy": 18.28,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 5.74,
+        "current_ratio": 0.9107,
+        "debt_equity": 2.0604,
+        "beta": 0.43811208
+      }
+    },
+    "IQV": {
+      "cached_at": "2026-09-10T06:07:42.669047+00:00",
+      "data": {
+        "name": "IQVIA Holdings Inc",
+        "industry": "Life Sciences Tools & Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2013-05-09",
+        "weburl": "https://ir.iqvia.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IQV.png",
+        "market_cap": 42298908174.48587,
+        "pe_ttm": 30.612,
+        "ps_ttm": 2.4784,
+        "pb_annual": 5.903,
+        "revenue_growth_ttm_yoy": 8.17,
+        "eps_growth_ttm_yoy": 16.8,
+        "gross_margin_ttm": 32.97,
+        "net_margin_ttm": 8.1,
+        "current_ratio": 0.7495,
+        "debt_equity": 2.4515,
+        "beta": 1.1804656
+      }
+    },
+    "CMPS": {
+      "cached_at": "2026-09-10T06:07:42.669047+00:00",
+      "data": {
+        "name": "Compass Pathways PLC",
+        "industry": "Biotechnology",
+        "country": "GB",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2020-09-18",
+        "weburl": "https://compasspathways.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950763893156.png",
+        "market_cap": 1944214576.0,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 1.6719,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.7728,
+        "debt_equity": 0.195,
+        "beta": 2.4333367
+      }
+    },
+    "WLTH": {
+      "cached_at": "2026-09-10T06:07:42.669047+00:00",
+      "data": {
+        "name": "Wealthfront Corp",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2025-12-12",
+        "weburl": "https://www.wealthfront.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950006121646.png",
+        "market_cap": 1412960000.0,
+        "pe_ttm": null,
+        "ps_ttm": 3.8572,
+        "pb_annual": 2.154,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 89.41,
+        "net_margin_ttm": -14.87,
+        "current_ratio": 1.6093,
+        "debt_equity": 0,
+        "beta": 0.07192273
+      }
+    },
+    "BYND": {
+      "cached_at": "2026-09-10T06:07:42.669047+00:00",
+      "data": {
+        "name": "Beyond Meat Inc",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2019-05-02",
+        "weburl": "https://www.beyondmeat.com/en-GB",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BYND.png",
+        "market_cap": 187414229.53612843,
+        "pe_ttm": 0.6518,
+        "ps_ttm": 0.728,
+        "pb_annual": 31.1445,
+        "revenue_growth_ttm_yoy": -14.11,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 3.08,
+        "net_margin_ttm": 111.69,
+        "current_ratio": 4.5582,
+        "debt_equity": 8.5306,
+        "beta": 2.8960674
+      }
+    },
+    "EGO": {
+      "cached_at": "2026-09-10T06:07:42.669047+00:00",
+      "data": {
+        "name": "Eldorado Gold Corp",
+        "industry": "Metals & Mining",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "ipo_date": "1993-10-23",
+        "weburl": "https://www.eldoradogold.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ELD.TO.png",
+        "market_cap": 15812463971.0,
+        "pe_ttm": 18.9287,
+        "ps_ttm": 5.6461,
+        "pb_annual": 1.6819,
+        "revenue_growth_ttm_yoy": 29.05,
+        "eps_growth_ttm_yoy": 41.8,
+        "gross_margin_ttm": 51.73,
+        "net_margin_ttm": 29.83,
+        "current_ratio": 1.8348,
+        "debt_equity": 0.3014,
+        "beta": 3.0983536
       }
     }
   }

@@ -7364,6 +7364,80 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "CNP": {
+      "updated_at": "2026-09-10",
+      "data": {
+        "name": "CenterPoint Energy Inc",
+        "description": "CenterPoint Energy powers Houston with reliable electricity and natural gas. Pay your bill, report outages, start service and explore energy-saving programs.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.centerpointenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "IQV": {
+      "updated_at": "2026-09-10",
+      "data": {
+        "name": "IQVIA Holdings Inc",
+        "description": "IQVIA, formerly Quintiles and IMS Health, Inc., is an American multinational company serving the combined industries of health information technology and clinical research. It is a provider of biopharmaceutical development and commercial outsourcing services, focused primarily on Phase I-IV clinical trials and associated laboratory and analytical services, including consulting services.",
+        "industry": "DIAGNOSTICS & RESEARCH",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "CMPS": {
+      "updated_at": "2026-09-10",
+      "data": {
+        "name": "Compass Pathways PLC",
+        "description": "Every journey needs a Compass. Advancing new options for people living with difficult-to-treat mental health conditions through rigorous science and compassion.",
+        "industry": "Biotechnology",
+        "country": "GB",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://compasspathways.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "FBIN": {
+      "updated_at": "2026-09-10",
+      "data": {
+        "name": "Fortune Brands Innovations Inc",
+        "description": "Fortune Brands Innovations (NYSE: FBIN) is an industry-leading home, security and digital products company behind leading brands such as Moen, Therma-Tru, Master Lock, and Yale residential. We’re focused on exciting opportunities within the home, security and commercial building markets.",
+        "industry": "Building",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.fbin.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "WLTH": {
+      "updated_at": "2026-09-10",
+      "data": {
+        "name": "Wealthfront Corp",
+        "description": "Wealthfront makes building wealth easy. Earn 3.30% APY on your uninvested cash and invest in expert-built, automated portfolios of stocks, bonds, and ETFs.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.wealthfront.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
