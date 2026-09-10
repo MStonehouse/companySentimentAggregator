@@ -7438,6 +7438,50 @@
         ],
         "source": "Company website"
       }
+    },
+    "CADL": {
+      "updated_at": "2026-09-10",
+      "data": {
+        "name": "Candel Therapeutics Inc",
+        "description": "Clinical-stage biotech developing viral immunotherapy platforms for solid tumors. Phase 3 results in prostate cancer, active trials in lung and brain cancer.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.candeltx.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ELV": {
+      "updated_at": "2026-09-10",
+      "data": {
+        "name": "Elevance Health Inc",
+        "description": "Elevance Health, formerly Anthem, Inc., serves people across their entire health journey taking an integrated whole-health approach.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.elevancehealth.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CPS": {
+      "updated_at": "2026-09-10",
+      "data": {
+        "name": "Cooper Stnd",
+        "description": "Cooper-Standard Holdings Inc., through its subsidiary Cooper-Standard Automotive Inc., designs, manufactures and sells sealing, fuel supply and brake and fluid transfer systems worldwide. The company is headquartered in Northville, Michigan.",
+        "industry": "AUTO PARTS",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
     }
   }
 }
