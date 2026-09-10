@@ -10121,7 +10121,7 @@
       }
     },
     "VST": {
-      "cached_at": "2026-08-28T12:59:34.402602+00:00",
+      "cached_at": "2026-09-10T19:51:47.910581+00:00",
       "data": {
         "name": "Vistra Corp",
         "industry": "Utilities",
@@ -10131,16 +10131,16 @@
         "weburl": "https://www.vistracorp.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/VST.png",
         "market_cap": 49737783718.59386,
-        "pe_ttm": 22.0696,
-        "ps_ttm": 2.6972,
+        "pe_ttm": 22.8547,
+        "ps_ttm": 2.6713,
         "pb_annual": 10.7245,
-        "revenue_growth_ttm_yoy": 15.68,
-        "eps_growth_ttm_yoy": -5.4,
+        "revenue_growth_ttm_yoy": 18.61,
+        "eps_growth_ttm_yoy": -4.94,
         "gross_margin_ttm": 8.71458,
-        "net_margin_ttm": 12.22,
+        "net_margin_ttm": 11.69,
         "current_ratio": 0.777,
         "debt_equity": 4.1048,
-        "beta": 1.3879803
+        "beta": 1.3741783
       }
     },
     "CMS": {
@@ -16765,6 +16765,75 @@
         "current_ratio": 1.6624,
         "debt_equity": 0.636,
         "beta": 0.68827313
+      }
+    },
+    "AXGN": {
+      "cached_at": "2026-09-10T19:51:47.910581+00:00",
+      "data": {
+        "name": "AxoGen Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1986-12-17",
+        "weburl": "https://www.axogeninc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AXGN.png",
+        "market_cap": 2541306633.4844723,
+        "pe_ttm": null,
+        "ps_ttm": 9.9936,
+        "pb_annual": 11.7161,
+        "revenue_growth_ttm_yoy": 23.57,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 74.56,
+        "net_margin_ttm": -13.36,
+        "current_ratio": 5.1122,
+        "debt_equity": 0.3759,
+        "beta": 1.2349778
+      }
+    },
+    "HELP": {
+      "cached_at": "2026-09-10T19:51:47.910581+00:00",
+      "data": {
+        "name": "Cybin Inc",
+        "industry": "Pharmaceuticals",
+        "country": "CA",
+        "exchange": "AEQUITAS NEO EXCHANGE",
+        "ipo_date": "2018-01-05",
+        "weburl": "https://www.helus.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CYBN.NE.png",
+        "market_cap": 1917000.0,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 1.4969,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 9.5227,
+        "debt_equity": 0,
+        "beta": null
+      }
+    },
+    "DRH": {
+      "cached_at": "2026-09-10T19:51:47.910581+00:00",
+      "data": {
+        "name": "Diamondrock Hospitality Co",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2005-05-26",
+        "weburl": "https://drhc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942958992396.png",
+        "market_cap": 2477179461.0969086,
+        "pe_ttm": 16.012,
+        "ps_ttm": 2.1655,
+        "pb_annual": 1.301,
+        "revenue_growth_ttm_yoy": 1.03,
+        "eps_growth_ttm_yoy": 128.92,
+        "gross_margin_ttm": 29.45,
+        "net_margin_ttm": 13.52,
+        "current_ratio": 0.7513,
+        "debt_equity": 0.7813,
+        "beta": 1.1093974
       }
     }
   }
