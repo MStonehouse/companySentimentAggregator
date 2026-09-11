@@ -8856,7 +8856,7 @@
       }
     },
     "TSCO": {
-      "cached_at": "2026-08-26T02:41:57.658312+00:00",
+      "cached_at": "2026-09-11T19:52:02.303379+00:00",
       "data": {
         "name": "Tractor Supply Co",
         "industry": "Retail",
@@ -8865,9 +8865,9 @@
         "ipo_date": "1994-02-17",
         "weburl": "https://www.tractorsupply.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TSCO.png",
-        "market_cap": 18434397801.29677,
-        "pe_ttm": 18.758,
-        "ps_ttm": 1.2051,
+        "market_cap": 17509552803.11366,
+        "pe_ttm": 17.2828,
+        "ps_ttm": 1.1103,
         "pb_annual": 10.4011,
         "revenue_growth_ttm_yoy": 3.98,
         "eps_growth_ttm_yoy": -5.79,
@@ -8875,7 +8875,7 @@
         "net_margin_ttm": 6.42,
         "current_ratio": 1.3417,
         "debt_equity": 0.6978,
-        "beta": 0.4994233
+        "beta": 0.48451793
       }
     },
     "SJM": {
@@ -17248,6 +17248,29 @@
         "current_ratio": 1.4223,
         "debt_equity": 0.4257,
         "beta": 0.90595233
+      }
+    },
+    "APUS": {
+      "cached_at": "2026-09-11T19:52:02.303379+00:00",
+      "data": {
+        "name": "Apimeds Pharmaceuticals US Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2025-05-09",
+        "weburl": "https://www.apimedsus.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950906359736.png",
+        "market_cap": 3154056.562211982,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 0.1345,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 1.3061,
+        "debt_equity": 0.0495,
+        "beta": 0.64738727
       }
     }
   }
