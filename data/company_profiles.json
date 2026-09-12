@@ -7814,6 +7814,53 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "IMUX": {
+      "updated_at": "2026-09-12",
+      "data": {
+        "name": "Immunic Inc",
+        "description": "Immunic is a clinical-stage biopharmaceutical company with a pipeline of selective oral immunology therapies focused on treating chronic inflammatory and autoimmune diseases.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://imux.com",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ANIX": {
+      "updated_at": "2026-09-12",
+      "data": {
+        "name": "Anixa Biosciences Inc",
+        "description": "Anixa Biosciences, Inc., a biotechnology company, develops therapies and vaccines focusing on critical unmet needs in oncology and infectious diseases. The company is headquartered in San Jose, California.",
+        "industry": "BIOTECHNOLOGY",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "FCEL": {
+      "updated_at": "2026-09-12",
+      "data": {
+        "name": "Fuelcell Energy Inc",
+        "description": "FuelCell Energy is enabling a world empowered by clean energy with a platform based on fuel cell technology.",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.fuelcellenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
