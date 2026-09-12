@@ -10903,7 +10903,7 @@
       }
     },
     "POOL": {
-      "cached_at": "2026-08-29T23:26:34.758858+00:00",
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
       "data": {
         "name": "Pool Corp",
         "industry": "Distributors",
@@ -10912,9 +10912,9 @@
         "ipo_date": "1995-10-13",
         "weburl": "https://www.poolcorp.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/POOL.png",
-        "market_cap": 6848232135.443324,
-        "pe_ttm": 18.1204,
-        "ps_ttm": 1.3434,
+        "market_cap": 6288402808.975876,
+        "pe_ttm": 15.9028,
+        "ps_ttm": 1.179,
         "pb_annual": 7.1892,
         "revenue_growth_ttm_yoy": 2.23,
         "eps_growth_ttm_yoy": 0.4,
@@ -10922,7 +10922,7 @@
         "net_margin_ttm": 7.41,
         "current_ratio": 2.2378,
         "debt_equity": 1.012,
-        "beta": 1.0327256
+        "beta": 0.9663769
       }
     },
     "MNST": {
@@ -11547,7 +11547,7 @@
       }
     },
     "EW": {
-      "cached_at": "2026-09-01T17:21:21.555548+00:00",
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
       "data": {
         "name": "Edwards Lifesciences Corp",
         "industry": "Health Care",
@@ -11556,9 +11556,9 @@
         "ipo_date": "2000-03-27",
         "weburl": "https://www.edwards.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EW.png",
-        "market_cap": 53060504247.86645,
-        "pe_ttm": 53.5159,
-        "ps_ttm": 8.2579,
+        "market_cap": 48630868177.93834,
+        "pe_ttm": 48.4138,
+        "ps_ttm": 7.4706,
         "pb_annual": 4.786,
         "revenue_growth_ttm_yoy": 14.55,
         "eps_growth_ttm_yoy": -75.18,
@@ -11566,7 +11566,7 @@
         "net_margin_ttm": 15.43,
         "current_ratio": 3.7156,
         "debt_equity": 0.0579,
-        "beta": 0.8496112
+        "beta": 0.8495845
       }
     },
     "MDT": {
@@ -17547,6 +17547,213 @@
         "current_ratio": 1.2794,
         "debt_equity": 0.663,
         "beta": 0.99089766
+      }
+    },
+    "AXR": {
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
+      "data": {
+        "name": "AMREP Corp",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://amrepcorp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959033686.png",
+        "market_cap": 122152035.53069223,
+        "pe_ttm": 11.881,
+        "ps_ttm": 2.313,
+        "pb_annual": 1.0385,
+        "revenue_growth_ttm_yoy": 6.34,
+        "eps_growth_ttm_yoy": -19.5,
+        "gross_margin_ttm": 40.53,
+        "net_margin_ttm": 19.47,
+        "current_ratio": 29.595,
+        "debt_equity": 0.0001,
+        "beta": 1.2288333
+      }
+    },
+    "ACAD": {
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
+      "data": {
+        "name": "ACADIA Pharmaceuticals Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2004-05-27",
+        "weburl": "https://acadia.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ACAD.png",
+        "market_cap": 4795262344.905191,
+        "pe_ttm": 12.5623,
+        "ps_ttm": 4.1978,
+        "pb_annual": 3.6817,
+        "revenue_growth_ttm_yoy": 47,
+        "eps_growth_ttm_yoy": 96.46,
+        "gross_margin_ttm": 91.13,
+        "net_margin_ttm": 33.42,
+        "current_ratio": 3.8328,
+        "debt_equity": 0,
+        "beta": 0.86283535
+      }
+    },
+    "UNM": {
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
+      "data": {
+        "name": "Unum Group",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1986-11-06",
+        "weburl": "https://www.unum.com/Privacy",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/UNM.png",
+        "market_cap": 14947327027.80214,
+        "pe_ttm": 21.2916,
+        "ps_ttm": 1.1209,
+        "pb_annual": 1.1663,
+        "revenue_growth_ttm_yoy": 3.42,
+        "eps_growth_ttm_yoy": -48.71,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 5.26,
+        "current_ratio": null,
+        "debt_equity": 0.3388,
+        "beta": 0.25045055
+      }
+    },
+    "STX": {
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
+      "data": {
+        "name": "Seagate Technology Holdings PLC",
+        "industry": "Technology",
+        "country": "SG",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2002-12-11",
+        "weburl": "https://investors.seagate.com/overview/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/STX.png",
+        "market_cap": 188774867677.6086,
+        "pe_ttm": 59.2886,
+        "ps_ttm": 15.4797,
+        "pb_annual": 84.8655,
+        "revenue_growth_ttm_yoy": 34.06,
+        "eps_growth_ttm_yoy": 104.53,
+        "gross_margin_ttm": 45.58,
+        "net_margin_ttm": 26.11,
+        "current_ratio": 1.6697,
+        "debt_equity": 1.6451,
+        "beta": 2.146068
+      }
+    },
+    "CRON": {
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
+      "data": {
+        "name": "Cronos Group Inc",
+        "industry": "Pharmaceuticals",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "ipo_date": "2014-05-07",
+        "weburl": "https://thecronosgroup.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CRON.TO.png",
+        "market_cap": 1617332460.0,
+        "pe_ttm": 16.6739,
+        "ps_ttm": 6.5154,
+        "pb_annual": 0.9091,
+        "revenue_growth_ttm_yoy": 37.46,
+        "eps_growth_ttm_yoy": 313,
+        "gross_margin_ttm": 46.48,
+        "net_margin_ttm": 39.08,
+        "current_ratio": 19.5921,
+        "debt_equity": 0,
+        "beta": 1.197068
+      }
+    },
+    "ISRG": {
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
+      "data": {
+        "name": "Intuitive Surgical Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2000-06-13",
+        "weburl": "https://www.intuitive.com/en-us/about-us/company",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ISRG.png",
+        "market_cap": 130412587461.96443,
+        "pe_ttm": 41.4574,
+        "ps_ttm": 11.7928,
+        "pb_annual": 11.2642,
+        "revenue_growth_ttm_yoy": 20.66,
+        "eps_growth_ttm_yoy": 21.76,
+        "gross_margin_ttm": 66.68,
+        "net_margin_ttm": 28.45,
+        "current_ratio": 4.8746,
+        "debt_equity": 0,
+        "beta": 1.4861898
+      }
+    },
+    "PHIN": {
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
+      "data": {
+        "name": "Phinia Inc",
+        "industry": "Auto Components",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2023-06-28",
+        "weburl": "https://www.phinia.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950865713976.png",
+        "market_cap": 2426907042.5644593,
+        "pe_ttm": 17.9771,
+        "ps_ttm": 0.6751,
+        "pb_annual": 1.5186,
+        "revenue_growth_ttm_yoy": 7.06,
+        "eps_growth_ttm_yoy": 34.56,
+        "gross_margin_ttm": 21.67,
+        "net_margin_ttm": 3.76,
+        "current_ratio": 1.8606,
+        "debt_equity": 0.6112,
+        "beta": 1.1259567
+      }
+    },
+    "FIVN": {
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
+      "data": {
+        "name": "Five9 Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2014-04-04",
+        "weburl": "https://www.five9.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FIVN.png",
+        "market_cap": 2291023540.784132,
+        "pe_ttm": 38.0121,
+        "ps_ttm": 1.8776,
+        "pb_annual": 1.9957,
+        "revenue_growth_ttm_yoy": 8.87,
+        "eps_growth_ttm_yoy": 505.92,
+        "gross_margin_ttm": 54.91,
+        "net_margin_ttm": 4.94,
+        "current_ratio": 4.5055,
+        "debt_equity": 0.9545,
+        "beta": 1.6109933
+      }
+    },
+    "TG": {
+      "cached_at": "2026-09-12T16:23:43.551730+00:00",
+      "data": {
+        "name": "Tredegar Corp",
+        "industry": "Metals & Mining",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1989-07-05",
+        "weburl": "https://tredegar.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959032426.png",
+        "market_cap": 250200219.46486485,
+        "pe_ttm": 7.6029,
+        "ps_ttm": 0.3241,
+        "pb_annual": 1.1575,
+        "revenue_growth_ttm_yoy": 35.74,
+        "eps_growth_ttm_yoy": 4.64,
+        "gross_margin_ttm": 14.43,
+        "net_margin_ttm": 4.26,
+        "current_ratio": 1.6198,
+        "debt_equity": 0.1618,
+        "beta": 0.7801672
       }
     }
   }

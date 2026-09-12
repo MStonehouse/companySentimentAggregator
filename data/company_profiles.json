@@ -7861,6 +7861,61 @@
         ],
         "source": "Company website"
       }
+    },
+    "AXR": {
+      "updated_at": "2026-09-12",
+      "data": {
+        "name": "AMREP Corporation",
+        "description": "AMREP Corporation is primarily engaged in the real estate business. The company is headquartered in Plymouth Meeting, Pennsylvania.",
+        "industry": "REAL ESTATE - DEVELOPMENT",
+        "sector": "REAL ESTATE",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "ACAD": {
+      "updated_at": "2026-09-12",
+      "data": {
+        "name": "ACADIA Pharmaceuticals Inc",
+        "description": "Acadia advances care for underserved neurological disorders and rare diseases. Since our founding, we have been working at the forefront of healthcare to bring vital solutions to people who need them most.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://acadia.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "UNM": {
+      "updated_at": "2026-09-12",
+      "data": {
+        "name": "Unum Group",
+        "description": "Privacy Page",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.unum.com/Privacy",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "STX": {
+      "updated_at": "2026-09-12",
+      "data": {
+        "name": "Seagate Technology Holdings PLC",
+        "description": "Seagate Technology Holdings PLC is a publicly traded company operating in the Technology industry with company information identifying SG as its home market.",
+        "industry": "Technology",
+        "country": "SG",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://investors.seagate.com/overview/default.aspx",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
     }
   }
 }
