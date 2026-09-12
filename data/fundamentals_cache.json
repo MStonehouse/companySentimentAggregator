@@ -2094,7 +2094,7 @@
       }
     },
     "BLK": {
-      "cached_at": "2026-09-05T19:10:08.982877+00:00",
+      "cached_at": "2026-09-12T19:29:11.075750+00:00",
       "data": {
         "name": "BlackRock Inc",
         "industry": "Financial Services",
@@ -2103,9 +2103,9 @@
         "ipo_date": "1999-10-01",
         "weburl": "https://www.blackrock.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950002356066.png",
-        "market_cap": 182345406886.18005,
-        "pe_ttm": 27.8243,
-        "ps_ttm": 6.7025,
+        "market_cap": 175417422235.65076,
+        "pe_ttm": 26.6754,
+        "ps_ttm": 6.4258,
         "pb_annual": 3.1244,
         "revenue_growth_ttm_yoy": 26.54,
         "eps_growth_ttm_yoy": -3.67,
@@ -2113,7 +2113,7 @@
         "net_margin_ttm": 24.09,
         "current_ratio": 2.1321,
         "debt_equity": 0.2285,
-        "beta": 1.4076517
+        "beta": 1.4176579
       }
     },
     "LOW": {
@@ -3934,7 +3934,7 @@
       }
     },
     "FLUX": {
-      "cached_at": "2026-08-21T02:38:53.542178+00:00",
+      "cached_at": "2026-09-12T19:29:11.075750+00:00",
       "data": {
         "name": "Flux Power Holdings Inc",
         "industry": "Electrical Equipment",
@@ -3943,17 +3943,17 @@
         "ipo_date": "1999-12-07",
         "weburl": "https://www.fluxpower.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959157606.png",
-        "market_cap": 17516334.46041138,
+        "market_cap": 12371904.150131235,
         "pe_ttm": null,
-        "ps_ttm": 0.2448,
-        "pb_annual": 263.9957,
-        "revenue_growth_ttm_yoy": -19.55,
+        "ps_ttm": 0.2907,
+        "pb_annual": 7.2193,
+        "revenue_growth_ttm_yoy": -36.58,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 32.07,
-        "net_margin_ttm": -12.48,
-        "current_ratio": 0.8028,
-        "debt_equity": 72.6907,
-        "beta": 1.6392702
+        "gross_margin_ttm": 30.18,
+        "net_margin_ttm": -17.68,
+        "current_ratio": 1.0326,
+        "debt_equity": 2.4918,
+        "beta": 1.5679595
       }
     },
     "EPM": {
@@ -17754,6 +17754,98 @@
         "current_ratio": 1.6198,
         "debt_equity": 0.1618,
         "beta": 0.7801672
+      }
+    },
+    "EVCM": {
+      "cached_at": "2026-09-12T19:29:11.075750+00:00",
+      "data": {
+        "name": "EverCommerce Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-07-01",
+        "weburl": "https://www.evercommerce.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950801973196.png",
+        "market_cap": 1114757780.163859,
+        "pe_ttm": 32.7427,
+        "ps_ttm": 1.8638,
+        "pb_annual": 3.03,
+        "revenue_growth_ttm_yoy": -6.77,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 77.82,
+        "net_margin_ttm": 5.69,
+        "current_ratio": 2.114,
+        "debt_equity": 0.7301,
+        "beta": 0.679882
+      }
+    },
+    "FLYE": {
+      "cached_at": "2026-09-12T19:29:11.075750+00:00",
+      "data": {
+        "name": "Fly-E Group Inc",
+        "industry": "Automobiles",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2024-06-06",
+        "weburl": "https://www.flyebike.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950870098066.png",
+        "market_cap": 3003590.5856353594,
+        "pe_ttm": null,
+        "ps_ttm": 0.1576,
+        "pb_annual": 0.1965,
+        "revenue_growth_ttm_yoy": -25.03,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 24.44,
+        "net_margin_ttm": -48.56,
+        "current_ratio": 2.4711,
+        "debt_equity": 0.3426,
+        "beta": 1.5198967
+      }
+    },
+    "FTI": {
+      "cached_at": "2026-09-12T19:29:11.075750+00:00",
+      "data": {
+        "name": "TechnipFMC PLC",
+        "industry": "Energy",
+        "country": "GB",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2017-01-17",
+        "weburl": "https://www.technipfmc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FTI.png",
+        "market_cap": 29937828553.65414,
+        "pe_ttm": 25.2158,
+        "ps_ttm": 2.8449,
+        "pb_annual": 5.3586,
+        "revenue_growth_ttm_yoy": 9.87,
+        "eps_growth_ttm_yoy": 35.89,
+        "gross_margin_ttm": 22.97,
+        "net_margin_ttm": 11.28,
+        "current_ratio": 1.1283,
+        "debt_equity": 0.1552,
+        "beta": 0.89229935
+      }
+    },
+    "CXW": {
+      "cached_at": "2026-09-12T19:29:11.075750+00:00",
+      "data": {
+        "name": "CoreCivic Inc",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1986-10-02",
+        "weburl": "https://www.corecivic.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959122516.png",
+        "market_cap": 3454349717.463819,
+        "pe_ttm": 26.8456,
+        "ps_ttm": 1.3823,
+        "pb_annual": 1.4237,
+        "revenue_growth_ttm_yoy": 24.35,
+        "eps_growth_ttm_yoy": 33.31,
+        "gross_margin_ttm": 22.58,
+        "net_margin_ttm": 5.15,
+        "current_ratio": 1.6566,
+        "debt_equity": 0.8733,
+        "beta": 0.622787
       }
     }
   }
