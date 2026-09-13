@@ -7821,7 +7821,7 @@
       }
     },
     "GM": {
-      "cached_at": "2026-08-25T14:10:55.210488+00:00",
+      "cached_at": "2026-09-13T23:15:21.769848+00:00",
       "data": {
         "name": "General Motors Co",
         "industry": "Automobiles",
@@ -7830,9 +7830,9 @@
         "ipo_date": "2010-08-20",
         "weburl": "https://www.gm.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GM.png",
-        "market_cap": 76320735047.92175,
-        "pe_ttm": 38.8933,
-        "ps_ttm": 0.4086,
+        "market_cap": 75127403086.9647,
+        "pe_ttm": 38.5466,
+        "ps_ttm": 0.4049,
         "pb_annual": 1.2412,
         "revenue_growth_ttm_yoy": -1.11,
         "eps_growth_ttm_yoy": -55.08,
@@ -7840,7 +7840,7 @@
         "net_margin_ttm": 1.05,
         "current_ratio": 1.1653,
         "debt_equity": 2.1315,
-        "beta": 1.4084762
+        "beta": 1.4369339
       }
     },
     "EPAM": {
@@ -18467,6 +18467,52 @@
         "current_ratio": 2.6922,
         "debt_equity": 0.0067,
         "beta": 1.3349653
+      }
+    },
+    "JD": {
+      "cached_at": "2026-09-13T23:15:21.769848+00:00",
+      "data": {
+        "name": "JD.com Inc",
+        "industry": "Retail",
+        "country": "CN",
+        "exchange": "HONG KONG EXCHANGES AND CLEARING LTD",
+        "ipo_date": "2014-05-22",
+        "weburl": "https://corporate.jd.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/9618.HK.png",
+        "market_cap": 254241864014.0,
+        "pe_ttm": 15.7088,
+        "ps_ttm": 0.1643,
+        "pb_annual": 1.1171,
+        "revenue_growth_ttm_yoy": 10.32,
+        "eps_growth_ttm_yoy": -68.41,
+        "gross_margin_ttm": 16.26,
+        "net_margin_ttm": 1.05,
+        "current_ratio": 1.2233,
+        "debt_equity": 0.3288,
+        "beta": 1.4058355
+      }
+    },
+    "GEHC": {
+      "cached_at": "2026-09-13T23:15:21.769848+00:00",
+      "data": {
+        "name": "GE Healthcare Technologies Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2022-12-15",
+        "weburl": "https://www.gehealthcare.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950835041476.png",
+        "market_cap": 28876300924.53316,
+        "pe_ttm": 14.5473,
+        "ps_ttm": 1.3578,
+        "pb_annual": 3.5998,
+        "revenue_growth_ttm_yoy": 6.52,
+        "eps_growth_ttm_yoy": -11.01,
+        "gross_margin_ttm": 39.53,
+        "net_margin_ttm": 9.33,
+        "current_ratio": 1.373,
+        "debt_equity": 0.9678,
+        "beta": 0.8538279
       }
     }
   }

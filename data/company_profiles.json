@@ -8247,6 +8247,33 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "JD": {
+      "updated_at": "2026-09-13",
+      "data": {
+        "name": "JD.com Inc Adr",
+        "description": "JD.com, Inc. is an e-commerce company and retail infrastructure service provider in the People's Republic of China. The company is headquartered in Beijing, China.",
+        "industry": "INTERNET RETAIL",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "China",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "GEHC": {
+      "updated_at": "2026-09-13",
+      "data": {
+        "name": "GE Healthcare Technologies Inc",
+        "description": "GE HealthCare provides digital infrastructure, data analytics & decision support tools helps in diagnosis, treatment and monitoring of patients",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.gehealthcare.com",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }

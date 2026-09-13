@@ -17485,7 +17485,7 @@
       "AADX": 0,
       "AAOI": 0,
       "AAP": 1,
-      "AAPL": 16,
+      "AAPL": 18,
       "AB": 0,
       "ABBV": 0,
       "ABEV": 1,
@@ -17493,9 +17493,10 @@
       "ABT": 1,
       "ABVX": 0,
       "ACAD": 0,
-      "ACCS": 2,
+      "ACCS": 1,
       "ACGL": 1,
       "ACN": 1,
+      "ADBE": 2,
       "ADC": 0,
       "ADCT": 0,
       "ADI": 1,
@@ -17520,7 +17521,7 @@
       "ALV": 1,
       "AM": 1,
       "AMAL": 0,
-      "AMAT": 1,
+      "AMAT": 3,
       "AMD": 2,
       "AMG": 0,
       "AMGN": 2,
@@ -17529,9 +17530,9 @@
       "AMRZ": 0,
       "AMST": 0,
       "AMT": 0,
-      "AMZN": 27,
+      "AMZN": 29,
       "AN": 0,
-      "ANET": 3,
+      "ANET": 2,
       "ANTX": 0,
       "ANY": 0,
       "AORT": 0,
@@ -17544,30 +17545,28 @@
       "ARR-PC": 0,
       "ARTV": 0,
       "ASLE": 0,
-      "ATLX": 0,
+      "ATO": 1,
       "ATTT": 0,
       "AUTL": 0,
-      "AVGO": 2,
-      "AVO": 0,
+      "AVGO": 3,
       "AX": 0,
       "AXON": 0,
       "AXR": 0,
       "AZO": 3,
-      "BA": 3,
-      "BAC": 13,
+      "BA": 4,
+      "BAC": 14,
       "BALL": 2,
-      "BBIO": 1,
+      "BBIO": 0,
       "BBY": 0,
       "BDC": 0,
-      "BEN": 0,
-      "BETR": 0,
+      "BEN": 1,
       "BFST": 0,
-      "BIIB": 2,
+      "BIIB": 1,
       "BK": 1,
       "BKH": 0,
       "BKNG": 1,
       "BLDR": 0,
-      "BLK": 24,
+      "BLK": 27,
       "BMY": 0,
       "BNCWW": 0,
       "BNKK": 0,
@@ -17576,7 +17575,8 @@
       "BOC": 0,
       "BORR": 0,
       "BSBR": 1,
-      "BSL": 1,
+      "BSL": 0,
+      "BSX": 1,
       "BSY": 0,
       "BTBT": 0,
       "BTE": 0,
@@ -17587,7 +17587,7 @@
       "BWA": 1,
       "BWSN": 0,
       "BX": 2,
-      "BYAH": 1,
+      "BYAH": 0,
       "BYD": 1,
       "C": 7,
       "CABR": 0,
@@ -17609,7 +17609,7 @@
       "CCS": 0,
       "CDNL": 0,
       "CDNS": 0,
-      "CEG": 0,
+      "CDW": 1,
       "CELH": 0,
       "CET": 0,
       "CFG": 1,
@@ -17627,7 +17627,6 @@
       "CLBT": 0,
       "CLS": 0,
       "CLX": 1,
-      "CM": 0,
       "CMCSA": 1,
       "CMCSV": 1,
       "CMG": 1,
@@ -17643,23 +17642,21 @@
       "COKE": 0,
       "COLM": 1,
       "COP": 0,
-      "COST": 8,
+      "COST": 9,
       "COTY": 0,
       "CPB": 1,
-      "CPHC": 0,
       "CPRI": 1,
-      "CPRT": 1,
+      "CPRT": 0,
       "CPT": 0,
-      "CRAC": 1,
+      "CRAC": 0,
       "CRBD": 2,
-      "CRBP": 1,
-      "CRCD": 0,
+      "CRBP": 0,
       "CRI": 1,
-      "CRM": 2,
+      "CRM": 7,
       "CRON": 0,
       "CROX": 1,
       "CRSR": 1,
-      "CRWD": 1,
+      "CRWD": 0,
       "CSCO": 1,
       "CSGP": 0,
       "CSW": 0,
@@ -17690,10 +17687,9 @@
       "DDD": 0,
       "DDOG": 0,
       "DE": 0,
-      "DELL": 4,
-      "DEO": 3,
-      "DFDV": 0,
-      "DFNS": 1,
+      "DELL": 1,
+      "DEO": 2,
+      "DFNS": 0,
       "DFNSW": 0,
       "DFUKF": 0,
       "DG": 4,
@@ -17722,7 +17718,6 @@
       "E": 0,
       "EAT": 1,
       "EBAY": 1,
-      "EBF": 0,
       "EC": 0,
       "ECL": 1,
       "ECPG": 0,
@@ -17735,6 +17730,7 @@
       "EIG": 0,
       "ELF": 0,
       "ELS": 0,
+      "ELV": 1,
       "EMBJ": 0,
       "EMR": 0,
       "ENB": 1,
@@ -17743,8 +17739,7 @@
       "EOCN": 0,
       "EOG": 0,
       "EPD": 0,
-      "EQIX": 1,
-      "EQNR": 0,
+      "EQIX": 0,
       "EQT": 0,
       "ERO": 0,
       "ESI": 1,
@@ -17755,7 +17750,7 @@
       "ETON": 1,
       "ETSY": 0,
       "EVAC-WT": 0,
-      "EVCM": 1,
+      "EVCM": 0,
       "EVRG": 0,
       "EW": 0,
       "EWBC": 2,
@@ -17764,7 +17759,7 @@
       "EXP": 1,
       "EXPE": 2,
       "EZRA": 0,
-      "F": 0,
+      "F": 1,
       "FAF": 1,
       "FANG": 1,
       "FAST": 1,
@@ -17785,7 +17780,6 @@
       "FHN": 1,
       "FIEE": 0,
       "FIGX": 0,
-      "FINW": 0,
       "FIS": 2,
       "FITB": 1,
       "FIVE": 0,
@@ -17809,20 +17803,18 @@
       "FSV": 1,
       "FTI": 1,
       "FTS": 0,
-      "FWDI": 0,
-      "GALT": 0,
       "GAP": 1,
       "GATX": 0,
-      "GBFH": 0,
       "GCL": 0,
       "GCO": 0,
       "GCTK": 0,
-      "GD": 3,
-      "GE": 1,
-      "GEHC": 2,
-      "GEN": 1,
+      "GD": 2,
+      "GE": 2,
+      "GEHC": 3,
+      "GEN": 0,
       "GENI": 0,
       "GERN": 1,
+      "GEV": 1,
       "GFF": 1,
       "GIC": 0,
       "GIII": 2,
@@ -17834,7 +17826,7 @@
       "GLW": 1,
       "GLXG": 1,
       "GLXY": 0,
-      "GM": 1,
+      "GM": 3,
       "GMRS": 0,
       "GOGO": 1,
       "GOOG": 1,
@@ -17844,14 +17836,14 @@
       "GPN": 1,
       "GRDX": 0,
       "GRMLW": 0,
-      "GRMN": 1,
+      "GRMN": 0,
       "GRNT": 0,
-      "GS": 12,
+      "GS": 15,
       "GT": 1,
       "GTEC": 0,
       "GTX": 0,
       "GUTS": 0,
-      "GWAV": 1,
+      "GWAV": 0,
       "HAFC": 1,
       "HAS": 1,
       "HAYW": 0,
@@ -17869,47 +17861,55 @@
       "HMC": 1,
       "HNRG": 1,
       "HOFT": 1,
+      "HOG": 1,
       "HON": 0,
-      "HPE": 1,
-      "HPQ": 0,
+      "HPE": 0,
       "HQY": 1,
-      "HRI": 0,
+      "HRI": 1,
       "HRL": 1,
       "HRTG": 0,
       "HSBC": 5,
       "HSY": 1,
       "HUM": 1,
       "HURN": 1,
-      "HUT": 0,
+      "HUT": 1,
       "HXL": 0,
-      "IBM": 7,
+      "IBB": 0,
+      "IBIO": 1,
+      "IBM": 6,
       "ICE": 0,
+      "ICLR": 0,
       "ICU": 0,
       "IFF": 0,
       "IMUX": 0,
       "INBKZ": 0,
       "INBS": 0,
+      "INDB": 1,
       "INGR": 0,
       "INMD": 0,
+      "INSP": 1,
       "INTU": 0,
+      "INV": 1,
       "INVH": 1,
+      "IONQ": 0,
       "IP": 1,
-      "IPAR": 0,
+      "IPAR": 2,
       "IR": 1,
       "IRM": 0,
       "IRON": 0,
       "ISRG": 0,
       "ITIC": 0,
       "ITT": 0,
-      "ITUB": 0,
+      "ITUB": 1,
       "IVZ": 1,
       "J": 1,
-      "JD": 0,
-      "JEF": 0,
-      "JLL": 0,
+      "JD": 2,
+      "JEF": 1,
+      "JLL": 1,
       "JNJ": 0,
-      "JPM": 21,
+      "JPM": 23,
       "JRSH": 0,
+      "JSM": 2,
       "KDP": 0,
       "KEX": 0,
       "KEY": 1,
@@ -17917,63 +17917,75 @@
       "KGC": 0,
       "KGS": 0,
       "KHC": 2,
-      "KKR": 1,
-      "KLAC": 1,
+      "KKR": 0,
+      "KLAC": 2,
+      "KLIC": 1,
       "KMB": 0,
       "KMPR": 0,
-      "KMT": 0,
+      "KMT": 2,
       "KMX": 2,
+      "KNSL": 1,
       "KO": 0,
-      "KOF": 0,
+      "KODK": 0,
       "KR": 6,
       "KRSA": 0,
-      "KTB": 0,
+      "KSPI": 1,
+      "KTB": 1,
       "KTOS": 0,
       "KULR": 0,
       "KVUE": 1,
-      "LBYAV": 0,
+      "KYIV": 1,
+      "LBYAV": 1,
       "LCID": 0,
       "LCII": 1,
       "LDOS": 1,
+      "LEA": 1,
       "LEN": 1,
       "LEU": 0,
       "LFST": 0,
       "LFTO": 0,
       "LGCL": 1,
-      "LGIH": 0,
+      "LGIH": 1,
       "LH": 2,
-      "LHX": 1,
+      "LHX": 0,
       "LI": 0,
-      "LIND": 0,
+      "LIND": 1,
       "LLY": 1,
-      "LMRI": 0,
-      "LMT": 6,
-      "LNG": 0,
-      "LOAR": 0,
+      "LMT": 5,
+      "LNG": 1,
+      "LOAR": 1,
       "LOPE": 0,
+      "LOVE": 1,
       "LOW": 2,
-      "LRCX": 1,
+      "LPLA": 1,
+      "LRCX": 2,
       "LULU": 2,
       "LVS": 1,
       "LW": 0,
       "LWAY": 1,
+      "LXU": 1,
       "LYV": 1,
       "MA": 0,
+      "MANH": 2,
       "MATX": 0,
       "MBGL": 0,
       "MCD": 0,
       "MCHP": 1,
-      "MCK": 1,
+      "MCK": 0,
       "MCO": 0,
       "MCY": 0,
-      "MDT": 2,
+      "MDT": 3,
+      "MELI": 1,
       "MET": 0,
       "META": 1,
       "MEVOW": 0,
+      "MFA-P-C": 1,
       "MFG": 0,
       "MGM": 1,
       "MGNI": 0,
       "MGRC": 0,
+      "MGRD": 1,
+      "MGX": 0,
       "MHK": 2,
       "MIAX": 0,
       "MKC": 1,
@@ -17982,42 +17994,38 @@
       "MLI": 0,
       "MMI": 0,
       "MMM": 2,
-      "MNSO": 0,
       "MO": 1,
       "MOD": 0,
       "MP": 0,
       "MPC": 0,
       "MRK": 1,
       "MRNA": 0,
-      "MRTN": 0,
-      "MS": 13,
+      "MS": 14,
+      "MSA": 1,
       "MSFT": 15,
-      "MSI": 0,
       "MTCH": 1,
       "MTD": 1,
       "MU": 1,
       "MUSA": 0,
       "MZTI": 0,
       "NAUT": 0,
-      "NCLH": 0,
       "NDAQ": 1,
       "NEE": 0,
-      "NEOG": 0,
       "NEWH": 0,
       "NFG": 0,
-      "NFLX": 4,
+      "NFLX": 5,
       "NICE": 0,
       "NKE": 3,
       "NLY-P-F": 0,
       "NNN": 0,
-      "NOC": 1,
+      "NOC": 0,
       "NPWR-WT": 0,
       "NRG": 0,
       "NTAP": 2,
       "NTCT": 0,
       "NTES": 0,
-      "NUGY": 1,
-      "NVDA": 37,
+      "NUGY": 0,
+      "NVDA": 36,
       "NVR": 2,
       "NXPI": 1,
       "NXST": 0,
@@ -18030,21 +18038,21 @@
       "ON": 0,
       "OPP-P-A": 0,
       "OPRT": 0,
-      "ORCL": 1,
+      "ORCL": 6,
       "ORLY": 1,
       "OTIS": 1,
       "OVID": 0,
       "OXLCN": 0,
       "OXY": 0,
       "PAAS": 0,
-      "PANW": 3,
+      "PANW": 1,
       "PARA": 0,
       "PARAW": 0,
       "PARR": 0,
       "PBAM": 0,
       "PCAR": 1,
-      "PCG": 1,
-      "PCG-P-A": 1,
+      "PCG": 0,
+      "PCG-P-A": 0,
       "PCG-P-D": 0,
       "PDD": 0,
       "PDM": 0,
@@ -18065,7 +18073,7 @@
       "PLD": 1,
       "PLOW": 0,
       "PLTR": 0,
-      "PM": 1,
+      "PM": 0,
       "PMF": 0,
       "PMTU": 0,
       "PNC": 2,
@@ -18078,13 +18086,13 @@
       "PRG": 0,
       "PRI": 0,
       "PRSO": 0,
-      "PRU": 1,
-      "PRVA": 1,
+      "PRU": 2,
+      "PRVA": 0,
       "PSA": 2,
       "PWR": 0,
       "PYPL": 1,
       "QCLS": 0,
-      "QCOM": 16,
+      "QCOM": 17,
       "QETAR": 0,
       "QTWO": 0,
       "RACE": 0,
@@ -18093,7 +18101,6 @@
       "RDNT": 1,
       "RDW": 0,
       "RDY": 0,
-      "REF": 0,
       "REGN": 2,
       "REXR-P-C": 0,
       "RF": 1,
@@ -18118,9 +18125,7 @@
       "SBMT": 0,
       "SCCO": 0,
       "SCHW": 2,
-      "SCI": 0,
       "SCWO": 0,
-      "SELF": 0,
       "SF-P-B": 0,
       "SGA": 0,
       "SGLY": 0,
@@ -18129,7 +18134,7 @@
       "SIBN": 0,
       "SIGI": 0,
       "SIRI": 0,
-      "SKHY": 0,
+      "SJM": 1,
       "SKYE": 0,
       "SKYH": 0,
       "SLB": 2,
@@ -18142,14 +18147,11 @@
       "SNDK": 0,
       "SNDL": 1,
       "SNPS": 1,
-      "SO": 4,
+      "SO": 2,
       "SOARW": 0,
       "SOLS": 0,
       "SON": 0,
-      "SPAI": 0,
       "SPEGR": 0,
-      "SPI": 0,
-      "SPSC": 0,
       "SQM": 0,
       "SRE": 1,
       "SRPT": 0,
@@ -18159,7 +18161,7 @@
       "STE": 1,
       "STLA": 0,
       "STM": 0,
-      "STN": 1,
+      "STN": 0,
       "STRL": 0,
       "STRW": 0,
       "STT": 6,
@@ -18167,14 +18169,12 @@
       "STZ": 1,
       "SU": 0,
       "SUNB": 0,
-      "SWMR": 0,
       "SYF": 1,
       "SYY": 0,
       "T": 1,
       "TALO": 0,
       "TCBIO": 0,
       "TCRX": 0,
-      "TD": 0,
       "TDG": 0,
       "TDY": 1,
       "TEO": 0,
@@ -18202,15 +18202,15 @@
       "TROW": 2,
       "TRV": 0,
       "TSCO": 1,
-      "TSLA": 18,
+      "TSLA": 17,
       "TTC": 1,
       "TTE": 0,
-      "TTGT": 0,
       "TTRX": 1,
       "TTWO": 0,
       "TXNM": 1,
-      "TXT": 0,
       "TY-P": 0,
+      "UAL": 1,
+      "UBER": 2,
       "UBSI": 0,
       "UCB": 0,
       "UE": 0,
@@ -18223,14 +18223,12 @@
       "UNH": 1,
       "UNM": 1,
       "URBN": 0,
-      "URI": 0,
       "USAC": 0,
       "USB": 1,
       "USFD": 0,
       "UTI": 1,
       "UVE": 0,
       "V": 1,
-      "VATE": 0,
       "VFS": 0,
       "VGNT": 0,
       "VIAV": 0,
@@ -18254,12 +18252,11 @@
       "VVX": 0,
       "VZ": 1,
       "WAFDP": 1,
-      "WBD": 0,
+      "WBD": 1,
       "WCC": 1,
       "WDC": 0,
       "WDFC": 1,
       "WELL": 0,
-      "WES": 0,
       "WEX": 0,
       "WFC": 9,
       "WFRD": 0,
@@ -18268,7 +18265,7 @@
       "WMB": 2,
       "WMK": 1,
       "WMS": 1,
-      "WMT": 6,
+      "WMT": 9,
       "WOR": 0,
       "WPC": 0,
       "WRLD": 1,
@@ -18283,8 +18280,6 @@
       "XOM": 2,
       "XPER": 1,
       "XPO": 1,
-      "XRN-P-B": 0,
-      "XYZ": 0,
       "YETI": 0,
       "YEXT": 0,
       "YUM": 1,
@@ -18292,7 +18287,7 @@
       "ZBH": 0,
       "ZION": 0,
       "ZONE": 0,
-      "ZS": 1
+      "ZS": 0
     }
   },
   "first_seen": {
@@ -20681,6 +20676,7 @@
     "ICG": "2026-08-21",
     "ICHR": "2026-08-18",
     "ICL": "2026-08-25",
+    "ICLR": "2026-09-13",
     "ICRP": "2026-08-28",
     "ICU": "2026-09-10",
     "ICUI": "2026-08-21",
@@ -24813,8 +24809,8 @@
     },
     "2026-09-13": {
       "emerging_signals": [
-        "DEO",
-        "GWAV",
+        "JD",
+        "GEHC",
         "DRS",
         "FNB",
         "FROG",
@@ -24823,38 +24819,38 @@
         "GIII",
         "CARS",
         "MHK",
+        "DEO",
         "CAG",
         "ALSN",
         "FIZZ",
         "DK",
+        "RL",
         "AMKR",
         "CHEF",
-        "RL",
         "CVE",
-        "FLXS",
-        "HSBC"
+        "KMT"
       ],
       "market_leaders": [
         "NVDA",
+        "GS",
         "JPM",
         "AMZN",
         "QCOM",
-        "GS",
         "BLK",
         "TSLA",
-        "WFC",
-        "MSFT",
-        "BAC",
-        "NFLX",
         "MS",
-        "AAPL",
+        "BAC",
+        "WFC",
+        "NFLX",
+        "MSFT",
         "DLTR",
         "COST",
-        "ANET",
-        "CL",
+        "GM",
+        "AAPL",
+        "ORCL",
         "WMT",
-        "KR",
-        "SO"
+        "CL",
+        "CRM"
       ]
     }
   },
@@ -31723,8 +31719,8 @@
     },
     "2026-09-13": {
       "AAPL": {
-        "discovery_score": 30.1,
-        "market_attention_score": 54.4,
+        "discovery_score": 30.0,
+        "market_attention_score": 51.5,
         "signal_score": 44.1
       },
       "ALSN": {
@@ -31733,79 +31729,69 @@
         "signal_score": 48.0
       },
       "AMGN": {
-        "discovery_score": 28.0,
+        "discovery_score": 27.9,
         "market_attention_score": 39.0,
-        "signal_score": 45.3
+        "signal_score": 45.1
       },
       "AMKR": {
         "discovery_score": 60.8,
         "market_attention_score": 23.6,
-        "signal_score": 51.8
+        "signal_score": 51.7
       },
       "AMZN": {
-        "discovery_score": 26.3,
+        "discovery_score": 26.2,
         "market_attention_score": 75.6,
         "signal_score": 47.1
       },
-      "ANET": {
-        "discovery_score": 46.6,
-        "market_attention_score": 50.8,
-        "signal_score": 45.0
-      },
       "BA": {
-        "discovery_score": 32.8,
-        "market_attention_score": 47.5,
-        "signal_score": 47.4
+        "discovery_score": 32.9,
+        "market_attention_score": 47.9,
+        "signal_score": 47.5
       },
       "BAC": {
         "discovery_score": 23.7,
-        "market_attention_score": 58.6,
+        "market_attention_score": 63.1,
         "signal_score": 45.9
       },
       "BLK": {
-        "discovery_score": 20.9,
-        "market_attention_score": 68.8,
-        "signal_score": 41.2
+        "discovery_score": 22.8,
+        "market_attention_score": 71.3,
+        "signal_score": 46.2
       },
       "C": {
         "discovery_score": 21.8,
-        "market_attention_score": 44.0,
+        "market_attention_score": 44.4,
         "signal_score": 45.9
       },
       "CAG": {
         "discovery_score": 62.0,
         "market_attention_score": 29.6,
-        "signal_score": 55.4
+        "signal_score": 55.5
       },
       "CARS": {
         "discovery_score": 64.3,
         "market_attention_score": 23.5,
-        "signal_score": 46.5
+        "signal_score": 46.6
       },
       "CHEF": {
         "discovery_score": 60.5,
         "market_attention_score": 26.6,
-        "signal_score": 51.9
+        "signal_score": 51.8
       },
       "CL": {
         "discovery_score": 46.9,
         "market_attention_score": 49.7,
         "signal_score": 45.6
       },
-      "COCO": {
-        "discovery_score": 53.5,
-        "market_attention_score": 27.8,
-        "signal_score": 50.2
-      },
       "COST": {
         "discovery_score": 31.2,
-        "market_attention_score": 52.6,
+        "market_attention_score": 53.0,
         "signal_score": 46.6
       },
-      "CRAC": {
-        "discovery_score": 52.9,
-        "market_attention_score": 18.8,
-        "signal_score": 39.2
+      "CRM": {
+        "discovery_score": 26.9,
+        "market_attention_score": 48.7,
+        "signal_score": 46.4
       },
       "CVE": {
         "discovery_score": 60.3,
@@ -31813,29 +31799,24 @@
         "signal_score": 51.8
       },
       "CWBC": {
-        "discovery_score": 53.4,
+        "discovery_score": 53.3,
         "market_attention_score": 18.8,
-        "signal_score": 40.4
+        "signal_score": 40.3
       },
       "DAR": {
-        "discovery_score": 53.7,
-        "market_attention_score": 25.4,
-        "signal_score": 50.2
+        "discovery_score": 53.8,
+        "market_attention_score": 25.5,
+        "signal_score": 50.3
       },
       "DD": {
-        "discovery_score": 45.2,
-        "market_attention_score": 46.3,
+        "discovery_score": 45.1,
+        "market_attention_score": 46.2,
         "signal_score": 45.6
       },
-      "DELL": {
-        "discovery_score": 31.6,
-        "market_attention_score": 47.6,
-        "signal_score": 45.2
-      },
       "DEO": {
-        "discovery_score": 69.4,
-        "market_attention_score": 33.3,
-        "signal_score": 58.4
+        "discovery_score": 62.4,
+        "market_attention_score": 29.3,
+        "signal_score": 54.5
       },
       "DK": {
         "discovery_score": 60.9,
@@ -31845,92 +31826,107 @@
       "DKS": {
         "discovery_score": 54.6,
         "market_attention_score": 25.8,
-        "signal_score": 54.2
+        "signal_score": 54.1
       },
       "DLTR": {
-        "discovery_score": 42.7,
-        "market_attention_score": 52.9,
-        "signal_score": 49.7
+        "discovery_score": 42.8,
+        "market_attention_score": 53.1,
+        "signal_score": 49.8
       },
       "DRS": {
         "discovery_score": 66.0,
         "market_attention_score": 28.4,
         "signal_score": 55.7
       },
-      "EVCM": {
-        "discovery_score": 54.6,
-        "market_attention_score": 24.8,
-        "signal_score": 53.3
-      },
       "EWBC": {
         "discovery_score": 64.8,
         "market_attention_score": 24.6,
-        "signal_score": 52.9
+        "signal_score": 53.0
       },
       "FIZZ": {
         "discovery_score": 61.2,
         "market_attention_score": 34.3,
-        "signal_score": 75.7
+        "signal_score": 75.6
       },
       "FLXS": {
         "discovery_score": 59.1,
         "market_attention_score": 30.1,
-        "signal_score": 68.5
+        "signal_score": 68.6
       },
       "FNB": {
         "discovery_score": 65.9,
         "market_attention_score": 24.6,
-        "signal_score": 53.6
+        "signal_score": 53.5
       },
       "FROG": {
         "discovery_score": 65.7,
         "market_attention_score": 25.8,
-        "signal_score": 57.6
+        "signal_score": 57.5
       },
       "GEHC": {
-        "discovery_score": 54.8,
-        "market_attention_score": 25.3,
-        "signal_score": 53.0
+        "discovery_score": 66.0,
+        "market_attention_score": 34.1,
+        "signal_score": 62.9
       },
       "GIII": {
-        "discovery_score": 64.6,
+        "discovery_score": 64.5,
         "market_attention_score": 24.6,
-        "signal_score": 51.2
+        "signal_score": 51.1
       },
-      "GS": {
-        "discovery_score": 31.7,
-        "market_attention_score": 70.3,
-        "signal_score": 46.5
-      },
-      "GWAV": {
-        "discovery_score": 66.3,
-        "market_attention_score": 36.1,
-        "signal_score": 77.2
-      },
-      "HSBC": {
-        "discovery_score": 56.3,
-        "market_attention_score": 42.1,
-        "signal_score": 52.7
-      },
-      "IBM": {
-        "discovery_score": 23.3,
-        "market_attention_score": 47.6,
-        "signal_score": 45.8
-      },
-      "JPM": {
-        "discovery_score": 26.3,
-        "market_attention_score": 76.1,
-        "signal_score": 47.2
-      },
-      "KR": {
-        "discovery_score": 30.4,
-        "market_attention_score": 48.5,
+      "GM": {
+        "discovery_score": 45.2,
+        "market_attention_score": 52.2,
         "signal_score": 45.6
       },
-      "LMT": {
-        "discovery_score": 37.5,
-        "market_attention_score": 46.0,
+      "GS": {
+        "discovery_score": 31.8,
+        "market_attention_score": 77.6,
+        "signal_score": 46.5
+      },
+      "HSBC": {
+        "discovery_score": 56.1,
+        "market_attention_score": 42.0,
+        "signal_score": 52.6
+      },
+      "IBM": {
+        "discovery_score": 23.4,
+        "market_attention_score": 47.5,
+        "signal_score": 45.8
+      },
+      "IPAR": {
+        "discovery_score": 60.0,
+        "market_attention_score": 21.2,
+        "signal_score": 40.4
+      },
+      "JD": {
+        "discovery_score": 67.2,
+        "market_attention_score": 29.6,
+        "signal_score": 60.9
+      },
+      "JPM": {
+        "discovery_score": 26.1,
+        "market_attention_score": 75.9,
         "signal_score": 47.2
+      },
+      "KMT": {
+        "discovery_score": 60.3,
+        "market_attention_score": 24.3,
+        "signal_score": 50.8
+      },
+      "KR": {
+        "discovery_score": 30.3,
+        "market_attention_score": 48.4,
+        "signal_score": 45.4
+      },
+      "LMT": {
+        "discovery_score": 36.9,
+        "market_attention_score": 44.3,
+        "signal_score": 46.7
+      },
+      "MANH": {
+        "discovery_score": 60.3,
+        "market_attention_score": 20.5,
+        "signal_score": 41.7
       },
       "MHK": {
         "discovery_score": 62.7,
@@ -31938,59 +31934,59 @@
         "signal_score": 50.9
       },
       "MS": {
-        "discovery_score": 23.6,
-        "market_attention_score": 55.9,
-        "signal_score": 46.2
+        "discovery_score": 25.7,
+        "market_attention_score": 63.6,
+        "signal_score": 47.7
       },
       "MSFT": {
-        "discovery_score": 29.0,
-        "market_attention_score": 59.2,
-        "signal_score": 46.6
+        "discovery_score": 26.9,
+        "market_attention_score": 54.4,
+        "signal_score": 46.0
       },
       "NFLX": {
-        "discovery_score": 39.1,
-        "market_attention_score": 56.2,
+        "discovery_score": 39.2,
+        "market_attention_score": 56.8,
         "signal_score": 41.5
       },
       "NVDA": {
-        "discovery_score": 32.8,
-        "market_attention_score": 82.9,
-        "signal_score": 46.2
+        "discovery_score": 32.9,
+        "market_attention_score": 85.5,
+        "signal_score": 46.3
+      },
+      "ORCL": {
+        "discovery_score": 33.7,
+        "market_attention_score": 50.7,
+        "signal_score": 45.1
       },
       "PFE": {
-        "discovery_score": 40.1,
-        "market_attention_score": 46.2,
-        "signal_score": 46.1
+        "discovery_score": 40.2,
+        "market_attention_score": 46.4,
+        "signal_score": 46.2
       },
       "QCOM": {
-        "discovery_score": 23.9,
-        "market_attention_score": 72.6,
+        "discovery_score": 23.8,
+        "market_attention_score": 72.5,
         "signal_score": 47.8
       },
       "RL": {
-        "discovery_score": 60.4,
-        "market_attention_score": 26.8,
-        "signal_score": 54.7
-      },
-      "SO": {
-        "discovery_score": 51.9,
-        "market_attention_score": 47.7,
-        "signal_score": 47.8
+        "discovery_score": 60.8,
+        "market_attention_score": 26.9,
+        "signal_score": 55.1
       },
       "STT": {
         "discovery_score": 22.2,
-        "market_attention_score": 41.0,
+        "market_attention_score": 40.6,
         "signal_score": 46.0
       },
       "TSLA": {
-        "discovery_score": 33.0,
-        "market_attention_score": 66.4,
-        "signal_score": 48.5
+        "discovery_score": 32.8,
+        "market_attention_score": 63.8,
+        "signal_score": 48.2
       },
       "UNM": {
         "discovery_score": 55.2,
         "market_attention_score": 24.2,
-        "signal_score": 44.0
+        "signal_score": 44.1
       },
       "UTI": {
         "discovery_score": 55.8,
@@ -31998,23 +31994,23 @@
         "signal_score": 44.0
       },
       "WAFDP": {
-        "discovery_score": 53.7,
+        "discovery_score": 53.6,
         "market_attention_score": 19.9,
-        "signal_score": 45.1
+        "signal_score": 45.0
       },
       "WFC": {
-        "discovery_score": 26.6,
-        "market_attention_score": 60.0,
-        "signal_score": 46.1
+        "discovery_score": 26.7,
+        "market_attention_score": 60.4,
+        "signal_score": 46.0
       },
       "WING": {
         "discovery_score": 65.0,
         "market_attention_score": 28.4,
-        "signal_score": 61.2
+        "signal_score": 61.1
       },
       "WMT": {
-        "discovery_score": 29.1,
-        "market_attention_score": 49.1,
+        "discovery_score": 28.9,
+        "market_attention_score": 49.7,
         "signal_score": 46.1
       }
     }
