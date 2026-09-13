@@ -9684,7 +9684,7 @@
       }
     },
     "DLTR": {
-      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "cached_at": "2026-09-13T19:34:20.620101+00:00",
       "data": {
         "name": "Dollar Tree Inc",
         "industry": "Retail",
@@ -9693,17 +9693,17 @@
         "ipo_date": "1995-03-06",
         "weburl": "https://www.dollartree.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/DLTR.png",
-        "market_cap": 24774186033.951313,
-        "pe_ttm": 19.3504,
-        "ps_ttm": 1.2605,
+        "market_cap": 22172272620.710945,
+        "pe_ttm": 13.7502,
+        "ps_ttm": 1.1048,
         "pb_annual": 6.2078,
-        "revenue_growth_ttm_yoy": 51.33,
+        "revenue_growth_ttm_yoy": 48.09,
         "eps_growth_ttm_yoy": -4.81,
-        "gross_margin_ttm": 36.71,
-        "net_margin_ttm": 6.51,
+        "gross_margin_ttm": 38.74,
+        "net_margin_ttm": 8.03,
         "current_ratio": 1.0674,
         "debt_equity": 0.6476,
-        "beta": 0.7153017
+        "beta": 0.6785781
       }
     },
     "AMGN": {
@@ -13272,7 +13272,7 @@
       }
     },
     "COST": {
-      "cached_at": "2026-09-04T16:54:04.704245+00:00",
+      "cached_at": "2026-09-13T19:34:20.620101+00:00",
       "data": {
         "name": "Costco Wholesale Corp",
         "industry": "Retail",
@@ -13281,9 +13281,9 @@
         "ipo_date": "1985-12-05",
         "weburl": "https://www.costco.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/COST.png",
-        "market_cap": 406267609854.1072,
-        "pe_ttm": 46.5899,
-        "ps_ttm": 1.4025,
+        "market_cap": 401246334867.4501,
+        "pe_ttm": 45.4001,
+        "ps_ttm": 1.3667,
         "pb_annual": 14.3444,
         "revenue_growth_ttm_yoy": 9.23,
         "eps_growth_ttm_yoy": 12.79,
@@ -13291,7 +13291,7 @@
         "net_margin_ttm": 3.01,
         "current_ratio": 1.0343,
         "debt_equity": 0.2492,
-        "beta": 0.86119664
+        "beta": 0.86563176
       }
     },
     "FICO": {
@@ -13709,7 +13709,7 @@
       }
     },
     "FROG": {
-      "cached_at": "2026-09-05T05:54:18.058181+00:00",
+      "cached_at": "2026-09-13T19:34:20.620101+00:00",
       "data": {
         "name": "Jfrog Ltd",
         "industry": "Technology",
@@ -13718,9 +13718,9 @@
         "ipo_date": "2020-09-16",
         "weburl": "https://www.jfrog.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950378454696.png",
-        "market_cap": 10801195293.433395,
+        "market_cap": 10749408853.38071,
         "pe_ttm": null,
-        "ps_ttm": 18.6217,
+        "ps_ttm": 17.9168,
         "pb_annual": 8.3271,
         "revenue_growth_ttm_yoy": 26.37,
         "eps_growth_ttm_yoy": null,
@@ -13728,7 +13728,7 @@
         "net_margin_ttm": -7.35,
         "current_ratio": 2.1422,
         "debt_equity": 0,
-        "beta": 1.2964324
+        "beta": 1.3108168
       }
     },
     "PAG": {
@@ -18398,6 +18398,75 @@
         "current_ratio": 1.5664,
         "debt_equity": 0.4493,
         "beta": -1.0053756
+      }
+    },
+    "FNB": {
+      "cached_at": "2026-09-13T19:34:20.620101+00:00",
+      "data": {
+        "name": "FNB Corp",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1986-09-02",
+        "weburl": "https://www.fnb-online.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FNB.png",
+        "market_cap": 6463447962.049835,
+        "pe_ttm": 10.7011,
+        "ps_ttm": 2.56275,
+        "pb_annual": 0.9061,
+        "revenue_growth_ttm_yoy": 64.79501,
+        "eps_growth_ttm_yoy": 30.25,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 34.76942,
+        "current_ratio": null,
+        "debt_equity": 0.2608,
+        "beta": 0.9286175
+      }
+    },
+    "EWBC": {
+      "cached_at": "2026-09-13T19:34:20.620101+00:00",
+      "data": {
+        "name": "East West Bancorp Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1999-02-08",
+        "weburl": "https://investor.eastwestbank.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EWBC.png",
+        "market_cap": 17697820781.818348,
+        "pe_ttm": 12.2378,
+        "ps_ttm": 3.27879,
+        "pb_annual": 1.7376,
+        "revenue_growth_ttm_yoy": 74.7411,
+        "eps_growth_ttm_yoy": 21.65,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 47.99344,
+        "current_ratio": null,
+        "debt_equity": 0.004,
+        "beta": 1.0066589
+      }
+    },
+    "GIII": {
+      "cached_at": "2026-09-13T19:34:20.620101+00:00",
+      "data": {
+        "name": "G-III Apparel Group Ltd",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1989-12-14",
+        "weburl": "https://www.giii.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GIII.png",
+        "market_cap": 1195825778.5265632,
+        "pe_ttm": 8.8317,
+        "ps_ttm": 0.4196,
+        "pb_annual": 0.7185,
+        "revenue_growth_ttm_yoy": -8.74,
+        "eps_growth_ttm_yoy": -24.21,
+        "gross_margin_ttm": 44.39,
+        "net_margin_ttm": 4.75,
+        "current_ratio": 2.6922,
+        "debt_equity": 0.0067,
+        "beta": 1.3349653
       }
     }
   }

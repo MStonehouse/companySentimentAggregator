@@ -8203,6 +8203,50 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "FNB": {
+      "updated_at": "2026-09-13",
+      "data": {
+        "name": "FNB Corp",
+        "description": "FNB provides a full range of commercial banking, consumer banking and wealth management services plus industry leading online and mobile banking solutions",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.fnb-online.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "EWBC": {
+      "updated_at": "2026-09-13",
+      "data": {
+        "name": "East West Bancorp Inc",
+        "description": "East West Bancorp, Inc. is the banking holding company for East West Bank providing a range of personal and commercial banking services to businesses and individuals in the United States and Greater China. The company is headquartered in Pasadena, California.",
+        "industry": "BANKS - REGIONAL",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "GIII": {
+      "updated_at": "2026-09-13",
+      "data": {
+        "name": "G-III Apparel Group Ltd",
+        "description": "Visit G-III Apparel Group online to learn about our footprint as a global fashion leader with a portfolio of over 30 licensed and owned brands.",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.giii.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
