@@ -8393,6 +8393,47 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "D": {
+      "updated_at": "2026-09-14",
+      "data": {
+        "name": "Dominion Energy Inc",
+        "description": "You are on Dominion Energy HomePage.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.dominionenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "TECH": {
+      "updated_at": "2026-09-14",
+      "data": {
+        "name": "Bio-Techne Corp",
+        "description": "Bio-Techne empowers researchers by providing high-quality reagents, instruments, custom manufacturing, and testing services with our family of brands.",
+        "industry": "Life Sciences Tools & Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.bio-techne.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ADUS": {
+      "updated_at": "2026-09-14",
+      "data": {
+        "name": "Addus Homecare Corp",
+        "description": "Our caregivers provide quality in-home supportive services so you can remain in your home, comfortably and confidently. Let’s talk.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://addus.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
