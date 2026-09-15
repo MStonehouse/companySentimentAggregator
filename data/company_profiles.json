@@ -8434,6 +8434,94 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "RLGT": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Radiant Logistics Inc",
+        "description": "Radiant Logistics, Inc. provides multimodal transportation and logistics services primarily in the United States and Canada. The company is headquartered in Bellevue, Washington.",
+        "industry": "INTEGRATED FREIGHT & LOGISTICS",
+        "sector": "INDUSTRIALS",
+        "country": "USA",
+        "exchange": "AMEX",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "MT": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "ArcelorMittal SA",
+        "description": "ArcelorMittal SA is a publicly traded company operating in the Metals & Mining industry with company information identifying LU as its home market.",
+        "industry": "Metals & Mining",
+        "country": "LU",
+        "exchange": "NYSE EURONEXT - EURONEXT AMSTERDAM",
+        "website": "https://corporate.arcelormittal.com/",
+        "products_markets": [
+          "Mining"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "BUR": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Burford Capital Ltd",
+        "description": "The leading finance firm focused on law and the only to be listed on the NYSE and LSE, Burford helps companies and law firms optimize their legal assets.",
+        "industry": "Financial Services",
+        "country": "GG",
+        "exchange": "LONDON STOCK EXCHANGE",
+        "website": "https://www.burfordcapital.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ONCO": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Onconetix Inc",
+        "description": "Onconetix is a biotechnology and pharmaceutical company focused on developing and commercializing transformational therapies to address significant health challenges globally.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.onconetix.com/",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "AKR": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Acadia Realty Trust",
+        "description": "Acadia Realty Trust is a publicly traded company operating in the Real Estate industry with company information identifying US as its home market.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.acadiarealty.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "LCID": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Lucid Group Inc",
+        "description": "Lucid is the future of sustainable mobility, designing electric cars that further reimagines the driving experience.",
+        "industry": "Automobiles",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.lucidmotors.com/",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
