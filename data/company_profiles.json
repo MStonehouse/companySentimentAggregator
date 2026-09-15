@@ -8649,6 +8649,88 @@
         "products_markets": [],
         "source": "Alpha Vantage Company Overview"
       }
+    },
+    "LASE": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Laser Photonics Corp",
+        "description": "Laser Photonics manufactures reliable, safe, and eco-friendly Laser Cleaning, Laser Cutting, Laser Engraving, Laser Marking, and Laser Welding solutions.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.laserphotonics.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CDW": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "CDW Corp",
+        "description": "The information technology products, expertise and service you need to make your business successful.Fast shipping, fast answers, the industry",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.cdw.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "BBNX": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Beta Bionics Inc",
+        "description": "No math. No dosing decisions. Just freedom to live.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.betabionics.com",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "DT": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Dynatrace Inc",
+        "description": "Dynatrace is a global company with a singular vision: make the world’s software work perfectly and ensure every digital interaction is flawless and secure.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://ir.dynatrace.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "VLO": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Valero Energy Corp",
+        "description": "Valero is the best-in-class producer of fuels and products that are essential to modern life. We are the largest global independent refiner and America’s largest producer of renewable fuels, advancing the future of sustainable energy. Learn more.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.valero.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ARCC": {
+      "updated_at": "2026-09-15",
+      "data": {
+        "name": "Ares Capital Corp",
+        "description": "Ares Capital Corp is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.arescapitalcorp.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }
