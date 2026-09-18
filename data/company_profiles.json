@@ -9306,6 +9306,61 @@
         ],
         "source": "Company website"
       }
+    },
+    "WCN": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Waste Connections, Inc",
+        "description": "Waste Connections offers industry leading services - trash pickup, dumpster rental, and recycling across the country. Learn more now!",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "website": "https://www.wasteconnections.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "RTB": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "RTB Digital, Inc.",
+        "description": "RTB Digital, Inc. (RTB) is a prominent telecommunications provider in Brazil, dedicated to delivering broadband internet and digital television services to residential and commercial users. With a robust national infrastructure, RTB is instrumental in enhancing connectivity and driving digital inclusion, particularly in underserved areas. The company strategically adapts to the dynamic digital landscape, capitalizing on favorable government initiatives to bolster its service portfolio. This positions RTB favorably to capture the growing demand for innovative telecommunications solutions in Brazil’s rapidly changing market.",
+        "industry": "SOFTWARE - APPLICATION",
+        "sector": "TECHNOLOGY",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "XENE": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Xenon Pharmaceuticals Inc",
+        "description": "A leading neuroscience company forging new paths for those living with neurological and psychiatric disorders.",
+        "industry": "Biotechnology",
+        "country": "CA",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.xenon-pharma.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "DIS": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Walt Disney Co",
+        "description": "The mission of The Walt Disney Company is to be one of the world",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://thewaltdisneycompany.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }

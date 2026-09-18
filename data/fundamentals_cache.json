@@ -2692,7 +2692,7 @@
       }
     },
     "BAC": {
-      "cached_at": "2026-09-11T23:23:25.202129+00:00",
+      "cached_at": "2026-09-18T23:23:40.990973+00:00",
       "data": {
         "name": "Bank of America Corp",
         "industry": "Banking",
@@ -2701,8 +2701,8 @@
         "ipo_date": "1979-06-05",
         "weburl": "https://www.bankofamerica.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BAC.png",
-        "market_cap": 439389363851.379,
-        "pe_ttm": 12.9767,
+        "market_cap": 406838120497.44525,
+        "pe_ttm": 12.0885,
         "ps_ttm": 2.32875,
         "pb_annual": 1.3245,
         "revenue_growth_ttm_yoy": 99.36713,
@@ -2711,7 +2711,7 @@
         "net_margin_ttm": 30.15501,
         "current_ratio": null,
         "debt_equity": 2.3296,
-        "beta": 1.1920296
+        "beta": 1.2064956
       }
     },
     "JBSS": {
@@ -5084,7 +5084,7 @@
       }
     },
     "ADNT": {
-      "cached_at": "2026-08-22T02:31:01.141880+00:00",
+      "cached_at": "2026-09-18T23:23:40.990973+00:00",
       "data": {
         "name": "Adient PLC",
         "industry": "Auto Components",
@@ -5093,9 +5093,9 @@
         "ipo_date": "2016-10-17",
         "weburl": "https://www.adient.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ADNT.png",
-        "market_cap": 1542709579.8748078,
-        "pe_ttm": 31.2724,
-        "ps_ttm": 0.0992,
+        "market_cap": 1423980288.0828304,
+        "pe_ttm": 29.2808,
+        "ps_ttm": 0.0929,
         "pb_annual": 1.0793,
         "revenue_growth_ttm_yoy": 4.98,
         "eps_growth_ttm_yoy": null,
@@ -5103,7 +5103,7 @@
         "net_margin_ttm": 0.32,
         "current_ratio": 1.121,
         "debt_equity": 1.3573,
-        "beta": 1.6261891
+        "beta": 1.6583834
       }
     },
     "WIMI": {
@@ -9937,7 +9937,7 @@
       }
     },
     "LII": {
-      "cached_at": "2026-08-27T22:59:37.513903+00:00",
+      "cached_at": "2026-09-18T23:23:40.990973+00:00",
       "data": {
         "name": "Lennox International Inc",
         "industry": "Building",
@@ -9946,9 +9946,9 @@
         "ipo_date": "1999-07-28",
         "weburl": "https://www.lennox.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LII.png",
-        "market_cap": 13500091525.287664,
-        "pe_ttm": 18.2228,
-        "ps_ttm": 2.7292,
+        "market_cap": 12410048038.309547,
+        "pe_ttm": 15.7131,
+        "ps_ttm": 2.3533,
         "pb_annual": 14.6425,
         "revenue_growth_ttm_yoy": -2.11,
         "eps_growth_ttm_yoy": -3.03,
@@ -9956,7 +9956,7 @@
         "net_margin_ttm": 14.98,
         "current_ratio": 1.5974,
         "debt_equity": 1.1937,
-        "beta": 1.1614219
+        "beta": 1.1946133
       }
     },
     "PCAR": {
@@ -13548,7 +13548,7 @@
       }
     },
     "WPC": {
-      "cached_at": "2026-09-04T23:06:15.504510+00:00",
+      "cached_at": "2026-09-18T23:23:40.990973+00:00",
       "data": {
         "name": "W.p. Carey Inc",
         "industry": "Real Estate",
@@ -13558,8 +13558,8 @@
         "weburl": "https://www.wpcarey.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950376222136.png",
         "market_cap": 16876669999.999998,
-        "pe_ttm": 24.6992,
-        "ps_ttm": 8.9757,
+        "pe_ttm": 24.1883,
+        "ps_ttm": 8.7901,
         "pb_annual": 1.7622,
         "revenue_growth_ttm_yoy": 8.96,
         "eps_growth_ttm_yoy": 91.83,
@@ -13567,7 +13567,7 @@
         "net_margin_ttm": 36.34,
         "current_ratio": 0.1781,
         "debt_equity": 1.0745,
-        "beta": 0.7919786
+        "beta": 0.7983654
       }
     },
     "UMC": {
@@ -20767,6 +20767,75 @@
         "current_ratio": 0.0353,
         "debt_equity": 4.4015,
         "beta": 1.0899361
+      }
+    },
+    "WCN": {
+      "cached_at": "2026-09-18T23:23:40.990973+00:00",
+      "data": {
+        "name": "Waste Connections, Inc",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "ipo_date": "2002-04-25",
+        "weburl": "https://www.wasteconnections.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WCN.TO.png",
+        "market_cap": 58592910000.0,
+        "pe_ttm": 37.7295,
+        "ps_ttm": 4.098,
+        "pb_annual": 5.442,
+        "revenue_growth_ttm_yoy": 5.74,
+        "eps_growth_ttm_yoy": 66.8,
+        "gross_margin_ttm": 42.53,
+        "net_margin_ttm": 10.86,
+        "current_ratio": 0.6174,
+        "debt_equity": 1.0697,
+        "beta": 0.17657807
+      }
+    },
+    "XENE": {
+      "cached_at": "2026-09-18T23:23:40.990973+00:00",
+      "data": {
+        "name": "Xenon Pharmaceuticals Inc",
+        "industry": "Biotechnology",
+        "country": "CA",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2014-10-17",
+        "weburl": "https://www.xenon-pharma.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/XENE.png",
+        "market_cap": 6204960000.0,
+        "pe_ttm": null,
+        "ps_ttm": 757.2922,
+        "pb_annual": 6.0863,
+        "revenue_growth_ttm_yoy": -7.35,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -867.29,
+        "current_ratio": 13.4152,
+        "debt_equity": 0,
+        "beta": 0.06892306
+      }
+    },
+    "DIS": {
+      "cached_at": "2026-09-18T23:23:40.990973+00:00",
+      "data": {
+        "name": "Walt Disney Co",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1957-11-12",
+        "weburl": "https://thewaltdisneycompany.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/DIS.png",
+        "market_cap": 181906460192.51566,
+        "pe_ttm": 21.1519,
+        "ps_ttm": 1.84,
+        "pb_annual": 1.9024,
+        "revenue_growth_ttm_yoy": 4.58,
+        "eps_growth_ttm_yoy": -24,
+        "gross_margin_ttm": 37.6,
+        "net_margin_ttm": 8.7,
+        "current_ratio": 0.7104,
+        "debt_equity": 0.384,
+        "beta": 1.4668876
       }
     }
   }
