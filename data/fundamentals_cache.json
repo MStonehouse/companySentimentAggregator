@@ -70,7 +70,7 @@
       }
     },
     "AAPL": {
-      "cached_at": "2026-09-09T17:11:45.286005+00:00",
+      "cached_at": "2026-09-18T19:46:49.347238+00:00",
       "data": {
         "name": "Apple Inc",
         "industry": "Technology",
@@ -79,9 +79,9 @@
         "ipo_date": "1980-12-12",
         "weburl": "https://www.apple.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AAPL.png",
-        "market_cap": 4614971518388.078,
-        "pe_ttm": 36.2189,
-        "ps_ttm": 10.0031,
+        "market_cap": 4918238608870.607,
+        "pe_ttm": 37.627,
+        "ps_ttm": 10.3921,
         "pb_annual": 50.978,
         "revenue_growth_ttm_yoy": 14.24,
         "eps_growth_ttm_yoy": 32.61,
@@ -89,7 +89,7 @@
         "net_margin_ttm": 27.62,
         "current_ratio": 0.8933,
         "debt_equity": 1.3547,
-        "beta": 1.0966319
+        "beta": 1.0825855
       }
     },
     "MSFT": {
@@ -5797,7 +5797,7 @@
       }
     },
     "QUBT": {
-      "cached_at": "2026-08-23T02:40:04.103552+00:00",
+      "cached_at": "2026-09-18T19:46:49.347238+00:00",
       "data": {
         "name": "Quantum Computing Inc",
         "industry": "Technology",
@@ -5806,17 +5806,17 @@
         "ipo_date": "2018-02-01",
         "weburl": "https://quantumcomputinginc.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950646231756.png",
-        "market_cap": 2019014101.4398034,
+        "market_cap": 1910367521.61,
         "pe_ttm": null,
-        "ps_ttm": 465.8546,
+        "ps_ttm": 184.3215,
         "pb_annual": 1.4388,
-        "revenue_growth_ttm_yoy": 1025.71,
+        "revenue_growth_ttm_yoy": 3635.36,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": -15.39,
-        "net_margin_ttm": -916.15,
+        "gross_margin_ttm": -18.92,
+        "net_margin_ttm": -152.45,
         "current_ratio": 102.3767,
         "debt_equity": 0,
-        "beta": 3.8519473
+        "beta": 4.0115614
       }
     },
     "STRL": {
@@ -6740,7 +6740,7 @@
       }
     },
     "PM": {
-      "cached_at": "2026-08-24T14:08:10.992482+00:00",
+      "cached_at": "2026-09-18T19:46:49.347238+00:00",
       "data": {
         "name": "Philip Morris International Inc",
         "industry": "Tobacco",
@@ -6749,9 +6749,9 @@
         "ipo_date": "2008-03-17",
         "weburl": "https://www.pmi.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PM.png",
-        "market_cap": 293377830429.07086,
-        "pe_ttm": 27.007,
-        "ps_ttm": 6.9027,
+        "market_cap": 296884714713.63074,
+        "pe_ttm": 27.4786,
+        "ps_ttm": 7.0232,
         "pb_annual": 592.31,
         "revenue_growth_ttm_yoy": 8.93,
         "eps_growth_ttm_yoy": 31.96,
@@ -6759,7 +6759,7 @@
         "net_margin_ttm": 25.56,
         "current_ratio": 0.9582,
         "debt_equity": 80.9825,
-        "beta": 0.37449864
+        "beta": 0.38862166
       }
     },
     "MO": {
@@ -12812,7 +12812,7 @@
       }
     },
     "GOLD": {
-      "cached_at": "2026-09-03T17:04:54.012203+00:00",
+      "cached_at": "2026-09-18T19:46:49.347238+00:00",
       "data": {
         "name": "Gold.com Inc",
         "industry": "Distributors",
@@ -12821,17 +12821,17 @@
         "ipo_date": "2014-03-17",
         "weburl": "https://www.gold.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AMRK.png",
-        "market_cap": 1165830786.6225467,
-        "pe_ttm": 15.7869,
-        "ps_ttm": 0.0552,
-        "pb_annual": 0.8414,
-        "revenue_growth_ttm_yoy": 109.44,
-        "eps_growth_ttm_yoy": 85.57,
-        "gross_margin_ttm": 1.84,
-        "net_margin_ttm": 0.35,
-        "current_ratio": 1.5649,
-        "debt_equity": 1.3597,
-        "beta": 0.6549682
+        "market_cap": 1366483430.8182402,
+        "pe_ttm": 16.7689,
+        "ps_ttm": 0.0541,
+        "pb_annual": 1.353,
+        "revenue_growth_ttm_yoy": 132.39,
+        "eps_growth_ttm_yoy": 321.47,
+        "gross_margin_ttm": 1.78,
+        "net_margin_ttm": 0.32,
+        "current_ratio": 1.1454,
+        "debt_equity": 0.9929,
+        "beta": 0.64149386
       }
     },
     "AEO": {
@@ -20721,6 +20721,52 @@
         "current_ratio": null,
         "debt_equity": 0.1148,
         "beta": 0.77860296
+      }
+    },
+    "AEE": {
+      "cached_at": "2026-09-18T19:46:49.347238+00:00",
+      "data": {
+        "name": "Ameren Corp",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1952-12-15",
+        "weburl": "https://www.ameren.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AEE.png",
+        "market_cap": 28764015148.193905,
+        "pe_ttm": 18.2508,
+        "ps_ttm": 3.2605,
+        "pb_annual": 2.0156,
+        "revenue_growth_ttm_yoy": 3.76,
+        "eps_growth_ttm_yoy": 24.77,
+        "gross_margin_ttm": 43.39051,
+        "net_margin_ttm": 17.86,
+        "current_ratio": 0.658,
+        "debt_equity": 1.4797,
+        "beta": 0.45008728
+      }
+    },
+    "RM": {
+      "cached_at": "2026-09-18T19:46:49.347238+00:00",
+      "data": {
+        "name": "Regional Management Corp",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2012-03-28",
+        "weburl": "https://www.regionalmanagement.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950373635306.png",
+        "market_cap": 296147972.1295144,
+        "pe_ttm": 6.3274,
+        "ps_ttm": 0.4418,
+        "pb_annual": 1.0088,
+        "revenue_growth_ttm_yoy": 9.63,
+        "eps_growth_ttm_yoy": 36.84,
+        "gross_margin_ttm": 100,
+        "net_margin_ttm": 6.98,
+        "current_ratio": 0.0353,
+        "debt_equity": 4.4015,
+        "beta": 1.0899361
       }
     }
   }
