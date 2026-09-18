@@ -9174,6 +9174,48 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "LMT": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Lockheed Martin Corp",
+        "description": "Lockheed Martin is a leading global security, defense and aerospace contractor, ensuring those we serve always stay ahead of ready.",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.lockheedmartin.com/",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SURG": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Surgepays Inc",
+        "description": "SurgePays is a publicly traded holding company with subsidiaries in Telecom, Blockchain Fintech Companies, Social Media Marketing and Cryptocurrency markets.",
+        "industry": "Telecommunication",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://surgepays.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "STLD": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Steel Dynamics Inc",
+        "description": "Steel Dynamics, Inc., is a steel producer and metal recycler in the United States.",
+        "industry": "STEEL",
+        "sector": "BASIC MATERIALS",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
     }
   }
 }
