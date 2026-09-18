@@ -9216,6 +9216,81 @@
         "products_markets": [],
         "source": "Alpha Vantage Company Overview"
       }
+    },
+    "NUE": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Nucor Corp",
+        "description": "Nucor is an American manufacturer of steel, specializing in low-embodied carbon EAF steel products and capabilities that drive the circular economy.",
+        "industry": "Metals & Mining",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://nucor.com/",
+        "products_markets": [
+          "Mining"
+        ],
+        "source": "Company website"
+      }
+    },
+    "PNR": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Pentair PLC",
+        "description": "From residential and commercial water solutions to industrial water management and everything in between, Pentair is focused on smart, sustainable water solutions that help our planet and people thrive.",
+        "industry": "Machinery",
+        "country": "GB",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.pentair.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "IPAR": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Interparfums Inc",
+        "description": "Inter Parfums, Inc. develops, manufactures and distributes prestige perfumes and cosmetics as the exclusive worldwide licensee for Abercrombie & Fitch, Anna Sui, Boucheron, Coach, Dunhill, Ferragamo, Graff, GUESS, Hollister, Jimmy Choo, Karl Lagerfeld, Kate Spade, MCM, Moncler, Montblanc, Oscar de la Renta, Paul Smith, Repetto, S.T. Dupont and Van Cleef & Arpels.",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.interparfumsinc.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "MTSI": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "MACOM Technology Solutions Holdings Inc",
+        "description": "MACOM designs and manufactures high-performance semiconductor products for the Telecommunications, Industrial and Defense, and Data Center industries.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.macom.com/",
+        "products_markets": [
+          "Semiconductors",
+          "Data centers",
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
+    },
+    "HALO": {
+      "updated_at": "2026-09-18",
+      "data": {
+        "name": "Halozyme Therapeutics Inc",
+        "description": "Halozyme Therapeutics, Inc. is a biopharmaceutical technology platform company in the United States, Switzerland, Ireland, Belgium, Japan, and internationally. The company is headquartered in San Diego, California.",
+        "industry": "BIOTECHNOLOGY",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
     }
   }
 }
