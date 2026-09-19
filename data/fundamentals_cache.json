@@ -760,7 +760,7 @@
       }
     },
     "GS": {
-      "cached_at": "2026-09-11T23:23:25.202129+00:00",
+      "cached_at": "2026-09-19T06:03:46.105826+00:00",
       "data": {
         "name": "Goldman Sachs Group Inc",
         "industry": "Financial Services",
@@ -769,9 +769,9 @@
         "ipo_date": "1999-05-04",
         "weburl": "https://www.goldmansachs.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GS.png",
-        "market_cap": 299598651717.7522,
-        "pe_ttm": 14.3598,
-        "ps_ttm": 2.2306,
+        "market_cap": 274283466590.67972,
+        "pe_ttm": 13.0792,
+        "ps_ttm": 2.0316,
         "pb_annual": 2.1096,
         "revenue_growth_ttm_yoy": 6.67,
         "eps_growth_ttm_yoy": 41.66,
@@ -779,7 +779,7 @@
         "net_margin_ttm": 15.53,
         "current_ratio": 0.315,
         "debt_equity": 9.3015,
-        "beta": 1.2878581
+        "beta": 1.2978563
       }
     },
     "NOW": {
@@ -1082,7 +1082,7 @@
       }
     },
     "MRCY": {
-      "cached_at": "2026-08-18T23:48:44.884590+00:00",
+      "cached_at": "2026-09-19T06:03:46.105826+00:00",
       "data": {
         "name": "Mercury Systems Inc",
         "industry": "Aerospace & Defense",
@@ -1091,17 +1091,17 @@
         "ipo_date": "1998-01-30",
         "weburl": "https://www.mrcy.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MRCY.png",
-        "market_cap": 6806506565.00144,
+        "market_cap": 5128409294.646553,
         "pe_ttm": null,
-        "ps_ttm": 6.9414,
-        "pb_annual": 2.166,
-        "revenue_growth_ttm_yoy": 8.95,
+        "ps_ttm": 5.3349,
+        "pb_annual": 5.0606,
+        "revenue_growth_ttm_yoy": 7.85,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 28.68,
-        "net_margin_ttm": -1.46,
-        "current_ratio": 3.5228,
-        "debt_equity": 0.4014,
-        "beta": 1.0305429
+        "gross_margin_ttm": 28.58,
+        "net_margin_ttm": -3.02,
+        "current_ratio": 2.9631,
+        "debt_equity": 0.2948,
+        "beta": 0.985066
       }
     },
     "MU": {
@@ -10351,7 +10351,7 @@
       }
     },
     "GCTK": {
-      "cached_at": "2026-09-11T23:23:25.202129+00:00",
+      "cached_at": "2026-09-19T06:03:46.105826+00:00",
       "data": {
         "name": "GlucoTrack Inc",
         "industry": "Health Care",
@@ -10360,9 +10360,9 @@
         "ipo_date": "2013-04-09",
         "weburl": "https://glucotrack.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950357048346.png",
-        "market_cap": 1971415.5882352942,
+        "market_cap": 1971415.9705882354,
         "pe_ttm": null,
-        "ps_ttm": 33.9477,
+        "ps_ttm": 23.8911,
         "pb_annual": 1.2462,
         "revenue_growth_ttm_yoy": null,
         "eps_growth_ttm_yoy": null,
@@ -10370,7 +10370,7 @@
         "net_margin_ttm": -3871.6,
         "current_ratio": 1.6063,
         "debt_equity": 1.2069,
-        "beta": 0.7052229
+        "beta": 0.72546804
       }
     },
     "PH": {
@@ -20836,6 +20836,144 @@
         "current_ratio": 0.7104,
         "debt_equity": 0.384,
         "beta": 1.4668876
+      }
+    },
+    "MG": {
+      "cached_at": "2026-09-19T06:03:46.105826+00:00",
+      "data": {
+        "name": "Mistras Group Inc",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2009-10-08",
+        "weburl": "https://www.mistrasgroup.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942980167846.png",
+        "market_cap": 660885256.6154233,
+        "pe_ttm": 23.4255,
+        "ps_ttm": 0.8549,
+        "pb_annual": 1.6975,
+        "revenue_growth_ttm_yoy": 5.23,
+        "eps_growth_ttm_yoy": 133.32,
+        "gross_margin_ttm": 28.53,
+        "net_margin_ttm": 3.65,
+        "current_ratio": 1.7392,
+        "debt_equity": 0.8607,
+        "beta": 0.95546937
+      }
+    },
+    "KRMN": {
+      "cached_at": "2026-09-19T06:03:46.105826+00:00",
+      "data": {
+        "name": "Karman Holdings Inc",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2025-02-13",
+        "weburl": "https://www.Karman-SD.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950833429776.png",
+        "market_cap": 4738080013.333333,
+        "pe_ttm": 125.7151,
+        "ps_ttm": 7.9288,
+        "pb_annual": 25.2999,
+        "revenue_growth_ttm_yoy": 5.19,
+        "eps_growth_ttm_yoy": 152.52,
+        "gross_margin_ttm": 41.67,
+        "net_margin_ttm": 6.31,
+        "current_ratio": 3.2865,
+        "debt_equity": 1.517,
+        "beta": 2.4339454
+      }
+    },
+    "HIMS": {
+      "cached_at": "2026-09-19T06:03:46.105826+00:00",
+      "data": {
+        "name": "Hims & Hers Health Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2019-09-09",
+        "weburl": "https://www.forhims.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HIMS.png",
+        "market_cap": 6530442314.889207,
+        "pe_ttm": 50.8922,
+        "ps_ttm": 2.5339,
+        "pb_annual": 13.6649,
+        "revenue_growth_ttm_yoy": 28.04,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 69.53,
+        "net_margin_ttm": -5.51,
+        "current_ratio": 1.8981,
+        "debt_equity": 1.798,
+        "beta": 2.549458
+      }
+    },
+    "LIFE": {
+      "cached_at": "2026-09-19T06:03:46.105826+00:00",
+      "data": {
+        "name": "Ethos Technologies Inc",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2026-01-29",
+        "weburl": "https://www.ethos.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942964475866.png",
+        "market_cap": 2295317103.626374,
+        "pe_ttm": 35.8039,
+        "ps_ttm": 6.59816,
+        "pb_annual": 0.3373,
+        "revenue_growth_ttm_yoy": 190.8784,
+        "eps_growth_ttm_yoy": 41.57279,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -401.8903,
+        "current_ratio": 2.1716,
+        "debt_equity": 0.0639,
+        "beta": 0.63432693
+      }
+    },
+    "MGNI": {
+      "cached_at": "2026-09-19T06:03:46.105826+00:00",
+      "data": {
+        "name": "Magnite Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2014-02-04",
+        "weburl": "https://www.magnite.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MGNI.png",
+        "market_cap": 3607117601.6269994,
+        "pe_ttm": 20.4365,
+        "ps_ttm": 4.5963,
+        "pb_annual": 2.5277,
+        "revenue_growth_ttm_yoy": 8.32,
+        "eps_growth_ttm_yoy": 299.58,
+        "gross_margin_ttm": 64.78,
+        "net_margin_ttm": 22.49,
+        "current_ratio": 1.0216,
+        "debt_equity": 0.6029,
+        "beta": 2.442218
+      }
+    },
+    "GAUZ": {
+      "cached_at": "2026-09-19T06:03:46.105826+00:00",
+      "data": {
+        "name": "Gauzy Ltd",
+        "industry": "Electrical Equipment",
+        "country": "IL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2024-06-06",
+        "weburl": "https://www.gauzy.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950521270976.png",
+        "market_cap": 7064573.5813953485,
+        "pe_ttm": null,
+        "ps_ttm": 0.073,
+        "pb_annual": 3.833,
+        "revenue_growth_ttm_yoy": 7.87,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 27.84,
+        "net_margin_ttm": -39.63,
+        "current_ratio": 0.9626,
+        "debt_equity": 0.7972,
+        "beta": 3.0008478
       }
     }
   }
