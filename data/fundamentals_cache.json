@@ -2048,7 +2048,7 @@
       }
     },
     "MRK": {
-      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "cached_at": "2026-09-19T16:35:18.084724+00:00",
       "data": {
         "name": "Merck & Co Inc",
         "industry": "Pharmaceuticals",
@@ -2057,9 +2057,9 @@
         "ipo_date": "1941-01-01",
         "weburl": "https://www.merck.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MRK.png",
-        "market_cap": 370889902351.1836,
-        "pe_ttm": 116.5006,
-        "ps_ttm": 5.553,
+        "market_cap": 362353482395.01196,
+        "pe_ttm": 113.9794,
+        "ps_ttm": 5.4328,
         "pb_annual": 4.9663,
         "revenue_growth_ttm_yoy": 4.64,
         "eps_growth_ttm_yoy": -80.7,
@@ -2067,7 +2067,7 @@
         "net_margin_ttm": 4.77,
         "current_ratio": 1.5362,
         "debt_equity": 0.9379,
-        "beta": 0.14157374
+        "beta": 0.14364408
       }
     },
     "DE": {
@@ -4233,7 +4233,7 @@
       }
     },
     "HUBB": {
-      "cached_at": "2026-08-21T14:03:39.515695+00:00",
+      "cached_at": "2026-09-19T16:35:18.084724+00:00",
       "data": {
         "name": "Hubbell Inc",
         "industry": "Electrical Equipment",
@@ -4242,9 +4242,9 @@
         "ipo_date": "2009-10-29",
         "weburl": "https://www.hubbell.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HUBB.png",
-        "market_cap": 24818628434.99655,
-        "pe_ttm": 29.8013,
-        "ps_ttm": 4.3187,
+        "market_cap": 23611932377.897617,
+        "pe_ttm": 25.9641,
+        "ps_ttm": 3.7626,
         "pb_annual": 6.1338,
         "revenue_growth_ttm_yoy": 10.61,
         "eps_growth_ttm_yoy": 9.77,
@@ -4252,7 +4252,7 @@
         "net_margin_ttm": 14.49,
         "current_ratio": 1.7194,
         "debt_equity": 0.6043,
-        "beta": 0.85081166
+        "beta": 0.82888615
       }
     },
     "DHT": {
@@ -8649,7 +8649,7 @@
       }
     },
     "TBPH": {
-      "cached_at": "2026-08-26T02:41:57.658312+00:00",
+      "cached_at": "2026-09-19T16:35:18.084724+00:00",
       "data": {
         "name": "Theravance Biopharma Inc",
         "industry": "Pharmaceuticals",
@@ -8658,17 +8658,17 @@
         "ipo_date": "2014-05-16",
         "weburl": "https://www.theravance.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TBPH.png",
-        "market_cap": 884176402.1052322,
-        "pe_ttm": 7.6694,
-        "ps_ttm": 8.0024,
+        "market_cap": 883657250.8521127,
+        "pe_ttm": 16.4224,
+        "ps_ttm": 8.4714,
         "pb_annual": 3.1952,
-        "revenue_growth_ttm_yoy": 68.2,
-        "eps_growth_ttm_yoy": -44.23,
+        "revenue_growth_ttm_yoy": 35.11,
+        "eps_growth_ttm_yoy": 330.76,
         "gross_margin_ttm": 100,
-        "net_margin_ttm": 104.34,
+        "net_margin_ttm": 51.58,
         "current_ratio": 10.9253,
         "debt_equity": 0.1105,
-        "beta": 0.19413489
+        "beta": 0.18572907
       }
     },
     "SUI": {
@@ -20974,6 +20974,144 @@
         "current_ratio": 0.9626,
         "debt_equity": 0.7972,
         "beta": 3.0008478
+      }
+    },
+    "FCBM": {
+      "cached_at": "2026-09-19T16:35:18.084724+00:00",
+      "data": {
+        "name": "First Carolina Financial Services Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2026-06-18",
+        "weburl": "https://www.firstcarolinabank.com",
+        "logo": "",
+        "market_cap": 394263719.19000006,
+        "pe_ttm": 17.4033,
+        "ps_ttm": 1.4229,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 8.18,
+        "current_ratio": 0.0506,
+        "debt_equity": 8.4575,
+        "beta": -0.22714989
+      }
+    },
+    "SVV": {
+      "cached_at": "2026-09-19T16:35:18.084724+00:00",
+      "data": {
+        "name": "Savers Value Village Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2023-06-29",
+        "weburl": "https://ir.savers.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950801729626.png",
+        "market_cap": 1394475485.684665,
+        "pe_ttm": 63.1013,
+        "ps_ttm": 0.8145,
+        "pb_annual": 3.5185,
+        "revenue_growth_ttm_yoy": 10.2,
+        "eps_growth_ttm_yoy": -10.41,
+        "gross_margin_ttm": 55.29,
+        "net_margin_ttm": 1.29,
+        "current_ratio": 0.8078,
+        "debt_equity": 1.6953,
+        "beta": 1.2084855
+      }
+    },
+    "LEN": {
+      "cached_at": "2026-09-19T16:35:18.084724+00:00",
+      "data": {
+        "name": "Lennar Corp",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1972-07-27",
+        "weburl": "https://www.lennar.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LEN.png",
+        "market_cap": 18371689711.160103,
+        "pe_ttm": 11.8562,
+        "ps_ttm": 0.585,
+        "pb_annual": 1.5002,
+        "revenue_growth_ttm_yoy": -7.45,
+        "eps_growth_ttm_yoy": -47.13,
+        "gross_margin_ttm": 8.76,
+        "net_margin_ttm": 4.93,
+        "current_ratio": 4.5591,
+        "debt_equity": 0.2675,
+        "beta": 1.4016696
+      }
+    },
+    "IEX": {
+      "cached_at": "2026-09-19T16:35:18.084724+00:00",
+      "data": {
+        "name": "IDEX Corp",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1989-06-02",
+        "weburl": "https://www.idexcorp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IEX.png",
+        "market_cap": 16492616438.356665,
+        "pe_ttm": 31.4874,
+        "ps_ttm": 4.5624,
+        "pb_annual": 3.3069,
+        "revenue_growth_ttm_yoy": 7.32,
+        "eps_growth_ttm_yoy": 12.42,
+        "gross_margin_ttm": 44.72,
+        "net_margin_ttm": 14.49,
+        "current_ratio": 2.8558,
+        "debt_equity": 0.4521,
+        "beta": 0.9554937
+      }
+    },
+    "RBA": {
+      "cached_at": "2026-09-19T16:35:18.084724+00:00",
+      "data": {
+        "name": "RB Global Inc",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "ipo_date": "2004-01-27",
+        "weburl": "https://www.rbauction.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RBA.TO.png",
+        "market_cap": 21790485270.0,
+        "pe_ttm": 32.8857,
+        "ps_ttm": 3.2846,
+        "pb_annual": 3.1576,
+        "revenue_growth_ttm_yoy": 9.73,
+        "eps_growth_ttm_yoy": 15.24,
+        "gross_margin_ttm": 45.56,
+        "net_margin_ttm": 9.99,
+        "current_ratio": 1.1031,
+        "debt_equity": 0.4301,
+        "beta": 0.2213169
+      }
+    },
+    "INM": {
+      "cached_at": "2026-09-19T16:35:18.084724+00:00",
+      "data": {
+        "name": "InMed Pharmaceuticals Inc",
+        "industry": "Pharmaceuticals",
+        "country": "CA",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2001-06-21",
+        "weburl": "https://www.inmedpharma.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/INM.png",
+        "market_cap": 7471478.964028778,
+        "pe_ttm": null,
+        "ps_ttm": 2.3532,
+        "pb_annual": 0.4844,
+        "revenue_growth_ttm_yoy": -32.84,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 35.87,
+        "net_margin_ttm": -170.83,
+        "current_ratio": 6.9929,
+        "debt_equity": 0,
+        "beta": 1.0005497
       }
     }
   }

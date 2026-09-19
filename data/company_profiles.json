@@ -9418,6 +9418,48 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "FCBM": {
+      "updated_at": "2026-09-19",
+      "data": {
+        "name": "First Carolina Financial Services Inc",
+        "description": "First Carolina Bank, North Carolina. Experience banking that goes beyond transactions, focused on building relationships that grow with you.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.firstcarolinabank.com",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SVV": {
+      "updated_at": "2026-09-19",
+      "data": {
+        "name": "Savers Value Village, Inc.",
+        "description": "Savers Value Village, Inc. sells second-hand merchandise in retail stores in the United States, Canada, and Australia. The company is headquartered in Bellevue, Washington.",
+        "industry": "SPECIALTY RETAIL",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "LEN": {
+      "updated_at": "2026-09-19",
+      "data": {
+        "name": "Lennar Corp",
+        "description": "Everything’s included by Lennar, the leading homebuilder of new homes for sale in the nation’s most desirable real estate markets.",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.lennar.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
