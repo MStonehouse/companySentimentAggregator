@@ -231,7 +231,7 @@
       }
     },
     "INTC": {
-      "cached_at": "2026-09-11T17:03:20.024337+00:00",
+      "cached_at": "2026-09-20T19:33:48.092215+00:00",
       "data": {
         "name": "Intel Corp",
         "industry": "Semiconductors",
@@ -240,9 +240,9 @@
         "ipo_date": "1971-10-13",
         "weburl": "https://www.intel.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/INTC.png",
-        "market_cap": 548195565969.2929,
+        "market_cap": 574071070008.5956,
         "pe_ttm": null,
-        "ps_ttm": 9.4446,
+        "ps_ttm": 10.0658,
         "pb_annual": 1.531,
         "revenue_growth_ttm_yoy": 7.47,
         "eps_growth_ttm_yoy": null,
@@ -250,7 +250,7 @@
         "net_margin_ttm": -19.79,
         "current_ratio": 2.017,
         "debt_equity": 0.4076,
-        "beta": 2.3692918
+        "beta": 2.363927
       }
     },
     "GOOG": {
@@ -5728,7 +5728,7 @@
       }
     },
     "HMC": {
-      "cached_at": "2026-09-10T06:07:42.669047+00:00",
+      "cached_at": "2026-09-20T19:33:48.092215+00:00",
       "data": {
         "name": "Honda Motor Co Ltd",
         "industry": "Automobiles",
@@ -5737,9 +5737,9 @@
         "ipo_date": "1957-12-02",
         "weburl": "https://www.honda.co.jp",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/7267.T.png",
-        "market_cap": 6268954212769.0,
+        "market_cap": 6650424261108.0,
         "pe_ttm": null,
-        "ps_ttm": 0.2784,
+        "ps_ttm": 0.2953,
         "pb_annual": 0.4824,
         "revenue_growth_ttm_yoy": 4.13,
         "eps_growth_ttm_yoy": null,
@@ -5747,7 +5747,7 @@
         "net_margin_ttm": -0.75,
         "current_ratio": 1.2813,
         "debt_equity": 1.1407,
-        "beta": 0.756578
+        "beta": 0.7783387
       }
     },
     "UDR": {
@@ -21434,6 +21434,75 @@
         "current_ratio": 2.0914,
         "debt_equity": 0.2689,
         "beta": 0.892647
+      }
+    },
+    "GBCI": {
+      "cached_at": "2026-09-20T19:33:48.092215+00:00",
+      "data": {
+        "name": "Glacier Bancorp Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-03-04",
+        "weburl": "https://www.glacierbancorp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GBCI.png",
+        "market_cap": 5816568404.830277,
+        "pe_ttm": 18.6617,
+        "ps_ttm": 4.31061,
+        "pb_annual": 1.3584,
+        "revenue_growth_ttm_yoy": 21.55359,
+        "eps_growth_ttm_yoy": 26.83,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 29.38382,
+        "current_ratio": null,
+        "debt_equity": 0.5581,
+        "beta": 0.7934087
+      }
+    },
+    "FSS": {
+      "cached_at": "2026-09-20T19:33:48.092215+00:00",
+      "data": {
+        "name": "Federal Signal Corp",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.federalsignal.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FSS.png",
+        "market_cap": 6948366473.503163,
+        "pe_ttm": 24.3461,
+        "ps_ttm": 2.8385,
+        "pb_annual": 4.778,
+        "revenue_growth_ttm_yoy": 23.97,
+        "eps_growth_ttm_yoy": 29.03,
+        "gross_margin_ttm": 29.17,
+        "net_margin_ttm": 11.66,
+        "current_ratio": 3.0234,
+        "debt_equity": 0.4089,
+        "beta": 1.2267638
+      }
+    },
+    "GOLF": {
+      "cached_at": "2026-09-20T19:33:48.092215+00:00",
+      "data": {
+        "name": "Acushnet Holdings Corp",
+        "industry": "Leisure Products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2016-10-28",
+        "weburl": "https://www.acushnetholdingscorp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOLF.png",
+        "market_cap": 4704526515.2556715,
+        "pe_ttm": 21.398,
+        "ps_ttm": 1.7374,
+        "pb_annual": 5.6495,
+        "revenue_growth_ttm_yoy": 8.77,
+        "eps_growth_ttm_yoy": -2.07,
+        "gross_margin_ttm": 49.15,
+        "net_margin_ttm": 8.12,
+        "current_ratio": 2.0592,
+        "debt_equity": 1,
+        "beta": 0.7789514
       }
     }
   }

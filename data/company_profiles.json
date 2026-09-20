@@ -9613,6 +9613,35 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "GBCI": {
+      "updated_at": "2026-09-20",
+      "data": {
+        "name": "Glacier Bancorp Inc",
+        "description": "The Investor Relations website contains information about Glacier Bancorp, Inc.'s business for stockholders, potential investors, and financial analysts.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.glacierbancorp.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "FSS": {
+      "updated_at": "2026-09-20",
+      "data": {
+        "name": "Federal Signal Corporation",
+        "description": "Federal Signal Corporation designs, manufactures, and supplies a suite of integrated products and solutions for municipal, government, industrial, and commercial customers in the United States, Canada, Europe, and internationally. The company is headquartered in Oak Brook, Illinois.",
+        "industry": "FARM & HEAVY CONSTRUCTION MACHINERY",
+        "sector": "INDUSTRIALS",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
     }
   }
 }
