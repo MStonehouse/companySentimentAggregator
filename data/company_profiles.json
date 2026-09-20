@@ -9642,6 +9642,65 @@
         "products_markets": [],
         "source": "Alpha Vantage Company Overview"
       }
+    },
+    "PAG": {
+      "updated_at": "2026-09-20",
+      "data": {
+        "name": "Penske Automotive Group Inc",
+        "description": "Penske Automotive Group, Inc., a diversified transportation services company, operates commercial and automotive truck dealerships. The company is headquartered in Bloomfield Hills, Michigan.",
+        "industry": "AUTO & TRUCK DEALERSHIPS",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "KSPI": {
+      "updated_at": "2026-09-20",
+      "data": {
+        "name": "Kaspi.kz AO",
+        "description": "Kaspi Investor Relations website contains main information about Kaspi.kz business for potential investors and financial analysts.",
+        "industry": "Financial Services",
+        "country": "KZ",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://ir.kaspi.kz/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "OVV": {
+      "updated_at": "2026-09-20",
+      "data": {
+        "name": "Ovintiv Inc",
+        "description": "Ovintiv Inc is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.ovintiv.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "PZZA": {
+      "updated_at": "2026-09-20",
+      "data": {
+        "name": "Papa John's International Inc",
+        "description": "Enjoy the ease of ordering delicious pizza for delivery or carryout from a Papa Johns near you. Start tracking the speed of your delivery and earn rewards on your favorite pizza, breadsticks, wings and more!",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.papajohns.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
