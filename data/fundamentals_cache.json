@@ -2025,7 +2025,7 @@
       }
     },
     "ORCL": {
-      "cached_at": "2026-09-08T19:58:53.290637+00:00",
+      "cached_at": "2026-09-20T06:29:00.722232+00:00",
       "data": {
         "name": "Oracle Corp",
         "industry": "Technology",
@@ -2034,17 +2034,17 @@
         "ipo_date": "1986-03-12",
         "weburl": "https://www.oracle.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ORCL.png",
-        "market_cap": 457361173491.0,
-        "pe_ttm": 26.7666,
-        "ps_ttm": 6.79,
-        "pb_annual": 16.5759,
-        "revenue_growth_ttm_yoy": 17.35,
-        "eps_growth_ttm_yoy": 34.97,
-        "gross_margin_ttm": 65.82,
-        "net_margin_ttm": 25.37,
+        "market_cap": 446333672502.8524,
+        "pe_ttm": 23.5906,
+        "ps_ttm": 6.2183,
+        "pb_annual": 16.7896,
+        "revenue_growth_ttm_yoy": 21.62,
+        "eps_growth_ttm_yoy": 49.08,
+        "gross_margin_ttm": 63.96,
+        "net_margin_ttm": 26.36,
         "current_ratio": 1.115,
-        "debt_equity": 3.0087,
-        "beta": 1.7715285
+        "debt_equity": 3.2286,
+        "beta": 1.7739849
       }
     },
     "MRK": {
@@ -21227,6 +21227,121 @@
         "current_ratio": 2.7458,
         "debt_equity": 0.1236,
         "beta": 1.0664858
+      }
+    },
+    "PODC": {
+      "cached_at": "2026-09-20T06:29:00.722232+00:00",
+      "data": {
+        "name": "Podcastone Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2023-09-08",
+        "weburl": "https://www.podcastone.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950744943946.png",
+        "market_cap": 71396360.51327434,
+        "pe_ttm": null,
+        "ps_ttm": 1.1368,
+        "pb_annual": 3.2413,
+        "revenue_growth_ttm_yoy": 16.4,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 12.79,
+        "net_margin_ttm": -5.01,
+        "current_ratio": 0.9221,
+        "debt_equity": 0,
+        "beta": 2.2446315
+      }
+    },
+    "LSCC": {
+      "cached_at": "2026-09-20T06:29:00.722232+00:00",
+      "data": {
+        "name": "Lattice Semiconductor Corp",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1989-11-09",
+        "weburl": "https://www.latticesemi.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LSCC.png",
+        "market_cap": 15759677270.497742,
+        "pe_ttm": 433.8521,
+        "ps_ttm": 24.2041,
+        "pb_annual": 15.4381,
+        "revenue_growth_ttm_yoy": 33.25,
+        "eps_growth_ttm_yoy": 13.06,
+        "gross_margin_ttm": 69.02,
+        "net_margin_ttm": 5.58,
+        "current_ratio": 3.0922,
+        "debt_equity": 0,
+        "beta": 1.8846695
+      }
+    },
+    "JBL": {
+      "cached_at": "2026-09-20T06:29:00.722232+00:00",
+      "data": {
+        "name": "Jabil Inc",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1998-05-05",
+        "weburl": "https://www.jabil.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/JBL.png",
+        "market_cap": 31391067758.088364,
+        "pe_ttm": 36.4166,
+        "ps_ttm": 0.9345,
+        "pb_annual": 14.5288,
+        "revenue_growth_ttm_yoy": 17.8,
+        "eps_growth_ttm_yoy": 55.75,
+        "gross_margin_ttm": 9.23,
+        "net_margin_ttm": 2.57,
+        "current_ratio": 1.0004,
+        "debt_equity": 2.1481,
+        "beta": 1.3231009
+      }
+    },
+    "RY": {
+      "cached_at": "2026-09-20T06:29:00.722232+00:00",
+      "data": {
+        "name": "Royal Bank of Canada",
+        "industry": "Banking",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "ipo_date": "1905-06-17",
+        "weburl": "https://www.rbcroyalbank.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RY.TO.png",
+        "market_cap": 395083781762.0,
+        "pe_ttm": 17.3701,
+        "ps_ttm": 2.99661,
+        "pb_annual": 2.0683,
+        "revenue_growth_ttm_yoy": 135.3118,
+        "eps_growth_ttm_yoy": 20.13,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 26.25651,
+        "current_ratio": null,
+        "debt_equity": 2.5937,
+        "beta": 0.58441305
+      }
+    },
+    "WY": {
+      "cached_at": "2026-09-20T06:29:00.722232+00:00",
+      "data": {
+        "name": "Weyerhaeuser Co",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1963-12-06",
+        "weburl": "https://www.weyerhaeuser.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959032556.png",
+        "market_cap": 16944509999.999998,
+        "pe_ttm": 32.4026,
+        "ps_ttm": 2.2321,
+        "pb_annual": 1.8347,
+        "revenue_growth_ttm_yoy": -2.62,
+        "eps_growth_ttm_yoy": 70.2,
+        "gross_margin_ttm": 14.51,
+        "net_margin_ttm": 6.89,
+        "current_ratio": 1.2926,
+        "debt_equity": 0.5933,
+        "beta": 0.9478703
       }
     }
   }
