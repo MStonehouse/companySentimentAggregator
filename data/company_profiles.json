@@ -9701,6 +9701,48 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "CIVB": {
+      "updated_at": "2026-09-21",
+      "data": {
+        "name": "Civista Bancshares Inc",
+        "description": "Civista Bancshares, Inc. is Civista Bank's financial holding company providing community banking services. The company is headquartered in Sandusky, Ohio.",
+        "industry": "BANKS - REGIONAL",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "BYD": {
+      "updated_at": "2026-09-21",
+      "data": {
+        "name": "Boyd Gaming Corp",
+        "description": "Boyd showcases the best in hotels, casinos, restaurants, shows, and more at each of its locations nationwide. Experience Life Rewarded and book your next vacation at BoydGaming.com today.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.boydgaming.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "BB": {
+      "updated_at": "2026-09-21",
+      "data": {
+        "name": "BlackBerry Ltd",
+        "description": "Learn how BlackBerry operates through two divisions — BlackBerry Secure Communications and QNX — delivering mission‑critical security and embedded software.",
+        "industry": "Technology",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "website": "https://www.blackberry.com/us/en",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
