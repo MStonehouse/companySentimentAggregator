@@ -9942,6 +9942,50 @@
         ],
         "source": "Company website"
       }
+    },
+    "LLY": {
+      "updated_at": "2026-09-22",
+      "data": {
+        "name": "Eli Lilly and Company",
+        "description": "Eli Lilly and Company is an American pharmaceutical company headquartered in Indianapolis, Indiana, with offices in 18 countries. Its products are sold in approximately 125 countries.",
+        "industry": "DRUG MANUFACTURERS - GENERAL",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "PRTH": {
+      "updated_at": "2026-09-22",
+      "data": {
+        "name": "Priority Technology Holdings Inc",
+        "description": "Priority Technology Holdings Inc is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://prioritycommerce.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "WBD": {
+      "updated_at": "2026-09-22",
+      "data": {
+        "name": "Warner Bros Discovery Inc",
+        "description": "Warner Bros Discovery Inc is a publicly traded company operating in the Media industry with company information identifying US as its home market.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.wbd.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
     }
   }
 }
