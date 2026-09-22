@@ -10060,6 +10060,22 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "NRGV": {
+      "updated_at": "2026-09-22",
+      "data": {
+        "name": "Energy Vault Holdings Inc",
+        "description": "Energy Vault Holdings, Inc. develops and sells energy storage solutions. The company is headquartered in Westlake Village, California.",
+        "industry": "UTILITIES - RENEWABLE",
+        "sector": "UTILITIES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
     }
   }
 }
