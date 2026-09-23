@@ -10272,6 +10272,74 @@
         ],
         "source": "Company website"
       }
+    },
+    "FMC": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "FMC Corp",
+        "description": "FMC has deep roots in the food production system worldwide – learn more about our latest advances in the future of agriculture.",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.fmc.com/en",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "GLXY": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "Galaxy Digital Inc",
+        "description": "Galaxy (GLXY) is publicly traded under the ticker symbol GLXY on Nasdaq and the Toronto Stock Exchange. Discover how we’re shaping the future of finance and AI.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "website": "https://www.galaxy.com/glxy/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "DSGX": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "Descartes Systems Group Inc",
+        "description": "Leading provider of technology solutions for logistics and supply chain management",
+        "industry": "Technology",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "website": "https://www.descartes.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ROL": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "Rollins Inc",
+        "description": "Rollins, Inc. is a North American consumer and commercial services company.",
+        "industry": "PERSONAL SERVICES",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "HUBS": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "HubSpot Inc",
+        "description": "HubSpot",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.hubspot.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
