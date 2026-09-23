@@ -10191,6 +10191,87 @@
         ],
         "source": "Structured company profile"
       }
+    },
+    "PAYX": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "Paychex Inc",
+        "description": "Paychex has HR and Payroll solutions to fit the needs of any size business. Let Paychex help you take your business where it needs to go.",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.paychex.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "NNBR": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "NN Inc",
+        "description": "Discover how a precision components manufacturer can enhance your products with expert machining and global solutions.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.nninc.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "KEYS": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "Keysight Technologies Inc",
+        "description": "Keysight Technologies, or Keysight, is an American company that manufactures electronics test and measurement equipment and software.",
+        "industry": "SCIENTIFIC & TECHNICAL INSTRUMENTS",
+        "sector": "TECHNOLOGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "XNDU": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "Xanadu Quantum Technologies Ltd",
+        "description": "Xanadu Quantum Technologies Ltd is a publicly traded company operating in the Technology industry with company information identifying CA as its home market.",
+        "industry": "Technology",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "VBIO": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "Valion Bio Inc",
+        "description": "Home - Tivic Health",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://tivichealth.com",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "SITM": {
+      "updated_at": "2026-09-23",
+      "data": {
+        "name": "SiTime Corp",
+        "description": "SiTime is a leader in MEMS timing solutions, having shipped billions of units. Learn about our silicon MEMS oscillators, TCXOs, OCXOs, MEMS resonators, clock generators, jitter cleaners, clock timing, timing clock, sitm stock, and much more.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.sitime.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
