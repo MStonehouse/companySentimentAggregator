@@ -10438,6 +10438,97 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "CRL": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Charles River Laboratories",
+        "description": "Charles River Laboratories International, Inc., is an American pharmaceutical company specializing in a variety of preclinical and clinical laboratory, gene therapy and cell therapy services for the Pharmaceutical, Medical device and Biotechnology industries. It also supplies assorted biomedical products and outsourcing services for research and development in the pharmaceutical industry and offer support in the fields of basic research, drug discovery, safety and efficacy, clinical support, and manufacturing.",
+        "industry": "DIAGNOSTICS & RESEARCH",
+        "sector": "HEALTHCARE",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics",
+          "Medical devices"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "LTRN": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Lantern Pharma Inc",
+        "description": "Lantern Pharma is an oncology-focused clinical stage pharmaceutical company leveraging Artificial Intelligence, Genomics, and Machine Learning to transform the cost, pace, and timeline of drug discovery and development.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.lanternpharma.com/",
+        "products_markets": [
+          "AI & accelerated computing",
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "MESO": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Mesoblast Ltd",
+        "description": "Mesoblast Ltd is a publicly traded company operating in the Biotechnology industry with company information identifying AU as its home market.",
+        "industry": "Biotechnology",
+        "country": "AU",
+        "exchange": "ASX - ALL MARKETS",
+        "website": "https://www.mesoblast.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "LIN": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Linde PLC",
+        "description": "Leading global industrial gases and engineering company making customers more successful and helping to sustain, decarbonize and protect our planet.",
+        "industry": "Chemicals",
+        "country": "GB",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.linde.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "SQNS": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Sequans Communications SA",
+        "description": "Sequans designs low-power Cellular IoT chips & modules — NB-IoT, LTE-M, Cat 1bis, 5G. Find the right solution for your project today.",
+        "industry": "Semiconductors",
+        "country": "FR",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.sequans.com",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      }
+    },
+    "PUK": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Prudential PLC",
+        "description": "Prudential plc has been a trusted partner for over 175 years, helping individuals and families in Asia and Africa protect their health, wealth, and future.",
+        "industry": "Insurance",
+        "country": "HK",
+        "exchange": "LONDON STOCK EXCHANGE",
+        "website": "https://www.prudentialplc.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
