@@ -10529,6 +10529,91 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "SBUX": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Starbucks Corp",
+        "description": "Explore our menu of handcrafted drinks, order ahead, sign up for Starbucks® Rewards, manage your gift card and more.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.starbucks.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "IT": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Gartner Inc",
+        "description": "Gartner, Inc, officially known as Gartner, is a global research and advisory firm providing information, advice, and tools for leaders in IT, finance, HR, customer service and support, communications, legal and compliance, marketing, sales, and supply chain functions. Its headquarters are in Stamford, Connecticut, United States.",
+        "industry": "INFORMATION TECHNOLOGY SERVICES",
+        "sector": "TECHNOLOGY",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "WTTR": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Select Water Solutions Inc",
+        "description": "Expert water services, custom chemical technologies, and large-scale infrastructure for the energy industry. Optimize your produced water strategy with Select Water Solutions.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.selectwater.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "AKAM": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Akamai Technologies Inc",
+        "description": "Akamai is the cybersecurity and cloud computing company that powers and protects business online.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.akamai.com/",
+        "products_markets": [
+          "Cybersecurity"
+        ],
+        "source": "Company website"
+      }
+    },
+    "UXIN": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Uxin Ltd",
+        "description": "优信集团是国内首家美国上市二手车企业。通过专业的选品、严苛的检测标准、完善的售后服务，让消费者拥有好车更简单。",
+        "industry": "Retail",
+        "country": "CN",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.xin.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "PRCT": {
+      "updated_at": "2026-09-24",
+      "data": {
+        "name": "Procept Biorobotics Corp",
+        "description": "PROCEPT BioRobotics offers advanced robotic treatments, empowering men’s health and enabling surgeons with cutting-edge precision and technology. Learn more.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.procept-biorobotics.com/",
+        "products_markets": [
+          "Industrial automation"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
