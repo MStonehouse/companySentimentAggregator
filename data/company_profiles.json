@@ -10671,6 +10671,110 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "FDS": {
+      "updated_at": "2026-09-25",
+      "data": {
+        "name": "Factset Research Systems Inc",
+        "description": "Access premium financial data, advanced analytics, and AI-powered insights on one integrated platform. Power smarter financial decisions with FactSet!",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.factset.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "COR": {
+      "updated_at": "2026-09-25",
+      "data": {
+        "name": "Cencora Inc",
+        "description": "Cencora is a leading global pharmaceutical solutions organization, connecting manufacturers, pharmacies, and healthcare providers to create healthier futures.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.cencora.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "JOUT": {
+      "updated_at": "2026-09-25",
+      "data": {
+        "name": "Johnson Outdoors Inc",
+        "description": "Johnson Outdoors Inc. designs, manufactures and markets camping, diving, watercraft and marine electronics products globally. The company is headquartered in Racine, Wisconsin.",
+        "industry": "LEISURE",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "CCCC": {
+      "updated_at": "2026-09-25",
+      "data": {
+        "name": "C4 Therapeutics, Inc",
+        "description": "C4 Therapeutics, Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://c4therapeutics.com/",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "KITT": {
+      "updated_at": "2026-09-25",
+      "data": {
+        "name": "Nauticus Robotics Inc",
+        "description": "Nauticus Robotics develops intelligent, sustainable ocean technology for energy, aquaculture and security applications. Visit to learn more. Nauticus Robotics develops intelligent, sustainable underwater robotics ocean technology for energy, aquaculture and security applications. Visit to learn more.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://nauticusrobotics.com/",
+        "products_markets": [
+          "Energy",
+          "Industrial automation"
+        ],
+        "source": "Company website"
+      }
+    },
+    "KMDA": {
+      "updated_at": "2026-09-25",
+      "data": {
+        "name": "Kamada Ltd",
+        "description": "Kamada Ltd is a publicly traded company operating in the Biotechnology industry with company information identifying IL as its home market.",
+        "industry": "Biotechnology",
+        "country": "IL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.kamada.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "KDK": {
+      "updated_at": "2026-09-25",
+      "data": {
+        "name": "Kodiak AI Inc",
+        "description": "Our purpose-built autonomous solution, the Kodiak Driver, is the AV industry’s most advanced driverless technology, seamlessly integrating into any driving platform for reliable movement in any environment. Learn how we’re shaping the future of ground transportation.",
+        "industry": "Auto Components",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://kodiak.ai/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
