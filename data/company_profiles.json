@@ -10918,6 +10918,65 @@
         ],
         "source": "Company website"
       }
+    },
+    "PSKY": {
+      "updated_at": "2026-09-26",
+      "data": {
+        "name": "Paramount Skydance Corp",
+        "description": "Paramount is one of the world’s leading producers of premium entertainment content that connects billions of people in nearly every country in the world.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.paramount.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "MNST": {
+      "updated_at": "2026-09-26",
+      "data": {
+        "name": "Monster Beverage Corp",
+        "description": "Monster Beverage Corporation is an American beverage company that manufactures energy drinks including Monster Energy, Relentless and Burn.",
+        "industry": "BEVERAGES - NON-ALCOHOLIC",
+        "sector": "CONSUMER DEFENSIVE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "FMAC": {
+      "updated_at": "2026-09-26",
+      "data": {
+        "name": "Future Money Acquisition Corp",
+        "description": "Future Money Acquisition Corp is a publicly traded company operating in the N/A industry with company information identifying US as its home market.",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "OPTT": {
+      "updated_at": "2026-09-26",
+      "data": {
+        "name": "Ocean Power Technologies Inc",
+        "description": "Ocean Power Technologies (OPT) provides autonomous maritime systems, unmanned surface vehicles (USV), and wave energy converters for global defense and energy.",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://oceanpowertechnologies.com/",
+        "products_markets": [
+          "Automotive",
+          "Energy",
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }

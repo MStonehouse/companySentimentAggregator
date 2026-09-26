@@ -3106,7 +3106,7 @@
       }
     },
     "WFC": {
-      "cached_at": "2026-09-16T23:41:22.869941+00:00",
+      "cached_at": "2026-09-26T17:17:27.822723+00:00",
       "data": {
         "name": "Wells Fargo & Co",
         "industry": "Banking",
@@ -3116,7 +3116,7 @@
         "weburl": "https://www.wellsfargo.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WFC.png",
         "market_cap": 258340260000.0,
-        "pe_ttm": 12.0759,
+        "pe_ttm": 11.0595,
         "ps_ttm": 1.90599,
         "pb_annual": 1.6153,
         "revenue_growth_ttm_yoy": 72.74767,
@@ -3125,7 +3125,7 @@
         "net_margin_ttm": 22.19029,
         "current_ratio": null,
         "debt_equity": 2.3505,
-        "beta": 0.9404204
+        "beta": 0.9494033
       }
     },
     "LYTS": {
@@ -10926,7 +10926,7 @@
       }
     },
     "MNST": {
-      "cached_at": "2026-08-29T23:26:34.758858+00:00",
+      "cached_at": "2026-09-26T17:17:27.822723+00:00",
       "data": {
         "name": "Monster Beverage Corp",
         "industry": "Beverages",
@@ -10935,9 +10935,9 @@
         "ipo_date": "1985-12-09",
         "weburl": "https://monsterbevcorp.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MNST.png",
-        "market_cap": 91791371611.4201,
-        "pe_ttm": 42.3361,
-        "ps_ttm": 9.7709,
+        "market_cap": 84454717655.4509,
+        "pe_ttm": 38.8188,
+        "ps_ttm": 8.9591,
         "pb_annual": 9.0753,
         "revenue_growth_ttm_yoy": 20.37,
         "eps_growth_ttm_yoy": 34.59,
@@ -10945,7 +10945,7 @@
         "net_margin_ttm": 23.08,
         "current_ratio": 3.703,
         "debt_equity": 0,
-        "beta": 0.48333922
+        "beta": 0.53309023
       }
     },
     "TTWO": {
@@ -24033,6 +24033,98 @@
         "current_ratio": 6.4821,
         "debt_equity": 0.0498,
         "beta": 0.91744035
+      }
+    },
+    "PSKY": {
+      "cached_at": "2026-09-26T17:17:27.822723+00:00",
+      "data": {
+        "name": "Paramount Skydance Corp",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2025-08-07",
+        "weburl": "https://www.paramount.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PARA.png",
+        "market_cap": 11174581377.288803,
+        "pe_ttm": null,
+        "ps_ttm": 0.3839,
+        "pb_annual": 1.2648,
+        "revenue_growth_ttm_yoy": 1.23,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 33.19,
+        "net_margin_ttm": -2.13,
+        "current_ratio": 1.2567,
+        "debt_equity": 1.168,
+        "beta": 1.6451527
+      }
+    },
+    "FMAC": {
+      "cached_at": "2026-09-26T17:17:27.822723+00:00",
+      "data": {
+        "name": "Future Money Acquisition Corp",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2026-03-27",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950970619006.png",
+        "market_cap": 159222986.76190475,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.6203,
+        "debt_equity": 0,
+        "beta": 0.056495875
+      }
+    },
+    "OPTT": {
+      "cached_at": "2026-09-26T17:17:27.822723+00:00",
+      "data": {
+        "name": "Ocean Power Technologies Inc",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2003-10-31",
+        "weburl": "https://oceanpowertechnologies.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/OPTT.png",
+        "market_cap": 18099301.779904302,
+        "pe_ttm": null,
+        "ps_ttm": 3.9176,
+        "pb_annual": 6.2584,
+        "revenue_growth_ttm_yoy": -19.93,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -189.88,
+        "net_margin_ttm": -1132.59,
+        "current_ratio": 0.6017,
+        "debt_equity": 0.8358,
+        "beta": 2.9257612
+      }
+    },
+    "RSI": {
+      "cached_at": "2026-09-26T17:17:27.822723+00:00",
+      "data": {
+        "name": "Rush Street Interactive Inc",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2020-02-20",
+        "weburl": "https://rushstreetinteractive.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950731450606.png",
+        "market_cap": 4605336755.330093,
+        "pe_ttm": 144.291,
+        "ps_ttm": 3.3691,
+        "pb_annual": 30.2747,
+        "revenue_growth_ttm_yoy": 34.29,
+        "eps_growth_ttm_yoy": 90.01,
+        "gross_margin_ttm": 34.97,
+        "net_margin_ttm": 2.33,
+        "current_ratio": 1.9346,
+        "debt_equity": 0.023,
+        "beta": 1.7651243
       }
     }
   }
