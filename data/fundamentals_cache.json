@@ -2094,7 +2094,7 @@
       }
     },
     "BLK": {
-      "cached_at": "2026-09-19T23:15:51.087686+00:00",
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
       "data": {
         "name": "BlackRock Inc",
         "industry": "Financial Services",
@@ -2103,9 +2103,9 @@
         "ipo_date": "1999-10-01",
         "weburl": "https://www.blackrock.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950002356066.png",
-        "market_cap": 173813771770.72195,
-        "pe_ttm": 26.4315,
-        "ps_ttm": 6.367,
+        "market_cap": 176499501599.43866,
+        "pe_ttm": 26.8399,
+        "ps_ttm": 6.4654,
         "pb_annual": 3.1244,
         "revenue_growth_ttm_yoy": 26.54,
         "eps_growth_ttm_yoy": -3.67,
@@ -2113,7 +2113,7 @@
         "net_margin_ttm": 24.09,
         "current_ratio": 2.1321,
         "debt_equity": 0.2285,
-        "beta": 1.4168007
+        "beta": 1.4093714
       }
     },
     "LOW": {
@@ -12881,7 +12881,7 @@
       }
     },
     "TOL": {
-      "cached_at": "2026-09-03T17:04:54.012203+00:00",
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
       "data": {
         "name": "Toll Brothers Inc",
         "industry": "Consumer products",
@@ -12890,9 +12890,9 @@
         "ipo_date": "1986-07-16",
         "weburl": "https://www.tollbrothers.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TOL.png",
-        "market_cap": 13177021167.69723,
-        "pe_ttm": 10.9957,
-        "ps_ttm": 1.2247,
+        "market_cap": 12655469245.747646,
+        "pe_ttm": 10.5605,
+        "ps_ttm": 1.1763,
         "pb_annual": 1.5468,
         "revenue_growth_ttm_yoy": -1.08,
         "eps_growth_ttm_yoy": -8.47,
@@ -12900,7 +12900,7 @@
         "net_margin_ttm": 11.14,
         "current_ratio": 3.9005,
         "debt_equity": 0.3371,
-        "beta": 1.3066834
+        "beta": 1.3062819
       }
     },
     "BRC": {
@@ -13939,7 +13939,7 @@
       }
     },
     "KGC": {
-      "cached_at": "2026-09-05T16:08:24.784458+00:00",
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
       "data": {
         "name": "Kinross Gold Corp",
         "industry": "Metals & Mining",
@@ -13948,17 +13948,17 @@
         "ipo_date": "1905-05-25",
         "weburl": "https://www.kinross.com/home/default.aspx",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950872154416.png",
-        "market_cap": 51637057209.0,
-        "pe_ttm": 11.3135,
-        "ps_ttm": 4.2452,
-        "pb_annual": 3.9947,
+        "market_cap": 40925304932.0,
+        "pe_ttm": 9.1049,
+        "ps_ttm": 3.4165,
+        "pb_annual": 3.8998,
         "revenue_growth_ttm_yoy": 39.47,
         "eps_growth_ttm_yoy": 112.36,
         "gross_margin_ttm": 56.3,
         "net_margin_ttm": 37.52,
         "current_ratio": 2.3496,
         "debt_equity": 0.0861,
-        "beta": 3.3891592
+        "beta": 3.3645897
       }
     },
     "GLW": {
@@ -15526,7 +15526,7 @@
       }
     },
     "CRDD": {
-      "cached_at": "2026-09-08T06:03:36.072109+00:00",
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
       "data": {
         "name": "",
         "industry": "",
@@ -24263,6 +24263,144 @@
         "current_ratio": 4.626,
         "debt_equity": 0.1011,
         "beta": 0.4561814
+      }
+    },
+    "SRPT": {
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
+      "data": {
+        "name": "Sarepta Therapeutics Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1997-06-04",
+        "weburl": "https://www.sarepta.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SRPT.png",
+        "market_cap": 1972056431.1158242,
+        "pe_ttm": null,
+        "ps_ttm": 0.9988,
+        "pb_annual": 1.977,
+        "revenue_growth_ttm_yoy": -20.44,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 67.47,
+        "net_margin_ttm": -6.93,
+        "current_ratio": 2.3171,
+        "debt_equity": 0.7268,
+        "beta": 0.44473985
+      }
+    },
+    "SNDK": {
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
+      "data": {
+        "name": "Sandisk Corp",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2025-02-13",
+        "weburl": "https://www.sandisk.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950906460416.png",
+        "market_cap": 260303708759.62228,
+        "pe_ttm": 22.7678,
+        "ps_ttm": 12.8558,
+        "pb_annual": 16.422,
+        "revenue_growth_ttm_yoy": 175.3,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 71.47,
+        "net_margin_ttm": 56.46,
+        "current_ratio": 2.2899,
+        "debt_equity": 0.2006,
+        "beta": 3.7564788
+      }
+    },
+    "AKBA": {
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
+      "data": {
+        "name": "Akebia Therapeutics Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2014-03-20",
+        "weburl": "https://akebia.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AKBA.png",
+        "market_cap": 248342640.02241564,
+        "pe_ttm": null,
+        "ps_ttm": 1.1337,
+        "pb_annual": 13.1015,
+        "revenue_growth_ttm_yoy": 7.52,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 81.52,
+        "net_margin_ttm": -13.54,
+        "current_ratio": 1.5525,
+        "debt_equity": 5.9359,
+        "beta": 0.21181752
+      }
+    },
+    "MBWM": {
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
+      "data": {
+        "name": "Mercantile Bank Corp",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1997-10-24",
+        "weburl": "https://ir.mercbank.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959141806.png",
+        "market_cap": 1037674423.6890117,
+        "pe_ttm": 10.8988,
+        "ps_ttm": 2.46646,
+        "pb_annual": 1.0785,
+        "revenue_growth_ttm_yoy": 59.29094,
+        "eps_growth_ttm_yoy": 12.98,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 36.96699,
+        "current_ratio": null,
+        "debt_equity": 0.5559,
+        "beta": 0.8464029
+      }
+    },
+    "KTOS": {
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
+      "data": {
+        "name": "Kratos Defense and Security Solutions Inc",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1999-11-05",
+        "weburl": "https://www.kratosdefense.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/KTOS.png",
+        "market_cap": 8563847100.213948,
+        "pe_ttm": 277.1472,
+        "ps_ttm": 5.6249,
+        "pb_annual": 6.5522,
+        "revenue_growth_ttm_yoy": 25.5,
+        "eps_growth_ttm_yoy": 88.08,
+        "gross_margin_ttm": 23,
+        "net_margin_ttm": 2.03,
+        "current_ratio": 4.0608,
+        "debt_equity": 0.0497,
+        "beta": 1.1650051
+      }
+    },
+    "ZION": {
+      "cached_at": "2026-09-27T06:41:01.554378+00:00",
+      "data": {
+        "name": "Zions Bancorporation NA",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1966-01-01",
+        "weburl": "https://www.zionsbancorporation.com/overview/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ZION.png",
+        "market_cap": 10136920000.0,
+        "pe_ttm": 8.0458,
+        "ps_ttm": 1.56245,
+        "pb_annual": 1.2037,
+        "revenue_growth_ttm_yoy": 53.61248,
+        "eps_growth_ttm_yoy": 39.17,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 25.7292,
+        "current_ratio": null,
+        "debt_equity": 0.6373,
+        "beta": 0.8649461
       }
     }
   }
