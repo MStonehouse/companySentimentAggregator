@@ -3635,7 +3635,7 @@
       }
     },
     "COIN": {
-      "cached_at": "2026-09-14T18:44:38.238648+00:00",
+      "cached_at": "2026-09-28T07:06:01.036234+00:00",
       "data": {
         "name": "Coinbase Global Inc",
         "industry": "Financial Services",
@@ -3644,9 +3644,9 @@
         "ipo_date": "2021-04-15",
         "weburl": "https://www.coinbase.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/COIN.png",
-        "market_cap": 46240072620.0,
-        "pe_ttm": 36.6889,
-        "ps_ttm": 7.3597,
+        "market_cap": 51477237070.0,
+        "pe_ttm": 40.8444,
+        "ps_ttm": 8.1933,
         "pb_annual": 4.1222,
         "revenue_growth_ttm_yoy": -10.35,
         "eps_growth_ttm_yoy": null,
@@ -3654,7 +3654,7 @@
         "net_margin_ttm": -15.72,
         "current_ratio": 2.3432,
         "debt_equity": 0.5177,
-        "beta": 3.3482084
+        "beta": 3.34202
       }
     },
     "ROST": {
@@ -24631,6 +24631,190 @@
         "current_ratio": 1.4624,
         "debt_equity": 0.5708,
         "beta": 1.0651879
+      }
+    },
+    "SCZM": {
+      "cached_at": "2026-09-28T07:06:01.036234+00:00",
+      "data": {
+        "name": "Santacruz Silver Mining Ltd",
+        "industry": "Metals & Mining",
+        "country": "CA",
+        "exchange": "TSX VENTURE EXCHANGE - NEX",
+        "ipo_date": "2011-10-07",
+        "weburl": "https://santacruzsilver.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942958604236.png",
+        "market_cap": 1177256933.0,
+        "pe_ttm": 19.2233,
+        "ps_ttm": 3.069,
+        "pb_annual": 7.1845,
+        "revenue_growth_ttm_yoy": 27.56,
+        "eps_growth_ttm_yoy": 218.77,
+        "gross_margin_ttm": 31.37,
+        "net_margin_ttm": 15.96,
+        "current_ratio": 1.4051,
+        "debt_equity": 0.3399,
+        "beta": 4.6307354
+      }
+    },
+    "SSNC": {
+      "cached_at": "2026-09-28T07:06:01.036234+00:00",
+      "data": {
+        "name": "SS&C Technologies Holdings Inc",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2010-03-31",
+        "weburl": "https://www.ssctech.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SSNC.png",
+        "market_cap": 18446229453.86548,
+        "pe_ttm": 21.3498,
+        "ps_ttm": 2.8101,
+        "pb_annual": 3.0973,
+        "revenue_growth_ttm_yoy": 8.57,
+        "eps_growth_ttm_yoy": 9.65,
+        "gross_margin_ttm": 48.1,
+        "net_margin_ttm": 13.16,
+        "current_ratio": 1.0736,
+        "debt_equity": 1.0792,
+        "beta": 1.0584733
+      }
+    },
+    "STLA": {
+      "cached_at": "2026-09-28T07:06:01.036234+00:00",
+      "data": {
+        "name": "Stellantis NV",
+        "industry": "Automobiles",
+        "country": "NL",
+        "exchange": "AIM ITALIA - MERCATO ALTERNATIVO DEL CAPITALE",
+        "ipo_date": "2015-03-05",
+        "weburl": "https://www.stellantis.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/STLA.MI.png",
+        "market_cap": 14918291174.0,
+        "pe_ttm": null,
+        "ps_ttm": 0.075,
+        "pb_annual": 0.662,
+        "revenue_growth_ttm_yoy": 36.18,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 2.87,
+        "net_margin_ttm": -9.59,
+        "current_ratio": 1.0228,
+        "debt_equity": 0.858,
+        "beta": 1.2150468
+      }
+    },
+    "REAX": {
+      "cached_at": "2026-09-28T07:06:01.036234+00:00",
+      "data": {
+        "name": "Real Brokerage Inc",
+        "industry": "Real Estate",
+        "country": "CA",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2004-06-23",
+        "weburl": "https://onereal.ca/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/REAX.V.png",
+        "market_cap": 600737965.361757,
+        "pe_ttm": null,
+        "ps_ttm": 0.2682,
+        "pb_annual": 14.8967,
+        "revenue_growth_ttm_yoy": 8.56,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 8.23,
+        "net_margin_ttm": -0.72,
+        "current_ratio": 1.4052,
+        "debt_equity": 0,
+        "beta": 0.80326056
+      }
+    },
+    "REPL": {
+      "cached_at": "2026-09-28T07:06:01.036234+00:00",
+      "data": {
+        "name": "Replimune Group Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2018-07-20",
+        "weburl": "https://www.replimune.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950646096396.png",
+        "market_cap": 1164554656.0,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 3.8016,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 4.7936,
+        "debt_equity": 0.6506,
+        "beta": 0.9688969
+      }
+    },
+    "MORN": {
+      "cached_at": "2026-09-28T07:06:01.036234+00:00",
+      "data": {
+        "name": "Morningstar Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2005-05-03",
+        "weburl": "https://www.morningstar.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MORN.png",
+        "market_cap": 7351909366.081055,
+        "pe_ttm": 17.4381,
+        "ps_ttm": 2.8646,
+        "pb_annual": 7.3147,
+        "revenue_growth_ttm_yoy": 9.33,
+        "eps_growth_ttm_yoy": 12.01,
+        "gross_margin_ttm": 62.24,
+        "net_margin_ttm": 16.43,
+        "current_ratio": 0.9855,
+        "debt_equity": 0.8778,
+        "beta": 0.9496844
+      }
+    },
+    "STAA": {
+      "cached_at": "2026-09-28T07:06:01.036234+00:00",
+      "data": {
+        "name": "STAAR Surgical Co",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1992-02-24",
+        "weburl": "https://www.staar.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/STAA.png",
+        "market_cap": 1028453143.3144658,
+        "pe_ttm": 267.8961,
+        "ps_ttm": 3.0285,
+        "pb_annual": 3.4107,
+        "revenue_growth_ttm_yoy": 51.3,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 76.62,
+        "net_margin_ttm": 1.13,
+        "current_ratio": 4.5478,
+        "debt_equity": 0,
+        "beta": 1.2569003
+      }
+    },
+    "ARAY": {
+      "cached_at": "2026-09-28T07:06:01.036234+00:00",
+      "data": {
+        "name": "Accuray Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2007-02-08",
+        "weburl": "https://www.accuray.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ARAY.png",
+        "market_cap": 25691395.45560538,
+        "pe_ttm": null,
+        "ps_ttm": 0.0639,
+        "pb_annual": 0.7355,
+        "revenue_growth_ttm_yoy": -12.34,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 27.71,
+        "net_margin_ttm": -12.24,
+        "current_ratio": 1.5035,
+        "debt_equity": 3.5461,
+        "beta": 1.3433156
       }
     }
   }
