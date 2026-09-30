@@ -11828,6 +11828,107 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "CBOE": {
+      "updated_at": "2026-09-30",
+      "data": {
+        "name": "Cboe Global Markets Inc",
+        "description": "Cboe Global Markets, a leading provider of market infrastructure and tradable products, delivers cutting-edge trading, clearing and investment solutions to market participants around the world.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "BATS EXCHANGE",
+        "website": "https://www.cboe.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "MKTX": {
+      "updated_at": "2026-09-30",
+      "data": {
+        "name": "Marketaxess Holdings Inc",
+        "description": "Marketaxess Holdings Inc is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.marketaxess.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "SDEV": {
+      "updated_at": "2026-09-30",
+      "data": {
+        "name": "Stablecoin Development Corp",
+        "description": "Stablecoin Development Corp is a publicly traded company operating in the Pharmaceuticals industry with company information identifying US as its home market.",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://novabay.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "SSTI": {
+      "updated_at": "2026-09-30",
+      "data": {
+        "name": "SoundThinking Inc",
+        "description": "Solutions for public safety and security to help save lives, solve crimes and protect the community.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.soundthinking.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "UMH": {
+      "updated_at": "2026-09-30",
+      "data": {
+        "name": "UMH Properties Inc",
+        "description": "Shop Quality Affordable Homes, Competitive Financing, the Right Community, over 106 Communities and 19K homes in the Northeast Since 1968 at UMH.com now!",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.umh.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "TSM": {
+      "updated_at": "2026-09-30",
+      "data": {
+        "name": "Taiwan Semiconductor Manufacturing Co Ltd",
+        "description": "Taiwan Semiconductor Manufacturing Co Ltd is a publicly traded company operating in the Semiconductors industry with company information identifying TW as its home market.",
+        "industry": "Semiconductors",
+        "country": "TW",
+        "exchange": "TAIWAN STOCK EXCHANGE",
+        "website": "https://www.tsmc.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "RDW": {
+      "updated_at": "2026-09-30",
+      "data": {
+        "name": "Redwire Corp",
+        "description": "Redwire is the Mission Partner of Choice for Civil, Commercial, and National Security Space.",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://redwirespace.com/",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
