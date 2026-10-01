@@ -12279,6 +12279,104 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "KMB": {
+      "updated_at": "2026-10-01",
+      "data": {
+        "name": "Kimberly-Clark Corporation",
+        "description": "Kimberly-Clark Corporation is an American multinational personal care corporation that produces mostly paper-based consumer products. The company manufactures sanitary paper products and surgical & medical instruments. Kimberly-Clark brand name products include Kleenex facial tissue, Kotex feminine hygiene products, Cottonelle, Scott and Andrex toilet paper, Wypall utility wipes, KimWipes scientific cleaning wipes and Huggies disposable diapers and baby wipes.",
+        "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+        "sector": "CONSUMER DEFENSIVE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Utilities"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "CVS": {
+      "updated_at": "2026-10-01",
+      "data": {
+        "name": "CVS Health Corp",
+        "description": "America's leading health solutions company, CVS Health® provides advanced health care from pharmacy services and health plans to health and wellness.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://cvshealth.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "VIR": {
+      "updated_at": "2026-10-01",
+      "data": {
+        "name": "Vir Biotechnology Inc",
+        "description": "Vir is leveraging immunologic breakthroughs to address unmet patient needs in infectious disease and beyond.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.vir.bio/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
+    },
+    "ROP": {
+      "updated_at": "2026-10-01",
+      "data": {
+        "name": "Roper Technologies Inc",
+        "description": "Roper Technologies, Inc. Investor relations (IR) website contains information about our business for stockholders, potential investors, and financial analysts.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.ropertech.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "PYPD": {
+      "updated_at": "2026-10-01",
+      "data": {
+        "name": "PolyPid Ltd",
+        "description": "PolyPid is an innovative biopharmaceutical company dedicated to improving patient outcomes by developing long-acting, controlled-release medicines that deliver therapy precisely at the site of care, improving outcomes across surgical care, metabolic diseases, and beyond.",
+        "industry": "Pharmaceuticals",
+        "country": "IL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.polypid.com",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "CAH": {
+      "updated_at": "2026-10-01",
+      "data": {
+        "name": "Cardinal Health Inc",
+        "description": "Cardinal Health improves the cost-effectiveness of healthcare. We help focus on patient care while reducing costs, enhancing efficiency and improving quality.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.cardinalhealth.com/en.html",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "DHR": {
+      "updated_at": "2026-10-01",
+      "data": {
+        "name": "Danaher Corp",
+        "description": "As a leading global life sciences and diagnostics innovator, we are committed to accelerating the power of science and technology to improve human health.",
+        "industry": "Life Sciences Tools & Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.danaher.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
