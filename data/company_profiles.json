@@ -12892,6 +12892,35 @@
         ],
         "source": "Company website"
       }
+    },
+    "OMF": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "OneMain Holdings Inc",
+        "description": "OneMain Holdings, Inc., a financial services holding company, is in the consumer finance and insurance businesses. The company is headquartered in Evansville, Indiana.",
+        "industry": "CREDIT SERVICES",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "MGRC": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "McGrath RentCorp",
+        "description": "McGrath delivers scalable rental solutions with purpose. Explore career growth and strong returns with a company where innovation and people come first.",
+        "industry": "Trading Companies & Distributors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.mgrc.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
