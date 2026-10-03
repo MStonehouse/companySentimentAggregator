@@ -12789,6 +12789,109 @@
         ],
         "source": "Company website"
       }
+    },
+    "PS": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Pershing Square Inc.",
+        "description": "Pluralsight, Inc. operates a cloud-based technology skills platform in the United States, Europe, the Middle East, Africa, and internationally. The company is headquartered in Draper, Utah.",
+        "industry": "ASSET MANAGEMENT",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "QRHC": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Quest Resource Holding Corp",
+        "description": "Quest Resource Holding Corp is a publicly traded company operating in the Commercial Services & Supplies industry with company information identifying US as its home market.",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.questrmg.com/investors/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "SNEX": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "StoneX Group Inc",
+        "description": "StoneX Group Inc is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.stonex.com",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "XAIR": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Beyond Air Inc",
+        "description": "Beyond Air is a clinical-stage medical device and biopharmaceutical company using nitric oxide to treat respiratory and other diseases.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.beyondair.net/",
+        "products_markets": [
+          "Therapeutics",
+          "Medical devices"
+        ],
+        "source": "Company website"
+      }
+    },
+    "GWRS": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Global Water Resources Inc",
+        "description": "Global Water Resources, Inc. is a water resource management company. We provide water, wastewater, and recycled water utility services. Global Water Resources currently services Pinal, Pima, and Maricopa Counties.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.gwresources.com",
+        "products_markets": [
+          "Utilities"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SILO": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Silo Pharma Inc",
+        "description": "Silo Pharma Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://silopharma.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "MTX": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Minerals Technologies Inc",
+        "description": "Minerals Technologies Inc. is a resource and technology-based company that develops and produces performance-enhancing minerals, mineral-based, and synthetic mineral products.",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.mineralstech.com/",
+        "products_markets": [
+          "Mining"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
