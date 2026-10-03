@@ -12629,6 +12629,94 @@
         "products_markets": [],
         "source": "Structured company profile"
       }
+    },
+    "AMTM": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Amentum Holdings Inc.",
+        "description": "Amentum Holdings, Inc. provides engineering and technology solutions to address challenges in science, security, and sustainability.",
+        "industry": "SPECIALTY BUSINESS SERVICES",
+        "sector": "INDUSTRIALS",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "ATCH": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Atlasclear Holdings Inc",
+        "description": "AtlasClear Holdings is building a connected financial-infrastructure platform for trading, clearing, settlement, and banking.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://www.atlasclear.com",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "CHRN": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Ekso Bionics Holdings Inc",
+        "description": "Ekso Bionics: Leading in exoskeleton technology for enhanced human capabilities & mobility. Discover our life-changing products in rehabilitation & industry.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://eksobionics.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "WSBCO": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "WesBanco Inc",
+        "description": "WesBanco Bank, Inc. provides a wide variety of financial products and services. These offerings include: personal/business banking, loans, investments, mortgages, insurance, and credit cards.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.wesbanco.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "WU": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Western Union Co",
+        "description": "Western Union Co is a publicly traded company operating in the Financial Services industry with company information identifying US as its home market.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.westernunion.com/corporate/about-us.html",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "WKEY": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Wisekey International Holding AG",
+        "description": "Swiss digital trust infrastructure · Since 1999 The Quantum Security Company securing people and machines One Swiss anchor, and everything that chains back to it — a car proving its software is genuine, a passport that can be checked anywhere, an AI agent proving what it is allowed to do. Now being rebuilt on post-quantum cryptography. […]",
+        "industry": "Semiconductors",
+        "country": "CH",
+        "exchange": "SWISS EXCHANGE",
+        "website": "https://www.wisekey.com/",
+        "products_markets": [
+          "AI & accelerated computing",
+          "Semiconductors"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
