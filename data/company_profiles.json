@@ -12717,6 +12717,78 @@
         ],
         "source": "Company website"
       }
+    },
+    "SAIQ": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "SAIQ",
+        "description": "SAIQ is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "IMXI": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "International Money Express Inc",
+        "description": "The Investor Relations website contains information about International Money Express's business for stockholders, potential investors, and financial analysts.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://investors.intermexonline.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "MXL": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Maxlinear Inc",
+        "description": "Maxlinear Inc is a publicly traded company operating in the Semiconductors industry with company information identifying US as its home market.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.maxlinear.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "FLEX": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "Flex Ltd",
+        "description": "Flex is the manufacturing partner of choice for streamlined product lifecycles. From design to end of life, our end-to-end services optimize efficiency.",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://flex.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ESE": {
+      "updated_at": "2026-10-03",
+      "data": {
+        "name": "ESCO Technologies Inc",
+        "description": "ESCO Technologies is a global provider of highly engineered products and solutions to diverse and growing end-markets that include the aerospace, space, healthcare, wireless, consumer electronics, and electric utility industries.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.escotechnologies.com/",
+        "products_markets": [
+          "Utilities",
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
