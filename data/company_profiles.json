@@ -12921,6 +12921,79 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "BKH": {
+      "updated_at": "2026-10-04",
+      "data": {
+        "name": "Black Hills Corp",
+        "description": "The Investor Relations website contains information about Black Hills Service Company, LLC's business for stockholders, potential investors, and financial analysts.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://ir.blackhillscorp.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ATO": {
+      "updated_at": "2026-10-04",
+      "data": {
+        "name": "Atmos Energy Corporation",
+        "description": "Atmos Energy Corporation, headquartered in Dallas, Texas, is one of the United States' largest natural-gas-only distributors.",
+        "industry": "UTILITIES - REGULATED GAS",
+        "sector": "UTILITIES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "TAYD": {
+      "updated_at": "2026-10-04",
+      "data": {
+        "name": "Taylor Devices Inc",
+        "description": "We use our suite of products to create elegant energy management solutions. See how our team can help solve your shock and vibration problems using fluid viscous dampers, shock absorbers, and vibration isolation systems.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.taylordevices.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      }
+    },
+    "RXO": {
+      "updated_at": "2026-10-04",
+      "data": {
+        "name": "RXO Inc",
+        "description": "We bring together third-party capacity, cutting-edge technology, and industry-leading expertise to support the shippers and carriers in our network.",
+        "industry": "Road & Rail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://rxo.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "CCJ": {
+      "updated_at": "2026-10-04",
+      "data": {
+        "name": "Cameco Corp",
+        "description": "Cameco is one of the world's largest publicly traded uranium companies.",
+        "industry": "Energy",
+        "country": "CA",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.cameco.com/",
+        "products_markets": [
+          "Energy",
+          "Critical minerals"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
