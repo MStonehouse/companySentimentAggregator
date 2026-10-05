@@ -13064,6 +13064,65 @@
         ],
         "source": "Company website"
       }
+    },
+    "AAL": {
+      "updated_at": "2026-10-05",
+      "data": {
+        "name": "American Airlines Group Inc",
+        "description": "The Investor Relations website contains information about American Airlines's business for stockholders, potential investors, and financial analysts.",
+        "industry": "Airlines",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://americanairlines.gcs-web.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "AVY": {
+      "updated_at": "2026-10-05",
+      "data": {
+        "name": "Avery Dennison Corp",
+        "description": "Avery Dennison Corporation is a multinational manufacturer and distributor of pressure-sensitive adhesive materials (such as self-adhesive labels), apparel branding labels and tags, RFID inlays, and specialty medical products. The company is headquartered in Glendale, California.",
+        "industry": "PACKAGING & CONTAINERS",
+        "sector": "CONSUMER CYCLICAL",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "YEXT": {
+      "updated_at": "2026-10-05",
+      "data": {
+        "name": "Yext Inc",
+        "description": "Yext is the enterprise agentic marketing platform — intelligence, verified data, and distribution to win every discovery moment across AI and search.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.yext.com/",
+        "products_markets": [
+          "AI & accelerated computing"
+        ],
+        "source": "Company website"
+      }
+    },
+    "JKS": {
+      "updated_at": "2026-10-05",
+      "data": {
+        "name": "JinkoSolar Holding Co Ltd",
+        "description": "Explore JinkoSolar solar energy solutions with high-efficiency N-type TOPCon and bifacial PV modules for residential, C&I and utility projects.",
+        "industry": "Semiconductors",
+        "country": "CN",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.jinkosolar.com",
+        "products_markets": [
+          "Semiconductors",
+          "Energy",
+          "Utilities"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
