@@ -13123,6 +13123,62 @@
         ],
         "source": "Company website"
       }
+    },
+    "PTC": {
+      "updated_at": "2026-10-05",
+      "data": {
+        "name": "PTC Inc",
+        "description": "PTC accelerates digital transformation with a new generation of technology that powers the ways you engineer, manufacture, and service your physical products.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.ptc.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "OPNW": {
+      "updated_at": "2026-10-05",
+      "data": {
+        "name": "OPNW",
+        "description": "OPNW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "LU": {
+      "updated_at": "2026-10-05",
+      "data": {
+        "name": "Lufax Holding Ltd",
+        "description": "Lufax Holding Ltd is a publicly traded company operating in the Financial Services industry with company information identifying CN as its home market.",
+        "industry": "Financial Services",
+        "country": "CN",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.lufaxholding.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "QRVO": {
+      "updated_at": "2026-10-05",
+      "data": {
+        "name": "Qorvo Inc",
+        "description": "Qorvo Inc is a publicly traded company operating in the Semiconductors industry with company information identifying US as its home market.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.qorvo.com/",
+        "products_markets": [
+          "Semiconductors"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }
