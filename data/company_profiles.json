@@ -13247,6 +13247,102 @@
         "products_markets": [],
         "source": "Alpha Vantage Company Overview"
       }
+    },
+    "BEN": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "Franklin Resources Inc",
+        "description": "Franklin Resources Inc. is an American multinational holding company that, together with its subsidiaries, is referred to as Franklin Templeton; it is a global investment firm founded in New York City in 1947 as Franklin Distributors, Inc.",
+        "industry": "ASSET MANAGEMENT",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      }
+    },
+    "CCSI": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "Consensus Cloud Solutions Inc",
+        "description": "We deliver comprehensive cloud-based, healthcare data interoperability platforms, with streamlined workflows to power the future of sustainable care.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.consensus.com",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "AVNW": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "Aviat Networks Inc",
+        "description": "Aviat Networks powers reliable, high-capacity wireless backhaul and microwave solutions, connecting businesses, carriers, and government networks globally.",
+        "industry": "Communications",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://aviatnetworks.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "BETR": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "Better Home & Finance Holding Co",
+        "description": "Better Mortgage Corporation is a direct lender dedicated to providing a fast, transparent digital mortgage experience backed by superior customer support.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://better.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SSRM": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "SSR Mining Inc",
+        "description": "SSR Mining Inc. is a Denver-based mining company focused on the operation, development, exploration and acquisition of precious metal projects. It is listed under the ticker symbol SSRM on the Nasdaq Global Market and the Toronto Stock Exchange, and SSR on the Australian Stock Exchange.",
+        "industry": "Metals & Mining",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.ssrmining.com/",
+        "products_markets": [
+          "Mining"
+        ],
+        "source": "Company website"
+      }
+    },
+    "BEAT": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "Heartbeam Inc",
+        "description": "HeartBeam is a portable, easy-to-use, medical-grade heart attack detection device that is always with the patient. Device syncs to HeartBeam Cloud for physician use in portal",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.heartbeam.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "AUID": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "Authid Inc",
+        "description": "Learn everything about biometric authentication & passwordless authentication from top biometric authentication experts at authID",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://authid.ai/",
+        "products_markets": [],
+        "source": "Company website"
+      }
     }
   }
 }
