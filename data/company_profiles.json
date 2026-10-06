@@ -13343,6 +13343,51 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "ARQQ": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "Arqit Quantum Inc",
+        "description": "Enterprise-grade Quantum Security Solutions that safeguard data against future quantum threats. Secure communications at scale. Book A Demo.",
+        "industry": "Technology",
+        "country": "GB",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://arqit.uk/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "VALE": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "Vale SA",
+        "description": "Vale is a global mining company that operates with a focus on safety and sustainability. It produces iron, copper, nickel, and cobalt, which are essential for the energy transition.",
+        "industry": "Metals & Mining",
+        "country": "BR",
+        "exchange": "B3 S.A.",
+        "website": "https://vale.com/",
+        "products_markets": [
+          "Energy",
+          "Mining",
+          "Critical minerals"
+        ],
+        "source": "Company website"
+      }
+    },
+    "SYRE": {
+      "updated_at": "2026-10-06",
+      "data": {
+        "name": "Spyre Therapeutics Inc",
+        "description": "Engineering For New Heights in the Treatment of Inflammatory Bowel Disease",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://spyre.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
