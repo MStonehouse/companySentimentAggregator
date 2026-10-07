@@ -1,7 +1,7 @@
 {
   "updated": {
     "NVDA": {
-      "cached_at": "2026-09-30T18:28:52.509173+00:00",
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
       "data": {
         "name": "NVIDIA Corp",
         "industry": "Semiconductors",
@@ -10,9 +10,9 @@
         "ipo_date": "1999-01-22",
         "weburl": "https://www.nvidia.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959144056.png",
-        "market_cap": 5475761014602.952,
-        "pe_ttm": 28.7145,
-        "ps_ttm": 18.2805,
+        "market_cap": 5765683852695.655,
+        "pe_ttm": 30.2079,
+        "ps_ttm": 19.2312,
         "pb_annual": 28.8075,
         "revenue_growth_ttm_yoy": 83.38,
         "eps_growth_ttm_yoy": 125.15,
@@ -20,7 +20,7 @@
         "net_margin_ttm": 63.66,
         "current_ratio": 3.9053,
         "debt_equity": 0.0538,
-        "beta": 2.2190328
+        "beta": 2.2586465
       }
     },
     "AMZN": {
@@ -93,7 +93,7 @@
       }
     },
     "MSFT": {
-      "cached_at": "2026-09-30T18:28:52.509173+00:00",
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
       "data": {
         "name": "Microsoft Corp",
         "industry": "Technology",
@@ -102,9 +102,9 @@
         "ipo_date": "1986-03-13",
         "weburl": "https://www.microsoft.com/en-in/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MSFT.png",
-        "market_cap": 3779305601012.731,
-        "pe_ttm": 27.9164,
-        "ps_ttm": 11.2518,
+        "market_cap": 3930341130783.1904,
+        "pe_ttm": 29.505,
+        "ps_ttm": 11.8921,
         "pb_annual": 6.2636,
         "revenue_growth_ttm_yoy": 17.79,
         "eps_growth_ttm_yoy": 31.56,
@@ -112,7 +112,7 @@
         "net_margin_ttm": 40.31,
         "current_ratio": 1.2303,
         "debt_equity": 0.2416,
-        "beta": 1.0607737
+        "beta": 1.0602406
       }
     },
     "TSLA": {
@@ -29346,6 +29346,259 @@
         "current_ratio": 1.2921,
         "debt_equity": 1.2561,
         "beta": 0.7068595
+      }
+    },
+    "LPCN": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "Lipocine Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2014-03-21",
+        "weburl": "https://www.lipocine.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LPCN.png",
+        "market_cap": 17312930.579710145,
+        "pe_ttm": null,
+        "ps_ttm": 10.8736,
+        "pb_annual": 3.0794,
+        "revenue_growth_ttm_yoy": -62.7,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -755.13,
+        "current_ratio": 6.6757,
+        "debt_equity": 0,
+        "beta": 0.4086606
+      }
+    },
+    "SRXH": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "Srx Health Solutions Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2010-06-16",
+        "weburl": "https://srxhealth.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950679443506.png",
+        "market_cap": 29138905.503355704,
+        "pe_ttm": null,
+        "ps_ttm": 0.669,
+        "pb_annual": 19.3577,
+        "revenue_growth_ttm_yoy": 18.98,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 27.16,
+        "net_margin_ttm": -58,
+        "current_ratio": 2.2935,
+        "debt_equity": 10.9386,
+        "beta": 0.9633125
+      }
+    },
+    "SPAI": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "Safe Pro Group Inc",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2024-08-28",
+        "weburl": "https://safeprogroup.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950840521086.png",
+        "market_cap": 83487734.61187214,
+        "pe_ttm": null,
+        "ps_ttm": 28.9755,
+        "pb_annual": 4.9246,
+        "revenue_growth_ttm_yoy": 92.59,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 62.2,
+        "net_margin_ttm": -499.96,
+        "current_ratio": 14.3331,
+        "debt_equity": 0.0082,
+        "beta": 3.5669081
+      }
+    },
+    "TCBX": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "Third Coast Bancshares Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2021-11-09",
+        "weburl": "https://www.thirdcoast.bank/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950731391616.png",
+        "market_cap": 716496806.0899978,
+        "pe_ttm": 9.642,
+        "ps_ttm": 1.64522,
+        "pb_annual": 0.9946,
+        "revenue_growth_ttm_yoy": 85.87798,
+        "eps_growth_ttm_yoy": 22.54,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 21.97529,
+        "current_ratio": null,
+        "debt_equity": 0.2238,
+        "beta": 0.67166084
+      }
+    },
+    "LPBBU": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "Launch Two Acquisition Corp",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2024-10-08",
+        "weburl": "",
+        "logo": "",
+        "market_cap": 249550000.0,
+        "pe_ttm": 33.5752,
+        "ps_ttm": null,
+        "pb_annual": 1.0471,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": 0.54,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 2.3017,
+        "debt_equity": 0,
+        "beta": null
+      }
+    },
+    "EGY": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "VAALCO Energy Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1995-09-11",
+        "weburl": "https://www.vaalco.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EGY.png",
+        "market_cap": 608008485.2055267,
+        "pe_ttm": null,
+        "ps_ttm": 1.7501,
+        "pb_annual": 0.8557,
+        "revenue_growth_ttm_yoy": -25.46,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 58.03,
+        "net_margin_ttm": -31.11,
+        "current_ratio": 0.6926,
+        "debt_equity": 0.2917,
+        "beta": 0.20729268
+      }
+    },
+    "AITX": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "Artificial Intelligence Technology Solutions Inc",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "OTC MARKETS",
+        "ipo_date": "2011-02-10",
+        "weburl": "https://aitx.ai/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950464353226.png",
+        "market_cap": 1243935.9118086698,
+        "pe_ttm": null,
+        "ps_ttm": 0.1664,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 13.51,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 71.94,
+        "net_margin_ttm": -202.44,
+        "current_ratio": 0.1471,
+        "debt_equity": null,
+        "beta": 1.0709571
+      }
+    },
+    "CHARU": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "Charlton Aria Acquisition Corp",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2024-10-24",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950906358416.png",
+        "market_cap": 120395706.97459167,
+        "pe_ttm": 43.9336,
+        "ps_ttm": null,
+        "pb_annual": 1.3086,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.0669,
+        "debt_equity": 0.0012,
+        "beta": -0.021593267
+      }
+    },
+    "PAXG": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
+      }
+    },
+    "KOYNW": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
+      }
+    },
+    "IA": {
+      "cached_at": "2026-10-07T19:24:33.379641+00:00",
+      "data": {
+        "name": "Innovative Solutions and Support Inc",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2000-08-04",
+        "weburl": "http://www.iascorp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959004546.png",
+        "market_cap": 353866680.4440376,
+        "pe_ttm": 17.9238,
+        "ps_ttm": 3.6739,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 20.3,
+        "eps_growth_ttm_yoy": 58.2,
+        "gross_margin_ttm": 54.94,
+        "net_margin_ttm": 20.5,
+        "current_ratio": 3.0447,
+        "debt_equity": 0.3737,
+        "beta": 0.78728706
       }
     }
   }
