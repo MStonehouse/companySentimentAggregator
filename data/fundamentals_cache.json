@@ -1289,7 +1289,7 @@
       }
     },
     "SEZL": {
-      "cached_at": "2026-08-19T00:27:25.850285+00:00",
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
       "data": {
         "name": "Sezzle Inc",
         "industry": "Financial Services",
@@ -1298,17 +1298,17 @@
         "ipo_date": "2019-07-30",
         "weburl": "https://sezzle.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950509996486.png",
-        "market_cap": 3946038208.115731,
-        "pe_ttm": 27.7497,
-        "ps_ttm": 8.5555,
+        "market_cap": 3947385146.330962,
+        "pe_ttm": 23.7496,
+        "ps_ttm": 7.2081,
         "pb_annual": 12.7664,
-        "revenue_growth_ttm_yoy": 46.14,
-        "eps_growth_ttm_yoy": 40.87,
-        "gross_margin_ttm": 85.62,
-        "net_margin_ttm": 30.83,
+        "revenue_growth_ttm_yoy": 43.06,
+        "eps_growth_ttm_yoy": 56.65,
+        "gross_margin_ttm": 85.78,
+        "net_margin_ttm": 30.35,
         "current_ratio": 3.9198,
         "debt_equity": 0.8244,
-        "beta": 6.636523
+        "beta": 6.756329
       }
     },
     "SG": {
@@ -2002,7 +2002,7 @@
       }
     },
     "AXP": {
-      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
       "data": {
         "name": "American Express Co",
         "industry": "Financial Services",
@@ -2011,9 +2011,9 @@
         "ipo_date": "1977-05-18",
         "weburl": "https://www.americanexpress.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AXP.png",
-        "market_cap": 225452994398.0112,
-        "pe_ttm": 20.102,
-        "ps_ttm": 2.8324,
+        "market_cap": 208062953832.63995,
+        "pe_ttm": 17.7793,
+        "ps_ttm": 2.5051,
         "pb_annual": 7.6131,
         "revenue_growth_ttm_yoy": 9.48,
         "eps_growth_ttm_yoy": 15.53,
@@ -2021,7 +2021,7 @@
         "net_margin_ttm": 14.09,
         "current_ratio": 0.6355,
         "debt_equity": 6.2809,
-        "beta": 1.085947
+        "beta": 1.0981959
       }
     },
     "ORCL": {
@@ -4026,7 +4026,7 @@
       }
     },
     "BY": {
-      "cached_at": "2026-08-21T02:38:53.542178+00:00",
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
       "data": {
         "name": "Byline Bancorp Inc",
         "industry": "Banking",
@@ -4035,8 +4035,8 @@
         "ipo_date": "2017-06-29",
         "weburl": "https://www.bylinebancorp.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950564149816.png",
-        "market_cap": 1731995544.3430367,
-        "pe_ttm": 11.8467,
+        "market_cap": 1666475172.22204,
+        "pe_ttm": 11.1182,
         "ps_ttm": 2.39406,
         "pb_annual": 1.0534,
         "revenue_growth_ttm_yoy": 60.15915,
@@ -4045,7 +4045,7 @@
         "net_margin_ttm": 27.00127,
         "current_ratio": null,
         "debt_equity": 0.1774,
-        "beta": 0.73081386
+        "beta": 0.738829
       }
     },
     "BPOP": {
@@ -30151,6 +30151,305 @@
         "current_ratio": 1.236,
         "debt_equity": 0.8209,
         "beta": 0.7537916
+      }
+    },
+    "SMCIP": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Super Micro Computer Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2007-03-29",
+        "weburl": "https://www.supermicro.com/en/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SMCI.png",
+        "market_cap": 28098409002.61994,
+        "pe_ttm": 12.4651,
+        "ps_ttm": 0.7117,
+        "pb_annual": 1.3102,
+        "revenue_growth_ttm_yoy": 77.79,
+        "eps_growth_ttm_yoy": 94.1,
+        "gross_margin_ttm": 10.82,
+        "net_margin_ttm": 5.71,
+        "current_ratio": 3.8723,
+        "debt_equity": 0.6023,
+        "beta": 2.202639
+      }
+    },
+    "HESM": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Hess Midstream LP",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2017-04-05",
+        "weburl": "https://hessmidstream.gcs-web.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/HESM.png",
+        "market_cap": 7010064009.62761,
+        "pe_ttm": 18.7265,
+        "ps_ttm": 4.3504,
+        "pb_annual": 12.6074,
+        "revenue_growth_ttm_yoy": 2.78,
+        "eps_growth_ttm_yoy": 7.55,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 23.23,
+        "current_ratio": 0.8466,
+        "debt_equity": 6.6373,
+        "beta": 0.63795656
+      }
+    },
+    "DTI": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Drilling Tools International Corp",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-12-02",
+        "weburl": "https://www.drillingtools.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950814695886.png",
+        "market_cap": 70917264.58474575,
+        "pe_ttm": null,
+        "ps_ttm": 0.4624,
+        "pb_annual": 0.7019,
+        "revenue_growth_ttm_yoy": -5.48,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 72.51,
+        "net_margin_ttm": -1.97,
+        "current_ratio": 2.1054,
+        "debt_equity": 0.3729,
+        "beta": -0.563345
+      }
+    },
+    "ZTS": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Zoetis Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2013-02-01",
+        "weburl": "https://www.zoetis.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ZTS.png",
+        "market_cap": 31873910000.0,
+        "pe_ttm": 11.436,
+        "ps_ttm": 3.1435,
+        "pb_annual": 16.6461,
+        "revenue_growth_ttm_yoy": 1.41,
+        "eps_growth_ttm_yoy": 4.59,
+        "gross_margin_ttm": 71.63,
+        "net_margin_ttm": 27.49,
+        "current_ratio": 3.0282,
+        "debt_equity": 2.7166,
+        "beta": 0.71386087
+      }
+    },
+    "ALHC": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Alignment Healthcare Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-03-26",
+        "weburl": "https://www.alignmenthealth.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950606149446.png",
+        "market_cap": 1806760197.7578948,
+        "pe_ttm": 44.3932,
+        "ps_ttm": 0.3947,
+        "pb_annual": 22.043,
+        "revenue_growth_ttm_yoy": 37.21,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 12.55,
+        "net_margin_ttm": 0.89,
+        "current_ratio": 1.7088,
+        "debt_equity": 1.8042,
+        "beta": 1.0387203
+      }
+    },
+    "MOVAA": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Movado Group Inc",
+        "industry": "Textiles, Apparel & Luxury Goods",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1993-09-30",
+        "weburl": "https://www.movadogroup.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MOV.png",
+        "market_cap": 510454302.453317,
+        "pe_ttm": 12.4105,
+        "ps_ttm": 0.7443,
+        "pb_annual": 0.7307,
+        "revenue_growth_ttm_yoy": 5.97,
+        "eps_growth_ttm_yoy": 151.81,
+        "gross_margin_ttm": 57.5,
+        "net_margin_ttm": 6,
+        "current_ratio": 4.5754,
+        "debt_equity": 0,
+        "beta": 0.9801352
+      }
+    },
+    "CALX": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Calix Inc",
+        "industry": "Communications",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2010-03-24",
+        "weburl": "https://www.calix.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CALX.png",
+        "market_cap": 2271740791.0770965,
+        "pe_ttm": 43.7135,
+        "ps_ttm": 2.0138,
+        "pb_annual": 4.0828,
+        "revenue_growth_ttm_yoy": 27.84,
+        "eps_growth_ttm_yoy": -24.31,
+        "gross_margin_ttm": 56.58,
+        "net_margin_ttm": 4.61,
+        "current_ratio": 4.2362,
+        "debt_equity": 0,
+        "beta": 1.2376127
+      }
+    },
+    "ODC": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Oil-Dri Corporation of America",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1971-06-25",
+        "weburl": "https://www.oildri.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959046536.png",
+        "market_cap": 1133076373.8793988,
+        "pe_ttm": 20.6643,
+        "ps_ttm": 2.3461,
+        "pb_annual": 3.1869,
+        "revenue_growth_ttm_yoy": 3.31,
+        "eps_growth_ttm_yoy": 36.78,
+        "gross_margin_ttm": 27.84,
+        "net_margin_ttm": 11.35,
+        "current_ratio": 2.5638,
+        "debt_equity": 0.1537,
+        "beta": 0.7625857
+      }
+    },
+    "ONT": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Onterris Inc",
+        "industry": "Commercial Services & Supplies",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2020-07-23",
+        "weburl": "https://www.onterris.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MEG.png",
+        "market_cap": 481459892.4113924,
+        "pe_ttm": null,
+        "ps_ttm": 0.616,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": -0.87,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 40.41,
+        "net_margin_ttm": -1.44,
+        "current_ratio": 1.4309,
+        "debt_equity": 0.7094,
+        "beta": -0.2657989
+      }
+    },
+    "DAAQU": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "Digital Asset Acquisition Corp",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2025-04-29",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950922959786.png",
+        "market_cap": 240810005.99999997,
+        "pe_ttm": 42.5923,
+        "ps_ttm": null,
+        "pb_annual": 1.3643,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 10.467,
+        "debt_equity": 0,
+        "beta": -0.15961553
+      }
+    },
+    "PORT-UN": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
+      }
+    },
+    "DTSQR": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "DT Cloud Star Acquisition Corp",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2024-07-25",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950871926826.png",
+        "market_cap": 41941136.63541667,
+        "pe_ttm": 52.678,
+        "ps_ttm": null,
+        "pb_annual": 5.6877,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": -97.66,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.2093,
+        "debt_equity": 0,
+        "beta": 0.0647072
+      }
+    },
+    "FSK": {
+      "cached_at": "2026-10-09T01:17:24.806980+00:00",
+      "data": {
+        "name": "FS KKR Capital Corp",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-04-16",
+        "weburl": "https://www.fskkradvisor.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942962282686.png",
+        "market_cap": 2981711523.8390694,
+        "pe_ttm": 270.4366,
+        "ps_ttm": 2.2622,
+        "pb_annual": 0.7091,
+        "revenue_growth_ttm_yoy": -20.11,
+        "eps_growth_ttm_yoy": -50.63,
+        "gross_margin_ttm": 45.02,
+        "net_margin_ttm": -28.52,
+        "current_ratio": 2.8008,
+        "debt_equity": 1.3052,
+        "beta": 0.97596025
       }
     }
   }
