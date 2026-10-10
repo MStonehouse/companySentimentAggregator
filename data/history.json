@@ -36162,12 +36162,12 @@
       "ZDGE": 1
     },
     "2026-10-10": {
-      "ACH": 2,
+      "ACH": 3,
       "ACRE": 1,
       "AHT-PI": 1,
       "ALDFW": 1,
       "APAM": 3,
-      "ARAI": 2,
+      "ARAI": 3,
       "ARTL": 1,
       "ATO": 1,
       "AZO": 3,
@@ -36178,7 +36178,7 @@
       "CI": 1,
       "COPL-WT": 1,
       "COSM": 1,
-      "CRGY": 6,
+      "CRGY": 5,
       "CRVO": 1,
       "CSCO": 1,
       "CTNT": 1,
@@ -36195,14 +36195,14 @@
       "GTN-A": 1,
       "HQY": 1,
       "HYFM": 1,
-      "IART": 1,
+      "IART": 2,
       "IDAI": 1,
       "IIIV": 1,
-      "IVZ": 6,
+      "IVZ": 5,
       "LPBBU": 1,
       "LYV": 1,
       "MBRX": 1,
-      "MH": 1,
+      "MH": 2,
       "MITK": 1,
       "MOBXW": 1,
       "MSGR": 1,
@@ -36216,7 +36216,7 @@
       "PINE-PA": 1,
       "POOL": 1,
       "PXED": 1,
-      "QMCO": 1,
+      "QMCO": 2,
       "QUCY": 1,
       "SATLW": 1,
       "SAY": 1,
@@ -36224,14 +36224,14 @@
       "SIDU": 1,
       "SINT": 1,
       "SMP": 1,
-      "SMXT": 1,
+      "SMXT": 2,
       "SOARW": 1,
       "SPMA": 1,
       "STEX": 1,
       "TCRT": 1,
       "THRM": 2,
       "TOP": 1,
-      "UAVS": 1,
+      "UAVS": 2,
       "UP": 1,
       "UUU": 1,
       "VATE": 1,
@@ -45360,25 +45360,25 @@
     "2026-10-10": {
       "emerging_signals": [
         "VIVK",
-        "CRGY",
-        "THRM",
-        "ARAI",
-        "SOARW",
-        "LPBBU",
         "ACH",
-        "SBFMW",
+        "CRGY",
+        "ARAI",
+        "THRM",
+        "SMXT",
+        "SOARW",
+        "UAVS",
+        "LPBBU",
         "QMCO",
+        "SBFMW",
         "AZO",
         "COPL-WT",
         "GBCS",
         "CTRVP",
         "AHT-PI",
-        "BETRW",
-        "APAM",
-        "STEX",
+        "MH",
         "IART",
-        "SMXT",
-        "TCRT"
+        "BETRW",
+        "APAM"
       ],
       "market_leaders": [
         "CRGY",
@@ -45387,20 +45387,20 @@
         "ARAI",
         "SMXT",
         "SOARW",
+        "QMCO",
+        "ACH",
         "COPL-WT",
         "GBCS",
         "LPBBU",
         "CTRVP",
         "AHT-PI",
         "THRM",
-        "QMCO",
         "AZO",
-        "SBFMW",
-        "ACH",
-        "BETRW",
         "IART",
-        "LYV",
-        "APAM"
+        "SBFMW",
+        "MH",
+        "UAVS",
+        "BETRW"
       ]
     }
   },
@@ -59443,9 +59443,9 @@
     },
     "2026-10-10": {
       "ACH": {
-        "discovery_score": 61.9,
-        "market_attention_score": 27.9,
-        "signal_score": 66.0
+        "discovery_score": 69.8,
+        "market_attention_score": 29.1,
+        "signal_score": 66.5
       },
       "AHT-PI": {
         "discovery_score": 58.5,
@@ -59458,9 +59458,9 @@
         "signal_score": 65.6
       },
       "ARAI": {
-        "discovery_score": 62.6,
-        "market_attention_score": 33.4,
-        "signal_score": 78.6
+        "discovery_score": 64.1,
+        "market_attention_score": 34.5,
+        "signal_score": 79.6
       },
       "ARTL": {
         "discovery_score": 52.8,
@@ -59483,9 +59483,9 @@
         "signal_score": 65.0
       },
       "CRGY": {
-        "discovery_score": 69.4,
-        "market_attention_score": 46.2,
-        "signal_score": 85.2
+        "discovery_score": 68.2,
+        "market_attention_score": 45.8,
+        "signal_score": 84.4
       },
       "CTRVP": {
         "discovery_score": 58.5,
@@ -59513,19 +59513,14 @@
         "signal_score": 56.5
       },
       "IART": {
-        "discovery_score": 55.8,
-        "market_attention_score": 26.9,
-        "signal_score": 63.8
-      },
-      "IIIV": {
-        "discovery_score": 51.8,
-        "market_attention_score": 21.8,
-        "signal_score": 54.0
+        "discovery_score": 57.5,
+        "market_attention_score": 28.1,
+        "signal_score": 64.9
       },
       "IVZ": {
-        "discovery_score": 50.0,
-        "market_attention_score": 42.6,
-        "signal_score": 70.9
+        "discovery_score": 48.8,
+        "market_attention_score": 42.2,
+        "signal_score": 70.1
       },
       "LPBBU": {
         "discovery_score": 62.2,
@@ -59543,9 +59538,9 @@
         "signal_score": 50.2
       },
       "MH": {
-        "discovery_score": 52.4,
-        "market_attention_score": 24.1,
-        "signal_score": 61.5
+        "discovery_score": 57.8,
+        "market_attention_score": 27.7,
+        "signal_score": 67.6
       },
       "MOBXW": {
         "discovery_score": 52.8,
@@ -59558,9 +59553,9 @@
         "signal_score": 54.0
       },
       "QMCO": {
-        "discovery_score": 59.2,
-        "market_attention_score": 28.6,
-        "signal_score": 70.5
+        "discovery_score": 60.8,
+        "market_attention_score": 29.7,
+        "signal_score": 71.6
       },
       "SBFMW": {
         "discovery_score": 60.0,
@@ -59568,9 +59563,9 @@
         "signal_score": 59.0
       },
       "SMXT": {
-        "discovery_score": 54.9,
-        "market_attention_score": 31.4,
-        "signal_score": 71.5
+        "discovery_score": 62.9,
+        "market_attention_score": 32.6,
+        "signal_score": 72.0
       },
       "SOARW": {
         "discovery_score": 62.6,
@@ -59597,10 +59592,10 @@
         "market_attention_score": 22.9,
         "signal_score": 56.5
       },
-      "UP": {
-        "discovery_score": 48.0,
-        "market_attention_score": 21.8,
-        "signal_score": 51.0
+      "UAVS": {
+        "discovery_score": 62.3,
+        "market_attention_score": 27.3,
+        "signal_score": 62.0
       },
       "VIVK": {
         "discovery_score": 70.3,

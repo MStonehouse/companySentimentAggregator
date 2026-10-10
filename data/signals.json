@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-10T01:02:06.398206+00:00",
+    "generated_at": "2026-10-10T07:19:41.504747+00:00",
     "companies_scanned": 81,
     "sources_enabled": {
       "sec_edgar": true,
@@ -23,81 +23,76 @@
       "ARAI",
       "SMXT",
       "SOARW",
+      "QMCO",
+      "ACH",
       "COPL-WT",
       "GBCS",
       "LPBBU",
       "CTRVP",
       "AHT-PI",
       "THRM",
-      "QMCO",
       "AZO",
-      "SBFMW",
-      "ACH",
-      "BETRW",
       "IART",
+      "SBFMW",
+      "MH",
+      "UAVS",
+      "BETRW",
       "LYV",
       "APAM",
       "ARTL",
       "MOBXW",
       "STEX",
       "TCRT",
-      "MH",
       "MBRX",
       "HQY",
       "TOP",
-      "FLNC",
-      "UP"
+      "FLNC"
     ],
     "emerging_signals": [
       "VIVK",
-      "CRGY",
-      "THRM",
-      "ARAI",
-      "SOARW",
-      "LPBBU",
       "ACH",
-      "SBFMW",
+      "CRGY",
+      "ARAI",
+      "THRM",
+      "SMXT",
+      "SOARW",
+      "UAVS",
+      "LPBBU",
       "QMCO",
+      "SBFMW",
       "AZO",
       "COPL-WT",
       "GBCS",
       "CTRVP",
       "AHT-PI",
+      "MH",
+      "IART",
       "BETRW",
       "APAM",
       "STEX",
-      "IART",
-      "SMXT",
       "TCRT",
       "ARTL",
       "MOBXW",
-      "MH",
       "HQY",
       "TOP",
       "FLNC",
       "VTGN",
       "NIKI",
-      "DPLS",
-      "IIIV"
+      "DPLS"
     ]
   },
   "briefing": {
     "new_emerging": [
       "VIVK",
-      "CRGY",
-      "THRM",
-      "ARAI",
-      "SOARW",
-      "LPBBU",
       "ACH",
-      "SBFMW"
+      "CRGY",
+      "ARAI",
+      "THRM",
+      "SMXT",
+      "SOARW",
+      "UAVS"
     ],
-    "accelerating": [
-      {
-        "ticker": "IVZ",
-        "delta": 10.5
-      }
-    ],
+    "accelerating": [],
     "cooling": [
       {
         "ticker": "MBRX",
@@ -109,7 +104,7 @@
       },
       {
         "ticker": "IART",
-        "delta": -30.4
+        "delta": -28.7
       },
       {
         "ticker": "HQY",
@@ -117,7 +112,7 @@
       },
       {
         "ticker": "ARAI",
-        "delta": -20.8
+        "delta": -19.3
       },
       {
         "ticker": "STEX",
@@ -185,11 +180,20 @@
     {
       "sector": "Energy",
       "company_count": 2,
-      "discovery_intensity": 69.8,
-      "signal_intensity": 85.2,
+      "discovery_intensity": 69.2,
+      "signal_intensity": 84.8,
       "tickers": [
         "VIVK",
         "CRGY"
+      ]
+    },
+    {
+      "sector": "Logistics & Transportation",
+      "company_count": 1,
+      "discovery_intensity": 64.1,
+      "signal_intensity": 79.6,
+      "tickers": [
+        "ARAI"
       ]
     },
     {
@@ -202,12 +206,12 @@
       ]
     },
     {
-      "sector": "Logistics & Transportation",
+      "sector": "Machinery",
       "company_count": 1,
-      "discovery_intensity": 62.6,
-      "signal_intensity": 78.6,
+      "discovery_intensity": 62.3,
+      "signal_intensity": 62.0,
       "tickers": [
-        "ARAI"
+        "UAVS"
       ]
     },
     {
@@ -222,10 +226,22 @@
     {
       "sector": "Technology",
       "company_count": 1,
-      "discovery_intensity": 59.2,
-      "signal_intensity": 70.5,
+      "discovery_intensity": 60.8,
+      "signal_intensity": 71.6,
       "tickers": [
         "QMCO"
+      ]
+    },
+    {
+      "sector": "Health Care",
+      "company_count": 4,
+      "discovery_intensity": 59.1,
+      "signal_intensity": 62.2,
+      "tickers": [
+        "ACH",
+        "IART",
+        "STEX",
+        "HQY"
       ]
     },
     {
@@ -256,52 +272,41 @@
       ]
     },
     {
-      "sector": "Health Care",
-      "company_count": 4,
-      "discovery_intensity": 56.7,
-      "signal_intensity": 61.8,
-      "tickers": [
-        "ACH",
-        "STEX",
-        "IART",
-        "HQY"
-      ]
-    },
-    {
-      "sector": "Unclassified",
-      "company_count": 16,
-      "discovery_intensity": 54.5,
-      "signal_intensity": 59.4,
-      "tickers": [
-        "SOARW",
-        "SBFMW",
-        "COPL-WT",
-        "AHT-PI",
-        "BETRW",
-        "APAM"
-      ]
-    },
-    {
       "sector": "Electrical Equipment",
       "company_count": 2,
-      "discovery_intensity": 53.5,
-      "signal_intensity": 64.0,
+      "discovery_intensity": 57.5,
+      "signal_intensity": 64.2,
       "tickers": [
         "SMXT",
         "FLNC"
       ]
     },
     {
-      "sector": "Financial Services",
-      "company_count": 1,
-      "discovery_intensity": 50.0,
-      "signal_intensity": 70.9,
+      "sector": "Unclassified",
+      "company_count": 14,
+      "discovery_intensity": 55.6,
+      "signal_intensity": 60.8,
       "tickers": [
-        "IVZ"
+        "SOARW",
+        "SBFMW",
+        "COPL-WT",
+        "AHT-PI",
+        "MH",
+        "BETRW"
       ]
     }
   ],
   "themes": [
+    {
+      "theme": "Cloud & software",
+      "company_count": 3,
+      "intensity": 59.8,
+      "tickers": [
+        "ARAI",
+        "SOARW",
+        "ARTL"
+      ]
+    },
     {
       "theme": "Biotech & therapeutics",
       "company_count": 3,
@@ -315,25 +320,16 @@
     {
       "theme": "AI infrastructure",
       "company_count": 2,
-      "intensity": 62.6,
+      "intensity": 63.3,
       "tickers": [
         "ARAI",
         "SOARW"
       ]
     },
     {
-      "theme": "Cloud & software",
-      "company_count": 2,
-      "intensity": 57.7,
-      "tickers": [
-        "SOARW",
-        "ARTL"
-      ]
-    },
-    {
       "theme": "Defense & aerospace",
       "company_count": 2,
-      "intensity": 56.3,
+      "intensity": 56.4,
       "tickers": [
         "ARAI",
         "IVZ"
@@ -342,7 +338,7 @@
     {
       "theme": "Nuclear & uranium",
       "company_count": 1,
-      "intensity": 69.4,
+      "intensity": 68.2,
       "tickers": [
         "CRGY"
       ]
@@ -350,7 +346,7 @@
     {
       "theme": "Robotics & automation",
       "company_count": 1,
-      "intensity": 62.6,
+      "intensity": 64.1,
       "tickers": [
         "ARAI"
       ]
@@ -536,6 +532,12 @@
       "history": [
         {
           "date": "2026-10-10",
+          "discovery_score": 70.3,
+          "market_attention_score": 35.7,
+          "signal_score": 85.2
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 85.2,
           "discovery_score": 70.3
         }
@@ -544,48 +546,48 @@
     {
       "ticker": "CRGY",
       "company_name": "Crescent Energy Co",
-      "signal_score": 85.2,
-      "market_attention_score": 46.2,
-      "discovery_score": 69.4,
+      "signal_score": 84.4,
+      "market_attention_score": 45.8,
+      "discovery_score": 68.2,
       "confidence_score": 93.8,
       "primary_catalyst": "Crescent Energy Co (0001866175) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "21 unique credible information items from 4 independent sources. Coverage is 3.0× the stored baseline.",
+      "why_it_matters": "23 unique credible information items from 4 independent sources. Coverage is 2.8× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 6,
-      "latest_event_at": "2026-10-09T17:02:30-04:00",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-09T20:01:09+00:00",
       "new_to_radar": false,
       "days_on_radar": 15,
       "change": {
-        "signal_delta": 1.7,
-        "discovery_delta": 1.8
+        "signal_delta": 0.9,
+        "discovery_delta": 0.6
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 21
+        "unique_story_clusters": 23
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 12.7,
+        "coverage_acceleration": 11.9,
         "catalyst_strength": 20,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 3.0,
-        "weighted_coverage_24h": 1.5,
+        "coverage_ratio_vs_baseline": 2.8,
+        "weighted_coverage_24h": 1.4,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
-        "attention_lift": 19.0,
+        "attention_lift": 17.8,
         "novelty": 19.0,
         "source_breadth": 3.9,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 3.0,
-        "weighted_coverage_24h": 1.5,
+        "coverage_ratio_vs_baseline": 2.8,
+        "weighted_coverage_24h": 1.4,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -661,56 +663,62 @@
         },
         {
           "date": "2026-10-10",
-          "signal_score": 85.2,
-          "discovery_score": 69.4
+          "discovery_score": 69.4,
+          "market_attention_score": 46.2,
+          "signal_score": 85.2
+        },
+        {
+          "date": "2026-10-10",
+          "signal_score": 84.4,
+          "discovery_score": 68.2
         }
       ]
     },
     {
       "ticker": "ARAI",
       "company_name": "Arrive AI Inc.",
-      "signal_score": 78.6,
-      "market_attention_score": 33.4,
-      "discovery_score": 62.6,
+      "signal_score": 79.6,
+      "market_attention_score": 34.5,
+      "discovery_score": 64.1,
       "confidence_score": 93.8,
       "primary_catalyst": "Arrive AI Inc. (0001818274) (Filer)",
       "catalyst_category": "Clinical trial",
-      "why_it_matters": "7 unique credible information items from 4 independent sources. Coverage is 2.2× the stored baseline.",
+      "why_it_matters": "8 unique credible information items from 4 independent sources. Coverage is 2.4× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 2,
+      "article_count_24h": 3,
       "latest_event_at": "2026-10-09T17:18:40-04:00",
       "new_to_radar": false,
       "days_on_radar": 53,
       "change": {
-        "signal_delta": 14.3,
-        "discovery_delta": -20.8
+        "signal_delta": 15.3,
+        "discovery_delta": -19.3
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 7
+        "unique_story_clusters": 8
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
+        "coverage_acceleration": 10.1,
         "catalyst_strength": 17,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
+        "attention_lift": 15.2,
         "novelty": 19.8,
         "source_breadth": 3.9,
         "catalyst_strength": 12.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -761,7 +769,8 @@
       "themes": [
         "AI infrastructure",
         "Robotics & automation",
-        "Defense & aerospace"
+        "Defense & aerospace",
+        "Cloud & software"
       ],
       "stories": [
         {
@@ -777,6 +786,20 @@
           "fingerprint": "54b2ca6c5c33",
           "display_relevance": 1.0,
           "display_relevant": true
+        },
+        {
+          "ticker": "ARAI",
+          "company_name": "Arrive AI Inc.",
+          "source": "Yahoo",
+          "title": "Arrive AI and Modovolo Partner to Advance Autonomous Drone Delivery",
+          "summary": "Collaboration brings together Modovolo's modular Lift drone platform and Arrive AI's intelligent delivery stations to develop automated package delivery.INDIANAPOLIS, IN / ACCESS Newswire / October 9, 2026 / Arrive AI (NASDAQ:ARAI), a physical AI and autonomous logistics infrastructure company enabling drones, autonomous mobile robots (AMRs), autonomous vehicles (AVs) and human couriers to securely exchange goods, t…",
+          "url": "https://finnhub.io/api/news?id=8e2210e1e8447f25222dc8dc5ee9d79d3ea1850f11f1783e57f8a70d17895349",
+          "published_at": "2026-10-09T12:17:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "736c73b65ac8",
+          "display_relevance": 0.62,
+          "display_relevant": true
         }
       ],
       "history": [
@@ -788,24 +811,30 @@
         },
         {
           "date": "2026-10-10",
-          "signal_score": 78.6,
-          "discovery_score": 62.6
+          "discovery_score": 62.6,
+          "market_attention_score": 33.4,
+          "signal_score": 78.6
+        },
+        {
+          "date": "2026-10-10",
+          "signal_score": 79.6,
+          "discovery_score": 64.1
         }
       ]
     },
     {
       "ticker": "SMXT",
       "company_name": "SolarMax Technology, Inc.",
-      "signal_score": 71.5,
-      "market_attention_score": 31.4,
-      "discovery_score": 54.9,
+      "signal_score": 72.0,
+      "market_attention_score": 32.6,
+      "discovery_score": 62.9,
       "confidence_score": 93.8,
       "primary_catalyst": "SolarMax Technology, Inc. (0001519472) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "7 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "8 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
       "latest_event_at": "2026-10-09T17:05:28-04:00",
       "new_to_radar": false,
       "days_on_radar": 53,
@@ -816,28 +845,28 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 7
+        "unique_story_clusters": 8
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
+        "coverage_acceleration": 5.5,
         "catalyst_strength": 14,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
         "source_breadth": 3.9,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -906,60 +935,66 @@
       "history": [
         {
           "date": "2026-10-10",
-          "signal_score": 71.5,
-          "discovery_score": 54.9
+          "discovery_score": 54.9,
+          "market_attention_score": 31.4,
+          "signal_score": 71.5
+        },
+        {
+          "date": "2026-10-10",
+          "signal_score": 72.0,
+          "discovery_score": 62.9
         }
       ]
     },
     {
-      "ticker": "IVZ",
-      "company_name": "Invesco Ltd.",
-      "signal_score": 70.9,
-      "market_attention_score": 42.6,
-      "discovery_score": 50.0,
-      "confidence_score": 94.2,
-      "primary_catalyst": "8-K/A - Invesco Ltd. (0000914208) (Filer)",
+      "ticker": "QMCO",
+      "company_name": "QUANTUM CORP /DE/",
+      "signal_score": 71.6,
+      "market_attention_score": 29.7,
+      "discovery_score": 60.8,
+      "confidence_score": 83.8,
+      "primary_catalyst": "QUANTUM CORP /DE/ (0000709283) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "18 unique credible information items from 5 independent sources. Coverage is 1.3× the stored baseline.",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 6,
-      "latest_event_at": "2026-10-09T17:09:53-04:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-09T16:46:35-04:00",
       "new_to_radar": false,
-      "days_on_radar": 54,
+      "days_on_radar": 40,
       "change": {
-        "signal_delta": 27.1,
-        "discovery_delta": 10.5
+        "signal_delta": null,
+        "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 5,
-        "unique_story_clusters": 18
+        "independent_sources": 3,
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 3.2,
+        "coverage_acceleration": 9.1,
         "catalyst_strength": 15,
-        "corroboration": 15.0,
-        "source_quality": 7.7,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.32,
-        "weighted_coverage_24h": 1.5,
-        "weighted_source_breadth": 1.4
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 4.9,
-        "novelty": 17.2,
-        "source_breadth": 4.2,
+        "attention_lift": 13.7,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
         "catalyst_strength": 11.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.32,
-        "weighted_coverage_24h": 1.5,
-        "weighted_source_breadth": 1.4
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
       },
       "baseline": {
-        "avg_items_24h": 1.13,
+        "avg_items_24h": 0.07,
         "days_available": 30,
         "maturity": "established"
       },
@@ -972,78 +1007,65 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Invesco Ltd",
-        "industry": "Financial Services",
+        "name": "Quantum Corp",
+        "industry": "Technology",
         "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1995-08-25",
-        "weburl": "https://www.invesco.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IVZ.png",
-        "market_cap": 13028658761.6115,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1982-12-13",
+        "weburl": "https://www.quantum.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959122496.png",
+        "market_cap": 1199049258.3413298,
         "pe_ttm": null,
-        "ps_ttm": 2.4814,
-        "pb_annual": 0.956,
-        "revenue_growth_ttm_yoy": -14.48,
+        "ps_ttm": 4.0235,
+        "pb_annual": 1.9288,
+        "revenue_growth_ttm_yoy": 10.9,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 66.03,
-        "net_margin_ttm": -7.8,
-        "current_ratio": 0.8026,
-        "debt_equity": 0.7667,
-        "beta": 1.6505492
+        "gross_margin_ttm": 37.84,
+        "net_margin_ttm": -80.76,
+        "current_ratio": 0.5466,
+        "debt_equity": 2.193,
+        "beta": 3.1565285
       },
       "profile": {
-        "name": "Invesco Plc",
-        "description": "Invesco Ltd. is an American independent investment management company that is headquartered in Atlanta, Georgia.",
-        "industry": "ASSET MANAGEMENT",
-        "sector": "FINANCIAL SERVICES",
-        "country": "USA",
-        "exchange": "NYSE",
-        "currency": "USD",
-        "products_markets": [],
-        "source": "Alpha Vantage Company Overview"
+        "name": "Quantum Corp",
+        "description": "From high-performance ingest that powers AI applications and demanding data-intensive workloads, to massive, durable data lakes to fuel AI models, Quantum offers the most comprehensive and cost-efficient data management solutions.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.quantum.com/",
+        "products_markets": [
+          "AI & accelerated computing"
+        ],
+        "source": "Company website"
       },
-      "themes": [
-        "Defense & aerospace"
-      ],
+      "themes": [],
       "stories": [
         {
-          "ticker": "IVZ",
-          "company_name": "Invesco Ltd.",
+          "ticker": "QMCO",
+          "company_name": "QUANTUM CORP /DE/",
           "source": "SEC EDGAR",
-          "title": "8-K/A - Invesco Ltd. (0000914208) (Filer)",
-          "summary": "Filed: 2026-10-09 AccNo: 0000914208-26-000360 Size: 228 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000360/0000914208-26-000360-index.htm",
-          "published_at": "2026-10-09T17:09:53-04:00",
+          "title": "QUANTUM CORP /DE/ (0000709283) (Filer)",
+          "summary": "Filed: 2026-10-09 AccNo: 0001628280-26-065547 Size: 168 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 8.01: Other Events",
+          "url": "https://www.sec.gov/Archives/edgar/data/709283/000162828026065547/0001628280-26-065547-index.htm",
+          "published_at": "2026-10-09T16:46:35-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "153ec46efa15",
+          "fingerprint": "b95a16dfffb9",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-08-23",
-          "discovery_score": 64.4,
-          "market_attention_score": 77.6,
-          "signal_score": 58.8
-        },
-        {
-          "date": "2026-09-01",
-          "discovery_score": 61.3,
-          "market_attention_score": 70.5,
-          "signal_score": 54.9
-        },
-        {
-          "date": "2026-09-06",
-          "discovery_score": 39.5,
-          "market_attention_score": 44.4,
-          "signal_score": 43.8
+          "date": "2026-10-10",
+          "discovery_score": 59.2,
+          "market_attention_score": 28.6,
+          "signal_score": 70.5
         },
         {
           "date": "2026-10-10",
-          "signal_score": 70.9,
-          "discovery_score": 50.0
+          "signal_score": 71.6,
+          "discovery_score": 60.8
         }
       ]
     },
@@ -1160,60 +1182,66 @@
       "history": [
         {
           "date": "2026-10-10",
+          "discovery_score": 62.6,
+          "market_attention_score": 29.9,
+          "signal_score": 70.5
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 70.5,
           "discovery_score": 62.6
         }
       ]
     },
     {
-      "ticker": "QMCO",
-      "company_name": "QUANTUM CORP /DE/",
-      "signal_score": 70.5,
-      "market_attention_score": 28.6,
-      "discovery_score": 59.2,
-      "confidence_score": 79.8,
-      "primary_catalyst": "QUANTUM CORP /DE/ (0000709283) (Filer)",
+      "ticker": "IVZ",
+      "company_name": "Invesco Ltd.",
+      "signal_score": 70.1,
+      "market_attention_score": 42.2,
+      "discovery_score": 48.8,
+      "confidence_score": 94.2,
+      "primary_catalyst": "8-K/A - Invesco Ltd. (0000914208) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "18 unique credible information items from 5 independent sources. Coverage is 1.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-09T16:46:35-04:00",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-09T17:09:53-04:00",
       "new_to_radar": false,
-      "days_on_radar": 40,
+      "days_on_radar": 54,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 26.3,
+        "discovery_delta": 9.3
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 3
+        "independent_sources": 5,
+        "unique_story_clusters": 18
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 2.4,
         "catalyst_strength": 15,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
+        "corroboration": 15.0,
+        "source_quality": 7.7,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.24,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.4
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
+        "attention_lift": 3.7,
+        "novelty": 17.2,
+        "source_breadth": 4.2,
         "catalyst_strength": 11.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.24,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.4
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 1.13,
         "days_available": 30,
         "maturity": "established"
       },
@@ -1226,50 +1254,190 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Quantum Corp",
-        "industry": "Technology",
+        "name": "Invesco Ltd",
+        "industry": "Financial Services",
         "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1982-12-13",
-        "weburl": "https://www.quantum.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959122496.png",
-        "market_cap": 1199049258.3413298,
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1995-08-25",
+        "weburl": "https://www.invesco.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IVZ.png",
+        "market_cap": 13028658761.6115,
         "pe_ttm": null,
-        "ps_ttm": 4.0235,
-        "pb_annual": 1.9288,
-        "revenue_growth_ttm_yoy": 10.9,
+        "ps_ttm": 2.4814,
+        "pb_annual": 0.956,
+        "revenue_growth_ttm_yoy": -14.48,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 37.84,
-        "net_margin_ttm": -80.76,
-        "current_ratio": 0.5466,
-        "debt_equity": 2.193,
-        "beta": 3.1565285
+        "gross_margin_ttm": 66.03,
+        "net_margin_ttm": -7.8,
+        "current_ratio": 0.8026,
+        "debt_equity": 0.7667,
+        "beta": 1.6505492
       },
       "profile": {
-        "name": "Quantum Corp",
-        "description": "From high-performance ingest that powers AI applications and demanding data-intensive workloads, to massive, durable data lakes to fuel AI models, Quantum offers the most comprehensive and cost-efficient data management solutions.",
-        "industry": "Technology",
+        "name": "Invesco Plc",
+        "description": "Invesco Ltd. is an American independent investment management company that is headquartered in Atlanta, Georgia.",
+        "industry": "ASSET MANAGEMENT",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [],
+        "source": "Alpha Vantage Company Overview"
+      },
+      "themes": [
+        "Defense & aerospace"
+      ],
+      "stories": [
+        {
+          "ticker": "IVZ",
+          "company_name": "Invesco Ltd.",
+          "source": "SEC EDGAR",
+          "title": "8-K/A - Invesco Ltd. (0000914208) (Filer)",
+          "summary": "Filed: 2026-10-09 AccNo: 0000914208-26-000360 Size: 228 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/914208/000091420826000360/0000914208-26-000360-index.htm",
+          "published_at": "2026-10-09T17:09:53-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "153ec46efa15",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-08-23",
+          "discovery_score": 64.4,
+          "market_attention_score": 77.6,
+          "signal_score": 58.8
+        },
+        {
+          "date": "2026-09-01",
+          "discovery_score": 61.3,
+          "market_attention_score": 70.5,
+          "signal_score": 54.9
+        },
+        {
+          "date": "2026-09-06",
+          "discovery_score": 39.5,
+          "market_attention_score": 44.4,
+          "signal_score": 43.8
+        },
+        {
+          "date": "2026-10-10",
+          "discovery_score": 50.0,
+          "market_attention_score": 42.6,
+          "signal_score": 70.9
+        },
+        {
+          "date": "2026-10-10",
+          "signal_score": 70.1,
+          "discovery_score": 48.8
+        }
+      ]
+    },
+    {
+      "ticker": "ACH",
+      "company_name": "ACCENDRA HEALTH INC/VA/",
+      "signal_score": 66.5,
+      "market_attention_score": 29.1,
+      "discovery_score": 69.8,
+      "confidence_score": 83.8,
+      "primary_catalyst": "ACCENDRA HEALTH INC/VA/ (0000075252) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-09T20:05:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 47,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.0,
+        "catalyst_strength": 13,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 24.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 9.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Accendra Health Inc",
+        "industry": "Health Care",
         "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.quantum.com/",
-        "products_markets": [
-          "AI & accelerated computing"
-        ],
-        "source": "Company website"
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.accendrahealth.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/OMI.png",
+        "market_cap": 32915211.561371833,
+        "pe_ttm": null,
+        "ps_ttm": 0.0127,
+        "pb_annual": 1.9182,
+        "revenue_growth_ttm_yoy": -69.68,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 44.83,
+        "net_margin_ttm": -11.41,
+        "current_ratio": 0.5785,
+        "debt_equity": 3.1401,
+        "beta": 1.5354337
+      },
+      "profile": {
+        "name": "Accendra Health Inc",
+        "description": "Accendra Health Inc is a publicly traded company operating in the Health Care industry with company information identifying US as its home market.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.accendrahealth.com",
+        "products_markets": [],
+        "source": "Structured company profile"
       },
       "themes": [],
       "stories": [
         {
-          "ticker": "QMCO",
-          "company_name": "QUANTUM CORP /DE/",
+          "ticker": "ACH",
+          "company_name": "ACCENDRA HEALTH INC/VA/",
           "source": "SEC EDGAR",
-          "title": "QUANTUM CORP /DE/ (0000709283) (Filer)",
-          "summary": "Filed: 2026-10-09 AccNo: 0001628280-26-065547 Size: 168 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 8.01: Other Events",
-          "url": "https://www.sec.gov/Archives/edgar/data/709283/000162828026065547/0001628280-26-065547-index.htm",
-          "published_at": "2026-10-09T16:46:35-04:00",
+          "title": "ACCENDRA HEALTH INC/VA/ (0000075252) (Filer)",
+          "summary": "Filed: 2026-10-09 AccNo: 0001104659-26-115043 Size: 184 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/75252/000110465926115043/0001104659-26-115043-index.htm",
+          "published_at": "2026-10-09T16:10:18-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "b95a16dfffb9",
+          "fingerprint": "d3c9b5cc9ce9",
           "display_relevance": 1.0,
           "display_relevant": true
         }
@@ -1277,8 +1445,14 @@
       "history": [
         {
           "date": "2026-10-10",
-          "signal_score": 70.5,
-          "discovery_score": 59.2
+          "discovery_score": 61.9,
+          "market_attention_score": 27.9,
+          "signal_score": 66.0
+        },
+        {
+          "date": "2026-10-10",
+          "signal_score": 66.5,
+          "discovery_score": 69.8
         }
       ]
     },
@@ -1398,27 +1572,33 @@
         },
         {
           "date": "2026-10-10",
+          "discovery_score": 62.2,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 68.0,
           "discovery_score": 62.2
         }
       ]
     },
     {
-      "ticker": "ACH",
-      "company_name": "ACCENDRA HEALTH INC/VA/",
-      "signal_score": 66.0,
-      "market_attention_score": 27.9,
-      "discovery_score": 61.9,
-      "confidence_score": 79.8,
-      "primary_catalyst": "ACCENDRA HEALTH INC/VA/ (0000075252) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "ticker": "MH",
+      "company_name": "McGraw Hill, Inc.",
+      "signal_score": 67.6,
+      "market_attention_score": 27.7,
+      "discovery_score": 57.8,
+      "confidence_score": 83.8,
+      "primary_catalyst": "McGraw Hill, Inc. (0001951070) (Filer)",
+      "catalyst_category": "Financing",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
+      "attention_status": "Above baseline",
       "article_count_24h": 2,
-      "latest_event_at": "2026-10-09T16:10:18-04:00",
+      "latest_event_at": "2026-10-09T20:15:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 47,
+      "days_on_radar": 53,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
@@ -1426,32 +1606,32 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 3
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.5,
-        "catalyst_strength": 13,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 11,
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.1,
+        "coverage_ratio_vs_baseline": 2.2,
         "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 16.0,
-        "novelty": 20.0,
+        "attention_lift": 13.7,
+        "novelty": 19.8,
         "source_breadth": 3.6,
-        "catalyst_strength": 9.8,
+        "catalyst_strength": 8.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.1,
+        "coverage_ratio_vs_baseline": 2.2,
         "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
-        "avg_items_24h": 0.0,
+        "avg_items_24h": 0.07,
         "days_available": 30,
         "maturity": "established"
       },
@@ -1463,49 +1643,21 @@
         "basis": "",
         "caution": "No reliably extractable event value found."
       },
-      "fundamentals": {
-        "name": "Accendra Health Inc",
-        "industry": "Health Care",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1980-03-17",
-        "weburl": "https://www.accendrahealth.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/OMI.png",
-        "market_cap": 32915211.561371833,
-        "pe_ttm": null,
-        "ps_ttm": 0.0127,
-        "pb_annual": 1.9182,
-        "revenue_growth_ttm_yoy": -69.68,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 44.83,
-        "net_margin_ttm": -11.41,
-        "current_ratio": 0.5785,
-        "debt_equity": 3.1401,
-        "beta": 1.5354337
-      },
-      "profile": {
-        "name": "Accendra Health Inc",
-        "description": "Accendra Health Inc is a publicly traded company operating in the Health Care industry with company information identifying US as its home market.",
-        "industry": "Health Care",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.accendrahealth.com",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
+      "fundamentals": {},
+      "profile": {},
       "themes": [],
       "stories": [
         {
-          "ticker": "ACH",
-          "company_name": "ACCENDRA HEALTH INC/VA/",
+          "ticker": "MH",
+          "company_name": "McGraw Hill, Inc.",
           "source": "SEC EDGAR",
-          "title": "ACCENDRA HEALTH INC/VA/ (0000075252) (Filer)",
-          "summary": "Filed: 2026-10-09 AccNo: 0001104659-26-115043 Size: 184 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/75252/000110465926115043/0001104659-26-115043-index.htm",
-          "published_at": "2026-10-09T16:10:18-04:00",
+          "title": "McGraw Hill, Inc. (0001951070) (Filer)",
+          "summary": "Filed: 2026-10-09 AccNo: 0001193125-26-419151 Size: 5 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1951070/000119312526419151/0001193125-26-419151-index.htm",
+          "published_at": "2026-10-09T16:29:22-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "d3c9b5cc9ce9",
+          "fingerprint": "311daa41de21",
           "display_relevance": 1.0,
           "display_relevant": true
         }
@@ -1513,8 +1665,14 @@
       "history": [
         {
           "date": "2026-10-10",
-          "signal_score": 66.0,
-          "discovery_score": 61.9
+          "discovery_score": 52.4,
+          "market_attention_score": 24.1,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-10",
+          "signal_score": 67.6,
+          "discovery_score": 57.8
         }
       ]
     },
@@ -1654,6 +1812,12 @@
         },
         {
           "date": "2026-10-10",
+          "discovery_score": 59.0,
+          "market_attention_score": 28.4,
+          "signal_score": 65.9
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 65.9,
           "discovery_score": 59.0
         }
@@ -1739,6 +1903,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-10",
+          "discovery_score": 57.1,
+          "market_attention_score": 26.6,
+          "signal_score": 65.6
+        },
         {
           "date": "2026-10-10",
           "signal_score": 65.6,
@@ -1856,6 +2026,12 @@
       "history": [
         {
           "date": "2026-10-10",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 65.0,
           "discovery_score": 58.5
         }
@@ -1969,6 +2145,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-10",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-10-10",
           "signal_score": 65.0,
@@ -2086,6 +2268,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-10",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-10-10",
           "signal_score": 65.0,
@@ -2209,6 +2397,12 @@
         },
         {
           "date": "2026-10-10",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 65.0,
           "discovery_score": 58.5
         }
@@ -2217,48 +2411,48 @@
     {
       "ticker": "IART",
       "company_name": "INTEGRA LIFESCIENCES HOLDINGS CORP",
-      "signal_score": 63.8,
-      "market_attention_score": 26.9,
-      "discovery_score": 55.8,
-      "confidence_score": 67.8,
+      "signal_score": 64.9,
+      "market_attention_score": 28.1,
+      "discovery_score": 57.5,
+      "confidence_score": 71.8,
       "primary_catalyst": "INTEGRA LIFESCIENCES HOLDINGS CORP (0000917520) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 1.9× the stored baseline.",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.1× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-09T17:26:20-04:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-09T21:22:00+00:00",
       "new_to_radar": false,
       "days_on_radar": 36,
       "change": {
-        "signal_delta": -24.7,
-        "discovery_delta": -30.4
+        "signal_delta": -23.6,
+        "discovery_delta": -28.7
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 2
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 7.3,
+        "coverage_acceleration": 8.4,
         "catalyst_strength": 14,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.88,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 2.06,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 10.9,
+        "attention_lift": 12.5,
         "novelty": 18.7,
         "source_breadth": 3.3,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.88,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 2.06,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -2344,8 +2538,14 @@
         },
         {
           "date": "2026-10-10",
-          "signal_score": 63.8,
-          "discovery_score": 55.8
+          "discovery_score": 55.8,
+          "market_attention_score": 26.9,
+          "signal_score": 63.8
+        },
+        {
+          "date": "2026-10-10",
+          "signal_score": 64.9,
+          "discovery_score": 57.5
         }
       ]
     },
@@ -2457,6 +2657,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-10",
+          "discovery_score": 57.4,
+          "market_attention_score": 27.1,
+          "signal_score": 63.5
+        },
         {
           "date": "2026-10-10",
           "signal_score": 63.5,
@@ -2574,60 +2780,66 @@
       "history": [
         {
           "date": "2026-10-10",
+          "discovery_score": 63.0,
+          "market_attention_score": 28.6,
+          "signal_score": 63.0
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 63.0,
           "discovery_score": 63.0
         }
       ]
     },
     {
-      "ticker": "MH",
-      "company_name": "McGraw Hill, Inc.",
-      "signal_score": 61.5,
-      "market_attention_score": 24.1,
-      "discovery_score": 52.4,
-      "confidence_score": 79.8,
-      "primary_catalyst": "McGraw Hill, Inc. (0001951070) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
+      "ticker": "UAVS",
+      "company_name": "AgEagle Aerial Systems Inc.",
+      "signal_score": 62.0,
+      "market_attention_score": 27.3,
+      "discovery_score": 62.3,
+      "confidence_score": 67.8,
+      "primary_catalyst": "AgEagle Aerial Systems Inc. (0000008504) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-09T16:29:22-04:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-09T19:39:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 53,
+      "days_on_radar": 52,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 3
+        "independent_sources": 2,
+        "unique_story_clusters": 2
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 10.0,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 14,
+        "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
-        "catalyst_strength": 4.5,
+        "attention_lift": 16.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 0.0,
         "days_available": 30,
         "maturity": "established"
       },
@@ -2639,21 +2851,49 @@
         "basis": "",
         "caution": "No reliably extractable event value found."
       },
-      "fundamentals": {},
-      "profile": {},
+      "fundamentals": {
+        "name": "Ageagle Aerial Systems Inc",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "1999-12-03",
+        "weburl": "https://eaglenxt.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/UAVS.png",
+        "market_cap": 50909589.977483444,
+        "pe_ttm": null,
+        "ps_ttm": 5.5745,
+        "pb_annual": 0.9918,
+        "revenue_growth_ttm_yoy": -35.13,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 45.42,
+        "net_margin_ttm": -276.49,
+        "current_ratio": 7.9161,
+        "debt_equity": 0.0088,
+        "beta": 3.0674667
+      },
+      "profile": {
+        "name": "Ageagle Aerial Systems Inc",
+        "description": "EagleNXT delivers enterprise‑grade drones, sensors, & software for surveying, inspection, & agriculture. For accuracy, reliability, and real‑world performance.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://eaglenxt.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
       "themes": [],
       "stories": [
         {
-          "ticker": "MH",
-          "company_name": "McGraw Hill, Inc.",
+          "ticker": "UAVS",
+          "company_name": "AgEagle Aerial Systems Inc.",
           "source": "SEC EDGAR",
-          "title": "McGraw Hill, Inc. (0001951070) (Filer)",
-          "summary": "Filed: 2026-10-09 AccNo: 0001193125-26-419151 Size: 5 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1951070/000119312526419151/0001193125-26-419151-index.htm",
-          "published_at": "2026-10-09T16:29:22-04:00",
+          "title": "AgEagle Aerial Systems Inc. (0000008504) (Filer)",
+          "summary": "Filed: 2026-10-09 AccNo: 0001493152-26-046590 Size: 198 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/8504/000149315226046590/0001493152-26-046590-index.htm",
+          "published_at": "2026-10-09T17:14:09-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "311daa41de21",
+          "fingerprint": "beb004ef71f9",
           "display_relevance": 1.0,
           "display_relevant": true
         }
@@ -2661,8 +2901,8 @@
       "history": [
         {
           "date": "2026-10-10",
-          "signal_score": 61.5,
-          "discovery_score": 52.4
+          "signal_score": 62.0,
+          "discovery_score": 62.3
         }
       ]
     },
@@ -2782,6 +3022,12 @@
         },
         {
           "date": "2026-10-10",
+          "discovery_score": 56.9,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 61.0,
           "discovery_score": 56.9
         }
@@ -2897,6 +3143,12 @@
       "history": [
         {
           "date": "2026-10-10",
+          "discovery_score": 60.0,
+          "market_attention_score": 28.1,
+          "signal_score": 59.0
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 59.0,
           "discovery_score": 60.0
         }
@@ -2987,6 +3239,12 @@
       "history": [
         {
           "date": "2026-10-10",
+          "discovery_score": 52.8,
+          "market_attention_score": 25.9,
+          "signal_score": 59.5
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 59.5,
           "discovery_score": 52.8
         }
@@ -3074,6 +3332,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-10",
+          "discovery_score": 52.8,
+          "market_attention_score": 25.9,
+          "signal_score": 59.5
+        },
         {
           "date": "2026-10-10",
           "signal_score": 59.5,
@@ -3221,6 +3485,12 @@
         },
         {
           "date": "2026-10-10",
+          "discovery_score": 43.2,
+          "market_attention_score": 26.6,
+          "signal_score": 59.3
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 59.3,
           "discovery_score": 43.2
         }
@@ -3308,6 +3578,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-10",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
         {
           "date": "2026-10-10",
           "signal_score": 58.0,
@@ -3433,6 +3709,12 @@
         },
         {
           "date": "2026-10-10",
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 56.5,
           "discovery_score": 52.1
         }
@@ -3532,6 +3814,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-10",
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
         {
           "date": "2026-10-10",
           "signal_score": 56.5,
@@ -3640,6 +3928,12 @@
       "history": [
         {
           "date": "2026-10-10",
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 56.5,
           "discovery_score": 52.1
         }
@@ -3729,6 +4023,12 @@
       "history": [
         {
           "date": "2026-10-10",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-10",
           "signal_score": 54.0,
           "discovery_score": 51.8
         }
@@ -3814,6 +4114,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-10",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
         {
           "date": "2026-10-10",
           "signal_score": 54.0,
@@ -3903,182 +4209,14 @@
       "history": [
         {
           "date": "2026-10-10",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "IIIV",
-      "company_name": "i3 Verticals, Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
-      "confidence_score": 62,
-      "primary_catalyst": "i3 Verticals, Inc. (0001728688) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-09T16:46:09-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 10,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "IIIV",
-          "company_name": "i3 Verticals, Inc.",
-          "source": "SEC EDGAR",
-          "title": "i3 Verticals, Inc. (0001728688) (Filer)",
-          "summary": "Filed: 2026-10-09 AccNo: 0001728688-26-000048 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000048/0001728688-26-000048-index.htm",
-          "published_at": "2026-10-09T16:46:09-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "b2a879680caf",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
         {
           "date": "2026-10-10",
           "signal_score": 54.0,
           "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "UP",
-      "company_name": "Wheels Up Experience Inc.",
-      "signal_score": 51.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 48.0,
-      "confidence_score": 62,
-      "primary_catalyst": "8-K/A - Wheels Up Experience Inc. (0001819516) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-09T17:27:20-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 39,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "UP",
-          "company_name": "Wheels Up Experience Inc.",
-          "source": "SEC EDGAR",
-          "title": "8-K/A - Wheels Up Experience Inc. (0001819516) (Filer)",
-          "summary": "Filed: 2026-10-09 AccNo: 0001628280-26-065562 Size: 369 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1819516/000162828026065562/0001628280-26-065562-index.htm",
-          "published_at": "2026-10-09T17:27:20-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "65ac575d6e6e",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-10",
-          "signal_score": 51.0,
-          "discovery_score": 48.0
         }
       ]
     },
@@ -4205,6 +4343,12 @@
           "discovery_score": 93.1,
           "market_attention_score": 59.5,
           "signal_score": 90.8
+        },
+        {
+          "date": "2026-10-10",
+          "discovery_score": 40.6,
+          "market_attention_score": 22.9,
+          "signal_score": 50.2
         },
         {
           "date": "2026-10-10",
