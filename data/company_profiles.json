@@ -14554,6 +14554,37 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "XELLL": {
+      "updated_at": "2026-10-11",
+      "data": {
+        "name": "Xcel Energy Inc",
+        "description": "Xcel Energy Inc is a publicly traded company operating in the Utilities industry with company information identifying US as its home market.",
+        "industry": "Utilities",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://mn.my.xcelenergy.com/s/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      }
+    },
+    "TCRT": {
+      "updated_at": "2026-10-11",
+      "data": {
+        "name": "Alaunos Therapeutics Inc",
+        "description": "Alaunos Therapeutics Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://alaunos.com/",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }
