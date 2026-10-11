@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-11T07:22:46.130464+00:00",
+    "generated_at": "2026-10-11T18:11:42.529511+00:00",
     "companies_scanned": 81,
     "sources_enabled": {
       "sec_edgar": true,
@@ -651,16 +651,16 @@
       "ticker": "IVZ",
       "company_name": "Invesco Ltd.",
       "signal_score": 67.7,
-      "market_attention_score": 33.2,
+      "market_attention_score": 35.5,
       "discovery_score": 45.3,
       "confidence_score": 94.2,
       "primary_catalyst": "8-K/A - Invesco Ltd. (0000914208) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "13 unique credible information items from 5 independent sources. Coverage is 0.1× the stored baseline.",
+      "why_it_matters": "15 unique credible information items from 5 independent sources. Coverage is 0.3× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-10T21:14:54+00:00",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-11T08:08:26+00:00",
       "new_to_radar": false,
       "days_on_radar": 55,
       "change": {
@@ -670,7 +670,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 5,
-        "unique_story_clusters": 13
+        "unique_story_clusters": 15
       },
       "metrics": {
         "primary_evidence": 25,
@@ -679,8 +679,8 @@
         "corroboration": 15.0,
         "source_quality": 7.7,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.09,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.28,
+        "weighted_coverage_24h": 0.3,
         "weighted_source_breadth": 1.4
       },
       "discovery_metrics": {
@@ -690,8 +690,8 @@
         "catalyst_strength": 11.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.09,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.28,
+        "weighted_coverage_24h": 0.3,
         "weighted_source_breadth": 1.4
       },
       "baseline": {
@@ -752,6 +752,20 @@
           "evidence_type": "SEC filing",
           "fingerprint": "153ec46efa15",
           "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "IVZ",
+          "company_name": "Invesco Ltd.",
+          "source": "Yahoo",
+          "title": "Invesco (IVZ), Why Is Fresh Attention Building Around It?",
+          "summary": "Invesco (IVZ) has reported preliminary assets under management of US$2,537.8 billion for September, representing a 0.9% decline from August, following long-term outflows of US$1.1 billion and money market withdrawals of US$5.7 billion. Recent price action has turned softer, with Invesco’s share price down 1.93% over the last day, 3.75% over the past week, and 8.58% over the past month. The 90 day share price return…",
+          "url": "https://finnhub.io/api/news?id=02f34a89d358d36a9b746c6d49cde7ed029aea0e347892323601d8e8ea5a391f",
+          "published_at": "2026-10-11T08:08:26+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "a7d17522d09c",
+          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
