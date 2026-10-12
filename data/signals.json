@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-12T07:31:53.292797+00:00",
+    "generated_at": "2026-10-12T21:47:11.611762+00:00",
     "companies_scanned": 81,
     "sources_enabled": {
       "sec_edgar": true,
@@ -18,35 +18,35 @@
   "rankings": {
     "market_leaders": [
       "IVZ",
-      "CRGY",
       "VIVK",
+      "CRGY",
+      "ARAI",
       "XELLL",
+      "AZO",
       "COPL-WT",
       "GBCS",
       "LPBBU",
       "CTRVP",
       "AHT-PI",
-      "ARAI",
       "BETRW",
-      "AZO",
       "ACH",
       "UAVS",
       "SMXT",
+      "NIKI",
       "TCRT",
       "SBFMW",
-      "NIKI",
       "SIDU",
       "HYFM",
       "STEX",
+      "UP",
+      "QUCY",
+      "LYV",
       "THRM",
       "IART",
       "NXB",
-      "UP",
       "ALDFW",
       "VTAK",
-      "SOARW",
-      "QUCY",
-      "ARTL"
+      "SOARW"
     ],
     "emerging_signals": [
       "VIVK",
@@ -71,10 +71,10 @@
       "SIDU",
       "HYFM",
       "THRM",
-      "NXB",
       "UP",
-      "ALDFW",
       "QUCY",
+      "NXB",
+      "ALDFW",
       "ARTL",
       "VTGN",
       "MOBXW",
@@ -154,8 +154,8 @@
     {
       "sector": "Energy",
       "company_count": 2,
-      "discovery_intensity": 50.6,
-      "signal_intensity": 70.0,
+      "discovery_intensity": 52.2,
+      "signal_intensity": 71.0,
       "tickers": [
         "VIVK",
         "CRGY"
@@ -255,7 +255,7 @@
       "sector": "Unclassified",
       "company_count": 16,
       "discovery_intensity": 42.6,
-      "signal_intensity": 50.5,
+      "signal_intensity": 50.8,
       "tickers": [
         "COPL-WT",
         "AHT-PI",
@@ -268,6 +268,16 @@
   ],
   "themes": [
     {
+      "theme": "Defense & aerospace",
+      "company_count": 3,
+      "intensity": 47.7,
+      "tickers": [
+        "VIVK",
+        "ARAI",
+        "SIDU"
+      ]
+    },
+    {
       "theme": "Biotech & therapeutics",
       "company_count": 3,
       "intensity": 43.3,
@@ -278,20 +288,12 @@
       ]
     },
     {
-      "theme": "Defense & aerospace",
+      "theme": "AI infrastructure",
       "company_count": 2,
       "intensity": 44.5,
       "tickers": [
         "ARAI",
-        "SIDU"
-      ]
-    },
-    {
-      "theme": "AI infrastructure",
-      "company_count": 1,
-      "intensity": 45.1,
-      "tickers": [
-        "ARAI"
+        "NIKI"
       ]
     },
     {
@@ -316,48 +318,48 @@
     {
       "ticker": "VIVK",
       "company_name": "Vivakor, Inc.",
-      "signal_score": 72.5,
-      "market_attention_score": 30.4,
-      "discovery_score": 51.1,
+      "signal_score": 74.6,
+      "market_attention_score": 37.4,
+      "discovery_score": 54.2,
       "confidence_score": 93.8,
       "primary_catalyst": "Vivakor, Inc. (0001450704) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "7 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "13 unique credible information items from 4 independent sources. Coverage is 1.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-09T17:03:20-04:00",
+      "attention_status": "Above baseline",
+      "article_count_24h": 6,
+      "latest_event_at": "2026-10-12T19:00:00+00:00",
       "new_to_radar": false,
       "days_on_radar": 34,
       "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": 0.0
+        "signal_delta": 2.1,
+        "discovery_delta": 3.1
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 7
+        "unique_story_clusters": 13
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
+        "coverage_acceleration": 2.1,
         "catalyst_strength": 20,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 0.6,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
-        "attention_lift": 0.0,
+        "attention_lift": 3.2,
         "novelty": 19.7,
         "source_breadth": 3.9,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 0.6,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -405,7 +407,9 @@
         ],
         "source": "Structured company profile"
       },
-      "themes": [],
+      "themes": [
+        "Defense & aerospace"
+      ],
       "stories": [
         {
           "ticker": "VIVK",
@@ -419,48 +423,6 @@
           "evidence_type": "SEC filing",
           "fingerprint": "be6653dab167",
           "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "VIVK",
-          "company_name": "Vivakor, Inc.",
-          "source": "Yahoo",
-          "title": "Vivakor Signs LOI for Proposed $40 Million Direct Midstream Acquisition in Permian Basin",
-          "summary": "Vivakor (NASDAQ:VIVK) has signed a non-binding letter of intent to acquire Direct Midstream, outlining a stock-heavy transaction that could expand its Permian Basin infrastructure and oilfield waste management operations. Key Investor TakeawaysVivakor (NASDAQ:VIVK) has advanced its proposed Direct Midstream acquisition with a $40 million indicative purchase price.",
-          "url": "https://finnhub.io/api/news?id=1f7f2f9507686efe2dc7dbdf626e7be53433c2264f7066b8d462293e13b51861",
-          "published_at": "2026-10-09T13:52:10+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "48f2cb5badeb",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "VIVK",
-          "company_name": "Vivakor, Inc.",
-          "source": "Yahoo",
-          "title": "Vivakor Signs LOI for Proposed $40 Million Acquisition of Direct Midstream",
-          "summary": "Proposed Transaction Values Direct Midstream at 4x Targeted 2027 Free Cash Flow Dallas, TX, Oct. 09, 2026 (GLOBE NEWSWIRE) -- Vivakor, Inc. (Nasdaq: VIVK) (\"Vivakor\" or the \"Company\"), an integrated provider of energy transportation, storage, reuse and remediation services, today announced that it has entered into a non-binding Letter of Intent (“LOI”) for the proposed acquisition of 100% of the outstanding membersh…",
-          "url": "https://finnhub.io/api/news?id=7a9ff0522a0cb4389c00860b72c55775cae085e68ee81a342e5d6c423b72dffd",
-          "published_at": "2026-10-09T13:00:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "bd0998266130",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "VIVK",
-          "company_name": "Vivakor, Inc.",
-          "source": "Benzinga",
-          "title": "Vivakor Agrees To Acquire Direct Midstream For $40M",
-          "summary": "Vivakor, Inc. (NASDAQ:VIVK) (\"Vivakor\" or the \"Company\"), an integrated provider of energy transportation, storage, reuse and remediation services, today announced that it has entered into a non-binding",
-          "url": "https://finnhub.io/api/news?id=9fb59d0e3abdf9ce371c2f3351dff98684f975fbaa0af16eb6d9e762978f7929",
-          "published_at": "2026-10-09T09:02:16+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "b9422172c27c",
-          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
@@ -485,8 +447,8 @@
         },
         {
           "date": "2026-10-12",
-          "signal_score": 72.5,
-          "discovery_score": 51.1
+          "signal_score": 74.6,
+          "discovery_score": 54.2
         }
       ]
     },
@@ -494,16 +456,16 @@
       "ticker": "IVZ",
       "company_name": "Invesco Ltd.",
       "signal_score": 67.5,
-      "market_attention_score": 34.8,
+      "market_attention_score": 38.6,
       "discovery_score": 44.8,
       "confidence_score": 93.8,
       "primary_catalyst": "8-K/A - Invesco Ltd. (0000914208) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "14 unique credible information items from 4 independent sources. Coverage is 0.4× the stored baseline.",
+      "why_it_matters": "18 unique credible information items from 4 independent sources. Coverage is 0.5× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 4,
-      "latest_event_at": "2026-10-12T01:12:11+00:00",
+      "article_count_24h": 6,
+      "latest_event_at": "2026-10-12T15:12:00+00:00",
       "new_to_radar": false,
       "days_on_radar": 56,
       "change": {
@@ -513,7 +475,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 14
+        "unique_story_clusters": 18
       },
       "metrics": {
         "primary_evidence": 25,
@@ -522,8 +484,8 @@
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.35,
-        "weighted_coverage_24h": 0.4,
+        "coverage_ratio_vs_baseline": 0.53,
+        "weighted_coverage_24h": 0.6,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
@@ -533,8 +495,8 @@
         "catalyst_strength": 11.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.35,
-        "weighted_coverage_24h": 0.4,
+        "coverage_ratio_vs_baseline": 0.53,
+        "weighted_coverage_24h": 0.6,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -598,20 +560,6 @@
           "fingerprint": "153ec46efa15",
           "display_relevance": 1.0,
           "display_relevant": true
-        },
-        {
-          "ticker": "IVZ",
-          "company_name": "Invesco Ltd.",
-          "source": "Yahoo",
-          "title": "Invesco (IVZ), Why Is Fresh Attention Building Around It?",
-          "summary": "Invesco (IVZ) has reported preliminary assets under management of US$2,537.8 billion for September, representing a 0.9% decline from August, following long-term outflows of US$1.1 billion and money market withdrawals of US$5.7 billion. Recent price action has turned softer, with Invesco’s share price down 1.93% over the last day, 3.75% over the past week, and 8.58% over the past month. The 90 day share price return…",
-          "url": "https://finnhub.io/api/news?id=02f34a89d358d36a9b746c6d49cde7ed029aea0e347892323601d8e8ea5a391f",
-          "published_at": "2026-10-11T08:08:26+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "a7d17522d09c",
-          "display_relevance": 0.62,
-          "display_relevant": true
         }
       ],
       "history": [
@@ -648,7 +596,7 @@
         {
           "date": "2026-10-12",
           "discovery_score": 44.8,
-          "market_attention_score": 34.0,
+          "market_attention_score": 34.8,
           "signal_score": 67.5
         },
         {
@@ -662,16 +610,16 @@
       "ticker": "CRGY",
       "company_name": "Crescent Energy Co",
       "signal_score": 67.5,
-      "market_attention_score": 30.8,
+      "market_attention_score": 33.1,
       "discovery_score": 50.1,
       "confidence_score": 87.8,
       "primary_catalyst": "Crescent Energy Co (0001866175) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "8 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "10 unique credible information items from 3 independent sources. Coverage is 0.4× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-09T20:01:09+00:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-12T13:02:49+00:00",
       "new_to_radar": false,
       "days_on_radar": 17,
       "change": {
@@ -681,7 +629,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 8
+        "unique_story_clusters": 10
       },
       "metrics": {
         "primary_evidence": 25,
@@ -690,8 +638,8 @@
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.4,
+        "weighted_coverage_24h": 0.2,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
@@ -701,8 +649,8 @@
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.4,
+        "weighted_coverage_24h": 0.2,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -803,16 +751,16 @@
       "ticker": "ARAI",
       "company_name": "Arrive AI Inc.",
       "signal_score": 64.5,
-      "market_attention_score": 24.2,
+      "market_attention_score": 26.5,
       "discovery_score": 45.1,
-      "confidence_score": 89.8,
+      "confidence_score": 93.8,
       "primary_catalyst": "Arrive AI Inc. (0001818274) (Filer)",
       "catalyst_category": "Partnership",
-      "why_it_matters": "4 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "6 unique credible information items from 4 independent sources. Coverage is 0.4× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-09T17:18:40-04:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-12T09:15:48+00:00",
       "new_to_radar": false,
       "days_on_radar": 55,
       "change": {
@@ -822,7 +770,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 4
+        "unique_story_clusters": 6
       },
       "metrics": {
         "primary_evidence": 25,
@@ -831,8 +779,8 @@
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.4,
+        "weighted_coverage_24h": 0.2,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
@@ -842,8 +790,8 @@
         "catalyst_strength": 9.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.4,
+        "weighted_coverage_24h": 0.2,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -1771,15 +1719,15 @@
       "ticker": "BETRW",
       "company_name": "Better Home & Finance Holding Co",
       "signal_score": 57.5,
-      "market_attention_score": 23.8,
+      "market_attention_score": 23.4,
       "discovery_score": 46.7,
       "confidence_score": 67.8,
       "primary_catalyst": "Better Home & Finance Holding Co (0001835856) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.2× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
+      "article_count_24h": 0,
       "latest_event_at": "2026-10-11T16:17:27+00:00",
       "new_to_radar": false,
       "days_on_radar": 54,
@@ -1799,8 +1747,8 @@
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
@@ -1810,8 +1758,8 @@
         "catalyst_strength": 11.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -1889,9 +1837,9 @@
         },
         {
           "date": "2026-10-12",
-          "discovery_score": 44.9,
-          "market_attention_score": 21.2,
-          "signal_score": 53.0
+          "discovery_score": 46.7,
+          "market_attention_score": 23.8,
+          "signal_score": 57.5
         },
         {
           "date": "2026-10-12",
@@ -1904,16 +1852,16 @@
       "ticker": "AZO",
       "company_name": "AUTOZONE INC",
       "signal_score": 56.5,
-      "market_attention_score": 23.6,
+      "market_attention_score": 24.8,
       "discovery_score": 45.0,
-      "confidence_score": 71.8,
+      "confidence_score": 75.8,
       "primary_catalyst": "AUTOZONE INC (0000866787) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "4 unique credible information items from 2 independent sources. Coverage is 0.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-09T17:30:15-04:00",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-12T12:00:02+00:00",
       "new_to_radar": false,
       "days_on_radar": 55,
       "change": {
@@ -1923,7 +1871,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 3
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
@@ -1932,8 +1880,8 @@
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.19,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
@@ -1943,8 +1891,8 @@
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.19,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -2736,16 +2684,16 @@
       "ticker": "NIKI",
       "company_name": "Niki BioSolutions, Inc.",
       "signal_score": 53.5,
-      "market_attention_score": 21.4,
+      "market_attention_score": 22.6,
       "discovery_score": 43.9,
-      "confidence_score": 67.8,
+      "confidence_score": 71.8,
       "primary_catalyst": "Niki BioSolutions, Inc. (0001734005) (Filer)",
       "catalyst_category": "Financing",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 0.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-09T17:26:49+00:00",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-12T08:05:42+00:00",
       "new_to_radar": false,
       "days_on_radar": 39,
       "change": {
@@ -2755,7 +2703,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 2
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
@@ -2764,8 +2712,8 @@
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
@@ -2775,8 +2723,8 @@
         "catalyst_strength": 8.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -2794,7 +2742,9 @@
       },
       "fundamentals": {},
       "profile": {},
-      "themes": [],
+      "themes": [
+        "AI infrastructure"
+      ],
       "stories": [
         {
           "ticker": "NIKI",
@@ -3310,6 +3260,105 @@
       ]
     },
     {
+      "ticker": "UP",
+      "company_name": "Wheels Up Experience Inc.",
+      "signal_score": 48.5,
+      "market_attention_score": 19.3,
+      "discovery_score": 40.1,
+      "confidence_score": 67.8,
+      "primary_catalyst": "8-K/A - Wheels Up Experience Inc. (0001819516) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-12T09:40:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 41,
+      "change": {
+        "signal_delta": 2.5,
+        "discovery_delta": 0.3
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "UP",
+          "company_name": "Wheels Up Experience Inc.",
+          "source": "SEC EDGAR",
+          "title": "8-K/A - Wheels Up Experience Inc. (0001819516) (Filer)",
+          "summary": "Filed: 2026-10-09 AccNo: 0001628280-26-065562 Size: 369 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1819516/000162828026065562/0001628280-26-065562-index.htm",
+          "published_at": "2026-10-09T17:27:20-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "65ac575d6e6e",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-11",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
+          "signal_score": 48.5,
+          "discovery_score": 40.1
+        }
+      ]
+    },
+    {
       "ticker": "IART",
       "company_name": "INTEGRA LIFESCIENCES HOLDINGS CORP",
       "signal_score": 48.5,
@@ -3449,6 +3498,262 @@
       ]
     },
     {
+      "ticker": "QUCY",
+      "company_name": "Quantum Cyber N.V.",
+      "signal_score": 48.5,
+      "market_attention_score": 19.3,
+      "discovery_score": 40.1,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Quantum Cyber N.V. (0001874252) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-12T14:30:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 18,
+      "change": {
+        "signal_delta": 2.5,
+        "discovery_delta": 0.3
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "QUCY",
+          "company_name": "Quantum Cyber N.V.",
+          "source": "SEC EDGAR",
+          "title": "Quantum Cyber N.V. (0001874252) (Filer)",
+          "summary": "Filed: 2026-10-09 AccNo: 0001213900-26-108579 Size: 606 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1874252/000121390026108579/0001213900-26-108579-index.htm",
+          "published_at": "2026-10-09T17:16:27-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "71d2cf920813",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-11",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
+          "signal_score": 48.5,
+          "discovery_score": 40.1
+        }
+      ]
+    },
+    {
+      "ticker": "LYV",
+      "company_name": "Live Nation Entertainment, Inc.",
+      "signal_score": 48.5,
+      "market_attention_score": 19.3,
+      "discovery_score": 38.3,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Live Nation Entertainment, Inc. (0001335258) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.1× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-12T14:15:03+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 55,
+      "change": {
+        "signal_delta": -5.0,
+        "discovery_delta": -3.6
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.12,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 18.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.12,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.8,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Live Nation Entertainment Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2005-12-14",
+        "weburl": "https://www.livenationentertainment.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LYV.png",
+        "market_cap": 39767928911.035126,
+        "pe_ttm": 293.9388,
+        "ps_ttm": 1.507,
+        "pb_annual": 122.0995,
+        "revenue_growth_ttm_yoy": 10.75,
+        "eps_growth_ttm_yoy": -86.93,
+        "gross_margin_ttm": 25.78,
+        "net_margin_ttm": 0.51,
+        "current_ratio": 0.9951,
+        "debt_equity": 30.2562,
+        "beta": 1.1697942
+      },
+      "profile": {
+        "name": "Live Nation Entertainment Inc",
+        "description": "Live Nation Entertainment is the world's leading live entertainment company, connecting artists and fans through unforgettable concert experiences. We operate in concerts, ticketing, and sponsorship, producing over 40,000 shows annually for 600+ million fans worldwide. Discover how we empower artists and create moments that matter.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.livenationentertainment.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "LYV",
+          "company_name": "Live Nation Entertainment, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Live Nation Entertainment, Inc. (0001335258) (Filer)",
+          "summary": "Filed: 2026-10-09 AccNo: 0001335258-26-000046 Size: 259 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1335258/000133525826000046/0001335258-26-000046-index.htm",
+          "published_at": "2026-10-09T17:01:36-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "00af7a27cb76",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-08-26",
+          "discovery_score": 78.0,
+          "market_attention_score": 50.9,
+          "signal_score": 66.8
+        },
+        {
+          "date": "2026-08-29",
+          "discovery_score": 60.5,
+          "market_attention_score": 42.5,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-09-04",
+          "discovery_score": 69.8,
+          "market_attention_score": 46.9,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-09-08",
+          "discovery_score": 78.7,
+          "market_attention_score": 71.3,
+          "signal_score": 65.9
+        },
+        {
+          "date": "2026-10-03",
+          "discovery_score": 73.7,
+          "market_attention_score": 51.1,
+          "signal_score": 82.2
+        },
+        {
+          "date": "2026-10-10",
+          "discovery_score": 43.2,
+          "market_attention_score": 26.6,
+          "signal_score": 59.3
+        },
+        {
+          "date": "2026-10-11",
+          "discovery_score": 41.9,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-12",
+          "signal_score": 48.5,
+          "discovery_score": 38.3
+        }
+      ]
+    },
+    {
       "ticker": "NXB",
       "company_name": "NextBoat Inc.",
       "signal_score": 48.5,
@@ -3544,105 +3849,6 @@
           "date": "2026-10-12",
           "signal_score": 48.5,
           "discovery_score": 40.1
-        }
-      ]
-    },
-    {
-      "ticker": "UP",
-      "company_name": "Wheels Up Experience Inc.",
-      "signal_score": 46.0,
-      "market_attention_score": 17.8,
-      "discovery_score": 39.8,
-      "confidence_score": 62,
-      "primary_catalyst": "8-K/A - Wheels Up Experience Inc. (0001819516) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-09T17:27:20-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 41,
-      "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": 0.0
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "UP",
-          "company_name": "Wheels Up Experience Inc.",
-          "source": "SEC EDGAR",
-          "title": "8-K/A - Wheels Up Experience Inc. (0001819516) (Filer)",
-          "summary": "Filed: 2026-10-09 AccNo: 0001628280-26-065562 Size: 369 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1819516/000162828026065562/0001628280-26-065562-index.htm",
-          "published_at": "2026-10-09T17:27:20-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "65ac575d6e6e",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-11",
-          "discovery_score": 39.8,
-          "market_attention_score": 17.8,
-          "signal_score": 46.0
-        },
-        {
-          "date": "2026-10-12",
-          "discovery_score": 39.8,
-          "market_attention_score": 17.8,
-          "signal_score": 46.0
-        },
-        {
-          "date": "2026-10-12",
-          "signal_score": 46.0,
-          "discovery_score": 39.8
         }
       ]
     },
@@ -3974,105 +4180,6 @@
           "date": "2026-10-12",
           "signal_score": 46.0,
           "discovery_score": 39.7
-        }
-      ]
-    },
-    {
-      "ticker": "QUCY",
-      "company_name": "Quantum Cyber N.V.",
-      "signal_score": 46.0,
-      "market_attention_score": 17.8,
-      "discovery_score": 39.8,
-      "confidence_score": 62,
-      "primary_catalyst": "Quantum Cyber N.V. (0001874252) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-09T17:16:27-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 18,
-      "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": 0.0
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "QUCY",
-          "company_name": "Quantum Cyber N.V.",
-          "source": "SEC EDGAR",
-          "title": "Quantum Cyber N.V. (0001874252) (Filer)",
-          "summary": "Filed: 2026-10-09 AccNo: 0001213900-26-108579 Size: 606 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1874252/000121390026108579/0001213900-26-108579-index.htm",
-          "published_at": "2026-10-09T17:16:27-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "71d2cf920813",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-11",
-          "discovery_score": 39.8,
-          "market_attention_score": 17.8,
-          "signal_score": 46.0
-        },
-        {
-          "date": "2026-10-12",
-          "discovery_score": 39.8,
-          "market_attention_score": 17.8,
-          "signal_score": 46.0
-        },
-        {
-          "date": "2026-10-12",
-          "signal_score": 46.0,
-          "discovery_score": 39.8
         }
       ]
     },

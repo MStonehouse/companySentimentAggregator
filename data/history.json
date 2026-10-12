@@ -36333,18 +36333,18 @@
       "AHT-PI": 0,
       "ALDFW": 0,
       "APAM": 0,
-      "ARAI": 0,
+      "ARAI": 2,
       "ARTL": 0,
       "ATO": 0,
-      "AZO": 0,
+      "AZO": 1,
       "BARK": 0,
-      "BETRW": 1,
+      "BETRW": 0,
       "BIAFW": 0,
       "BRTX": 0,
       "CI": 0,
       "COPL-WT": 0,
       "COSM": 0,
-      "CRGY": 0,
+      "CRGY": 2,
       "CRVO": 0,
       "CSCO": 0,
       "CTNT": 0,
@@ -36364,9 +36364,9 @@
       "IART": 0,
       "IDAI": 0,
       "IIIV": 0,
-      "IVZ": 4,
+      "IVZ": 6,
       "LPBBU": 0,
-      "LYV": 0,
+      "LYV": 1,
       "MBRX": 0,
       "MH": 0,
       "MITK": 0,
@@ -36374,7 +36374,7 @@
       "MSGR": 0,
       "MSGS": 0,
       "MYGN": 0,
-      "NIKI": 0,
+      "NIKI": 1,
       "NVACW": 0,
       "NXB": 0,
       "PCVX": 0,
@@ -36383,7 +36383,7 @@
       "POOL": 0,
       "PXED": 0,
       "QMCO": 0,
-      "QUCY": 0,
+      "QUCY": 1,
       "SATLW": 0,
       "SAY": 0,
       "SBFMW": 0,
@@ -36398,11 +36398,11 @@
       "THRM": 0,
       "TOP": 0,
       "UAVS": 0,
-      "UP": 0,
+      "UP": 1,
       "UUU": 0,
       "VATE": 0,
       "VEEAW": 0,
-      "VIVK": 0,
+      "VIVK": 6,
       "VRDR": 0,
       "VTAK": 0,
       "VTGN": 0,
@@ -45640,23 +45640,23 @@
       ],
       "market_leaders": [
         "IVZ",
-        "CRGY",
         "VIVK",
+        "CRGY",
+        "ARAI",
         "XELLL",
+        "AZO",
         "COPL-WT",
         "GBCS",
         "LPBBU",
         "CTRVP",
         "AHT-PI",
-        "ARAI",
         "BETRW",
-        "AZO",
         "ACH",
         "UAVS",
         "SMXT",
+        "NIKI",
         "TCRT",
         "SBFMW",
-        "NIKI",
         "SIDU",
         "HYFM"
       ]
@@ -60041,7 +60041,7 @@
       },
       "ARAI": {
         "discovery_score": 45.1,
-        "market_attention_score": 24.2,
+        "market_attention_score": 26.5,
         "signal_score": 64.5
       },
       "ARTL": {
@@ -60051,12 +60051,12 @@
       },
       "AZO": {
         "discovery_score": 45.0,
-        "market_attention_score": 23.6,
+        "market_attention_score": 24.8,
         "signal_score": 56.5
       },
       "BETRW": {
         "discovery_score": 46.7,
-        "market_attention_score": 23.8,
+        "market_attention_score": 23.4,
         "signal_score": 57.5
       },
       "COPL-WT": {
@@ -60071,7 +60071,7 @@
       },
       "CRGY": {
         "discovery_score": 50.1,
-        "market_attention_score": 30.8,
+        "market_attention_score": 33.1,
         "signal_score": 67.5
       },
       "CTRVP": {
@@ -60096,13 +60096,18 @@
       },
       "IVZ": {
         "discovery_score": 44.8,
-        "market_attention_score": 34.8,
+        "market_attention_score": 38.6,
         "signal_score": 67.5
       },
       "LPBBU": {
         "discovery_score": 50.0,
         "market_attention_score": 24.8,
         "signal_score": 60.0
+      },
+      "LYV": {
+        "discovery_score": 38.3,
+        "market_attention_score": 19.3,
+        "signal_score": 48.5
       },
       "MOBXW": {
         "discovery_score": 39.8,
@@ -60111,7 +60116,7 @@
       },
       "NIKI": {
         "discovery_score": 43.9,
-        "market_attention_score": 21.4,
+        "market_attention_score": 22.6,
         "signal_score": 53.5
       },
       "NXB": {
@@ -60120,9 +60125,9 @@
         "signal_score": 48.5
       },
       "QUCY": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
+        "discovery_score": 40.1,
+        "market_attention_score": 19.3,
+        "signal_score": 48.5
       },
       "SBFMW": {
         "discovery_score": 43.9,
@@ -60165,14 +60170,14 @@
         "signal_score": 56.5
       },
       "UP": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
+        "discovery_score": 40.1,
+        "market_attention_score": 19.3,
+        "signal_score": 48.5
       },
       "VIVK": {
-        "discovery_score": 51.1,
-        "market_attention_score": 30.4,
-        "signal_score": 72.5
+        "discovery_score": 54.2,
+        "market_attention_score": 37.4,
+        "signal_score": 74.6
       },
       "VTAK": {
         "discovery_score": 39.7,
