@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-12T00:38:55.603120+00:00",
+    "generated_at": "2026-10-12T07:31:53.292797+00:00",
     "companies_scanned": 81,
     "sources_enabled": {
       "sec_edgar": true,
@@ -27,6 +27,7 @@
       "CTRVP",
       "AHT-PI",
       "ARAI",
+      "BETRW",
       "AZO",
       "ACH",
       "UAVS",
@@ -37,7 +38,6 @@
       "SIDU",
       "HYFM",
       "STEX",
-      "BETRW",
       "THRM",
       "IART",
       "NXB",
@@ -57,6 +57,7 @@
       "AHT-PI",
       "CRGY",
       "LPBBU",
+      "BETRW",
       "SMXT",
       "UAVS",
       "TCRT",
@@ -64,7 +65,6 @@
       "ARAI",
       "AZO",
       "STEX",
-      "BETRW",
       "IVZ",
       "SBFMW",
       "NIKI",
@@ -124,6 +124,11 @@
         "headline": "XCEL ENERGY INC (0000072903) (Filer)"
       },
       {
+        "ticker": "BETRW",
+        "category": "Government funding",
+        "headline": "Better Home & Finance Holding Co (0001835856) (Filer)"
+      },
+      {
         "ticker": "COPL-WT",
         "category": "M&A",
         "headline": "Copley Acquisition Corp (0002045473) (Filer)"
@@ -137,11 +142,6 @@
         "ticker": "LPBBU",
         "category": "M&A",
         "headline": "Launch Two Acquisition Corp. (0002023676) (Filer)"
-      },
-      {
-        "ticker": "CTRVP",
-        "category": "M&A",
-        "headline": "Hepion Pharmaceuticals, Inc. (0001583771) (Filer)"
       }
     ],
     "left_emerging_top20": [
@@ -254,8 +254,8 @@
     {
       "sector": "Unclassified",
       "company_count": 16,
-      "discovery_intensity": 42.5,
-      "signal_intensity": 50.2,
+      "discovery_intensity": 42.6,
+      "signal_intensity": 50.5,
       "tickers": [
         "COPL-WT",
         "AHT-PI",
@@ -479,6 +479,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 51.1,
+          "market_attention_score": 30.4,
+          "signal_score": 72.5
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 72.5,
           "discovery_score": 51.1
         }
@@ -488,16 +494,16 @@
       "ticker": "IVZ",
       "company_name": "Invesco Ltd.",
       "signal_score": 67.5,
-      "market_attention_score": 34.0,
+      "market_attention_score": 34.8,
       "discovery_score": 44.8,
       "confidence_score": 93.8,
       "primary_catalyst": "8-K/A - Invesco Ltd. (0000914208) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "13 unique credible information items from 4 independent sources. Coverage is 0.4× the stored baseline.",
+      "why_it_matters": "14 unique credible information items from 4 independent sources. Coverage is 0.4× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 4,
-      "latest_event_at": "2026-10-11T22:06:19+00:00",
+      "latest_event_at": "2026-10-12T01:12:11+00:00",
       "new_to_radar": false,
       "days_on_radar": 56,
       "change": {
@@ -507,7 +513,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 13
+        "unique_story_clusters": 14
       },
       "metrics": {
         "primary_evidence": 25,
@@ -638,6 +644,12 @@
           "discovery_score": 45.3,
           "market_attention_score": 35.5,
           "signal_score": 67.7
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 44.8,
+          "market_attention_score": 34.0,
+          "signal_score": 67.5
         },
         {
           "date": "2026-10-12",
@@ -773,6 +785,12 @@
           "discovery_score": 50.1,
           "market_attention_score": 40.2,
           "signal_score": 72.5
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 50.1,
+          "market_attention_score": 30.8,
+          "signal_score": 67.5
         },
         {
           "date": "2026-10-12",
@@ -930,6 +948,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 45.1,
+          "market_attention_score": 24.2,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 64.5,
           "discovery_score": 45.1
         }
@@ -1049,6 +1073,12 @@
           "date": "2026-10-11",
           "discovery_score": 50.6,
           "market_attention_score": 27.4,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 50.6,
+          "market_attention_score": 25.9,
           "signal_score": 62.5
         },
         {
@@ -1180,6 +1210,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -1301,6 +1337,12 @@
         },
         {
           "date": "2026-10-11",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-12",
           "discovery_score": 50.3,
           "market_attention_score": 24.8,
           "signal_score": 60.0
@@ -1440,6 +1482,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 50.0,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 60.0,
           "discovery_score": 50.0
         }
@@ -1563,6 +1611,12 @@
         },
         {
           "date": "2026-10-11",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-12",
           "discovery_score": 50.3,
           "market_attention_score": 24.8,
           "signal_score": 60.0
@@ -1702,8 +1756,147 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 60.0,
           "discovery_score": 50.3
+        }
+      ]
+    },
+    {
+      "ticker": "BETRW",
+      "company_name": "Better Home & Finance Holding Co",
+      "signal_score": 57.5,
+      "market_attention_score": 23.8,
+      "discovery_score": 46.7,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Better Home & Finance Holding Co (0001835856) (Filer)",
+      "catalyst_category": "Government funding",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-11T16:17:27+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 54,
+      "change": {
+        "signal_delta": 2.0,
+        "discovery_delta": 1.5
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 15,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.7,
+        "source_breadth": 3.3,
+        "catalyst_strength": 11.2,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 1.3851447
+      },
+      "profile": {
+        "name": "BETRW",
+        "description": "BETRW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "BETRW",
+          "company_name": "Better Home & Finance Holding Co",
+          "source": "SEC EDGAR",
+          "title": "Better Home & Finance Holding Co (0001835856) (Filer)",
+          "summary": "Filed: 2026-10-09 AccNo: 0001835856-26-000074 Size: 193 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1835856/000183585626000074/0001835856-26-000074-index.htm",
+          "published_at": "2026-10-09T16:19:39-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "c7fde0e9751a",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-10",
+          "discovery_score": 57.4,
+          "market_attention_score": 27.1,
+          "signal_score": 63.5
+        },
+        {
+          "date": "2026-10-11",
+          "discovery_score": 45.2,
+          "market_attention_score": 22.4,
+          "signal_score": 55.5
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 44.9,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-10-12",
+          "signal_score": 57.5,
+          "discovery_score": 46.7
         }
       ]
     },
@@ -1855,6 +2048,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 45.0,
+          "market_attention_score": 23.6,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 56.5,
           "discovery_score": 45.0
         }
@@ -1976,6 +2175,12 @@
         },
         {
           "date": "2026-10-11",
+          "discovery_score": 46.0,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-12",
           "discovery_score": 46.0,
           "market_attention_score": 22.9,
           "signal_score": 56.5
@@ -2112,6 +2317,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 46.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 56.5,
           "discovery_score": 46.1
         }
@@ -2238,6 +2449,12 @@
         },
         {
           "date": "2026-10-11",
+          "discovery_score": 45.4,
+          "market_attention_score": 22.4,
+          "signal_score": 55.5
+        },
+        {
+          "date": "2026-10-12",
           "discovery_score": 45.4,
           "market_attention_score": 22.4,
           "signal_score": 55.5
@@ -2371,6 +2588,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 45.2,
+          "market_attention_score": 23.1,
+          "signal_score": 55.5
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 55.5,
           "discovery_score": 45.2
         }
@@ -2498,6 +2721,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 43.9,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 53.5,
           "discovery_score": 43.9
         }
@@ -2591,6 +2820,12 @@
         },
         {
           "date": "2026-10-11",
+          "discovery_score": 43.9,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-12",
           "discovery_score": 43.9,
           "market_attention_score": 21.4,
           "signal_score": 53.5
@@ -2692,6 +2927,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 43.9,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 53.5,
           "discovery_score": 43.9
         }
@@ -2779,6 +3020,12 @@
       "history": [
         {
           "date": "2026-10-11",
+          "discovery_score": 43.9,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-12",
           "discovery_score": 43.9,
           "market_attention_score": 21.4,
           "signal_score": 53.5
@@ -2918,130 +3165,9 @@
         },
         {
           "date": "2026-10-12",
-          "signal_score": 53.0,
-          "discovery_score": 44.9
-        }
-      ]
-    },
-    {
-      "ticker": "BETRW",
-      "company_name": "Better Home & Finance Holding Co",
-      "signal_score": 53.0,
-      "market_attention_score": 21.2,
-      "discovery_score": 44.9,
-      "confidence_score": 62,
-      "primary_catalyst": "Better Home & Finance Holding Co (0001835856) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-09T16:19:39-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 54,
-      "change": {
-        "signal_delta": -2.5,
-        "discovery_delta": -0.3
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 13,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.7,
-        "source_breadth": 3.0,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "ipo_date": "",
-        "weburl": "",
-        "logo": "",
-        "market_cap": null,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 1.3851447
-      },
-      "profile": {
-        "name": "BETRW",
-        "description": "BETRW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "BETRW",
-          "company_name": "Better Home & Finance Holding Co",
-          "source": "SEC EDGAR",
-          "title": "Better Home & Finance Holding Co (0001835856) (Filer)",
-          "summary": "Filed: 2026-10-09 AccNo: 0001835856-26-000074 Size: 193 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1835856/000183585626000074/0001835856-26-000074-index.htm",
-          "published_at": "2026-10-09T16:19:39-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "c7fde0e9751a",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-10",
-          "discovery_score": 57.4,
-          "market_attention_score": 27.1,
-          "signal_score": 63.5
-        },
-        {
-          "date": "2026-10-11",
-          "discovery_score": 45.2,
-          "market_attention_score": 22.4,
-          "signal_score": 55.5
+          "discovery_score": 44.9,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
           "date": "2026-10-12",
@@ -3169,6 +3295,12 @@
           "discovery_score": 46.9,
           "market_attention_score": 24.1,
           "signal_score": 57.5
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 40.1,
+          "market_attention_score": 18.9,
+          "signal_score": 48.5
         },
         {
           "date": "2026-10-12",
@@ -3305,6 +3437,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 38.8,
+          "market_attention_score": 18.9,
+          "signal_score": 48.5
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 48.5,
           "discovery_score": 38.8
         }
@@ -3392,6 +3530,12 @@
       "history": [
         {
           "date": "2026-10-11",
+          "discovery_score": 40.1,
+          "market_attention_score": 18.9,
+          "signal_score": 48.5
+        },
+        {
+          "date": "2026-10-12",
           "discovery_score": 40.1,
           "market_attention_score": 18.9,
           "signal_score": 48.5
@@ -3491,6 +3635,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -3584,6 +3734,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -3671,6 +3827,12 @@
       "history": [
         {
           "date": "2026-10-11",
+          "discovery_score": 39.7,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
           "discovery_score": 39.7,
           "market_attention_score": 17.8,
           "signal_score": 46.0
@@ -3804,6 +3966,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 39.7,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 46.0,
           "discovery_score": 39.7
         }
@@ -3891,6 +4059,12 @@
       "history": [
         {
           "date": "2026-10-11",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
           "discovery_score": 39.8,
           "market_attention_score": 17.8,
           "signal_score": 46.0
@@ -3990,6 +4164,12 @@
         },
         {
           "date": "2026-10-12",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-12",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -4082,6 +4262,12 @@
           "discovery_score": 51.8,
           "market_attention_score": 21.8,
           "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
         },
         {
           "date": "2026-10-12",
@@ -4181,6 +4367,12 @@
           "discovery_score": 44.6,
           "market_attention_score": 21.9,
           "signal_score": 54.5
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
         },
         {
           "date": "2026-10-12",
@@ -4288,6 +4480,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-12",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
         {
           "date": "2026-10-12",
           "signal_score": 46.0,

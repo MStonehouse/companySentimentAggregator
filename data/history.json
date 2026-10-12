@@ -36338,7 +36338,7 @@
       "ATO": 0,
       "AZO": 0,
       "BARK": 0,
-      "BETRW": 0,
+      "BETRW": 1,
       "BIAFW": 0,
       "BRTX": 0,
       "CI": 0,
@@ -45625,6 +45625,7 @@
         "AHT-PI",
         "CRGY",
         "LPBBU",
+        "BETRW",
         "SMXT",
         "UAVS",
         "TCRT",
@@ -45632,7 +45633,6 @@
         "ARAI",
         "AZO",
         "STEX",
-        "BETRW",
         "IVZ",
         "SBFMW",
         "NIKI",
@@ -45649,6 +45649,7 @@
         "CTRVP",
         "AHT-PI",
         "ARAI",
+        "BETRW",
         "AZO",
         "ACH",
         "UAVS",
@@ -45657,8 +45658,7 @@
         "SBFMW",
         "NIKI",
         "SIDU",
-        "HYFM",
-        "STEX"
+        "HYFM"
       ]
     }
   },
@@ -60055,9 +60055,9 @@
         "signal_score": 56.5
       },
       "BETRW": {
-        "discovery_score": 44.9,
-        "market_attention_score": 21.2,
-        "signal_score": 53.0
+        "discovery_score": 46.7,
+        "market_attention_score": 23.8,
+        "signal_score": 57.5
       },
       "COPL-WT": {
         "discovery_score": 50.3,
@@ -60096,7 +60096,7 @@
       },
       "IVZ": {
         "discovery_score": 44.8,
-        "market_attention_score": 34.0,
+        "market_attention_score": 34.8,
         "signal_score": 67.5
       },
       "LPBBU": {
