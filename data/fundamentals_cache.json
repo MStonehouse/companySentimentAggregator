@@ -31072,6 +31072,52 @@
         "debt_equity": 0,
         "beta": -0.8931945
       }
+    },
+    "XMAX": {
+      "cached_at": "2026-10-13T07:51:41.678230+00:00",
+      "data": {
+        "name": "XMax Inc",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2014-01-17",
+        "weburl": "https://novalifestyle.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950005837726.png",
+        "market_cap": 557790000.0,
+        "pe_ttm": 18.2525,
+        "ps_ttm": 33.9253,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 63.53,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 22.86,
+        "net_margin_ttm": 185.87,
+        "current_ratio": 4.9244,
+        "debt_equity": 0.2009,
+        "beta": null
+      }
+    },
+    "SIDU": {
+      "cached_at": "2026-10-13T07:51:41.678230+00:00",
+      "data": {
+        "name": "Sidus Space Inc",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-12-15",
+        "weburl": "https://sidusspace.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950675124806.png",
+        "market_cap": 145764457.08387095,
+        "pe_ttm": null,
+        "ps_ttm": 51.5646,
+        "pb_annual": 2.1858,
+        "revenue_growth_ttm_yoy": -32.61,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -166.86,
+        "net_margin_ttm": -970.26,
+        "current_ratio": 3.3746,
+        "debt_equity": 0.1622,
+        "beta": -0.93111145
+      }
     }
   }
 }

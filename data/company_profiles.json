@@ -14585,6 +14585,34 @@
         ],
         "source": "Structured company profile"
       }
+    },
+    "XMAX": {
+      "updated_at": "2026-10-13",
+      "data": {
+        "name": "XMax Inc",
+        "description": "XMax Inc is a publicly traded company operating in the Consumer products industry with company information identifying US as its home market.",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://novalifestyle.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "SIDU": {
+      "updated_at": "2026-10-13",
+      "data": {
+        "name": "Sidus Space Inc",
+        "description": "Space Access Reimagined® Sidus Space® (NASDAQ: SIDU) is a flight proven space and defense technology company providing the full tech-stack — hardware, software, and data. From our LizzieSat® satellites to our AI-driven data, mission operations, and advanced hardware manufacturing capabilities, Sidus delivers scalable solutions that power operations across air, land, sea, and space. Watch Video […]",
+        "industry": "Aerospace & Defense",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://sidusspace.com/",
+        "products_markets": [
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
