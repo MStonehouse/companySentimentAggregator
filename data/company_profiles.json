@@ -14925,6 +14925,34 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "PRCH": {
+      "updated_at": "2026-10-14",
+      "data": {
+        "name": "Porch Group Inc",
+        "description": "Porch Group Inc is a publicly traded company operating in the Technology industry with company information identifying US as its home market.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://porchgroup.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "LAZ": {
+      "updated_at": "2026-10-14",
+      "data": {
+        "name": "Lazard Inc",
+        "description": "A Global Firm Built Over Generations on a Foundation of Client Service",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.lazard.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }

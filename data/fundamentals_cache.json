@@ -19988,7 +19988,7 @@
       }
     },
     "MEDS": {
-      "cached_at": "2026-09-17T06:14:21.958579+00:00",
+      "cached_at": "2026-10-14T06:18:02.256213+00:00",
       "data": {
         "name": "Wellgistics Health Inc",
         "industry": "Health Care",
@@ -19997,9 +19997,9 @@
         "ipo_date": "2025-02-21",
         "weburl": "https://wellgisticshealth.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950867274256.png",
-        "market_cap": 5141865.0,
+        "market_cap": 9617192.364820847,
         "pe_ttm": null,
-        "ps_ttm": 0.6409,
+        "ps_ttm": 1.1987,
         "pb_annual": 7.8612,
         "revenue_growth_ttm_yoy": -78.16,
         "eps_growth_ttm_yoy": null,
@@ -20007,7 +20007,7 @@
         "net_margin_ttm": -1100.3,
         "current_ratio": 0.0947,
         "debt_equity": 3.4721,
-        "beta": -0.9459417
+        "beta": -1.0760322
       }
     },
     "ABTC": {
@@ -29211,7 +29211,7 @@
       }
     },
     "ALISU": {
-      "cached_at": "2026-10-07T00:50:31.289497+00:00",
+      "cached_at": "2026-10-14T06:18:02.256213+00:00",
       "data": {
         "name": "Calisa Acquisition Corp",
         "industry": "N/A",
@@ -29220,8 +29220,8 @@
         "ipo_date": "2025-10-22",
         "weburl": "https://www.calisaspac.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950884409716.png",
-        "market_cap": 94809371.73281704,
-        "pe_ttm": 161.4519,
+        "market_cap": 66577249.23300971,
+        "pe_ttm": 113.3751,
         "ps_ttm": null,
         "pb_annual": 1.3734,
         "revenue_growth_ttm_yoy": null,
@@ -29230,7 +29230,7 @@
         "net_margin_ttm": null,
         "current_ratio": 6.9048,
         "debt_equity": 0,
-        "beta": 0.021179926
+        "beta": 0.0049433284
       }
     },
     "RCKT": {
@@ -31554,6 +31554,52 @@
         "current_ratio": 0.0688,
         "debt_equity": 6.375,
         "beta": -0.7181172
+      }
+    },
+    "PRCH": {
+      "cached_at": "2026-10-14T06:18:02.256213+00:00",
+      "data": {
+        "name": "Porch Group Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2019-11-26",
+        "weburl": "https://porchgroup.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/PRCH.png",
+        "market_cap": 1954811642.269078,
+        "pe_ttm": null,
+        "ps_ttm": 3.7565,
+        "pb_annual": 2.3809,
+        "revenue_growth_ttm_yoy": 19.46,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 72.47,
+        "net_margin_ttm": -2.58,
+        "current_ratio": 1.3013,
+        "debt_equity": 5.5642,
+        "beta": 3.2270093
+      }
+    },
+    "LAZ": {
+      "cached_at": "2026-10-14T06:18:02.256213+00:00",
+      "data": {
+        "name": "Lazard Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2005-05-05",
+        "weburl": "https://www.lazard.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950869586646.png",
+        "market_cap": 3558894712.4091773,
+        "pe_ttm": 15.6894,
+        "ps_ttm": 1.0753,
+        "pb_annual": 5.3006,
+        "revenue_growth_ttm_yoy": 6.37,
+        "eps_growth_ttm_yoy": -28.7,
+        "gross_margin_ttm": 93.12,
+        "net_margin_ttm": 6.85,
+        "current_ratio": 1.6712,
+        "debt_equity": 2.4169,
+        "beta": 1.4713414
       }
     }
   }
