@@ -36560,6 +36560,76 @@
       "WSO-B": 1,
       "YEXT": 1,
       "ZONE": 1
+    },
+    "2026-10-15": {
+      "AIFA": 1,
+      "ALIT": 1,
+      "AMSS": 1,
+      "ANDG": 2,
+      "BBLR": 1,
+      "BENFW": 1,
+      "BETRW": 1,
+      "CCO": 2,
+      "CMTL": 7,
+      "COST": 1,
+      "CRVO": 1,
+      "DSGR": 1,
+      "EDUC": 1,
+      "ELVN": 1,
+      "ENS": 1,
+      "EQBK": 8,
+      "ETS": 1,
+      "FCPT": 2,
+      "FDCT": 1,
+      "FEED": 1,
+      "FIVE": 1,
+      "FVNNR": 1,
+      "GDOT": 1,
+      "HOMB": 6,
+      "IBRX": 5,
+      "IIPR-PA": 1,
+      "INR": 3,
+      "IVR-PC": 1,
+      "JXN-PA": 1,
+      "KBH": 1,
+      "LGIH": 1,
+      "LGVN": 1,
+      "LSTA": 1,
+      "MAT": 1,
+      "MOVE": 2,
+      "MSM": 2,
+      "MTEX": 1,
+      "NATH": 1,
+      "NCPLW": 2,
+      "NRXS": 1,
+      "ORC": 3,
+      "PAXGU": 1,
+      "PBF": 1,
+      "PLMKU": 1,
+      "PRKA": 1,
+      "RENT": 1,
+      "RIG": 2,
+      "RIOT": 3,
+      "RKLB": 1,
+      "ROLR": 1,
+      "RZLT": 2,
+      "SFBS": 1,
+      "SFM": 1,
+      "SILO": 1,
+      "SM": 1,
+      "STRRP": 2,
+      "STUB": 2,
+      "TGEN": 1,
+      "TRON": 1,
+      "USGO": 1,
+      "VAL-WT": 1,
+      "VISN": 2,
+      "VSTM": 14,
+      "VTAK": 1,
+      "WHFCL": 1,
+      "WSO-B": 1,
+      "YEXT": 1,
+      "ZONE": 1
     }
   },
   "first_seen": {
@@ -45939,6 +46009,52 @@
         "MSM",
         "FIVE",
         "KBH"
+      ]
+    },
+    "2026-10-15": {
+      "emerging_signals": [
+        "VSTM",
+        "EQBK",
+        "IBRX",
+        "CMTL",
+        "HOMB",
+        "INR",
+        "FCPT",
+        "CCO",
+        "VISN",
+        "DSGR",
+        "ZONE",
+        "RIG",
+        "FVNNR",
+        "PAXGU",
+        "PLMKU",
+        "RZLT",
+        "RIOT",
+        "MOVE",
+        "NCPLW",
+        "FIVE"
+      ],
+      "market_leaders": [
+        "VSTM",
+        "EQBK",
+        "HOMB",
+        "CMTL",
+        "IBRX",
+        "RIG",
+        "RIOT",
+        "FCPT",
+        "DSGR",
+        "INR",
+        "CCO",
+        "VISN",
+        "MOVE",
+        "ZONE",
+        "PLMKU",
+        "RZLT",
+        "FVNNR",
+        "PAXGU",
+        "MSM",
+        "FIVE"
       ]
     }
   },
@@ -60822,6 +60938,158 @@
         "discovery_score": 58.5,
         "market_attention_score": 28.8,
         "signal_score": 65.0
+      }
+    },
+    "2026-10-15": {
+      "ALIT": {
+        "discovery_score": 53.6,
+        "market_attention_score": 24.6,
+        "signal_score": 58.5
+      },
+      "AMSS": {
+        "discovery_score": 57.1,
+        "market_attention_score": 25.2,
+        "signal_score": 61.0
+      },
+      "ANDG": {
+        "discovery_score": 53.8,
+        "market_attention_score": 24.1,
+        "signal_score": 57.6
+      },
+      "CCO": {
+        "discovery_score": 64.1,
+        "market_attention_score": 30.3,
+        "signal_score": 71.6
+      },
+      "CMTL": {
+        "discovery_score": 66.9,
+        "market_attention_score": 34.6,
+        "signal_score": 79.9
+      },
+      "DSGR": {
+        "discovery_score": 62.6,
+        "market_attention_score": 31.1,
+        "signal_score": 75.5
+      },
+      "EQBK": {
+        "discovery_score": 69.0,
+        "market_attention_score": 37.4,
+        "signal_score": 81.6
+      },
+      "FCPT": {
+        "discovery_score": 64.3,
+        "market_attention_score": 31.1,
+        "signal_score": 71.6
+      },
+      "FEED": {
+        "discovery_score": 51.8,
+        "market_attention_score": 21.8,
+        "signal_score": 54.0
+      },
+      "FIVE": {
+        "discovery_score": 58.1,
+        "market_attention_score": 27.6,
+        "signal_score": 64.5
+      },
+      "FVNNR": {
+        "discovery_score": 62.3,
+        "market_attention_score": 28.8,
+        "signal_score": 68.0
+      },
+      "HOMB": {
+        "discovery_score": 65.4,
+        "market_attention_score": 35.0,
+        "signal_score": 75.2
+      },
+      "IBRX": {
+        "discovery_score": 68.5,
+        "market_attention_score": 33.8,
+        "signal_score": 74.4
+      },
+      "INR": {
+        "discovery_score": 64.6,
+        "market_attention_score": 30.9,
+        "signal_score": 75.6
+      },
+      "MOVE": {
+        "discovery_score": 60.1,
+        "market_attention_score": 29.2,
+        "signal_score": 70.6
+      },
+      "MSM": {
+        "discovery_score": 57.7,
+        "market_attention_score": 27.7,
+        "signal_score": 67.6
+      },
+      "MTEX": {
+        "discovery_score": 51.8,
+        "market_attention_score": 21.8,
+        "signal_score": 54.0
+      },
+      "NCPLW": {
+        "discovery_score": 59.0,
+        "market_attention_score": 26.8,
+        "signal_score": 64.6
+      },
+      "ORC": {
+        "discovery_score": 57.7,
+        "market_attention_score": 26.4,
+        "signal_score": 66.6
+      },
+      "PAXGU": {
+        "discovery_score": 62.3,
+        "market_attention_score": 28.8,
+        "signal_score": 68.0
+      },
+      "PLMKU": {
+        "discovery_score": 62.2,
+        "market_attention_score": 28.8,
+        "signal_score": 68.0
+      },
+      "RIG": {
+        "discovery_score": 62.3,
+        "market_attention_score": 33.0,
+        "signal_score": 69.6
+      },
+      "RIOT": {
+        "discovery_score": 61.3,
+        "market_attention_score": 31.9,
+        "signal_score": 71.6
+      },
+      "RZLT": {
+        "discovery_score": 61.9,
+        "market_attention_score": 28.8,
+        "signal_score": 68.6
+      },
+      "STRRP": {
+        "discovery_score": 53.8,
+        "market_attention_score": 23.3,
+        "signal_score": 57.6
+      },
+      "STUB": {
+        "discovery_score": 53.8,
+        "market_attention_score": 23.3,
+        "signal_score": 57.6
+      },
+      "TRON": {
+        "discovery_score": 51.8,
+        "market_attention_score": 21.8,
+        "signal_score": 54.0
+      },
+      "VISN": {
+        "discovery_score": 62.8,
+        "market_attention_score": 29.3,
+        "signal_score": 69.6
+      },
+      "VSTM": {
+        "discovery_score": 75.2,
+        "market_attention_score": 46.2,
+        "signal_score": 88.1
+      },
+      "ZONE": {
+        "discovery_score": 62.3,
+        "market_attention_score": 28.8,
+        "signal_score": 68.0
       }
     }
   }
