@@ -4302,7 +4302,7 @@
       }
     },
     "UNP": {
-      "cached_at": "2026-09-16T17:39:19.096842+00:00",
+      "cached_at": "2026-10-16T17:32:51.035646+00:00",
       "data": {
         "name": "Union Pacific Corp",
         "industry": "Road & Rail",
@@ -4311,9 +4311,9 @@
         "ipo_date": "1969-06-20",
         "weburl": "https://www.up.com/index.htm",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/UNP.png",
-        "market_cap": 168711493436.9685,
-        "pe_ttm": 23.0612,
-        "ps_ttm": 6.6524,
+        "market_cap": 171515533360.4802,
+        "pe_ttm": 23.3318,
+        "ps_ttm": 6.7305,
         "pb_annual": 7.43,
         "revenue_growth_ttm_yoy": 4.17,
         "eps_growth_ttm_yoy": 7.27,
@@ -4321,7 +4321,7 @@
         "net_margin_ttm": 28.85,
         "current_ratio": 0.9085,
         "debt_equity": 1.7227,
-        "beta": 0.87083656
+        "beta": 0.87367386
       }
     },
     "VMD": {
@@ -12973,7 +12973,7 @@
       }
     },
     "CPRT": {
-      "cached_at": "2026-09-11T06:10:19.762578+00:00",
+      "cached_at": "2026-10-16T17:32:51.035646+00:00",
       "data": {
         "name": "Copart Inc",
         "industry": "Commercial Services & Supplies",
@@ -12982,17 +12982,17 @@
         "ipo_date": "1994-03-17",
         "weburl": "https://www.copart.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CPRT.png",
-        "market_cap": 28468703261.1458,
-        "pe_ttm": 19.1069,
-        "ps_ttm": 6.3974,
-        "pb_annual": 4.771,
-        "revenue_growth_ttm_yoy": 1.05,
-        "eps_growth_ttm_yoy": 6.09,
-        "gross_margin_ttm": 45.53,
-        "net_margin_ttm": 33.48,
-        "current_ratio": 8.4221,
+        "market_cap": 25705670278.521126,
+        "pe_ttm": 16.7976,
+        "ps_ttm": 5.3431,
+        "pb_annual": 2.9635,
+        "revenue_growth_ttm_yoy": 0.41,
+        "eps_growth_ttm_yoy": -2.34,
+        "gross_margin_ttm": 44.66,
+        "net_margin_ttm": 31.81,
+        "current_ratio": 7.9123,
         "debt_equity": 0.0003,
-        "beta": 1.0299997
+        "beta": 1.0423387
       }
     },
     "MAMA": {
@@ -16032,7 +16032,7 @@
       }
     },
     "XOM": {
-      "cached_at": "2026-10-03T23:57:07.150255+00:00",
+      "cached_at": "2026-10-16T17:32:51.035646+00:00",
       "data": {
         "name": "Exxonmobil Holdings Corp",
         "industry": "Energy",
@@ -16042,8 +16042,8 @@
         "weburl": "",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/960001797516.png",
         "market_cap": 650632360000.0,
-        "pe_ttm": 20.379,
-        "ps_ttm": 1.8489,
+        "pe_ttm": 21.8349,
+        "ps_ttm": 1.981,
         "pb_annual": 1.9565,
         "revenue_growth_ttm_yoy": 9.62,
         "eps_growth_ttm_yoy": 10.18,
@@ -16051,7 +16051,7 @@
         "net_margin_ttm": 9.07,
         "current_ratio": 1.1528,
         "debt_equity": 0.1683,
-        "beta": 0.17424066
+        "beta": 0.17293513
       }
     },
     "IRT": {
@@ -17481,7 +17481,7 @@
       }
     },
     "GUTS": {
-      "cached_at": "2026-09-12T05:57:57.375236+00:00",
+      "cached_at": "2026-10-16T17:32:51.035646+00:00",
       "data": {
         "name": "Fractyl Health Inc",
         "industry": "Health Care",
@@ -17490,9 +17490,9 @@
         "ipo_date": "2024-02-02",
         "weburl": "https://www.fractyl.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950376385976.png",
-        "market_cap": 101875101.47721972,
+        "market_cap": 55182344.941176474,
         "pe_ttm": null,
-        "ps_ttm": 1095.4312,
+        "ps_ttm": 593.3586,
         "pb_annual": 31.8775,
         "revenue_growth_ttm_yoy": null,
         "eps_growth_ttm_yoy": null,
@@ -17500,7 +17500,7 @@
         "net_margin_ttm": -73864.52,
         "current_ratio": 4.778,
         "debt_equity": 3.2339,
-        "beta": 2.3494294
+        "beta": 2.4678032
       }
     },
     "IESC": {
@@ -32796,6 +32796,121 @@
         "current_ratio": null,
         "debt_equity": null,
         "beta": null
+      }
+    },
+    "INSW": {
+      "cached_at": "2026-10-16T17:32:51.035646+00:00",
+      "data": {
+        "name": "International Seaways Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2016-11-16",
+        "weburl": "https://www.intlseas.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950001694036.png",
+        "market_cap": 5602486490.865505,
+        "pe_ttm": 7.1988,
+        "ps_ttm": 4.4618,
+        "pb_annual": 1.187,
+        "revenue_growth_ttm_yoy": 57.36,
+        "eps_growth_ttm_yoy": 225.76,
+        "gross_margin_ttm": 73.06,
+        "net_margin_ttm": 61.98,
+        "current_ratio": 3.7116,
+        "debt_equity": 0.2807,
+        "beta": -0.069109194
+      }
+    },
+    "LADR": {
+      "cached_at": "2026-10-16T17:32:51.035646+00:00",
+      "data": {
+        "name": "Ladder Capital Corp",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-02-06",
+        "weburl": "https://www.laddercapital.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950409270616.png",
+        "market_cap": 1118951987.9026651,
+        "pe_ttm": 20.8451,
+        "ps_ttm": 2.6438,
+        "pb_annual": 0.9704,
+        "revenue_growth_ttm_yoy": -6,
+        "eps_growth_ttm_yoy": -40.52,
+        "gross_margin_ttm": 52.54,
+        "net_margin_ttm": 12.68,
+        "current_ratio": 0.4393,
+        "debt_equity": 2.3656,
+        "beta": 1.0290204
+      }
+    },
+    "TOP": {
+      "cached_at": "2026-10-16T17:32:51.035646+00:00",
+      "data": {
+        "name": "TOP Financial Group Ltd",
+        "industry": "Financial Services",
+        "country": "HK",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2022-06-01",
+        "weburl": "https://www.zyfgl.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950813580216.png",
+        "market_cap": 1644059478.2164328,
+        "pe_ttm": null,
+        "ps_ttm": 283.4355,
+        "pb_annual": 1.1477,
+        "revenue_growth_ttm_yoy": 41.89,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 73.8,
+        "net_margin_ttm": -22.14,
+        "current_ratio": 0.9163,
+        "debt_equity": 0.0188,
+        "beta": -0.7145092
+      }
+    },
+    "AN": {
+      "cached_at": "2026-10-16T17:32:51.035646+00:00",
+      "data": {
+        "name": "AutoNation Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1997-06-20",
+        "weburl": "https://www.autonation.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AN.png",
+        "market_cap": 5283116926.96129,
+        "pe_ttm": 6.8703,
+        "ps_ttm": 0.1939,
+        "pb_annual": 3.1751,
+        "revenue_growth_ttm_yoy": -0.06,
+        "eps_growth_ttm_yoy": 35.44,
+        "gross_margin_ttm": 17.83,
+        "net_margin_ttm": 2.82,
+        "current_ratio": 0.8388,
+        "debt_equity": 4.1657,
+        "beta": 0.86632806
+      }
+    },
+    "CYCUW": {
+      "cached_at": "2026-10-16T17:32:51.035646+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 1.6997188
       }
     }
   }
