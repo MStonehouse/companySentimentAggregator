@@ -36733,7 +36733,7 @@
       "ALEC": 1,
       "AMZE": 1,
       "ARAI": 1,
-      "ARI": 3,
+      "ARI": 2,
       "ASUR": 1,
       "ATHR": 1,
       "ATLO": 1,
@@ -36754,16 +36754,16 @@
       "DAICW": 1,
       "EDGM": 1,
       "EHTH": 1,
-      "ENVA": 2,
+      "ENVA": 1,
       "ETN": 1,
       "FFIN": 1,
       "FIEE": 1,
       "FMHS": 1,
       "FOXF": 2,
       "FRAF": 1,
-      "GBFH": 2,
+      "GBFH": 1,
       "GLP": 1,
-      "GPRO": 2,
+      "GPRO": 1,
       "HIT": 1,
       "HURA": 1,
       "IONQ": 1,
@@ -36774,7 +36774,7 @@
       "LUCD": 1,
       "LYV": 1,
       "MAZE": 1,
-      "MEDS": 2,
+      "MEDS": 1,
       "MOBI": 1,
       "MOBXW": 1,
       "NIOBW": 2,
@@ -36783,13 +36783,13 @@
       "NRXP": 1,
       "OCUL": 1,
       "OPNW": 1,
-      "PEP": 9,
+      "PEP": 8,
       "PMCB": 1,
       "POST": 1,
       "QUCY": 1,
-      "S": 4,
+      "S": 3,
       "SBMT": 1,
-      "SITC": 2,
+      "SITC": 1,
       "SMG": 1,
       "SRV": 1,
       "STWI": 1,
@@ -36801,7 +36801,7 @@
       "WAFDP": 1,
       "WSBF": 1,
       "XTIA": 1,
-      "YHC": 3
+      "YHC": 2
     }
   },
   "first_seen": {
@@ -46312,18 +46312,18 @@
         "S",
         "CIFR",
         "AIBT",
-        "ENVA",
-        "MEDS",
         "ADIL",
+        "ENVA",
         "ACAAW",
         "FOXF",
         "STWI",
-        "YHC",
         "NRXP",
-        "ARI",
-        "SITC",
+        "MEDS",
+        "YHC",
         "KINS",
+        "ARI",
         "NIOBW",
+        "SITC",
         "NRUC",
         "CGC",
         "LFST",
@@ -46339,14 +46339,14 @@
         "MEDS",
         "AIBT",
         "YHC",
-        "ENVA",
         "NRXP",
+        "ENVA",
         "ADIL",
         "NIOBW",
         "ACAAW",
         "STWI",
-        "ARI",
         "CGC",
+        "ARI",
         "NRUC",
         "KINS",
         "LFST",
@@ -61572,9 +61572,9 @@
         "signal_score": 71.6
       },
       "ARI": {
-        "discovery_score": 60.8,
-        "market_attention_score": 28.4,
-        "signal_score": 70.6
+        "discovery_score": 59.3,
+        "market_attention_score": 27.9,
+        "signal_score": 69.6
       },
       "ATHR": {
         "discovery_score": 57.1,
@@ -61607,9 +61607,9 @@
         "signal_score": 61.0
       },
       "ENVA": {
-        "discovery_score": 64.1,
-        "market_attention_score": 30.3,
-        "signal_score": 71.6
+        "discovery_score": 62.5,
+        "market_attention_score": 29.9,
+        "signal_score": 70.5
       },
       "FOXF": {
         "discovery_score": 62.3,
@@ -61617,14 +61617,14 @@
         "signal_score": 74.6
       },
       "GBFH": {
-        "discovery_score": 53.8,
-        "market_attention_score": 23.3,
-        "signal_score": 57.6
+        "discovery_score": 52.1,
+        "market_attention_score": 22.9,
+        "signal_score": 56.5
       },
       "GPRO": {
-        "discovery_score": 53.8,
-        "market_attention_score": 23.3,
-        "signal_score": 57.6
+        "discovery_score": 52.1,
+        "market_attention_score": 22.9,
+        "signal_score": 56.5
       },
       "HIT": {
         "discovery_score": 57.4,
@@ -61652,9 +61652,9 @@
         "signal_score": 61.0
       },
       "MEDS": {
-        "discovery_score": 62.9,
-        "market_attention_score": 32.7,
-        "signal_score": 74.6
+        "discovery_score": 61.3,
+        "market_attention_score": 32.3,
+        "signal_score": 73.5
       },
       "NIOBW": {
         "discovery_score": 58.6,
@@ -61678,18 +61678,18 @@
       },
       "PEP": {
         "discovery_score": 39.0,
-        "market_attention_score": 47.2,
+        "market_attention_score": 46.8,
         "signal_score": 70.7
       },
       "S": {
-        "discovery_score": 67.8,
-        "market_attention_score": 40.9,
-        "signal_score": 83.5
+        "discovery_score": 66.4,
+        "market_attention_score": 40.5,
+        "signal_score": 82.6
       },
       "SITC": {
-        "discovery_score": 60.2,
-        "market_attention_score": 36.0,
-        "signal_score": 75.6
+        "discovery_score": 58.5,
+        "market_attention_score": 35.6,
+        "signal_score": 74.5
       },
       "STWI": {
         "discovery_score": 62.3,
@@ -61707,9 +61707,9 @@
         "signal_score": 61.5
       },
       "YHC": {
-        "discovery_score": 61.7,
-        "market_attention_score": 30.8,
-        "signal_score": 76.6
+        "discovery_score": 60.2,
+        "market_attention_score": 30.4,
+        "signal_score": 75.6
       }
     }
   }
