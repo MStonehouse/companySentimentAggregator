@@ -8695,7 +8695,7 @@
       }
     },
     "ADIL": {
-      "cached_at": "2026-10-03T00:34:07.845038+00:00",
+      "cached_at": "2026-10-17T05:44:12.146635+00:00",
       "data": {
         "name": "Adial Pharmaceuticals Inc",
         "industry": "Pharmaceuticals",
@@ -8704,7 +8704,7 @@
         "ipo_date": "2018-07-27",
         "weburl": "https://www.adialpharma.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950252483506.png",
-        "market_cap": 10818666.101694915,
+        "market_cap": 9164355.433121018,
         "pe_ttm": null,
         "ps_ttm": null,
         "pb_annual": 1.1111,
@@ -8714,7 +8714,7 @@
         "net_margin_ttm": null,
         "current_ratio": 4.4247,
         "debt_equity": 0,
-        "beta": 411.16296
+        "beta": -301.92154
       }
     },
     "AMR": {
@@ -20241,7 +20241,7 @@
       }
     },
     "ARI": {
-      "cached_at": "2026-09-17T17:40:11.979875+00:00",
+      "cached_at": "2026-10-17T05:44:12.146635+00:00",
       "data": {
         "name": "Apollo Commercial Real Estate Finance Inc",
         "industry": "Real Estate",
@@ -20250,9 +20250,9 @@
         "ipo_date": "2009-09-24",
         "weburl": "https://www.apollocref.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950000893626.png",
-        "market_cap": 835538351.3824885,
-        "pe_ttm": 6.3398,
-        "ps_ttm": 1.3579,
+        "market_cap": 820112980.3712946,
+        "pe_ttm": 6.2765,
+        "ps_ttm": 1.3444,
         "pb_annual": 0.7426,
         "revenue_growth_ttm_yoy": -18.44,
         "eps_growth_ttm_yoy": -17.12,
@@ -20260,7 +20260,7 @@
         "net_margin_ttm": 21.42,
         "current_ratio": 0.2648,
         "debt_equity": 4.266,
-        "beta": 1.5285246
+        "beta": 1.5241501
       }
     },
     "TER": {
@@ -33210,6 +33210,98 @@
         "current_ratio": 1.6518,
         "debt_equity": 0.1844,
         "beta": 1.3205717
+      }
+    },
+    "YHC": {
+      "cached_at": "2026-10-17T05:44:12.146635+00:00",
+      "data": {
+        "name": "LQR House Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2023-08-10",
+        "weburl": "https://lqrhouse.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950867299526.png",
+        "market_cap": 2520000.0,
+        "pe_ttm": null,
+        "ps_ttm": 1.361,
+        "pb_annual": 0.6557,
+        "revenue_growth_ttm_yoy": -49.57,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 6.5,
+        "net_margin_ttm": -1589.2,
+        "current_ratio": 8.6048,
+        "debt_equity": 0,
+        "beta": 3.334111
+      }
+    },
+    "NRUC": {
+      "cached_at": "2026-10-17T05:44:12.146635+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 0.4877394
+      }
+    },
+    "KINS": {
+      "cached_at": "2026-10-17T05:44:12.146635+00:00",
+      "data": {
+        "name": "Kingstone Companies Inc",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1994-04-11",
+        "weburl": "https://www.kingstonecompanies.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959131236.png",
+        "market_cap": 270558913.55812705,
+        "pe_ttm": 7.6576,
+        "ps_ttm": 1.137,
+        "pb_annual": 1.94,
+        "revenue_growth_ttm_yoy": 28.03,
+        "eps_growth_ttm_yoy": 20.25,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 14.85,
+        "current_ratio": 0.1852,
+        "debt_equity": 0.0362,
+        "beta": 0.51948047
+      }
+    },
+    "HIT": {
+      "cached_at": "2026-10-17T05:44:12.146635+00:00",
+      "data": {
+        "name": "Health In Tech Inc",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2024-12-23",
+        "weburl": "https://healthintech.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950906074626.png",
+        "market_cap": 42569585.3400668,
+        "pe_ttm": 32.103,
+        "ps_ttm": 1.2506,
+        "pb_annual": 5.2878,
+        "revenue_growth_ttm_yoy": 22.98,
+        "eps_growth_ttm_yoy": 145.15,
+        "gross_margin_ttm": 53.93,
+        "net_margin_ttm": -12.03,
+        "current_ratio": 3.134,
+        "debt_equity": 0,
+        "beta": 0.5718027
       }
     }
   }
