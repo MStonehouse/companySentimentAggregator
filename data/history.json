@@ -36126,7 +36126,7 @@
       "CCID": 0,
       "CGBD": 0,
       "CGC": 0,
-      "CIFR": 1,
+      "CIFR": 0,
       "CJMB": 0,
       "CNDT": 0,
       "COST": 0,
@@ -36162,7 +36162,7 @@
       "NRXP": 0,
       "OCUL": 0,
       "OPNW": 0,
-      "PEP": 4,
+      "PEP": 2,
       "PMCB": 0,
       "POST": 0,
       "QUCY": 0,
@@ -60962,7 +60962,7 @@
       },
       "CIFR": {
         "discovery_score": 46.8,
-        "market_attention_score": 35.9,
+        "market_attention_score": 35.5,
         "signal_score": 67.5
       },
       "CJMB": {
@@ -61052,7 +61052,7 @@
       },
       "PEP": {
         "discovery_score": 38.8,
-        "market_attention_score": 41.6,
+        "market_attention_score": 40.8,
         "signal_score": 70.7
       },
       "S": {
