@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-18T23:23:52.892438+00:00",
+    "generated_at": "2026-10-19T06:21:39.934940+00:00",
     "companies_scanned": 77,
     "sources_enabled": {
       "sec_edgar": true,
@@ -18,25 +18,21 @@
   "rankings": {
     "market_leaders": [
       "PEP",
-      "CIFR",
       "FOXF",
+      "CIFR",
       "SITC",
       "S",
-      "AIBT",
       "MEDS",
-      "NRXP",
       "ENVA",
       "ADIL",
+      "AIBT",
+      "CGC",
       "YHC",
       "ACAAW",
       "STWI",
       "ARI",
-      "NIOBW",
-      "LFST",
-      "CGC",
       "KINS",
       "HIT",
-      "OPNW",
       "LASE",
       "BLIN",
       "LUCD",
@@ -44,54 +40,54 @@
       "CJMB",
       "ATHR",
       "GPRO",
+      "OPNW",
       "GBFH",
+      "NIOBW",
       "NRUC",
-      "CNDT"
+      "CNDT",
+      "LFST",
+      "TWI"
     ],
     "emerging_signals": [
+      "ENVA",
       "ADIL",
       "AIBT",
-      "ENVA",
       "ACAAW",
       "STWI",
-      "NRXP",
       "MEDS",
+      "CGC",
       "FOXF",
       "CIFR",
       "SITC",
       "YHC",
-      "CGC",
       "KINS",
-      "LFST",
       "S",
       "ARI",
       "HIT",
       "BLIN",
       "LUCD",
+      "EHTH",
       "CJMB",
       "ATHR",
-      "NIOBW",
-      "EHTH",
       "LASE",
-      "OPNW",
       "GPRO",
       "GBFH",
+      "NIOBW",
       "NRUC",
+      "OPNW",
       "TWI",
-      "XTIA"
+      "XTIA",
+      "FMHS",
+      "HURA"
     ]
   },
   "briefing": {
     "new_emerging": [
-      "CJMB"
+      "EHTH",
+      "ATHR"
     ],
     "accelerating": [],
-    "cooling": [
-      {
-        "ticker": "CNDT",
-        "delta": -54.1
-      }
-    ],
+    "cooling": [],
     "major_catalysts": [
       {
         "ticker": "PEP",
@@ -114,16 +110,6 @@
         "headline": "DataMeds AI, Inc. (0002030763) (Filer)"
       },
       {
-        "ticker": "NRXP",
-        "category": "Regulatory / FDA",
-        "headline": "NRX Pharmaceuticals, Inc. (0001719406) (Filer)"
-      },
-      {
-        "ticker": "AIBT",
-        "category": "M&A",
-        "headline": "AIBOTICS, INC. (0001763329) (Filer)"
-      },
-      {
         "ticker": "ENVA",
         "category": "M&A",
         "headline": "Enova International, Inc. (0001529864) (Filer)"
@@ -132,17 +118,28 @@
         "ticker": "ADIL",
         "category": "M&A",
         "headline": "ADIAL PHARMACEUTICALS, INC. (0001513525) (Filer)"
+      },
+      {
+        "ticker": "AIBT",
+        "category": "M&A",
+        "headline": "AIBOTICS, INC. (0001763329) (Filer)"
+      },
+      {
+        "ticker": "CGC",
+        "category": "Major contract",
+        "headline": "Canopy Growth Corp (0001737927) (Filer)"
       }
     ],
     "left_emerging_top20": [
-      "NRUC"
+      "LFST",
+      "NRXP"
     ]
   },
   "sectors": [
     {
       "sector": "Financial Services",
       "company_count": 1,
-      "discovery_intensity": 50.5,
+      "discovery_intensity": 50.6,
       "signal_intensity": 62.5,
       "tickers": [
         "ENVA"
@@ -150,12 +147,11 @@
     },
     {
       "sector": "Pharmaceuticals",
-      "company_count": 3,
-      "discovery_intensity": 48.7,
+      "company_count": 2,
+      "discovery_intensity": 49.9,
       "signal_intensity": 61.5,
       "tickers": [
         "ADIL",
-        "NRXP",
         "CGC"
       ]
     },
@@ -166,16 +162,6 @@
       "signal_intensity": 65.5,
       "tickers": [
         "FOXF"
-      ]
-    },
-    {
-      "sector": "Health Care",
-      "company_count": 2,
-      "discovery_intensity": 47.6,
-      "signal_intensity": 61.0,
-      "tickers": [
-        "MEDS",
-        "LFST"
       ]
     },
     {
@@ -198,10 +184,21 @@
       ]
     },
     {
+      "sector": "Insurance",
+      "company_count": 3,
+      "discovery_intensity": 45.5,
+      "signal_intensity": 55.0,
+      "tickers": [
+        "KINS",
+        "HIT",
+        "EHTH"
+      ]
+    },
+    {
       "sector": "Unclassified",
-      "company_count": 10,
-      "discovery_intensity": 45.6,
-      "signal_intensity": 54.4,
+      "company_count": 11,
+      "discovery_intensity": 44.7,
+      "signal_intensity": 53.0,
       "tickers": [
         "AIBT",
         "ACAAW",
@@ -212,14 +209,13 @@
       ]
     },
     {
-      "sector": "Insurance",
-      "company_count": 3,
-      "discovery_intensity": 45.4,
-      "signal_intensity": 55.0,
+      "sector": "Health Care",
+      "company_count": 2,
+      "discovery_intensity": 44.5,
+      "signal_intensity": 55.8,
       "tickers": [
-        "KINS",
-        "HIT",
-        "EHTH"
+        "MEDS",
+        "LFST"
       ]
     },
     {
@@ -231,15 +227,6 @@
         "CIFR",
         "S",
         "XTIA"
-      ]
-    },
-    {
-      "sector": "Electrical Equipment",
-      "company_count": 1,
-      "discovery_intensity": 43.4,
-      "signal_intensity": 53.5,
-      "tickers": [
-        "OPNW"
       ]
     },
     {
@@ -260,21 +247,18 @@
       "tickers": [
         "GPRO"
       ]
+    },
+    {
+      "sector": "Electrical Equipment",
+      "company_count": 1,
+      "discovery_intensity": 39.8,
+      "signal_intensity": 48.5,
+      "tickers": [
+        "OPNW"
+      ]
     }
   ],
   "themes": [
-    {
-      "theme": "AI infrastructure",
-      "company_count": 5,
-      "intensity": 46.8,
-      "tickers": [
-        "MEDS",
-        "FOXF",
-        "CIFR",
-        "S",
-        "OPNW"
-      ]
-    },
     {
       "theme": "Cloud & software",
       "company_count": 4,
@@ -287,23 +271,32 @@
       ]
     },
     {
-      "theme": "Defense & aerospace",
+      "theme": "AI infrastructure",
       "company_count": 4,
-      "intensity": 44.7,
+      "intensity": 47.7,
+      "tickers": [
+        "MEDS",
+        "FOXF",
+        "CIFR",
+        "S"
+      ]
+    },
+    {
+      "theme": "Defense & aerospace",
+      "company_count": 3,
+      "intensity": 44.8,
       "tickers": [
         "AIBT",
-        "NIOBW",
         "LASE",
         "XTIA"
       ]
     },
     {
       "theme": "Biotech & therapeutics",
-      "company_count": 3,
-      "intensity": 49.7,
+      "company_count": 2,
+      "intensity": 50.0,
       "tickers": [
         "ADIL",
-        "NRXP",
         "MEDS"
       ]
     },
@@ -324,14 +317,6 @@
       ]
     },
     {
-      "theme": "Critical minerals",
-      "company_count": 1,
-      "intensity": 44.6,
-      "tickers": [
-        "NIOBW"
-      ]
-    },
-    {
       "theme": "Semiconductors",
       "company_count": 1,
       "intensity": 43.9,
@@ -347,7 +332,7 @@
       "company_name": "PEPSICO INC",
       "signal_score": 70.7,
       "market_attention_score": 41.2,
-      "discovery_score": 38.8,
+      "discovery_score": 38.5,
       "confidence_score": 94.2,
       "primary_catalyst": "PEPSICO INC (0000077476) (Filer)",
       "catalyst_category": "Major contract",
@@ -355,12 +340,12 @@
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 3,
-      "latest_event_at": "2026-10-18T17:50:00+00:00",
+      "latest_event_at": "2026-10-18T23:27:20+00:00",
       "new_to_radar": false,
-      "days_on_radar": 61,
+      "days_on_radar": 62,
       "change": {
         "signal_delta": 0.0,
-        "discovery_delta": -0.2
+        "discovery_delta": -0.3
       },
       "evidence": {
         "primary_source_count": 1,
@@ -380,7 +365,7 @@
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
-        "novelty": 8.3,
+        "novelty": 8.0,
         "source_breadth": 4.5,
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
@@ -390,7 +375,7 @@
         "weighted_source_breadth": 1.5
       },
       "baseline": {
-        "avg_items_24h": 4.67,
+        "avg_items_24h": 4.8,
         "days_available": 30,
         "maturity": "established"
       },
@@ -507,9 +492,9 @@
           "signal_score": 70.7
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 70.7,
-          "discovery_score": 38.8
+          "discovery_score": 38.5
         }
       ]
     },
@@ -517,26 +502,26 @@
       "ticker": "CIFR",
       "company_name": "Cipher Digital Inc.",
       "signal_score": 67.5,
-      "market_attention_score": 35.5,
+      "market_attention_score": 28.7,
       "discovery_score": 46.8,
       "confidence_score": 93.8,
       "primary_catalyst": "Cipher Digital Inc. (0001819989) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "17 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "8 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-17T08:57:14+00:00",
       "new_to_radar": false,
-      "days_on_radar": 60,
+      "days_on_radar": 61,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -4.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 17
+        "unique_story_clusters": 8
       },
       "metrics": {
         "primary_evidence": 25,
@@ -645,7 +630,7 @@
           "signal_score": 67.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 67.5,
           "discovery_score": 46.8
         }
@@ -655,18 +640,18 @@
       "ticker": "SITC",
       "company_name": "SITE Centers Corp.",
       "signal_score": 66.5,
-      "market_attention_score": 31.6,
+      "market_attention_score": 27.9,
       "discovery_score": 46.5,
       "confidence_score": 93.8,
       "primary_catalyst": "SITE Centers Corp. (0000894315) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "12 unique credible information items from 5 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "7 unique credible information items from 5 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:17:27+00:00",
       "new_to_radar": false,
-      "days_on_radar": 57,
+      "days_on_radar": 58,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -674,7 +659,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 5,
-        "unique_story_clusters": 12
+        "unique_story_clusters": 7
       },
       "metrics": {
         "primary_evidence": 25,
@@ -704,12 +689,12 @@
         "maturity": "established"
       },
       "materiality": {
-        "estimated_event_value": 32400000.0,
-        "market_cap_ratio": 0.1792,
-        "score": 14,
-        "label": "Material",
-        "basis": "SITE Centers Announces The Sale Of Its Interests In The Dividend Trust Portfolio Joint Venture For Net Proceeds Of ~$32.4M",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
         "name": "Site Centers Corp",
@@ -778,7 +763,7 @@
           "signal_score": 66.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 66.5,
           "discovery_score": 46.5
         }
@@ -788,26 +773,26 @@
       "ticker": "S",
       "company_name": "SentinelOne, Inc.",
       "signal_score": 65.5,
-      "market_attention_score": 27.7,
+      "market_attention_score": 27.4,
       "discovery_score": 46.0,
       "confidence_score": 93.8,
       "primary_catalyst": "SentinelOne, Inc. (0001583708) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "8 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "7 unique credible information items from 4 independent sources. Coverage is 0.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-16T21:00:05+00:00",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-18T23:28:13+00:00",
       "new_to_radar": false,
-      "days_on_radar": 53,
+      "days_on_radar": 54,
       "change": {
-        "signal_delta": -7.0,
-        "discovery_delta": -5.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 8
+        "unique_story_clusters": 7
       },
       "metrics": {
         "primary_evidence": 25,
@@ -816,8 +801,8 @@
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
@@ -827,8 +812,8 @@
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -916,146 +901,9 @@
           "signal_score": 65.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 65.5,
           "discovery_score": 46.0
-        }
-      ]
-    },
-    {
-      "ticker": "NRXP",
-      "company_name": "NRX Pharmaceuticals, Inc.",
-      "signal_score": 65.5,
-      "market_attention_score": 26.1,
-      "discovery_score": 49.3,
-      "confidence_score": 79.8,
-      "primary_catalyst": "NRX Pharmaceuticals, Inc. (0001719406) (Filer)",
-      "catalyst_category": "Regulatory / FDA",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-16T17:16:05-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 37,
-      "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": 0.0
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 18,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.7,
-        "source_breadth": 3.6,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "NRX Pharmaceuticals Inc",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2017-11-20",
-        "weburl": "https://www.nrxpharma.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NRXP.png",
-        "market_cap": 111703075.46125461,
-        "pe_ttm": null,
-        "ps_ttm": 34.4657,
-        "pb_annual": 10.1339,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 46.64,
-        "net_margin_ttm": -691.81,
-        "current_ratio": 0.3111,
-        "debt_equity": 1.4206,
-        "beta": 2.0226285
-      },
-      "profile": {
-        "name": "NRX Pharmaceuticals Inc",
-        "description": "NRx creates innovative, life-saving treatments to address unmet medical needs and bring hope to those with chronic conditions. Learn More.",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.nrxpharma.com/",
-        "products_markets": [
-          "Therapeutics"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "NRXP",
-          "company_name": "NRX Pharmaceuticals, Inc.",
-          "source": "SEC EDGAR",
-          "title": "NRX Pharmaceuticals, Inc. (0001719406) (Filer)",
-          "summary": "Filed: 2026-10-16 AccNo: 0001437749-26-032828 Size: 174 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1719406/000143774926032828/0001437749-26-032828-index.htm",
-          "published_at": "2026-10-16T17:16:05-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "cc7d180002b4",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-16",
-          "discovery_score": 61.4,
-          "market_attention_score": 30.1,
-          "signal_score": 73.5
-        },
-        {
-          "date": "2026-10-17",
-          "discovery_score": 49.3,
-          "market_attention_score": 26.1,
-          "signal_score": 65.5
-        },
-        {
-          "date": "2026-10-18",
-          "discovery_score": 49.3,
-          "market_attention_score": 26.1,
-          "signal_score": 65.5
-        },
-        {
-          "date": "2026-10-18",
-          "signal_score": 65.5,
-          "discovery_score": 49.3
         }
       ]
     },
@@ -1074,7 +922,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:23:28+00:00",
       "new_to_radar": false,
-      "days_on_radar": 60,
+      "days_on_radar": 61,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -1204,7 +1052,7 @@
           "signal_score": 65.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 65.5,
           "discovery_score": 49.3
         }
@@ -1225,7 +1073,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T22:09:48+00:00",
       "new_to_radar": false,
-      "days_on_radar": 48,
+      "days_on_radar": 49,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -1340,7 +1188,7 @@
           "signal_score": 65.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 65.5,
           "discovery_score": 48.6
         }
@@ -1351,7 +1199,7 @@
       "company_name": "Enova International, Inc.",
       "signal_score": 62.5,
       "market_attention_score": 25.9,
-      "discovery_score": 50.5,
+      "discovery_score": 50.6,
       "confidence_score": 67.8,
       "primary_catalyst": "Enova International, Inc. (0001529864) (Filer)",
       "catalyst_category": "M&A",
@@ -1361,10 +1209,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:33:35+00:00",
       "new_to_radar": false,
-      "days_on_radar": 60,
+      "days_on_radar": 61,
       "change": {
         "signal_delta": 0.0,
-        "discovery_delta": 0.0
+        "discovery_delta": 0.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1384,7 +1232,7 @@
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
-        "novelty": 19.7,
+        "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
@@ -1394,7 +1242,7 @@
         "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.13,
+        "avg_items_24h": 0.07,
         "days_available": 30,
         "maturity": "established"
       },
@@ -1487,9 +1335,9 @@
           "signal_score": 62.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 62.5,
-          "discovery_score": 50.5
+          "discovery_score": 50.6
         }
       ]
     },
@@ -1508,7 +1356,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:15:28-04:00",
       "new_to_radar": false,
-      "days_on_radar": 59,
+      "days_on_radar": 60,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -1618,7 +1466,7 @@
           "signal_score": 62.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 62.5,
           "discovery_score": 50.6
         }
@@ -1628,18 +1476,18 @@
       "ticker": "AIBT",
       "company_name": "AIBOTICS, INC.",
       "signal_score": 62.5,
-      "market_attention_score": 27.4,
+      "market_attention_score": 25.9,
       "discovery_score": 50.6,
-      "confidence_score": 75.8,
+      "confidence_score": 67.8,
       "primary_catalyst": "AIBOTICS, INC. (0001763329) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "4 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T20:52:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 3,
+      "days_on_radar": 4,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -1647,7 +1495,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 4
+        "unique_story_clusters": 2
       },
       "metrics": {
         "primary_evidence": 25,
@@ -1733,20 +1581,6 @@
           "fingerprint": "e754703acfcf",
           "display_relevance": 1.0,
           "display_relevant": true
-        },
-        {
-          "ticker": "AIBT",
-          "company_name": "AIBOTICS, INC.",
-          "source": "Yahoo",
-          "title": "AIBotics Israeli Partner Ultrobotix Launches Food-Manufacturing Robotics Initiative with Potential for Broader Industrial Deployment",
-          "summary": "Ultrobotix is leading the exploratory initiative, with AIBotics supporting the identification and evaluation of third-party robotic technologies and suppliersMIAMI and ROSH HAAYIN, Israel, Oct. 15, 2026 (GLOBE NEWSWIRE) -- AIBotics, Inc. (OTCID: AIBT) (\"AIBotics\" or the \"Company\") announced today that its Israeli partner, Ultrobotix Ltd. (\"Ultrobotix\"), has begun working with an Israeli food manufacturer to identify…",
-          "url": "https://finnhub.io/api/news?id=095522593f311f9ac3d50c55cd134a31c9a3a510bb92b0b176aa2568840af023",
-          "published_at": "2026-10-15T12:41:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "69e550acf9c0",
-          "display_relevance": 0.62,
-          "display_relevant": true
         }
       ],
       "history": [
@@ -1769,7 +1603,7 @@
           "signal_score": 62.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 62.5,
           "discovery_score": 50.6
         }
@@ -1790,10 +1624,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T22:30:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 3,
+      "days_on_radar": 4,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -0.3
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1902,7 +1736,7 @@
           "signal_score": 61.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 61.5,
           "discovery_score": 46.3
         }
@@ -1923,7 +1757,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T20:30:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 57,
+      "days_on_radar": 58,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -2035,9 +1869,144 @@
           "signal_score": 60.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 60.5,
           "discovery_score": 45.7
+        }
+      ]
+    },
+    {
+      "ticker": "CGC",
+      "company_name": "Canopy Growth Corp",
+      "signal_score": 60.5,
+      "market_attention_score": 25.3,
+      "discovery_score": 49.1,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Canopy Growth Corp (0001737927) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-18T18:35:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 62,
+      "change": {
+        "signal_delta": 4.0,
+        "discovery_delta": 3.0
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 18,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Canopy Growth Corp",
+        "industry": "Pharmaceuticals",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "ipo_date": "2010-06-04",
+        "weburl": "https://www.canopygrowth.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WEED.TO.png",
+        "market_cap": 573690000.0,
+        "pe_ttm": null,
+        "ps_ttm": 1.6197,
+        "pb_annual": 0.8626,
+        "revenue_growth_ttm_yoy": 6.81,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 28.53,
+        "net_margin_ttm": -80.36,
+        "current_ratio": 3.3417,
+        "debt_equity": 0.3526,
+        "beta": 1.8690333
+      },
+      "profile": {
+        "name": "Canopy Growth Corp",
+        "description": "Committed to Bettering Lives Through Cannabis For the patient finding relief, the person rediscovering balance, the consumer who expects better. We’re building the cannabis company you deserve — principled, disciplined, […]",
+        "industry": "Pharmaceuticals",
+        "country": "CA",
+        "exchange": "TORONTO STOCK EXCHANGE",
+        "website": "https://www.canopygrowth.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "CGC",
+          "company_name": "Canopy Growth Corp",
+          "source": "SEC EDGAR",
+          "title": "Canopy Growth Corp (0001737927) (Filer)",
+          "summary": "Filed: 2026-10-16 AccNo: 0001104659-26-116639 Size: 196 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1737927/000110465926116639/0001104659-26-116639-index.htm",
+          "published_at": "2026-10-16T17:00:24-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "e2b7088eb522",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "discovery_score": 54.3,
+          "market_attention_score": 29.1,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-17",
+          "discovery_score": 46.1,
+          "market_attention_score": 24.4,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-18",
+          "discovery_score": 46.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-19",
+          "signal_score": 60.5,
+          "discovery_score": 49.1
         }
       ]
     },
@@ -2056,7 +2025,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:00:14-04:00",
       "new_to_radar": false,
-      "days_on_radar": 3,
+      "days_on_radar": 4,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -2168,7 +2137,7 @@
           "signal_score": 60.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2189,7 +2158,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T16:05:42-04:00",
       "new_to_radar": false,
-      "days_on_radar": 10,
+      "days_on_radar": 11,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -2301,277 +2270,9 @@
           "signal_score": 60.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 60.0,
           "discovery_score": 50.3
-        }
-      ]
-    },
-    {
-      "ticker": "LFST",
-      "company_name": "LifeStance Health Group, Inc.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 46.0,
-      "confidence_score": 67.8,
-      "primary_catalyst": "LifeStance Health Group, Inc. (0001845257) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-16T17:26:18-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 60,
-      "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": 0.0
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.7,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "LifeStance Health Group Inc",
-        "industry": "Health Care",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2021-06-10",
-        "weburl": "https://investor.lifestance.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950800566626.png",
-        "market_cap": 4473114217.405417,
-        "pe_ttm": 93.4239,
-        "ps_ttm": 2.9828,
-        "pb_annual": 1.8005,
-        "revenue_growth_ttm_yoy": 61.14,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": 3.19,
-        "current_ratio": 1.6518,
-        "debt_equity": 0.1844,
-        "beta": 1.3205717
-      },
-      "profile": {
-        "name": "LifeStance Health Group Inc",
-        "description": "The Investor Relations website contains information about LifeStance Health Inc.'s business for stockholders, potential investors, and financial analysts.",
-        "industry": "Health Care",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://investor.lifestance.com/",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "LFST",
-          "company_name": "LifeStance Health Group, Inc.",
-          "source": "SEC EDGAR",
-          "title": "LifeStance Health Group, Inc. (0001845257) (Filer)",
-          "summary": "Filed: 2026-10-16 AccNo: 0001193125-26-424294 Size: 136 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/1845257/000119312526424294/0001193125-26-424294-index.htm",
-          "published_at": "2026-10-16T17:26:18-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "b8d582db9994",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-16",
-          "discovery_score": 58.1,
-          "market_attention_score": 26.9,
-          "signal_score": 64.5
-        },
-        {
-          "date": "2026-10-17",
-          "discovery_score": 46.0,
-          "market_attention_score": 22.9,
-          "signal_score": 56.5
-        },
-        {
-          "date": "2026-10-18",
-          "discovery_score": 46.0,
-          "market_attention_score": 22.9,
-          "signal_score": 56.5
-        },
-        {
-          "date": "2026-10-18",
-          "signal_score": 56.5,
-          "discovery_score": 46.0
-        }
-      ]
-    },
-    {
-      "ticker": "CGC",
-      "company_name": "Canopy Growth Corp",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 46.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Canopy Growth Corp (0001737927) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-16T17:00:24-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 61,
-      "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": 0.0
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Canopy Growth Corp",
-        "industry": "Pharmaceuticals",
-        "country": "CA",
-        "exchange": "TORONTO STOCK EXCHANGE",
-        "ipo_date": "2010-06-04",
-        "weburl": "https://www.canopygrowth.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WEED.TO.png",
-        "market_cap": 573690000.0,
-        "pe_ttm": null,
-        "ps_ttm": 1.6197,
-        "pb_annual": 0.8626,
-        "revenue_growth_ttm_yoy": 6.81,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 28.53,
-        "net_margin_ttm": -80.36,
-        "current_ratio": 3.3417,
-        "debt_equity": 0.3526,
-        "beta": 1.8690333
-      },
-      "profile": {
-        "name": "Canopy Growth Corp",
-        "description": "Committed to Bettering Lives Through Cannabis For the patient finding relief, the person rediscovering balance, the consumer who expects better. We’re building the cannabis company you deserve — principled, disciplined, […]",
-        "industry": "Pharmaceuticals",
-        "country": "CA",
-        "exchange": "TORONTO STOCK EXCHANGE",
-        "website": "https://www.canopygrowth.com/",
-        "products_markets": [
-          "Therapeutics"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "CGC",
-          "company_name": "Canopy Growth Corp",
-          "source": "SEC EDGAR",
-          "title": "Canopy Growth Corp (0001737927) (Filer)",
-          "summary": "Filed: 2026-10-16 AccNo: 0001104659-26-116639 Size: 196 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1737927/000110465926116639/0001104659-26-116639-index.htm",
-          "published_at": "2026-10-16T17:00:24-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "e2b7088eb522",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-16",
-          "discovery_score": 54.3,
-          "market_attention_score": 29.1,
-          "signal_score": 61.5
-        },
-        {
-          "date": "2026-10-17",
-          "discovery_score": 46.1,
-          "market_attention_score": 24.4,
-          "signal_score": 56.5
-        },
-        {
-          "date": "2026-10-18",
-          "discovery_score": 46.1,
-          "market_attention_score": 22.9,
-          "signal_score": 56.5
-        },
-        {
-          "date": "2026-10-18",
-          "signal_score": 56.5,
-          "discovery_score": 46.1
         }
       ]
     },
@@ -2590,7 +2291,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T20:15:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 57,
+      "days_on_radar": 58,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -2710,7 +2411,7 @@
           "signal_score": 56.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 56.5,
           "discovery_score": 46.1
         }
@@ -2731,7 +2432,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T16:30:14-04:00",
       "new_to_radar": false,
-      "days_on_radar": 39,
+      "days_on_radar": 40,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -2857,280 +2558,9 @@
           "signal_score": 55.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 55.5,
           "discovery_score": 45.4
-        }
-      ]
-    },
-    {
-      "ticker": "NIOBW",
-      "company_name": "NIOCORP DEVELOPMENTS LTD",
-      "signal_score": 54.5,
-      "market_attention_score": 23.4,
-      "discovery_score": 44.6,
-      "confidence_score": 75.8,
-      "primary_catalyst": "NIOCORP DEVELOPMENTS LTD (0001512228) (Filer)",
-      "catalyst_category": "Capacity expansion",
-      "why_it_matters": "4 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-16T20:55:00+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 3,
-      "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -0.3
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 4
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 12,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 9.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "ipo_date": "",
-        "weburl": "",
-        "logo": "",
-        "market_cap": null,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 0.052123908
-      },
-      "profile": {
-        "name": "NIOBW",
-        "description": "NIOBW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "Defense & aerospace",
-        "Critical minerals"
-      ],
-      "stories": [
-        {
-          "ticker": "NIOBW",
-          "company_name": "NIOCORP DEVELOPMENTS LTD",
-          "source": "SEC EDGAR",
-          "title": "NIOCORP DEVELOPMENTS LTD (0001512228) (Filer)",
-          "summary": "Filed: 2026-10-16 AccNo: 0001539497-26-002705 Size: 394 KB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726002705/0001539497-26-002705-index.htm",
-          "published_at": "2026-10-16T17:15:39-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "d6b4672ab867",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-16",
-          "discovery_score": 53.1,
-          "market_attention_score": 29.3,
-          "signal_score": 64.5
-        },
-        {
-          "date": "2026-10-17",
-          "discovery_score": 44.9,
-          "market_attention_score": 24.6,
-          "signal_score": 59.5
-        },
-        {
-          "date": "2026-10-18",
-          "discovery_score": 44.6,
-          "market_attention_score": 23.4,
-          "signal_score": 54.5
-        },
-        {
-          "date": "2026-10-18",
-          "signal_score": 54.5,
-          "discovery_score": 44.6
-        }
-      ]
-    },
-    {
-      "ticker": "OPNW",
-      "company_name": "OpenWorld, Inc.",
-      "signal_score": 53.5,
-      "market_attention_score": 22.1,
-      "discovery_score": 43.4,
-      "confidence_score": 71.8,
-      "primary_catalyst": "OpenWorld, Inc. (0001104038) (Filer)",
-      "catalyst_category": "Financing",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-16T17:29:27-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 16,
-      "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": 0.0
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 11,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.3,
-        "source_breadth": 3.3,
-        "catalyst_strength": 8.2,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.27,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "VerifyMe Inc",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2001-06-29",
-        "weburl": "https://www.verifyme.com/#intro",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942958994166.png",
-        "market_cap": 11822349.82063882,
-        "pe_ttm": null,
-        "ps_ttm": 1.0648,
-        "pb_annual": 0.6801,
-        "revenue_growth_ttm_yoy": -49.69,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 47.02,
-        "net_margin_ttm": -47.08,
-        "current_ratio": 3.8158,
-        "debt_equity": 0.0682,
-        "beta": 0.23828495
-      },
-      "profile": {
-        "name": "OPNW",
-        "description": "OPNW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "AI infrastructure"
-      ],
-      "stories": [
-        {
-          "ticker": "OPNW",
-          "company_name": "OpenWorld, Inc.",
-          "source": "SEC EDGAR",
-          "title": "OpenWorld, Inc. (0001104038) (Filer)",
-          "summary": "Filed: 2026-10-16 AccNo: 0001214659-26-013011 Size: 233 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013011/0001214659-26-013011-index.htm",
-          "published_at": "2026-10-16T17:29:27-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "107611c38682",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-16",
-          "discovery_score": 57.4,
-          "market_attention_score": 26.6,
-          "signal_score": 62.6
-        },
-        {
-          "date": "2026-10-17",
-          "discovery_score": 43.4,
-          "market_attention_score": 22.1,
-          "signal_score": 53.5
-        },
-        {
-          "date": "2026-10-18",
-          "discovery_score": 43.4,
-          "market_attention_score": 22.1,
-          "signal_score": 53.5
-        },
-        {
-          "date": "2026-10-18",
-          "signal_score": 53.5,
-          "discovery_score": 43.4
         }
       ]
     },
@@ -3149,7 +2579,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T20:15:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 56,
+      "days_on_radar": 57,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -3264,7 +2694,7 @@
           "signal_score": 53.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 53.5,
           "discovery_score": 43.9
         }
@@ -3285,7 +2715,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:01:13-04:00",
       "new_to_radar": false,
-      "days_on_radar": 62,
+      "days_on_radar": 63,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -3369,7 +2799,7 @@
           "signal_score": 53.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3390,7 +2820,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T16:30:28-04:00",
       "new_to_radar": false,
-      "days_on_radar": 27,
+      "days_on_radar": 28,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -3474,7 +2904,7 @@
           "signal_score": 53.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3485,7 +2915,7 @@
       "company_name": "eHealth, Inc.",
       "signal_score": 53.0,
       "market_attention_score": 21.2,
-      "discovery_score": 44.6,
+      "discovery_score": 45.1,
       "confidence_score": 62,
       "primary_catalyst": "eHealth, Inc. (0001333493) (Filer)",
       "catalyst_category": "IPO / listing",
@@ -3495,10 +2925,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T16:10:35-04:00",
       "new_to_radar": false,
-      "days_on_radar": 55,
+      "days_on_radar": 56,
       "change": {
         "signal_delta": 0.0,
-        "discovery_delta": 0.0
+        "discovery_delta": 0.5
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3518,7 +2948,7 @@
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
-        "novelty": 19.3,
+        "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
@@ -3528,7 +2958,7 @@
         "weighted_source_breadth": 1.0
       },
       "baseline": {
-        "avg_items_24h": 0.27,
+        "avg_items_24h": 0.07,
         "days_available": 30,
         "maturity": "established"
       },
@@ -3604,9 +3034,9 @@
           "signal_score": 53.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 53.0,
-          "discovery_score": 44.6
+          "discovery_score": 45.1
         }
       ]
     },
@@ -3625,7 +3055,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T16:10:14-04:00",
       "new_to_radar": false,
-      "days_on_radar": 60,
+      "days_on_radar": 61,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -3709,7 +3139,7 @@
           "signal_score": 53.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3730,7 +3160,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T16:05:42-04:00",
       "new_to_radar": false,
-      "days_on_radar": 62,
+      "days_on_radar": 63,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -3814,7 +3244,7 @@
           "signal_score": 53.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3835,7 +3265,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:38:43+00:00",
       "new_to_radar": false,
-      "days_on_radar": 62,
+      "days_on_radar": 63,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -3947,9 +3377,142 @@
           "signal_score": 48.5
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 48.5,
           "discovery_score": 40.1
+        }
+      ]
+    },
+    {
+      "ticker": "OPNW",
+      "company_name": "OpenWorld, Inc.",
+      "signal_score": 48.5,
+      "market_attention_score": 18.9,
+      "discovery_score": 39.8,
+      "confidence_score": 67.8,
+      "primary_catalyst": "OpenWorld, Inc. (0001104038) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-16T17:29:27-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 17,
+      "change": {
+        "signal_delta": -5.0,
+        "discovery_delta": -3.6
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.5,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.2,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "VerifyMe Inc",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2001-06-29",
+        "weburl": "https://www.verifyme.com/#intro",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942958994166.png",
+        "market_cap": 11822349.82063882,
+        "pe_ttm": null,
+        "ps_ttm": 1.0648,
+        "pb_annual": 0.6801,
+        "revenue_growth_ttm_yoy": -49.69,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 47.02,
+        "net_margin_ttm": -47.08,
+        "current_ratio": 3.8158,
+        "debt_equity": 0.0682,
+        "beta": 0.23828495
+      },
+      "profile": {
+        "name": "OPNW",
+        "description": "OPNW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "OPNW",
+          "company_name": "OpenWorld, Inc.",
+          "source": "SEC EDGAR",
+          "title": "OpenWorld, Inc. (0001104038) (Filer)",
+          "summary": "Filed: 2026-10-16 AccNo: 0001214659-26-013011 Size: 233 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013011/0001214659-26-013011-index.htm",
+          "published_at": "2026-10-16T17:29:27-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "107611c38682",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "discovery_score": 57.4,
+          "market_attention_score": 26.6,
+          "signal_score": 62.6
+        },
+        {
+          "date": "2026-10-17",
+          "discovery_score": 43.4,
+          "market_attention_score": 22.1,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-18",
+          "discovery_score": 43.4,
+          "market_attention_score": 22.1,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-19",
+          "signal_score": 48.5,
+          "discovery_score": 39.8
         }
       ]
     },
@@ -3968,7 +3531,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:44:19+00:00",
       "new_to_radar": false,
-      "days_on_radar": 59,
+      "days_on_radar": 60,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -4046,7 +3609,140 @@
           "signal_score": 48.5
         },
         {
+          "date": "2026-10-19",
+          "signal_score": 48.5,
+          "discovery_score": 40.1
+        }
+      ]
+    },
+    {
+      "ticker": "NIOBW",
+      "company_name": "NIOCORP DEVELOPMENTS LTD",
+      "signal_score": 48.5,
+      "market_attention_score": 18.9,
+      "discovery_score": 40.1,
+      "confidence_score": 67.8,
+      "primary_catalyst": "NIOCORP DEVELOPMENTS LTD (0001512228) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-16T20:55:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 4,
+      "change": {
+        "signal_delta": -6.0,
+        "discovery_delta": -4.5
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 0.052123908
+      },
+      "profile": {
+        "name": "NIOBW",
+        "description": "NIOBW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "NIOBW",
+          "company_name": "NIOCORP DEVELOPMENTS LTD",
+          "source": "SEC EDGAR",
+          "title": "NIOCORP DEVELOPMENTS LTD (0001512228) (Filer)",
+          "summary": "Filed: 2026-10-16 AccNo: 0001539497-26-002705 Size: 394 KB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1512228/000153949726002705/0001539497-26-002705-index.htm",
+          "published_at": "2026-10-16T17:15:39-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "d6b4672ab867",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "discovery_score": 53.1,
+          "market_attention_score": 29.3,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-10-17",
+          "discovery_score": 44.9,
+          "market_attention_score": 24.6,
+          "signal_score": 59.5
+        },
+        {
           "date": "2026-10-18",
+          "discovery_score": 44.6,
+          "market_attention_score": 23.4,
+          "signal_score": 54.5
+        },
+        {
+          "date": "2026-10-19",
           "signal_score": 48.5,
           "discovery_score": 40.1
         }
@@ -4067,10 +3763,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:30:58-04:00",
       "new_to_radar": false,
-      "days_on_radar": 40,
+      "days_on_radar": 41,
       "change": {
-        "signal_delta": -10.5,
-        "discovery_delta": -6.3
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -4179,7 +3875,7 @@
           "signal_score": 46.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -4200,10 +3896,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:26:57-04:00",
       "new_to_radar": false,
-      "days_on_radar": 59,
+      "days_on_radar": 60,
       "change": {
-        "signal_delta": -42.2,
-        "discovery_delta": -54.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -4306,7 +4002,140 @@
           "signal_score": 46.0
         },
         {
+          "date": "2026-10-19",
+          "signal_score": 46.0,
+          "discovery_score": 39.7
+        }
+      ]
+    },
+    {
+      "ticker": "LFST",
+      "company_name": "LifeStance Health Group, Inc.",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.7,
+      "confidence_score": 62,
+      "primary_catalyst": "LifeStance Health Group, Inc. (0001845257) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-16T17:26:18-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 61,
+      "change": {
+        "signal_delta": -10.5,
+        "discovery_delta": -6.3
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.7,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "LifeStance Health Group Inc",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-06-10",
+        "weburl": "https://investor.lifestance.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950800566626.png",
+        "market_cap": 4473114217.405417,
+        "pe_ttm": 93.4239,
+        "ps_ttm": 2.9828,
+        "pb_annual": 1.8005,
+        "revenue_growth_ttm_yoy": 61.14,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 3.19,
+        "current_ratio": 1.6518,
+        "debt_equity": 0.1844,
+        "beta": 1.3205717
+      },
+      "profile": {
+        "name": "LifeStance Health Group Inc",
+        "description": "The Investor Relations website contains information about LifeStance Health Inc.'s business for stockholders, potential investors, and financial analysts.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://investor.lifestance.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "LFST",
+          "company_name": "LifeStance Health Group, Inc.",
+          "source": "SEC EDGAR",
+          "title": "LifeStance Health Group, Inc. (0001845257) (Filer)",
+          "summary": "Filed: 2026-10-16 AccNo: 0001193125-26-424294 Size: 136 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/1845257/000119312526424294/0001193125-26-424294-index.htm",
+          "published_at": "2026-10-16T17:26:18-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "b8d582db9994",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "discovery_score": 58.1,
+          "market_attention_score": 26.9,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-10-17",
+          "discovery_score": 46.0,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
           "date": "2026-10-18",
+          "discovery_score": 46.0,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-19",
           "signal_score": 46.0,
           "discovery_score": 39.7
         }
@@ -4327,7 +4156,7 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:19:47-04:00",
       "new_to_radar": false,
-      "days_on_radar": 28,
+      "days_on_radar": 29,
       "change": {
         "signal_delta": 0.0,
         "discovery_delta": 0.0
@@ -4439,7 +4268,7 @@
           "signal_score": 46.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -4460,10 +4289,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-16T17:16:04-04:00",
       "new_to_radar": false,
-      "days_on_radar": 48,
+      "days_on_radar": 49,
       "change": {
-        "signal_delta": -7.5,
-        "discovery_delta": -4.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -4576,7 +4405,211 @@
           "signal_score": 46.0
         },
         {
-          "date": "2026-10-18",
+          "date": "2026-10-19",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
+        }
+      ]
+    },
+    {
+      "ticker": "FMHS",
+      "company_name": "FARMHOUSE, INC. /NV",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
+      "confidence_score": 62,
+      "primary_catalyst": "FARMHOUSE, INC. /NV (0001811999) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-16T17:15:10-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 4,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "FMHS",
+          "company_name": "FARMHOUSE, INC. /NV",
+          "source": "SEC EDGAR",
+          "title": "FARMHOUSE, INC. /NV (0001811999) (Filer)",
+          "summary": "Filed: 2026-10-16 AccNo: 0001096906-26-001568 Size: 226 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1811999/000109690626001568/0001096906-26-001568-index.htm",
+          "published_at": "2026-10-16T17:15:10-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "ff570080eb9b",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-19",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
+        }
+      ]
+    },
+    {
+      "ticker": "HURA",
+      "company_name": "TuHURA Biosciences, Inc./NV",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
+      "confidence_score": 62,
+      "primary_catalyst": "TuHURA Biosciences, Inc./NV (0001498382) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-16T17:00:14-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 62,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "TuHURA Biosciences Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2016-07-12",
+        "weburl": "https://tuhurabio.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/KTRA.png",
+        "market_cap": 145296690.2222222,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 2.195,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.7807,
+        "debt_equity": 0.0094,
+        "beta": -0.18076801
+      },
+      "profile": {
+        "name": "TuHURA Biosciences Inc",
+        "description": "TuHURA Biosciences Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://tuhurabio.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "HURA",
+          "company_name": "TuHURA Biosciences, Inc./NV",
+          "source": "SEC EDGAR",
+          "title": "TuHURA Biosciences, Inc./NV (0001498382) (Filer)",
+          "summary": "Filed: 2026-10-16 AccNo: 0001193125-26-424228 Size: 169 KB Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1498382/000119312526424228/0001193125-26-424228-index.htm",
+          "published_at": "2026-10-16T17:00:14-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "3a982e819f2e",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-19",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
