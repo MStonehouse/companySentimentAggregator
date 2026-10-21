@@ -15296,7 +15296,7 @@
       }
     },
     "WFRD": {
-      "cached_at": "2026-09-07T23:36:27.331894+00:00",
+      "cached_at": "2026-10-21T06:08:46.681627+00:00",
       "data": {
         "name": "Weatherford International PLC",
         "industry": "Energy",
@@ -15306,8 +15306,8 @@
         "weburl": "https://www.weatherford.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WFRD.png",
         "market_cap": 6072470000.0,
-        "pe_ttm": 18.7792,
-        "ps_ttm": 1.4385,
+        "pe_ttm": 16.326,
+        "ps_ttm": 1.2506,
         "pb_annual": 3.3041,
         "revenue_growth_ttm_yoy": -7.17,
         "eps_growth_ttm_yoy": -22.09,
@@ -15315,7 +15315,7 @@
         "net_margin_ttm": 7.66,
         "current_ratio": 2.1939,
         "debt_equity": 0.874,
-        "beta": 0.85193866
+        "beta": 0.87617075
       }
     },
     "PNFP": {
@@ -34268,6 +34268,75 @@
         "current_ratio": 2.794,
         "debt_equity": 1.5816,
         "beta": 0.44692725
+      }
+    },
+    "ASTS": {
+      "cached_at": "2026-10-21T06:08:46.681627+00:00",
+      "data": {
+        "name": "AST SpaceMobile Inc",
+        "industry": "Telecommunication",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2019-09-13",
+        "weburl": "https://ast-science.com/spacemobile/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950711601196.png",
+        "market_cap": 16006458687.568907,
+        "pe_ttm": null,
+        "ps_ttm": 138.9607,
+        "pb_annual": 14.4908,
+        "revenue_growth_ttm_yoy": 2256.89,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 39.17,
+        "net_margin_ttm": -536.66,
+        "current_ratio": 16.3526,
+        "debt_equity": 1.2053,
+        "beta": 2.9054358
+      }
+    },
+    "NTRSO": {
+      "cached_at": "2026-10-21T06:08:46.681627+00:00",
+      "data": {
+        "name": "Northern Trust Corp",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.northerntrust.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NTRS.png",
+        "market_cap": 30268185288.117718,
+        "pe_ttm": 13.5345,
+        "ps_ttm": 3.3512,
+        "pb_annual": 1.9935,
+        "revenue_growth_ttm_yoy": 15.08,
+        "eps_growth_ttm_yoy": 36.1,
+        "gross_margin_ttm": 100,
+        "net_margin_ttm": 24.76,
+        "current_ratio": 0.3995,
+        "debt_equity": 12.2879,
+        "beta": 1.2321514
+      }
+    },
+    "CE": {
+      "cached_at": "2026-10-21T06:08:46.681627+00:00",
+      "data": {
+        "name": "Celanese Corp",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2005-01-21",
+        "weburl": "https://www.celanese.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CE.png",
+        "market_cap": 5215269359.639097,
+        "pe_ttm": null,
+        "ps_ttm": 0.5368,
+        "pb_annual": 1.1435,
+        "revenue_growth_ttm_yoy": -2.28,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 20.9,
+        "net_margin_ttm": -12.04,
+        "current_ratio": 1.5458,
+        "debt_equity": 3.1114,
+        "beta": 0.7251604
       }
     }
   }
