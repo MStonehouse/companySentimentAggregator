@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-22T00:03:05.667817+00:00",
+    "generated_at": "2026-10-22T06:12:21.688466+00:00",
     "companies_scanned": 81,
     "sources_enabled": {
       "sec_edgar": true,
@@ -20,77 +20,77 @@
       "TSLA",
       "RLI",
       "TKNO",
-      "OPENW",
-      "SLE",
-      "CACI",
       "LBRT",
+      "CACI",
       "MPB",
       "EPRT",
+      "OPENW",
+      "SLE",
+      "GTY",
+      "SLNHP",
+      "SMBC",
+      "OII",
       "TCRT",
+      "CIVB",
       "FMC",
       "DMAAR",
-      "RRR",
-      "CIVB",
-      "SLNHP",
-      "OII",
-      "SON",
-      "GTY",
-      "FBDT",
-      "DRCT",
-      "INSW",
-      "WLTH",
+      "UNB",
       "UFCS",
+      "TCBX",
+      "RRR",
+      "WLTH",
+      "DRCT",
+      "SON",
+      "FBDT",
+      "INSW",
       "MDLN",
       "FLL",
       "NANO",
-      "BAC-PS",
-      "UNB",
-      "SMBC",
-      "TE"
+      "BAC-PS"
     ],
     "emerging_signals": [
       "TSLA",
+      "MPB",
       "TKNO",
+      "SMBC",
       "CACI",
+      "LBRT",
+      "GTY",
+      "OII",
       "RLI",
+      "EPRT",
+      "UNB",
+      "CIVB",
+      "SLNHP",
+      "UFCS",
+      "DRCT",
       "SLE",
+      "TCBX",
       "TCRT",
       "SON",
-      "MPB",
       "DMAAR",
-      "SLNHP",
       "INSW",
-      "CIVB",
       "FMC",
-      "LBRT",
       "OPENW",
-      "EPRT",
-      "OII",
-      "DRCT",
+      "WLTH",
       "MDLN",
       "FBDT",
       "WTTR",
       "ARR-PC",
       "LOB-PA",
-      "TCBX",
-      "QNME",
-      "GTY",
-      "RRR",
-      "WLTH",
-      "UFCS",
-      "FLL"
+      "QNME"
     ]
   },
   "briefing": {
     "new_emerging": [
       "TSLA",
+      "MPB",
       "TKNO",
+      "SMBC",
       "CACI",
-      "RLI",
-      "SLE",
-      "TCRT",
-      "SON",
-      "MPB"
+      "LBRT",
+      "GTY",
+      "OII"
     ],
     "accelerating": [
       {
@@ -99,7 +99,11 @@
       },
       {
         "ticker": "CACI",
-        "delta": 14.1
+        "delta": 14.4
+      },
+      {
+        "ticker": "GTY",
+        "delta": 12.1
       }
     ],
     "cooling": [
@@ -120,20 +124,8 @@
         "delta": -19.2
       },
       {
-        "ticker": "GTY",
-        "delta": -15.6
-      },
-      {
         "ticker": "QNME",
         "delta": -14.7
-      },
-      {
-        "ticker": "TE",
-        "delta": -13.0
-      },
-      {
-        "ticker": "TCBX",
-        "delta": -12.6
       }
     ],
     "major_catalysts": [
@@ -163,8 +155,13 @@
         "headline": "MID PENN BANCORP INC (0000879635) (Filer)"
       },
       {
-        "ticker": "CIVB",
+        "ticker": "SMBC",
         "category": "Government funding",
+        "headline": "SOUTHERN MISSOURI BANCORP, INC. (0000916907) (Filer)"
+      },
+      {
+        "ticker": "CIVB",
+        "category": "Regulatory / FDA",
         "headline": "CIVISTA BANCSHARES, INC. (0000944745) (Filer)"
       },
       {
@@ -198,7 +195,7 @@
       "sector": "Life Sciences Tools & Services",
       "company_count": 1,
       "discovery_intensity": 82.7,
-      "signal_intensity": 75.5,
+      "signal_intensity": 74.5,
       "tickers": [
         "TKNO"
       ]
@@ -206,28 +203,73 @@
     {
       "sector": "Professional Services",
       "company_count": 1,
-      "discovery_intensity": 81.6,
-      "signal_intensity": 68.5,
+      "discovery_intensity": 81.9,
+      "signal_intensity": 75.0,
       "tickers": [
         "CACI"
       ]
     },
     {
+      "sector": "Real Estate",
+      "company_count": 2,
+      "discovery_intensity": 74.8,
+      "signal_intensity": 70.2,
+      "tickers": [
+        "GTY",
+        "EPRT"
+      ]
+    },
+    {
+      "sector": "Banking",
+      "company_count": 5,
+      "discovery_intensity": 72.3,
+      "signal_intensity": 65.7,
+      "tickers": [
+        "MPB",
+        "SMBC",
+        "UNB",
+        "CIVB",
+        "TCBX"
+      ]
+    },
+    {
+      "sector": "Energy",
+      "company_count": 4,
+      "discovery_intensity": 67.1,
+      "signal_intensity": 61.4,
+      "tickers": [
+        "LBRT",
+        "OII",
+        "INSW",
+        "WTTR"
+      ]
+    },
+    {
       "sector": "Insurance",
       "company_count": 2,
-      "discovery_intensity": 63.8,
-      "signal_intensity": 63.2,
+      "discovery_intensity": 66.9,
+      "signal_intensity": 69.8,
       "tickers": [
         "RLI",
         "UFCS"
       ]
     },
     {
-      "sector": "Media",
+      "sector": "Technology",
       "company_count": 1,
-      "discovery_intensity": 61.3,
-      "signal_intensity": 73.5,
+      "discovery_intensity": 63.7,
+      "signal_intensity": 67.2,
       "tickers": [
+        "SLNHP"
+      ]
+    },
+    {
+      "sector": "Media",
+      "company_count": 2,
+      "discovery_intensity": 61.4,
+      "signal_intensity": 67.2,
+      "tickers": [
+        "DRCT",
         "SLE"
       ]
     },
@@ -257,69 +299,31 @@
       "tickers": [
         "DMAAR"
       ]
-    },
-    {
-      "sector": "Technology",
-      "company_count": 1,
-      "discovery_intensity": 58.3,
-      "signal_intensity": 63.6,
-      "tickers": [
-        "SLNHP"
-      ]
-    },
-    {
-      "sector": "Banking",
-      "company_count": 3,
-      "discovery_intensity": 55.2,
-      "signal_intensity": 61.3,
-      "tickers": [
-        "MPB",
-        "CIVB",
-        "TCBX"
-      ]
-    },
-    {
-      "sector": "Chemicals",
-      "company_count": 1,
-      "discovery_intensity": 54.9,
-      "signal_intensity": 71.5,
-      "tickers": [
-        "FMC"
-      ]
-    },
-    {
-      "sector": "Energy",
-      "company_count": 3,
-      "discovery_intensity": 54.2,
-      "signal_intensity": 58.2,
-      "tickers": [
-        "INSW",
-        "LBRT",
-        "WTTR"
-      ]
     }
   ],
   "themes": [
     {
       "theme": "AI infrastructure",
       "company_count": 6,
-      "intensity": 66.0,
+      "intensity": 71.4,
       "tickers": [
         "TSLA",
         "TKNO",
-        "TCRT",
-        "SLNHP",
         "LBRT",
+        "SLNHP",
+        "TCRT",
         "OPENW"
       ]
     },
     {
       "theme": "Cloud & software",
-      "company_count": 4,
-      "intensity": 61.8,
+      "company_count": 6,
+      "intensity": 66.5,
       "tickers": [
         "TSLA",
         "LBRT",
+        "SLNHP",
+        "DRCT",
         "OPENW",
         "FBDT"
       ]
@@ -337,7 +341,7 @@
     {
       "theme": "Defense & aerospace",
       "company_count": 2,
-      "intensity": 66.8,
+      "intensity": 67.0,
       "tickers": [
         "CACI",
         "FBDT"
@@ -375,7 +379,7 @@
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Accelerating leader",
       "article_count_24h": 31,
-      "latest_event_at": "2026-10-21T21:49:00+00:00",
+      "latest_event_at": "2026-10-22T05:22:16+00:00",
       "new_to_radar": false,
       "days_on_radar": 66,
       "change": {
@@ -415,11 +419,11 @@
         "maturity": "established"
       },
       "materiality": {
-        "estimated_event_value": 787000000.0,
-        "market_cap_ratio": 0.0005,
+        "estimated_event_value": 3500000000.0,
+        "market_cap_ratio": 0.0023,
         "score": 6,
         "label": "Limited relative size",
-        "basis": "Tesla's Q3 profit drops as it prepares for possible merger with Musk's other public company, SpaceX",
+        "basis": "Why Tesla Stock Is Putting AI Infrastructure Leaders On More Watchlists",
         "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
       },
       "fundamentals": {
@@ -475,6 +479,20 @@
           "evidence_type": "SEC filing",
           "fingerprint": "5e5e0679e1fd",
           "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "TSLA",
+          "company_name": "Tesla, Inc.",
+          "source": "Yahoo",
+          "title": "Tesla Cybercabs Could Reach Customers by End of 2026, but Elon Musk Says Vast Majority Will Be TSLA-Owned",
+          "summary": "View more earnings on TSLA Tesla Inc. (NASDAQ:TSLA) CEO Elon Musk said Wednesday that the vast majority of Cybercabs will be owned by the automaker and operated as part of a transport-as-a-service model, rather than sold outright to consumers. Lars Moravy Touts Cybercab’s End-of-Year Timeline During Tesla’s Q3 earnings call on Wednesday, analysts questioned when Tesla’s Cybercab would be available for customer purch…",
+          "url": "https://finnhub.io/api/news?id=a606b111386ac11eb4d1ef546fcdc4bbd29a68d5eecda90c4b0f07dfbee9cc66",
+          "published_at": "2026-10-22T04:34:55+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "84486abfef58",
+          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
@@ -565,25 +583,154 @@
         },
         {
           "date": "2026-10-22",
+          "discovery_score": 85.8,
+          "market_attention_score": 55.4,
+          "signal_score": 82.5
+        },
+        {
+          "date": "2026-10-22",
           "signal_score": 82.5,
           "discovery_score": 85.8
         }
       ]
     },
     {
+      "ticker": "MPB",
+      "company_name": "MID PENN BANCORP INC",
+      "signal_score": 69.0,
+      "market_attention_score": 34.1,
+      "discovery_score": 82.8,
+      "confidence_score": 79.8,
+      "primary_catalyst": "MID PENN BANCORP INC (0000879635) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "6 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-21T23:00:05+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 61,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 6
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.5,
+        "catalyst_strength": 20,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 32.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Mid Penn Bancorp Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1997-01-14",
+        "weburl": "https://www.midpennbank.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959045326.png",
+        "market_cap": 920935008.8482609,
+        "pe_ttm": 13.5449,
+        "ps_ttm": 2.10616,
+        "pb_annual": 0.878,
+        "revenue_growth_ttm_yoy": 43.16993,
+        "eps_growth_ttm_yoy": 18.38,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 24.10626,
+        "current_ratio": null,
+        "debt_equity": 0.0292,
+        "beta": 0.5212365
+      },
+      "profile": {
+        "name": "Mid Penn Bancorp Inc",
+        "description": "Mid Penn Bank offers a range of personal and business services to fit your banking and investment needs. Learn more about banking, loan rates & other services.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.midpennbank.com",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "MPB",
+          "company_name": "MID PENN BANCORP INC",
+          "source": "SEC EDGAR",
+          "title": "MID PENN BANCORP INC (0000879635) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0000879635-26-000058 Size: 984 KB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/879635/000087963526000058/0000879635-26-000058-index.htm",
+          "published_at": "2026-10-21T17:12:53-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "4eb4d7eb33f2",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 58.8,
+          "market_attention_score": 30.6,
+          "signal_score": 67.5
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 69.0,
+          "discovery_score": 82.8
+        }
+      ]
+    },
+    {
       "ticker": "TKNO",
       "company_name": "Alpha Teknova, Inc.",
-      "signal_score": 75.5,
-      "market_attention_score": 39.6,
+      "signal_score": 74.5,
+      "market_attention_score": 39.5,
       "discovery_score": 82.7,
       "confidence_score": 93.8,
       "primary_catalyst": "Alpha Teknova, Inc. (0001850902) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "14 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "15 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Accelerating leader",
-      "article_count_24h": 7,
-      "latest_event_at": "2026-10-21T16:41:01-04:00",
+      "attention_status": "Breaking out",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-21T22:30:00+00:00",
       "new_to_radar": false,
       "days_on_radar": 46,
       "change": {
@@ -593,17 +740,17 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 14
+        "unique_story_clusters": 15
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 7.0,
         "catalyst_strength": 15,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.6,
-        "weighted_coverage_24h": 1.6,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
@@ -613,8 +760,8 @@
         "catalyst_strength": 11.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.6,
-        "weighted_coverage_24h": 1.6,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -683,57 +830,186 @@
       "history": [
         {
           "date": "2026-10-22",
-          "signal_score": 75.5,
+          "discovery_score": 82.7,
+          "market_attention_score": 39.6,
+          "signal_score": 75.5
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 74.5,
           "discovery_score": 82.7
+        }
+      ]
+    },
+    {
+      "ticker": "SMBC",
+      "company_name": "SOUTHERN MISSOURI BANCORP, INC.",
+      "signal_score": 64.5,
+      "market_attention_score": 31.2,
+      "discovery_score": 82.0,
+      "confidence_score": 79.8,
+      "primary_catalyst": "SOUTHERN MISSOURI BANCORP, INC. (0000916907) (Filer)",
+      "catalyst_category": "Government funding",
+      "why_it_matters": "5 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-21T22:50:04+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 58,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 5
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 7.0,
+        "catalyst_strength": 15,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 11.2,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Southern Missouri Bancorp Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1957-05-16",
+        "weburl": "https://investors.bankwithsouthern.com/corporate-profile/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959079646.png",
+        "market_cap": 776000000.0,
+        "pe_ttm": 10.8569,
+        "ps_ttm": 3.15944,
+        "pb_annual": 1.4213,
+        "revenue_growth_ttm_yoy": 62.20967,
+        "eps_growth_ttm_yoy": 24.2,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 26.71158,
+        "current_ratio": null,
+        "debt_equity": 0.0606,
+        "beta": 0.80864173
+      },
+      "profile": {
+        "name": "Southern Missouri Bancorp Inc",
+        "description": "Southern Missouri Bancorp Inc is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://investors.bankwithsouthern.com/corporate-profile/default.aspx",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "SMBC",
+          "company_name": "SOUTHERN MISSOURI BANCORP, INC.",
+          "source": "SEC EDGAR",
+          "title": "SOUTHERN MISSOURI BANCORP, INC. (0000916907) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001104659-26-117871 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/916907/000110465926117871/0001104659-26-117871-index.htm",
+          "published_at": "2026-10-21T16:55:15-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "3e6020bde756",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 64.5,
+          "discovery_score": 82.0
         }
       ]
     },
     {
       "ticker": "CACI",
       "company_name": "CACI INTERNATIONAL INC /DE/",
-      "signal_score": 68.5,
-      "market_attention_score": 31.9,
-      "discovery_score": 81.6,
-      "confidence_score": 87.8,
+      "signal_score": 75.0,
+      "market_attention_score": 35.8,
+      "discovery_score": 81.9,
+      "confidence_score": 93.8,
       "primary_catalyst": "CACI INTERNATIONAL INC /DE/ (0000016058) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "6 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "9 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Breaking out",
-      "article_count_24h": 5,
-      "latest_event_at": "2026-10-21T20:50:02+00:00",
+      "attention_status": "Accelerating leader",
+      "article_count_24h": 8,
+      "latest_event_at": "2026-10-21T21:44:03+00:00",
       "new_to_radar": false,
       "days_on_radar": 65,
       "change": {
-        "signal_delta": 7.3,
-        "discovery_delta": 14.1
+        "signal_delta": 13.8,
+        "discovery_delta": 14.4
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 6
+        "independent_sources": 4,
+        "unique_story_clusters": 9
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 7.0,
+        "coverage_acceleration": 8.5,
         "catalyst_strength": 14,
-        "corroboration": 10.0,
+        "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.7,
+        "weighted_coverage_24h": 1.7,
+        "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
         "attention_lift": 35.0,
         "novelty": 20.0,
-        "source_breadth": 3.6,
+        "source_breadth": 3.9,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.7,
+        "weighted_coverage_24h": 1.7,
+        "weighted_source_breadth": 1.3
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -806,25 +1082,31 @@
         },
         {
           "date": "2026-10-22",
-          "signal_score": 68.5,
-          "discovery_score": 81.6
+          "discovery_score": 81.6,
+          "market_attention_score": 31.9,
+          "signal_score": 68.5
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 75.0,
+          "discovery_score": 81.9
         }
       ]
     },
     {
-      "ticker": "RLI",
-      "company_name": "RLI CORP",
-      "signal_score": 73.0,
-      "market_attention_score": 40.5,
-      "discovery_score": 79.2,
-      "confidence_score": 93.8,
-      "primary_catalyst": "RLI CORP (0000084246) (Filer)",
+      "ticker": "LBRT",
+      "company_name": "Liberty Energy Inc.",
+      "signal_score": 69.5,
+      "market_attention_score": 38.0,
+      "discovery_score": 81.6,
+      "confidence_score": 87.8,
+      "primary_catalyst": "Liberty Energy Inc. (0001694028) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "17 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "13 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Breaking out",
-      "article_count_24h": 4,
-      "latest_event_at": "2026-10-21T17:10:03-04:00",
+      "article_count_24h": 7,
+      "latest_event_at": "2026-10-21T22:50:03+00:00",
       "new_to_radar": false,
       "days_on_radar": 52,
       "change": {
@@ -833,30 +1115,30 @@
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 5,
-        "unique_story_clusters": 17
+        "independent_sources": 3,
+        "unique_story_clusters": 13
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 6.5,
+        "coverage_acceleration": 8.0,
         "catalyst_strength": 14,
-        "corroboration": 15.0,
+        "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.3,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.4
+        "coverage_ratio_vs_baseline": 1.6,
+        "weighted_coverage_24h": 1.6,
+        "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 32.0,
+        "attention_lift": 35.0,
         "novelty": 20.0,
-        "source_breadth": 4.2,
+        "source_breadth": 3.6,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.3,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.4
+        "coverage_ratio_vs_baseline": 1.6,
+        "weighted_coverage_24h": 1.6,
+        "weighted_source_breadth": 1.2
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -872,113 +1154,320 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "RLI Corp",
-        "industry": "Insurance",
+        "name": "Liberty Energy Inc",
+        "industry": "Energy",
         "country": "US",
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1980-03-17",
-        "weburl": "https://www.rlicorp.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RLI.png",
-        "market_cap": 5864292832.216553,
-        "pe_ttm": 13.2335,
-        "ps_ttm": 2.9404,
-        "pb_annual": 3.3044,
-        "revenue_growth_ttm_yoy": 8.69,
-        "eps_growth_ttm_yoy": 36.09,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": 22.22,
-        "current_ratio": 0.0045,
-        "debt_equity": 0.0562,
-        "beta": 0.2784776
+        "ipo_date": "2018-01-12",
+        "weburl": "https://www.libertyenergy.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950544118986.png",
+        "market_cap": 2723664812.2822685,
+        "pe_ttm": 22.5744,
+        "ps_ttm": 0.6587,
+        "pb_annual": 1.4382,
+        "revenue_growth_ttm_yoy": 2.29,
+        "eps_growth_ttm_yoy": -43.41,
+        "gross_margin_ttm": 18.53,
+        "net_margin_ttm": 2.92,
+        "current_ratio": 1.2188,
+        "debt_equity": 0.2665,
+        "beta": 0.7000632
       },
       "profile": {
-        "name": "RLI Corp",
-        "description": "RLI provides specialty property & casualty insurance and surety bonds that help protect businesses, individuals and families from life's uncertainties.",
-        "industry": "Insurance",
+        "name": "Liberty Energy Inc",
+        "description": "Next-Generation Technology for the Development of Energy Resources",
+        "industry": "Energy",
         "country": "US",
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.rlicorp.com/",
-        "products_markets": [],
+        "website": "https://www.libertyenergy.com/",
+        "products_markets": [
+          "Energy"
+        ],
         "source": "Company website"
       },
-      "themes": [],
+      "themes": [
+        "AI infrastructure",
+        "Cloud & software"
+      ],
       "stories": [
         {
-          "ticker": "RLI",
-          "company_name": "RLI CORP",
+          "ticker": "LBRT",
+          "company_name": "Liberty Energy Inc.",
           "source": "SEC EDGAR",
-          "title": "RLI CORP (0000084246) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0000084246-26-000020 Size: 288 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/84246/000008424626000020/0000084246-26-000020-index.htm",
-          "published_at": "2026-10-21T17:10:03-04:00",
+          "title": "Liberty Energy Inc. (0001694028) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001694028-26-000055 Size: 630 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1694028/000169402826000055/0001694028-26-000055-index.htm",
+          "published_at": "2026-10-21T17:30:37-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "27be27d28982",
+          "fingerprint": "b1e0c3691582",
           "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "RLI",
-          "company_name": "RLI CORP",
-          "source": "Yahoo",
-          "title": "5 Must-Read Analyst Questions From RLI’s Q3 Earnings Call",
-          "summary": "RLI’s third quarter was marked by disciplined underwriting and strong investment income, resulting in a positive market reaction. Management pointed to an 86% combined ratio, 2% premium growth, and a 13% rise in net investment income as key contributors. CEO Craig Kliethermes emphasized, “Consistency may be boring to some. At RLI, we think boring is beautiful,” highlighting the company’s focus on risk selection and…",
-          "url": "https://finnhub.io/api/news?id=29dfe825f110a43a329a8bafbf882f4fbff63b1d6d641228bf31491b429518d7",
-          "published_at": "2026-10-21T10:38:39+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "72df0d9ae793",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "RLI",
-          "company_name": "RLI CORP",
-          "source": "Benzinga",
-          "title": "Wells Fargo Maintains Underweight on RLI, Raises Price Target to $53",
-          "summary": "Wells Fargo analyst Hristian Getsov maintains RLI (NYSE:RLI) with a Underweight and raises the price target from $51 to $53.",
-          "url": "https://finnhub.io/api/news?id=f01cda46ddaab80831b8700f37f9e83a71fb1b8b97267ef1f87f026b0f39e9cf",
-          "published_at": "2026-10-21T09:40:19+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "4e02b47a7a7b",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "RLI",
-          "company_name": "RLI CORP",
-          "source": "Yahoo",
-          "title": "RLI (RLI) Stock Price Gains Ground After Q3 Margin Discipline",
-          "summary": "RLI stock edged 2.5% higher to about $62.70 as investors digested its Q3 2026 report. At first glance that move might look modest. For a specialty insurer built on underwriting discipline, the real story sits in the profitability math, not the intraday quote. The headline this quarter is margins. RLI posted an 86.2% combined ratio and $58.8 million of underwriting income, figures that speak directly to how effective…",
-          "url": "https://finnhub.io/api/news?id=ce4c45daa550ef9b451d053a8e7b8a75c5c572ba9d0e41ca17e6ae2c189c78af",
-          "published_at": "2026-10-21T01:12:29+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "25dd0907a87d",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "RLI",
-          "company_name": "RLI CORP",
-          "source": "Yahoo",
-          "title": "RLI Q3 Earnings Call Highlights",
-          "summary": "RLI (NYSE:RLI) reported third-quarter operating earnings of $0.86 per share, up from $0.82 a year earlier, as underwriting profitability and higher investment income offset competitive conditions in several specialty insurance markets. Chief Executive Officer Craig Kliethermes said the company prod",
-          "url": "https://finnhub.io/api/news?id=170ec1d46e92539c36e02141674a2fafa33feff5998177be4118d1e04fab1b9e",
-          "published_at": "2026-10-20T17:03:26+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "10f323a6ec48",
-          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
           "date": "2026-10-22",
-          "signal_score": 73.0,
-          "discovery_score": 79.2
+          "discovery_score": 54.6,
+          "market_attention_score": 31.1,
+          "signal_score": 66.5
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 69.5,
+          "discovery_score": 81.6
+        }
+      ]
+    },
+    {
+      "ticker": "GTY",
+      "company_name": "GETTY REALTY CORP /MD/",
+      "signal_score": 68.0,
+      "market_attention_score": 32.2,
+      "discovery_score": 78.6,
+      "confidence_score": 87.8,
+      "primary_catalyst": "GETTY REALTY CORP /MD/ (0001052752) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "7 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-21T20:50:05+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 64,
+      "change": {
+        "signal_delta": 14.8,
+        "discovery_delta": 12.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 7
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.5,
+        "catalyst_strength": 14,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 32.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Getty Realty Corp",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://gettyrealty.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959040726.png",
+        "market_cap": 1701290000.0,
+        "pe_ttm": 17.2108,
+        "ps_ttm": 7.3564,
+        "pb_annual": 1.472,
+        "revenue_growth_ttm_yoy": 10.93,
+        "eps_growth_ttm_yoy": 40.9,
+        "gross_margin_ttm": 101.01,
+        "net_margin_ttm": 42.74,
+        "current_ratio": 0.9558,
+        "debt_equity": 0.9313,
+        "beta": 0.7314777
+      },
+      "profile": {
+        "name": "Getty Realty Corp",
+        "description": "Getty Realty Corp. (NYSE: GTY) is a publicly traded, net lease REIT specializing in convenience, automotive and other single tenant retail real estate.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://gettyrealty.com/",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "GTY",
+          "company_name": "GETTY REALTY CORP /MD/",
+          "source": "SEC EDGAR",
+          "title": "GETTY REALTY CORP /MD/ (0001052752) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001193125-26-427946 Size: 23 MB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1052752/000119312526427946/0001193125-26-427946-index.htm",
+          "published_at": "2026-10-21T16:50:28-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "acda624c4d72",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-07",
+          "discovery_score": 66.5,
+          "market_attention_score": 26.2,
+          "signal_score": 53.2
+        },
+        {
+          "date": "2026-10-22",
+          "discovery_score": 50.9,
+          "market_attention_score": 26.3,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 68.0,
+          "discovery_score": 78.6
+        }
+      ]
+    },
+    {
+      "ticker": "OII",
+      "company_name": "OCEANEERING INTERNATIONAL INC",
+      "signal_score": 63.0,
+      "market_attention_score": 30.4,
+      "discovery_score": 78.3,
+      "confidence_score": 79.8,
+      "primary_catalyst": "OCEANEERING INTERNATIONAL INC (0000073756) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "5 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-21T21:25:39+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 62,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 5
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.5,
+        "catalyst_strength": 14,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 32.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Oceaneering International Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1991-12-17",
+        "weburl": "https://www.oceaneering.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/OII.png",
+        "market_cap": 4388260000.0,
+        "pe_ttm": 12.7261,
+        "ps_ttm": 1.5511,
+        "pb_annual": 2.2395,
+        "revenue_growth_ttm_yoy": 3.84,
+        "eps_growth_ttm_yoy": 75.21,
+        "gross_margin_ttm": 19.82,
+        "net_margin_ttm": 12.19,
+        "current_ratio": 1.9855,
+        "debt_equity": 0.4553,
+        "beta": 1.2794429
+      },
+      "profile": {
+        "name": "Oceaneering International Inc",
+        "description": "Oceaneering International Inc is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.oceaneering.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "OII",
+          "company_name": "OCEANEERING INTERNATIONAL INC",
+          "source": "SEC EDGAR",
+          "title": "OCEANEERING INTERNATIONAL INC (0000073756) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0000073756-26-000152 Size: 917 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000152/0000073756-26-000152-index.htm",
+          "published_at": "2026-10-21T17:01:52-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "730f52af277f",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 54.3,
+          "market_attention_score": 26.9,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 63.0,
+          "discovery_score": 78.3
         }
       ]
     },
@@ -1104,8 +1593,312 @@
         },
         {
           "date": "2026-10-22",
+          "discovery_score": 61.3,
+          "market_attention_score": 32.3,
+          "signal_score": 73.5
+        },
+        {
+          "date": "2026-10-22",
           "signal_score": 73.5,
           "discovery_score": 61.3
+        }
+      ]
+    },
+    {
+      "ticker": "RLI",
+      "company_name": "RLI CORP",
+      "signal_score": 72.5,
+      "market_attention_score": 40.1,
+      "discovery_score": 71.2,
+      "confidence_score": 93.8,
+      "primary_catalyst": "RLI CORP (0000084246) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "17 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-21T17:10:03-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 52,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 5,
+        "unique_story_clusters": 17
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.0,
+        "catalyst_strength": 14,
+        "corroboration": 15.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.4
+      },
+      "discovery_metrics": {
+        "attention_lift": 24.0,
+        "novelty": 20.0,
+        "source_breadth": 4.2,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.4
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "RLI Corp",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.rlicorp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RLI.png",
+        "market_cap": 5864292832.216553,
+        "pe_ttm": 13.2335,
+        "ps_ttm": 2.9404,
+        "pb_annual": 3.3044,
+        "revenue_growth_ttm_yoy": 8.69,
+        "eps_growth_ttm_yoy": 36.09,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 22.22,
+        "current_ratio": 0.0045,
+        "debt_equity": 0.0562,
+        "beta": 0.2784776
+      },
+      "profile": {
+        "name": "RLI Corp",
+        "description": "RLI provides specialty property & casualty insurance and surety bonds that help protect businesses, individuals and families from life's uncertainties.",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.rlicorp.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "RLI",
+          "company_name": "RLI CORP",
+          "source": "SEC EDGAR",
+          "title": "RLI CORP (0000084246) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0000084246-26-000020 Size: 288 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/84246/000008424626000020/0000084246-26-000020-index.htm",
+          "published_at": "2026-10-21T17:10:03-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "27be27d28982",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "RLI",
+          "company_name": "RLI CORP",
+          "source": "Yahoo",
+          "title": "5 Must-Read Analyst Questions From RLI’s Q3 Earnings Call",
+          "summary": "RLI’s third quarter was marked by disciplined underwriting and strong investment income, resulting in a positive market reaction. Management pointed to an 86% combined ratio, 2% premium growth, and a 13% rise in net investment income as key contributors. CEO Craig Kliethermes emphasized, “Consistency may be boring to some. At RLI, we think boring is beautiful,” highlighting the company’s focus on risk selection and…",
+          "url": "https://finnhub.io/api/news?id=29dfe825f110a43a329a8bafbf882f4fbff63b1d6d641228bf31491b429518d7",
+          "published_at": "2026-10-21T10:38:39+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "72df0d9ae793",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "RLI",
+          "company_name": "RLI CORP",
+          "source": "Benzinga",
+          "title": "Wells Fargo Maintains Underweight on RLI, Raises Price Target to $53",
+          "summary": "Wells Fargo analyst Hristian Getsov maintains RLI (NYSE:RLI) with a Underweight and raises the price target from $51 to $53.",
+          "url": "https://finnhub.io/api/news?id=f01cda46ddaab80831b8700f37f9e83a71fb1b8b97267ef1f87f026b0f39e9cf",
+          "published_at": "2026-10-21T09:40:19+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "4e02b47a7a7b",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "RLI",
+          "company_name": "RLI CORP",
+          "source": "Yahoo",
+          "title": "RLI (RLI) Stock Price Gains Ground After Q3 Margin Discipline",
+          "summary": "RLI stock edged 2.5% higher to about $62.70 as investors digested its Q3 2026 report. At first glance that move might look modest. For a specialty insurer built on underwriting discipline, the real story sits in the profitability math, not the intraday quote. The headline this quarter is margins. RLI posted an 86.2% combined ratio and $58.8 million of underwriting income, figures that speak directly to how effective…",
+          "url": "https://finnhub.io/api/news?id=ce4c45daa550ef9b451d053a8e7b8a75c5c572ba9d0e41ca17e6ae2c189c78af",
+          "published_at": "2026-10-21T01:12:29+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "25dd0907a87d",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "RLI",
+          "company_name": "RLI CORP",
+          "source": "Yahoo",
+          "title": "RLI Q3 Earnings Call Highlights",
+          "summary": "RLI (NYSE:RLI) reported third-quarter operating earnings of $0.86 per share, up from $0.82 a year earlier, as underwriting profitability and higher investment income offset competitive conditions in several specialty insurance markets. Chief Executive Officer Craig Kliethermes said the company prod",
+          "url": "https://finnhub.io/api/news?id=170ec1d46e92539c36e02141674a2fafa33feff5998177be4118d1e04fab1b9e",
+          "published_at": "2026-10-20T17:03:26+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "10f323a6ec48",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 79.2,
+          "market_attention_score": 40.5,
+          "signal_score": 73.0
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 72.5,
+          "discovery_score": 71.2
+        }
+      ]
+    },
+    {
+      "ticker": "EPRT",
+      "company_name": "ESSENTIAL PROPERTIES REALTY TRUST, INC.",
+      "signal_score": 72.5,
+      "market_attention_score": 33.0,
+      "discovery_score": 70.9,
+      "confidence_score": 93.8,
+      "primary_catalyst": "ESSENTIAL PROPERTIES REALTY TRUST, INC. (0001728951) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "8 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-21T20:50:03+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 45,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 4,
+        "unique_story_clusters": 8
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.0,
+        "catalyst_strength": 14,
+        "corroboration": 15.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.3
+      },
+      "discovery_metrics": {
+        "attention_lift": 24.0,
+        "novelty": 20.0,
+        "source_breadth": 3.9,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.3
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Essential Properties Realty Trust Inc",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2018-06-21",
+        "weburl": "https://essentialproperties.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950645259576.png",
+        "market_cap": 5427243540.610248,
+        "pe_ttm": 20.1869,
+        "ps_ttm": 8.7824,
+        "pb_annual": 1.4235,
+        "revenue_growth_ttm_yoy": 22.3,
+        "eps_growth_ttm_yoy": 8.52,
+        "gross_margin_ttm": 98.96,
+        "net_margin_ttm": 43.51,
+        "current_ratio": 2.3604,
+        "debt_equity": 0.598,
+        "beta": 0.83615
+      },
+      "profile": {
+        "name": "Essential Properties Realty Trust Inc",
+        "description": "EPRT acquires, owns and manages primarily single-tenant properties leased to middle-market companies operating service-based and experience-based businesses",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://essentialproperties.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "EPRT",
+          "company_name": "ESSENTIAL PROPERTIES REALTY TRUST, INC.",
+          "source": "SEC EDGAR",
+          "title": "ESSENTIAL PROPERTIES REALTY TRUST, INC. (0001728951) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001728951-26-000069 Size: 9 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1728951/000172895126000069/0001728951-26-000069-index.htm",
+          "published_at": "2026-10-21T16:44:13-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "d5042a819eee",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 54.6,
+          "market_attention_score": 30.3,
+          "signal_score": 66.5
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 72.5,
+          "discovery_score": 70.9
         }
       ]
     },
@@ -1246,6 +2039,12 @@
           "discovery_score": 68.8,
           "market_attention_score": 34.1,
           "signal_score": 79.4
+        },
+        {
+          "date": "2026-10-22",
+          "discovery_score": 59.9,
+          "market_attention_score": 30.3,
+          "signal_score": 72.5
         },
         {
           "date": "2026-10-22",
@@ -1412,27 +2211,33 @@
         },
         {
           "date": "2026-10-22",
+          "discovery_score": 54.9,
+          "market_attention_score": 29.9,
+          "signal_score": 71.5
+        },
+        {
+          "date": "2026-10-22",
           "signal_score": 71.5,
           "discovery_score": 54.9
         }
       ]
     },
     {
-      "ticker": "MPB",
-      "company_name": "MID PENN BANCORP INC",
-      "signal_score": 67.5,
-      "market_attention_score": 30.6,
-      "discovery_score": 58.8,
+      "ticker": "UNB",
+      "company_name": "UNION BANKSHARES INC",
+      "signal_score": 62.5,
+      "market_attention_score": 28.4,
+      "discovery_score": 70.3,
       "confidence_score": 71.8,
-      "primary_catalyst": "MID PENN BANCORP INC (0000879635) (Filer)",
-      "catalyst_category": "M&A",
+      "primary_catalyst": "UNION BANKSHARES INC (0000706863) (Filer)",
+      "catalyst_category": "Earnings / guidance",
       "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T17:12:53-04:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-21T20:34:11+00:00",
       "new_to_radar": false,
-      "days_on_radar": 61,
+      "days_on_radar": 30,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
@@ -1444,24 +2249,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 20,
+        "coverage_acceleration": 6.0,
+        "catalyst_strength": 14,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
+        "attention_lift": 24.0,
         "novelty": 20.0,
         "source_breadth": 3.3,
-        "catalyst_strength": 15.0,
+        "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -1478,50 +2283,50 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Mid Penn Bancorp Inc",
+        "name": "Union Bankshares Inc",
         "industry": "Banking",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1997-01-14",
-        "weburl": "https://www.midpennbank.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959045326.png",
-        "market_cap": 920935008.8482609,
-        "pe_ttm": 13.5449,
-        "ps_ttm": 2.10616,
-        "pb_annual": 0.878,
-        "revenue_growth_ttm_yoy": 43.16993,
-        "eps_growth_ttm_yoy": 18.38,
+        "ipo_date": "2000-07-13",
+        "weburl": "https://unb.q4ir.com/overview/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959009886.png",
+        "market_cap": 113660000.0,
+        "pe_ttm": 9.445,
+        "ps_ttm": 2.61854,
+        "pb_annual": 1.3447,
+        "revenue_growth_ttm_yoy": 29.87553,
+        "eps_growth_ttm_yoy": 28.53,
         "gross_margin_ttm": null,
-        "net_margin_ttm": 24.10626,
+        "net_margin_ttm": 23.96249,
         "current_ratio": null,
-        "debt_equity": 0.0292,
-        "beta": 0.5212365
+        "debt_equity": 0.2017,
+        "beta": 0.28267714
       },
       "profile": {
-        "name": "Mid Penn Bancorp Inc",
-        "description": "Mid Penn Bank offers a range of personal and business services to fit your banking and investment needs. Learn more about banking, loan rates & other services.",
+        "name": "Union Bankshares Inc",
+        "description": "Union Bankshares Inc is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
         "industry": "Banking",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.midpennbank.com",
+        "website": "https://unb.q4ir.com/overview/default.aspx",
         "products_markets": [
           "Financial services"
         ],
-        "source": "Company website"
+        "source": "Structured company profile"
       },
       "themes": [],
       "stories": [
         {
-          "ticker": "MPB",
-          "company_name": "MID PENN BANCORP INC",
+          "ticker": "UNB",
+          "company_name": "UNION BANKSHARES INC",
           "source": "SEC EDGAR",
-          "title": "MID PENN BANCORP INC (0000879635) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0000879635-26-000058 Size: 984 KB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/879635/000087963526000058/0000879635-26-000058-index.htm",
-          "published_at": "2026-10-21T17:12:53-04:00",
+          "title": "UNION BANKSHARES INC (0000706863) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0000706863-26-000087 Size: 245 KB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/706863/000070686326000087/0000706863-26-000087-index.htm",
+          "published_at": "2026-10-21T17:06:55-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "4eb4d7eb33f2",
+          "fingerprint": "e074355f26e6",
           "display_relevance": 1.0,
           "display_relevant": true
         }
@@ -1529,60 +2334,66 @@
       "history": [
         {
           "date": "2026-10-22",
-          "signal_score": 67.5,
-          "discovery_score": 58.8
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 62.5,
+          "discovery_score": 70.3
         }
       ]
     },
     {
-      "ticker": "LBRT",
-      "company_name": "Liberty Energy Inc.",
-      "signal_score": 66.5,
-      "market_attention_score": 31.1,
-      "discovery_score": 54.6,
-      "confidence_score": 87.8,
-      "primary_catalyst": "Liberty Energy Inc. (0001694028) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "7 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "ticker": "SLNHP",
+      "company_name": "Soluna Holdings, Inc",
+      "signal_score": 67.2,
+      "market_attention_score": 31.6,
+      "discovery_score": 63.7,
+      "confidence_score": 79.8,
+      "primary_catalyst": "Soluna Holdings, Inc (0000064463) (Filer)",
+      "catalyst_category": "Partnership",
+      "why_it_matters": "7 unique credible information items from 2 independent sources. Coverage is 3.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T17:30:37-04:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 6,
+      "latest_event_at": "2026-10-21T22:42:47+00:00",
       "new_to_radar": false,
-      "days_on_radar": 52,
+      "days_on_radar": 60,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
+        "independent_sources": 2,
         "unique_story_clusters": 7
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 14,
-        "corroboration": 10.0,
+        "coverage_acceleration": 12.7,
+        "catalyst_strength": 12,
+        "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 3.0,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.6,
-        "catalyst_strength": 10.5,
+        "attention_lift": 19.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 9.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 3.0,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.0,
+        "avg_items_24h": 0.07,
         "days_available": 30,
         "maturity": "established"
       },
@@ -1595,35 +2406,33 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Liberty Energy Inc",
-        "industry": "Energy",
+        "name": "Soluna Holdings Inc",
+        "industry": "Technology",
         "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2018-01-12",
-        "weburl": "https://www.libertyenergy.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950544118986.png",
-        "market_cap": 2723664812.2822685,
-        "pe_ttm": 22.5744,
-        "ps_ttm": 0.6587,
-        "pb_annual": 1.4382,
-        "revenue_growth_ttm_yoy": 2.29,
-        "eps_growth_ttm_yoy": -43.41,
-        "gross_margin_ttm": 18.53,
-        "net_margin_ttm": 2.92,
-        "current_ratio": 1.2188,
-        "debt_equity": 0.2665,
-        "beta": 0.7000632
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1981-04-14",
+        "weburl": "https://www.solunacomputing.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SLNH.png",
+        "market_cap": 138325839.58076257,
+        "pe_ttm": null,
+        "ps_ttm": 3.2875,
+        "pb_annual": 2.1537,
+        "revenue_growth_ttm_yoy": 50.86,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 16.1,
+        "net_margin_ttm": -182.17,
+        "current_ratio": 1.8729,
+        "debt_equity": 0.5418,
+        "beta": 4.9611335
       },
       "profile": {
-        "name": "Liberty Energy Inc",
-        "description": "Next-Generation Technology for the Development of Energy Resources",
-        "industry": "Energy",
+        "name": "Soluna Holdings Inc",
+        "description": "Soluna - Google",
+        "industry": "Technology",
         "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.libertyenergy.com/",
-        "products_markets": [
-          "Energy"
-        ],
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.solunacomputing.com/",
+        "products_markets": [],
         "source": "Company website"
       },
       "themes": [
@@ -1632,16 +2441,16 @@
       ],
       "stories": [
         {
-          "ticker": "LBRT",
-          "company_name": "Liberty Energy Inc.",
+          "ticker": "SLNHP",
+          "company_name": "Soluna Holdings, Inc",
           "source": "SEC EDGAR",
-          "title": "Liberty Energy Inc. (0001694028) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001694028-26-000055 Size: 630 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1694028/000169402826000055/0001694028-26-000055-index.htm",
-          "published_at": "2026-10-21T17:30:37-04:00",
+          "title": "Soluna Holdings, Inc (0000064463) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001493152-26-047930 Size: 882 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/64463/000149315226047930/0001493152-26-047930-index.htm",
+          "published_at": "2026-10-21T17:07:10-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "b1e0c3691582",
+          "fingerprint": "40fc14155518",
           "display_relevance": 1.0,
           "display_relevant": true
         }
@@ -1649,8 +2458,264 @@
       "history": [
         {
           "date": "2026-10-22",
-          "signal_score": 66.5,
-          "discovery_score": 54.6
+          "discovery_score": 58.3,
+          "market_attention_score": 27.1,
+          "signal_score": 63.6
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 67.2,
+          "discovery_score": 63.7
+        }
+      ]
+    },
+    {
+      "ticker": "UFCS",
+      "company_name": "UNITED FIRE GROUP INC",
+      "signal_score": 67.0,
+      "market_attention_score": 28.4,
+      "discovery_score": 62.6,
+      "confidence_score": 79.8,
+      "primary_catalyst": "UNITED FIRE GROUP INC (0000101199) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-21T20:15:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 64,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 14,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 16.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "United Fire Group Inc",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1980-03-18",
+        "weburl": "https://www.ufginsurance.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950372699336.png",
+        "market_cap": 1473180000.0,
+        "pe_ttm": 10.3525,
+        "ps_ttm": 0.9907,
+        "pb_annual": 0.9854,
+        "revenue_growth_ttm_yoy": 11.36,
+        "eps_growth_ttm_yoy": 52.92,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 9.57,
+        "current_ratio": 0.1188,
+        "debt_equity": 0.1553,
+        "beta": 0.5697161
+      },
+      "profile": {
+        "name": "United Fire Group Inc",
+        "description": "Founded in 1946, UFG Insurance is a financially strong and nationally recognized, multi-billion-dollar insurance company.",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.ufginsurance.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "UFCS",
+          "company_name": "UNITED FIRE GROUP INC",
+          "source": "SEC EDGAR",
+          "title": "UNITED FIRE GROUP INC (0000101199) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0000101199-26-000060 Size: 194 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/101199/000010119926000060/0000101199-26-000060-index.htm",
+          "published_at": "2026-10-21T16:50:31-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "227f5414fcf2",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 48.3,
+          "market_attention_score": 22.9,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 67.0,
+          "discovery_score": 62.6
+        }
+      ]
+    },
+    {
+      "ticker": "TCBX",
+      "company_name": "Third Coast Bancshares, Inc.",
+      "signal_score": 66.6,
+      "market_attention_score": 28.4,
+      "discovery_score": 61.1,
+      "confidence_score": 71.8,
+      "primary_catalyst": "Third Coast Bancshares, Inc. (0001781730) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.4× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-21T21:00:01+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 62,
+      "change": {
+        "signal_delta": -5.0,
+        "discovery_delta": -3.2
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 10.1,
+        "catalyst_strength": 14,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 15.2,
+        "novelty": 19.7,
+        "source_breadth": 3.3,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Third Coast Bancshares Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2021-11-09",
+        "weburl": "https://www.thirdcoast.bank/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950731391616.png",
+        "market_cap": 716496806.0899978,
+        "pe_ttm": 9.642,
+        "ps_ttm": 1.64522,
+        "pb_annual": 0.9946,
+        "revenue_growth_ttm_yoy": 85.87798,
+        "eps_growth_ttm_yoy": 22.54,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 21.97529,
+        "current_ratio": null,
+        "debt_equity": 0.2238,
+        "beta": 0.67166084
+      },
+      "profile": {
+        "name": "Third Coast Bancshares Inc",
+        "description": "Partner with a Texas-based bank that values your entrepreneurial spirit. Third Coast Bank offers personalized commercial lending and community-focused personal banking.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.thirdcoast.bank/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "TCBX",
+          "company_name": "Third Coast Bancshares, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Third Coast Bancshares, Inc. (0001781730) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001193125-26-427892 Size: 15 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1781730/000119312526427892/0001193125-26-427892-index.htm",
+          "published_at": "2026-10-21T16:30:18-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "c1aba872b1e7",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-07",
+          "discovery_score": 64.3,
+          "market_attention_score": 30.3,
+          "signal_score": 71.6
+        },
+        {
+          "date": "2026-10-22",
+          "discovery_score": 51.7,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 66.6,
+          "discovery_score": 61.1
         }
       ]
     },
@@ -1768,57 +2833,63 @@
       "history": [
         {
           "date": "2026-10-22",
+          "discovery_score": 54.6,
+          "market_attention_score": 32.5,
+          "signal_score": 66.5
+        },
+        {
+          "date": "2026-10-22",
           "signal_score": 66.5,
           "discovery_score": 54.6
         }
       ]
     },
     {
-      "ticker": "EPRT",
-      "company_name": "ESSENTIAL PROPERTIES REALTY TRUST, INC.",
-      "signal_score": 66.5,
-      "market_attention_score": 30.3,
-      "discovery_score": 54.6,
-      "confidence_score": 87.8,
-      "primary_catalyst": "ESSENTIAL PROPERTIES REALTY TRUST, INC. (0001728951) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "6 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "ticker": "CIVB",
+      "company_name": "CIVISTA BANCSHARES, INC.",
+      "signal_score": 66.0,
+      "market_attention_score": 30.1,
+      "discovery_score": 65.3,
+      "confidence_score": 71.8,
+      "primary_catalyst": "CIVISTA BANCSHARES, INC. (0000944745) (Filer)",
+      "catalyst_category": "Regulatory / FDA",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T16:44:13-04:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-21T21:00:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 45,
+      "days_on_radar": 60,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 6
+        "independent_sources": 2,
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 14,
-        "corroboration": 10.0,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 18,
+        "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
-        "source_breadth": 3.6,
-        "catalyst_strength": 10.5,
+        "source_breadth": 3.3,
+        "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -1834,48 +2905,51 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Essential Properties Realty Trust Inc",
-        "industry": "Real Estate",
+        "name": "Civista Bancshares Inc",
+        "industry": "Banking",
         "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2018-06-21",
-        "weburl": "https://essentialproperties.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950645259576.png",
-        "market_cap": 5427243540.610248,
-        "pe_ttm": 20.1869,
-        "ps_ttm": 8.7824,
-        "pb_annual": 1.4235,
-        "revenue_growth_ttm_yoy": 22.3,
-        "eps_growth_ttm_yoy": 8.52,
-        "gross_margin_ttm": 98.96,
-        "net_margin_ttm": 43.51,
-        "current_ratio": 2.3604,
-        "debt_equity": 0.598,
-        "beta": 0.83615
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1993-10-27",
+        "weburl": "https://civb.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959134296.png",
+        "market_cap": 555954558.3240432,
+        "pe_ttm": 10.2285,
+        "ps_ttm": 1.45439,
+        "pb_annual": 0.7896,
+        "revenue_growth_ttm_yoy": 56.16175,
+        "eps_growth_ttm_yoy": 4.67,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 27.31545,
+        "current_ratio": null,
+        "debt_equity": 0.1993,
+        "beta": 0.64889383
       },
       "profile": {
-        "name": "Essential Properties Realty Trust Inc",
-        "description": "EPRT acquires, owns and manages primarily single-tenant properties leased to middle-market companies operating service-based and experience-based businesses",
-        "industry": "Real Estate",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://essentialproperties.com/",
-        "products_markets": [],
-        "source": "Company website"
+        "name": "Civista Bancshares Inc",
+        "description": "Civista Bancshares, Inc. is Civista Bank's financial holding company providing community banking services. The company is headquartered in Sandusky, Ohio.",
+        "industry": "BANKS - REGIONAL",
+        "sector": "FINANCIAL SERVICES",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Alpha Vantage Company Overview"
       },
       "themes": [],
       "stories": [
         {
-          "ticker": "EPRT",
-          "company_name": "ESSENTIAL PROPERTIES REALTY TRUST, INC.",
+          "ticker": "CIVB",
+          "company_name": "CIVISTA BANCSHARES, INC.",
           "source": "SEC EDGAR",
-          "title": "ESSENTIAL PROPERTIES REALTY TRUST, INC. (0001728951) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001728951-26-000069 Size: 9 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1728951/000172895126000069/0001728951-26-000069-index.htm",
-          "published_at": "2026-10-21T16:44:13-04:00",
+          "title": "CIVISTA BANCSHARES, INC. (0000944745) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001193125-26-427956 Size: 154 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/944745/000119312526427956/0001193125-26-427956-index.htm",
+          "published_at": "2026-10-21T17:00:15-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "d5042a819eee",
+          "fingerprint": "9b61703c0cf2",
           "display_relevance": 1.0,
           "display_relevant": true
         }
@@ -1883,8 +2957,14 @@
       "history": [
         {
           "date": "2026-10-22",
-          "signal_score": 66.5,
-          "discovery_score": 54.6
+          "discovery_score": 55.0,
+          "market_attention_score": 27.4,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 66.0,
+          "discovery_score": 65.3
         }
       ]
     },
@@ -1996,6 +3076,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 50.4,
+          "market_attention_score": 27.7,
+          "signal_score": 65.5
+        },
         {
           "date": "2026-10-22",
           "signal_score": 65.5,
@@ -2113,243 +3199,14 @@
       "history": [
         {
           "date": "2026-10-22",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-22",
           "signal_score": 65.0,
           "discovery_score": 58.5
-        }
-      ]
-    },
-    {
-      "ticker": "SLNHP",
-      "company_name": "Soluna Holdings, Inc",
-      "signal_score": 63.6,
-      "market_attention_score": 27.1,
-      "discovery_score": 58.3,
-      "confidence_score": 71.8,
-      "primary_catalyst": "Soluna Holdings, Inc (0000064463) (Filer)",
-      "catalyst_category": "Partnership",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-21T17:07:10-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 60,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 12,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 9.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Soluna Holdings Inc",
-        "industry": "Technology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1981-04-14",
-        "weburl": "https://www.solunacomputing.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SLNH.png",
-        "market_cap": 138325839.58076257,
-        "pe_ttm": null,
-        "ps_ttm": 3.2875,
-        "pb_annual": 2.1537,
-        "revenue_growth_ttm_yoy": 50.86,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 16.1,
-        "net_margin_ttm": -182.17,
-        "current_ratio": 1.8729,
-        "debt_equity": 0.5418,
-        "beta": 4.9611335
-      },
-      "profile": {
-        "name": "Soluna Holdings Inc",
-        "description": "Soluna - Google",
-        "industry": "Technology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.solunacomputing.com/",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [
-        "AI infrastructure"
-      ],
-      "stories": [
-        {
-          "ticker": "SLNHP",
-          "company_name": "Soluna Holdings, Inc",
-          "source": "SEC EDGAR",
-          "title": "Soluna Holdings, Inc (0000064463) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001493152-26-047930 Size: 882 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/64463/000149315226047930/0001493152-26-047930-index.htm",
-          "published_at": "2026-10-21T17:07:10-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "40fc14155518",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-22",
-          "signal_score": 63.6,
-          "discovery_score": 58.3
-        }
-      ]
-    },
-    {
-      "ticker": "CIVB",
-      "company_name": "CIVISTA BANCSHARES, INC.",
-      "signal_score": 62.5,
-      "market_attention_score": 27.4,
-      "discovery_score": 55.0,
-      "confidence_score": 67.8,
-      "primary_catalyst": "CIVISTA BANCSHARES, INC. (0000944745) (Filer)",
-      "catalyst_category": "Government funding",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T17:00:15-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 60,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 15,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 11.2,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Civista Bancshares Inc",
-        "industry": "Banking",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1993-10-27",
-        "weburl": "https://civb.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959134296.png",
-        "market_cap": 555954558.3240432,
-        "pe_ttm": 10.2285,
-        "ps_ttm": 1.45439,
-        "pb_annual": 0.7896,
-        "revenue_growth_ttm_yoy": 56.16175,
-        "eps_growth_ttm_yoy": 4.67,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": 27.31545,
-        "current_ratio": null,
-        "debt_equity": 0.1993,
-        "beta": 0.64889383
-      },
-      "profile": {
-        "name": "Civista Bancshares Inc",
-        "description": "Civista Bancshares, Inc. is Civista Bank's financial holding company providing community banking services. The company is headquartered in Sandusky, Ohio.",
-        "industry": "BANKS - REGIONAL",
-        "sector": "FINANCIAL SERVICES",
-        "country": "USA",
-        "exchange": "NASDAQ",
-        "currency": "USD",
-        "products_markets": [
-          "Financial services"
-        ],
-        "source": "Alpha Vantage Company Overview"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "CIVB",
-          "company_name": "CIVISTA BANCSHARES, INC.",
-          "source": "SEC EDGAR",
-          "title": "CIVISTA BANCSHARES, INC. (0000944745) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001193125-26-427956 Size: 154 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/944745/000119312526427956/0001193125-26-427956-index.htm",
-          "published_at": "2026-10-21T17:00:15-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "9b61703c0cf2",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-22",
-          "signal_score": 62.5,
-          "discovery_score": 55.0
         }
       ]
     },
@@ -2469,27 +3326,33 @@
         },
         {
           "date": "2026-10-22",
+          "discovery_score": 58.9,
+          "market_attention_score": 26.7,
+          "signal_score": 62.0
+        },
+        {
+          "date": "2026-10-22",
           "signal_score": 62.0,
           "discovery_score": 58.9
         }
       ]
     },
     {
-      "ticker": "OII",
-      "company_name": "OCEANEERING INTERNATIONAL INC",
-      "signal_score": 61.5,
-      "market_attention_score": 26.9,
-      "discovery_score": 54.3,
+      "ticker": "DRCT",
+      "company_name": "Direct Digital Holdings, Inc.",
+      "signal_score": 61.0,
+      "market_attention_score": 26.8,
+      "discovery_score": 61.5,
       "confidence_score": 67.8,
-      "primary_catalyst": "OCEANEERING INTERNATIONAL INC (0000073756) (Filer)",
-      "catalyst_category": "Earnings / guidance",
+      "primary_catalyst": "Direct Digital Holdings, Inc. (0001880613) (Filer)",
+      "catalyst_category": "IPO / listing",
       "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T17:01:52-04:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-21T23:01:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 62,
+      "days_on_radar": 63,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
@@ -2498,6 +3361,143 @@
         "primary_source_count": 1,
         "independent_sources": 2,
         "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 13,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 16.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 9.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Direct Digital Holdings Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2022-02-11",
+        "weburl": "https://directdigitalholdings.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950814780066.png",
+        "market_cap": 200000.0,
+        "pe_ttm": null,
+        "ps_ttm": 0.0065,
+        "pb_annual": 391.0569,
+        "revenue_growth_ttm_yoy": -15.24,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 30.38,
+        "net_margin_ttm": -74.38,
+        "current_ratio": 0.1795,
+        "debt_equity": 55.3517,
+        "beta": 5.336855
+      },
+      "profile": {
+        "name": "Direct Digital Holdings Inc",
+        "description": "Direct Digital Holdings is a fast growing, solutions provider in the digital marketing & advertising. We serve direct advertisers, agencies, DSPs, & pubs.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://directdigitalholdings.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "DRCT",
+          "company_name": "Direct Digital Holdings, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Direct Digital Holdings, Inc. (0001880613) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001880613-26-000117 Size: 424 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1880613/000188061326000117/0001880613-26-000117-index.htm",
+          "published_at": "2026-10-21T17:16:05-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "318739003429",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "DRCT",
+          "company_name": "Direct Digital Holdings, Inc.",
+          "source": "Yahoo",
+          "title": "Direct Digital Holdings Announces Intention to Voluntarily Delist from Nasdaq and Deregister Its Class A Common Stock with the SEC",
+          "summary": "Direct Digital Holdings, Inc. (OTC: DRCT) (\"Direct Digital Holdings,\" \"DDH,\" or the \"Company\"), a leading advertising and marketing technology platform operating through its companies Colossus Media, LLC (\"Colossus SSP\") and Orange 142, LLC (\"Orange 142\"), today announced its intention to voluntarily delist its Class A common stock from The Nasdaq Stock Market LLC (\"Nasdaq\") and to deregister its Class A common stoc…",
+          "url": "https://finnhub.io/api/news?id=0ded37996bfad59798905d2b05c4da17cfe13cdbc563746763f72f0249d54235",
+          "published_at": "2026-10-21T23:01:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "2847048d321c",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-10-22",
+          "signal_score": 61.0,
+          "discovery_score": 61.5
+        }
+      ]
+    },
+    {
+      "ticker": "WLTH",
+      "company_name": "WEALTHFRONT CORP",
+      "signal_score": 61.5,
+      "market_attention_score": 27.6,
+      "discovery_score": 54.3,
+      "confidence_score": 71.8,
+      "primary_catalyst": "WEALTHFRONT CORP (0001524566) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-21T17:10:53-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 63,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
@@ -2534,26 +3534,62 @@
         "basis": "",
         "caution": "No reliably extractable event value found."
       },
-      "fundamentals": {},
-      "profile": {},
+      "fundamentals": {
+        "name": "Wealthfront Corp",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2025-12-12",
+        "weburl": "https://www.wealthfront.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950006121646.png",
+        "market_cap": 1412960000.0,
+        "pe_ttm": null,
+        "ps_ttm": 3.8572,
+        "pb_annual": 2.154,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 89.41,
+        "net_margin_ttm": -14.87,
+        "current_ratio": 1.6093,
+        "debt_equity": 0,
+        "beta": 0.07192273
+      },
+      "profile": {
+        "name": "Wealthfront Corp",
+        "description": "Wealthfront makes building wealth easy. Earn 3.30% APY on your uninvested cash and invest in expert-built, automated portfolios of stocks, bonds, and ETFs.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.wealthfront.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      },
       "themes": [],
       "stories": [
         {
-          "ticker": "OII",
-          "company_name": "OCEANEERING INTERNATIONAL INC",
+          "ticker": "WLTH",
+          "company_name": "WEALTHFRONT CORP",
           "source": "SEC EDGAR",
-          "title": "OCEANEERING INTERNATIONAL INC (0000073756) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0000073756-26-000152 Size: 917 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/73756/000007375626000152/0000073756-26-000152-index.htm",
-          "published_at": "2026-10-21T17:01:52-04:00",
+          "title": "WEALTHFRONT CORP (0001524566) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001628280-26-066744 Size: 148 KB Item 8.01: Other Events",
+          "url": "https://www.sec.gov/Archives/edgar/data/1524566/000162828026066744/0001628280-26-066744-index.htm",
+          "published_at": "2026-10-21T17:10:53-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "730f52af277f",
+          "fingerprint": "66ddbea23eae",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 48.3,
+          "market_attention_score": 22.9,
+          "signal_score": 53.5
+        },
         {
           "date": "2026-10-22",
           "signal_score": 61.5,
@@ -2562,50 +3598,50 @@
       ]
     },
     {
-      "ticker": "GTY",
-      "company_name": "GETTY REALTY CORP /MD/",
-      "signal_score": 61.5,
-      "market_attention_score": 26.3,
-      "discovery_score": 50.9,
-      "confidence_score": 83.8,
-      "primary_catalyst": "GETTY REALTY CORP /MD/ (0001052752) (Filer)",
-      "catalyst_category": "Capital return",
-      "why_it_matters": "4 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "ticker": "INSW",
+      "company_name": "International Seaways, Inc.",
+      "signal_score": 59.0,
+      "market_attention_score": 24.4,
+      "discovery_score": 56.6,
+      "confidence_score": 79.8,
+      "primary_catalyst": "International Seaways, Inc. (0001679049) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T16:50:28-04:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-21T16:44:08-04:00",
       "new_to_radar": false,
-      "days_on_radar": 64,
+      "days_on_radar": 66,
       "change": {
-        "signal_delta": 8.3,
-        "discovery_delta": -15.6
+        "signal_delta": null,
+        "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 4
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 9,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 6,
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
         "source_breadth": 3.6,
-        "catalyst_strength": 6.8,
+        "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -2622,54 +3658,65 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Getty Realty Corp",
-        "industry": "Real Estate",
+        "name": "International Seaways Inc",
+        "industry": "Energy",
         "country": "US",
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1980-03-17",
-        "weburl": "https://gettyrealty.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959040726.png",
-        "market_cap": 2014670692.0,
-        "pe_ttm": 20.2264,
-        "ps_ttm": 8.6454,
-        "pb_annual": 1.472,
-        "revenue_growth_ttm_yoy": 10.93,
-        "eps_growth_ttm_yoy": 40.9,
-        "gross_margin_ttm": 101.01,
-        "net_margin_ttm": 42.74,
-        "current_ratio": 0.9558,
-        "debt_equity": 0.9313,
-        "beta": 0.7220064
+        "ipo_date": "2016-11-16",
+        "weburl": "https://www.intlseas.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950001694036.png",
+        "market_cap": 5602486490.865505,
+        "pe_ttm": 7.1988,
+        "ps_ttm": 4.4618,
+        "pb_annual": 1.187,
+        "revenue_growth_ttm_yoy": 57.36,
+        "eps_growth_ttm_yoy": 225.76,
+        "gross_margin_ttm": 73.06,
+        "net_margin_ttm": 61.98,
+        "current_ratio": 3.7116,
+        "debt_equity": 0.2807,
+        "beta": -0.069109194
       },
-      "profile": {},
+      "profile": {
+        "name": "International Seaways Inc",
+        "description": "International Seaways Inc is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.intlseas.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      },
       "themes": [],
       "stories": [
         {
-          "ticker": "GTY",
-          "company_name": "GETTY REALTY CORP /MD/",
+          "ticker": "INSW",
+          "company_name": "International Seaways, Inc.",
           "source": "SEC EDGAR",
-          "title": "GETTY REALTY CORP /MD/ (0001052752) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001193125-26-427946 Size: 23 MB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1052752/000119312526427946/0001193125-26-427946-index.htm",
-          "published_at": "2026-10-21T16:50:28-04:00",
+          "title": "International Seaways, Inc. (0001679049) (Filer)",
+          "summary": "Filed: 2026-10-21 AccNo: 0001104659-26-117865 Size: 244 KB Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926117865/0001104659-26-117865-index.htm",
+          "published_at": "2026-10-21T16:44:08-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "acda624c4d72",
+          "fingerprint": "95dcb5f2c683",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-09-07",
-          "discovery_score": 66.5,
-          "market_attention_score": 26.2,
-          "signal_score": 53.2
+          "date": "2026-10-22",
+          "discovery_score": 56.3,
+          "market_attention_score": 23.3,
+          "signal_score": 54.0
         },
         {
           "date": "2026-10-22",
-          "signal_score": 61.5,
-          "discovery_score": 50.9
+          "signal_score": 59.0,
+          "discovery_score": 56.6
         }
       ]
     },
@@ -2764,95 +3811,14 @@
         },
         {
           "date": "2026-10-22",
-          "signal_score": 58.5,
-          "discovery_score": 52.0
-        }
-      ]
-    },
-    {
-      "ticker": "DRCT",
-      "company_name": "Direct Digital Holdings, Inc.",
-      "signal_score": 58.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 53.2,
-      "confidence_score": 62,
-      "primary_catalyst": "Direct Digital Holdings, Inc. (0001880613) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T17:16:05-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 63,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 13,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "DRCT",
-          "company_name": "Direct Digital Holdings, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Direct Digital Holdings, Inc. (0001880613) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001880613-26-000117 Size: 424 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1880613/000188061326000117/0001880613-26-000117-index.htm",
-          "published_at": "2026-10-21T17:16:05-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "318739003429",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 52.0,
+          "market_attention_score": 25.4,
+          "signal_score": 58.5
+        },
         {
           "date": "2026-10-22",
-          "signal_score": 58.0,
-          "discovery_score": 53.2
+          "signal_score": 58.5,
+          "discovery_score": 52.0
         }
       ]
     },
@@ -2938,248 +3904,14 @@
       "history": [
         {
           "date": "2026-10-22",
-          "signal_score": 56.5,
-          "discovery_score": 52.1
-        }
-      ]
-    },
-    {
-      "ticker": "INSW",
-      "company_name": "International Seaways, Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 23.3,
-      "discovery_score": 56.3,
-      "confidence_score": 67.8,
-      "primary_catalyst": "International Seaways, Inc. (0001679049) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-21T16:44:08-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 66,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.5,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 16.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "International Seaways Inc",
-        "industry": "Energy",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2016-11-16",
-        "weburl": "https://www.intlseas.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950001694036.png",
-        "market_cap": 5602486490.865505,
-        "pe_ttm": 7.1988,
-        "ps_ttm": 4.4618,
-        "pb_annual": 1.187,
-        "revenue_growth_ttm_yoy": 57.36,
-        "eps_growth_ttm_yoy": 225.76,
-        "gross_margin_ttm": 73.06,
-        "net_margin_ttm": 61.98,
-        "current_ratio": 3.7116,
-        "debt_equity": 0.2807,
-        "beta": -0.069109194
-      },
-      "profile": {
-        "name": "International Seaways Inc",
-        "description": "International Seaways Inc is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
-        "industry": "Energy",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.intlseas.com/",
-        "products_markets": [
-          "Energy"
-        ],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "INSW",
-          "company_name": "International Seaways, Inc.",
-          "source": "SEC EDGAR",
-          "title": "International Seaways, Inc. (0001679049) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001104659-26-117865 Size: 244 KB Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926117865/0001104659-26-117865-index.htm",
-          "published_at": "2026-10-21T16:44:08-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "95dcb5f2c683",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-22",
-          "signal_score": 54.0,
-          "discovery_score": 56.3
-        }
-      ]
-    },
-    {
-      "ticker": "TCBX",
-      "company_name": "Third Coast Bancshares, Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.7,
-      "confidence_score": 62,
-      "primary_catalyst": "Third Coast Bancshares, Inc. (0001781730) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T16:30:18-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 62,
-      "change": {
-        "signal_delta": -17.6,
-        "discovery_delta": -12.6
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.7,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Third Coast Bancshares Inc",
-        "industry": "Banking",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2021-11-09",
-        "weburl": "https://www.thirdcoast.bank/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950731391616.png",
-        "market_cap": 716496806.0899978,
-        "pe_ttm": 9.642,
-        "ps_ttm": 1.64522,
-        "pb_annual": 0.9946,
-        "revenue_growth_ttm_yoy": 85.87798,
-        "eps_growth_ttm_yoy": 22.54,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": 21.97529,
-        "current_ratio": null,
-        "debt_equity": 0.2238,
-        "beta": 0.67166084
-      },
-      "profile": {
-        "name": "Third Coast Bancshares Inc",
-        "description": "Partner with a Texas-based bank that values your entrepreneurial spirit. Third Coast Bank offers personalized commercial lending and community-focused personal banking.",
-        "industry": "Banking",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.thirdcoast.bank/",
-        "products_markets": [
-          "Financial services"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "TCBX",
-          "company_name": "Third Coast Bancshares, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Third Coast Bancshares, Inc. (0001781730) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001193125-26-427892 Size: 15 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1781730/000119312526427892/0001193125-26-427892-index.htm",
-          "published_at": "2026-10-21T16:30:18-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "c1aba872b1e7",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-07",
-          "discovery_score": 64.3,
-          "market_attention_score": 30.3,
-          "signal_score": 71.6
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
         },
         {
           "date": "2026-10-22",
-          "signal_score": 54.0,
-          "discovery_score": 51.7
+          "signal_score": 56.5,
+          "discovery_score": 52.1
         }
       ]
     },
@@ -3296,6 +4028,12 @@
           "discovery_score": 66.0,
           "market_attention_score": 34.2,
           "signal_score": 76.5
+        },
+        {
+          "date": "2026-10-22",
+          "discovery_score": 51.3,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
         },
         {
           "date": "2026-10-22",
@@ -3422,6 +4160,12 @@
         },
         {
           "date": "2026-10-22",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-22",
           "signal_score": 54.0,
           "discovery_score": 51.8
         }
@@ -3507,6 +4251,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
         {
           "date": "2026-10-22",
           "signal_score": 54.0,
@@ -3596,240 +4346,14 @@
       "history": [
         {
           "date": "2026-10-22",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-22",
           "signal_score": 54.0,
           "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "WLTH",
-      "company_name": "WEALTHFRONT CORP",
-      "signal_score": 53.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 48.3,
-      "confidence_score": 67.8,
-      "primary_catalyst": "WEALTHFRONT CORP (0001524566) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T17:10:53-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 63,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Wealthfront Corp",
-        "industry": "Financial Services",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2025-12-12",
-        "weburl": "https://www.wealthfront.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950006121646.png",
-        "market_cap": 1412960000.0,
-        "pe_ttm": null,
-        "ps_ttm": 3.8572,
-        "pb_annual": 2.154,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 89.41,
-        "net_margin_ttm": -14.87,
-        "current_ratio": 1.6093,
-        "debt_equity": 0,
-        "beta": 0.07192273
-      },
-      "profile": {
-        "name": "Wealthfront Corp",
-        "description": "Wealthfront makes building wealth easy. Earn 3.30% APY on your uninvested cash and invest in expert-built, automated portfolios of stocks, bonds, and ETFs.",
-        "industry": "Financial Services",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.wealthfront.com/",
-        "products_markets": [
-          "Financial services"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "WLTH",
-          "company_name": "WEALTHFRONT CORP",
-          "source": "SEC EDGAR",
-          "title": "WEALTHFRONT CORP (0001524566) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001628280-26-066744 Size: 148 KB Item 8.01: Other Events",
-          "url": "https://www.sec.gov/Archives/edgar/data/1524566/000162828026066744/0001628280-26-066744-index.htm",
-          "published_at": "2026-10-21T17:10:53-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "66ddbea23eae",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-22",
-          "signal_score": 53.5,
-          "discovery_score": 48.3
-        }
-      ]
-    },
-    {
-      "ticker": "UFCS",
-      "company_name": "UNITED FIRE GROUP INC",
-      "signal_score": 53.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 48.3,
-      "confidence_score": 67.8,
-      "primary_catalyst": "UNITED FIRE GROUP INC (0000101199) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T16:50:31-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 64,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "United Fire Group Inc",
-        "industry": "Insurance",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1980-03-18",
-        "weburl": "https://www.ufginsurance.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950372699336.png",
-        "market_cap": 1362902367.290032,
-        "pe_ttm": 9.7516,
-        "ps_ttm": 0.9332,
-        "pb_annual": 0.9854,
-        "revenue_growth_ttm_yoy": 11.36,
-        "eps_growth_ttm_yoy": 52.92,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": 9.57,
-        "current_ratio": 0.1188,
-        "debt_equity": 0.1553,
-        "beta": 0.47729236
-      },
-      "profile": {
-        "name": "United Fire Group Inc",
-        "description": "Founded in 1946, UFG Insurance is a financially strong and nationally recognized, multi-billion-dollar insurance company.",
-        "industry": "Insurance",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.ufginsurance.com/",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "UFCS",
-          "company_name": "UNITED FIRE GROUP INC",
-          "source": "SEC EDGAR",
-          "title": "UNITED FIRE GROUP INC (0000101199) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0000101199-26-000060 Size: 194 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/101199/000010119926000060/0000101199-26-000060-index.htm",
-          "published_at": "2026-10-21T16:50:31-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "227f5414fcf2",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-22",
-          "signal_score": 53.5,
-          "discovery_score": 48.3
         }
       ]
     },
@@ -3913,6 +4437,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
         {
           "date": "2026-10-22",
           "signal_score": 51.0,
@@ -4002,6 +4532,12 @@
       "history": [
         {
           "date": "2026-10-22",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-10-22",
           "signal_score": 51.0,
           "discovery_score": 48.0
         }
@@ -4089,300 +4625,9 @@
       "history": [
         {
           "date": "2026-10-22",
-          "signal_score": 51.0,
-          "discovery_score": 48.0
-        }
-      ]
-    },
-    {
-      "ticker": "UNB",
-      "company_name": "UNION BANKSHARES INC",
-      "signal_score": 51.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 48.0,
-      "confidence_score": 62,
-      "primary_catalyst": "UNION BANKSHARES INC (0000706863) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T17:06:55-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 30,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "UNB",
-          "company_name": "UNION BANKSHARES INC",
-          "source": "SEC EDGAR",
-          "title": "UNION BANKSHARES INC (0000706863) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0000706863-26-000087 Size: 245 KB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/706863/000070686326000087/0000706863-26-000087-index.htm",
-          "published_at": "2026-10-21T17:06:55-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "e074355f26e6",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-22",
-          "signal_score": 51.0,
-          "discovery_score": 48.0
-        }
-      ]
-    },
-    {
-      "ticker": "SMBC",
-      "company_name": "SOUTHERN MISSOURI BANCORP, INC.",
-      "signal_score": 51.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 48.0,
-      "confidence_score": 62,
-      "primary_catalyst": "SOUTHERN MISSOURI BANCORP, INC. (0000916907) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T16:55:15-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 58,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "SMBC",
-          "company_name": "SOUTHERN MISSOURI BANCORP, INC.",
-          "source": "SEC EDGAR",
-          "title": "SOUTHERN MISSOURI BANCORP, INC. (0000916907) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001104659-26-117871 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/916907/000110465926117871/0001104659-26-117871-index.htm",
-          "published_at": "2026-10-21T16:55:15-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "3e6020bde756",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-22",
-          "signal_score": 51.0,
-          "discovery_score": 48.0
-        }
-      ]
-    },
-    {
-      "ticker": "TE",
-      "company_name": "T1 Energy Inc.",
-      "signal_score": 51.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 48.0,
-      "confidence_score": 62,
-      "primary_catalyst": "T1 Energy Inc. (0001992243) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-21T16:46:13-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 64,
-      "change": {
-        "signal_delta": -17.5,
-        "discovery_delta": -13.0
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "T1 Energy Inc",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2020-01-10",
-        "weburl": "https://t1energy.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950867693306.png",
-        "market_cap": 1485889075.0665324,
-        "pe_ttm": null,
-        "ps_ttm": 1.521,
-        "pb_annual": 5.0822,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 7.6,
-        "net_margin_ttm": -42.3,
-        "current_ratio": 1.4312,
-        "debt_equity": 1.2121,
-        "beta": 2.3950553
-      },
-      "profile": {
-        "name": "T1 Energy Inc",
-        "description": "T1 Energy builds domestic solar and battery supply chains through advanced American manufacturing. Scalable, reliable, and low-cost energy for America.",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://t1energy.com/",
-        "products_markets": [
-          "Energy"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "TE",
-          "company_name": "T1 Energy Inc.",
-          "source": "SEC EDGAR",
-          "title": "T1 Energy Inc. (0001992243) (Filer)",
-          "summary": "Filed: 2026-10-21 AccNo: 0001213900-26-111378 Size: 190 KB Item 3.02: Unregistered Sales of Equity Securities",
-          "url": "https://www.sec.gov/Archives/edgar/data/1992243/000121390026111378/0001213900-26-111378-index.htm",
-          "published_at": "2026-10-21T16:46:13-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "85aed9ea016d",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-28",
-          "discovery_score": 61.0,
-          "market_attention_score": 30.4,
-          "signal_score": 68.5
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
         },
         {
           "date": "2026-10-22",

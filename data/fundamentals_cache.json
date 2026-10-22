@@ -4716,7 +4716,7 @@
       }
     },
     "GTY": {
-      "cached_at": "2026-09-08T06:03:36.072109+00:00",
+      "cached_at": "2026-10-22T06:12:21.688466+00:00",
       "data": {
         "name": "Getty Realty Corp",
         "industry": "Real Estate",
@@ -4725,9 +4725,9 @@
         "ipo_date": "1980-03-17",
         "weburl": "https://gettyrealty.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959040726.png",
-        "market_cap": 2014670692.0,
-        "pe_ttm": 20.2264,
-        "ps_ttm": 8.6454,
+        "market_cap": 1701290000.0,
+        "pe_ttm": 17.2108,
+        "ps_ttm": 7.3564,
         "pb_annual": 1.472,
         "revenue_growth_ttm_yoy": 10.93,
         "eps_growth_ttm_yoy": 40.9,
@@ -4735,7 +4735,7 @@
         "net_margin_ttm": 42.74,
         "current_ratio": 0.9558,
         "debt_equity": 0.9313,
-        "beta": 0.7220064
+        "beta": 0.7314777
       }
     },
     "FCX": {
@@ -5015,7 +5015,7 @@
       }
     },
     "UFCS": {
-      "cached_at": "2026-08-22T02:31:01.141880+00:00",
+      "cached_at": "2026-10-22T06:12:21.688466+00:00",
       "data": {
         "name": "United Fire Group Inc",
         "industry": "Insurance",
@@ -5024,9 +5024,9 @@
         "ipo_date": "1980-03-18",
         "weburl": "https://www.ufginsurance.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950372699336.png",
-        "market_cap": 1362902367.290032,
-        "pe_ttm": 9.7516,
-        "ps_ttm": 0.9332,
+        "market_cap": 1473180000.0,
+        "pe_ttm": 10.3525,
+        "ps_ttm": 0.9907,
         "pb_annual": 0.9854,
         "revenue_growth_ttm_yoy": 11.36,
         "eps_growth_ttm_yoy": 52.92,
@@ -5034,7 +5034,7 @@
         "net_margin_ttm": 9.57,
         "current_ratio": 0.1188,
         "debt_equity": 0.1553,
-        "beta": 0.47729236
+        "beta": 0.5697161
       }
     },
     "AAOI": {
@@ -34705,6 +34705,98 @@
         "current_ratio": 1.8729,
         "debt_equity": 0.5418,
         "beta": 4.9611335
+      }
+    },
+    "SMBC": {
+      "cached_at": "2026-10-22T06:12:21.688466+00:00",
+      "data": {
+        "name": "Southern Missouri Bancorp Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1957-05-16",
+        "weburl": "https://investors.bankwithsouthern.com/corporate-profile/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959079646.png",
+        "market_cap": 776000000.0,
+        "pe_ttm": 10.8569,
+        "ps_ttm": 3.15944,
+        "pb_annual": 1.4213,
+        "revenue_growth_ttm_yoy": 62.20967,
+        "eps_growth_ttm_yoy": 24.2,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 26.71158,
+        "current_ratio": null,
+        "debt_equity": 0.0606,
+        "beta": 0.80864173
+      }
+    },
+    "OII": {
+      "cached_at": "2026-10-22T06:12:21.688466+00:00",
+      "data": {
+        "name": "Oceaneering International Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1991-12-17",
+        "weburl": "https://www.oceaneering.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/OII.png",
+        "market_cap": 4388260000.0,
+        "pe_ttm": 12.7261,
+        "ps_ttm": 1.5511,
+        "pb_annual": 2.2395,
+        "revenue_growth_ttm_yoy": 3.84,
+        "eps_growth_ttm_yoy": 75.21,
+        "gross_margin_ttm": 19.82,
+        "net_margin_ttm": 12.19,
+        "current_ratio": 1.9855,
+        "debt_equity": 0.4553,
+        "beta": 1.2794429
+      }
+    },
+    "UNB": {
+      "cached_at": "2026-10-22T06:12:21.688466+00:00",
+      "data": {
+        "name": "Union Bankshares Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2000-07-13",
+        "weburl": "https://unb.q4ir.com/overview/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959009886.png",
+        "market_cap": 113660000.0,
+        "pe_ttm": 9.445,
+        "ps_ttm": 2.61854,
+        "pb_annual": 1.3447,
+        "revenue_growth_ttm_yoy": 29.87553,
+        "eps_growth_ttm_yoy": 28.53,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 23.96249,
+        "current_ratio": null,
+        "debt_equity": 0.2017,
+        "beta": 0.28267714
+      }
+    },
+    "DRCT": {
+      "cached_at": "2026-10-22T06:12:21.688466+00:00",
+      "data": {
+        "name": "Direct Digital Holdings Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2022-02-11",
+        "weburl": "https://directdigitalholdings.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950814780066.png",
+        "market_cap": 200000.0,
+        "pe_ttm": null,
+        "ps_ttm": 0.0065,
+        "pb_annual": 391.0569,
+        "revenue_growth_ttm_yoy": -15.24,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 30.38,
+        "net_margin_ttm": -74.38,
+        "current_ratio": 0.1795,
+        "debt_equity": 55.3517,
+        "beta": 5.336855
       }
     }
   }
