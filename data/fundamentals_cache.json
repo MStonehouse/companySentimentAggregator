@@ -19068,7 +19068,7 @@
       }
     },
     "ORC": {
-      "cached_at": "2026-10-14T23:58:59.965244+00:00",
+      "cached_at": "2026-10-23T06:07:26.608367+00:00",
       "data": {
         "name": "Orchid Island Capital Inc",
         "industry": "Real Estate",
@@ -19077,9 +19077,9 @@
         "ipo_date": "2013-02-13",
         "weburl": "https://www.orchidislandcapital.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950347622606.png",
-        "market_cap": 984075469.3142295,
-        "pe_ttm": 4.0817,
-        "ps_ttm": 1.5359,
+        "market_cap": 945661546.570842,
+        "pe_ttm": 3.8406,
+        "ps_ttm": 1.4452,
         "pb_annual": 0.805,
         "revenue_growth_ttm_yoy": 127.45,
         "eps_growth_ttm_yoy": 661.62,
@@ -19087,7 +19087,7 @@
         "net_margin_ttm": 37.63,
         "current_ratio": 0.0703,
         "debt_equity": 7.3731,
-        "beta": 1.6365544
+        "beta": 1.6393648
       }
     },
     "PMTS": {
@@ -35211,6 +35211,98 @@
         "current_ratio": 2.6361,
         "debt_equity": 0.1122,
         "beta": 1.4661415
+      }
+    },
+    "MWA": {
+      "cached_at": "2026-10-23T06:07:26.608367+00:00",
+      "data": {
+        "name": "Mueller Water Products Inc",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2006-05-26",
+        "weburl": "https://www.muellerwaterproducts.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MWA.png",
+        "market_cap": 3476918799.059469,
+        "pe_ttm": 15.0083,
+        "ps_ttm": 2.2543,
+        "pb_annual": 4.0639,
+        "revenue_growth_ttm_yoy": 5.88,
+        "eps_growth_ttm_yoy": 49.14,
+        "gross_margin_ttm": 38.07,
+        "net_margin_ttm": 15.02,
+        "current_ratio": 3.5443,
+        "debt_equity": 0.46,
+        "beta": 0.98518795
+      }
+    },
+    "ISTR": {
+      "cached_at": "2026-10-23T06:07:26.608367+00:00",
+      "data": {
+        "name": "Investar Holding Corp",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2014-07-01",
+        "weburl": "https://www.investarbank.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950423872226.png",
+        "market_cap": 402151390.7275574,
+        "pe_ttm": 11.7797,
+        "ps_ttm": 1.17761,
+        "pb_annual": 0.8707,
+        "revenue_growth_ttm_yoy": 27.24103,
+        "eps_growth_ttm_yoy": 8.79,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 25.39759,
+        "current_ratio": null,
+        "debt_equity": 0.1221,
+        "beta": 0.5630771
+      }
+    },
+    "BOF": {
+      "cached_at": "2026-10-23T06:07:26.608367+00:00",
+      "data": {
+        "name": "BranchOut Food Inc",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2023-06-16",
+        "weburl": "https://branchoutfood.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950848730456.png",
+        "market_cap": 32844609.173708923,
+        "pe_ttm": null,
+        "ps_ttm": 2.2974,
+        "pb_annual": 7.6368,
+        "revenue_growth_ttm_yoy": 40.44,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 9.6,
+        "net_margin_ttm": -56.77,
+        "current_ratio": 0.9068,
+        "debt_equity": 0.8947,
+        "beta": 0.71897984
+      }
+    },
+    "CHARR": {
+      "cached_at": "2026-10-23T06:07:26.608367+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
       }
     }
   }
