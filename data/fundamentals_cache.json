@@ -12099,7 +12099,7 @@
       }
     },
     "SBMT": {
-      "cached_at": "2026-09-02T05:59:24.770708+00:00",
+      "cached_at": "2026-10-24T16:44:26.634346+00:00",
       "data": {
         "name": "Silver Bow Mining Corp",
         "industry": "N/A",
@@ -12108,7 +12108,7 @@
         "ipo_date": "2026-04-30",
         "weburl": "https://silverbowmining.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950960872436.png",
-        "market_cap": 254240393.7956867,
+        "market_cap": 192525820.0,
         "pe_ttm": null,
         "ps_ttm": null,
         "pb_annual": null,
@@ -12118,7 +12118,7 @@
         "net_margin_ttm": null,
         "current_ratio": 7.2625,
         "debt_equity": 0,
-        "beta": 3.2217617
+        "beta": 3.0044823
       }
     },
     "VRTX": {
@@ -35878,6 +35878,29 @@
         "current_ratio": null,
         "debt_equity": null,
         "beta": 1.1042881
+      }
+    },
+    "TRAW": {
+      "cached_at": "2026-10-24T16:44:26.634346+00:00",
+      "data": {
+        "name": "Traws Pharma Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2013-07-25",
+        "weburl": "https://www.trawspharma.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ONTX.png",
+        "market_cap": 5263634.708208345,
+        "pe_ttm": 0.5698,
+        "ps_ttm": 1.7999,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 131.12,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -616.78,
+        "current_ratio": 0.7159,
+        "debt_equity": 0,
+        "beta": 1.6149863
       }
     }
   }

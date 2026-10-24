@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T06:02:41.830168+00:00",
+    "generated_at": "2026-10-24T16:44:26.634346+00:00",
     "companies_scanned": 84,
     "sources_enabled": {
       "sec_edgar": true,
@@ -24,8 +24,10 @@
       "CPIX",
       "STEM",
       "PHAT",
-      "APCXW",
       "CLYM",
+      "APCXW",
+      "TRAW",
+      "SBMT",
       "ARTCU",
       "FJDIR",
       "TCXB",
@@ -35,6 +37,7 @@
       "RIBBR",
       "IMAQW",
       "LASE",
+      "TGL",
       "INVLW",
       "MDCXW",
       "DFLIW",
@@ -43,19 +46,17 @@
       "RMXI",
       "GRDX",
       "ANDE",
-      "EDSA",
-      "AZIO",
-      "HLSQ",
-      "TRAW"
+      "EDSA"
     ],
     "emerging_signals": [
-      "WULF",
       "CPIX",
-      "UMAC",
+      "WULF",
+      "TRAW",
       "PHAT",
-      "RIG",
-      "XXII",
+      "UMAC",
       "APCXW",
+      "SBMT",
+      "CLYM",
       "ARTCU",
       "FJDIR",
       "TCXB",
@@ -64,58 +65,71 @@
       "RIBBR",
       "IMAQW",
       "PORT-UN",
+      "RIG",
       "STEM",
-      "CLYM",
+      "XXII",
       "LASE",
       "MDCXW",
       "DFLIW",
       "CNTY",
       "AKBA",
+      "TGL",
       "INVLW",
       "RMXI",
       "GRDX",
       "ANDE",
-      "EDSA",
-      "AZIO",
-      "HLSQ",
-      "TRAW"
+      "EDSA"
     ]
   },
   "briefing": {
     "new_emerging": [
       "CPIX",
+      "TRAW",
       "PHAT",
       "APCXW",
-      "CLYM",
-      "MDCXW",
-      "DFLIW"
+      "SBMT",
+      "CLYM"
     ],
     "accelerating": [
       {
-        "ticker": "WULF",
-        "delta": 12.0
+        "ticker": "CLYM",
+        "delta": 12.2
       },
       {
-        "ticker": "CLYM",
-        "delta": 11.9
+        "ticker": "SBMT",
+        "delta": 10.8
+      },
+      {
+        "ticker": "WULF",
+        "delta": 10.0
       }
     ],
     "cooling": [],
     "major_catalysts": [
-      {
-        "ticker": "UMAC",
-        "category": "M&A",
-        "headline": "Unusual Machines, Inc. (0001956955) (Filer)"
-      },
       {
         "ticker": "RIG",
         "category": "Major contract",
         "headline": "Transocean Ltd. (0001451505) (Filer)"
       },
       {
+        "ticker": "WULF",
+        "category": "Major contract",
+        "headline": "TERAWULF INC. (0001083301) (Filer)"
+      },
+      {
         "ticker": "CPIX",
         "category": "Clinical trial",
         "headline": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)"
+      },
+      {
+        "ticker": "UMAC",
+        "category": "M&A",
+        "headline": "Unusual Machines, Inc. (0001956955) (Filer)"
+      },
+      {
+        "ticker": "CLYM",
+        "category": "Clinical trial",
+        "headline": "Climb Bio, Inc. (0001768446) (Filer)"
       },
       {
         "ticker": "PHAT",
@@ -128,19 +142,9 @@
         "headline": "AppTech Payments Corp. (0001070050) (Filer)"
       },
       {
-        "ticker": "CLYM",
-        "category": "Clinical trial",
-        "headline": "Climb Bio, Inc. (0001768446) (Filer)"
-      },
-      {
-        "ticker": "ARTCU",
-        "category": "M&A",
-        "headline": "Art Technology Acquisition Corp. (0002086545) (Filer)"
-      },
-      {
-        "ticker": "FJDIR",
-        "category": "M&A",
-        "headline": "ARC Group Securities Acquisition I (0002094712) (Filer)"
+        "ticker": "TRAW",
+        "category": "Major contract",
+        "headline": "Traws Pharma, Inc. (0001130598) (Filer)"
       }
     ],
     "left_emerging_top20": [
@@ -156,56 +160,30 @@
     {
       "sector": "Technology",
       "company_count": 1,
-      "discovery_intensity": 66.6,
-      "signal_intensity": 74.9,
+      "discovery_intensity": 64.6,
+      "signal_intensity": 75.6,
       "tickers": [
         "WULF"
       ]
     },
     {
       "sector": "Pharmaceuticals",
-      "company_count": 2,
-      "discovery_intensity": 64.6,
-      "signal_intensity": 70.5,
+      "company_count": 3,
+      "discovery_intensity": 63.6,
+      "signal_intensity": 71.6,
       "tickers": [
         "CPIX",
+        "TRAW",
         "PHAT"
       ]
     },
     {
-      "sector": "Energy",
-      "company_count": 1,
-      "discovery_intensity": 63.7,
-      "signal_intensity": 75.8,
-      "tickers": [
-        "RIG"
-      ]
-    },
-    {
-      "sector": "Tobacco",
-      "company_count": 1,
-      "discovery_intensity": 63.5,
-      "signal_intensity": 78.4,
-      "tickers": [
-        "XXII"
-      ]
-    },
-    {
-      "sector": "Electrical Equipment",
-      "company_count": 2,
-      "discovery_intensity": 63.3,
-      "signal_intensity": 76.5,
-      "tickers": [
-        "UMAC",
-        "STEM"
-      ]
-    },
-    {
       "sector": "N/A",
-      "company_count": 4,
+      "company_count": 5,
       "discovery_intensity": 62.3,
-      "signal_intensity": 68.0,
+      "signal_intensity": 68.3,
       "tickers": [
+        "SBMT",
         "ARTCU",
         "FJDIR",
         "BKHAR",
@@ -213,30 +191,57 @@
       ]
     },
     {
+      "sector": "Electrical Equipment",
+      "company_count": 2,
+      "discovery_intensity": 61.8,
+      "signal_intensity": 75.5,
+      "tickers": [
+        "UMAC",
+        "STEM"
+      ]
+    },
+    {
+      "sector": "Energy",
+      "company_count": 1,
+      "discovery_intensity": 61.1,
+      "signal_intensity": 78.9,
+      "tickers": [
+        "RIG"
+      ]
+    },
+    {
+      "sector": "Biotechnology",
+      "company_count": 2,
+      "discovery_intensity": 59.7,
+      "signal_intensity": 67.3,
+      "tickers": [
+        "CLYM",
+        "AKBA"
+      ]
+    },
+    {
+      "sector": "Tobacco",
+      "company_count": 1,
+      "discovery_intensity": 59.6,
+      "signal_intensity": 75.9,
+      "tickers": [
+        "XXII"
+      ]
+    },
+    {
       "sector": "Machinery",
       "company_count": 1,
-      "discovery_intensity": 58.0,
-      "signal_intensity": 64.5,
+      "discovery_intensity": 58.3,
+      "signal_intensity": 69.5,
       "tickers": [
         "LASE"
       ]
     },
     {
-      "sector": "Biotechnology",
-      "company_count": 3,
-      "discovery_intensity": 57.0,
-      "signal_intensity": 61.2,
-      "tickers": [
-        "CLYM",
-        "AKBA",
-        "HLSQ"
-      ]
-    },
-    {
       "sector": "Unclassified",
-      "company_count": 15,
-      "discovery_intensity": 56.8,
-      "signal_intensity": 61.0,
+      "company_count": 13,
+      "discovery_intensity": 57.5,
+      "signal_intensity": 62.1,
       "tickers": [
         "APCXW",
         "TCXB",
@@ -245,13 +250,22 @@
         "PORT-UN",
         "MDCXW"
       ]
+    },
+    {
+      "sector": "Media",
+      "company_count": 1,
+      "discovery_intensity": 57.0,
+      "signal_intensity": 62.6,
+      "tickers": [
+        "TGL"
+      ]
     }
   ],
   "themes": [
     {
       "theme": "Biotech & therapeutics",
       "company_count": 5,
-      "intensity": 57.5,
+      "intensity": 57.2,
       "tickers": [
         "PHAT",
         "CLYM",
@@ -261,34 +275,34 @@
       ]
     },
     {
-      "theme": "AI infrastructure",
-      "company_count": 4,
-      "intensity": 58.5,
-      "tickers": [
-        "WULF",
-        "XXII",
-        "RMXI",
-        "AZIO"
-      ]
-    },
-    {
       "theme": "Cloud & software",
-      "company_count": 3,
-      "intensity": 62.3,
+      "company_count": 4,
+      "intensity": 60.2,
       "tickers": [
         "WULF",
         "STEM",
-        "LASE"
+        "LASE",
+        "TGL"
+      ]
+    },
+    {
+      "theme": "AI infrastructure",
+      "company_count": 4,
+      "intensity": 58.3,
+      "tickers": [
+        "WULF",
+        "XXII",
+        "TGL",
+        "RMXI"
       ]
     },
     {
       "theme": "Defense & aerospace",
-      "company_count": 3,
-      "intensity": 58.1,
+      "company_count": 2,
+      "intensity": 60.5,
       "tickers": [
         "UMAC",
-        "LASE",
-        "HLSQ"
+        "LASE"
       ]
     },
     {
@@ -302,7 +316,7 @@
     {
       "theme": "Semiconductors",
       "company_count": 1,
-      "intensity": 58.0,
+      "intensity": 58.3,
       "tickers": [
         "LASE"
       ]
@@ -319,470 +333,51 @@
   "general_news": [],
   "companies": [
     {
-      "ticker": "XXII",
-      "company_name": "22nd Century Group, Inc.",
-      "signal_score": 78.4,
-      "market_attention_score": 38.0,
-      "discovery_score": 63.5,
+      "ticker": "RIG",
+      "company_name": "Transocean Ltd.",
+      "signal_score": 78.9,
+      "market_attention_score": 33.1,
+      "discovery_score": 61.1,
       "confidence_score": 93.8,
-      "primary_catalyst": "22nd Century Group, Inc. (0001347858) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "13 unique credible information items from 4 independent sources. Coverage is 2.8× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 6,
-      "latest_event_at": "2026-10-23T18:00:23+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 66,
-      "change": {
-        "signal_delta": -0.8,
-        "discovery_delta": -2.1
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 13
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 11.9,
-        "catalyst_strength": 14,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.81,
-        "weighted_coverage_24h": 1.5,
-        "weighted_source_breadth": 1.3
-      },
-      "discovery_metrics": {
-        "attention_lift": 17.9,
-        "novelty": 18.7,
-        "source_breadth": 3.9,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.81,
-        "weighted_coverage_24h": 1.5,
-        "weighted_source_breadth": 1.3
-      },
-      "baseline": {
-        "avg_items_24h": 0.53,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "22nd Century Group Inc",
-        "industry": "Tobacco",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2006-10-17",
-        "weburl": "https://www.xxiicentury.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/XXII.png",
-        "market_cap": 190000.0,
-        "pe_ttm": null,
-        "ps_ttm": 0.0134,
-        "pb_annual": 0.7326,
-        "revenue_growth_ttm_yoy": -27.44,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": -19.44,
-        "net_margin_ttm": -27.04,
-        "current_ratio": 1.1566,
-        "debt_equity": 1.7246,
-        "beta": 0.68191946
-      },
-      "profile": {
-        "name": "22nd Century Group Inc",
-        "description": "22nd Century Group Inc is a publicly traded company operating in the Tobacco industry with company information identifying US as its home market.",
-        "industry": "Tobacco",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.xxiicentury.com/",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "AI infrastructure"
-      ],
-      "stories": [
-        {
-          "ticker": "XXII",
-          "company_name": "22nd Century Group, Inc.",
-          "source": "SEC EDGAR",
-          "title": "22nd Century Group, Inc. (0001347858) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001493152-26-048281 Size: 234 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048281/0001493152-26-048281-index.htm",
-          "published_at": "2026-10-23T17:23:24-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "a0cb35130ece",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-22",
-          "discovery_score": 64.8,
-          "market_attention_score": 31.4,
-          "signal_score": 70.0
-        },
-        {
-          "date": "2026-10-23",
-          "discovery_score": 65.6,
-          "market_attention_score": 38.0,
-          "signal_score": 79.2
-        },
-        {
-          "date": "2026-10-24",
-          "signal_score": 78.4,
-          "discovery_score": 63.5
-        }
-      ]
-    },
-    {
-      "ticker": "UMAC",
-      "company_name": "Unusual Machines, Inc.",
-      "signal_score": 76.6,
-      "market_attention_score": 33.0,
-      "discovery_score": 64.4,
-      "confidence_score": 87.8,
-      "primary_catalyst": "Unusual Machines, Inc. (0001956955) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "5 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
+      "primary_catalyst": "Transocean Ltd. (0001451505) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "6 unique credible information items from 4 independent sources. Coverage is 2.1× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
       "article_count_24h": 2,
-      "latest_event_at": "2026-10-23T16:14:34-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 66,
-      "change": {
-        "signal_delta": 1.1,
-        "discovery_delta": 1.5
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 5
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 20,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.7,
-        "source_breadth": 3.6,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": 16900000.0,
-        "market_cap_ratio": 0.0208,
-        "score": 10,
-        "label": "Meaningful",
-        "basis": "Unusual Machines Receives $16.9 Million Purchase Order from Powerus for American-Made Drone Components",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "Unusual Machines Inc",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "ipo_date": "2024-02-14",
-        "weburl": "https://www.unusualmachines.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950871973646.png",
-        "market_cap": 812792356.0,
-        "pe_ttm": null,
-        "ps_ttm": 25.5184,
-        "pb_annual": 2.6855,
-        "revenue_growth_ttm_yoy": 313.57,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 34.76,
-        "net_margin_ttm": -20.29,
-        "current_ratio": 61.3187,
-        "debt_equity": 0,
-        "beta": 15.62318
-      },
-      "profile": {
-        "name": "Unusual Machines Inc",
-        "description": "Esta é uma página de exemplo. É diferente de um post no blog porque ela permanecerá em um lugar e aparecerá na navegação do seu site na maioria dos temas. Muitas pessoas começam com uma página que as apresenta a possíveis visitantes do site. Ela pode dizer algo assim: Olá! Eu sou um mensageiro de […]",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "website": "https://www.unusualmachines.com/",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [
-        "Defense & aerospace"
-      ],
-      "stories": [
-        {
-          "ticker": "UMAC",
-          "company_name": "Unusual Machines, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Unusual Machines, Inc. (0001956955) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001683168-26-008046 Size: 519 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.01: Completion of Acquisition or Disposition of Assets Item 3.02: Unregistered Sales of Equity Securities Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1956955/000168316826008046/0001683168-26-008046-index.htm",
-          "published_at": "2026-10-23T16:14:34-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "bdfaf37f5efb",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-23",
-          "discovery_score": 62.9,
-          "market_attention_score": 31.8,
-          "signal_score": 75.5
-        },
-        {
-          "date": "2026-10-24",
-          "signal_score": 76.6,
-          "discovery_score": 64.4
-        }
-      ]
-    },
-    {
-      "ticker": "STEM",
-      "company_name": "STEM, INC.",
-      "signal_score": 76.5,
-      "market_attention_score": 30.6,
-      "discovery_score": 62.2,
-      "confidence_score": 93.8,
-      "primary_catalyst": "STEM, INC. (0001758766) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "5 unique credible information items from 4 independent sources. Coverage is 2.6× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 4,
-      "latest_event_at": "2026-10-23T21:32:21+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 2,
-      "change": {
-        "signal_delta": 5.0,
-        "discovery_delta": -8.0
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 5
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 11.0,
-        "catalyst_strength": 13,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.6,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.3
-      },
-      "discovery_metrics": {
-        "attention_lift": 16.5,
-        "novelty": 19.5,
-        "source_breadth": 3.9,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.6,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.3
-      },
-      "baseline": {
-        "avg_items_24h": 0.2,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Stem Inc",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2020-08-20",
-        "weburl": "https://www.stem.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/STEM.png",
-        "market_cap": 29072768.0,
-        "pe_ttm": 0.2184,
-        "ps_ttm": 0.2032,
-        "pb_annual": 1.4199,
-        "revenue_growth_ttm_yoy": -5.11,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 41.86,
-        "net_margin_ttm": -49.37,
-        "current_ratio": 1.062,
-        "debt_equity": 1.385,
-        "beta": 1.6559988
-      },
-      "profile": {
-        "name": "Stem Inc",
-        "description": "We help asset owners, operators and stakeholders benefit from the full value of their energy portfolio by enabling the intelligent development, deployment, and operation of clean energy assets.",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.stem.com/",
-        "products_markets": [
-          "Energy"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "STEM",
-          "company_name": "STEM, INC.",
-          "source": "SEC EDGAR",
-          "title": "STEM, INC. (0001758766) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001758766-26-000088 Size: 166 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1758766/000175876626000088/0001758766-26-000088-index.htm",
-          "published_at": "2026-10-23T16:07:09-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "fc5dc6b3865d",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "STEM",
-          "company_name": "STEM, INC.",
-          "source": "Yahoo",
-          "title": "Stem Announces Notification of Noncompliance with NYSE Continued Listing Standards",
-          "summary": "HOUSTON, October 23, 2026--Stem, Inc. (NYSE: STEM), a global leader in AI-enabled clean energy software and services, today announced that on October 19, 2026, it had notified the New York Stock Exchange (the \"NYSE\") that the Company is not in compliance with Section 802.01B of the NYSE Listed Company Manual (the \"Manual\"), which requires a listed company’s average global market capitalization over a consecutive 30…",
-          "url": "https://finnhub.io/api/news?id=bc683b1760e517970bd764caafd12d072160244d92f08e9020cfac3e019df5b0",
-          "published_at": "2026-10-23T20:03:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "ed90bea39b47",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "STEM",
-          "company_name": "STEM, INC.",
-          "source": "Yahoo",
-          "title": "Stem (STEM) Stock Fair Value Moves Lower As Analysts Cut Targets",
-          "summary": "Stem’s updated fair value estimate has shifted from US$7.45 to US$6.25, which points to a lower price target being applied in current models. This move lines up with recent Street research, where several firms have reset their own Stem price targets lower, even as opinions stay split on the company’s software led opportunity and exposure to rising power demand. In the sections ahead, you will see what is driving the…",
-          "url": "https://finnhub.io/api/news?id=06b031ee172962a614620c1dcb7754ee9cd3603da756ed01ad46963b15b63752",
-          "published_at": "2026-10-23T08:14:42+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "98cf1192fc6e",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "STEM",
-          "company_name": "STEM, INC.",
-          "source": "Benzinga",
-          "title": "BMO Capital Maintains Market Perform on Stem, Lowers Price Target to $5",
-          "summary": "BMO Capital analyst Ameet Thakkar maintains Stem (NYSE:STEM) with a Market Perform and lowers the price target from $8 to $5.",
-          "url": "https://finnhub.io/api/news?id=d9e13557b89602358e48c3b637b5b463583597eba3f1e9118588ce566161b626",
-          "published_at": "2026-10-21T13:37:33+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "406033cfd572",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-23",
-          "discovery_score": 70.2,
-          "market_attention_score": 29.5,
-          "signal_score": 71.5
-        },
-        {
-          "date": "2026-10-24",
-          "signal_score": 76.5,
-          "discovery_score": 62.2
-        }
-      ]
-    },
-    {
-      "ticker": "RIG",
-      "company_name": "Transocean Ltd.",
-      "signal_score": 75.8,
-      "market_attention_score": 32.8,
-      "discovery_score": 63.7,
-      "confidence_score": 87.8,
-      "primary_catalyst": "Transocean Ltd. (0001451505) (Filer)",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "5 unique credible information items from 3 independent sources. Coverage is 2.4× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 4,
       "latest_event_at": "2026-10-24T00:38:41+00:00",
       "new_to_radar": false,
       "days_on_radar": 67,
       "change": {
-        "signal_delta": 0.3,
-        "discovery_delta": 1.8
+        "signal_delta": 3.4,
+        "discovery_delta": -0.8
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 5
+        "independent_sources": 4,
+        "unique_story_clusters": 6
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 10.3,
+        "coverage_acceleration": 8.4,
         "catalyst_strength": 18,
-        "corroboration": 10.0,
+        "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.44,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 2.06,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
-        "attention_lift": 15.4,
+        "attention_lift": 12.5,
         "novelty": 18.7,
-        "source_breadth": 3.6,
+        "source_breadth": 3.9,
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.44,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 2.06,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.3
       },
       "baseline": {
         "avg_items_24h": 0.53,
@@ -880,60 +475,66 @@
         },
         {
           "date": "2026-10-24",
-          "signal_score": 75.8,
-          "discovery_score": 63.7
+          "discovery_score": 63.7,
+          "market_attention_score": 32.8,
+          "signal_score": 75.8
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 78.9,
+          "discovery_score": 61.1
         }
       ]
     },
     {
-      "ticker": "WULF",
-      "company_name": "TERAWULF INC.",
-      "signal_score": 74.9,
-      "market_attention_score": 38.7,
-      "discovery_score": 66.6,
-      "confidence_score": 87.8,
-      "primary_catalyst": "TERAWULF INC. (0001083301) (Filer)",
+      "ticker": "XXII",
+      "company_name": "22nd Century Group, Inc.",
+      "signal_score": 75.9,
+      "market_attention_score": 36.8,
+      "discovery_score": 59.6,
+      "confidence_score": 93.8,
+      "primary_catalyst": "22nd Century Group, Inc. (0001347858) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "14 unique credible information items from 3 independent sources. Coverage is 3.2× the stored baseline.",
+      "why_it_matters": "13 unique credible information items from 4 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 7,
-      "latest_event_at": "2026-10-23T17:13:37-04:00",
+      "attention_status": "Above baseline",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-23T18:00:23+00:00",
       "new_to_radar": false,
       "days_on_radar": 66,
       "change": {
-        "signal_delta": 8.4,
-        "discovery_delta": 12.0
+        "signal_delta": -3.3,
+        "discovery_delta": -6.0
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 14
+        "independent_sources": 4,
+        "unique_story_clusters": 13
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 13.4,
+        "coverage_acceleration": 9.4,
         "catalyst_strength": 14,
-        "corroboration": 10.0,
+        "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 3.2,
-        "weighted_coverage_24h": 1.6,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 2.25,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
-        "attention_lift": 20.1,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
+        "attention_lift": 14.0,
+        "novelty": 18.7,
+        "source_breadth": 3.9,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 3.2,
-        "weighted_coverage_24h": 1.6,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 2.25,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.3
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 0.53,
         "days_available": 30,
         "maturity": "established"
       },
@@ -944,6 +545,141 @@
         "label": "Unquantified",
         "basis": "",
         "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "22nd Century Group Inc",
+        "industry": "Tobacco",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2006-10-17",
+        "weburl": "https://www.xxiicentury.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/XXII.png",
+        "market_cap": 190000.0,
+        "pe_ttm": null,
+        "ps_ttm": 0.0134,
+        "pb_annual": 0.7326,
+        "revenue_growth_ttm_yoy": -27.44,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -19.44,
+        "net_margin_ttm": -27.04,
+        "current_ratio": 1.1566,
+        "debt_equity": 1.7246,
+        "beta": 0.68191946
+      },
+      "profile": {
+        "name": "22nd Century Group Inc",
+        "description": "22nd Century Group Inc is a publicly traded company operating in the Tobacco industry with company information identifying US as its home market.",
+        "industry": "Tobacco",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.xxiicentury.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "AI infrastructure"
+      ],
+      "stories": [
+        {
+          "ticker": "XXII",
+          "company_name": "22nd Century Group, Inc.",
+          "source": "SEC EDGAR",
+          "title": "22nd Century Group, Inc. (0001347858) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001493152-26-048281 Size: 234 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048281/0001493152-26-048281-index.htm",
+          "published_at": "2026-10-23T17:23:24-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "a0cb35130ece",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 64.8,
+          "market_attention_score": 31.4,
+          "signal_score": 70.0
+        },
+        {
+          "date": "2026-10-23",
+          "discovery_score": 65.6,
+          "market_attention_score": 38.0,
+          "signal_score": 79.2
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 63.5,
+          "market_attention_score": 38.0,
+          "signal_score": 78.4
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 75.9,
+          "discovery_score": 59.6
+        }
+      ]
+    },
+    {
+      "ticker": "WULF",
+      "company_name": "TERAWULF INC.",
+      "signal_score": 75.6,
+      "market_attention_score": 41.4,
+      "discovery_score": 64.6,
+      "confidence_score": 87.8,
+      "primary_catalyst": "TERAWULF INC. (0001083301) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "17 unique credible information items from 3 independent sources. Coverage is 2.4× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-24T10:16:54+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 66,
+      "change": {
+        "signal_delta": 9.1,
+        "discovery_delta": 10.0
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 17
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 10.1,
+        "catalyst_strength": 18,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 15.2,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 5700000000.0,
+        "market_cap_ratio": 0.8953,
+        "score": 20,
+        "label": "Potentially transformative",
+        "basis": "Is TeraWulf (WULF) Still Undervalued As Long Term Leases Raise Revenue Visibility?",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
       },
       "fundamentals": {
         "name": "Terawulf Inc",
@@ -996,6 +732,20 @@
           "fingerprint": "ee4ce6572d62",
           "display_relevance": 1.0,
           "display_relevant": true
+        },
+        {
+          "ticker": "WULF",
+          "company_name": "TERAWULF INC.",
+          "source": "Yahoo",
+          "title": "Is TeraWulf (WULF) Still Undervalued As Long Term Leases Raise Revenue Visibility?",
+          "summary": "Fresh commentary on TeraWulf (WULF) focuses on its long-term data center leases that increase revenue visibility, while also highlighting concerns about unbuilt contracted capacity, US$5.7b of debt, and construction risk. Recent price action tells a mixed story. TeraWulf’s share price has fallen about 31% over the past month and roughly 39% over the last quarter, while the 3-year total shareholder return remains ext…",
+          "url": "https://finnhub.io/api/news?id=188cc70316f9e7d80b78a1ec194a2dcdafadf968aedaccc1a74865074d91c4f9",
+          "published_at": "2026-10-24T04:19:17+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "8e9469721526",
+          "display_relevance": 0.62,
+          "display_relevant": true
         }
       ],
       "history": [
@@ -1013,60 +763,66 @@
         },
         {
           "date": "2026-10-24",
-          "signal_score": 74.9,
-          "discovery_score": 66.6
+          "discovery_score": 66.6,
+          "market_attention_score": 38.7,
+          "signal_score": 74.9
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 75.6,
+          "discovery_score": 64.6
         }
       ]
     },
     {
-      "ticker": "PHAT",
-      "company_name": "Phathom Pharmaceuticals, Inc.",
-      "signal_score": 70.6,
-      "market_attention_score": 30.4,
-      "discovery_score": 64.3,
-      "confidence_score": 71.8,
-      "primary_catalyst": "Phathom Pharmaceuticals, Inc. (0001783183) (Filer)",
-      "catalyst_category": "Regulatory / FDA",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.4× the stored baseline.",
+      "ticker": "STEM",
+      "company_name": "STEM, INC.",
+      "signal_score": 75.6,
+      "market_attention_score": 31.0,
+      "discovery_score": 60.8,
+      "confidence_score": 93.8,
+      "primary_catalyst": "STEM, INC. (0001758766) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "6 unique credible information items from 4 independent sources. Coverage is 2.4× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
       "article_count_24h": 3,
-      "latest_event_at": "2026-10-23T17:45:21+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 25,
+      "latest_event_at": "2026-10-23T21:32:21+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 2,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 4.1,
+        "discovery_delta": -9.4
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
+        "independent_sources": 4,
+        "unique_story_clusters": 6
       },
       "metrics": {
         "primary_evidence": 25,
         "coverage_acceleration": 10.1,
-        "catalyst_strength": 18,
-        "corroboration": 5.0,
+        "catalyst_strength": 13,
+        "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
         "coverage_ratio_vs_baseline": 2.4,
         "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.1
+        "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
         "attention_lift": 15.2,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 13.5,
+        "novelty": 19.5,
+        "source_breadth": 3.9,
+        "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
         "coverage_ratio_vs_baseline": 2.4,
         "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.1
+        "weighted_source_breadth": 1.3
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 0.2,
         "days_available": 30,
         "maturity": "established"
       },
@@ -1079,74 +835,142 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Phathom Pharmaceuticals Inc",
-        "industry": "Pharmaceuticals",
+        "name": "Stem Inc",
+        "industry": "Electrical Equipment",
         "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2019-10-25",
-        "weburl": "https://www.phathompharma.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950694056886.png",
-        "market_cap": 464371410.8302425,
-        "pe_ttm": null,
-        "ps_ttm": 1.9376,
-        "pb_annual": 8.3239,
-        "revenue_growth_ttm_yoy": 110.16,
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2020-08-20",
+        "weburl": "https://www.stem.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/STEM.png",
+        "market_cap": 29072768.0,
+        "pe_ttm": 0.2184,
+        "ps_ttm": 0.2032,
+        "pb_annual": 1.4199,
+        "revenue_growth_ttm_yoy": -5.11,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 82.92,
-        "net_margin_ttm": -41.34,
-        "current_ratio": 1.7341,
-        "debt_equity": 1.2424,
-        "beta": 0.57539314
+        "gross_margin_ttm": 41.86,
+        "net_margin_ttm": -49.37,
+        "current_ratio": 1.062,
+        "debt_equity": 1.385,
+        "beta": 1.6559988
       },
       "profile": {
-        "name": "Phathom Pharmaceuticals Inc",
-        "description": "A late clinical-stage biopharmaceutical company committed to transforming the treatment landscape for people suffering from GI diseases related to acid.",
-        "industry": "Pharmaceuticals",
+        "name": "Stem Inc",
+        "description": "We help asset owners, operators and stakeholders benefit from the full value of their energy portfolio by enabling the intelligent development, deployment, and operation of clean energy assets.",
+        "industry": "Electrical Equipment",
         "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.phathompharma.com/",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.stem.com/",
         "products_markets": [
-          "Therapeutics"
+          "Energy"
         ],
         "source": "Company website"
       },
       "themes": [
-        "Biotech & therapeutics"
+        "Cloud & software"
       ],
       "stories": [
         {
-          "ticker": "PHAT",
-          "company_name": "Phathom Pharmaceuticals, Inc.",
+          "ticker": "STEM",
+          "company_name": "STEM, INC.",
           "source": "SEC EDGAR",
-          "title": "Phathom Pharmaceuticals, Inc. (0001783183) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001193125-26-430621 Size: 141 KB Item 8.01: Other Events",
-          "url": "https://www.sec.gov/Archives/edgar/data/1783183/000119312526430621/0001193125-26-430621-index.htm",
-          "published_at": "2026-10-23T17:00:48-04:00",
+          "title": "STEM, INC. (0001758766) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001758766-26-000088 Size: 166 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1758766/000175876626000088/0001758766-26-000088-index.htm",
+          "published_at": "2026-10-23T16:07:09-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "2231bf61404b",
+          "fingerprint": "fc5dc6b3865d",
           "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "STEM",
+          "company_name": "STEM, INC.",
+          "source": "Yahoo",
+          "title": "Stem Announces Notification of Noncompliance with NYSE Continued Listing Standards",
+          "summary": "HOUSTON, October 23, 2026--Stem, Inc. (NYSE: STEM), a global leader in AI-enabled clean energy software and services, today announced that on October 19, 2026, it had notified the New York Stock Exchange (the \"NYSE\") that the Company is not in compliance with Section 802.01B of the NYSE Listed Company Manual (the \"Manual\"), which requires a listed company’s average global market capitalization over a consecutive 30…",
+          "url": "https://finnhub.io/api/news?id=bc683b1760e517970bd764caafd12d072160244d92f08e9020cfac3e019df5b0",
+          "published_at": "2026-10-23T20:03:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "ed90bea39b47",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "STEM",
+          "company_name": "STEM, INC.",
+          "source": "Benzinga",
+          "title": "Stem Receives New York Stock Exchange Noncompliance Notice, Gets 45 Days Time To Regain Compliance",
+          "summary": "Stem, Inc. (NYSE:STEM), a global leader in AI-enabled clean energy software and services, today announced that on October 19, 2026, it had notified the New York Stock Exchange (the \"NYSE\") that the Company is",
+          "url": "https://finnhub.io/api/news?id=bb552bf59356659f689d63820cdf4a362cdfa64e0988a5867b8817e169dce18f",
+          "published_at": "2026-10-23T16:04:58+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "b60a8c33d26d",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "STEM",
+          "company_name": "STEM, INC.",
+          "source": "Yahoo",
+          "title": "Stem (STEM) Stock Fair Value Moves Lower As Analysts Cut Targets",
+          "summary": "Stem’s updated fair value estimate has shifted from US$7.45 to US$6.25, which points to a lower price target being applied in current models. This move lines up with recent Street research, where several firms have reset their own Stem price targets lower, even as opinions stay split on the company’s software led opportunity and exposure to rising power demand. In the sections ahead, you will see what is driving the…",
+          "url": "https://finnhub.io/api/news?id=06b031ee172962a614620c1dcb7754ee9cd3603da756ed01ad46963b15b63752",
+          "published_at": "2026-10-23T08:14:42+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "98cf1192fc6e",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "STEM",
+          "company_name": "STEM, INC.",
+          "source": "Benzinga",
+          "title": "BMO Capital Maintains Market Perform on Stem, Lowers Price Target to $5",
+          "summary": "BMO Capital analyst Ameet Thakkar maintains Stem (NYSE:STEM) with a Market Perform and lowers the price target from $8 to $5.",
+          "url": "https://finnhub.io/api/news?id=d9e13557b89602358e48c3b637b5b463583597eba3f1e9118588ce566161b626",
+          "published_at": "2026-10-21T13:37:33+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "406033cfd572",
+          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
+          "date": "2026-10-23",
+          "discovery_score": 70.2,
+          "market_attention_score": 29.5,
+          "signal_score": 71.5
+        },
+        {
           "date": "2026-10-24",
-          "signal_score": 70.6,
-          "discovery_score": 64.3
+          "discovery_score": 62.2,
+          "market_attention_score": 30.6,
+          "signal_score": 76.5
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 75.6,
+          "discovery_score": 60.8
         }
       ]
     },
     {
       "ticker": "CPIX",
       "company_name": "CUMBERLAND PHARMACEUTICALS INC",
-      "signal_score": 70.5,
-      "market_attention_score": 31.1,
-      "discovery_score": 64.9,
-      "confidence_score": 75.8,
+      "signal_score": 75.5,
+      "market_attention_score": 33.0,
+      "discovery_score": 65.2,
+      "confidence_score": 87.8,
       "primary_catalyst": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
       "catalyst_category": "Clinical trial",
-      "why_it_matters": "4 unique credible information items from 2 independent sources. Coverage is 2.6× the stored baseline.",
+      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 2.6× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
       "article_count_24h": 4,
@@ -1159,30 +983,30 @@
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 4
+        "independent_sources": 3,
+        "unique_story_clusters": 6
       },
       "metrics": {
         "primary_evidence": 25,
         "coverage_acceleration": 11.0,
         "catalyst_strength": 17,
-        "corroboration": 5.0,
+        "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
         "coverage_ratio_vs_baseline": 2.6,
         "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.1
+        "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
         "attention_lift": 16.5,
         "novelty": 19.8,
-        "source_breadth": 3.3,
+        "source_breadth": 3.6,
         "catalyst_strength": 12.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
         "coverage_ratio_vs_baseline": 2.6,
         "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.1
+        "weighted_source_breadth": 1.2
       },
       "baseline": {
         "avg_items_24h": 0.07,
@@ -1249,8 +1073,288 @@
       "history": [
         {
           "date": "2026-10-24",
-          "signal_score": 70.5,
-          "discovery_score": 64.9
+          "discovery_score": 64.9,
+          "market_attention_score": 31.1,
+          "signal_score": 70.5
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 75.5,
+          "discovery_score": 65.2
+        }
+      ]
+    },
+    {
+      "ticker": "UMAC",
+      "company_name": "Unusual Machines, Inc.",
+      "signal_score": 75.5,
+      "market_attention_score": 33.3,
+      "discovery_score": 62.8,
+      "confidence_score": 87.8,
+      "primary_catalyst": "Unusual Machines, Inc. (0001956955) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-23T16:14:34-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 66,
+      "change": {
+        "signal_delta": 0.0,
+        "discovery_delta": -0.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 6
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 20,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.7,
+        "source_breadth": 3.6,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 16900000.0,
+        "market_cap_ratio": 0.0208,
+        "score": 10,
+        "label": "Meaningful",
+        "basis": "Unusual Machines Receives $16.9 Million Purchase Order from Powerus for American-Made Drone Components",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Unusual Machines Inc",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2024-02-14",
+        "weburl": "https://www.unusualmachines.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950871973646.png",
+        "market_cap": 812792356.0,
+        "pe_ttm": null,
+        "ps_ttm": 25.5184,
+        "pb_annual": 2.6855,
+        "revenue_growth_ttm_yoy": 313.57,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 34.76,
+        "net_margin_ttm": -20.29,
+        "current_ratio": 61.3187,
+        "debt_equity": 0,
+        "beta": 15.62318
+      },
+      "profile": {
+        "name": "Unusual Machines Inc",
+        "description": "Esta é uma página de exemplo. É diferente de um post no blog porque ela permanecerá em um lugar e aparecerá na navegação do seu site na maioria dos temas. Muitas pessoas começam com uma página que as apresenta a possíveis visitantes do site. Ela pode dizer algo assim: Olá! Eu sou um mensageiro de […]",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://www.unusualmachines.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [
+        "Defense & aerospace"
+      ],
+      "stories": [
+        {
+          "ticker": "UMAC",
+          "company_name": "Unusual Machines, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Unusual Machines, Inc. (0001956955) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001683168-26-008046 Size: 519 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.01: Completion of Acquisition or Disposition of Assets Item 3.02: Unregistered Sales of Equity Securities Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1956955/000168316826008046/0001683168-26-008046-index.htm",
+          "published_at": "2026-10-23T16:14:34-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "bdfaf37f5efb",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "discovery_score": 62.9,
+          "market_attention_score": 31.8,
+          "signal_score": 75.5
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 64.4,
+          "market_attention_score": 33.0,
+          "signal_score": 76.6
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 75.5,
+          "discovery_score": 62.8
+        }
+      ]
+    },
+    {
+      "ticker": "CLYM",
+      "company_name": "Climb Bio, Inc.",
+      "signal_score": 73.6,
+      "market_attention_score": 29.9,
+      "discovery_score": 62.3,
+      "confidence_score": 79.8,
+      "primary_catalyst": "Climb Bio, Inc. (0001768446) (Filer)",
+      "catalyst_category": "Clinical trial",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-23T20:01:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 52,
+      "change": {
+        "signal_delta": 13.1,
+        "discovery_delta": 12.2
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 17,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 13.7,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 12.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Climb Bio Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-08-10",
+        "weburl": "https://climbbio.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950683060856.png",
+        "market_cap": 585275411.6698292,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 1.6996,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 15.1559,
+        "debt_equity": 0,
+        "beta": -0.0024401022
+      },
+      "profile": {
+        "name": "Climb Bio Inc",
+        "description": "At Climb Bio, our team has a knack for seeing what no one else sees—and a drive to achieve results no one expects.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://climbbio.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "CLYM",
+          "company_name": "Climb Bio, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Climb Bio, Inc. (0001768446) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001193125-26-430681 Size: 277 KB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526430681/0001193125-26-430681-index.htm",
+          "published_at": "2026-10-23T17:26:46-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "bc4258be8592",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "CLYM",
+          "company_name": "Climb Bio, Inc.",
+          "source": "Yahoo",
+          "title": "Climb Bio and Mabworks Announce CLYM116/MIL116 Data Demonstrating Deep, Durable APRIL Suppression and ~70% Gd-IgA1 Reduction at ASN Kidney Week 2026",
+          "summary": ">90% free APRIL suppression sustained through 12 weeks, supporting Q12W dosing interval ~70% reduction in Gd-IgA1 at 12 weeks ~33-day half-life NAVIGATE-2 Phase 2 trial enrolling, with initial data expected in the first half of 2027 Global Phase 3 trial expected to initiate in 2027 WELLESLEY HILLS, Mass. and BEIJING, Oct. 23, 2026 (GLOBE NEWSWIRE) -- Climb Bio, Inc. (Nasdaq: CLYM, “Climb Bio”) and Beijing Mabworks B…",
+          "url": "https://finnhub.io/api/news?id=42f10ed8c4637d0c08c4960dbdcb32a9d6793fba4f7908d5cbbaebbba605553c",
+          "published_at": "2026-10-23T20:01:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "31be6d110d99",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "discovery_score": 50.1,
+          "market_attention_score": 25.8,
+          "signal_score": 60.5
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 62.0,
+          "market_attention_score": 28.8,
+          "signal_score": 68.6
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 73.6,
+          "discovery_score": 62.3
         }
       ]
     },
@@ -1366,30 +1470,36 @@
       "history": [
         {
           "date": "2026-10-24",
+          "discovery_score": 62.6,
+          "market_attention_score": 29.9,
+          "signal_score": 70.5
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 70.5,
           "discovery_score": 62.6
         }
       ]
     },
     {
-      "ticker": "CLYM",
-      "company_name": "Climb Bio, Inc.",
-      "signal_score": 68.6,
-      "market_attention_score": 28.8,
-      "discovery_score": 62.0,
+      "ticker": "TRAW",
+      "company_name": "Traws Pharma, Inc.",
+      "signal_score": 69.6,
+      "market_attention_score": 29.3,
+      "discovery_score": 62.8,
       "confidence_score": 67.8,
-      "primary_catalyst": "Climb Bio, Inc. (0001768446) (Filer)",
-      "catalyst_category": "Clinical trial",
+      "primary_catalyst": "Traws Pharma, Inc. (0001130598) (Filer)",
+      "catalyst_category": "Major contract",
       "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
       "article_count_24h": 2,
-      "latest_event_at": "2026-10-23T20:01:00+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 52,
+      "latest_event_at": "2026-10-23T17:23:13+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 2,
       "change": {
-        "signal_delta": 8.1,
-        "discovery_delta": 11.9
+        "signal_delta": null,
+        "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1399,7 +1509,7 @@
       "metrics": {
         "primary_evidence": 25,
         "coverage_acceleration": 9.1,
-        "catalyst_strength": 17,
+        "catalyst_strength": 18,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
@@ -1411,7 +1521,259 @@
         "attention_lift": 13.7,
         "novelty": 19.8,
         "source_breadth": 3.3,
-        "catalyst_strength": 12.8,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 50000000.0,
+        "market_cap_ratio": 9.4991,
+        "score": 20,
+        "label": "Potentially transformative",
+        "basis": "Traws Pharma Enters Stock Purchase Agreement With Roth Principal Investments On Oct 23, 2026; May Sell Up To $50M In Common Stock To Roth Principal Investments",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Traws Pharma Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2013-07-25",
+        "weburl": "https://www.trawspharma.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ONTX.png",
+        "market_cap": 5263634.708208345,
+        "pe_ttm": 0.5698,
+        "ps_ttm": 1.7999,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 131.12,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -616.78,
+        "current_ratio": 0.7159,
+        "debt_equity": 0,
+        "beta": 1.6149863
+      },
+      "profile": {
+        "name": "Traws Pharma Inc",
+        "description": "Targeting escape mutations in hematological cancers with first and best in class medicines.",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.trawspharma.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "TRAW",
+          "company_name": "Traws Pharma, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Traws Pharma, Inc. (0001130598) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001104659-26-118519 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926118519/0001104659-26-118519-index.htm",
+          "published_at": "2026-10-23T17:18:22-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "a4b4c857856d",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-24",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 69.6,
+          "discovery_score": 62.8
+        }
+      ]
+    },
+    {
+      "ticker": "SBMT",
+      "company_name": "SILVER BOW MINING CORP.",
+      "signal_score": 69.6,
+      "market_attention_score": 29.3,
+      "discovery_score": 62.5,
+      "confidence_score": 67.8,
+      "primary_catalyst": "SILVER BOW MINING CORP. (0002067674) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-23T17:14:51+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 62,
+      "change": {
+        "signal_delta": 15.6,
+        "discovery_delta": 10.8
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 18,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 13.7,
+        "novelty": 19.5,
+        "source_breadth": 3.3,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.2,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Silver Bow Mining Corp",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2026-04-30",
+        "weburl": "https://silverbowmining.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950960872436.png",
+        "market_cap": 192525820.0,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 7.2625,
+        "debt_equity": 0,
+        "beta": 3.0044823
+      },
+      "profile": {
+        "name": "Silver Bow Mining Corp",
+        "description": "Silver Bow Mining Corp. is advancing the Butte Mining District of Montana, targeting U.S.-designated Critical Minerals including silver, zinc, gold and lead.",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://silverbowmining.com",
+        "products_markets": [
+          "Mining"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "SBMT",
+          "company_name": "SILVER BOW MINING CORP.",
+          "source": "SEC EDGAR",
+          "title": "SILVER BOW MINING CORP. (0002067674) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001539497-26-002744 Size: 245 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/2067674/000153949726002744/0001539497-26-002744-index.htm",
+          "published_at": "2026-10-23T17:10:48-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "e3689402d64b",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-01",
+          "discovery_score": 69.0,
+          "market_attention_score": 30.5,
+          "signal_score": 68.8
+        },
+        {
+          "date": "2026-10-23",
+          "discovery_score": 51.7,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 69.6,
+          "discovery_score": 62.5
+        }
+      ]
+    },
+    {
+      "ticker": "PHAT",
+      "company_name": "Phathom Pharmaceuticals, Inc.",
+      "signal_score": 69.6,
+      "market_attention_score": 30.1,
+      "discovery_score": 62.8,
+      "confidence_score": 71.8,
+      "primary_catalyst": "Phathom Pharmaceuticals, Inc. (0001783183) (Filer)",
+      "catalyst_category": "Regulatory / FDA",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-23T17:45:21+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 25,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 18,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 13.7,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
         "coverage_ratio_vs_baseline": 2.2,
@@ -1432,34 +1794,34 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Climb Bio Inc",
-        "industry": "Biotechnology",
+        "name": "Phathom Pharmaceuticals Inc",
+        "industry": "Pharmaceuticals",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2021-08-10",
-        "weburl": "https://climbbio.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950683060856.png",
-        "market_cap": 585275411.6698292,
+        "ipo_date": "2019-10-25",
+        "weburl": "https://www.phathompharma.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950694056886.png",
+        "market_cap": 464371410.8302425,
         "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": 1.6996,
-        "revenue_growth_ttm_yoy": null,
+        "ps_ttm": 1.9376,
+        "pb_annual": 8.3239,
+        "revenue_growth_ttm_yoy": 110.16,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": 15.1559,
-        "debt_equity": 0,
-        "beta": -0.0024401022
+        "gross_margin_ttm": 82.92,
+        "net_margin_ttm": -41.34,
+        "current_ratio": 1.7341,
+        "debt_equity": 1.2424,
+        "beta": 0.57539314
       },
       "profile": {
-        "name": "Climb Bio Inc",
-        "description": "At Climb Bio, our team has a knack for seeing what no one else sees—and a drive to achieve results no one expects.",
-        "industry": "Biotechnology",
+        "name": "Phathom Pharmaceuticals Inc",
+        "description": "A late clinical-stage biopharmaceutical company committed to transforming the treatment landscape for people suffering from GI diseases related to acid.",
+        "industry": "Pharmaceuticals",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://climbbio.com/",
+        "website": "https://www.phathompharma.com/",
         "products_markets": [
-          "Biotechnology"
+          "Therapeutics"
         ],
         "source": "Company website"
       },
@@ -1468,45 +1830,180 @@
       ],
       "stories": [
         {
-          "ticker": "CLYM",
-          "company_name": "Climb Bio, Inc.",
+          "ticker": "PHAT",
+          "company_name": "Phathom Pharmaceuticals, Inc.",
           "source": "SEC EDGAR",
-          "title": "Climb Bio, Inc. (0001768446) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001193125-26-430681 Size: 277 KB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1768446/000119312526430681/0001193125-26-430681-index.htm",
-          "published_at": "2026-10-23T17:26:46-04:00",
+          "title": "Phathom Pharmaceuticals, Inc. (0001783183) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001193125-26-430621 Size: 141 KB Item 8.01: Other Events",
+          "url": "https://www.sec.gov/Archives/edgar/data/1783183/000119312526430621/0001193125-26-430621-index.htm",
+          "published_at": "2026-10-23T17:00:48-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "bc4258be8592",
+          "fingerprint": "2231bf61404b",
           "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "CLYM",
-          "company_name": "Climb Bio, Inc.",
-          "source": "Yahoo",
-          "title": "Climb Bio and Mabworks Announce CLYM116/MIL116 Data Demonstrating Deep, Durable APRIL Suppression and ~70% Gd-IgA1 Reduction at ASN Kidney Week 2026",
-          "summary": ">90% free APRIL suppression sustained through 12 weeks, supporting Q12W dosing interval ~70% reduction in Gd-IgA1 at 12 weeks ~33-day half-life NAVIGATE-2 Phase 2 trial enrolling, with initial data expected in the first half of 2027 Global Phase 3 trial expected to initiate in 2027 WELLESLEY HILLS, Mass. and BEIJING, Oct. 23, 2026 (GLOBE NEWSWIRE) -- Climb Bio, Inc. (Nasdaq: CLYM, “Climb Bio”) and Beijing Mabworks B…",
-          "url": "https://finnhub.io/api/news?id=42f10ed8c4637d0c08c4960dbdcb32a9d6793fba4f7908d5cbbaebbba605553c",
-          "published_at": "2026-10-23T20:01:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "31be6d110d99",
-          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-10-23",
-          "discovery_score": 50.1,
-          "market_attention_score": 25.8,
-          "signal_score": 60.5
+          "date": "2026-10-24",
+          "discovery_score": 64.3,
+          "market_attention_score": 30.4,
+          "signal_score": 70.6
         },
         {
           "date": "2026-10-24",
-          "signal_score": 68.6,
-          "discovery_score": 62.0
+          "signal_score": 69.6,
+          "discovery_score": 62.8
+        }
+      ]
+    },
+    {
+      "ticker": "LASE",
+      "company_name": "Laser Photonics Corp",
+      "signal_score": 69.5,
+      "market_attention_score": 28.1,
+      "discovery_score": 58.3,
+      "confidence_score": 79.8,
+      "primary_catalyst": "Laser Photonics Corp (0001807887) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-23T16:19:09+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 62,
+      "change": {
+        "signal_delta": 0.0,
+        "discovery_delta": -0.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 14,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.7,
+        "source_breadth": 3.6,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Laser Photonics Corp",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2022-09-30",
+        "weburl": "https://www.laserphotonics.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950814794896.png",
+        "market_cap": 39940608.47582734,
+        "pe_ttm": null,
+        "ps_ttm": 5.6471,
+        "pb_annual": 7.8289,
+        "revenue_growth_ttm_yoy": -11,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -25.32,
+        "net_margin_ttm": -327.57,
+        "current_ratio": 0.2893,
+        "debt_equity": 0,
+        "beta": 2.4457695
+      },
+      "profile": {
+        "name": "Laser Photonics Corp",
+        "description": "Laser Photonics manufactures reliable, safe, and eco-friendly Laser Cleaning, Laser Cutting, Laser Engraving, Laser Marking, and Laser Welding solutions.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.laserphotonics.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [
+        "Semiconductors",
+        "Defense & aerospace",
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "LASE",
+          "company_name": "Laser Photonics Corp",
+          "source": "SEC EDGAR",
+          "title": "Laser Photonics Corp (0001807887) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001493152-26-048238 Size: 206 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1807887/000149315226048238/0001493152-26-048238-index.htm",
+          "published_at": "2026-10-23T16:15:40-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "7344d4cf6d10",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-15",
+          "discovery_score": 92.6,
+          "market_attention_score": 50.1,
+          "signal_score": 89.5
+        },
+        {
+          "date": "2026-10-17",
+          "discovery_score": 43.9,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-18",
+          "discovery_score": 43.9,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-23",
+          "discovery_score": 58.4,
+          "market_attention_score": 28.8,
+          "signal_score": 69.5
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 58.0,
+          "market_attention_score": 26.9,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 69.5,
+          "discovery_score": 58.3
         }
       ]
     },
@@ -1623,6 +2120,12 @@
           "discovery_score": 58.5,
           "market_attention_score": 28.8,
           "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
         },
         {
           "date": "2026-10-24",
@@ -1747,6 +2250,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 68.0,
           "discovery_score": 62.3
         }
@@ -1868,6 +2377,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 68.0,
           "discovery_score": 62.3
         }
@@ -1986,6 +2501,12 @@
           "discovery_score": 58.5,
           "market_attention_score": 28.8,
           "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
         },
         {
           "date": "2026-10-24",
@@ -2116,6 +2637,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 62.2,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 68.0,
           "discovery_score": 62.2
         }
@@ -2234,6 +2761,12 @@
           "discovery_score": 58.5,
           "market_attention_score": 28.8,
           "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
         },
         {
           "date": "2026-10-24",
@@ -2358,6 +2891,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 68.0,
           "discovery_score": 62.3
         }
@@ -2479,30 +3018,36 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 68.0,
           "discovery_score": 62.3
         }
       ]
     },
     {
-      "ticker": "LASE",
-      "company_name": "Laser Photonics Corp",
-      "signal_score": 64.5,
-      "market_attention_score": 26.9,
-      "discovery_score": 58.0,
+      "ticker": "TGL",
+      "company_name": "TREASURE GLOBAL INC",
+      "signal_score": 62.6,
+      "market_attention_score": 25.8,
+      "discovery_score": 57.0,
       "confidence_score": 67.8,
-      "primary_catalyst": "Laser Photonics Corp (0001807887) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "primary_catalyst": "TREASURE GLOBAL INC (0001905956) (Filer)",
+      "catalyst_category": "Product / technology",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-23T16:15:40-04:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-23T17:21:39+00:00",
       "new_to_radar": false,
-      "days_on_radar": 62,
+      "days_on_radar": 68,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -0.4
+        "signal_delta": 1.1,
+        "discovery_delta": 4.9
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2511,28 +3056,28 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 14,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 11,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.7,
+        "attention_lift": 13.7,
+        "novelty": 19.3,
         "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
+        "catalyst_strength": 8.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.13,
+        "avg_items_24h": 0.27,
         "days_available": 30,
         "maturity": "established"
       },
@@ -2545,85 +3090,78 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Laser Photonics Corp",
-        "industry": "Machinery",
+        "name": "Treasure Global Inc",
+        "industry": "Media",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2022-09-30",
-        "weburl": "https://www.laserphotonics.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950814794896.png",
-        "market_cap": 39940608.47582734,
+        "ipo_date": "2022-08-11",
+        "weburl": "https://treasureglobal.co/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950825012436.png",
+        "market_cap": 1519073.51197411,
         "pe_ttm": null,
-        "ps_ttm": 5.6471,
-        "pb_annual": 7.8289,
-        "revenue_growth_ttm_yoy": -11,
+        "ps_ttm": 0.3876,
+        "pb_annual": 0.3899,
+        "revenue_growth_ttm_yoy": 166.83,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": -25.32,
-        "net_margin_ttm": -327.57,
-        "current_ratio": 0.2893,
-        "debt_equity": 0,
-        "beta": 2.4457695
+        "gross_margin_ttm": 20.31,
+        "net_margin_ttm": -791.47,
+        "current_ratio": 1.5056,
+        "debt_equity": 0.0042,
+        "beta": 0.70565325
       },
       "profile": {
-        "name": "Laser Photonics Corp",
-        "description": "Laser Photonics manufactures reliable, safe, and eco-friendly Laser Cleaning, Laser Cutting, Laser Engraving, Laser Marking, and Laser Welding solutions.",
-        "industry": "Machinery",
+        "name": "Treasure Global Inc",
+        "description": "Treasure Global Inc is a publicly traded company operating in the Media industry with company information identifying US as its home market.",
+        "industry": "Media",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.laserphotonics.com/",
+        "website": "https://treasureglobal.co/",
         "products_markets": [],
-        "source": "Company website"
+        "source": "Structured company profile"
       },
       "themes": [
-        "Semiconductors",
-        "Defense & aerospace",
+        "AI infrastructure",
         "Cloud & software"
       ],
       "stories": [
         {
-          "ticker": "LASE",
-          "company_name": "Laser Photonics Corp",
+          "ticker": "TGL",
+          "company_name": "TREASURE GLOBAL INC",
           "source": "SEC EDGAR",
-          "title": "Laser Photonics Corp (0001807887) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001493152-26-048238 Size: 206 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1807887/000149315226048238/0001493152-26-048238-index.htm",
-          "published_at": "2026-10-23T16:15:40-04:00",
+          "title": "TREASURE GLOBAL INC (0001905956) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001213900-26-112183 Size: 455 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1905956/000121390026112183/0001213900-26-112183-index.htm",
+          "published_at": "2026-10-23T17:15:27-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "7344d4cf6d10",
+          "fingerprint": "eec31990557a",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-09-15",
-          "discovery_score": 92.6,
-          "market_attention_score": 50.1,
-          "signal_score": 89.5
+          "date": "2026-10-01",
+          "discovery_score": 79.4,
+          "market_attention_score": 41.2,
+          "signal_score": 67.3
         },
         {
-          "date": "2026-10-17",
-          "discovery_score": 43.9,
-          "market_attention_score": 21.4,
-          "signal_score": 53.5
-        },
-        {
-          "date": "2026-10-18",
-          "discovery_score": 43.9,
-          "market_attention_score": 21.4,
-          "signal_score": 53.5
+          "date": "2026-10-20",
+          "discovery_score": 64.6,
+          "market_attention_score": 25.6,
+          "signal_score": 59.5
         },
         {
           "date": "2026-10-23",
-          "discovery_score": 58.4,
-          "market_attention_score": 28.8,
-          "signal_score": 69.5
+          "discovery_score": 52.1,
+          "market_attention_score": 24.1,
+          "signal_score": 61.5
         },
         {
           "date": "2026-10-24",
-          "signal_score": 64.5,
-          "discovery_score": 58.0
+          "signal_score": 62.6,
+          "discovery_score": 57.0
         }
       ]
     },
@@ -2727,6 +3265,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 56.9,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 61.0,
           "discovery_score": 56.9
         }
@@ -2817,6 +3361,12 @@
           "discovery_score": 53.2,
           "market_attention_score": 25.2,
           "signal_score": 58.0
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
         },
         {
           "date": "2026-10-24",
@@ -2913,6 +3463,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 61.0,
           "discovery_score": 57.1
         }
@@ -3003,6 +3559,12 @@
           "discovery_score": 53.2,
           "market_attention_score": 25.2,
           "signal_score": 58.0
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
         },
         {
           "date": "2026-10-24",
@@ -3132,6 +3694,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 61.0,
           "discovery_score": 57.1
         }
@@ -3227,6 +3795,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-24",
           "signal_score": 56.5,
           "discovery_score": 52.1
         }
@@ -3315,6 +3889,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-24",
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
         {
           "date": "2026-10-24",
           "signal_score": 56.5,
@@ -3407,6 +3987,12 @@
           "discovery_score": 48.0,
           "market_attention_score": 21.8,
           "signal_score": 51.0
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
         },
         {
           "date": "2026-10-24",
@@ -3505,317 +4091,10 @@
         },
         {
           "date": "2026-10-24",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "AZIO",
-      "company_name": "AZIO AI HOLDINGS, INC.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
-      "confidence_score": 62,
-      "primary_catalyst": "AZIO AI HOLDINGS, INC. (0001563568) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-23T17:20:59-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 66,
-      "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [
-        "AI infrastructure"
-      ],
-      "stories": [
-        {
-          "ticker": "AZIO",
-          "company_name": "AZIO AI HOLDINGS, INC.",
-          "source": "SEC EDGAR",
-          "title": "AZIO AI HOLDINGS, INC. (0001563568) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001437749-26-033434 Size: 407 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1563568/000143774926033434/0001437749-26-033434-index.htm",
-          "published_at": "2026-10-23T17:20:59-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "24a91bec89ae",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-08-28",
-          "discovery_score": 56.8,
-          "market_attention_score": 27.9,
-          "signal_score": 63.5
-        },
-        {
-          "date": "2026-10-23",
-          "discovery_score": 48.0,
+          "discovery_score": 51.8,
           "market_attention_score": 21.8,
-          "signal_score": 51.0
+          "signal_score": 54.0
         },
-        {
-          "date": "2026-10-24",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "HLSQ",
-      "company_name": "Tessera Defense & Homeland Security Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
-      "confidence_score": 62,
-      "primary_catalyst": "Tessera Defense & Homeland Security Inc. (0001739174) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-23T17:20:32-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 30,
-      "change": {
-        "signal_delta": -21.5,
-        "discovery_delta": -6.1
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "BiomX Inc",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "ipo_date": "2018-12-18",
-        "weburl": "https://www.biomx.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950666264976.png",
-        "market_cap": 5610052.999999999,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": 0.874,
-        "debt_equity": 0,
-        "beta": -1.1094645
-      },
-      "profile": {
-        "name": "BiomX Inc",
-        "description": "Tessera helps HLS and enterprise security teams identify threats, understand events faster and coordinate response through one platform",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "website": "https://www.biomx.com/",
-        "products_markets": [
-          "Biotechnology"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Defense & aerospace"
-      ],
-      "stories": [
-        {
-          "ticker": "HLSQ",
-          "company_name": "Tessera Defense & Homeland Security Inc.",
-          "source": "SEC EDGAR",
-          "title": "Tessera Defense & Homeland Security Inc. (0001739174) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001213900-26-112192 Size: 218 KB Item 3.02: Unregistered Sales of Equity Securities Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1739174/000121390026112192/0001213900-26-112192-index.htm",
-          "published_at": "2026-10-23T17:20:32-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "c23c3683188b",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-23",
-          "discovery_score": 57.9,
-          "market_attention_score": 31.2,
-          "signal_score": 75.5
-        },
-        {
-          "date": "2026-10-24",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "TRAW",
-      "company_name": "Traws Pharma, Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
-      "confidence_score": 62,
-      "primary_catalyst": "Traws Pharma, Inc. (0001130598) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-23T17:18:22-04:00",
-      "new_to_radar": true,
-      "days_on_radar": 2,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "TRAW",
-          "company_name": "Traws Pharma, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Traws Pharma, Inc. (0001130598) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001104659-26-118519 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926118519/0001104659-26-118519-index.htm",
-          "published_at": "2026-10-23T17:18:22-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "a4b4c857856d",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
         {
           "date": "2026-10-24",
           "signal_score": 54.0,
