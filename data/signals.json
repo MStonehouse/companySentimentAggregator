@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T16:44:26.634346+00:00",
+    "generated_at": "2026-10-24T19:35:13.867518+00:00",
     "companies_scanned": 84,
     "sources_enabled": {
       "sec_edgar": true,
@@ -23,9 +23,9 @@
       "RIG",
       "CPIX",
       "STEM",
-      "PHAT",
       "CLYM",
       "APCXW",
+      "PHAT",
       "TRAW",
       "SBMT",
       "ARTCU",
@@ -49,13 +49,10 @@
       "EDSA"
     ],
     "emerging_signals": [
-      "CPIX",
       "WULF",
-      "TRAW",
-      "PHAT",
+      "CPIX",
       "UMAC",
       "APCXW",
-      "SBMT",
       "CLYM",
       "ARTCU",
       "FJDIR",
@@ -65,16 +62,19 @@
       "RIBBR",
       "IMAQW",
       "PORT-UN",
+      "TRAW",
       "RIG",
+      "PHAT",
+      "SBMT",
       "STEM",
-      "XXII",
       "LASE",
       "MDCXW",
       "DFLIW",
       "CNTY",
       "AKBA",
-      "TGL",
       "INVLW",
+      "XXII",
+      "TGL",
       "RMXI",
       "GRDX",
       "ANDE",
@@ -84,20 +84,17 @@
   "briefing": {
     "new_emerging": [
       "CPIX",
+      "APCXW",
+      "CLYM",
       "TRAW",
       "PHAT",
-      "APCXW",
       "SBMT",
-      "CLYM"
+      "MDCXW"
     ],
     "accelerating": [
       {
         "ticker": "CLYM",
         "delta": 12.2
-      },
-      {
-        "ticker": "SBMT",
-        "delta": 10.8
       },
       {
         "ticker": "WULF",
@@ -117,14 +114,14 @@
         "headline": "TERAWULF INC. (0001083301) (Filer)"
       },
       {
-        "ticker": "CPIX",
-        "category": "Clinical trial",
-        "headline": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)"
-      },
-      {
         "ticker": "UMAC",
         "category": "M&A",
         "headline": "Unusual Machines, Inc. (0001956955) (Filer)"
+      },
+      {
+        "ticker": "CPIX",
+        "category": "Clinical trial",
+        "headline": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)"
       },
       {
         "ticker": "CLYM",
@@ -153,7 +150,8 @@
       "INVLW",
       "MKTX",
       "NG",
-      "PNC"
+      "PNC",
+      "XXII"
     ]
   },
   "sectors": [
@@ -167,27 +165,27 @@
       ]
     },
     {
+      "sector": "N/A",
+      "company_count": 5,
+      "discovery_intensity": 62.0,
+      "signal_intensity": 68.1,
+      "tickers": [
+        "ARTCU",
+        "FJDIR",
+        "BKHAR",
+        "RIBBR",
+        "SBMT"
+      ]
+    },
+    {
       "sector": "Pharmaceuticals",
       "company_count": 3,
-      "discovery_intensity": 63.6,
-      "signal_intensity": 71.6,
+      "discovery_intensity": 62.0,
+      "signal_intensity": 70.5,
       "tickers": [
         "CPIX",
         "TRAW",
         "PHAT"
-      ]
-    },
-    {
-      "sector": "N/A",
-      "company_count": 5,
-      "discovery_intensity": 62.3,
-      "signal_intensity": 68.3,
-      "tickers": [
-        "SBMT",
-        "ARTCU",
-        "FJDIR",
-        "BKHAR",
-        "RIBBR"
       ]
     },
     {
@@ -220,15 +218,6 @@
       ]
     },
     {
-      "sector": "Tobacco",
-      "company_count": 1,
-      "discovery_intensity": 59.6,
-      "signal_intensity": 75.9,
-      "tickers": [
-        "XXII"
-      ]
-    },
-    {
       "sector": "Machinery",
       "company_count": 1,
       "discovery_intensity": 58.3,
@@ -252,10 +241,19 @@
       ]
     },
     {
+      "sector": "Tobacco",
+      "company_count": 1,
+      "discovery_intensity": 56.4,
+      "signal_intensity": 73.8,
+      "tickers": [
+        "XXII"
+      ]
+    },
+    {
       "sector": "Media",
       "company_count": 1,
-      "discovery_intensity": 57.0,
-      "signal_intensity": 62.6,
+      "discovery_intensity": 55.4,
+      "signal_intensity": 61.5,
       "tickers": [
         "TGL"
       ]
@@ -265,10 +263,10 @@
     {
       "theme": "Biotech & therapeutics",
       "company_count": 5,
-      "intensity": 57.2,
+      "intensity": 56.9,
       "tickers": [
-        "PHAT",
         "CLYM",
+        "PHAT",
         "AKBA",
         "GRDX",
         "EDSA"
@@ -277,7 +275,7 @@
     {
       "theme": "Cloud & software",
       "company_count": 4,
-      "intensity": 60.2,
+      "intensity": 59.8,
       "tickers": [
         "WULF",
         "STEM",
@@ -288,7 +286,7 @@
     {
       "theme": "AI infrastructure",
       "company_count": 4,
-      "intensity": 58.3,
+      "intensity": 57.1,
       "tickers": [
         "WULF",
         "XXII",
@@ -475,149 +473,14 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 63.7,
-          "market_attention_score": 32.8,
-          "signal_score": 75.8
+          "discovery_score": 61.1,
+          "market_attention_score": 33.1,
+          "signal_score": 78.9
         },
         {
           "date": "2026-10-24",
           "signal_score": 78.9,
           "discovery_score": 61.1
-        }
-      ]
-    },
-    {
-      "ticker": "XXII",
-      "company_name": "22nd Century Group, Inc.",
-      "signal_score": 75.9,
-      "market_attention_score": 36.8,
-      "discovery_score": 59.6,
-      "confidence_score": 93.8,
-      "primary_catalyst": "22nd Century Group, Inc. (0001347858) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "13 unique credible information items from 4 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 3,
-      "latest_event_at": "2026-10-23T18:00:23+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 66,
-      "change": {
-        "signal_delta": -3.3,
-        "discovery_delta": -6.0
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 13
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.4,
-        "catalyst_strength": 14,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.25,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.3
-      },
-      "discovery_metrics": {
-        "attention_lift": 14.0,
-        "novelty": 18.7,
-        "source_breadth": 3.9,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.25,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.3
-      },
-      "baseline": {
-        "avg_items_24h": 0.53,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "22nd Century Group Inc",
-        "industry": "Tobacco",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2006-10-17",
-        "weburl": "https://www.xxiicentury.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/XXII.png",
-        "market_cap": 190000.0,
-        "pe_ttm": null,
-        "ps_ttm": 0.0134,
-        "pb_annual": 0.7326,
-        "revenue_growth_ttm_yoy": -27.44,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": -19.44,
-        "net_margin_ttm": -27.04,
-        "current_ratio": 1.1566,
-        "debt_equity": 1.7246,
-        "beta": 0.68191946
-      },
-      "profile": {
-        "name": "22nd Century Group Inc",
-        "description": "22nd Century Group Inc is a publicly traded company operating in the Tobacco industry with company information identifying US as its home market.",
-        "industry": "Tobacco",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.xxiicentury.com/",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "AI infrastructure"
-      ],
-      "stories": [
-        {
-          "ticker": "XXII",
-          "company_name": "22nd Century Group, Inc.",
-          "source": "SEC EDGAR",
-          "title": "22nd Century Group, Inc. (0001347858) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001493152-26-048281 Size: 234 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048281/0001493152-26-048281-index.htm",
-          "published_at": "2026-10-23T17:23:24-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "a0cb35130ece",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-22",
-          "discovery_score": 64.8,
-          "market_attention_score": 31.4,
-          "signal_score": 70.0
-        },
-        {
-          "date": "2026-10-23",
-          "discovery_score": 65.6,
-          "market_attention_score": 38.0,
-          "signal_score": 79.2
-        },
-        {
-          "date": "2026-10-24",
-          "discovery_score": 63.5,
-          "market_attention_score": 38.0,
-          "signal_score": 78.4
-        },
-        {
-          "date": "2026-10-24",
-          "signal_score": 75.9,
-          "discovery_score": 59.6
         }
       ]
     },
@@ -763,9 +626,9 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 66.6,
-          "market_attention_score": 38.7,
-          "signal_score": 74.9
+          "discovery_score": 64.6,
+          "market_attention_score": 41.4,
+          "signal_score": 75.6
         },
         {
           "date": "2026-10-24",
@@ -950,137 +813,14 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.2,
-          "market_attention_score": 30.6,
-          "signal_score": 76.5
+          "discovery_score": 60.8,
+          "market_attention_score": 31.0,
+          "signal_score": 75.6
         },
         {
           "date": "2026-10-24",
           "signal_score": 75.6,
           "discovery_score": 60.8
-        }
-      ]
-    },
-    {
-      "ticker": "CPIX",
-      "company_name": "CUMBERLAND PHARMACEUTICALS INC",
-      "signal_score": 75.5,
-      "market_attention_score": 33.0,
-      "discovery_score": 65.2,
-      "confidence_score": 87.8,
-      "primary_catalyst": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
-      "catalyst_category": "Clinical trial",
-      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 2.6× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 4,
-      "latest_event_at": "2026-10-23T21:08:19+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 58,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 6
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 11.0,
-        "catalyst_strength": 17,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.6,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 16.5,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
-        "catalyst_strength": 12.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.6,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Cumberland Pharmaceuticals Inc",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2009-08-11",
-        "weburl": "https://www.cumberlandpharma.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942961385366.png",
-        "market_cap": 127206576.06721699,
-        "pe_ttm": null,
-        "ps_ttm": 4.0682,
-        "pb_annual": 2.3925,
-        "revenue_growth_ttm_yoy": -25.68,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 82.89,
-        "net_margin_ttm": -34.45,
-        "current_ratio": 1.0086,
-        "debt_equity": 0.2106,
-        "beta": 0.18386619
-      },
-      "profile": {
-        "name": "Cumberland Pharmaceuticals Inc",
-        "description": "Cumberland Pharmaceuticals Inc is a publicly traded company operating in the Pharmaceuticals industry with company information identifying US as its home market.",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.cumberlandpharma.com/",
-        "products_markets": [
-          "Therapeutics"
-        ],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "CPIX",
-          "company_name": "CUMBERLAND PHARMACEUTICALS INC",
-          "source": "SEC EDGAR",
-          "title": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001087294-26-000070 Size: 140 KB Item 8.01: Other Events",
-          "url": "https://www.sec.gov/Archives/edgar/data/1087294/000108729426000070/0001087294-26-000070-index.htm",
-          "published_at": "2026-10-23T17:01:57-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "269c8f622371",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-24",
-          "discovery_score": 64.9,
-          "market_attention_score": 31.1,
-          "signal_score": 70.5
-        },
-        {
-          "date": "2026-10-24",
-          "signal_score": 75.5,
-          "discovery_score": 65.2
         }
       ]
     },
@@ -1202,14 +942,272 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 64.4,
-          "market_attention_score": 33.0,
-          "signal_score": 76.6
+          "discovery_score": 62.8,
+          "market_attention_score": 33.3,
+          "signal_score": 75.5
         },
         {
           "date": "2026-10-24",
           "signal_score": 75.5,
           "discovery_score": 62.8
+        }
+      ]
+    },
+    {
+      "ticker": "CPIX",
+      "company_name": "CUMBERLAND PHARMACEUTICALS INC",
+      "signal_score": 74.6,
+      "market_attention_score": 32.6,
+      "discovery_score": 63.8,
+      "confidence_score": 87.8,
+      "primary_catalyst": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
+      "catalyst_category": "Clinical trial",
+      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 2.4× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-23T21:08:19+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 58,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 6
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 10.1,
+        "catalyst_strength": 17,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 15.2,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 12.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Cumberland Pharmaceuticals Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2009-08-11",
+        "weburl": "https://www.cumberlandpharma.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942961385366.png",
+        "market_cap": 127206576.06721699,
+        "pe_ttm": null,
+        "ps_ttm": 4.0682,
+        "pb_annual": 2.3925,
+        "revenue_growth_ttm_yoy": -25.68,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 82.89,
+        "net_margin_ttm": -34.45,
+        "current_ratio": 1.0086,
+        "debt_equity": 0.2106,
+        "beta": 0.18386619
+      },
+      "profile": {
+        "name": "Cumberland Pharmaceuticals Inc",
+        "description": "Cumberland Pharmaceuticals Inc is a publicly traded company operating in the Pharmaceuticals industry with company information identifying US as its home market.",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.cumberlandpharma.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "CPIX",
+          "company_name": "CUMBERLAND PHARMACEUTICALS INC",
+          "source": "SEC EDGAR",
+          "title": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001087294-26-000070 Size: 140 KB Item 8.01: Other Events",
+          "url": "https://www.sec.gov/Archives/edgar/data/1087294/000108729426000070/0001087294-26-000070-index.htm",
+          "published_at": "2026-10-23T17:01:57-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "269c8f622371",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-24",
+          "discovery_score": 65.2,
+          "market_attention_score": 33.0,
+          "signal_score": 75.5
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 74.6,
+          "discovery_score": 63.8
+        }
+      ]
+    },
+    {
+      "ticker": "XXII",
+      "company_name": "22nd Century Group, Inc.",
+      "signal_score": 73.8,
+      "market_attention_score": 36.0,
+      "discovery_score": 56.4,
+      "confidence_score": 93.8,
+      "primary_catalyst": "22nd Century Group, Inc. (0001347858) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "13 unique credible information items from 4 independent sources. Coverage is 1.9× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-23T18:00:23+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 66,
+      "change": {
+        "signal_delta": -5.4,
+        "discovery_delta": -9.2
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 4,
+        "unique_story_clusters": 13
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 7.3,
+        "catalyst_strength": 14,
+        "corroboration": 15.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.88,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.3
+      },
+      "discovery_metrics": {
+        "attention_lift": 10.9,
+        "novelty": 18.7,
+        "source_breadth": 3.9,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.88,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.3
+      },
+      "baseline": {
+        "avg_items_24h": 0.53,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "22nd Century Group Inc",
+        "industry": "Tobacco",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2006-10-17",
+        "weburl": "https://www.xxiicentury.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/XXII.png",
+        "market_cap": 190000.0,
+        "pe_ttm": null,
+        "ps_ttm": 0.0134,
+        "pb_annual": 0.7326,
+        "revenue_growth_ttm_yoy": -27.44,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -19.44,
+        "net_margin_ttm": -27.04,
+        "current_ratio": 1.1566,
+        "debt_equity": 1.7246,
+        "beta": 0.68191946
+      },
+      "profile": {
+        "name": "22nd Century Group Inc",
+        "description": "22nd Century Group Inc is a publicly traded company operating in the Tobacco industry with company information identifying US as its home market.",
+        "industry": "Tobacco",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.xxiicentury.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "AI infrastructure"
+      ],
+      "stories": [
+        {
+          "ticker": "XXII",
+          "company_name": "22nd Century Group, Inc.",
+          "source": "SEC EDGAR",
+          "title": "22nd Century Group, Inc. (0001347858) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001493152-26-048281 Size: 234 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1347858/000149315226048281/0001493152-26-048281-index.htm",
+          "published_at": "2026-10-23T17:23:24-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "a0cb35130ece",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-22",
+          "discovery_score": 64.8,
+          "market_attention_score": 31.4,
+          "signal_score": 70.0
+        },
+        {
+          "date": "2026-10-23",
+          "discovery_score": 65.6,
+          "market_attention_score": 38.0,
+          "signal_score": 79.2
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 59.6,
+          "market_attention_score": 36.8,
+          "signal_score": 75.9
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 73.8,
+          "discovery_score": 56.4
         }
       ]
     },
@@ -1347,9 +1345,9 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.0,
-          "market_attention_score": 28.8,
-          "signal_score": 68.6
+          "discovery_score": 62.3,
+          "market_attention_score": 29.9,
+          "signal_score": 73.6
         },
         {
           "date": "2026-10-24",
@@ -1478,383 +1476,6 @@
           "date": "2026-10-24",
           "signal_score": 70.5,
           "discovery_score": 62.6
-        }
-      ]
-    },
-    {
-      "ticker": "TRAW",
-      "company_name": "Traws Pharma, Inc.",
-      "signal_score": 69.6,
-      "market_attention_score": 29.3,
-      "discovery_score": 62.8,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Traws Pharma, Inc. (0001130598) (Filer)",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-23T17:23:13+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 2,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 18,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": 50000000.0,
-        "market_cap_ratio": 9.4991,
-        "score": 20,
-        "label": "Potentially transformative",
-        "basis": "Traws Pharma Enters Stock Purchase Agreement With Roth Principal Investments On Oct 23, 2026; May Sell Up To $50M In Common Stock To Roth Principal Investments",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "Traws Pharma Inc",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2013-07-25",
-        "weburl": "https://www.trawspharma.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ONTX.png",
-        "market_cap": 5263634.708208345,
-        "pe_ttm": 0.5698,
-        "ps_ttm": 1.7999,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": 131.12,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": -616.78,
-        "current_ratio": 0.7159,
-        "debt_equity": 0,
-        "beta": 1.6149863
-      },
-      "profile": {
-        "name": "Traws Pharma Inc",
-        "description": "Targeting escape mutations in hematological cancers with first and best in class medicines.",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.trawspharma.com/",
-        "products_markets": [
-          "Therapeutics"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "TRAW",
-          "company_name": "Traws Pharma, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Traws Pharma, Inc. (0001130598) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001104659-26-118519 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926118519/0001104659-26-118519-index.htm",
-          "published_at": "2026-10-23T17:18:22-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "a4b4c857856d",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-24",
-          "discovery_score": 51.8,
-          "market_attention_score": 21.8,
-          "signal_score": 54.0
-        },
-        {
-          "date": "2026-10-24",
-          "signal_score": 69.6,
-          "discovery_score": 62.8
-        }
-      ]
-    },
-    {
-      "ticker": "SBMT",
-      "company_name": "SILVER BOW MINING CORP.",
-      "signal_score": 69.6,
-      "market_attention_score": 29.3,
-      "discovery_score": 62.5,
-      "confidence_score": 67.8,
-      "primary_catalyst": "SILVER BOW MINING CORP. (0002067674) (Filer)",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-23T17:14:51+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 62,
-      "change": {
-        "signal_delta": 15.6,
-        "discovery_delta": 10.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 18,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.5,
-        "source_breadth": 3.3,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.2,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Silver Bow Mining Corp",
-        "industry": "N/A",
-        "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "ipo_date": "2026-04-30",
-        "weburl": "https://silverbowmining.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950960872436.png",
-        "market_cap": 192525820.0,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": 7.2625,
-        "debt_equity": 0,
-        "beta": 3.0044823
-      },
-      "profile": {
-        "name": "Silver Bow Mining Corp",
-        "description": "Silver Bow Mining Corp. is advancing the Butte Mining District of Montana, targeting U.S.-designated Critical Minerals including silver, zinc, gold and lead.",
-        "industry": "N/A",
-        "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "website": "https://silverbowmining.com",
-        "products_markets": [
-          "Mining"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "SBMT",
-          "company_name": "SILVER BOW MINING CORP.",
-          "source": "SEC EDGAR",
-          "title": "SILVER BOW MINING CORP. (0002067674) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001539497-26-002744 Size: 245 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/2067674/000153949726002744/0001539497-26-002744-index.htm",
-          "published_at": "2026-10-23T17:10:48-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "e3689402d64b",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-01",
-          "discovery_score": 69.0,
-          "market_attention_score": 30.5,
-          "signal_score": 68.8
-        },
-        {
-          "date": "2026-10-23",
-          "discovery_score": 51.7,
-          "market_attention_score": 21.8,
-          "signal_score": 54.0
-        },
-        {
-          "date": "2026-10-24",
-          "signal_score": 69.6,
-          "discovery_score": 62.5
-        }
-      ]
-    },
-    {
-      "ticker": "PHAT",
-      "company_name": "Phathom Pharmaceuticals, Inc.",
-      "signal_score": 69.6,
-      "market_attention_score": 30.1,
-      "discovery_score": 62.8,
-      "confidence_score": 71.8,
-      "primary_catalyst": "Phathom Pharmaceuticals, Inc. (0001783183) (Filer)",
-      "catalyst_category": "Regulatory / FDA",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-23T17:45:21+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 25,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 18,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Phathom Pharmaceuticals Inc",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2019-10-25",
-        "weburl": "https://www.phathompharma.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950694056886.png",
-        "market_cap": 464371410.8302425,
-        "pe_ttm": null,
-        "ps_ttm": 1.9376,
-        "pb_annual": 8.3239,
-        "revenue_growth_ttm_yoy": 110.16,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 82.92,
-        "net_margin_ttm": -41.34,
-        "current_ratio": 1.7341,
-        "debt_equity": 1.2424,
-        "beta": 0.57539314
-      },
-      "profile": {
-        "name": "Phathom Pharmaceuticals Inc",
-        "description": "A late clinical-stage biopharmaceutical company committed to transforming the treatment landscape for people suffering from GI diseases related to acid.",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.phathompharma.com/",
-        "products_markets": [
-          "Therapeutics"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "PHAT",
-          "company_name": "Phathom Pharmaceuticals, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Phathom Pharmaceuticals, Inc. (0001783183) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001193125-26-430621 Size: 141 KB Item 8.01: Other Events",
-          "url": "https://www.sec.gov/Archives/edgar/data/1783183/000119312526430621/0001193125-26-430621-index.htm",
-          "published_at": "2026-10-23T17:00:48-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "2231bf61404b",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-24",
-          "discovery_score": 64.3,
-          "market_attention_score": 30.4,
-          "signal_score": 70.6
-        },
-        {
-          "date": "2026-10-24",
-          "signal_score": 69.6,
-          "discovery_score": 62.8
         }
       ]
     },
@@ -1996,14 +1617,397 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 58.0,
-          "market_attention_score": 26.9,
-          "signal_score": 64.5
+          "discovery_score": 58.3,
+          "market_attention_score": 28.1,
+          "signal_score": 69.5
         },
         {
           "date": "2026-10-24",
           "signal_score": 69.5,
           "discovery_score": 58.3
+        }
+      ]
+    },
+    {
+      "ticker": "TRAW",
+      "company_name": "Traws Pharma, Inc.",
+      "signal_score": 68.5,
+      "market_attention_score": 28.9,
+      "discovery_score": 61.1,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Traws Pharma, Inc. (0001130598) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-23T17:23:13+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 2,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 18,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 50000000.0,
+        "market_cap_ratio": 9.4991,
+        "score": 20,
+        "label": "Potentially transformative",
+        "basis": "Traws Pharma Enters Stock Purchase Agreement With Roth Principal Investments On Oct 23, 2026; May Sell Up To $50M In Common Stock To Roth Principal Investments",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Traws Pharma Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2013-07-25",
+        "weburl": "https://www.trawspharma.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ONTX.png",
+        "market_cap": 5263634.708208345,
+        "pe_ttm": 0.5698,
+        "ps_ttm": 1.7999,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 131.12,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -616.78,
+        "current_ratio": 0.7159,
+        "debt_equity": 0,
+        "beta": 1.6149863
+      },
+      "profile": {
+        "name": "Traws Pharma Inc",
+        "description": "Targeting escape mutations in hematological cancers with first and best in class medicines.",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.trawspharma.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "TRAW",
+          "company_name": "Traws Pharma, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Traws Pharma, Inc. (0001130598) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001104659-26-118519 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1130598/000110465926118519/0001104659-26-118519-index.htm",
+          "published_at": "2026-10-23T17:18:22-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "a4b4c857856d",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-24",
+          "discovery_score": 62.8,
+          "market_attention_score": 29.3,
+          "signal_score": 69.6
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 68.5,
+          "discovery_score": 61.1
+        }
+      ]
+    },
+    {
+      "ticker": "SBMT",
+      "company_name": "SILVER BOW MINING CORP.",
+      "signal_score": 68.5,
+      "market_attention_score": 28.9,
+      "discovery_score": 60.8,
+      "confidence_score": 67.8,
+      "primary_catalyst": "SILVER BOW MINING CORP. (0002067674) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-23T17:14:51+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 62,
+      "change": {
+        "signal_delta": 14.5,
+        "discovery_delta": 9.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 18,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.5,
+        "source_breadth": 3.3,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.2,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Silver Bow Mining Corp",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2026-04-30",
+        "weburl": "https://silverbowmining.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950960872436.png",
+        "market_cap": 192525820.0,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 7.2625,
+        "debt_equity": 0,
+        "beta": 3.0044823
+      },
+      "profile": {
+        "name": "Silver Bow Mining Corp",
+        "description": "Silver Bow Mining Corp. is advancing the Butte Mining District of Montana, targeting U.S.-designated Critical Minerals including silver, zinc, gold and lead.",
+        "industry": "N/A",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://silverbowmining.com",
+        "products_markets": [
+          "Mining"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "SBMT",
+          "company_name": "SILVER BOW MINING CORP.",
+          "source": "SEC EDGAR",
+          "title": "SILVER BOW MINING CORP. (0002067674) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001539497-26-002744 Size: 245 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/2067674/000153949726002744/0001539497-26-002744-index.htm",
+          "published_at": "2026-10-23T17:10:48-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "e3689402d64b",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-01",
+          "discovery_score": 69.0,
+          "market_attention_score": 30.5,
+          "signal_score": 68.8
+        },
+        {
+          "date": "2026-10-23",
+          "discovery_score": 51.7,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-24",
+          "discovery_score": 62.5,
+          "market_attention_score": 29.3,
+          "signal_score": 69.6
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 68.5,
+          "discovery_score": 60.8
+        }
+      ]
+    },
+    {
+      "ticker": "PHAT",
+      "company_name": "Phathom Pharmaceuticals, Inc.",
+      "signal_score": 68.5,
+      "market_attention_score": 29.6,
+      "discovery_score": 61.1,
+      "confidence_score": 71.8,
+      "primary_catalyst": "Phathom Pharmaceuticals, Inc. (0001783183) (Filer)",
+      "catalyst_category": "Regulatory / FDA",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-23T17:45:21+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 25,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 18,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Phathom Pharmaceuticals Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2019-10-25",
+        "weburl": "https://www.phathompharma.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950694056886.png",
+        "market_cap": 464371410.8302425,
+        "pe_ttm": null,
+        "ps_ttm": 1.9376,
+        "pb_annual": 8.3239,
+        "revenue_growth_ttm_yoy": 110.16,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 82.92,
+        "net_margin_ttm": -41.34,
+        "current_ratio": 1.7341,
+        "debt_equity": 1.2424,
+        "beta": 0.57539314
+      },
+      "profile": {
+        "name": "Phathom Pharmaceuticals Inc",
+        "description": "A late clinical-stage biopharmaceutical company committed to transforming the treatment landscape for people suffering from GI diseases related to acid.",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.phathompharma.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "PHAT",
+          "company_name": "Phathom Pharmaceuticals, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Phathom Pharmaceuticals, Inc. (0001783183) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001193125-26-430621 Size: 141 KB Item 8.01: Other Events",
+          "url": "https://www.sec.gov/Archives/edgar/data/1783183/000119312526430621/0001193125-26-430621-index.htm",
+          "published_at": "2026-10-23T17:00:48-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "2231bf61404b",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-24",
+          "discovery_score": 62.8,
+          "market_attention_score": 30.1,
+          "signal_score": 69.6
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 68.5,
+          "discovery_score": 61.1
         }
       ]
     },
@@ -3032,22 +3036,22 @@
     {
       "ticker": "TGL",
       "company_name": "TREASURE GLOBAL INC",
-      "signal_score": 62.6,
-      "market_attention_score": 25.8,
-      "discovery_score": 57.0,
+      "signal_score": 61.5,
+      "market_attention_score": 25.4,
+      "discovery_score": 55.4,
       "confidence_score": 67.8,
       "primary_catalyst": "TREASURE GLOBAL INC (0001905956) (Filer)",
       "catalyst_category": "Product / technology",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Above baseline",
-      "article_count_24h": 2,
+      "article_count_24h": 1,
       "latest_event_at": "2026-10-23T17:21:39+00:00",
       "new_to_radar": false,
       "days_on_radar": 68,
       "change": {
-        "signal_delta": 1.1,
-        "discovery_delta": 4.9
+        "signal_delta": 0.0,
+        "discovery_delta": 3.3
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3056,24 +3060,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
+        "coverage_acceleration": 8.0,
         "catalyst_strength": 11,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
+        "attention_lift": 12.0,
         "novelty": 19.3,
         "source_breadth": 3.3,
         "catalyst_strength": 8.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3160,8 +3164,14 @@
         },
         {
           "date": "2026-10-24",
-          "signal_score": 62.6,
-          "discovery_score": 57.0
+          "discovery_score": 57.0,
+          "market_attention_score": 25.8,
+          "signal_score": 62.6
+        },
+        {
+          "date": "2026-10-24",
+          "signal_score": 61.5,
+          "discovery_score": 55.4
         }
       ]
     },

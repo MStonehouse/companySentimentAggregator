@@ -32327,7 +32327,7 @@
       "CIVB": 1,
       "CLYM": 2,
       "CNTY": 1,
-      "CPIX": 4,
+      "CPIX": 3,
       "CTOR": 1,
       "DFLIW": 1,
       "DKL": 1,
@@ -32361,7 +32361,7 @@
       "NIXX": 1,
       "OZ": 1,
       "PBT": 1,
-      "PHAT": 2,
+      "PHAT": 1,
       "PINE-PA": 1,
       "PLCE": 1,
       "PMI": 1,
@@ -32374,15 +32374,15 @@
       "RMXI": 1,
       "SAFX": 1,
       "SAMG": 1,
-      "SBMT": 2,
+      "SBMT": 1,
       "SEATW": 1,
       "SITM": 1,
       "STEM": 3,
       "STRZ": 1,
       "TCRT": 1,
       "TCXB": 1,
-      "TGL": 2,
-      "TRAW": 2,
+      "TGL": 1,
+      "TRAW": 1,
       "UMAC": 1,
       "VAL-WT": 1,
       "WDAY": 1,
@@ -32390,7 +32390,7 @@
       "WYNN": 1,
       "XPON": 1,
       "XRPNW": 1,
-      "XXII": 3
+      "XXII": 1
     }
   },
   "first_seen": {
@@ -41978,13 +41978,10 @@
     },
     "2026-10-24": {
       "emerging_signals": [
-        "CPIX",
         "WULF",
-        "TRAW",
-        "PHAT",
+        "CPIX",
         "UMAC",
         "APCXW",
-        "SBMT",
         "CLYM",
         "ARTCU",
         "FJDIR",
@@ -41994,10 +41991,13 @@
         "RIBBR",
         "IMAQW",
         "PORT-UN",
+        "TRAW",
         "RIG",
+        "PHAT",
+        "SBMT",
         "STEM",
-        "XXII",
-        "LASE"
+        "LASE",
+        "MDCXW"
       ],
       "market_leaders": [
         "WULF",
@@ -42006,9 +42006,9 @@
         "RIG",
         "CPIX",
         "STEM",
-        "PHAT",
         "CLYM",
         "APCXW",
+        "PHAT",
         "TRAW",
         "SBMT",
         "ARTCU",
@@ -56631,9 +56631,9 @@
         "signal_score": 61.0
       },
       "CPIX": {
-        "discovery_score": 65.2,
-        "market_attention_score": 33.0,
-        "signal_score": 75.5
+        "discovery_score": 63.8,
+        "market_attention_score": 32.6,
+        "signal_score": 74.6
       },
       "DFLIW": {
         "discovery_score": 57.1,
@@ -56681,9 +56681,9 @@
         "signal_score": 61.0
       },
       "PHAT": {
-        "discovery_score": 62.8,
-        "market_attention_score": 30.1,
-        "signal_score": 69.6
+        "discovery_score": 61.1,
+        "market_attention_score": 29.6,
+        "signal_score": 68.5
       },
       "PORT-UN": {
         "discovery_score": 62.2,
@@ -56706,9 +56706,9 @@
         "signal_score": 56.5
       },
       "SBMT": {
-        "discovery_score": 62.5,
-        "market_attention_score": 29.3,
-        "signal_score": 69.6
+        "discovery_score": 60.8,
+        "market_attention_score": 28.9,
+        "signal_score": 68.5
       },
       "STEM": {
         "discovery_score": 60.8,
@@ -56721,14 +56721,14 @@
         "signal_score": 68.0
       },
       "TGL": {
-        "discovery_score": 57.0,
-        "market_attention_score": 25.8,
-        "signal_score": 62.6
+        "discovery_score": 55.4,
+        "market_attention_score": 25.4,
+        "signal_score": 61.5
       },
       "TRAW": {
-        "discovery_score": 62.8,
-        "market_attention_score": 29.3,
-        "signal_score": 69.6
+        "discovery_score": 61.1,
+        "market_attention_score": 28.9,
+        "signal_score": 68.5
       },
       "UMAC": {
         "discovery_score": 62.8,
@@ -56741,9 +56741,9 @@
         "signal_score": 75.6
       },
       "XXII": {
-        "discovery_score": 59.6,
-        "market_attention_score": 36.8,
-        "signal_score": 75.9
+        "discovery_score": 56.4,
+        "market_attention_score": 36.0,
+        "signal_score": 73.8
       }
     }
   }
