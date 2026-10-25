@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T06:20:37.532823+00:00",
+    "generated_at": "2026-10-25T17:06:44.927159+00:00",
     "companies_scanned": 84,
     "sources_enabled": {
       "sec_edgar": true,
@@ -304,16 +304,16 @@
       "ticker": "RIG",
       "company_name": "Transocean Ltd.",
       "signal_score": 72.5,
-      "market_attention_score": 30.4,
+      "market_attention_score": 31.6,
       "discovery_score": 50.1,
       "confidence_score": 93.8,
       "primary_catalyst": "Transocean Ltd. (0001451505) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "7 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "8 unique credible information items from 4 independent sources. Coverage is 0.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-24T06:09:52+00:00",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-25T05:13:42+00:00",
       "new_to_radar": false,
       "days_on_radar": 68,
       "change": {
@@ -323,7 +323,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 7
+        "unique_story_clusters": 8
       },
       "metrics": {
         "primary_evidence": 25,
@@ -332,8 +332,8 @@
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.19,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
@@ -343,8 +343,8 @@
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.19,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -446,6 +446,12 @@
           "discovery_score": 48.6,
           "market_attention_score": 29.1,
           "signal_score": 70.5
+        },
+        {
+          "date": "2026-10-25",
+          "discovery_score": 50.1,
+          "market_attention_score": 30.4,
+          "signal_score": 72.5
         },
         {
           "date": "2026-10-25",
@@ -572,6 +578,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 50.8,
+          "market_attention_score": 29.3,
+          "signal_score": 67.5
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 50.8,
           "market_attention_score": 29.3,
           "signal_score": 67.5
@@ -713,6 +725,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 45.6,
+          "market_attention_score": 31.9,
+          "signal_score": 66.5
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 66.5,
           "discovery_score": 45.6
         }
@@ -722,15 +740,15 @@
       "ticker": "WULF",
       "company_name": "TERAWULF INC.",
       "signal_score": 65.5,
-      "market_attention_score": 36.2,
+      "market_attention_score": 35.5,
       "discovery_score": 49.1,
       "confidence_score": 87.8,
       "primary_catalyst": "TERAWULF INC. (0001083301) (Filer)",
       "catalyst_category": "Regulatory / FDA",
-      "why_it_matters": "15 unique credible information items from 3 independent sources. Coverage is 0.6× the stored baseline.",
+      "why_it_matters": "15 unique credible information items from 3 independent sources. Coverage is 0.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 3,
+      "article_count_24h": 1,
       "latest_event_at": "2026-10-24T22:08:19+00:00",
       "new_to_radar": false,
       "days_on_radar": 67,
@@ -750,8 +768,8 @@
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.6,
-        "weighted_coverage_24h": 0.3,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
@@ -761,8 +779,8 @@
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.6,
-        "weighted_coverage_24h": 0.3,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -861,6 +879,12 @@
           "date": "2026-10-24",
           "discovery_score": 49.4,
           "market_attention_score": 37.4,
+          "signal_score": 65.5
+        },
+        {
+          "date": "2026-10-25",
+          "discovery_score": 49.1,
+          "market_attention_score": 36.2,
           "signal_score": 65.5
         },
         {
@@ -1038,6 +1062,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 45.6,
+          "market_attention_score": 25.4,
+          "signal_score": 65.5
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 65.5,
           "discovery_score": 45.6
         }
@@ -1183,6 +1213,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 48.7,
+          "market_attention_score": 26.7,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 64.5,
           "discovery_score": 48.7
         }
@@ -1300,6 +1336,12 @@
       "history": [
         {
           "date": "2026-10-24",
+          "discovery_score": 48.7,
+          "market_attention_score": 27.8,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 48.7,
           "market_attention_score": 27.8,
           "signal_score": 64.5
@@ -1429,6 +1471,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 50.6,
+          "market_attention_score": 25.9,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 62.5,
           "discovery_score": 50.6
         }
@@ -1544,6 +1592,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-25",
+          "discovery_score": 46.4,
+          "market_attention_score": 26.7,
+          "signal_score": 61.5
+        },
         {
           "date": "2026-10-25",
           "signal_score": 61.5,
@@ -1695,6 +1749,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 46.3,
+          "market_attention_score": 24.1,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 61.5,
           "discovery_score": 46.3
         }
@@ -1812,6 +1872,12 @@
       "history": [
         {
           "date": "2026-10-24",
+          "discovery_score": 49.1,
+          "market_attention_score": 24.9,
+          "signal_score": 60.5
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 49.1,
           "market_attention_score": 24.9,
           "signal_score": 60.5
@@ -1953,6 +2019,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 49.0,
+          "market_attention_score": 24.9,
+          "signal_score": 60.5
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 60.5,
           "discovery_score": 49.0
         }
@@ -2072,6 +2144,12 @@
       "history": [
         {
           "date": "2026-10-24",
+          "discovery_score": 49.1,
+          "market_attention_score": 25.6,
+          "signal_score": 60.5
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 49.1,
           "market_attention_score": 25.6,
           "signal_score": 60.5
@@ -2205,6 +2283,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2326,6 +2410,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 50.3,
           "market_attention_score": 24.8,
           "signal_score": 60.0
@@ -2459,6 +2549,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2580,6 +2676,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 50.3,
           "market_attention_score": 24.8,
           "signal_score": 60.0
@@ -2719,6 +2821,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2840,6 +2948,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 50.3,
           "market_attention_score": 24.8,
           "signal_score": 60.0
@@ -2973,6 +3087,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -3094,6 +3214,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 50.3,
           "market_attention_score": 24.8,
           "signal_score": 60.0
@@ -3242,6 +3368,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 43.4,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 53.5,
           "discovery_score": 43.4
         }
@@ -3353,6 +3485,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 44.9,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 53.0,
           "discovery_score": 44.9
         }
@@ -3446,6 +3584,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 45.1,
           "market_attention_score": 21.2,
           "signal_score": 53.0
@@ -3551,6 +3695,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3644,6 +3794,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 45.1,
           "market_attention_score": 21.2,
           "signal_score": 53.0
@@ -3782,6 +3938,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3877,6 +4039,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 40.1,
+          "market_attention_score": 18.9,
+          "signal_score": 48.5
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 40.1,
           "market_attention_score": 18.9,
           "signal_score": 48.5
@@ -3982,6 +4150,12 @@
         },
         {
           "date": "2026-10-25",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-25",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -4077,6 +4251,12 @@
         },
         {
           "date": "2026-10-24",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-10-25",
           "discovery_score": 39.8,
           "market_attention_score": 17.8,
           "signal_score": 46.0
