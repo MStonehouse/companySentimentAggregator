@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T19:47:48.609177+00:00",
+    "generated_at": "2026-10-25T23:22:18.613603+00:00",
     "companies_scanned": 84,
     "sources_enabled": {
       "sec_edgar": true,
@@ -740,15 +740,15 @@
       "ticker": "WULF",
       "company_name": "TERAWULF INC.",
       "signal_score": 65.5,
-      "market_attention_score": 35.5,
+      "market_attention_score": 35.0,
       "discovery_score": 49.1,
       "confidence_score": 87.8,
       "primary_catalyst": "TERAWULF INC. (0001083301) (Filer)",
       "catalyst_category": "Regulatory / FDA",
-      "why_it_matters": "15 unique credible information items from 3 independent sources. Coverage is 0.2× the stored baseline.",
+      "why_it_matters": "15 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
+      "article_count_24h": 0,
       "latest_event_at": "2026-10-24T22:08:19+00:00",
       "new_to_radar": false,
       "days_on_radar": 67,
@@ -768,8 +768,8 @@
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
@@ -779,8 +779,8 @@
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -1486,15 +1486,15 @@
       "ticker": "INSW",
       "company_name": "International Seaways, Inc.",
       "signal_score": 61.5,
-      "market_attention_score": 26.7,
+      "market_attention_score": 26.3,
       "discovery_score": 46.4,
       "confidence_score": 87.8,
       "primary_catalyst": "International Seaways, Inc. (0001679049) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 0.2× the stored baseline.",
+      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
+      "article_count_24h": 0,
       "latest_event_at": "2026-10-24T20:45:33+00:00",
       "new_to_radar": false,
       "days_on_radar": 69,
@@ -1514,8 +1514,8 @@
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
@@ -1525,8 +1525,8 @@
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
