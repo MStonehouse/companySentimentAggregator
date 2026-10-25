@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T23:26:21.268712+00:00",
+    "generated_at": "2026-10-25T06:20:37.532823+00:00",
     "companies_scanned": 84,
     "sources_enabled": {
       "sec_edgar": true,
@@ -19,13 +19,14 @@
     "market_leaders": [
       "WULF",
       "XXII",
-      "UMAC",
       "RIG",
+      "UMAC",
       "CPIX",
-      "STEM",
-      "APCXW",
       "CLYM",
+      "INSW",
+      "APCXW",
       "PHAT",
+      "STEM",
       "TRAW",
       "SBMT",
       "ARTCU",
@@ -44,7 +45,6 @@
       "CNTY",
       "AKBA",
       "RMXI",
-      "GRDX",
       "ANDE",
       "EDSA"
     ],
@@ -55,17 +55,18 @@
       "FJDIR",
       "TCXB",
       "BKHAR",
+      "PORT-UN",
       "IRAB-UN",
       "RIBBR",
       "IMAQW",
-      "PORT-UN",
-      "WULF",
+      "RIG",
       "TRAW",
+      "WULF",
       "PHAT",
       "SBMT",
       "CLYM",
       "CPIX",
-      "RIG",
+      "INSW",
       "LASE",
       "XXII",
       "STEM",
@@ -76,55 +77,20 @@
       "INVLW",
       "TGL",
       "RMXI",
-      "GRDX",
       "ANDE",
       "EDSA"
     ]
   },
   "briefing": {
     "new_emerging": [
-      "APCXW",
-      "TRAW",
-      "PHAT",
-      "SBMT",
-      "CLYM",
-      "CPIX"
+      "INSW"
     ],
     "accelerating": [],
-    "cooling": [
-      {
-        "ticker": "STEM",
-        "delta": -24.6
-      },
-      {
-        "ticker": "XXII",
-        "delta": -20.0
-      },
-      {
-        "ticker": "RIG",
-        "delta": -13.3
-      },
-      {
-        "ticker": "UMAC",
-        "delta": -12.1
-      },
-      {
-        "ticker": "LASE",
-        "delta": -12.1
-      },
-      {
-        "ticker": "PORT-UN",
-        "delta": -12.1
-      },
-      {
-        "ticker": "INVLW",
-        "delta": -12.0
-      }
-    ],
+    "cooling": [],
     "major_catalysts": [
       {
         "ticker": "RIG",
-        "category": "Major contract",
+        "category": "M&A",
         "headline": "Transocean Ltd. (0001451505) (Filer)"
       },
       {
@@ -134,7 +100,7 @@
       },
       {
         "ticker": "WULF",
-        "category": "Major contract",
+        "category": "Regulatory / FDA",
         "headline": "TERAWULF INC. (0001083301) (Filer)"
       },
       {
@@ -164,12 +130,7 @@
       }
     ],
     "left_emerging_top20": [
-      "CIVB",
-      "HLSQ",
-      "INVLW",
-      "MKTX",
-      "NG",
-      "PNC"
+      "STEM"
     ]
   },
   "sectors": [
@@ -189,7 +150,7 @@
     {
       "sector": "Technology",
       "company_count": 1,
-      "discovery_intensity": 49.4,
+      "discovery_intensity": 49.1,
       "signal_intensity": 65.5,
       "tickers": [
         "WULF"
@@ -208,11 +169,12 @@
     },
     {
       "sector": "Energy",
-      "company_count": 1,
-      "discovery_intensity": 48.6,
-      "signal_intensity": 70.5,
+      "company_count": 2,
+      "discovery_intensity": 48.2,
+      "signal_intensity": 67.0,
       "tickers": [
-        "RIG"
+        "RIG",
+        "INSW"
       ]
     },
     {
@@ -245,26 +207,26 @@
       ]
     },
     {
+      "sector": "Unclassified",
+      "company_count": 12,
+      "discovery_intensity": 46.0,
+      "signal_intensity": 54.6,
+      "tickers": [
+        "APCXW",
+        "TCXB",
+        "PORT-UN",
+        "IRAB-UN",
+        "IMAQW",
+        "MDCXW"
+      ]
+    },
+    {
       "sector": "Tobacco",
       "company_count": 1,
       "discovery_intensity": 45.6,
       "signal_intensity": 66.5,
       "tickers": [
         "XXII"
-      ]
-    },
-    {
-      "sector": "Unclassified",
-      "company_count": 13,
-      "discovery_intensity": 45.5,
-      "signal_intensity": 54.1,
-      "tickers": [
-        "APCXW",
-        "TCXB",
-        "IRAB-UN",
-        "IMAQW",
-        "PORT-UN",
-        "MDCXW"
       ]
     },
     {
@@ -280,36 +242,34 @@
   "themes": [
     {
       "theme": "Biotech & therapeutics",
-      "company_count": 5,
-      "intensity": 44.6,
+      "company_count": 4,
+      "intensity": 45.7,
       "tickers": [
         "PHAT",
         "CLYM",
         "AKBA",
-        "GRDX",
         "EDSA"
-      ]
-    },
-    {
-      "theme": "Cloud & software",
-      "company_count": 4,
-      "intensity": 46.2,
-      "tickers": [
-        "WULF",
-        "LASE",
-        "STEM",
-        "TGL"
       ]
     },
     {
       "theme": "AI infrastructure",
       "company_count": 4,
-      "intensity": 44.6,
+      "intensity": 44.5,
       "tickers": [
         "WULF",
         "XXII",
         "TGL",
         "RMXI"
+      ]
+    },
+    {
+      "theme": "Cloud & software",
+      "company_count": 3,
+      "intensity": 45.1,
+      "tickers": [
+        "LASE",
+        "STEM",
+        "TGL"
       ]
     },
     {
@@ -336,14 +296,6 @@
       "tickers": [
         "LASE"
       ]
-    },
-    {
-      "theme": "Power & grid",
-      "company_count": 1,
-      "intensity": 40.1,
-      "tickers": [
-        "GRDX"
-      ]
     }
   ],
   "general_news": [],
@@ -351,48 +303,48 @@
     {
       "ticker": "RIG",
       "company_name": "Transocean Ltd.",
-      "signal_score": 70.5,
-      "market_attention_score": 29.1,
-      "discovery_score": 48.6,
+      "signal_score": 72.5,
+      "market_attention_score": 30.4,
+      "discovery_score": 50.1,
       "confidence_score": 93.8,
       "primary_catalyst": "Transocean Ltd. (0001451505) (Filer)",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "6 unique credible information items from 4 independent sources. Coverage is 0.2× the stored baseline.",
+      "catalyst_category": "M&A",
+      "why_it_matters": "7 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-24T00:38:41+00:00",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-24T06:09:52+00:00",
       "new_to_radar": false,
-      "days_on_radar": 67,
+      "days_on_radar": 68,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -13.3
+        "signal_delta": 2.0,
+        "discovery_delta": 1.5
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 6
+        "unique_story_clusters": 7
       },
       "metrics": {
         "primary_evidence": 25,
         "coverage_acceleration": 0.0,
-        "catalyst_strength": 18,
+        "catalyst_strength": 20,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.19,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
         "novelty": 18.7,
         "source_breadth": 3.9,
-        "catalyst_strength": 13.5,
+        "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.19,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -491,14 +443,14 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 61.1,
-          "market_attention_score": 33.1,
-          "signal_score": 78.9
+          "discovery_score": 48.6,
+          "market_attention_score": 29.1,
+          "signal_score": 70.5
         },
         {
-          "date": "2026-10-24",
-          "signal_score": 70.5,
-          "discovery_score": 48.6
+          "date": "2026-10-25",
+          "signal_score": 72.5,
+          "discovery_score": 50.1
         }
       ]
     },
@@ -517,10 +469,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:14:34-04:00",
       "new_to_radar": false,
-      "days_on_radar": 66,
+      "days_on_radar": 67,
       "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -620,12 +572,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.8,
-          "market_attention_score": 33.3,
-          "signal_score": 75.5
+          "discovery_score": 50.8,
+          "market_attention_score": 29.3,
+          "signal_score": 67.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 67.5,
           "discovery_score": 50.8
         }
@@ -646,10 +598,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T18:00:23+00:00",
       "new_to_radar": false,
-      "days_on_radar": 66,
+      "days_on_radar": 67,
       "change": {
-        "signal_delta": -12.7,
-        "discovery_delta": -20.0
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -755,12 +707,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 56.4,
-          "market_attention_score": 36.0,
-          "signal_score": 73.8
+          "discovery_score": 45.6,
+          "market_attention_score": 31.9,
+          "signal_score": 66.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 66.5,
           "discovery_score": 45.6
         }
@@ -770,26 +722,26 @@
       "ticker": "WULF",
       "company_name": "TERAWULF INC.",
       "signal_score": 65.5,
-      "market_attention_score": 37.4,
-      "discovery_score": 49.4,
+      "market_attention_score": 36.2,
+      "discovery_score": 49.1,
       "confidence_score": 87.8,
       "primary_catalyst": "TERAWULF INC. (0001083301) (Filer)",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "17 unique credible information items from 3 independent sources. Coverage is 0.4× the stored baseline.",
+      "catalyst_category": "Regulatory / FDA",
+      "why_it_matters": "15 unique credible information items from 3 independent sources. Coverage is 0.6× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-24T10:16:54+00:00",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-24T22:08:19+00:00",
       "new_to_radar": false,
-      "days_on_radar": 66,
+      "days_on_radar": 67,
       "change": {
-        "signal_delta": -1.0,
-        "discovery_delta": -5.2
+        "signal_delta": 0.0,
+        "discovery_delta": -0.3
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 17
+        "unique_story_clusters": 15
       },
       "metrics": {
         "primary_evidence": 25,
@@ -798,23 +750,23 @@
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.4,
-        "weighted_coverage_24h": 0.2,
+        "coverage_ratio_vs_baseline": 0.6,
+        "weighted_coverage_24h": 0.3,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
-        "novelty": 19.8,
+        "novelty": 19.5,
         "source_breadth": 3.6,
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.4,
-        "weighted_coverage_24h": 0.2,
+        "coverage_ratio_vs_baseline": 0.6,
+        "weighted_coverage_24h": 0.3,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 0.2,
         "days_available": 30,
         "maturity": "established"
       },
@@ -860,8 +812,7 @@
         "source": "Company website"
       },
       "themes": [
-        "AI infrastructure",
-        "Cloud & software"
+        "AI infrastructure"
       ],
       "stories": [
         {
@@ -908,14 +859,14 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 64.6,
-          "market_attention_score": 41.4,
-          "signal_score": 75.6
+          "discovery_score": 49.4,
+          "market_attention_score": 37.4,
+          "signal_score": 65.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 65.5,
-          "discovery_score": 49.4
+          "discovery_score": 49.1
         }
       ]
     },
@@ -923,26 +874,26 @@
       "ticker": "STEM",
       "company_name": "STEM, INC.",
       "signal_score": 65.5,
-      "market_attention_score": 26.2,
+      "market_attention_score": 25.4,
       "discovery_score": 45.6,
       "confidence_score": 93.8,
       "primary_catalyst": "STEM, INC. (0001758766) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "6 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "5 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T21:32:21+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 2,
+      "new_to_radar": false,
+      "days_on_radar": 3,
       "change": {
-        "signal_delta": -6.0,
-        "discovery_delta": -24.6
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 6
+        "unique_story_clusters": 5
       },
       "metrics": {
         "primary_evidence": 25,
@@ -1070,20 +1021,6 @@
           "fingerprint": "98cf1192fc6e",
           "display_relevance": 0.62,
           "display_relevant": true
-        },
-        {
-          "ticker": "STEM",
-          "company_name": "STEM, INC.",
-          "source": "Benzinga",
-          "title": "BMO Capital Maintains Market Perform on Stem, Lowers Price Target to $5",
-          "summary": "BMO Capital analyst Ameet Thakkar maintains Stem (NYSE:STEM) with a Market Perform and lowers the price target from $8 to $5.",
-          "url": "https://finnhub.io/api/news?id=d9e13557b89602358e48c3b637b5b463583597eba3f1e9118588ce566161b626",
-          "published_at": "2026-10-21T13:37:33+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "406033cfd572",
-          "display_relevance": 0.62,
-          "display_relevant": true
         }
       ],
       "history": [
@@ -1095,12 +1032,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 60.8,
-          "market_attention_score": 31.0,
-          "signal_score": 75.6
+          "discovery_score": 45.6,
+          "market_attention_score": 26.2,
+          "signal_score": 65.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 65.5,
           "discovery_score": 45.6
         }
@@ -1110,26 +1047,26 @@
       "ticker": "CLYM",
       "company_name": "Climb Bio, Inc.",
       "signal_score": 64.5,
-      "market_attention_score": 25.6,
+      "market_attention_score": 26.7,
       "discovery_score": 48.7,
-      "confidence_score": 79.8,
+      "confidence_score": 83.8,
       "primary_catalyst": "Climb Bio, Inc. (0001768446) (Filer)",
       "catalyst_category": "Clinical trial",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 0.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-23T20:01:00+00:00",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-24T23:30:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 52,
+      "days_on_radar": 53,
       "change": {
-        "signal_delta": 4.0,
-        "discovery_delta": -1.4
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 3
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
@@ -1138,8 +1075,8 @@
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
@@ -1149,8 +1086,8 @@
         "catalyst_strength": 12.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -1240,12 +1177,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.3,
-          "market_attention_score": 29.9,
-          "signal_score": 73.6
+          "discovery_score": 48.7,
+          "market_attention_score": 25.6,
+          "signal_score": 64.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 64.5,
           "discovery_score": 48.7
         }
@@ -1266,10 +1203,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T21:08:19+00:00",
       "new_to_radar": false,
-      "days_on_radar": 58,
+      "days_on_radar": 59,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1363,12 +1300,12 @@
       "history": [
         {
           "date": "2026-10-24",
-          "discovery_score": 63.8,
-          "market_attention_score": 32.6,
-          "signal_score": 74.6
+          "discovery_score": 48.7,
+          "market_attention_score": 27.8,
+          "signal_score": 64.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 64.5,
           "discovery_score": 48.7
         }
@@ -1389,10 +1326,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:00:25-04:00",
       "new_to_radar": false,
-      "days_on_radar": 20,
+      "days_on_radar": 21,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1486,14 +1423,131 @@
       "history": [
         {
           "date": "2026-10-24",
-          "discovery_score": 62.6,
-          "market_attention_score": 29.9,
-          "signal_score": 70.5
+          "discovery_score": 50.6,
+          "market_attention_score": 25.9,
+          "signal_score": 62.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 62.5,
           "discovery_score": 50.6
+        }
+      ]
+    },
+    {
+      "ticker": "INSW",
+      "company_name": "International Seaways, Inc.",
+      "signal_score": 61.5,
+      "market_attention_score": 26.7,
+      "discovery_score": 46.4,
+      "confidence_score": 87.8,
+      "primary_catalyst": "International Seaways, Inc. (0001679049) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 0.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-24T20:45:33+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 69,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 6
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 14,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "International Seaways Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2016-11-16",
+        "weburl": "https://www.intlseas.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950001694036.png",
+        "market_cap": 6859919450.89393,
+        "pe_ttm": 8.8047,
+        "ps_ttm": 5.4572,
+        "pb_annual": 1.187,
+        "revenue_growth_ttm_yoy": 57.36,
+        "eps_growth_ttm_yoy": 225.76,
+        "gross_margin_ttm": 73.06,
+        "net_margin_ttm": 61.98,
+        "current_ratio": 3.7116,
+        "debt_equity": 0.2807,
+        "beta": -0.064655654
+      },
+      "profile": {
+        "name": "International Seaways Inc",
+        "description": "International Seaways Inc is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.intlseas.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "INSW",
+          "company_name": "International Seaways, Inc.",
+          "source": "SEC EDGAR",
+          "title": "International Seaways, Inc. (0001679049) (Filer)",
+          "summary": "Filed: 2026-10-23 AccNo: 0001104659-26-118505 Size: 281 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1679049/000110465926118505/0001104659-26-118505-index.htm",
+          "published_at": "2026-10-23T17:00:23-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "95dcb5f2c683",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-25",
+          "signal_score": 61.5,
+          "discovery_score": 46.4
         }
       ]
     },
@@ -1512,10 +1566,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:19:09+00:00",
       "new_to_radar": false,
-      "days_on_radar": 62,
+      "days_on_radar": 63,
       "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1635,12 +1689,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 58.3,
-          "market_attention_score": 28.1,
-          "signal_score": 69.5
+          "discovery_score": 46.3,
+          "market_attention_score": 24.1,
+          "signal_score": 61.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 61.5,
           "discovery_score": 46.3
         }
@@ -1660,11 +1714,11 @@
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:23:13+00:00",
-      "new_to_radar": true,
-      "days_on_radar": 2,
+      "new_to_radar": false,
+      "days_on_radar": 3,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1758,12 +1812,12 @@
       "history": [
         {
           "date": "2026-10-24",
-          "discovery_score": 61.1,
-          "market_attention_score": 28.9,
-          "signal_score": 68.5
+          "discovery_score": 49.1,
+          "market_attention_score": 24.9,
+          "signal_score": 60.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.5,
           "discovery_score": 49.1
         }
@@ -1774,7 +1828,7 @@
       "company_name": "SILVER BOW MINING CORP.",
       "signal_score": 60.5,
       "market_attention_score": 24.9,
-      "discovery_score": 48.8,
+      "discovery_score": 49.0,
       "confidence_score": 67.8,
       "primary_catalyst": "SILVER BOW MINING CORP. (0002067674) (Filer)",
       "catalyst_category": "Major contract",
@@ -1784,10 +1838,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:14:51+00:00",
       "new_to_radar": false,
-      "days_on_radar": 62,
+      "days_on_radar": 63,
       "change": {
-        "signal_delta": 6.5,
-        "discovery_delta": -2.9
+        "signal_delta": 0.0,
+        "discovery_delta": 0.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1807,7 +1861,7 @@
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
-        "novelty": 19.5,
+        "novelty": 19.7,
         "source_breadth": 3.3,
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
@@ -1817,7 +1871,7 @@
         "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.2,
+        "avg_items_24h": 0.13,
         "days_available": 30,
         "maturity": "established"
       },
@@ -1893,14 +1947,14 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 60.8,
-          "market_attention_score": 28.9,
-          "signal_score": 68.5
+          "discovery_score": 48.8,
+          "market_attention_score": 24.9,
+          "signal_score": 60.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.5,
-          "discovery_score": 48.8
+          "discovery_score": 49.0
         }
       ]
     },
@@ -1919,10 +1973,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:45:21+00:00",
       "new_to_radar": false,
-      "days_on_radar": 25,
+      "days_on_radar": 26,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2018,12 +2072,12 @@
       "history": [
         {
           "date": "2026-10-24",
-          "discovery_score": 61.1,
-          "market_attention_score": 29.6,
-          "signal_score": 68.5
+          "discovery_score": 49.1,
+          "market_attention_score": 25.6,
+          "signal_score": 60.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.5,
           "discovery_score": 49.1
         }
@@ -2043,11 +2097,11 @@
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:00:17-04:00",
-      "new_to_radar": true,
-      "days_on_radar": 2,
+      "new_to_radar": false,
+      "days_on_radar": 3,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2145,12 +2199,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.3,
-          "market_attention_score": 28.8,
-          "signal_score": 68.0
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2171,10 +2225,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:51:30-04:00",
       "new_to_radar": false,
-      "days_on_radar": 30,
+      "days_on_radar": 31,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2272,12 +2326,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.3,
-          "market_attention_score": 28.8,
-          "signal_score": 68.0
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2298,10 +2352,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:36:58-04:00",
       "new_to_radar": false,
-      "days_on_radar": 5,
+      "days_on_radar": 6,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2399,12 +2453,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.3,
-          "market_attention_score": 28.8,
-          "signal_score": 68.0
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2425,10 +2479,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:31:14-04:00",
       "new_to_radar": false,
-      "days_on_radar": 61,
+      "days_on_radar": 62,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2526,12 +2580,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.3,
-          "market_attention_score": 28.8,
-          "signal_score": 68.0
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2542,7 +2596,7 @@
       "company_name": "Southport Acquisition Corp. II",
       "signal_score": 60.0,
       "market_attention_score": 24.8,
-      "discovery_score": 50.2,
+      "discovery_score": 50.3,
       "confidence_score": 62,
       "primary_catalyst": "Southport Acquisition Corp. II (0002148436) (Filer)",
       "catalyst_category": "M&A",
@@ -2552,10 +2606,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:30:27-04:00",
       "new_to_radar": false,
-      "days_on_radar": 23,
+      "days_on_radar": 24,
       "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2575,7 +2629,7 @@
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
-        "novelty": 19.7,
+        "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
@@ -2585,7 +2639,7 @@
         "weighted_source_breadth": 1.0
       },
       "baseline": {
-        "avg_items_24h": 0.13,
+        "avg_items_24h": 0.07,
         "days_available": 30,
         "maturity": "established"
       },
@@ -2659,14 +2713,14 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.2,
-          "market_attention_score": 28.8,
-          "signal_score": 68.0
+          "discovery_score": 50.2,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.0,
-          "discovery_score": 50.2
+          "discovery_score": 50.3
         }
       ]
     },
@@ -2684,11 +2738,11 @@
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:30:23-04:00",
-      "new_to_radar": true,
-      "days_on_radar": 2,
+      "new_to_radar": false,
+      "days_on_radar": 3,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2786,12 +2840,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.3,
-          "market_attention_score": 28.8,
-          "signal_score": 68.0
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2812,10 +2866,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:30:23-04:00",
       "new_to_radar": false,
-      "days_on_radar": 52,
+      "days_on_radar": 53,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2913,12 +2967,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.3,
-          "market_attention_score": 28.8,
-          "signal_score": 68.0
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2939,10 +2993,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:30:15-04:00",
       "new_to_radar": false,
-      "days_on_radar": 62,
+      "days_on_radar": 63,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3040,12 +3094,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 62.3,
-          "market_attention_score": 28.8,
-          "signal_score": 68.0
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -3066,10 +3120,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:21:39+00:00",
       "new_to_radar": false,
-      "days_on_radar": 68,
+      "days_on_radar": 69,
       "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -8.7
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3182,12 +3236,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 55.4,
-          "market_attention_score": 25.4,
-          "signal_score": 61.5
+          "discovery_score": 43.4,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 53.5,
           "discovery_score": 43.4
         }
@@ -3208,10 +3262,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:30:08-04:00",
       "new_to_radar": false,
-      "days_on_radar": 67,
+      "days_on_radar": 68,
       "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.0
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3293,12 +3347,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 56.9,
-          "market_attention_score": 25.2,
-          "signal_score": 61.0
+          "discovery_score": 44.9,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 53.0,
           "discovery_score": 44.9
         }
@@ -3319,10 +3373,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:15:16-04:00",
       "new_to_radar": false,
-      "days_on_radar": 52,
+      "days_on_radar": 53,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3392,12 +3446,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 57.1,
-          "market_attention_score": 25.2,
-          "signal_score": 61.0
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3418,10 +3472,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:30:15-04:00",
       "new_to_radar": false,
-      "days_on_radar": 65,
+      "days_on_radar": 66,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3491,12 +3545,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 57.1,
-          "market_attention_score": 25.2,
-          "signal_score": 61.0
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3517,10 +3571,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:19:47-04:00",
       "new_to_radar": false,
-      "days_on_radar": 25,
+      "days_on_radar": 26,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3590,12 +3644,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 57.1,
-          "market_attention_score": 25.2,
-          "signal_score": 61.0
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3616,10 +3670,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T16:06:26-04:00",
       "new_to_radar": false,
-      "days_on_radar": 47,
+      "days_on_radar": 48,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3722,12 +3776,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 57.1,
-          "market_attention_score": 25.2,
-          "signal_score": 61.0
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3748,10 +3802,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:16:04-04:00",
       "new_to_radar": false,
-      "days_on_radar": 22,
+      "days_on_radar": 23,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3823,108 +3877,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 52.1,
-          "market_attention_score": 22.9,
-          "signal_score": 56.5
+          "discovery_score": 40.1,
+          "market_attention_score": 18.9,
+          "signal_score": 48.5
         },
         {
-          "date": "2026-10-24",
-          "signal_score": 48.5,
-          "discovery_score": 40.1
-        }
-      ]
-    },
-    {
-      "ticker": "GRDX",
-      "company_name": "GridAI Technologies Corp.",
-      "signal_score": 48.5,
-      "market_attention_score": 18.9,
-      "discovery_score": 40.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "GridAI Technologies Corp. (0001604191) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-23T17:00:57-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 44,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [
-        "Power & grid",
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "GRDX",
-          "company_name": "GridAI Technologies Corp.",
-          "source": "SEC EDGAR",
-          "title": "GridAI Technologies Corp. (0001604191) (Filer)",
-          "summary": "Filed: 2026-10-23 AccNo: 0001104659-26-118506 Size: 189 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/1604191/000110465926118506/0001104659-26-118506-index.htm",
-          "published_at": "2026-10-23T17:00:57-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "53756c9ea45c",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-24",
-          "discovery_score": 52.1,
-          "market_attention_score": 22.9,
-          "signal_score": 56.5
-        },
-        {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 48.5,
           "discovery_score": 40.1
         }
@@ -3945,10 +3903,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:28:36-04:00",
       "new_to_radar": false,
-      "days_on_radar": 65,
+      "days_on_radar": 66,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -4018,12 +3976,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 51.8,
-          "market_attention_score": 21.8,
-          "signal_score": 54.0
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -4044,10 +4002,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-23T17:24:29-04:00",
       "new_to_radar": false,
-      "days_on_radar": 67,
+      "days_on_radar": 68,
       "change": {
-        "signal_delta": -7.5,
-        "discovery_delta": -8.5
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -4119,12 +4077,12 @@
         },
         {
           "date": "2026-10-24",
-          "discovery_score": 51.8,
-          "market_attention_score": 21.8,
-          "signal_score": 54.0
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
         },
         {
-          "date": "2026-10-24",
+          "date": "2026-10-25",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
