@@ -30655,19 +30655,19 @@
       "CFFI": 1,
       "CLS": 1,
       "CMCO": 1,
-      "CPIX": 2,
+      "CPIX": 4,
       "CTOS": 1,
       "CVSI": 1,
       "CYCUW": 1,
       "DG": 8,
       "DHI": 1,
       "DORM": 1,
-      "EQ": 3,
+      "EQ": 4,
       "ETST": 1,
       "EVEX-WT": 1,
       "FDUS": 1,
-      "FFAI": 2,
-      "FFR": 2,
+      "FFAI": 6,
+      "FFR": 4,
       "FLXS": 1,
       "FLZH": 1,
       "FSUN": 1,
@@ -30684,7 +30684,7 @@
       "HIT": 1,
       "HTO": 1,
       "HWKN": 1,
-      "IQST": 2,
+      "IQST": 3,
       "JBLU": 1,
       "KNTK": 1,
       "LANDO": 1,
@@ -30694,7 +30694,7 @@
       "MEDS": 1,
       "MIRM": 3,
       "MYSZ": 1,
-      "NDAQ": 6,
+      "NDAQ": 5,
       "NE-WT": 1,
       "NEWH": 1,
       "NMFCZ": 1,
@@ -30708,11 +30708,11 @@
       "PPTA": 3,
       "PRK": 1,
       "PTORU": 2,
-      "RENT": 6,
+      "RENT": 5,
       "RLYB": 1,
       "SNTI": 2,
-      "SORNU": 1,
-      "SSD": 8,
+      "SORNU": 2,
+      "SSD": 10,
       "SUPN": 1,
       "SXI": 1,
       "TBI": 1,
@@ -40326,48 +40326,48 @@
     },
     "2026-10-27": {
       "emerging_signals": [
-        "BRO",
         "SSD",
+        "BRO",
         "DG",
+        "EQ",
         "CBK",
+        "IQST",
         "PPTA",
         "ONCO",
-        "EQ",
-        "IQST",
+        "FFAI",
+        "FFR",
+        "SORNU",
         "PTORU",
         "WEAV",
         "SNTI",
-        "NDAQ",
+        "CPIX",
         "OPNW",
+        "NDAQ",
         "LGVN",
-        "RENT",
-        "FFR",
         "UTL",
-        "FFAI",
-        "BEAGR",
-        "YHNAU"
+        "BEAGR"
       ],
       "market_leaders": [
-        "BRO",
         "SSD",
+        "BRO",
+        "FFAI",
         "DG",
         "NDAQ",
+        "FFR",
         "OPNW",
+        "EQ",
+        "CPIX",
+        "IQST",
         "PPTA",
         "ONCO",
-        "EQ",
         "LGVN",
-        "IQST",
+        "SORNU",
         "PTORU",
         "WEAV",
         "SNTI",
         "CBK",
         "UTL",
-        "BEAGR",
-        "YHNAU",
-        "SORNU",
-        "RENT",
-        "FFAI"
+        "BEAGR"
       ]
     }
   },
@@ -54639,9 +54639,9 @@
         "signal_score": 68.0
       },
       "CPIX": {
-        "discovery_score": 53.8,
-        "market_attention_score": 23.3,
-        "signal_score": 57.6
+        "discovery_score": 66.0,
+        "market_attention_score": 32.0,
+        "signal_score": 76.5
       },
       "CYCUW": {
         "discovery_score": 51.8,
@@ -54654,9 +54654,9 @@
         "signal_score": 71.0
       },
       "EQ": {
-        "discovery_score": 73.3,
-        "market_attention_score": 30.4,
-        "signal_score": 66.5
+        "discovery_score": 81.6,
+        "market_attention_score": 32.0,
+        "signal_score": 72.0
       },
       "EVEX-WT": {
         "discovery_score": 53.2,
@@ -54664,14 +54664,14 @@
         "signal_score": 58.0
       },
       "FFAI": {
-        "discovery_score": 58.7,
-        "market_attention_score": 27.6,
-        "signal_score": 64.6
+        "discovery_score": 69.3,
+        "market_attention_score": 36.4,
+        "signal_score": 75.2
       },
       "FFR": {
-        "discovery_score": 58.9,
-        "market_attention_score": 26.8,
-        "signal_score": 64.6
+        "discovery_score": 67.0,
+        "market_attention_score": 33.4,
+        "signal_score": 73.5
       },
       "GJO": {
         "discovery_score": 48.0,
@@ -54694,9 +54694,9 @@
         "signal_score": 54.0
       },
       "IQST": {
-        "discovery_score": 66.8,
-        "market_attention_score": 30.3,
-        "signal_score": 68.0
+        "discovery_score": 75.1,
+        "market_attention_score": 31.9,
+        "signal_score": 73.5
       },
       "LGVN": {
         "discovery_score": 63.8,
@@ -54714,9 +54714,9 @@
         "signal_score": 63.6
       },
       "NDAQ": {
-        "discovery_score": 65.5,
-        "market_attention_score": 34.5,
-        "signal_score": 74.2
+        "discovery_score": 64.3,
+        "market_attention_score": 34.1,
+        "signal_score": 73.4
       },
       "NPB": {
         "discovery_score": 57.4,
@@ -54744,9 +54744,9 @@
         "signal_score": 68.0
       },
       "RENT": {
-        "discovery_score": 59.5,
-        "market_attention_score": 28.3,
-        "signal_score": 66.2
+        "discovery_score": 58.3,
+        "market_attention_score": 27.9,
+        "signal_score": 65.4
       },
       "SNTI": {
         "discovery_score": 66.8,
@@ -54754,14 +54754,14 @@
         "signal_score": 68.0
       },
       "SORNU": {
-        "discovery_score": 58.5,
-        "market_attention_score": 28.8,
-        "signal_score": 65.0
+        "discovery_score": 66.8,
+        "market_attention_score": 30.3,
+        "signal_score": 68.0
       },
       "SSD": {
-        "discovery_score": 84.9,
-        "market_attention_score": 38.5,
-        "signal_score": 79.0
+        "discovery_score": 85.2,
+        "market_attention_score": 41.2,
+        "signal_score": 80.0
       },
       "UTL": {
         "discovery_score": 58.8,

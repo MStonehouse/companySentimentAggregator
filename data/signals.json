@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-27T00:37:18.774491+00:00",
+    "generated_at": "2026-10-27T06:27:36.048761+00:00",
     "companies_scanned": 80,
     "sources_enabled": {
       "sec_edgar": true,
@@ -17,16 +17,20 @@
   },
   "rankings": {
     "market_leaders": [
-      "BRO",
       "SSD",
+      "BRO",
+      "FFAI",
       "DG",
       "NDAQ",
+      "FFR",
       "OPNW",
+      "EQ",
+      "CPIX",
+      "IQST",
       "PPTA",
       "ONCO",
-      "EQ",
       "LGVN",
-      "IQST",
+      "SORNU",
       "PTORU",
       "WEAV",
       "SNTI",
@@ -34,45 +38,41 @@
       "UTL",
       "BEAGR",
       "YHNAU",
-      "SORNU",
       "RENT",
-      "FFAI",
-      "FFR",
       "NPB",
       "EVEX-WT",
       "ZEOWW",
       "MIRM",
-      "CPIX",
       "GJO",
       "GJP",
       "LXFR",
       "VENU"
     ],
     "emerging_signals": [
-      "BRO",
       "SSD",
+      "BRO",
       "DG",
+      "EQ",
       "CBK",
+      "IQST",
       "PPTA",
       "ONCO",
-      "EQ",
-      "IQST",
+      "FFAI",
+      "FFR",
+      "SORNU",
       "PTORU",
       "WEAV",
       "SNTI",
-      "NDAQ",
+      "CPIX",
       "OPNW",
+      "NDAQ",
       "LGVN",
-      "RENT",
-      "FFR",
       "UTL",
-      "FFAI",
       "BEAGR",
       "YHNAU",
-      "SORNU",
+      "RENT",
       "NPB",
       "MIRM",
-      "CPIX",
       "EVEX-WT",
       "ZEOWW",
       "CYCUW",
@@ -83,19 +83,23 @@
   },
   "briefing": {
     "new_emerging": [
-      "BRO",
       "SSD",
+      "BRO",
       "DG",
-      "CBK",
-      "PPTA",
-      "ONCO",
       "EQ",
-      "IQST"
+      "CBK",
+      "IQST",
+      "PPTA",
+      "ONCO"
     ],
     "accelerating": [
       {
         "ticker": "DG",
         "delta": 22.3
+      },
+      {
+        "ticker": "CPIX",
+        "delta": 17.3
       },
       {
         "ticker": "OPNW",
@@ -104,24 +108,20 @@
     ],
     "cooling": [
       {
-        "ticker": "FFAI",
-        "delta": -16.1
-      },
-      {
         "ticker": "NDAQ",
-        "delta": -12.8
+        "delta": -14.0
       }
     ],
     "major_catalysts": [
       {
-        "ticker": "BRO",
-        "category": "Major contract",
-        "headline": "BROWN & BROWN, INC. (0000079282) (Filer)"
-      },
-      {
         "ticker": "SSD",
         "category": "Regulatory / FDA",
         "headline": "Simpson Manufacturing Co., Inc. (0000920371) (Filer)"
+      },
+      {
+        "ticker": "BRO",
+        "category": "Major contract",
+        "headline": "BROWN & BROWN, INC. (0000079282) (Filer)"
       },
       {
         "ticker": "DG",
@@ -134,24 +134,24 @@
         "headline": "OpenWorld, Inc. (0001104038) (Filer)"
       },
       {
-        "ticker": "LGVN",
-        "category": "Clinical trial",
-        "headline": "Longeveron Inc. (0001721484) (Filer)"
-      },
-      {
-        "ticker": "ONCO",
+        "ticker": "CPIX",
         "category": "Regulatory / FDA",
-        "headline": "Onconetix, Inc. (0001782107) (Filer)"
-      },
-      {
-        "ticker": "PPTA",
-        "category": "M&A",
-        "headline": "PERPETUA RESOURCES CORP. (0001526243) (Filer)"
+        "headline": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)"
       },
       {
         "ticker": "EQ",
         "category": "Major contract",
         "headline": "Equillium, Inc. (0001746466) (Filer)"
+      },
+      {
+        "ticker": "FFAI",
+        "category": "M&A",
+        "headline": "FARADAY FUTURE INTELLIGENT ELECTRIC INC. (0001805521) (Filer)"
+      },
+      {
+        "ticker": "LGVN",
+        "category": "Clinical trial",
+        "headline": "Longeveron Inc. (0001721484) (Filer)"
       }
     ],
     "left_emerging_top20": [
@@ -169,10 +169,19 @@
     {
       "sector": "Building",
       "company_count": 1,
-      "discovery_intensity": 84.9,
-      "signal_intensity": 79.0,
+      "discovery_intensity": 85.2,
+      "signal_intensity": 80.0,
       "tickers": [
         "SSD"
+      ]
+    },
+    {
+      "sector": "Telecommunication",
+      "company_count": 1,
+      "discovery_intensity": 75.1,
+      "signal_intensity": 73.5,
+      "tickers": [
+        "IQST"
       ]
     },
     {
@@ -187,11 +196,20 @@
     {
       "sector": "Retail",
       "company_count": 2,
-      "discovery_intensity": 70.9,
-      "signal_intensity": 68.6,
+      "discovery_intensity": 70.3,
+      "signal_intensity": 68.2,
       "tickers": [
         "DG",
         "RENT"
+      ]
+    },
+    {
+      "sector": "Automobiles",
+      "company_count": 1,
+      "discovery_intensity": 69.3,
+      "signal_intensity": 75.2,
+      "tickers": [
+        "FFAI"
       ]
     },
     {
@@ -205,6 +223,20 @@
       ]
     },
     {
+      "sector": "Biotechnology",
+      "company_count": 6,
+      "discovery_intensity": 68.0,
+      "signal_intensity": 70.5,
+      "tickers": [
+        "EQ",
+        "ONCO",
+        "FFR",
+        "SNTI",
+        "LGVN",
+        "MIRM"
+      ]
+    },
+    {
       "sector": "Banking",
       "company_count": 2,
       "discovery_intensity": 68.0,
@@ -215,20 +247,12 @@
       ]
     },
     {
-      "sector": "Telecommunication",
-      "company_count": 1,
-      "discovery_intensity": 66.8,
-      "signal_intensity": 68.0,
-      "tickers": [
-        "IQST"
-      ]
-    },
-    {
       "sector": "N/A",
-      "company_count": 1,
+      "company_count": 2,
       "discovery_intensity": 66.8,
       "signal_intensity": 68.0,
       "tickers": [
+        "SORNU",
         "PTORU"
       ]
     },
@@ -242,12 +266,12 @@
       ]
     },
     {
-      "sector": "Financial Services",
+      "sector": "Pharmaceuticals",
       "company_count": 1,
-      "discovery_intensity": 65.5,
-      "signal_intensity": 74.2,
+      "discovery_intensity": 66.0,
+      "signal_intensity": 76.5,
       "tickers": [
-        "NDAQ"
+        "CPIX"
       ]
     },
     {
@@ -258,32 +282,31 @@
       "tickers": [
         "OPNW"
       ]
-    },
-    {
-      "sector": "Biotechnology",
-      "company_count": 6,
-      "discovery_intensity": 65.3,
-      "signal_intensity": 68.1,
-      "tickers": [
-        "ONCO",
-        "EQ",
-        "SNTI",
-        "LGVN",
-        "FFR",
-        "MIRM"
-      ]
-    },
-    {
-      "sector": "Utilities",
-      "company_count": 1,
-      "discovery_intensity": 58.8,
-      "signal_intensity": 67.5,
-      "tickers": [
-        "UTL"
-      ]
     }
   ],
   "themes": [
+    {
+      "theme": "Cloud & software",
+      "company_count": 5,
+      "intensity": 68.5,
+      "tickers": [
+        "IQST",
+        "FFAI",
+        "FFR",
+        "WEAV",
+        "NDAQ"
+      ]
+    },
+    {
+      "theme": "Biotech & therapeutics",
+      "company_count": 3,
+      "intensity": 70.5,
+      "tickers": [
+        "EQ",
+        "CPIX",
+        "LGVN"
+      ]
+    },
     {
       "theme": "Financial technology",
       "company_count": 2,
@@ -294,39 +317,21 @@
       ]
     },
     {
-      "theme": "Biotech & therapeutics",
-      "company_count": 2,
-      "intensity": 68.5,
-      "tickers": [
-        "EQ",
-        "LGVN"
-      ]
-    },
-    {
-      "theme": "Cloud & software",
-      "company_count": 2,
-      "intensity": 66.2,
-      "tickers": [
-        "WEAV",
-        "NDAQ"
-      ]
-    },
-    {
       "theme": "AI infrastructure",
       "company_count": 2,
-      "intensity": 58.8,
+      "intensity": 68.2,
       "tickers": [
-        "FFR",
-        "FFAI"
+        "FFAI",
+        "FFR"
       ]
     },
     {
       "theme": "Robotics & automation",
       "company_count": 2,
-      "intensity": 58.8,
+      "intensity": 68.2,
       "tickers": [
-        "FFR",
-        "FFAI"
+        "FFAI",
+        "FFR"
       ]
     },
     {
@@ -348,7 +353,7 @@
     {
       "theme": "Semiconductors",
       "company_count": 1,
-      "intensity": 65.5,
+      "intensity": 64.3,
       "tickers": [
         "NDAQ"
       ]
@@ -364,6 +369,127 @@
   ],
   "general_news": [],
   "companies": [
+    {
+      "ticker": "SSD",
+      "company_name": "Simpson Manufacturing Co., Inc.",
+      "signal_score": 80.0,
+      "market_attention_score": 41.2,
+      "discovery_score": 85.2,
+      "confidence_score": 93.8,
+      "primary_catalyst": "Simpson Manufacturing Co., Inc. (0000920371) (Filer)",
+      "catalyst_category": "Regulatory / FDA",
+      "why_it_matters": "12 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Accelerating leader",
+      "article_count_24h": 10,
+      "latest_event_at": "2026-10-27T03:28:31+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 67,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 5,
+        "unique_story_clusters": 12
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 9.5,
+        "catalyst_strength": 18,
+        "corroboration": 15.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.9,
+        "weighted_coverage_24h": 1.9,
+        "weighted_source_breadth": 1.4
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 4.2,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.9,
+        "weighted_coverage_24h": 1.9,
+        "weighted_source_breadth": 1.4
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 1000000000.0,
+        "market_cap_ratio": 0.1341,
+        "score": 14,
+        "label": "Material",
+        "basis": "Simpson Manufacturing Co., Inc. Announces New $1.0 Billion Share Repurchase Authorization",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Simpson Manufacturing Co., Inc.",
+        "industry": "Building",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1994-05-26",
+        "weburl": "http://www.simpsonmfg.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SSD.png",
+        "market_cap": 7458802663.627414,
+        "pe_ttm": 19.7506,
+        "ps_ttm": 3.0901,
+        "pb_annual": 3.2981,
+        "revenue_growth_ttm_yoy": 6.48,
+        "eps_growth_ttm_yoy": 16.5,
+        "gross_margin_ttm": 45.72,
+        "net_margin_ttm": 15.65,
+        "current_ratio": 3.5425,
+        "debt_equity": 0.1825,
+        "beta": 1.3859437
+      },
+      "profile": {
+        "name": "Simpson Manufacturing Co., Inc.",
+        "description": "Simpson Manufacturing Co., Inc. is a publicly traded company operating in the Building industry with company information identifying US as its home market.",
+        "industry": "Building",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "http://www.simpsonmfg.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "SSD",
+          "company_name": "Simpson Manufacturing Co., Inc.",
+          "source": "SEC EDGAR",
+          "title": "Simpson Manufacturing Co., Inc. (0000920371) (Filer)",
+          "summary": "Filed: 2026-10-26 AccNo: 0001628280-26-067288 Size: 8 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026067288/0001628280-26-067288-index.htm",
+          "published_at": "2026-10-26T16:18:01-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "fc406408e701",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 84.9,
+          "market_attention_score": 38.5,
+          "signal_score": 79.0
+        },
+        {
+          "date": "2026-10-27",
+          "signal_score": 80.0,
+          "discovery_score": 85.2
+        }
+      ]
+    },
     {
       "ticker": "BRO",
       "company_name": "BROWN & BROWN, INC.",
@@ -480,119 +606,10 @@
         },
         {
           "date": "2026-10-27",
-          "signal_score": 79.0,
-          "discovery_score": 84.9
-        }
-      ]
-    },
-    {
-      "ticker": "SSD",
-      "company_name": "Simpson Manufacturing Co., Inc.",
-      "signal_score": 79.0,
-      "market_attention_score": 38.5,
-      "discovery_score": 84.9,
-      "confidence_score": 93.8,
-      "primary_catalyst": "Simpson Manufacturing Co., Inc. (0000920371) (Filer)",
-      "catalyst_category": "Regulatory / FDA",
-      "why_it_matters": "10 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Accelerating leader",
-      "article_count_24h": 8,
-      "latest_event_at": "2026-10-27T00:04:16+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 67,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 10
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.5,
-        "catalyst_strength": 18,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.7,
-        "weighted_coverage_24h": 1.7,
-        "weighted_source_breadth": 1.3
-      },
-      "discovery_metrics": {
-        "attention_lift": 35.0,
-        "novelty": 20.0,
-        "source_breadth": 3.9,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.7,
-        "weighted_coverage_24h": 1.7,
-        "weighted_source_breadth": 1.3
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": 1000000000.0,
-        "market_cap_ratio": 0.1341,
-        "score": 14,
-        "label": "Material",
-        "basis": "Simpson Manufacturing Co., Inc. Announces New $1.0 Billion Share Repurchase Authorization",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "Simpson Manufacturing Co., Inc.",
-        "industry": "Building",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1994-05-26",
-        "weburl": "http://www.simpsonmfg.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SSD.png",
-        "market_cap": 7458802663.627414,
-        "pe_ttm": 19.7506,
-        "ps_ttm": 3.0901,
-        "pb_annual": 3.2981,
-        "revenue_growth_ttm_yoy": 6.48,
-        "eps_growth_ttm_yoy": 16.5,
-        "gross_margin_ttm": 45.72,
-        "net_margin_ttm": 15.65,
-        "current_ratio": 3.5425,
-        "debt_equity": 0.1825,
-        "beta": 1.3859437
-      },
-      "profile": {
-        "name": "Simpson Manufacturing Co., Inc.",
-        "description": "Simpson Manufacturing Co., Inc. is a publicly traded company operating in the Building industry with company information identifying US as its home market.",
-        "industry": "Building",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "http://www.simpsonmfg.com/",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "SSD",
-          "company_name": "Simpson Manufacturing Co., Inc.",
-          "source": "SEC EDGAR",
-          "title": "Simpson Manufacturing Co., Inc. (0000920371) (Filer)",
-          "summary": "Filed: 2026-10-26 AccNo: 0001628280-26-067288 Size: 8 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/920371/000162828026067288/0001628280-26-067288-index.htm",
-          "published_at": "2026-10-26T16:18:01-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "fc406408e701",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 84.9,
+          "market_attention_score": 38.5,
+          "signal_score": 79.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 79.0,
@@ -712,12 +729,6 @@
       ],
       "history": [
         {
-          "date": "2026-08-27",
-          "discovery_score": 47.6,
-          "market_attention_score": 63.4,
-          "signal_score": 46.0
-        },
-        {
           "date": "2026-08-28",
           "discovery_score": 42.2,
           "market_attention_score": 55.5,
@@ -749,8 +760,139 @@
         },
         {
           "date": "2026-10-27",
+          "discovery_score": 82.3,
+          "market_attention_score": 35.9,
+          "signal_score": 71.0
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 71.0,
           "discovery_score": 82.3
+        }
+      ]
+    },
+    {
+      "ticker": "EQ",
+      "company_name": "Equillium, Inc.",
+      "signal_score": 72.0,
+      "market_attention_score": 32.0,
+      "discovery_score": 81.6,
+      "confidence_score": 83.8,
+      "primary_catalyst": "Equillium, Inc. (0001746466) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-26T17:09:21-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 56,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.5,
+        "catalyst_strength": 18,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 32.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Equillium Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2018-10-12",
+        "weburl": "https://www.equilliumbio.com/home/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EQ.png",
+        "market_cap": 79260102.64227642,
+        "pe_ttm": null,
+        "ps_ttm": 1.8824,
+        "pb_annual": 3.3005,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -19.63,
+        "current_ratio": 10.5787,
+        "debt_equity": 0,
+        "beta": 2.1023948
+      },
+      "profile": {
+        "name": "Equillium Inc",
+        "description": "Equillium Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.equilliumbio.com/home/default.aspx",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "EQ",
+          "company_name": "Equillium, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Equillium, Inc. (0001746466) (Filer)",
+          "summary": "Filed: 2026-10-26 AccNo: 0001193125-26-432158 Size: 181 KB Item 3.02: Unregistered Sales of Equity Securities Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1746466/000119312526432158/0001193125-26-432158-index.htm",
+          "published_at": "2026-10-26T17:09:21-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "d9df0410c8f2",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 73.3,
+          "market_attention_score": 30.4,
+          "signal_score": 66.5
+        },
+        {
+          "date": "2026-10-27",
+          "signal_score": 72.0,
+          "discovery_score": 81.6
         }
       ]
     },
@@ -864,6 +1006,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 78.6,
+          "market_attention_score": 30.0,
+          "signal_score": 68.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 68.0,
@@ -1033,8 +1181,421 @@
         },
         {
           "date": "2026-10-27",
+          "discovery_score": 65.4,
+          "market_attention_score": 32.6,
+          "signal_score": 77.6
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 77.6,
           "discovery_score": 65.4
+        }
+      ]
+    },
+    {
+      "ticker": "CPIX",
+      "company_name": "CUMBERLAND PHARMACEUTICALS INC",
+      "signal_score": 76.5,
+      "market_attention_score": 32.0,
+      "discovery_score": 66.0,
+      "confidence_score": 83.8,
+      "primary_catalyst": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
+      "catalyst_category": "Regulatory / FDA",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.6× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-26T22:02:08+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 61,
+      "change": {
+        "signal_delta": 12.0,
+        "discovery_delta": 17.3
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 11.0,
+        "catalyst_strength": 18,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.6,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 16.5,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.6,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Cumberland Pharmaceuticals Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2009-08-11",
+        "weburl": "https://www.cumberlandpharma.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942961385366.png",
+        "market_cap": 127206576.06721699,
+        "pe_ttm": null,
+        "ps_ttm": 4.0682,
+        "pb_annual": 2.3925,
+        "revenue_growth_ttm_yoy": -25.68,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 82.89,
+        "net_margin_ttm": -34.45,
+        "current_ratio": 1.0086,
+        "debt_equity": 0.2106,
+        "beta": 0.18386619
+      },
+      "profile": {
+        "name": "Cumberland Pharmaceuticals Inc",
+        "description": "Cumberland Pharmaceuticals Inc is a publicly traded company operating in the Pharmaceuticals industry with company information identifying US as its home market.",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.cumberlandpharma.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "CPIX",
+          "company_name": "CUMBERLAND PHARMACEUTICALS INC",
+          "source": "SEC EDGAR",
+          "title": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
+          "summary": "Filed: 2026-10-26 AccNo: 0001087294-26-000072 Size: 158 KB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events",
+          "url": "https://www.sec.gov/Archives/edgar/data/1087294/000108729426000072/0001087294-26-000072-index.htm",
+          "published_at": "2026-10-26T16:40:50-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "269c8f622371",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-24",
+          "discovery_score": 48.7,
+          "market_attention_score": 27.8,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-10-25",
+          "discovery_score": 48.7,
+          "market_attention_score": 27.8,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-10-27",
+          "discovery_score": 53.8,
+          "market_attention_score": 23.3,
+          "signal_score": 57.6
+        },
+        {
+          "date": "2026-10-27",
+          "signal_score": 76.5,
+          "discovery_score": 66.0
+        }
+      ]
+    },
+    {
+      "ticker": "FFAI",
+      "company_name": "FARADAY FUTURE INTELLIGENT ELECTRIC INC.",
+      "signal_score": 75.2,
+      "market_attention_score": 36.4,
+      "discovery_score": 69.3,
+      "confidence_score": 79.8,
+      "primary_catalyst": "FARADAY FUTURE INTELLIGENT ELECTRIC INC. (0001805521) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "8 unique credible information items from 2 independent sources. Coverage is 3.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 6,
+      "latest_event_at": "2026-10-26T21:06:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 68,
+      "change": {
+        "signal_delta": 6.7,
+        "discovery_delta": -5.5
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 8
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 12.7,
+        "catalyst_strength": 20,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 3.0,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 19.0,
+        "novelty": 19.5,
+        "source_breadth": 3.3,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 3.0,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.2,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Faraday Future Intelligent Electric Inc",
+        "industry": "Automobiles",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2020-07-24",
+        "weburl": "https://www.ff.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950748507876.png",
+        "market_cap": 3829987.310043668,
+        "pe_ttm": null,
+        "ps_ttm": 2.5297,
+        "pb_annual": 0.5639,
+        "revenue_growth_ttm_yoy": 146.58,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -4750.53,
+        "net_margin_ttm": -21837.98,
+        "current_ratio": 0.4625,
+        "debt_equity": 0.8438,
+        "beta": 6.337298
+      },
+      "profile": {
+        "name": "Faraday Future Intelligent Electric Inc",
+        "description": "\"We endeavor to make modern life more connected, more intuitive, more effortless.\" - Faraday Future",
+        "industry": "Automobiles",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.ff.com/",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "AI infrastructure",
+        "Robotics & automation",
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "FFAI",
+          "company_name": "FARADAY FUTURE INTELLIGENT ELECTRIC INC.",
+          "source": "SEC EDGAR",
+          "title": "FARADAY FUTURE INTELLIGENT ELECTRIC INC. (0001805521) (Filer)",
+          "summary": "Filed: 2026-10-26 AccNo: 0001213900-26-112554 Size: 225 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1805521/000121390026112554/0001213900-26-112554-index.htm",
+          "published_at": "2026-10-26T17:25:21-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "602c3acb0aea",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-26",
+          "discovery_score": 74.8,
+          "market_attention_score": 31.4,
+          "signal_score": 68.5
+        },
+        {
+          "date": "2026-10-27",
+          "discovery_score": 58.7,
+          "market_attention_score": 27.6,
+          "signal_score": 64.6
+        },
+        {
+          "date": "2026-10-27",
+          "signal_score": 75.2,
+          "discovery_score": 69.3
+        }
+      ]
+    },
+    {
+      "ticker": "IQST",
+      "company_name": "iQSTEL Inc",
+      "signal_score": 73.5,
+      "market_attention_score": 31.9,
+      "discovery_score": 75.1,
+      "confidence_score": 79.8,
+      "primary_catalyst": "iQSTEL Inc (0001527702) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-26T17:25:24-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 71,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.0,
+        "catalyst_strength": 20,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 24.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 131000000.0,
+        "market_cap_ratio": 13.927,
+        "score": 20,
+        "label": "Potentially transformative",
+        "basis": "IQST - IQSTEL Closes Two-Year Non-Convertible Financing for Ultranet, a Profitable $131 Million-Revenue West African Telecom Platform Expected to Make IQSTEL Cash-Flow Positive on a Consolidated Basis",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "iQSTEL Inc",
+        "industry": "Telecommunication",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2013-01-29",
+        "weburl": "https://www.iqstel.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950355761756.png",
+        "market_cap": 9406195.86050605,
+        "pe_ttm": null,
+        "ps_ttm": 0.0239,
+        "pb_annual": 1.1966,
+        "revenue_growth_ttm_yoy": 39.28,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 2.66,
+        "net_margin_ttm": -2.43,
+        "current_ratio": 1.045,
+        "debt_equity": 0.3744,
+        "beta": 1.6025654
+      },
+      "profile": {
+        "name": "iQSTEL Inc",
+        "description": "IQSTEL is driving transformative solutions that enhance human potential for a more connected world.",
+        "industry": "Telecommunication",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.iqstel.com",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "IQST",
+          "company_name": "iQSTEL Inc",
+          "source": "SEC EDGAR",
+          "title": "iQSTEL Inc (0001527702) (Filer)",
+          "summary": "Filed: 2026-10-26 AccNo: 0001663577-26-000330 Size: 796 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1527702/000166357726000330/0001663577-26-000330-index.htm",
+          "published_at": "2026-10-26T17:25:24-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "79a73327815a",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "IQST",
+          "company_name": "iQSTEL Inc",
+          "source": "Yahoo",
+          "title": "IQST - IQSTEL Closes Two-Year Non-Convertible Financing for Ultranet, a Profitable $131 Million-Revenue West African Telecom Platform Expected to Make IQSTEL Cash-Flow Positive on a Consolidated Basis",
+          "summary": "IQSTEL Inc. (NASDAQ: IQST) (\"IQSTEL\" or the \"Company\"), a global telecommunications and technology company, today announced that it has closed the first financing tranche for its planned acquisition of a 51% controlling interest in Ultranet Telecom Group (\"Ultranet\"). The financing consists of two-year senior secured, non-convertible promissory notes of up to $3 million, together with pre-funded warrants to purchase…",
+          "url": "https://finnhub.io/api/news?id=d9f2fb38b78ec4094d2f44936f801447b78f3002322e3f1f99b9540f0d5de9a1",
+          "published_at": "2026-10-26T12:20:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "c639a21255ca",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 66.8,
+          "market_attention_score": 30.3,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-27",
+          "signal_score": 73.5,
+          "discovery_score": 75.1
         }
       ]
     },
@@ -1166,6 +1727,12 @@
       "history": [
         {
           "date": "2026-10-27",
+          "discovery_score": 74.8,
+          "market_attention_score": 31.4,
+          "signal_score": 68.5
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 68.5,
           "discovery_score": 74.8
         }
@@ -1285,168 +1852,14 @@
       "history": [
         {
           "date": "2026-10-27",
-          "signal_score": 74.6,
-          "discovery_score": 63.8
-        }
-      ]
-    },
-    {
-      "ticker": "NDAQ",
-      "company_name": "NASDAQ, INC.",
-      "signal_score": 74.2,
-      "market_attention_score": 34.5,
-      "discovery_score": 65.5,
-      "confidence_score": 87.8,
-      "primary_catalyst": "NASDAQ, INC. (0001120193) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "9 unique credible information items from 3 independent sources. Coverage is 3.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 6,
-      "latest_event_at": "2026-10-26T20:05:00+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 71,
-      "change": {
-        "signal_delta": 6.3,
-        "discovery_delta": -12.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 9
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 12.7,
-        "catalyst_strength": 14,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 3.0,
-        "weighted_coverage_24h": 1.5,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 19.0,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 3.0,
-        "weighted_coverage_24h": 1.5,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Nasdaq Inc",
-        "industry": "Financial Services",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2002-07-08",
-        "weburl": "https://www.nasdaq.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NDAQ.png",
-        "market_cap": 58115699739.54135,
-        "pe_ttm": 27.6496,
-        "ps_ttm": 6.2728,
-        "pb_annual": 4.5359,
-        "revenue_growth_ttm_yoy": 12.23,
-        "eps_growth_ttm_yoy": 30.43,
-        "gross_margin_ttm": 62.92,
-        "net_margin_ttm": 22.69,
-        "current_ratio": 1.0053,
-        "debt_equity": 0.7364,
-        "beta": 0.99226177
-      },
-      "profile": {
-        "name": "Nasdaq Inc",
-        "description": "Nasdaq powers global stock exchanges, market data, indexes, and software for trading, risk, compliance and governance to corporates, banks, and investors.",
-        "industry": "Financial Services",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.nasdaq.com/",
-        "products_markets": [
-          "Financial services"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Semiconductors",
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "NDAQ",
-          "company_name": "NASDAQ, INC.",
-          "source": "SEC EDGAR",
-          "title": "NASDAQ, INC. (0001120193) (Filer)",
-          "summary": "Filed: 2026-10-26 AccNo: 0001193125-26-431976 Size: 228 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1120193/000119312526431976/0001193125-26-431976-index.htm",
-          "published_at": "2026-10-26T16:20:29-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "07924202030d",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "NDAQ",
-          "company_name": "NASDAQ, INC.",
-          "source": "Yahoo",
-          "title": "Nasdaq Appoints Börje Ekholm to its Board of Directors; Holden Spaht to Step Down from Board at Year-End",
-          "summary": "NEW YORK, Oct. 26, 2026 (GLOBE NEWSWIRE) -- Nasdaq, Inc. (Nasdaq: NDAQ) today announced the appointment of Börje Ekholm to its Board of Directors. Ekholm is the former President and CEO of Ericsson, the former President and CEO of Investor AB, and a previous Chair of the Nasdaq Board of Directors. Ekholm's appointment is effective as of November 1, 2026, and he will serve as a member of the Audit & Risk Committee. S…",
-          "url": "https://finnhub.io/api/news?id=c812c3a6db5dda8949a8d28d82b78d3e6dddf464a54142549a98b9ec2a1bf0cc",
-          "published_at": "2026-10-26T20:05:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "1aff030377bd",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "NDAQ",
-          "company_name": "NASDAQ, INC.",
-          "source": "Yahoo",
-          "title": "Nasdaq Strengthens Asia-Pacific Leadership Team",
-          "summary": "Andrew Murray joins as Senior Vice President to deepen Nasdaq’s Financial Technology client partnerships across Asia-Pacific as the region enters a defining era of market evolution Bob McCooey, Vice Chairman and Head of International Listings, relocates to Singapore to broaden access to global capital for the region’s companies and investors SINGAPORE, Oct. 25, 2026 (GLOBE NEWSWIRE) -- Nasdaq (Nasdaq: NDAQ) today an…",
-          "url": "https://finnhub.io/api/news?id=ada92343bf01190510ce207257c4772b62a64c077dcd45839daa9912548c2e32",
-          "published_at": "2026-10-26T01:00:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "d75730330282",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-03",
-          "discovery_score": 68.9,
-          "market_attention_score": 35.9,
-          "signal_score": 64.0
-        },
-        {
-          "date": "2026-09-25",
-          "discovery_score": 78.3,
-          "market_attention_score": 57.6,
-          "signal_score": 67.9
+          "discovery_score": 63.8,
+          "market_attention_score": 30.4,
+          "signal_score": 74.6
         },
         {
           "date": "2026-10-27",
-          "signal_score": 74.2,
-          "discovery_score": 65.5
+          "signal_score": 74.6,
+          "discovery_score": 63.8
         }
       ]
     },
@@ -1563,60 +1976,66 @@
       "history": [
         {
           "date": "2026-10-27",
+          "discovery_score": 73.6,
+          "market_attention_score": 30.9,
+          "signal_score": 71.5
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 71.5,
           "discovery_score": 73.6
         }
       ]
     },
     {
-      "ticker": "EQ",
-      "company_name": "Equillium, Inc.",
-      "signal_score": 66.5,
-      "market_attention_score": 30.4,
-      "discovery_score": 73.3,
-      "confidence_score": 71.8,
-      "primary_catalyst": "Equillium, Inc. (0001746466) (Filer)",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "ticker": "FFR",
+      "company_name": "FF EAI Robotics Ecosystem Inc.",
+      "signal_score": 73.5,
+      "market_attention_score": 33.4,
+      "discovery_score": 67.0,
+      "confidence_score": 79.8,
+      "primary_catalyst": "FF EAI Robotics Ecosystem Inc. (0001460702) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "5 unique credible information items from 2 independent sources. Coverage is 2.6× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 3,
-      "latest_event_at": "2026-10-26T17:09:21-04:00",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-26T21:00:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 56,
+      "days_on_radar": 27,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 5.5,
+        "discovery_delta": 0.2
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 3
+        "unique_story_clusters": 5
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 6.0,
-        "catalyst_strength": 18,
+        "coverage_acceleration": 11.0,
+        "catalyst_strength": 20,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.2,
-        "weighted_coverage_24h": 1.2,
+        "coverage_ratio_vs_baseline": 2.6,
+        "weighted_coverage_24h": 1.3,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 24.0,
-        "novelty": 20.0,
+        "attention_lift": 16.5,
+        "novelty": 19.7,
         "source_breadth": 3.3,
-        "catalyst_strength": 13.5,
+        "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.2,
-        "weighted_coverage_24h": 1.2,
+        "coverage_ratio_vs_baseline": 2.6,
+        "weighted_coverage_24h": 1.3,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.0,
+        "avg_items_24h": 0.13,
         "days_available": 30,
         "maturity": "established"
       },
@@ -1629,80 +2048,258 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Equillium Inc",
+        "name": "Aixcrypto Holdings Inc",
         "industry": "Biotechnology",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2018-10-12",
-        "weburl": "https://www.equilliumbio.com/home/default.aspx",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/EQ.png",
-        "market_cap": 79260102.64227642,
+        "ipo_date": "2015-06-24",
+        "weburl": "http://aixcrypto.ai/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/QLGN.png",
+        "market_cap": 23853040.049999997,
         "pe_ttm": null,
-        "ps_ttm": 1.8824,
-        "pb_annual": 3.3005,
-        "revenue_growth_ttm_yoy": null,
+        "ps_ttm": 3.9297,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 26.72,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": -19.63,
-        "current_ratio": 10.5787,
-        "debt_equity": 0,
-        "beta": 2.1023948
+        "gross_margin_ttm": 23.06,
+        "net_margin_ttm": -288.47,
+        "current_ratio": 9.2978,
+        "debt_equity": 0.0051,
+        "beta": 0.21215028
       },
       "profile": {
-        "name": "Equillium Inc",
-        "description": "Equillium Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.equilliumbio.com/home/default.aspx",
-        "products_markets": [
-          "Biotechnology"
-        ],
+        "name": "FFR",
+        "description": "FFR is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
         "source": "Structured company profile"
       },
       "themes": [
-        "Biotech & therapeutics"
+        "AI infrastructure",
+        "Robotics & automation",
+        "Cloud & software"
       ],
       "stories": [
         {
-          "ticker": "EQ",
-          "company_name": "Equillium, Inc.",
+          "ticker": "FFR",
+          "company_name": "FF EAI Robotics Ecosystem Inc.",
           "source": "SEC EDGAR",
-          "title": "Equillium, Inc. (0001746466) (Filer)",
-          "summary": "Filed: 2026-10-26 AccNo: 0001193125-26-432158 Size: 181 KB Item 3.02: Unregistered Sales of Equity Securities Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1746466/000119312526432158/0001193125-26-432158-index.htm",
-          "published_at": "2026-10-26T17:09:21-04:00",
+          "title": "FF EAI Robotics Ecosystem Inc. (0001460702) (Filer)",
+          "summary": "Filed: 2026-10-26 AccNo: 0001493152-26-048587 Size: 245 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226048587/0001493152-26-048587-index.htm",
+          "published_at": "2026-10-26T17:25:43-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "d9df0410c8f2",
+          "fingerprint": "06c4f51eab64",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
+          "date": "2026-10-26",
+          "discovery_score": 66.8,
+          "market_attention_score": 30.3,
+          "signal_score": 68.0
+        },
+        {
           "date": "2026-10-27",
-          "signal_score": 66.5,
-          "discovery_score": 73.3
+          "discovery_score": 58.9,
+          "market_attention_score": 26.8,
+          "signal_score": 64.6
+        },
+        {
+          "date": "2026-10-27",
+          "signal_score": 73.5,
+          "discovery_score": 67.0
         }
       ]
     },
     {
-      "ticker": "IQST",
-      "company_name": "iQSTEL Inc",
+      "ticker": "NDAQ",
+      "company_name": "NASDAQ, INC.",
+      "signal_score": 73.4,
+      "market_attention_score": 34.1,
+      "discovery_score": 64.3,
+      "confidence_score": 87.8,
+      "primary_catalyst": "NASDAQ, INC. (0001120193) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "9 unique credible information items from 3 independent sources. Coverage is 2.8× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-26T20:05:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 71,
+      "change": {
+        "signal_delta": 5.5,
+        "discovery_delta": -14.0
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 9
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 11.9,
+        "catalyst_strength": 14,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.8,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 17.8,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.8,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Nasdaq Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2002-07-08",
+        "weburl": "https://www.nasdaq.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NDAQ.png",
+        "market_cap": 58115699739.54135,
+        "pe_ttm": 27.6496,
+        "ps_ttm": 6.2728,
+        "pb_annual": 4.5359,
+        "revenue_growth_ttm_yoy": 12.23,
+        "eps_growth_ttm_yoy": 30.43,
+        "gross_margin_ttm": 62.92,
+        "net_margin_ttm": 22.69,
+        "current_ratio": 1.0053,
+        "debt_equity": 0.7364,
+        "beta": 0.99226177
+      },
+      "profile": {
+        "name": "Nasdaq Inc",
+        "description": "Nasdaq powers global stock exchanges, market data, indexes, and software for trading, risk, compliance and governance to corporates, banks, and investors.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.nasdaq.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "Semiconductors",
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "NDAQ",
+          "company_name": "NASDAQ, INC.",
+          "source": "SEC EDGAR",
+          "title": "NASDAQ, INC. (0001120193) (Filer)",
+          "summary": "Filed: 2026-10-26 AccNo: 0001193125-26-431976 Size: 228 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1120193/000119312526431976/0001193125-26-431976-index.htm",
+          "published_at": "2026-10-26T16:20:29-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "07924202030d",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "NDAQ",
+          "company_name": "NASDAQ, INC.",
+          "source": "Yahoo",
+          "title": "Nasdaq Appoints Börje Ekholm to its Board of Directors; Holden Spaht to Step Down from Board at Year-End",
+          "summary": "NEW YORK, Oct. 26, 2026 (GLOBE NEWSWIRE) -- Nasdaq, Inc. (Nasdaq: NDAQ) today announced the appointment of Börje Ekholm to its Board of Directors. Ekholm is the former President and CEO of Ericsson, the former President and CEO of Investor AB, and a previous Chair of the Nasdaq Board of Directors. Ekholm's appointment is effective as of November 1, 2026, and he will serve as a member of the Audit & Risk Committee. S…",
+          "url": "https://finnhub.io/api/news?id=c812c3a6db5dda8949a8d28d82b78d3e6dddf464a54142549a98b9ec2a1bf0cc",
+          "published_at": "2026-10-26T20:05:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "1aff030377bd",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "NDAQ",
+          "company_name": "NASDAQ, INC.",
+          "source": "Yahoo",
+          "title": "Nasdaq Strengthens Asia-Pacific Leadership Team",
+          "summary": "Andrew Murray joins as Senior Vice President to deepen Nasdaq’s Financial Technology client partnerships across Asia-Pacific as the region enters a defining era of market evolution Bob McCooey, Vice Chairman and Head of International Listings, relocates to Singapore to broaden access to global capital for the region’s companies and investors SINGAPORE, Oct. 25, 2026 (GLOBE NEWSWIRE) -- Nasdaq (Nasdaq: NDAQ) today an…",
+          "url": "https://finnhub.io/api/news?id=ada92343bf01190510ce207257c4772b62a64c077dcd45839daa9912548c2e32",
+          "published_at": "2026-10-26T01:00:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "d75730330282",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-03",
+          "discovery_score": 68.9,
+          "market_attention_score": 35.9,
+          "signal_score": 64.0
+        },
+        {
+          "date": "2026-09-25",
+          "discovery_score": 78.3,
+          "market_attention_score": 57.6,
+          "signal_score": 67.9
+        },
+        {
+          "date": "2026-10-27",
+          "discovery_score": 65.5,
+          "market_attention_score": 34.5,
+          "signal_score": 74.2
+        },
+        {
+          "date": "2026-10-27",
+          "signal_score": 73.4,
+          "discovery_score": 64.3
+        }
+      ]
+    },
+    {
+      "ticker": "SORNU",
+      "company_name": "Soren Acquisition Corp.",
       "signal_score": 68.0,
       "market_attention_score": 30.3,
       "discovery_score": 66.8,
       "confidence_score": 67.8,
-      "primary_catalyst": "iQSTEL Inc (0001527702) (Filer)",
+      "primary_catalyst": "Soren Acquisition Corp. (0002086263) (Filer)",
       "catalyst_category": "M&A",
       "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
       "article_count_24h": 2,
-      "latest_event_at": "2026-10-26T17:25:24-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 71,
+      "latest_event_at": "2026-10-26T20:46:00+00:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
@@ -1740,61 +2337,67 @@
         "maturity": "established"
       },
       "materiality": {
-        "estimated_event_value": 130900000.0,
-        "market_cap_ratio": 13.9164,
-        "score": 20,
-        "label": "Potentially transformative",
-        "basis": "IQSTEL Closes First Financing Tranche Of Up To $3M In Senior Secured, Non-Convertible Promissory Notes For Planned Acquisition Of 51% Controlling Interest In Ultranet Telecom Group",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "iQSTEL Inc",
-        "industry": "Telecommunication",
+        "name": "Soren Acquisition Corp",
+        "industry": "N/A",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2013-01-29",
-        "weburl": "https://www.iqstel.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950355761756.png",
-        "market_cap": 9406195.86050605,
-        "pe_ttm": null,
-        "ps_ttm": 0.0239,
-        "pb_annual": 1.1966,
-        "revenue_growth_ttm_yoy": 39.28,
+        "ipo_date": "2026-01-07",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950969231556.png",
+        "market_cap": 348722640.7312469,
+        "pe_ttm": 95.9236,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 2.66,
-        "net_margin_ttm": -2.43,
-        "current_ratio": 1.045,
-        "debt_equity": 0.3744,
-        "beta": 1.6025654
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 0.0484,
+        "debt_equity": 0,
+        "beta": 0.0015515599
       },
       "profile": {
-        "name": "iQSTEL Inc",
-        "description": "IQSTEL is driving transformative solutions that enhance human potential for a more connected world.",
-        "industry": "Telecommunication",
+        "name": "Soren Acquisition Corp",
+        "description": "Soren Acquisition Corp is a publicly traded company operating in the N/A industry with company information identifying US as its home market.",
+        "industry": "N/A",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.iqstel.com",
+        "website": "",
         "products_markets": [],
-        "source": "Company website"
+        "source": "Structured company profile"
       },
       "themes": [],
       "stories": [
         {
-          "ticker": "IQST",
-          "company_name": "iQSTEL Inc",
+          "ticker": "SORNU",
+          "company_name": "Soren Acquisition Corp.",
           "source": "SEC EDGAR",
-          "title": "iQSTEL Inc (0001527702) (Filer)",
-          "summary": "Filed: 2026-10-26 AccNo: 0001663577-26-000330 Size: 796 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1527702/000166357726000330/0001663577-26-000330-index.htm",
-          "published_at": "2026-10-26T17:25:24-04:00",
+          "title": "Soren Acquisition Corp. (0002086263) (Filer)",
+          "summary": "Filed: 2026-10-26 AccNo: 0001213900-26-112511 Size: 299 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/2086263/000121390026112511/0001213900-26-112511-index.htm",
+          "published_at": "2026-10-26T16:48:06-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "79a73327815a",
+          "fingerprint": "f77efa59034d",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 68.0,
@@ -1910,6 +2513,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 66.8,
+          "market_attention_score": 30.3,
+          "signal_score": 68.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 68.0,
@@ -2030,6 +2639,12 @@
       "history": [
         {
           "date": "2026-10-27",
+          "discovery_score": 66.8,
+          "market_attention_score": 30.3,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 68.0,
           "discovery_score": 66.8
         }
@@ -2145,6 +2760,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 66.8,
+          "market_attention_score": 30.3,
+          "signal_score": 68.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 68.0,
@@ -2266,6 +2887,12 @@
       "history": [
         {
           "date": "2026-10-27",
+          "discovery_score": 58.8,
+          "market_attention_score": 29.9,
+          "signal_score": 67.5
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 67.5,
           "discovery_score": 58.8
         }
@@ -2274,22 +2901,22 @@
     {
       "ticker": "RENT",
       "company_name": "Rent the Runway, Inc.",
-      "signal_score": 66.2,
-      "market_attention_score": 28.3,
-      "discovery_score": 59.5,
+      "signal_score": 65.4,
+      "market_attention_score": 27.9,
+      "discovery_score": 58.3,
       "confidence_score": 87.8,
       "primary_catalyst": "Rent the Runway, Inc. (0001468327) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 3.0× the stored baseline.",
+      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 2.8× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Above baseline",
-      "article_count_24h": 6,
+      "article_count_24h": 5,
       "latest_event_at": "2026-10-26T20:00:33+00:00",
       "new_to_radar": false,
       "days_on_radar": 57,
       "change": {
-        "signal_delta": 12.2,
-        "discovery_delta": 7.7
+        "signal_delta": 11.4,
+        "discovery_delta": 6.5
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2298,24 +2925,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 12.7,
+        "coverage_acceleration": 11.9,
         "catalyst_strength": 6,
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 3.0,
-        "weighted_coverage_24h": 1.5,
+        "coverage_ratio_vs_baseline": 2.8,
+        "weighted_coverage_24h": 1.4,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 19.0,
+        "attention_lift": 17.8,
         "novelty": 19.8,
         "source_breadth": 3.6,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 3.0,
-        "weighted_coverage_24h": 1.5,
+        "coverage_ratio_vs_baseline": 2.8,
+        "weighted_coverage_24h": 1.4,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -2387,8 +3014,14 @@
         },
         {
           "date": "2026-10-27",
-          "signal_score": 66.2,
-          "discovery_score": 59.5
+          "discovery_score": 59.5,
+          "market_attention_score": 28.3,
+          "signal_score": 66.2
+        },
+        {
+          "date": "2026-10-27",
+          "signal_score": 65.4,
+          "discovery_score": 58.3
         }
       ]
     },
@@ -2472,6 +3105,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 65.0,
@@ -2561,345 +3200,14 @@
       "history": [
         {
           "date": "2026-10-27",
-          "signal_score": 65.0,
-          "discovery_score": 58.5
-        }
-      ]
-    },
-    {
-      "ticker": "SORNU",
-      "company_name": "Soren Acquisition Corp.",
-      "signal_score": 65.0,
-      "market_attention_score": 28.8,
-      "discovery_score": 58.5,
-      "confidence_score": 62,
-      "primary_catalyst": "Soren Acquisition Corp. (0002086263) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-26T16:48:06-04:00",
-      "new_to_radar": true,
-      "days_on_radar": 1,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "SORNU",
-          "company_name": "Soren Acquisition Corp.",
-          "source": "SEC EDGAR",
-          "title": "Soren Acquisition Corp. (0002086263) (Filer)",
-          "summary": "Filed: 2026-10-26 AccNo: 0001213900-26-112511 Size: 299 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/2086263/000121390026112511/0001213900-26-112511-index.htm",
-          "published_at": "2026-10-26T16:48:06-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "f77efa59034d",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 65.0,
           "discovery_score": 58.5
-        }
-      ]
-    },
-    {
-      "ticker": "FFR",
-      "company_name": "FF EAI Robotics Ecosystem Inc.",
-      "signal_score": 64.6,
-      "market_attention_score": 26.8,
-      "discovery_score": 58.9,
-      "confidence_score": 67.8,
-      "primary_catalyst": "FF EAI Robotics Ecosystem Inc. (0001460702) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-26T17:25:43-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 27,
-      "change": {
-        "signal_delta": -3.4,
-        "discovery_delta": -7.9
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 13,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.7,
-        "source_breadth": 3.3,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Aixcrypto Holdings Inc",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2015-06-24",
-        "weburl": "http://aixcrypto.ai/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/QLGN.png",
-        "market_cap": 23853040.049999997,
-        "pe_ttm": null,
-        "ps_ttm": 3.9297,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": 26.72,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 23.06,
-        "net_margin_ttm": -288.47,
-        "current_ratio": 9.2978,
-        "debt_equity": 0.0051,
-        "beta": 0.21215028
-      },
-      "profile": {
-        "name": "FFR",
-        "description": "FFR is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "AI infrastructure",
-        "Robotics & automation"
-      ],
-      "stories": [
-        {
-          "ticker": "FFR",
-          "company_name": "FF EAI Robotics Ecosystem Inc.",
-          "source": "SEC EDGAR",
-          "title": "FF EAI Robotics Ecosystem Inc. (0001460702) (Filer)",
-          "summary": "Filed: 2026-10-26 AccNo: 0001493152-26-048587 Size: 245 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1460702/000149315226048587/0001493152-26-048587-index.htm",
-          "published_at": "2026-10-26T17:25:43-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "06c4f51eab64",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-26",
-          "discovery_score": 66.8,
-          "market_attention_score": 30.3,
-          "signal_score": 68.0
-        },
-        {
-          "date": "2026-10-27",
-          "signal_score": 64.6,
-          "discovery_score": 58.9
-        }
-      ]
-    },
-    {
-      "ticker": "FFAI",
-      "company_name": "FARADAY FUTURE INTELLIGENT ELECTRIC INC.",
-      "signal_score": 64.6,
-      "market_attention_score": 27.6,
-      "discovery_score": 58.7,
-      "confidence_score": 71.8,
-      "primary_catalyst": "FARADAY FUTURE INTELLIGENT ELECTRIC INC. (0001805521) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-26T17:25:21-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 68,
-      "change": {
-        "signal_delta": -3.9,
-        "discovery_delta": -16.1
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 13,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.5,
-        "source_breadth": 3.3,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.2,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Faraday Future Intelligent Electric Inc",
-        "industry": "Automobiles",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2020-07-24",
-        "weburl": "https://www.ff.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950748507876.png",
-        "market_cap": 3829987.310043668,
-        "pe_ttm": null,
-        "ps_ttm": 2.5297,
-        "pb_annual": 0.5639,
-        "revenue_growth_ttm_yoy": 146.58,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": -4750.53,
-        "net_margin_ttm": -21837.98,
-        "current_ratio": 0.4625,
-        "debt_equity": 0.8438,
-        "beta": 6.337298
-      },
-      "profile": {
-        "name": "Faraday Future Intelligent Electric Inc",
-        "description": "\"We endeavor to make modern life more connected, more intuitive, more effortless.\" - Faraday Future",
-        "industry": "Automobiles",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.ff.com/",
-        "products_markets": [
-          "Automotive"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "AI infrastructure",
-        "Robotics & automation"
-      ],
-      "stories": [
-        {
-          "ticker": "FFAI",
-          "company_name": "FARADAY FUTURE INTELLIGENT ELECTRIC INC.",
-          "source": "SEC EDGAR",
-          "title": "FARADAY FUTURE INTELLIGENT ELECTRIC INC. (0001805521) (Filer)",
-          "summary": "Filed: 2026-10-26 AccNo: 0001213900-26-112554 Size: 225 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1805521/000121390026112554/0001213900-26-112554-index.htm",
-          "published_at": "2026-10-26T17:25:21-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "602c3acb0aea",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-26",
-          "discovery_score": 74.8,
-          "market_attention_score": 31.4,
-          "signal_score": 68.5
-        },
-        {
-          "date": "2026-10-27",
-          "signal_score": 64.6,
-          "discovery_score": 58.7
         }
       ]
     },
@@ -3018,6 +3326,12 @@
           "discovery_score": 63.2,
           "market_attention_score": 39.1,
           "signal_score": 79.6
+        },
+        {
+          "date": "2026-10-27",
+          "discovery_score": 55.4,
+          "market_attention_score": 24.9,
+          "signal_score": 63.6
         },
         {
           "date": "2026-10-27",
@@ -3144,6 +3458,12 @@
         },
         {
           "date": "2026-10-27",
+          "discovery_score": 57.4,
+          "market_attention_score": 25.9,
+          "signal_score": 61.6
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 61.6,
           "discovery_score": 57.4
         }
@@ -3229,6 +3549,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 58.0,
@@ -3318,137 +3644,14 @@
       "history": [
         {
           "date": "2026-10-27",
-          "signal_score": 58.0,
-          "discovery_score": 53.2
-        }
-      ]
-    },
-    {
-      "ticker": "CPIX",
-      "company_name": "CUMBERLAND PHARMACEUTICALS INC",
-      "signal_score": 57.6,
-      "market_attention_score": 23.3,
-      "discovery_score": 53.8,
-      "confidence_score": 67.8,
-      "primary_catalyst": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-26T18:50:01+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 61,
-      "change": {
-        "signal_delta": -6.9,
-        "discovery_delta": 5.1
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Cumberland Pharmaceuticals Inc",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2009-08-11",
-        "weburl": "https://www.cumberlandpharma.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942961385366.png",
-        "market_cap": 127206576.06721699,
-        "pe_ttm": null,
-        "ps_ttm": 4.0682,
-        "pb_annual": 2.3925,
-        "revenue_growth_ttm_yoy": -25.68,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 82.89,
-        "net_margin_ttm": -34.45,
-        "current_ratio": 1.0086,
-        "debt_equity": 0.2106,
-        "beta": 0.18386619
-      },
-      "profile": {
-        "name": "Cumberland Pharmaceuticals Inc",
-        "description": "Cumberland Pharmaceuticals Inc is a publicly traded company operating in the Pharmaceuticals industry with company information identifying US as its home market.",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.cumberlandpharma.com/",
-        "products_markets": [
-          "Therapeutics"
-        ],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "CPIX",
-          "company_name": "CUMBERLAND PHARMACEUTICALS INC",
-          "source": "SEC EDGAR",
-          "title": "CUMBERLAND PHARMACEUTICALS INC (0001087294) (Filer)",
-          "summary": "Filed: 2026-10-26 AccNo: 0001087294-26-000072 Size: 158 KB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events",
-          "url": "https://www.sec.gov/Archives/edgar/data/1087294/000108729426000072/0001087294-26-000072-index.htm",
-          "published_at": "2026-10-26T16:40:50-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "269c8f622371",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-24",
-          "discovery_score": 48.7,
-          "market_attention_score": 27.8,
-          "signal_score": 64.5
-        },
-        {
-          "date": "2026-10-25",
-          "discovery_score": 48.7,
-          "market_attention_score": 27.8,
-          "signal_score": 64.5
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
         },
         {
           "date": "2026-10-27",
-          "signal_score": 57.6,
-          "discovery_score": 53.8
+          "signal_score": 58.0,
+          "discovery_score": 53.2
         }
       ]
     },
@@ -3562,6 +3765,12 @@
       "history": [
         {
           "date": "2026-10-27",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 54.0,
           "discovery_score": 51.8
         }
@@ -3647,6 +3856,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 54.0,
@@ -3782,6 +3997,12 @@
         },
         {
           "date": "2026-10-27",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 54.0,
           "discovery_score": 51.8
         }
@@ -3875,6 +4096,12 @@
         },
         {
           "date": "2026-10-27",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 54.0,
           "discovery_score": 51.8
         }
@@ -3960,6 +4187,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 51.0,
@@ -4049,6 +4282,12 @@
       "history": [
         {
           "date": "2026-10-27",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 51.0,
           "discovery_score": 48.0
         }
@@ -4136,6 +4375,12 @@
       "history": [
         {
           "date": "2026-10-27",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-10-27",
           "signal_score": 51.0,
           "discovery_score": 48.0
         }
@@ -4221,6 +4466,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-27",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
         {
           "date": "2026-10-27",
           "signal_score": 51.0,
