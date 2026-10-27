@@ -967,26 +967,26 @@
       }
     },
     "BX": {
-      "cached_at": "2026-09-20T23:19:27.424820+00:00",
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
       "data": {
-        "name": "Blackstone Inc",
+        "name": "Blackstone Inc.",
         "industry": "Financial Services",
         "country": "US",
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "ipo_date": "2007-06-22",
-        "weburl": "https://www.blackstone.com/",
+        "weburl": "https://www.blackstone.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BX.png",
-        "market_cap": 155179939315.94864,
-        "pe_ttm": 44.0973,
-        "ps_ttm": 9.6322,
+        "market_cap": 145709273909.9639,
+        "pe_ttm": 41.0567,
+        "ps_ttm": 9.078,
         "pb_annual": 21.6979,
-        "revenue_growth_ttm_yoy": 17.19,
-        "eps_growth_ttm_yoy": 20.32,
+        "revenue_growth_ttm_yoy": 22.11,
+        "eps_growth_ttm_yoy": 28.69,
         "gross_margin_ttm": 83.07,
-        "net_margin_ttm": 21.84,
+        "net_margin_ttm": 22.11,
         "current_ratio": 0.7337,
         "debt_equity": 1.4362,
-        "beta": 1.5496696
+        "beta": 1.5640769
       }
     },
     "PSA": {
@@ -10512,7 +10512,7 @@
       }
     },
     "ITW": {
-      "cached_at": "2026-08-29T07:56:48.718915+00:00",
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
       "data": {
         "name": "Illinois Tool Works Inc",
         "industry": "Machinery",
@@ -10521,9 +10521,9 @@
         "ipo_date": "1973-03-13",
         "weburl": "https://www.itw.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ITW.png",
-        "market_cap": 79917728384.54736,
-        "pe_ttm": 25.7809,
-        "ps_ttm": 5,
+        "market_cap": 79097500959.46883,
+        "pe_ttm": 24.6369,
+        "ps_ttm": 4.7781,
         "pb_annual": 22.1555,
         "revenue_growth_ttm_yoy": 4.3,
         "eps_growth_ttm_yoy": -3.19,
@@ -10531,7 +10531,7 @@
         "net_margin_ttm": 19.39,
         "current_ratio": 1.2095,
         "debt_equity": 2.7811,
-        "beta": 0.97227305
+        "beta": 0.9596895
       }
     },
     "CB": {
@@ -36384,6 +36384,305 @@
         "current_ratio": 0.0484,
         "debt_equity": 0,
         "beta": 0.0015515599
+      }
+    },
+    "LECO": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "Lincoln Electric Holdings, Inc.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1993-10-27",
+        "weburl": "https://www.lincolnelectric.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LECO.png",
+        "market_cap": 15337374425.832012,
+        "pe_ttm": 27.7072,
+        "ps_ttm": 3.4227,
+        "pb_annual": 8.9716,
+        "revenue_growth_ttm_yoy": 9.32,
+        "eps_growth_ttm_yoy": 12.44,
+        "gross_margin_ttm": 36.05,
+        "net_margin_ttm": 12.35,
+        "current_ratio": 1.8183,
+        "debt_equity": 0.8804,
+        "beta": 1.2129986
+      }
+    },
+    "AIT": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "Applied Industrial Technologies, Inc.",
+        "industry": "Trading Companies & Distributors",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1905-05-06",
+        "weburl": "https://www.applied.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AIT.png",
+        "market_cap": 11199062117.373293,
+        "pe_ttm": 26.7136,
+        "ps_ttm": 2.2295,
+        "pb_annual": 6.713,
+        "revenue_growth_ttm_yoy": 8.84,
+        "eps_growth_ttm_yoy": 8.18,
+        "gross_margin_ttm": 30.34,
+        "net_margin_ttm": 8.35,
+        "current_ratio": 2.5779,
+        "debt_equity": 0.1409,
+        "beta": 0.8477626
+      }
+    },
+    "CTS": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "CTS Corp",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.ctscorp.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959036306.png",
+        "market_cap": 1591293980.4302673,
+        "pe_ttm": 23.0998,
+        "ps_ttm": 2.8569,
+        "pb_annual": 2.2572,
+        "revenue_growth_ttm_yoy": 8.31,
+        "eps_growth_ttm_yoy": 13.11,
+        "gross_margin_ttm": 39.71,
+        "net_margin_ttm": 12.37,
+        "current_ratio": 2.3039,
+        "debt_equity": 0.1042,
+        "beta": 0.9788648
+      }
+    },
+    "SXC": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "SunCoke Energy Inc",
+        "industry": "Metals & Mining",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2011-07-21",
+        "weburl": "https://www.suncoke.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/SXC.png",
+        "market_cap": 935320943.0458714,
+        "pe_ttm": null,
+        "ps_ttm": 0.4388,
+        "pb_annual": 1.0206,
+        "revenue_growth_ttm_yoy": 2.78,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 17.47,
+        "net_margin_ttm": -2.88,
+        "current_ratio": 2.1093,
+        "debt_equity": 1.1584,
+        "beta": 0.9373381
+      }
+    },
+    "FSBC": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "Five Star Bancorp",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-05-05",
+        "weburl": "https://www.fivestarbank.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942961279096.png",
+        "market_cap": 1120219087.5470788,
+        "pe_ttm": 15.1635,
+        "ps_ttm": null,
+        "pb_annual": 1.7148,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": 38.44,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": 0.1661,
+        "beta": 0.49675384
+      }
+    },
+    "ACU": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "Acme United Corp",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.acmeunited.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959032726.png",
+        "market_cap": 251307102.45438817,
+        "pe_ttm": 25.8962,
+        "ps_ttm": 1.2012,
+        "pb_annual": 1.3047,
+        "revenue_growth_ttm_yoy": 9.04,
+        "eps_growth_ttm_yoy": -5.8,
+        "gross_margin_ttm": 40.08,
+        "net_margin_ttm": 4.64,
+        "current_ratio": 4.2058,
+        "debt_equity": 0.1848,
+        "beta": 0.370128
+      }
+    },
+    "IDAI": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "T Stamp Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2020-12-08",
+        "weburl": "https://truststamp.ai",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950590150446.png",
+        "market_cap": 14041770.457983194,
+        "pe_ttm": null,
+        "ps_ttm": 3.9353,
+        "pb_annual": 2.3495,
+        "revenue_growth_ttm_yoy": 2.13,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 56.24,
+        "net_margin_ttm": -272.85,
+        "current_ratio": 7.8483,
+        "debt_equity": 0.1292,
+        "beta": 0.38243884
+      }
+    },
+    "TZOO": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "Travelzoo",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2002-08-28",
+        "weburl": "https://www.travelzoo.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942958993336.png",
+        "market_cap": 53052151.63245357,
+        "pe_ttm": 113.7203,
+        "ps_ttm": 0.5812,
+        "pb_annual": 31.8087,
+        "revenue_growth_ttm_yoy": 4.93,
+        "eps_growth_ttm_yoy": -96.3,
+        "gross_margin_ttm": 76.34,
+        "net_margin_ttm": 0.51,
+        "current_ratio": 0.6847,
+        "debt_equity": 0,
+        "beta": 1.4894913
+      }
+    },
+    "SCTH": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "Securetech Innovations Inc",
+        "industry": "Auto Components",
+        "country": "US",
+        "exchange": "OTC MARKETS",
+        "ipo_date": "2021-03-22",
+        "weburl": "https://securetechinnovations.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950577760106.png",
+        "market_cap": 333307525.8208955,
+        "pe_ttm": 3046.3126,
+        "ps_ttm": 27.3244,
+        "pb_annual": 14.7974,
+        "revenue_growth_ttm_yoy": 448.45,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 23.66,
+        "net_margin_ttm": -8.99,
+        "current_ratio": 1.3662,
+        "debt_equity": 0.306,
+        "beta": 25.50627
+      }
+    },
+    "PEW-WT": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
+      }
+    },
+    "AUBN": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "Auburn National Bancorporation Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1995-07-20",
+        "weburl": "https://www.auburnbank.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959125766.png",
+        "market_cap": 91523641.52773611,
+        "pe_ttm": 10.9113,
+        "ps_ttm": 2.0878,
+        "pb_annual": 1.0228,
+        "revenue_growth_ttm_yoy": 19.391,
+        "eps_growth_ttm_yoy": 25.96,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 28.88576,
+        "current_ratio": null,
+        "debt_equity": 0,
+        "beta": 0.46393993
+      }
+    },
+    "CFBK": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "CF Bankshares Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1998-12-30",
+        "weburl": "https://investor.cfbankonline.com/corporate-profile",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959135906.png",
+        "market_cap": 227876645.20675594,
+        "pe_ttm": 11.7264,
+        "ps_ttm": 2.05149,
+        "pb_annual": 0.8717,
+        "revenue_growth_ttm_yoy": 70.31361,
+        "eps_growth_ttm_yoy": 4.64,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 32.9721,
+        "current_ratio": null,
+        "debt_equity": 0.3145,
+        "beta": 0.47127554
+      }
+    },
+    "IPST": {
+      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "data": {
+        "name": "IP Strategy Holdings Inc",
+        "industry": "Beverages",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2024-11-22",
+        "weburl": "https://ir.ipstrategy.co/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950711727306.png",
+        "market_cap": 2572693.7738967137,
+        "pe_ttm": null,
+        "ps_ttm": 0.1431,
+        "pb_annual": 0.1518,
+        "revenue_growth_ttm_yoy": 37.89,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 60.13,
+        "net_margin_ttm": -1875.55,
+        "current_ratio": 0.3091,
+        "debt_equity": 0.0262,
+        "beta": 0.012939005
       }
     }
   }
