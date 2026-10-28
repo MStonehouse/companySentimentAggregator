@@ -36914,6 +36914,75 @@
         "debt_equity": 0.1863,
         "beta": 1.0095704
       }
+    },
+    "BUSEP": {
+      "cached_at": "2026-10-28T06:56:46.813675+00:00",
+      "data": {
+        "name": "First Busey Corporation",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1993-10-27",
+        "weburl": "https://www.busey.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BUSE.png",
+        "market_cap": 2492172284.4410796,
+        "pe_ttm": 10.8581,
+        "ps_ttm": 2.5703,
+        "pb_annual": 0.8519,
+        "revenue_growth_ttm_yoy": 37.92471,
+        "eps_growth_ttm_yoy": 133.62,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 28.93669,
+        "current_ratio": null,
+        "debt_equity": 0.1436,
+        "beta": 0.7593217
+      }
+    },
+    "AIAI": {
+      "cached_at": "2026-10-28T06:56:46.813675+00:00",
+      "data": {
+        "name": "AIAI Holdings Corp",
+        "industry": "Construction",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2026-05-14",
+        "weburl": "https://aiaiholdings.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/960000013926.png",
+        "market_cap": 133357668.41269845,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 0.9539377
+      }
+    },
+    "RUSHB": {
+      "cached_at": "2026-10-28T06:56:46.813675+00:00",
+      "data": {
+        "name": "Rush Enterprises, Inc.",
+        "industry": "Trading Companies & Distributors",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1996-06-07",
+        "weburl": "https://www.rushenterprises.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RUSHA.png",
+        "market_cap": 5630954847.6534395,
+        "pe_ttm": 21.0435,
+        "ps_ttm": 0.7713,
+        "pb_annual": 1.9023,
+        "revenue_growth_ttm_yoy": -5.86,
+        "eps_growth_ttm_yoy": -5.45,
+        "gross_margin_ttm": 19.74,
+        "net_margin_ttm": 3.67,
+        "current_ratio": 1.4015,
+        "debt_equity": 0.5971,
+        "beta": 0.88210744
+      }
     }
   }
 }

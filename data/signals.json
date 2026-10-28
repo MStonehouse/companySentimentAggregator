@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-28T00:35:11.316915+00:00",
+    "generated_at": "2026-10-28T06:56:46.813675+00:00",
     "companies_scanned": 84,
     "sources_enabled": {
       "sec_edgar": true,
@@ -19,97 +19,89 @@
     "market_leaders": [
       "EQT",
       "BX",
+      "CAKE",
       "BKR",
       "UHS",
-      "RNST",
       "ACRS",
+      "RNST",
       "ENS",
+      "BUSEP",
+      "OCFC",
+      "AIAI",
+      "RUSHB",
       "SCKT",
-      "CAKE",
+      "FBIN",
+      "VNRX",
       "SPRO",
+      "VTIX",
       "ILXP",
       "BEAGR",
       "CAPNU",
       "NANOW",
       "MSGK-WI",
-      "OCFC",
-      "FBIN",
-      "VTIX",
-      "RUSHB",
-      "BUSEP",
-      "VNRX",
       "ALGT",
       "HYFM",
-      "NXXT",
-      "MOD",
-      "AIAI",
       "SFBC",
+      "MOD",
       "EPAC",
-      "WSO-B",
-      "SUNB"
+      "NXXT",
+      "FCBM",
+      "CRCT"
     ],
     "emerging_signals": [
       "RNST",
       "BKR",
+      "CAKE",
       "ACRS",
       "UHS",
+      "OCFC",
+      "BUSEP",
+      "VNRX",
       "EQT",
       "SCKT",
-      "BX",
-      "VNRX",
-      "ENS",
-      "OCFC",
+      "RUSHB",
       "VTIX",
       "FBIN",
+      "BX",
+      "ENS",
+      "AIAI",
+      "SFBC",
+      "MOD",
+      "ALGT",
+      "HYFM",
       "ILXP",
       "BEAGR",
       "CAPNU",
       "NANOW",
       "MSGK-WI",
-      "ALGT",
-      "HYFM",
       "SPRO",
-      "RUSHB",
-      "BUSEP",
-      "CAKE",
-      "AIAI",
-      "NXXT",
-      "MOD",
+      "FCBM",
+      "CRCT",
       "EPAC",
-      "NKLR",
-      "CNXU",
-      "WSO-B"
+      "NXXT"
     ]
   },
   "briefing": {
     "new_emerging": [
       "RNST",
       "BKR",
+      "CAKE",
       "ACRS",
       "UHS",
-      "EQT",
-      "SCKT",
-      "VNRX",
-      "ENS"
+      "OCFC",
+      "BUSEP",
+      "VNRX"
     ],
     "accelerating": [
       {
-        "ticker": "SCKT",
-        "delta": 20.1
+        "ticker": "CAKE",
+        "delta": 28.4
       }
     ],
     "cooling": [
       {
         "ticker": "MOD",
-        "delta": -26.7
-      },
-      {
-        "ticker": "SUNB",
-        "delta": -18.7
-      },
-      {
-        "ticker": "ALGT",
-        "delta": -11.5
+        "delta": -18.4
       }
     ],
     "major_catalysts": [
@@ -129,9 +121,9 @@
         "headline": "Blackstone Inc. (0001393818) (Filer)"
       },
       {
-        "ticker": "SCKT",
-        "category": "Regulatory / FDA",
-        "headline": "SOCKET MOBILE, INC. (0000944075) (Filer)"
+        "ticker": "ACRS",
+        "category": "Clinical trial",
+        "headline": "Aclaris Therapeutics, Inc. (0001557746) (Filer)"
       },
       {
         "ticker": "RNST",
@@ -139,19 +131,19 @@
         "headline": "RENASANT CORP (0000715072) (Filer)"
       },
       {
+        "ticker": "CAKE",
+        "category": "Major contract",
+        "headline": "CHEESECAKE FACTORY INC (0000887596) (Filer)"
+      },
+      {
         "ticker": "ENS",
         "category": "M&A",
         "headline": "EnerSys (0001289308) (Filer)"
       },
       {
-        "ticker": "SPRO",
-        "category": "Regulatory / FDA",
-        "headline": "Spero Therapeutics, Inc. (0001701108) (Filer)"
-      },
-      {
-        "ticker": "ILXP",
+        "ticker": "AIAI",
         "category": "M&A",
-        "headline": "ECOMINAS CORP. (0001115864) (Filer)"
+        "headline": "AIAI Holdings Corp (0002096362) (Filer)"
       }
     ],
     "left_emerging_top20": [
@@ -167,118 +159,118 @@
   },
   "sectors": [
     {
+      "sector": "Hotels, Restaurants & Leisure",
+      "company_count": 1,
+      "discovery_intensity": 84.6,
+      "signal_intensity": 74.5,
+      "tickers": [
+        "CAKE"
+      ]
+    },
+    {
       "sector": "Pharmaceuticals",
       "company_count": 1,
-      "discovery_intensity": 81.9,
-      "signal_intensity": 73.5,
+      "discovery_intensity": 84.2,
+      "signal_intensity": 78.0,
       "tickers": [
         "ACRS"
       ]
     },
     {
-      "sector": "Energy",
-      "company_count": 2,
-      "discovery_intensity": 79.9,
-      "signal_intensity": 83.4,
-      "tickers": [
-        "BKR",
-        "EQT"
-      ]
-    },
-    {
       "sector": "Health Care",
       "company_count": 2,
-      "discovery_intensity": 74.8,
-      "signal_intensity": 65.0,
+      "discovery_intensity": 80.6,
+      "signal_intensity": 71.0,
       "tickers": [
         "UHS",
         "VNRX"
       ]
     },
     {
-      "sector": "Banking",
+      "sector": "Energy",
       "company_count": 2,
-      "discovery_intensity": 74.2,
-      "signal_intensity": 68.2,
+      "discovery_intensity": 80.1,
+      "signal_intensity": 83.7,
       "tickers": [
-        "RNST",
-        "OCFC"
+        "BKR",
+        "EQT"
       ]
     },
     {
-      "sector": "Financial Services",
-      "company_count": 1,
-      "discovery_intensity": 69.1,
-      "signal_intensity": 85.2,
+      "sector": "Banking",
+      "company_count": 4,
+      "discovery_intensity": 76.3,
+      "signal_intensity": 65.5,
       "tickers": [
-        "BX"
+        "RNST",
+        "OCFC",
+        "BUSEP",
+        "FCBM"
+      ]
+    },
+    {
+      "sector": "Trading Companies & Distributors",
+      "company_count": 1,
+      "discovery_intensity": 73.3,
+      "signal_intensity": 66.5,
+      "tickers": [
+        "RUSHB"
       ]
     },
     {
       "sector": "Technology",
       "company_count": 2,
-      "discovery_intensity": 67.9,
-      "signal_intensity": 66.8,
+      "discovery_intensity": 72.1,
+      "signal_intensity": 69.5,
       "tickers": [
         "SCKT",
         "VTIX"
       ]
     },
     {
+      "sector": "Financial Services",
+      "company_count": 1,
+      "discovery_intensity": 68.2,
+      "signal_intensity": 84.6,
+      "tickers": [
+        "BX"
+      ]
+    },
+    {
       "sector": "Electrical Equipment",
       "company_count": 1,
-      "discovery_intensity": 65.6,
-      "signal_intensity": 72.6,
+      "discovery_intensity": 67.3,
+      "signal_intensity": 78.5,
       "tickers": [
         "ENS"
       ]
     },
     {
-      "sector": "N/A",
-      "company_count": 3,
-      "discovery_intensity": 58.5,
-      "signal_intensity": 65.0,
-      "tickers": [
-        "ILXP",
-        "BEAGR",
-        "CAPNU"
-      ]
-    },
-    {
-      "sector": "Airlines",
+      "sector": "Construction",
       "company_count": 1,
-      "discovery_intensity": 58.1,
-      "signal_intensity": 64.5,
+      "discovery_intensity": 66.1,
+      "signal_intensity": 77.6,
       "tickers": [
-        "ALGT"
-      ]
-    },
-    {
-      "sector": "Biotechnology",
-      "company_count": 1,
-      "discovery_intensity": 57.3,
-      "signal_intensity": 65.5,
-      "tickers": [
-        "SPRO"
+        "AIAI"
       ]
     },
     {
       "sector": "Building",
       "company_count": 2,
-      "discovery_intensity": 56.5,
-      "signal_intensity": 60.5,
+      "discovery_intensity": 64.8,
+      "signal_intensity": 64.8,
       "tickers": [
         "FBIN",
         "MOD"
       ]
     },
     {
-      "sector": "Hotels, Restaurants & Leisure",
+      "sector": "Airlines",
       "company_count": 1,
-      "discovery_intensity": 54.3,
-      "signal_intensity": 61.5,
+      "discovery_intensity": 59.8,
+      "signal_intensity": 65.6,
       "tickers": [
-        "CAKE"
+        "ALGT"
       ]
     }
   ],
@@ -286,7 +278,7 @@
     {
       "theme": "AI infrastructure",
       "company_count": 4,
-      "intensity": 70.7,
+      "intensity": 73.6,
       "tickers": [
         "BKR",
         "EQT",
@@ -295,31 +287,39 @@
       ]
     },
     {
-      "theme": "Semiconductors",
-      "company_count": 3,
-      "intensity": 75.2,
-      "tickers": [
-        "UHS",
-        "EQT",
-        "BX"
-      ]
-    },
-    {
       "theme": "Financial technology",
       "company_count": 2,
-      "intensity": 79.9,
+      "intensity": 80.1,
       "tickers": [
         "BKR",
         "EQT"
       ]
     },
     {
+      "theme": "Semiconductors",
+      "company_count": 2,
+      "intensity": 75.1,
+      "tickers": [
+        "UHS",
+        "BX"
+      ]
+    },
+    {
       "theme": "Biotech & therapeutics",
       "company_count": 2,
-      "intensity": 69.6,
+      "intensity": 70.8,
       "tickers": [
         "ACRS",
         "SPRO"
+      ]
+    },
+    {
+      "theme": "Defense & aerospace",
+      "company_count": 2,
+      "intensity": 66.7,
+      "tickers": [
+        "ENS",
+        "AIAI"
       ]
     },
     {
@@ -329,14 +329,6 @@
       "tickers": [
         "BKR"
       ]
-    },
-    {
-      "theme": "Defense & aerospace",
-      "company_count": 1,
-      "intensity": 65.6,
-      "tickers": [
-        "ENS"
-      ]
     }
   ],
   "general_news": [],
@@ -345,16 +337,16 @@
       "ticker": "EQT",
       "company_name": "EQT Corp",
       "signal_score": 88.1,
-      "market_attention_score": 48.6,
-      "discovery_score": 74.9,
+      "market_attention_score": 49.0,
+      "discovery_score": 75.2,
       "confidence_score": 94.2,
       "primary_catalyst": "EQT Corp (0000033213) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "31 unique credible information items from 6 independent sources. Coverage is 3.8× the stored baseline.",
+      "why_it_matters": "31 unique credible information items from 7 independent sources. Coverage is 3.8× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
+      "attention_status": "Breaking out",
       "article_count_24h": 10,
-      "latest_event_at": "2026-10-27T21:20:05+00:00",
+      "latest_event_at": "2026-10-28T00:53:16+00:00",
       "new_to_radar": false,
       "days_on_radar": 72,
       "change": {
@@ -363,7 +355,7 @@
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 6,
+        "independent_sources": 7,
         "unique_story_clusters": 31
       },
       "metrics": {
@@ -375,18 +367,18 @@
         "sentiment_signal": 5.0,
         "coverage_ratio_vs_baseline": 3.8,
         "weighted_coverage_24h": 1.9,
-        "weighted_source_breadth": 1.5
+        "weighted_source_breadth": 1.6
       },
       "discovery_metrics": {
         "attention_lift": 23.1,
         "novelty": 19.8,
-        "source_breadth": 4.5,
+        "source_breadth": 4.8,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
         "coverage_ratio_vs_baseline": 3.8,
         "weighted_coverage_24h": 1.9,
-        "weighted_source_breadth": 1.5
+        "weighted_source_breadth": 1.6
       },
       "baseline": {
         "avg_items_24h": 0.07,
@@ -435,7 +427,6 @@
       },
       "themes": [
         "AI infrastructure",
-        "Semiconductors",
         "Financial technology"
       ],
       "stories": [
@@ -499,25 +490,31 @@
       "history": [
         {
           "date": "2026-10-28",
+          "discovery_score": 74.9,
+          "market_attention_score": 48.6,
+          "signal_score": 88.1
+        },
+        {
+          "date": "2026-10-28",
           "signal_score": 88.1,
-          "discovery_score": 74.9
+          "discovery_score": 75.2
         }
       ]
     },
     {
       "ticker": "RNST",
       "company_name": "RENASANT CORP",
-      "signal_score": 69.5,
-      "market_attention_score": 34.5,
-      "discovery_score": 85.8,
-      "confidence_score": 79.8,
+      "signal_score": 75.5,
+      "market_attention_score": 37.2,
+      "discovery_score": 86.1,
+      "confidence_score": 87.8,
       "primary_catalyst": "RENASANT CORP (0000715072) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "6 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "8 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Breaking out",
-      "article_count_24h": 5,
-      "latest_event_at": "2026-10-27T22:00:05+00:00",
+      "attention_status": "Accelerating leader",
+      "article_count_24h": 7,
+      "latest_event_at": "2026-10-28T03:38:27+00:00",
       "new_to_radar": false,
       "days_on_radar": 67,
       "change": {
@@ -526,30 +523,30 @@
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 6
+        "independent_sources": 3,
+        "unique_story_clusters": 8
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 7.0,
+        "coverage_acceleration": 8.0,
         "catalyst_strength": 20,
-        "corroboration": 5.0,
+        "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 1.6,
+        "weighted_coverage_24h": 1.6,
+        "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
         "attention_lift": 35.0,
         "novelty": 20.0,
-        "source_breadth": 3.3,
+        "source_breadth": 3.6,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 1.6,
+        "weighted_coverage_24h": 1.6,
+        "weighted_source_breadth": 1.2
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -630,56 +627,195 @@
       "history": [
         {
           "date": "2026-10-28",
-          "signal_score": 69.5,
-          "discovery_score": 85.8
+          "discovery_score": 85.8,
+          "market_attention_score": 34.5,
+          "signal_score": 69.5
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 75.5,
+          "discovery_score": 86.1
+        }
+      ]
+    },
+    {
+      "ticker": "BKR",
+      "company_name": "Baker Hughes Co",
+      "signal_score": 79.2,
+      "market_attention_score": 40.8,
+      "discovery_score": 84.9,
+      "confidence_score": 94.2,
+      "primary_catalyst": "Baker Hughes Co (0001701605) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "13 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Accelerating leader",
+      "article_count_24h": 8,
+      "latest_event_at": "2026-10-28T01:49:11+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 72,
+      "change": {
+        "signal_delta": 10.9,
+        "discovery_delta": 3.2
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 4,
+        "unique_story_clusters": 13
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.5,
+        "catalyst_strength": 18,
+        "corroboration": 15.0,
+        "source_quality": 7.7,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.7,
+        "weighted_coverage_24h": 1.7,
+        "weighted_source_breadth": 1.3
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 3.9,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.7,
+        "weighted_coverage_24h": 1.7,
+        "weighted_source_breadth": 1.3
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 46400000000.0,
+        "market_cap_ratio": 0.7922,
+        "score": 20,
+        "label": "Potentially transformative",
+        "basis": "Baker Hughes Announces Third-Quarter 2026 Results",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Baker Hughes Company",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1987-06-04",
+        "weburl": "https://www.bakerhughes.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BKR.png",
+        "market_cap": 58567768508.1057,
+        "pe_ttm": 18.773,
+        "ps_ttm": 2.0963,
+        "pb_annual": 2.386,
+        "revenue_growth_ttm_yoy": 0.42,
+        "eps_growth_ttm_yoy": 1.88,
+        "gross_margin_ttm": 23.65,
+        "net_margin_ttm": 11.17,
+        "current_ratio": 1.3568,
+        "debt_equity": 0.3232,
+        "beta": 1.077911
+      },
+      "profile": {
+        "name": "Baker Hughes Co",
+        "description": "Baker Hughes | We are rewriting The Energy Equation™. We make energy safer, cleaner, and more efficient for people and the planet.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.bakerhughes.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "AI infrastructure",
+        "Power & grid",
+        "Financial technology"
+      ],
+      "stories": [
+        {
+          "ticker": "BKR",
+          "company_name": "Baker Hughes Co",
+          "source": "SEC EDGAR",
+          "title": "Baker Hughes Co (0001701605) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001701605-26-000033 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure",
+          "url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000033/0001701605-26-000033-index.htm",
+          "published_at": "2026-10-27T17:05:54-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "834a818c3381",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-01",
+          "discovery_score": 81.7,
+          "market_attention_score": 46.9,
+          "signal_score": 68.3
+        },
+        {
+          "date": "2026-10-28",
+          "discovery_score": 84.9,
+          "market_attention_score": 39.6,
+          "signal_score": 78.7
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 79.2,
+          "discovery_score": 84.9
         }
       ]
     },
     {
       "ticker": "BX",
       "company_name": "Blackstone Inc.",
-      "signal_score": 85.2,
-      "market_attention_score": 47.1,
-      "discovery_score": 69.1,
+      "signal_score": 84.6,
+      "market_attention_score": 47.5,
+      "discovery_score": 68.2,
       "confidence_score": 93.8,
       "primary_catalyst": "Blackstone Inc. (0001393818) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "18 unique credible information items from 5 independent sources. Coverage is 3.0× the stored baseline.",
+      "why_it_matters": "19 unique credible information items from 5 independent sources. Coverage is 2.9× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 11,
-      "latest_event_at": "2026-10-27T21:38:48+00:00",
+      "article_count_24h": 10,
+      "latest_event_at": "2026-10-28T03:28:28+00:00",
       "new_to_radar": false,
       "days_on_radar": 72,
       "change": {
-        "signal_delta": -2.1,
-        "discovery_delta": -4.6
+        "signal_delta": -2.7,
+        "discovery_delta": -5.5
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 5,
-        "unique_story_clusters": 18
+        "unique_story_clusters": 19
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 12.7,
+        "coverage_acceleration": 12.1,
         "catalyst_strength": 20,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 3.0,
-        "weighted_coverage_24h": 2.0,
+        "coverage_ratio_vs_baseline": 2.85,
+        "weighted_coverage_24h": 1.9,
         "weighted_source_breadth": 1.4
       },
       "discovery_metrics": {
-        "attention_lift": 19.0,
+        "attention_lift": 18.1,
         "novelty": 18.3,
         "source_breadth": 4.2,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 3.0,
-        "weighted_coverage_24h": 2.0,
+        "coverage_ratio_vs_baseline": 2.85,
+        "weighted_coverage_24h": 1.9,
         "weighted_source_breadth": 1.4
       },
       "baseline": {
@@ -818,57 +954,63 @@
         },
         {
           "date": "2026-10-28",
-          "signal_score": 85.2,
-          "discovery_score": 69.1
+          "discovery_score": 69.1,
+          "market_attention_score": 47.1,
+          "signal_score": 85.2
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 84.6,
+          "discovery_score": 68.2
         }
       ]
     },
     {
-      "ticker": "BKR",
-      "company_name": "Baker Hughes Co",
-      "signal_score": 78.7,
-      "market_attention_score": 39.6,
-      "discovery_score": 84.9,
-      "confidence_score": 94.2,
-      "primary_catalyst": "Baker Hughes Co (0001701605) (Filer)",
+      "ticker": "CAKE",
+      "company_name": "CHEESECAKE FACTORY INC",
+      "signal_score": 74.5,
+      "market_attention_score": 41.5,
+      "discovery_score": 84.6,
+      "confidence_score": 87.8,
+      "primary_catalyst": "CHEESECAKE FACTORY INC (0000887596) (Filer)",
       "catalyst_category": "Major contract",
-      "why_it_matters": "12 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "14 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Accelerating leader",
-      "article_count_24h": 7,
-      "latest_event_at": "2026-10-27T21:20:04+00:00",
+      "attention_status": "Breaking out",
+      "article_count_24h": 9,
+      "latest_event_at": "2026-10-28T01:24:22+00:00",
       "new_to_radar": false,
-      "days_on_radar": 72,
+      "days_on_radar": 71,
       "change": {
-        "signal_delta": 10.4,
-        "discovery_delta": 3.2
+        "signal_delta": 24.6,
+        "discovery_delta": 28.4
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 12
+        "independent_sources": 3,
+        "unique_story_clusters": 14
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 9.0,
         "catalyst_strength": 18,
-        "corroboration": 15.0,
-        "source_quality": 7.7,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.6,
-        "weighted_coverage_24h": 1.6,
-        "weighted_source_breadth": 1.3
+        "coverage_ratio_vs_baseline": 1.8,
+        "weighted_coverage_24h": 1.8,
+        "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
         "attention_lift": 35.0,
         "novelty": 20.0,
-        "source_breadth": 3.9,
+        "source_breadth": 3.6,
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.6,
-        "weighted_coverage_24h": 1.6,
-        "weighted_source_breadth": 1.3
+        "coverage_ratio_vs_baseline": 1.8,
+        "weighted_coverage_24h": 1.8,
+        "weighted_source_breadth": 1.2
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -876,108 +1018,94 @@
         "maturity": "established"
       },
       "materiality": {
-        "estimated_event_value": 46400000000.0,
-        "market_cap_ratio": 0.7922,
-        "score": 20,
-        "label": "Potentially transformative",
-        "basis": "Baker Hughes Announces Third-Quarter 2026 Results",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Baker Hughes Company",
-        "industry": "Energy",
+        "name": "Cheesecake Factory Inc",
+        "industry": "Hotels, Restaurants & Leisure",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1987-06-04",
-        "weburl": "https://www.bakerhughes.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BKR.png",
-        "market_cap": 58567768508.1057,
-        "pe_ttm": 18.773,
-        "ps_ttm": 2.0963,
-        "pb_annual": 2.386,
-        "revenue_growth_ttm_yoy": 0.42,
-        "eps_growth_ttm_yoy": 1.88,
-        "gross_margin_ttm": 23.65,
-        "net_margin_ttm": 11.17,
-        "current_ratio": 1.3568,
-        "debt_equity": 0.3232,
-        "beta": 1.077911
+        "ipo_date": "1992-09-18",
+        "weburl": "https://www.thecheesecakefactory.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CAKE.png",
+        "market_cap": 5397535570.670935,
+        "pe_ttm": 30.7243,
+        "ps_ttm": 1.4154,
+        "pb_annual": 5.7113,
+        "revenue_growth_ttm_yoy": 5.66,
+        "eps_growth_ttm_yoy": 13.39,
+        "gross_margin_ttm": 78.31,
+        "net_margin_ttm": 4.61,
+        "current_ratio": 0.5854,
+        "debt_equity": 1.4437,
+        "beta": 1.1510618
       },
       "profile": {
-        "name": "Baker Hughes Co",
-        "description": "Baker Hughes | We are rewriting The Energy Equation™. We make energy safer, cleaner, and more efficient for people and the planet.",
-        "industry": "Energy",
+        "name": "Cheesecake Factory Inc",
+        "description": "Over 250 menu items, freshly prepared and from scratch, to order, every day. Over 30 legendary cheesecakes and desserts. There's something for everyone! Order online today!",
+        "industry": "Hotels, Restaurants & Leisure",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.bakerhughes.com/",
-        "products_markets": [
-          "Energy"
-        ],
+        "website": "https://www.thecheesecakefactory.com/",
+        "products_markets": [],
         "source": "Company website"
       },
-      "themes": [
-        "AI infrastructure",
-        "Power & grid",
-        "Financial technology"
-      ],
+      "themes": [],
       "stories": [
         {
-          "ticker": "BKR",
-          "company_name": "Baker Hughes Co",
+          "ticker": "CAKE",
+          "company_name": "CHEESECAKE FACTORY INC",
           "source": "SEC EDGAR",
-          "title": "Baker Hughes Co (0001701605) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001701605-26-000033 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure",
-          "url": "https://www.sec.gov/Archives/edgar/data/1701605/000170160526000033/0001701605-26-000033-index.htm",
-          "published_at": "2026-10-27T17:05:54-04:00",
+          "title": "CHEESECAKE FACTORY INC (0000887596) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001104659-26-119176 Size: 13 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926119176/0001104659-26-119176-index.htm",
+          "published_at": "2026-10-27T16:30:36-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "834a818c3381",
+          "fingerprint": "0f8a8d07fbaf",
           "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "BKR",
-          "company_name": "Baker Hughes Co",
-          "source": "Yahoo",
-          "title": "Baker Hughes Declares Quarterly Dividend",
-          "summary": "HOUSTON and LONDON, Oct. 27, 2026 (GLOBE NEWSWIRE) -- Baker Hughes (NASDAQ: BKR) announced today that the Baker Hughes Board of Directors declared a quarterly cash dividend of $0.23 per share of Class A common stock payable on Nov. 20, 2026, to holders of record on Nov. 10, 2026. Baker Hughes expects to fund its quarterly cash dividend from cash generated from operations. About Baker Hughes:Baker Hughes (NASDAQ: BKR…",
-          "url": "https://finnhub.io/api/news?id=825f7567ba26a1dd0aa444e20ba60ceef93674eefe49035b1cd75096b7ce6a0d",
-          "published_at": "2026-10-27T20:05:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "a18141f83a90",
-          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-09-01",
-          "discovery_score": 81.7,
-          "market_attention_score": 46.9,
-          "signal_score": 68.3
+          "date": "2026-09-06",
+          "discovery_score": 56.2,
+          "market_attention_score": 26.9,
+          "signal_score": 49.9
         },
         {
           "date": "2026-10-28",
-          "signal_score": 78.7,
-          "discovery_score": 84.9
+          "discovery_score": 54.3,
+          "market_attention_score": 29.9,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 74.5,
+          "discovery_score": 84.6
         }
       ]
     },
     {
       "ticker": "ACRS",
       "company_name": "Aclaris Therapeutics, Inc.",
-      "signal_score": 73.5,
-      "market_attention_score": 31.6,
-      "discovery_score": 81.9,
+      "signal_score": 78.0,
+      "market_attention_score": 37.2,
+      "discovery_score": 84.2,
       "confidence_score": 93.8,
       "primary_catalyst": "Aclaris Therapeutics, Inc. (0001557746) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "5 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "catalyst_category": "Clinical trial",
+      "why_it_matters": "9 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Breaking out",
-      "article_count_24h": 5,
-      "latest_event_at": "2026-10-27T17:25:19-04:00",
+      "attention_status": "Accelerating leader",
+      "article_count_24h": 8,
+      "latest_event_at": "2026-10-27T22:04:36+00:00",
       "new_to_radar": false,
       "days_on_radar": 58,
       "change": {
@@ -987,28 +1115,28 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 5
+        "unique_story_clusters": 9
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 7.0,
-        "catalyst_strength": 14,
+        "coverage_acceleration": 8.5,
+        "catalyst_strength": 17,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
+        "coverage_ratio_vs_baseline": 1.7,
+        "weighted_coverage_24h": 1.7,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
         "attention_lift": 35.0,
         "novelty": 20.0,
         "source_breadth": 3.9,
-        "catalyst_strength": 10.5,
+        "catalyst_strength": 12.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
+        "coverage_ratio_vs_baseline": 1.7,
+        "weighted_coverage_24h": 1.7,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -1021,7 +1149,7 @@
         "market_cap_ratio": 0.0896,
         "score": 14,
         "label": "Material",
-        "basis": "Aclaris Therapeutics Prices $50M Offering Of 7,785,714 Shares And Warrants To Purchase 6.5M Shares At $3.50/Unit",
+        "basis": "Aclaris Therapeutics Announces Pricing of $50.0 Million Offering of Common Stock and Pre-Funded Warrants",
         "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
       },
       "fundamentals": {
@@ -1078,25 +1206,31 @@
       "history": [
         {
           "date": "2026-10-28",
-          "signal_score": 73.5,
-          "discovery_score": 81.9
+          "discovery_score": 81.9,
+          "market_attention_score": 31.6,
+          "signal_score": 73.5
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 78.0,
+          "discovery_score": 84.2
         }
       ]
     },
     {
       "ticker": "UHS",
       "company_name": "UNIVERSAL HEALTH SERVICES INC",
-      "signal_score": 70.5,
-      "market_attention_score": 37.2,
-      "discovery_score": 81.6,
-      "confidence_score": 87.8,
+      "signal_score": 76.5,
+      "market_attention_score": 40.0,
+      "discovery_score": 81.9,
+      "confidence_score": 93.8,
       "primary_catalyst": "UNIVERSAL HEALTH SERVICES INC (0000352915) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "11 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "13 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Breaking out",
-      "article_count_24h": 9,
-      "latest_event_at": "2026-10-27T22:26:45+00:00",
+      "attention_status": "Accelerating leader",
+      "article_count_24h": 11,
+      "latest_event_at": "2026-10-28T02:58:41+00:00",
       "new_to_radar": false,
       "days_on_radar": 71,
       "change": {
@@ -1105,30 +1239,30 @@
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 11
+        "independent_sources": 4,
+        "unique_story_clusters": 13
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.0,
+        "coverage_acceleration": 10.0,
         "catalyst_strength": 14,
-        "corroboration": 10.0,
+        "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.8,
-        "weighted_coverage_24h": 1.8,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 2.0,
+        "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
         "attention_lift": 35.0,
         "novelty": 20.0,
-        "source_breadth": 3.6,
+        "source_breadth": 3.9,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.8,
-        "weighted_coverage_24h": 1.8,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 2.0,
+        "weighted_source_breadth": 1.3
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -1195,8 +1329,662 @@
       "history": [
         {
           "date": "2026-10-28",
-          "signal_score": 70.5,
+          "discovery_score": 81.6,
+          "market_attention_score": 37.2,
+          "signal_score": 70.5
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 76.5,
+          "discovery_score": 81.9
+        }
+      ]
+    },
+    {
+      "ticker": "OCFC",
+      "company_name": "OCEANFIRST FINANCIAL CORP",
+      "signal_score": 68.5,
+      "market_attention_score": 31.9,
+      "discovery_score": 81.6,
+      "confidence_score": 87.8,
+      "primary_catalyst": "OCEANFIRST FINANCIAL CORP (0001004702) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "6 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-27T23:05:22+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 70,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 6
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 7.0,
+        "catalyst_strength": 14,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "OceanFirst Financial Corp.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1996-07-03",
+        "weburl": "https://oceanfirst.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959144146.png",
+        "market_cap": 1641281776.8822815,
+        "pe_ttm": 33.9667,
+        "ps_ttm": 1.87076,
+        "pb_annual": 0.6196,
+        "revenue_growth_ttm_yoy": 48.40364,
+        "eps_growth_ttm_yoy": -43.7,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 29.6142,
+        "current_ratio": null,
+        "debt_equity": 0.1863,
+        "beta": 1.0095704
+      },
+      "profile": {
+        "name": "OceanFirst Financial Corp.",
+        "description": "Reach your financial goals with personalized banking solutions for individuals and businesses from OceanFirst. Explore our accounts, loans, and digital tools.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://oceanfirst.com",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "OCFC",
+          "company_name": "OCEANFIRST FINANCIAL CORP",
+          "source": "SEC EDGAR",
+          "title": "OCEANFIRST FINANCIAL CORP (0001004702) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001004702-26-000122 Size: 5 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1004702/000100470226000122/0001004702-26-000122-index.htm",
+          "published_at": "2026-10-27T17:02:09-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "9a3fa00a9e19",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "discovery_score": 62.6,
+          "market_attention_score": 28.4,
+          "signal_score": 67.0
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 68.5,
           "discovery_score": 81.6
+        }
+      ]
+    },
+    {
+      "ticker": "BUSEP",
+      "company_name": "FIRST BUSEY CORP /NV/",
+      "signal_score": 64.0,
+      "market_attention_score": 32.6,
+      "discovery_score": 81.3,
+      "confidence_score": 79.8,
+      "primary_catalyst": "FIRST BUSEY CORP /NV/ (0000314489) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "7 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 6,
+      "latest_event_at": "2026-10-27T22:00:05+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 15,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 7
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 7.5,
+        "catalyst_strength": 14,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.5,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.5,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "First Busey Corporation",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1993-10-27",
+        "weburl": "https://www.busey.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BUSE.png",
+        "market_cap": 2492172284.4410796,
+        "pe_ttm": 10.8581,
+        "ps_ttm": 2.5703,
+        "pb_annual": 0.8519,
+        "revenue_growth_ttm_yoy": 37.92471,
+        "eps_growth_ttm_yoy": 133.62,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 28.93669,
+        "current_ratio": null,
+        "debt_equity": 0.1436,
+        "beta": 0.7593217
+      },
+      "profile": {
+        "name": "First Busey Corporation",
+        "description": "For nearly 160 years of strength and service, Busey provides expert advice and tailored solutions. With 80 banking centers throughout 10 states.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.busey.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "BUSEP",
+          "company_name": "FIRST BUSEY CORP /NV/",
+          "source": "SEC EDGAR",
+          "title": "FIRST BUSEY CORP /NV/ (0000314489) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0000314489-26-000066 Size: 7 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/314489/000031448926000066/0000314489-26-000066-index.htm",
+          "published_at": "2026-10-27T17:01:31-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "84af3416d63b",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "discovery_score": 54.3,
+          "market_attention_score": 26.9,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 64.0,
+          "discovery_score": 81.3
+        }
+      ]
+    },
+    {
+      "ticker": "VNRX",
+      "company_name": "VOLITIONRX LTD",
+      "signal_score": 65.5,
+      "market_attention_score": 29.6,
+      "discovery_score": 79.3,
+      "confidence_score": 87.8,
+      "primary_catalyst": "VOLITIONRX LTD (0000093314) (Filer)",
+      "catalyst_category": "Product / technology",
+      "why_it_matters": "5 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-27T17:00:38-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 66,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 5
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 7.0,
+        "catalyst_strength": 11,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 8.2,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "VolitionRX Ltd",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2015-02-06",
+        "weburl": "https://volition.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950006465596.png",
+        "market_cap": 5230000.0,
+        "pe_ttm": null,
+        "ps_ttm": 2.1236,
+        "pb_annual": 9.3703,
+        "revenue_growth_ttm_yoy": 86.32,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -1043.1,
+        "current_ratio": 0.1685,
+        "debt_equity": 0.2185,
+        "beta": 1.1862228
+      },
+      "profile": {
+        "name": "VolitionRX Ltd",
+        "description": "Revolutionizing early diagnosis and monitoring of life-altering diseases. Driving the future of epigenetics through nucleosome quantification.",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "website": "https://volition.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "VNRX",
+          "company_name": "VOLITIONRX LTD",
+          "source": "SEC EDGAR",
+          "title": "VOLITIONRX LTD (0000093314) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001477932-26-006470 Size: 178 KB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/93314/000147793226006470/0001477932-26-006470-index.htm",
+          "published_at": "2026-10-27T17:00:38-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "992bd27f8604",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "discovery_score": 68.0,
+          "market_attention_score": 26.9,
+          "signal_score": 59.5
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 65.5,
+          "discovery_score": 79.3
+        }
+      ]
+    },
+    {
+      "ticker": "ENS",
+      "company_name": "EnerSys",
+      "signal_score": 78.5,
+      "market_attention_score": 33.0,
+      "discovery_score": 67.3,
+      "confidence_score": 83.8,
+      "primary_catalyst": "EnerSys (0001289308) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.6× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-28T03:08:33+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 42,
+      "change": {
+        "signal_delta": 12.9,
+        "discovery_delta": 7.5
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 11.0,
+        "catalyst_strength": 20,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.6,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 16.5,
+        "novelty": 19.7,
+        "source_breadth": 3.6,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.6,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 320000000.0,
+        "market_cap_ratio": 0.0509,
+        "score": 10,
+        "label": "Meaningful",
+        "basis": "EnerSys to Acquire Ultralife Corporation in a $320 Million All-Cash Transaction",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "EnerSys",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2004-07-30",
+        "weburl": "https://www.enersys.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ENS.png",
+        "market_cap": 6281480191.463277,
+        "pe_ttm": 17.6485,
+        "ps_ttm": 1.64,
+        "pb_annual": 3.36,
+        "revenue_growth_ttm_yoy": 3.73,
+        "eps_growth_ttm_yoy": 6.65,
+        "gross_margin_ttm": 30.57,
+        "net_margin_ttm": 9.29,
+        "current_ratio": 2.6638,
+        "debt_equity": 0.5838,
+        "beta": 1.1990746
+      },
+      "profile": {
+        "name": "EnerSys",
+        "description": "EnerSys is a publicly traded company operating in the Electrical Equipment industry with company information identifying US as its home market.",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.enersys.com",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "Defense & aerospace"
+      ],
+      "stories": [
+        {
+          "ticker": "ENS",
+          "company_name": "EnerSys",
+          "source": "SEC EDGAR",
+          "title": "EnerSys (0001289308) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001193125-26-434415 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1289308/000119312526434415/0001193125-26-434415-index.htm",
+          "published_at": "2026-10-27T17:04:02-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "b10fca7f3e30",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "ENS",
+          "company_name": "EnerSys",
+          "source": "Yahoo",
+          "title": "EnerSys to Acquire Ultralife Corporation in a $320 Million All-Cash Transaction",
+          "summary": "NEWARK, N.Y., Oct. 27, 2026 (GLOBE NEWSWIRE) -- Ultralife Corporation (NASDAQ: ULBI) today announced that it has entered into an Agreement and Plan of Merger (“merger agreement”) with EnerSys (NYSE: ENS) under which upon closing EnerSys will acquire Ultralife Corporation in an all-cash transaction valued at approximately $320 million, including the assumption of net debt. Under the terms of the merger agreement, whi…",
+          "url": "https://finnhub.io/api/news?id=203a1c0b3f74e267bc3e5ed4338332fc8e90b9becdbfa77c28c67ee7d6effedb",
+          "published_at": "2026-10-27T20:15:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "e958838e1279",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-14",
+          "discovery_score": 59.8,
+          "market_attention_score": 30.3,
+          "signal_score": 65.6
+        },
+        {
+          "date": "2026-10-28",
+          "discovery_score": 65.6,
+          "market_attention_score": 31.4,
+          "signal_score": 72.6
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 78.5,
+          "discovery_score": 67.3
+        }
+      ]
+    },
+    {
+      "ticker": "AIAI",
+      "company_name": "AIAI Holdings Corp",
+      "signal_score": 77.6,
+      "market_attention_score": 31.9,
+      "discovery_score": 66.1,
+      "confidence_score": 79.8,
+      "primary_catalyst": "AIAI Holdings Corp (0002096362) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.4× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-27T16:39:11-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 66,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 10.1,
+        "catalyst_strength": 20,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 15.2,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "AIAI Holdings Corp",
+        "industry": "Construction",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2026-05-14",
+        "weburl": "https://aiaiholdings.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/960000013926.png",
+        "market_cap": 133357668.41269845,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 0.9539377
+      },
+      "profile": {
+        "name": "AIAI Holdings Corp",
+        "description": "AIAI Holdings (NASDAQ: AIAI) is an AI-powered diversified holding company acquiring and scaling businesses across industries with Transformational AI.",
+        "industry": "Construction",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://aiaiholdings.com",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [
+        "AI infrastructure",
+        "Defense & aerospace"
+      ],
+      "stories": [
+        {
+          "ticker": "AIAI",
+          "company_name": "AIAI Holdings Corp",
+          "source": "SEC EDGAR",
+          "title": "AIAI Holdings Corp (0002096362) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001493152-26-048718 Size: 202 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/2096362/000149315226048718/0001493152-26-048718-index.htm",
+          "published_at": "2026-10-27T16:39:11-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "207c7bc37241",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "AIAI",
+          "company_name": "AIAI Holdings Corp",
+          "source": "Benzinga",
+          "title": "AIAI Holdings Collaborating With Messier 42 To Create War Tech Consortium",
+          "summary": "AIAI Holdings Corporation (NASDAQ:AIAI) (\"Ai² \" or the \"Company\"), an AI-enabled diversified holding company utilizing Transformational AI to enhance portfolio performance, today announced that they are",
+          "url": "https://finnhub.io/api/news?id=272e49547444fa4d6c4ef6ea117c37ef9b812b4819b4f2ae461c986bc63b6593",
+          "published_at": "2026-10-27T08:34:12+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "f750b2095657",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "discovery_score": 53.8,
+          "market_attention_score": 23.3,
+          "signal_score": 57.6
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 77.6,
+          "discovery_score": 66.1
         }
       ]
     },
@@ -1217,8 +2005,8 @@
       "new_to_radar": false,
       "days_on_radar": 62,
       "change": {
-        "signal_delta": 11.0,
-        "discovery_delta": 20.1
+        "signal_delta": null,
+        "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1309,10 +2097,10 @@
       ],
       "history": [
         {
-          "date": "2026-08-28",
-          "discovery_score": 53.5,
-          "market_attention_score": 26.4,
-          "signal_score": 60.5
+          "date": "2026-10-28",
+          "discovery_score": 73.6,
+          "market_attention_score": 30.9,
+          "signal_score": 71.5
         },
         {
           "date": "2026-10-28",
@@ -1322,158 +2110,21 @@
       ]
     },
     {
-      "ticker": "ENS",
-      "company_name": "EnerSys",
-      "signal_score": 72.6,
-      "market_attention_score": 31.4,
-      "discovery_score": 65.6,
-      "confidence_score": 71.8,
-      "primary_catalyst": "EnerSys (0001289308) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.4× the stored baseline.",
+      "ticker": "RUSHB",
+      "company_name": "RUSH ENTERPRISES INC \\TX\\",
+      "signal_score": 66.5,
+      "market_attention_score": 31.2,
+      "discovery_score": 73.3,
+      "confidence_score": 75.8,
+      "primary_catalyst": "RUSH ENTERPRISES INC \\TX\\ (0001012019) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "4 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
       "article_count_24h": 3,
-      "latest_event_at": "2026-10-27T20:31:00+00:00",
+      "latest_event_at": "2026-10-27T20:53:30+00:00",
       "new_to_radar": false,
-      "days_on_radar": 42,
-      "change": {
-        "signal_delta": 7.0,
-        "discovery_delta": 5.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 10.1,
-        "catalyst_strength": 20,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 15.2,
-        "novelty": 19.7,
-        "source_breadth": 3.3,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": 320000000.0,
-        "market_cap_ratio": 0.0509,
-        "score": 10,
-        "label": "Meaningful",
-        "basis": "EnerSys to Acquire Ultralife Corporation in a $320 Million All-Cash Transaction",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "EnerSys",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2004-07-30",
-        "weburl": "https://www.enersys.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ENS.png",
-        "market_cap": 6281480191.463277,
-        "pe_ttm": 17.6485,
-        "ps_ttm": 1.64,
-        "pb_annual": 3.36,
-        "revenue_growth_ttm_yoy": 3.73,
-        "eps_growth_ttm_yoy": 6.65,
-        "gross_margin_ttm": 30.57,
-        "net_margin_ttm": 9.29,
-        "current_ratio": 2.6638,
-        "debt_equity": 0.5838,
-        "beta": 1.1990746
-      },
-      "profile": {
-        "name": "EnerSys",
-        "description": "EnerSys is a publicly traded company operating in the Electrical Equipment industry with company information identifying US as its home market.",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.enersys.com",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "Defense & aerospace"
-      ],
-      "stories": [
-        {
-          "ticker": "ENS",
-          "company_name": "EnerSys",
-          "source": "SEC EDGAR",
-          "title": "EnerSys (0001289308) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001193125-26-434415 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1289308/000119312526434415/0001193125-26-434415-index.htm",
-          "published_at": "2026-10-27T17:04:02-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "b10fca7f3e30",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "ENS",
-          "company_name": "EnerSys",
-          "source": "Yahoo",
-          "title": "EnerSys to Acquire Ultralife Corporation in a $320 Million All-Cash Transaction",
-          "summary": "NEWARK, N.Y., Oct. 27, 2026 (GLOBE NEWSWIRE) -- Ultralife Corporation (NASDAQ: ULBI) today announced that it has entered into an Agreement and Plan of Merger (“merger agreement”) with EnerSys (NYSE: ENS) under which upon closing EnerSys will acquire Ultralife Corporation in an all-cash transaction valued at approximately $320 million, including the assumption of net debt. Under the terms of the merger agreement, whi…",
-          "url": "https://finnhub.io/api/news?id=203a1c0b3f74e267bc3e5ed4338332fc8e90b9becdbfa77c28c67ee7d6effedb",
-          "published_at": "2026-10-27T20:15:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "e958838e1279",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-14",
-          "discovery_score": 59.8,
-          "market_attention_score": 30.3,
-          "signal_score": 65.6
-        },
-        {
-          "date": "2026-10-28",
-          "signal_score": 72.6,
-          "discovery_score": 65.6
-        }
-      ]
-    },
-    {
-      "ticker": "VNRX",
-      "company_name": "VOLITIONRX LTD",
-      "signal_score": 59.5,
-      "market_attention_score": 26.9,
-      "discovery_score": 68.0,
-      "confidence_score": 71.8,
-      "primary_catalyst": "VOLITIONRX LTD (0000093314) (Filer)",
-      "catalyst_category": "Product / technology",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 3,
-      "latest_event_at": "2026-10-27T17:00:38-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 66,
+      "days_on_radar": 58,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
@@ -1481,12 +2132,12 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 3
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
         "coverage_acceleration": 6.0,
-        "catalyst_strength": 11,
+        "catalyst_strength": 18,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
@@ -1498,7 +2149,7 @@
         "attention_lift": 24.0,
         "novelty": 20.0,
         "source_breadth": 3.3,
-        "catalyst_strength": 8.2,
+        "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
         "coverage_ratio_vs_baseline": 1.2,
@@ -1511,56 +2162,58 @@
         "maturity": "established"
       },
       "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
+        "estimated_event_value": 2100000000.0,
+        "market_cap_ratio": 0.3729,
+        "score": 17,
+        "label": "Very material",
+        "basis": "Rush Enterprises, Inc. Reports Third Quarter 2026 Results, Announces $0.14 Per Share Dividend",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
       },
       "fundamentals": {
-        "name": "VolitionRX Ltd",
-        "industry": "Health Care",
+        "name": "Rush Enterprises, Inc.",
+        "industry": "Trading Companies & Distributors",
         "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "ipo_date": "2015-02-06",
-        "weburl": "https://volition.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950006465596.png",
-        "market_cap": 5230000.0,
-        "pe_ttm": null,
-        "ps_ttm": 2.1236,
-        "pb_annual": 9.3703,
-        "revenue_growth_ttm_yoy": 86.32,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": -1043.1,
-        "current_ratio": 0.1685,
-        "debt_equity": 0.2185,
-        "beta": 1.1862228
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1996-06-07",
+        "weburl": "https://www.rushenterprises.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/RUSHA.png",
+        "market_cap": 5630954847.6534395,
+        "pe_ttm": 21.0435,
+        "ps_ttm": 0.7713,
+        "pb_annual": 1.9023,
+        "revenue_growth_ttm_yoy": -5.86,
+        "eps_growth_ttm_yoy": -5.45,
+        "gross_margin_ttm": 19.74,
+        "net_margin_ttm": 3.67,
+        "current_ratio": 1.4015,
+        "debt_equity": 0.5971,
+        "beta": 0.88210744
       },
       "profile": {
-        "name": "VolitionRX Ltd",
-        "description": "Revolutionizing early diagnosis and monitoring of life-altering diseases. Driving the future of epigenetics through nucleosome quantification.",
-        "industry": "Health Care",
+        "name": "Rush Enterprises, Inc.",
+        "description": "Find commercial truck sales, rental, leasing, parts, maintenance & more from Rush Enterprises, the largest commercial vehicle dealer in North America.",
+        "industry": "Trading Companies & Distributors",
         "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "website": "https://volition.com/",
-        "products_markets": [],
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.rushenterprises.com/",
+        "products_markets": [
+          "Automotive"
+        ],
         "source": "Company website"
       },
       "themes": [],
       "stories": [
         {
-          "ticker": "VNRX",
-          "company_name": "VOLITIONRX LTD",
+          "ticker": "RUSHB",
+          "company_name": "RUSH ENTERPRISES INC \\TX\\",
           "source": "SEC EDGAR",
-          "title": "VOLITIONRX LTD (0000093314) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001477932-26-006470 Size: 178 KB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/93314/000147793226006470/0001477932-26-006470-index.htm",
-          "published_at": "2026-10-27T17:00:38-04:00",
+          "title": "RUSH ENTERPRISES INC \\TX\\ (0001012019) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001437749-26-033667 Size: 559 KB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926033667/0001437749-26-033667-index.htm",
+          "published_at": "2026-10-27T17:28:51-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "992bd27f8604",
+          "fingerprint": "5b6afb4cdcd0",
           "display_relevance": 1.0,
           "display_relevant": true
         }
@@ -1568,25 +2221,31 @@
       "history": [
         {
           "date": "2026-10-28",
-          "signal_score": 59.5,
-          "discovery_score": 68.0
+          "discovery_score": 54.3,
+          "market_attention_score": 26.9,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 66.5,
+          "discovery_score": 73.3
         }
       ]
     },
     {
-      "ticker": "OCFC",
-      "company_name": "OCEANFIRST FINANCIAL CORP",
-      "signal_score": 67.0,
-      "market_attention_score": 28.4,
-      "discovery_score": 62.6,
+      "ticker": "VTIX",
+      "company_name": "Virtuix Holdings Inc.",
+      "signal_score": 67.5,
+      "market_attention_score": 28.9,
+      "discovery_score": 70.6,
       "confidence_score": 79.8,
-      "primary_catalyst": "OCEANFIRST FINANCIAL CORP (0001004702) (Filer)",
+      "primary_catalyst": "Virtuix Holdings Inc. (0001606242) (Filer)",
       "catalyst_category": "Earnings / guidance",
       "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-27T23:05:22+00:00",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-27T17:00:29-04:00",
       "new_to_radar": false,
       "days_on_radar": 70,
       "change": {
@@ -1600,24 +2259,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.5,
+        "coverage_acceleration": 6.0,
         "catalyst_strength": 14,
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 16.0,
+        "attention_lift": 24.0,
         "novelty": 20.0,
         "source_breadth": 3.6,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -1634,50 +2293,197 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "OceanFirst Financial Corp.",
-        "industry": "Banking",
+        "name": "Virtuix Holdings Inc",
+        "industry": "Technology",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1996-07-03",
-        "weburl": "https://oceanfirst.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959144146.png",
-        "market_cap": 1641281776.8822815,
-        "pe_ttm": 33.9667,
-        "ps_ttm": 1.87076,
-        "pb_annual": 0.6196,
-        "revenue_growth_ttm_yoy": 48.40364,
-        "eps_growth_ttm_yoy": -43.7,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": 29.6142,
-        "current_ratio": null,
-        "debt_equity": 0.1863,
-        "beta": 1.0095704
+        "ipo_date": "2026-01-28",
+        "weburl": "https://invest.virtuix.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950423724616.png",
+        "market_cap": 23510000.0,
+        "pe_ttm": null,
+        "ps_ttm": 5.7361,
+        "pb_annual": 70.7394,
+        "revenue_growth_ttm_yoy": 0.26,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 27.53,
+        "net_margin_ttm": -543.22,
+        "current_ratio": 1.3613,
+        "debt_equity": 2.8017,
+        "beta": 2.290645
       },
       "profile": {
-        "name": "OceanFirst Financial Corp.",
-        "description": "Reach your financial goals with personalized banking solutions for individuals and businesses from OceanFirst. Explore our accounts, loans, and digital tools.",
-        "industry": "Banking",
+        "name": "Virtuix Holdings Inc",
+        "description": "Virtuix Holdings Inc is a publicly traded company operating in the Technology industry with company information identifying US as its home market.",
+        "industry": "Technology",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://oceanfirst.com",
-        "products_markets": [
-          "Financial services"
-        ],
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "VTIX",
+          "company_name": "Virtuix Holdings Inc.",
+          "source": "SEC EDGAR",
+          "title": "Virtuix Holdings Inc. (0001606242) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001213900-26-112953 Size: 225 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1606242/000121390026112953/0001213900-26-112953-index.htm",
+          "published_at": "2026-10-27T17:00:29-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "78c309e2dc24",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "VTIX",
+          "company_name": "Virtuix Holdings Inc.",
+          "source": "Yahoo",
+          "title": "Virtuix Expects to Report Strong Second Quarter Revenue Growth Following Meta Quest Launch; Schedules Q2 FY2027 Earnings Call",
+          "summary": "Company to Host Second Quarter Fiscal Year 2027 Results Conference Call on Monday, November 16, 2026, at 8:30 a.m. Eastern Time AUSTIN, Texas, Oct. 27, 2026 (GLOBE NEWSWIRE) -- Virtuix Holdings Inc. (NASDAQ: VTIX) (“Virtuix” or the “Company”), a leading developer of AI-driven, full-body simulation systems, today announced that it expects to report strong revenue growth for the second quarter of fiscal year 2027, end…",
+          "url": "https://finnhub.io/api/news?id=a94f717c6916f20e1d7ad2a244a7012f839e37e1bf75feee8003413109523832",
+          "published_at": "2026-10-27T13:17:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "806dd9927994",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "VTIX",
+          "company_name": "Virtuix Holdings Inc.",
+          "source": "Benzinga",
+          "title": "Virtuix Guides To 'Strong' Q2 Sales Growth After Meta Quest Launch",
+          "summary": "Virtuix Holdings Inc. (NASDAQ:VTIX) (\"Virtuix\" or the \"Company\"), a leading developer of AI-driven, full-body simulation systems, today announced that it expects to report strong revenue growth for the",
+          "url": "https://finnhub.io/api/news?id=a6ef050e2d5b7f3477d592b1190c87d7c8abda4f039be01703d487b5cb7d349f",
+          "published_at": "2026-10-27T09:21:01+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "4da3e311f308",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-28",
+          "discovery_score": 62.3,
+          "market_attention_score": 27.3,
+          "signal_score": 62.0
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 67.5,
+          "discovery_score": 70.6
+        }
+      ]
+    },
+    {
+      "ticker": "FBIN",
+      "company_name": "Fortune Brands Innovations, Inc.",
+      "signal_score": 69.5,
+      "market_attention_score": 30.0,
+      "discovery_score": 68.7,
+      "confidence_score": 93.8,
+      "primary_catalyst": "Fortune Brands Innovations, Inc. (0001519751) (Filer)",
+      "catalyst_category": "Product / technology",
+      "why_it_matters": "6 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-28T02:48:28+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 70,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 4,
+        "unique_story_clusters": 6
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.0,
+        "catalyst_strength": 11,
+        "corroboration": 15.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.3
+      },
+      "discovery_metrics": {
+        "attention_lift": 24.0,
+        "novelty": 20.0,
+        "source_breadth": 3.9,
+        "catalyst_strength": 8.2,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.3
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Fortune Brands Innovations, Inc.",
+        "industry": "Building",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2011-09-16",
+        "weburl": "https://www.fbin.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FBHS.png",
+        "market_cap": 5143716721.310017,
+        "pe_ttm": 34.568,
+        "ps_ttm": 1.1712,
+        "pb_annual": 2.5636,
+        "revenue_growth_ttm_yoy": -2.31,
+        "eps_growth_ttm_yoy": -61.18,
+        "gross_margin_ttm": 46.01,
+        "net_margin_ttm": 3.39,
+        "current_ratio": 1.8423,
+        "debt_equity": 1.0654,
+        "beta": 1.2662545
+      },
+      "profile": {
+        "name": "Fortune Brands Innovations Inc",
+        "description": "Fortune Brands Innovations (NYSE: FBIN) is an industry-leading home, security and digital products company behind leading brands such as Moen, Therma-Tru, Master Lock, and Yale residential. We’re focused on exciting opportunities within the home, security and commercial building markets.",
+        "industry": "Building",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.fbin.com/",
+        "products_markets": [],
         "source": "Company website"
       },
       "themes": [],
       "stories": [
         {
-          "ticker": "OCFC",
-          "company_name": "OCEANFIRST FINANCIAL CORP",
+          "ticker": "FBIN",
+          "company_name": "Fortune Brands Innovations, Inc.",
           "source": "SEC EDGAR",
-          "title": "OCEANFIRST FINANCIAL CORP (0001004702) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001004702-26-000122 Size: 5 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1004702/000100470226000122/0001004702-26-000122-index.htm",
-          "published_at": "2026-10-27T17:02:09-04:00",
+          "title": "Fortune Brands Innovations, Inc. (0001519751) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001193125-26-434380 Size: 375 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1519751/000119312526434380/0001193125-26-434380-index.htm",
+          "published_at": "2026-10-27T16:54:45-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "9a3fa00a9e19",
+          "fingerprint": "d2b515602a9e",
           "display_relevance": 1.0,
           "display_relevant": true
         }
@@ -1685,8 +2491,280 @@
       "history": [
         {
           "date": "2026-10-28",
-          "signal_score": 67.0,
-          "discovery_score": 62.6
+          "discovery_score": 60.4,
+          "market_attention_score": 28.4,
+          "signal_score": 64.0
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 69.5,
+          "discovery_score": 68.7
+        }
+      ]
+    },
+    {
+      "ticker": "HYFM",
+      "company_name": "HYDROFARM HOLDINGS GROUP, INC.",
+      "signal_score": 68.6,
+      "market_attention_score": 27.4,
+      "discovery_score": 59.2,
+      "confidence_score": 79.8,
+      "primary_catalyst": "HYDROFARM HOLDINGS GROUP, INC. (0001695295) (Filer)",
+      "catalyst_category": "Financing",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.4× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-27T17:24:14-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 66,
+      "change": {
+        "signal_delta": 9.6,
+        "discovery_delta": -0.8
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 10.1,
+        "catalyst_strength": 11,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 15.2,
+        "novelty": 19.7,
+        "source_breadth": 3.6,
+        "catalyst_strength": 8.2,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.4,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 109000000.0,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "Hydrofarm Holdings Group Announces Termination of $109 Million Senior Secured Term Loan in Connection with Pricing of Aggregate $8.3 Million Registered Direct Offering and Concurrent Private Placement",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "HYFM",
+          "company_name": "HYDROFARM HOLDINGS GROUP, INC.",
+          "source": "SEC EDGAR",
+          "title": "HYDROFARM HOLDINGS GROUP, INC. (0001695295) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001437749-26-033664 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 1.02: Termination of a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 8.01: Other Events Item 9.01: Financial Statem…",
+          "url": "https://www.sec.gov/Archives/edgar/data/1695295/000143774926033664/0001437749-26-033664-index.htm",
+          "published_at": "2026-10-27T17:24:14-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "37c96e56face",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "HYFM",
+          "company_name": "HYDROFARM HOLDINGS GROUP, INC.",
+          "source": "Yahoo",
+          "title": "Hydrofarm Holdings Group Announces Termination of $109 Million Senior Secured Term Loan in Connection with Pricing of Aggregate $8.3 Million Registered Direct Offering and Concurrent Private Placement",
+          "summary": "SHOEMAKERSVILLE, Pa., Oct. 27, 2026 (GLOBE NEWSWIRE) -- Hydrofarm Holdings Group, Inc. (“Hydrofarm” or the “Company”) (Nasdaq: HYFM), a leading independent manufacturer and distributor of branded supplies and equipment for controlled environment agriculture, today announced that it has entered into definitive agreements for the purchase of 1,599,400 shares of common stock in a registered direct offering at a purchas…",
+          "url": "https://finnhub.io/api/news?id=0e276604c0aca52420416b302c627992b5600628d967a78e7307137074c2a4ae",
+          "published_at": "2026-10-27T13:29:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "4525ac779c72",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "HYFM",
+          "company_name": "HYDROFARM HOLDINGS GROUP, INC.",
+          "source": "Benzinga",
+          "title": "Hydrofarm Cancels $109M Term Loan; Prices $8.3M Offering Of 1,599,400 Shares, 7,611,575 Pre-Funded Warrants And 9,210,975 Common Warrants",
+          "summary": "Hydrofarm Holdings Group, Inc. (\"Hydrofarm\" or the \"Company\") (NASDAQ:HYFM), a leading independent manufacturer and distributor of branded supplies and equipment for controlled environment agriculture,",
+          "url": "https://finnhub.io/api/news?id=6a457b8883ad2db062f87a59f115503e2ab3a6eb53d66909a6fcb42f03141bee",
+          "published_at": "2026-10-27T09:34:37+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "2c294df31258",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-11",
+          "discovery_score": 43.9,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-12",
+          "discovery_score": 43.9,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-27",
+          "discovery_score": 60.0,
+          "market_attention_score": 25.8,
+          "signal_score": 59.0
+        },
+        {
+          "date": "2026-10-28",
+          "discovery_score": 57.4,
+          "market_attention_score": 25.8,
+          "signal_score": 62.6
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 68.6,
+          "discovery_score": 59.2
+        }
+      ]
+    },
+    {
+      "ticker": "ALGT",
+      "company_name": "Allegiant Travel CO",
+      "signal_score": 65.6,
+      "market_attention_score": 28.1,
+      "discovery_score": 59.8,
+      "confidence_score": 71.8,
+      "primary_catalyst": "Allegiant Travel CO (0001362468) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-27T20:25:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 68,
+      "change": {
+        "signal_delta": 6.7,
+        "discovery_delta": -9.8
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 14,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 13.7,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Allegiant Travel Co",
+        "industry": "Airlines",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2006-12-08",
+        "weburl": "https://www.allegiantair.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ALGT.png",
+        "market_cap": 1812766638.098686,
+        "pe_ttm": 70.4669,
+        "ps_ttm": 0.6327,
+        "pb_annual": 1.4835,
+        "revenue_growth_ttm_yoy": 12.24,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 65.7,
+        "net_margin_ttm": 0.9,
+        "current_ratio": 0.9501,
+        "debt_equity": 1.7096,
+        "beta": 1.6426443
+      },
+      "profile": {
+        "name": "Allegiant Travel Co",
+        "description": "Allegiant Travel Co is a publicly traded company operating in the Airlines industry with company information identifying US as its home market.",
+        "industry": "Airlines",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.allegiantair.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "ALGT",
+          "company_name": "Allegiant Travel CO",
+          "source": "SEC EDGAR",
+          "title": "Allegiant Travel CO (0001362468) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001362468-26-000058 Size: 340 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000058/0001362468-26-000058-index.htm",
+          "published_at": "2026-10-27T16:31:47-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "f5675d34be9e",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-14",
+          "discovery_score": 69.6,
+          "market_attention_score": 29.8,
+          "signal_score": 58.9
+        },
+        {
+          "date": "2026-10-28",
+          "discovery_score": 58.1,
+          "market_attention_score": 26.9,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 65.6,
+          "discovery_score": 59.8
         }
       ]
     },
@@ -1805,6 +2883,12 @@
       "history": [
         {
           "date": "2026-10-28",
+          "discovery_score": 57.3,
+          "market_attention_score": 28.9,
+          "signal_score": 65.5
+        },
+        {
+          "date": "2026-10-28",
           "signal_score": 65.5,
           "discovery_score": 57.3
         }
@@ -1918,6 +3002,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-28",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-10-28",
           "signal_score": 65.0,
@@ -2035,6 +3125,12 @@
       "history": [
         {
           "date": "2026-10-28",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-28",
           "signal_score": 65.0,
           "discovery_score": 58.5
         }
@@ -2148,6 +3244,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-28",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-10-28",
           "signal_score": 65.0,
@@ -2265,6 +3367,12 @@
       "history": [
         {
           "date": "2026-10-28",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-28",
           "signal_score": 65.0,
           "discovery_score": 58.5
         }
@@ -2380,57 +3488,63 @@
       "history": [
         {
           "date": "2026-10-28",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-28",
           "signal_score": 65.0,
           "discovery_score": 58.5
         }
       ]
     },
     {
-      "ticker": "ALGT",
-      "company_name": "Allegiant Travel CO",
-      "signal_score": 64.5,
-      "market_attention_score": 26.9,
-      "discovery_score": 58.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Allegiant Travel CO (0001362468) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "ticker": "EPAC",
+      "company_name": "ENERPAC TOOL GROUP CORP",
+      "signal_score": 64.6,
+      "market_attention_score": 25.4,
+      "discovery_score": 55.6,
+      "confidence_score": 79.8,
+      "primary_catalyst": "ENERPAC TOOL GROUP CORP (0000006955) (Filer)",
+      "catalyst_category": "Analyst action",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T16:31:47-04:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-28T03:29:27+00:00",
       "new_to_radar": false,
-      "days_on_radar": 68,
+      "days_on_radar": 41,
       "change": {
-        "signal_delta": 5.6,
-        "discovery_delta": -11.5
+        "signal_delta": 0.1,
+        "discovery_delta": -2.5
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
+        "independent_sources": 3,
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 8,
+        "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 13.7,
         "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
+        "source_breadth": 3.6,
+        "catalyst_strength": 6.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
       },
       "baseline": {
         "avg_items_24h": 0.07,
@@ -2445,317 +3559,67 @@
         "basis": "",
         "caution": "No reliably extractable event value found."
       },
-      "fundamentals": {
-        "name": "Allegiant Travel Co",
-        "industry": "Airlines",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2006-12-08",
-        "weburl": "https://www.allegiantair.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ALGT.png",
-        "market_cap": 1812766638.098686,
-        "pe_ttm": 70.4669,
-        "ps_ttm": 0.6327,
-        "pb_annual": 1.4835,
-        "revenue_growth_ttm_yoy": 12.24,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 65.7,
-        "net_margin_ttm": 0.9,
-        "current_ratio": 0.9501,
-        "debt_equity": 1.7096,
-        "beta": 1.6426443
-      },
-      "profile": {
-        "name": "Allegiant Travel Co",
-        "description": "Allegiant Travel Co is a publicly traded company operating in the Airlines industry with company information identifying US as its home market.",
-        "industry": "Airlines",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.allegiantair.com/",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "ALGT",
-          "company_name": "Allegiant Travel CO",
-          "source": "SEC EDGAR",
-          "title": "Allegiant Travel CO (0001362468) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001362468-26-000058 Size: 340 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/1362468/000136246826000058/0001362468-26-000058-index.htm",
-          "published_at": "2026-10-27T16:31:47-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "f5675d34be9e",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-14",
-          "discovery_score": 69.6,
-          "market_attention_score": 29.8,
-          "signal_score": 58.9
-        },
-        {
-          "date": "2026-10-28",
-          "signal_score": 64.5,
-          "discovery_score": 58.1
-        }
-      ]
-    },
-    {
-      "ticker": "FBIN",
-      "company_name": "Fortune Brands Innovations, Inc.",
-      "signal_score": 64.0,
-      "market_attention_score": 28.4,
-      "discovery_score": 60.4,
-      "confidence_score": 87.8,
-      "primary_catalyst": "Fortune Brands Innovations, Inc. (0001519751) (Filer)",
-      "catalyst_category": "Product / technology",
-      "why_it_matters": "5 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-27T20:05:00+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 70,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 5
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.5,
-        "catalyst_strength": 11,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 16.0,
-        "novelty": 20.0,
-        "source_breadth": 3.6,
-        "catalyst_strength": 8.2,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Fortune Brands Innovations, Inc.",
-        "industry": "Building",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2011-09-16",
-        "weburl": "https://www.fbin.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/FBHS.png",
-        "market_cap": 5143716721.310017,
-        "pe_ttm": 34.568,
-        "ps_ttm": 1.1712,
-        "pb_annual": 2.5636,
-        "revenue_growth_ttm_yoy": -2.31,
-        "eps_growth_ttm_yoy": -61.18,
-        "gross_margin_ttm": 46.01,
-        "net_margin_ttm": 3.39,
-        "current_ratio": 1.8423,
-        "debt_equity": 1.0654,
-        "beta": 1.2662545
-      },
-      "profile": {
-        "name": "Fortune Brands Innovations Inc",
-        "description": "Fortune Brands Innovations (NYSE: FBIN) is an industry-leading home, security and digital products company behind leading brands such as Moen, Therma-Tru, Master Lock, and Yale residential. We’re focused on exciting opportunities within the home, security and commercial building markets.",
-        "industry": "Building",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.fbin.com/",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "FBIN",
-          "company_name": "Fortune Brands Innovations, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Fortune Brands Innovations, Inc. (0001519751) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001193125-26-434380 Size: 375 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1519751/000119312526434380/0001193125-26-434380-index.htm",
-          "published_at": "2026-10-27T16:54:45-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "d2b515602a9e",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-28",
-          "signal_score": 64.0,
-          "discovery_score": 60.4
-        }
-      ]
-    },
-    {
-      "ticker": "HYFM",
-      "company_name": "HYDROFARM HOLDINGS GROUP, INC.",
-      "signal_score": 62.6,
-      "market_attention_score": 25.8,
-      "discovery_score": 57.4,
-      "confidence_score": 67.8,
-      "primary_catalyst": "HYDROFARM HOLDINGS GROUP, INC. (0001695295) (Filer)",
-      "catalyst_category": "Financing",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-27T17:24:14-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 66,
-      "change": {
-        "signal_delta": 3.6,
-        "discovery_delta": -2.6
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 11,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.7,
-        "source_breadth": 3.3,
-        "catalyst_strength": 8.2,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": 109000000.0,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "Hydrofarm Cancels $109M Term Loan; Prices $8.3M Offering Of 1,599,400 Shares, 7,611,575 Pre-Funded Warrants And 9,210,975 Common Warrants",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
       "fundamentals": {},
       "profile": {},
       "themes": [],
       "stories": [
         {
-          "ticker": "HYFM",
-          "company_name": "HYDROFARM HOLDINGS GROUP, INC.",
+          "ticker": "EPAC",
+          "company_name": "ENERPAC TOOL GROUP CORP",
           "source": "SEC EDGAR",
-          "title": "HYDROFARM HOLDINGS GROUP, INC. (0001695295) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001437749-26-033664 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 1.02: Termination of a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 8.01: Other Events Item 9.01: Financial Statem…",
-          "url": "https://www.sec.gov/Archives/edgar/data/1695295/000143774926033664/0001437749-26-033664-index.htm",
-          "published_at": "2026-10-27T17:24:14-04:00",
+          "title": "ENERPAC TOOL GROUP CORP (0000006955) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0000006955-26-000107 Size: 6 MB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/6955/000000695526000107/0000006955-26-000107-index.htm",
+          "published_at": "2026-10-27T17:14:17-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "37c96e56face",
+          "fingerprint": "9f66fc98a326",
           "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "HYFM",
-          "company_name": "HYDROFARM HOLDINGS GROUP, INC.",
-          "source": "Benzinga",
-          "title": "Hydrofarm Cancels $109M Term Loan; Prices $8.3M Offering Of 1,599,400 Shares, 7,611,575 Pre-Funded Warrants And 9,210,975 Common Warrants",
-          "summary": "Hydrofarm Holdings Group, Inc. (\"Hydrofarm\" or the \"Company\") (NASDAQ:HYFM), a leading independent manufacturer and distributor of branded supplies and equipment for controlled environment agriculture,",
-          "url": "https://finnhub.io/api/news?id=6a457b8883ad2db062f87a59f115503e2ab3a6eb53d66909a6fcb42f03141bee",
-          "published_at": "2026-10-27T09:34:37+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "2c294df31258",
-          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-10-11",
-          "discovery_score": 43.9,
-          "market_attention_score": 21.4,
-          "signal_score": 53.5
+          "date": "2026-10-09",
+          "discovery_score": 58.8,
+          "market_attention_score": 29.9,
+          "signal_score": 67.5
         },
         {
-          "date": "2026-10-12",
-          "discovery_score": 43.9,
-          "market_attention_score": 21.4,
-          "signal_score": 53.5
-        },
-        {
-          "date": "2026-10-27",
-          "discovery_score": 60.0,
-          "market_attention_score": 25.8,
-          "signal_score": 59.0
+          "date": "2026-10-15",
+          "discovery_score": 58.1,
+          "market_attention_score": 26.9,
+          "signal_score": 64.5
         },
         {
           "date": "2026-10-28",
-          "signal_score": 62.6,
-          "discovery_score": 57.4
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 64.6,
+          "discovery_score": 55.6
         }
       ]
     },
     {
-      "ticker": "VTIX",
-      "company_name": "Virtuix Holdings Inc.",
+      "ticker": "SFBC",
+      "company_name": "Sound Financial Bancorp, Inc.",
       "signal_score": 62.0,
       "market_attention_score": 27.3,
       "discovery_score": 62.3,
       "confidence_score": 67.8,
-      "primary_catalyst": "Virtuix Holdings Inc. (0001606242) (Filer)",
+      "primary_catalyst": "Sound Financial Bancorp, Inc. (0001541119) (Filer)",
       "catalyst_category": "Earnings / guidance",
       "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
       "article_count_24h": 2,
-      "latest_event_at": "2026-10-27T17:00:29-04:00",
+      "latest_event_at": "2026-10-27T21:00:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 70,
+      "days_on_radar": 65,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
@@ -2800,68 +3664,32 @@
         "basis": "",
         "caution": "No reliably extractable event value found."
       },
-      "fundamentals": {
-        "name": "Virtuix Holdings Inc",
-        "industry": "Technology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2026-01-28",
-        "weburl": "https://invest.virtuix.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950423724616.png",
-        "market_cap": 23510000.0,
-        "pe_ttm": null,
-        "ps_ttm": 5.7361,
-        "pb_annual": 70.7394,
-        "revenue_growth_ttm_yoy": 0.26,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 27.53,
-        "net_margin_ttm": -543.22,
-        "current_ratio": 1.3613,
-        "debt_equity": 2.8017,
-        "beta": 2.290645
-      },
-      "profile": {
-        "name": "Virtuix Holdings Inc",
-        "description": "Virtuix Holdings Inc is a publicly traded company operating in the Technology industry with company information identifying US as its home market.",
-        "industry": "Technology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
+      "fundamentals": {},
+      "profile": {},
       "themes": [],
       "stories": [
         {
-          "ticker": "VTIX",
-          "company_name": "Virtuix Holdings Inc.",
+          "ticker": "SFBC",
+          "company_name": "Sound Financial Bancorp, Inc.",
           "source": "SEC EDGAR",
-          "title": "Virtuix Holdings Inc. (0001606242) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001213900-26-112953 Size: 225 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1606242/000121390026112953/0001213900-26-112953-index.htm",
-          "published_at": "2026-10-27T17:00:29-04:00",
+          "title": "Sound Financial Bancorp, Inc. (0001541119) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001541119-26-000026 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1541119/000154111926000026/0001541119-26-000026-index.htm",
+          "published_at": "2026-10-27T17:15:35-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "78c309e2dc24",
+          "fingerprint": "9027c03c724a",
           "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "VTIX",
-          "company_name": "Virtuix Holdings Inc.",
-          "source": "Benzinga",
-          "title": "Virtuix Guides To 'Strong' Q2 Sales Growth After Meta Quest Launch",
-          "summary": "Virtuix Holdings Inc. (NASDAQ:VTIX) (\"Virtuix\" or the \"Company\"), a leading developer of AI-driven, full-body simulation systems, today announced that it expects to report strong revenue growth for the",
-          "url": "https://finnhub.io/api/news?id=a6ef050e2d5b7f3477d592b1190c87d7c8abda4f039be01703d487b5cb7d349f",
-          "published_at": "2026-10-27T09:21:01+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "4da3e311f308",
-          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
+        {
+          "date": "2026-10-28",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
         {
           "date": "2026-10-28",
           "signal_score": 62.0,
@@ -2870,24 +3698,24 @@
       ]
     },
     {
-      "ticker": "RUSHB",
-      "company_name": "RUSH ENTERPRISES INC \\TX\\",
-      "signal_score": 61.5,
-      "market_attention_score": 26.9,
-      "discovery_score": 54.3,
+      "ticker": "MOD",
+      "company_name": "MODINE MANUFACTURING CO",
+      "signal_score": 60.0,
+      "market_attention_score": 26.3,
+      "discovery_score": 60.8,
       "confidence_score": 67.8,
-      "primary_catalyst": "RUSH ENTERPRISES INC \\TX\\ (0001012019) (Filer)",
-      "catalyst_category": "Earnings / guidance",
+      "primary_catalyst": "MODINE MANUFACTURING CO (0000067347) (Filer)",
+      "catalyst_category": "Capacity expansion",
       "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T17:28:51-04:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-28T03:18:33+00:00",
       "new_to_radar": false,
-      "days_on_radar": 58,
+      "days_on_radar": 70,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": -5.0,
+        "discovery_delta": -18.4
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2896,198 +3724,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 14,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 12,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
         "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
+        "catalyst_strength": 9.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "RUSHB",
-          "company_name": "RUSH ENTERPRISES INC \\TX\\",
-          "source": "SEC EDGAR",
-          "title": "RUSH ENTERPRISES INC \\TX\\ (0001012019) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001437749-26-033667 Size: 559 KB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1012019/000143774926033667/0001437749-26-033667-index.htm",
-          "published_at": "2026-10-27T17:28:51-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "5b6afb4cdcd0",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-28",
-          "signal_score": 61.5,
-          "discovery_score": 54.3
-        }
-      ]
-    },
-    {
-      "ticker": "BUSEP",
-      "company_name": "FIRST BUSEY CORP /NV/",
-      "signal_score": 61.5,
-      "market_attention_score": 26.9,
-      "discovery_score": 54.3,
-      "confidence_score": 67.8,
-      "primary_catalyst": "FIRST BUSEY CORP /NV/ (0000314489) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T17:01:31-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 15,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "BUSEP",
-          "company_name": "FIRST BUSEY CORP /NV/",
-          "source": "SEC EDGAR",
-          "title": "FIRST BUSEY CORP /NV/ (0000314489) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0000314489-26-000066 Size: 7 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/314489/000031448926000066/0000314489-26-000066-index.htm",
-          "published_at": "2026-10-27T17:01:31-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "84af3416d63b",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-28",
-          "signal_score": 61.5,
-          "discovery_score": 54.3
-        }
-      ]
-    },
-    {
-      "ticker": "CAKE",
-      "company_name": "CHEESECAKE FACTORY INC",
-      "signal_score": 61.5,
-      "market_attention_score": 29.9,
-      "discovery_score": 54.3,
-      "confidence_score": 79.8,
-      "primary_catalyst": "CHEESECAKE FACTORY INC (0000887596) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "6 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T16:30:36-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 71,
-      "change": {
-        "signal_delta": 11.6,
-        "discovery_delta": -1.9
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 6
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3104,77 +3758,75 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Cheesecake Factory Inc",
-        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Modine Manufacturing Co",
+        "industry": "Building",
         "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1992-09-18",
-        "weburl": "https://www.thecheesecakefactory.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CAKE.png",
-        "market_cap": 5397535570.670935,
-        "pe_ttm": 30.7243,
-        "ps_ttm": 1.4154,
-        "pb_annual": 5.7113,
-        "revenue_growth_ttm_yoy": 5.66,
-        "eps_growth_ttm_yoy": 13.39,
-        "gross_margin_ttm": 78.31,
-        "net_margin_ttm": 4.61,
-        "current_ratio": 0.5854,
-        "debt_equity": 1.4437,
-        "beta": 1.1510618
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1982-09-20",
+        "weburl": "https://www.modine.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MOD.png",
+        "market_cap": 10049454792.772278,
+        "pe_ttm": 68.3393,
+        "ps_ttm": 2.9221,
+        "pb_annual": 9.5667,
+        "revenue_growth_ttm_yoy": 29.47,
+        "eps_growth_ttm_yoy": -24.03,
+        "gross_margin_ttm": 22.17,
+        "net_margin_ttm": 4.28,
+        "current_ratio": 1.9428,
+        "debt_equity": 0.3653,
+        "beta": 1.8507785
       },
       "profile": {
-        "name": "Cheesecake Factory Inc",
-        "description": "Over 250 menu items, freshly prepared and from scratch, to order, every day. Over 30 legendary cheesecakes and desserts. There's something for everyone! Order online today!",
-        "industry": "Hotels, Restaurants & Leisure",
+        "name": "Modine Manufacturing Co",
+        "description": "For over 100 years, Modine has delivered trusted heating, cooling, and air quality solutions that drive innovation and efficiency across industries.",
+        "industry": "Building",
         "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.thecheesecakefactory.com/",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.modine.com/",
         "products_markets": [],
         "source": "Company website"
       },
       "themes": [],
       "stories": [
         {
-          "ticker": "CAKE",
-          "company_name": "CHEESECAKE FACTORY INC",
+          "ticker": "MOD",
+          "company_name": "MODINE MANUFACTURING CO",
           "source": "SEC EDGAR",
-          "title": "CHEESECAKE FACTORY INC (0000887596) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001104659-26-119176 Size: 13 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/887596/000110465926119176/0001104659-26-119176-index.htm",
-          "published_at": "2026-10-27T16:30:36-04:00",
+          "title": "MODINE MANUFACTURING CO (0000067347) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001104659-26-119218 Size: 541 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926119218/0001104659-26-119218-index.htm",
+          "published_at": "2026-10-27T17:12:44-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "0f8a8d07fbaf",
+          "fingerprint": "fed569adbe1b",
           "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "CAKE",
-          "company_name": "CHEESECAKE FACTORY INC",
-          "source": "Yahoo",
-          "title": "Is Cheesecake Factory (CAKE) Already Priced In Ahead Of Its October 27 Earnings?",
-          "summary": "Cheesecake Factory (CAKE) heads into its third quarter 2026 earnings report on October 27, with attention on sales momentum, guest traffic trends, and how new restaurant openings are contributing to overall performance. Recent price action has cooled a little, with Cheesecake Factory’s share price falling 3.6% over the past day and 5.7% over the week. However, a 105.2% year to date share price return and a 288.1% th…",
-          "url": "https://finnhub.io/api/news?id=c7211235606140c5b9c717469a39f38ab9bf606847cde05acdbfa82c84197f71",
-          "published_at": "2026-10-25T10:07:45+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "b2c0afbb0c9e",
-          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-09-06",
-          "discovery_score": 56.2,
-          "market_attention_score": 26.9,
-          "signal_score": 49.9
+          "date": "2026-09-17",
+          "discovery_score": 74.6,
+          "market_attention_score": 39.0,
+          "signal_score": 85.2
+        },
+        {
+          "date": "2026-10-02",
+          "discovery_score": 79.2,
+          "market_attention_score": 42.4,
+          "signal_score": 65.0
         },
         {
           "date": "2026-10-28",
-          "signal_score": 61.5,
-          "discovery_score": 54.3
+          "discovery_score": 52.5,
+          "market_attention_score": 24.8,
+          "signal_score": 57.0
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 60.0,
+          "discovery_score": 60.8
         }
       ]
     },
@@ -3266,27 +3918,162 @@
         },
         {
           "date": "2026-10-28",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-10-28",
           "signal_score": 58.0,
           "discovery_score": 53.2
         }
       ]
     },
     {
-      "ticker": "AIAI",
-      "company_name": "AIAI Holdings Corp",
-      "signal_score": 57.6,
+      "ticker": "FCBM",
+      "company_name": "First Carolina Financial Services, Inc.",
+      "signal_score": 54.0,
       "market_attention_score": 23.3,
-      "discovery_score": 53.8,
+      "discovery_score": 56.3,
       "confidence_score": 67.8,
-      "primary_catalyst": "AIAI Holdings Corp (0002096362) (Filer)",
+      "primary_catalyst": "First Carolina Financial Services, Inc. (0001531193) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
+      "attention_status": "Normal",
       "article_count_24h": 2,
-      "latest_event_at": "2026-10-27T16:39:11-04:00",
+      "latest_event_at": "2026-10-27T20:51:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 66,
+      "days_on_radar": 41,
+      "change": {
+        "signal_delta": -19.4,
+        "discovery_delta": -4.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 16.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "First Carolina Financial Services Inc",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2026-06-18",
+        "weburl": "https://www.firstcarolinabank.com",
+        "logo": "",
+        "market_cap": 394263719.19000006,
+        "pe_ttm": 17.4033,
+        "ps_ttm": 1.4229,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": 8.18,
+        "current_ratio": 0.0506,
+        "debt_equity": 8.4575,
+        "beta": -0.22714989
+      },
+      "profile": {
+        "name": "First Carolina Financial Services Inc",
+        "description": "First Carolina Bank, North Carolina. Experience banking that goes beyond transactions, focused on building relationships that grow with you.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.firstcarolinabank.com",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "FCBM",
+          "company_name": "First Carolina Financial Services, Inc.",
+          "source": "SEC EDGAR",
+          "title": "First Carolina Financial Services, Inc. (0001531193) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001628280-26-067640 Size: 835 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1531193/000162828026067640/0001628280-26-067640-index.htm",
+          "published_at": "2026-10-27T16:58:37-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "4d93b028ca22",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-19",
+          "discovery_score": 60.6,
+          "market_attention_score": 41.3,
+          "signal_score": 73.9
+        },
+        {
+          "date": "2026-09-20",
+          "discovery_score": 60.4,
+          "market_attention_score": 41.3,
+          "signal_score": 73.4
+        },
+        {
+          "date": "2026-10-28",
+          "signal_score": 54.0,
+          "discovery_score": 56.3
+        }
+      ]
+    },
+    {
+      "ticker": "CRCT",
+      "company_name": "Cricut, Inc.",
+      "signal_score": 54.0,
+      "market_attention_score": 23.3,
+      "discovery_score": 56.3,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Cricut, Inc. (0001828962) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-27T16:55:43-04:00",
+      "new_to_radar": true,
+      "days_on_radar": 1,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
@@ -3298,28 +4085,28 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
+        "coverage_acceleration": 5.5,
         "catalyst_strength": 6,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
+        "coverage_ratio_vs_baseline": 1.1,
         "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.8,
+        "attention_lift": 16.0,
+        "novelty": 20.0,
         "source_breadth": 3.3,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
+        "coverage_ratio_vs_baseline": 1.1,
         "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 0.0,
         "days_available": 30,
         "maturity": "established"
       },
@@ -3333,35 +4120,33 @@
       },
       "fundamentals": {},
       "profile": {},
-      "themes": [
-        "AI infrastructure"
-      ],
+      "themes": [],
       "stories": [
         {
-          "ticker": "AIAI",
-          "company_name": "AIAI Holdings Corp",
+          "ticker": "CRCT",
+          "company_name": "Cricut, Inc.",
           "source": "SEC EDGAR",
-          "title": "AIAI Holdings Corp (0002096362) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001493152-26-048718 Size: 202 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/2096362/000149315226048718/0001493152-26-048718-index.htm",
-          "published_at": "2026-10-27T16:39:11-04:00",
+          "title": "Cricut, Inc. (0001828962) (Filer)",
+          "summary": "Filed: 2026-10-27 AccNo: 0001828962-26-000054 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 1.02: Termination of a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1828962/000182896226000054/0001828962-26-000054-index.htm",
+          "published_at": "2026-10-27T16:55:43-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "207c7bc37241",
+          "fingerprint": "ef3569254887",
           "display_relevance": 1.0,
           "display_relevant": true
         },
         {
-          "ticker": "AIAI",
-          "company_name": "AIAI Holdings Corp",
-          "source": "Benzinga",
-          "title": "AIAI Holdings Collaborating With Messier 42 To Create War Tech Consortium",
-          "summary": "AIAI Holdings Corporation (NASDAQ:AIAI) (\"Ai² \" or the \"Company\"), an AI-enabled diversified holding company utilizing Transformational AI to enhance portfolio performance, today announced that they are",
-          "url": "https://finnhub.io/api/news?id=272e49547444fa4d6c4ef6ea117c37ef9b812b4819b4f2ae461c986bc63b6593",
-          "published_at": "2026-10-27T08:34:12+00:00",
+          "ticker": "CRCT",
+          "company_name": "Cricut, Inc.",
+          "source": "Yahoo",
+          "title": "Introducing Cricut Rewards: Get rewarded for your creativity",
+          "summary": "A Media Snippet accompanying this announcement is available by clicking on this link. SOUTH JORDAN, Utah, Oct. 27, 2026 (GLOBE NEWSWIRE) -- Cricut®, Inc. (NASDAQ: CRCT) is introducing Cricut Rewards, the free loyalty program in the U.S. and Canada where members earn points for shopping cricut.com, then redeem rewards to save on future purchases.* From the pride of completing a first project to the joy of giving a th…",
+          "url": "https://finnhub.io/api/news?id=9f80673bfcb510ef7b25021ae06e85c4ee4e7f9cbf1f6b11d26f8454df0e2f5f",
+          "published_at": "2026-10-27T16:00:00+00:00",
           "sentiment": 0.0,
           "evidence_type": "Professional reporting",
-          "fingerprint": "f750b2095657",
+          "fingerprint": "05dcd587e6c3",
           "display_relevance": 0.62,
           "display_relevant": true
         }
@@ -3369,706 +4154,8 @@
       "history": [
         {
           "date": "2026-10-28",
-          "signal_score": 57.6,
-          "discovery_score": 53.8
-        }
-      ]
-    },
-    {
-      "ticker": "MOD",
-      "company_name": "MODINE MANUFACTURING CO",
-      "signal_score": 57.0,
-      "market_attention_score": 24.8,
-      "discovery_score": 52.5,
-      "confidence_score": 62,
-      "primary_catalyst": "MODINE MANUFACTURING CO (0000067347) (Filer)",
-      "catalyst_category": "Capacity expansion",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T17:12:44-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 70,
-      "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -26.7
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 12,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 9.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Modine Manufacturing Co",
-        "industry": "Building",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1982-09-20",
-        "weburl": "https://www.modine.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MOD.png",
-        "market_cap": 10049454792.772278,
-        "pe_ttm": 68.3393,
-        "ps_ttm": 2.9221,
-        "pb_annual": 9.5667,
-        "revenue_growth_ttm_yoy": 29.47,
-        "eps_growth_ttm_yoy": -24.03,
-        "gross_margin_ttm": 22.17,
-        "net_margin_ttm": 4.28,
-        "current_ratio": 1.9428,
-        "debt_equity": 0.3653,
-        "beta": 1.8507785
-      },
-      "profile": {
-        "name": "Modine Manufacturing Co",
-        "description": "For over 100 years, Modine has delivered trusted heating, cooling, and air quality solutions that drive innovation and efficiency across industries.",
-        "industry": "Building",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.modine.com/",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "MOD",
-          "company_name": "MODINE MANUFACTURING CO",
-          "source": "SEC EDGAR",
-          "title": "MODINE MANUFACTURING CO (0000067347) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001104659-26-119218 Size: 541 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926119218/0001104659-26-119218-index.htm",
-          "published_at": "2026-10-27T17:12:44-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "fed569adbe1b",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-17",
-          "discovery_score": 74.6,
-          "market_attention_score": 39.0,
-          "signal_score": 85.2
-        },
-        {
-          "date": "2026-10-02",
-          "discovery_score": 79.2,
-          "market_attention_score": 42.4,
-          "signal_score": 65.0
-        },
-        {
-          "date": "2026-10-28",
-          "signal_score": 57.0,
-          "discovery_score": 52.5
-        }
-      ]
-    },
-    {
-      "ticker": "EPAC",
-      "company_name": "ENERPAC TOOL GROUP CORP",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
-      "confidence_score": 62,
-      "primary_catalyst": "ENERPAC TOOL GROUP CORP (0000006955) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T17:14:17-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 41,
-      "change": {
-        "signal_delta": -10.5,
-        "discovery_delta": -6.3
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "EPAC",
-          "company_name": "ENERPAC TOOL GROUP CORP",
-          "source": "SEC EDGAR",
-          "title": "ENERPAC TOOL GROUP CORP (0000006955) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0000006955-26-000107 Size: 6 MB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/6955/000000695526000107/0000006955-26-000107-index.htm",
-          "published_at": "2026-10-27T17:14:17-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "9f66fc98a326",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-09",
-          "discovery_score": 58.8,
-          "market_attention_score": 29.9,
-          "signal_score": 67.5
-        },
-        {
-          "date": "2026-10-15",
-          "discovery_score": 58.1,
-          "market_attention_score": 26.9,
-          "signal_score": 64.5
-        },
-        {
-          "date": "2026-10-28",
           "signal_score": 54.0,
-          "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "WSO-B",
-      "company_name": "WATSCO INC",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.7,
-      "confidence_score": 62,
-      "primary_catalyst": "WATSCO INC (0000105016) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T17:06:35-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 42,
-      "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": -0.1
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.7,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "WSO-B",
-          "company_name": "WATSCO INC",
-          "source": "SEC EDGAR",
-          "title": "WATSCO INC (0000105016) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001193125-26-434422 Size: 2 MB Item 1.01: Entry into a Material Definitive Agreement Item 1.02: Termination of a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/105016/000119312526434422/0001193125-26-434422-index.htm",
-          "published_at": "2026-10-27T17:06:35-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "79762887c527",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-27",
-          "discovery_score": 51.8,
-          "market_attention_score": 21.8,
-          "signal_score": 54.0
-        },
-        {
-          "date": "2026-10-28",
-          "signal_score": 54.0,
-          "discovery_score": 51.7
-        }
-      ]
-    },
-    {
-      "ticker": "NKLR",
-      "company_name": "Terra Innovatum Global N.V.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
-      "confidence_score": 62,
-      "primary_catalyst": "Terra Innovatum Global N.V. (0002067627) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T16:33:15-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 70,
-      "change": {
-        "signal_delta": -8.5,
-        "discovery_delta": -4.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "NKLR",
-          "company_name": "Terra Innovatum Global N.V.",
-          "source": "SEC EDGAR",
-          "title": "Terra Innovatum Global N.V. (0002067627) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001140361-26-040902 Size: 162 KB Item 4.01: Changes in Registrant's Certifying Accountant Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/2067627/000114036126040902/0001140361-26-040902-index.htm",
-          "published_at": "2026-10-27T16:33:15-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "25e2b3daee5d",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-16",
-          "discovery_score": 56.6,
-          "market_attention_score": 25.9,
-          "signal_score": 62.5
-        },
-        {
-          "date": "2026-10-28",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "CNXU",
-      "company_name": "Conexeu Sciences Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
-      "confidence_score": 62,
-      "primary_catalyst": "Conexeu Sciences Inc. (0002066836) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T16:30:21-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 58,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "CNXU",
-          "company_name": "Conexeu Sciences Inc.",
-          "source": "SEC EDGAR",
-          "title": "Conexeu Sciences Inc. (0002066836) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001062993-26-005569 Size: 806 KB Item 3.02: Unregistered Sales of Equity Securities Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/2066836/000106299326005569/0001062993-26-005569-index.htm",
-          "published_at": "2026-10-27T16:30:21-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "e046f483aef8",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-28",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "SFBC",
-      "company_name": "Sound Financial Bancorp, Inc.",
-      "signal_score": 51.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 48.0,
-      "confidence_score": 62,
-      "primary_catalyst": "Sound Financial Bancorp, Inc. (0001541119) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T17:15:35-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 65,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "SFBC",
-          "company_name": "Sound Financial Bancorp, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Sound Financial Bancorp, Inc. (0001541119) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001541119-26-000026 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1541119/000154111926000026/0001541119-26-000026-index.htm",
-          "published_at": "2026-10-27T17:15:35-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "9027c03c724a",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-28",
-          "signal_score": 51.0,
-          "discovery_score": 48.0
-        }
-      ]
-    },
-    {
-      "ticker": "SUNB",
-      "company_name": "Sunbelt Rentals Holdings, Inc.",
-      "signal_score": 51.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 48.0,
-      "confidence_score": 62,
-      "primary_catalyst": "Sunbelt Rentals Holdings, Inc. (0002083785) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-27T17:00:21-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 71,
-      "change": {
-        "signal_delta": -4.2,
-        "discovery_delta": -18.7
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Sunbelt Rentals Holdings Inc",
-        "industry": "Trading Companies & Distributors",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2026-03-02",
-        "weburl": "",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/960000243546.png",
-        "market_cap": 28118302970.56206,
-        "pe_ttm": 20.5472,
-        "ps_ttm": 1.9386,
-        "pb_annual": 4.2384,
-        "revenue_growth_ttm_yoy": 4.88,
-        "eps_growth_ttm_yoy": -4.91,
-        "gross_margin_ttm": 43.95,
-        "net_margin_ttm": 9.43,
-        "current_ratio": 0.9015,
-        "debt_equity": 1.0466,
-        "beta": 1.5185709
-      },
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "SUNB",
-          "company_name": "Sunbelt Rentals Holdings, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Sunbelt Rentals Holdings, Inc. (0002083785) (Filer)",
-          "summary": "Filed: 2026-10-27 AccNo: 0001193125-26-434400 Size: 135 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/2083785/000119312526434400/0001193125-26-434400-index.htm",
-          "published_at": "2026-10-27T17:00:21-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "d273daa9d621",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-05",
-          "discovery_score": 66.7,
-          "market_attention_score": 27.6,
-          "signal_score": 55.2
-        },
-        {
-          "date": "2026-10-28",
-          "signal_score": 51.0,
-          "discovery_score": 48.0
+          "discovery_score": 56.3
         }
       ]
     }
