@@ -8695,16 +8695,16 @@
       }
     },
     "ADIL": {
-      "cached_at": "2026-10-17T05:44:12.146635+00:00",
+      "cached_at": "2026-10-29T07:17:07.080550+00:00",
       "data": {
         "name": "Adial Pharmaceuticals Inc",
         "industry": "Pharmaceuticals",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "ipo_date": "2018-07-27",
-        "weburl": "https://www.adialpharma.com/",
+        "weburl": "https://www.adial.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950252483506.png",
-        "market_cap": 9164355.433121018,
+        "market_cap": 13260743.274932615,
         "pe_ttm": null,
         "ps_ttm": null,
         "pb_annual": 1.1111,
@@ -8714,7 +8714,7 @@
         "net_margin_ttm": null,
         "current_ratio": 4.4247,
         "debt_equity": 0,
-        "beta": -301.92154
+        "beta": 1.699678
       }
     },
     "AMR": {
@@ -22610,7 +22610,7 @@
       }
     },
     "NNBR": {
-      "cached_at": "2026-10-04T07:02:50.125065+00:00",
+      "cached_at": "2026-10-29T07:17:07.080550+00:00",
       "data": {
         "name": "NN Inc",
         "industry": "Machinery",
@@ -22619,9 +22619,9 @@
         "ipo_date": "1994-03-15",
         "weburl": "https://www.nninc.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959143716.png",
-        "market_cap": 372437815.2121212,
+        "market_cap": 356227994.64387465,
         "pe_ttm": null,
-        "ps_ttm": 0.8171,
+        "ps_ttm": 0.7682,
         "pb_annual": 0.9721,
         "revenue_growth_ttm_yoy": 5.09,
         "eps_growth_ttm_yoy": null,
@@ -22629,7 +22629,7 @@
         "net_margin_ttm": -6.21,
         "current_ratio": 1.9969,
         "debt_equity": 0.8846,
-        "beta": 2.7749903
+        "beta": 2.77671
       }
     },
     "XNDU": {
@@ -37557,6 +37557,52 @@
         "current_ratio": null,
         "debt_equity": 0,
         "beta": 0.14542915
+      }
+    },
+    "DBVTF": {
+      "cached_at": "2026-10-29T07:17:07.080550+00:00",
+      "data": {
+        "name": "Dbv Technologies SA",
+        "industry": "Biotechnology",
+        "country": "FR",
+        "exchange": "NYSE EURONEXT - EURONEXT PARIS",
+        "ipo_date": "2012-03-29",
+        "weburl": "https://www.dbv-technologies.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959830246.png",
+        "market_cap": 581508620.0,
+        "pe_ttm": null,
+        "ps_ttm": 114.7692,
+        "pb_annual": 4.3649,
+        "revenue_growth_ttm_yoy": 35.77,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 93.12,
+        "net_margin_ttm": -2611,
+        "current_ratio": 3.6696,
+        "debt_equity": 0.0387,
+        "beta": -0.53845173
+      }
+    },
+    "WHD": {
+      "cached_at": "2026-10-29T07:17:07.080550+00:00",
+      "data": {
+        "name": "Cactus, Inc.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2018-02-08",
+        "weburl": "https://cactuswhd.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WHD.png",
+        "market_cap": 5063330000.0,
+        "pe_ttm": 63.7189,
+        "ps_ttm": 3.8266,
+        "pb_annual": 2.9741,
+        "revenue_growth_ttm_yoy": 21.79,
+        "eps_growth_ttm_yoy": -52.13,
+        "gross_margin_ttm": 33.23,
+        "net_margin_ttm": 6.01,
+        "current_ratio": 5.8141,
+        "debt_equity": 0.014,
+        "beta": 1.3903327
       }
     }
   }

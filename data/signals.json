@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-29T01:04:54.052779+00:00",
+    "generated_at": "2026-10-29T07:17:07.080550+00:00",
     "companies_scanned": 88,
     "sources_enabled": {
       "sec_edgar": true,
@@ -26,59 +26,59 @@
       "CBRE",
       "MKL",
       "FCPT",
+      "DBVTF",
       "ACTU",
+      "ADIL",
       "STBA",
       "FBDT",
+      "NNBR",
       "QUAD",
+      "WHD",
       "AM",
       "STRRP",
+      "BHLL",
       "SCQC",
       "EURKU",
       "ATLQU",
       "NEU",
       "PFBX",
-      "WHD",
-      "NNBR",
-      "ADIL",
       "MIST",
-      "DBVTF",
-      "JAGX",
       "CMP",
+      "JAGX",
       "TPCS",
-      "BHLL",
       "LOTT"
     ],
     "emerging_signals": [
       "AR",
       "NOW",
       "THG",
+      "DBVTF",
       "MKL",
       "AIN",
       "QUAD",
+      "NNBR",
+      "WHD",
       "EPAC",
       "FBDT",
       "UFPI",
       "AM",
       "NEU",
       "FCPT",
+      "BHLL",
+      "ADIL",
       "STBA",
       "STRRP",
       "PFBX",
       "SCQC",
       "EURKU",
       "ATLQU",
-      "ADIL",
       "ACTU",
-      "WHD",
-      "NNBR",
-      "MIST",
       "CMP",
+      "MIST",
       "GRDX",
       "CBRE",
-      "DBVTF",
       "JAGX",
-      "TPCS",
-      "BHLL"
+      "TPCS"
     ]
   },
   "briefing": {
@@ -86,11 +86,11 @@
       "AR",
       "NOW",
       "THG",
+      "DBVTF",
       "MKL",
       "AIN",
       "QUAD",
-      "EPAC",
-      "FBDT"
+      "NNBR"
     ],
     "accelerating": [
       {
@@ -99,7 +99,7 @@
       },
       {
         "ticker": "EPAC",
-        "delta": 15.9
+        "delta": 15.0
       },
       {
         "ticker": "STRRP",
@@ -114,6 +114,10 @@
         "delta": 14.2
       },
       {
+        "ticker": "ADIL",
+        "delta": 14.0
+      },
+      {
         "ticker": "AR",
         "delta": 13.1
       },
@@ -126,10 +130,6 @@
       {
         "ticker": "CBRE",
         "delta": -25.6
-      },
-      {
-        "ticker": "NNBR",
-        "delta": -19.6
       },
       {
         "ticker": "STBA",
@@ -173,9 +173,9 @@
         "headline": "Four Corners Property Trust, Inc. (0001650132) (Filer)"
       },
       {
-        "ticker": "AIN",
-        "category": "Government funding",
-        "headline": "ALBANY INTERNATIONAL CORP /DE/ (0000819793) (Filer)"
+        "ticker": "DBVTF",
+        "category": "Regulatory / FDA",
+        "headline": "DBV Technologies S.A. (0001613780) (Filer)"
       }
     ],
     "left_emerging_top20": [
@@ -219,12 +219,24 @@
       ]
     },
     {
+      "sector": "Machinery",
+      "company_count": 3,
+      "discovery_intensity": 78.9,
+      "signal_intensity": 72.1,
+      "tickers": [
+        "AIN",
+        "NNBR",
+        "EPAC"
+      ]
+    },
+    {
       "sector": "Energy",
-      "company_count": 2,
-      "discovery_intensity": 78.7,
-      "signal_intensity": 77.2,
+      "company_count": 3,
+      "discovery_intensity": 78.5,
+      "signal_intensity": 72.5,
       "tickers": [
         "AR",
+        "WHD",
         "AM"
       ]
     },
@@ -256,14 +268,13 @@
       ]
     },
     {
-      "sector": "Machinery",
-      "company_count": 3,
-      "discovery_intensity": 70.2,
-      "signal_intensity": 71.6,
+      "sector": "Biotechnology",
+      "company_count": 2,
+      "discovery_intensity": 69.8,
+      "signal_intensity": 72.0,
       "tickers": [
-        "AIN",
-        "EPAC",
-        "NNBR"
+        "DBVTF",
+        "ACTU"
       ]
     },
     {
@@ -294,15 +305,6 @@
         "FCPT",
         "CBRE"
       ]
-    },
-    {
-      "sector": "N/A",
-      "company_count": 1,
-      "discovery_intensity": 58.5,
-      "signal_intensity": 65.0,
-      "tickers": [
-        "EURKU"
-      ]
     }
   ],
   "themes": [
@@ -318,9 +320,19 @@
       ]
     },
     {
+      "theme": "Biotech & therapeutics",
+      "company_count": 3,
+      "intensity": 68.0,
+      "tickers": [
+        "DBVTF",
+        "ADIL",
+        "ACTU"
+      ]
+    },
+    {
       "theme": "Semiconductors",
       "company_count": 2,
-      "intensity": 80.2,
+      "intensity": 79.8,
       "tickers": [
         "NOW",
         "EPAC"
@@ -345,15 +357,6 @@
       ]
     },
     {
-      "theme": "Biotech & therapeutics",
-      "company_count": 2,
-      "intensity": 55.5,
-      "tickers": [
-        "ADIL",
-        "ACTU"
-      ]
-    },
-    {
       "theme": "Cybersecurity",
       "company_count": 1,
       "intensity": 86.4,
@@ -372,7 +375,7 @@
     {
       "theme": "Critical minerals",
       "company_count": 1,
-      "intensity": 52.1,
+      "intensity": 54.1,
       "tickers": [
         "CMP"
       ]
@@ -401,7 +404,7 @@
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Accelerating leader",
       "article_count_24h": 31,
-      "latest_event_at": "2026-10-29T00:12:55+00:00",
+      "latest_event_at": "2026-10-29T05:44:03+00:00",
       "new_to_radar": false,
       "days_on_radar": 73,
       "change": {
@@ -529,6 +532,12 @@
         },
         {
           "date": "2026-10-29",
+          "discovery_score": 86.4,
+          "market_attention_score": 56.2,
+          "signal_score": 92.5
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 92.5,
           "discovery_score": 86.4
         }
@@ -538,16 +547,16 @@
       "ticker": "AR",
       "company_name": "ANTERO RESOURCES Corp",
       "signal_score": 82.0,
-      "market_attention_score": 43.3,
+      "market_attention_score": 44.0,
       "discovery_score": 86.4,
       "confidence_score": 93.8,
       "primary_catalyst": "ANTERO RESOURCES Corp (0001433270) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "14 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "15 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Accelerating leader",
       "article_count_24h": 10,
-      "latest_event_at": "2026-10-28T22:30:03+00:00",
+      "latest_event_at": "2026-10-29T03:15:00+00:00",
       "new_to_radar": false,
       "days_on_radar": 70,
       "change": {
@@ -557,7 +566,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 14
+        "unique_story_clusters": 15
       },
       "metrics": {
         "primary_evidence": 25,
@@ -643,20 +652,6 @@
           "fingerprint": "bfc26951572f",
           "display_relevance": 1.0,
           "display_relevant": true
-        },
-        {
-          "ticker": "AR",
-          "company_name": "ANTERO RESOURCES Corp",
-          "source": "Yahoo",
-          "title": "Antero Resources Announces Third Quarter 2026 Financial and Operating Results",
-          "summary": "Antero Resources Corporation (NYSE: AR) (\"Antero Resources,\" \"Antero,\" or the \"Company\") today announced its third quarter 2026 financial and operating results. The relevant consolidated financial statements are included in Antero Resources' Quarterly Report on Form 10-Q for the quarter ended September 30, 2026.",
-          "url": "https://finnhub.io/api/news?id=141943aed3cf89fcaadaab20d4f1ba3f7437e23cb6452efea5acaa1a9bb8a2bf",
-          "published_at": "2026-10-28T20:15:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "f83a87126595",
-          "display_relevance": 0.62,
-          "display_relevant": true
         }
       ],
       "history": [
@@ -665,6 +660,12 @@
           "discovery_score": 73.3,
           "market_attention_score": 30.8,
           "signal_score": 61.9
+        },
+        {
+          "date": "2026-10-29",
+          "discovery_score": 86.4,
+          "market_attention_score": 43.3,
+          "signal_score": 82.0
         },
         {
           "date": "2026-10-29",
@@ -786,6 +787,12 @@
           "discovery_score": 66.8,
           "market_attention_score": 30.3,
           "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-29",
+          "discovery_score": 71.2,
+          "market_attention_score": 41.4,
+          "signal_score": 85.9
         },
         {
           "date": "2026-10-29",
@@ -926,8 +933,140 @@
         },
         {
           "date": "2026-10-29",
+          "discovery_score": 85.8,
+          "market_attention_score": 41.3,
+          "signal_score": 70.5
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 70.5,
           "discovery_score": 85.8
+        }
+      ]
+    },
+    {
+      "ticker": "DBVTF",
+      "company_name": "DBV Technologies S.A.",
+      "signal_score": 72.5,
+      "market_attention_score": 34.6,
+      "discovery_score": 84.6,
+      "confidence_score": 87.8,
+      "primary_catalyst": "DBV Technologies S.A. (0001613780) (Filer)",
+      "catalyst_category": "Regulatory / FDA",
+      "why_it_matters": "7 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-29T00:04:14+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 30,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 7
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 7.0,
+        "catalyst_strength": 18,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Dbv Technologies SA",
+        "industry": "Biotechnology",
+        "country": "FR",
+        "exchange": "NYSE EURONEXT - EURONEXT PARIS",
+        "ipo_date": "2012-03-29",
+        "weburl": "https://www.dbv-technologies.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959830246.png",
+        "market_cap": 581508620.0,
+        "pe_ttm": null,
+        "ps_ttm": 114.7692,
+        "pb_annual": 4.3649,
+        "revenue_growth_ttm_yoy": 35.77,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 93.12,
+        "net_margin_ttm": -2611,
+        "current_ratio": 3.6696,
+        "debt_equity": 0.0387,
+        "beta": -0.53845173
+      },
+      "profile": {
+        "name": "Dbv Technologies SA",
+        "description": "DBV Technologies is a global clinical stage biopharmaceutical company founded by pediatricians who believed that food allergies could one day be treated safely and effectively.",
+        "industry": "Biotechnology",
+        "country": "FR",
+        "exchange": "NYSE EURONEXT - EURONEXT PARIS",
+        "website": "https://www.dbv-technologies.com/",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "DBVTF",
+          "company_name": "DBV Technologies S.A.",
+          "source": "SEC EDGAR",
+          "title": "DBV Technologies S.A. (0001613780) (Filer)",
+          "summary": "Filed: 2026-10-28 AccNo: 0001193125-26-436411 Size: 269 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1613780/000119312526436411/0001193125-26-436411-index.htm",
+          "published_at": "2026-10-28T17:24:57-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "a9e58e5f70da",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-29",
+          "discovery_score": 48.3,
+          "market_attention_score": 23.6,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-29",
+          "signal_score": 72.5,
+          "discovery_score": 84.6
         }
       ]
     },
@@ -1069,6 +1208,12 @@
       "history": [
         {
           "date": "2026-10-29",
+          "discovery_score": 84.3,
+          "market_attention_score": 35.4,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 68.0,
           "discovery_score": 84.3
         }
@@ -1077,22 +1222,22 @@
     {
       "ticker": "EPAC",
       "company_name": "ENERPAC TOOL GROUP CORP",
-      "signal_score": 82.9,
-      "market_attention_score": 40.6,
-      "discovery_score": 74.0,
+      "signal_score": 82.3,
+      "market_attention_score": 40.2,
+      "discovery_score": 73.1,
       "confidence_score": 87.8,
       "primary_catalyst": "ENERPAC TOOL GROUP CORP (0000006955) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "11 unique credible information items from 3 independent sources. Coverage is 3.8× the stored baseline.",
+      "why_it_matters": "11 unique credible information items from 3 independent sources. Coverage is 3.6× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 10,
+      "article_count_24h": 9,
       "latest_event_at": "2026-10-28T22:32:58+00:00",
       "new_to_radar": false,
       "days_on_radar": 42,
       "change": {
-        "signal_delta": 18.4,
-        "discovery_delta": 15.9
+        "signal_delta": 17.8,
+        "discovery_delta": 15.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1101,24 +1246,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 15.4,
+        "coverage_acceleration": 14.8,
         "catalyst_strength": 20,
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 3.8,
-        "weighted_coverage_24h": 1.9,
+        "coverage_ratio_vs_baseline": 3.6,
+        "weighted_coverage_24h": 1.8,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 23.1,
+        "attention_lift": 22.2,
         "novelty": 19.8,
         "source_breadth": 3.6,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 3.8,
-        "weighted_coverage_24h": 1.9,
+        "coverage_ratio_vs_baseline": 3.6,
+        "weighted_coverage_24h": 1.8,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -1212,8 +1357,14 @@
         },
         {
           "date": "2026-10-29",
-          "signal_score": 82.9,
-          "discovery_score": 74.0
+          "discovery_score": 74.0,
+          "market_attention_score": 40.6,
+          "signal_score": 82.9
+        },
+        {
+          "date": "2026-10-29",
+          "signal_score": 82.3,
+          "discovery_score": 73.1
         }
       ]
     },
@@ -1331,6 +1482,12 @@
       "history": [
         {
           "date": "2026-10-29",
+          "discovery_score": 82.3,
+          "market_attention_score": 36.2,
+          "signal_score": 70.5
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 70.5,
           "discovery_score": 82.3
         }
@@ -1446,8 +1603,141 @@
       "history": [
         {
           "date": "2026-10-29",
+          "discovery_score": 81.6,
+          "market_attention_score": 31.1,
+          "signal_score": 68.5
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 68.5,
           "discovery_score": 81.6
+        }
+      ]
+    },
+    {
+      "ticker": "NNBR",
+      "company_name": "NN INC",
+      "signal_score": 63.5,
+      "market_attention_score": 31.5,
+      "discovery_score": 81.3,
+      "confidence_score": 79.8,
+      "primary_catalyst": "NN INC (0000918541) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "6 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-28T20:46:18+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 71,
+      "change": {
+        "signal_delta": 2.3,
+        "discovery_delta": 7.4
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 6
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 7.0,
+        "catalyst_strength": 14,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "NN Inc",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1994-03-15",
+        "weburl": "https://www.nninc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959143716.png",
+        "market_cap": 356227994.64387465,
+        "pe_ttm": null,
+        "ps_ttm": 0.7682,
+        "pb_annual": 0.9721,
+        "revenue_growth_ttm_yoy": 5.09,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 15.01,
+        "net_margin_ttm": -6.21,
+        "current_ratio": 1.9969,
+        "debt_equity": 0.8846,
+        "beta": 2.77671
+      },
+      "profile": {
+        "name": "NN Inc",
+        "description": "Discover how a precision components manufacturer can enhance your products with expert machining and global solutions.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.nninc.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "NNBR",
+          "company_name": "NN INC",
+          "source": "SEC EDGAR",
+          "title": "NN INC (0000918541) (Filer)",
+          "summary": "Filed: 2026-10-28 AccNo: 0000918541-26-000118 Size: 3 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/918541/000091854126000118/0000918541-26-000118-index.htm",
+          "published_at": "2026-10-28T17:17:37-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "964c5240eb00",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-02",
+          "discovery_score": 73.9,
+          "market_attention_score": 34.4,
+          "signal_score": 61.2
+        },
+        {
+          "date": "2026-10-29",
+          "discovery_score": 54.3,
+          "market_attention_score": 26.9,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-29",
+          "signal_score": 63.5,
+          "discovery_score": 81.3
         }
       ]
     },
@@ -1566,6 +1856,12 @@
           "discovery_score": 80.6,
           "market_attention_score": 45.1,
           "signal_score": 63.7
+        },
+        {
+          "date": "2026-10-29",
+          "discovery_score": 63.4,
+          "market_attention_score": 31.6,
+          "signal_score": 79.6
         },
         {
           "date": "2026-10-29",
@@ -1698,8 +1994,288 @@
         },
         {
           "date": "2026-10-29",
+          "discovery_score": 68.8,
+          "market_attention_score": 34.9,
+          "signal_score": 79.4
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 79.4,
           "discovery_score": 68.8
+        }
+      ]
+    },
+    {
+      "ticker": "WHD",
+      "company_name": "Cactus, Inc.",
+      "signal_score": 63.0,
+      "market_attention_score": 30.4,
+      "discovery_score": 78.3,
+      "confidence_score": 79.8,
+      "primary_catalyst": "Cactus, Inc. (0001699136) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "5 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-28T22:30:11+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 52,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 5
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.5,
+        "catalyst_strength": 14,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 32.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Cactus, Inc.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2018-02-08",
+        "weburl": "https://cactuswhd.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/WHD.png",
+        "market_cap": 5063330000.0,
+        "pe_ttm": 63.7189,
+        "ps_ttm": 3.8266,
+        "pb_annual": 2.9741,
+        "revenue_growth_ttm_yoy": 21.79,
+        "eps_growth_ttm_yoy": -52.13,
+        "gross_margin_ttm": 33.23,
+        "net_margin_ttm": 6.01,
+        "current_ratio": 5.8141,
+        "debt_equity": 0.014,
+        "beta": 1.3903327
+      },
+      "profile": {
+        "name": "Cactus, Inc.",
+        "description": "Leading manufacturer of pressure control equipment used during drilling, completion and production operations onshore and offshore. Headquartered in Houston, Tx.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://cactuswhd.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "WHD",
+          "company_name": "Cactus, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Cactus, Inc. (0001699136) (Filer)",
+          "summary": "Filed: 2026-10-28 AccNo: 0001628280-26-067952 Size: 553 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1699136/000162828026067952/0001628280-26-067952-index.htm",
+          "published_at": "2026-10-28T17:30:03-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "a3c76ee5ca37",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "WHD",
+          "company_name": "Cactus, Inc.",
+          "source": "Yahoo",
+          "title": "Cactus Announces Third Quarter 2026 Results",
+          "summary": "HOUSTON, October 28, 2026--Cactus, Inc. (NYSE: WHD) (\"Cactus\" or the \"Company\") today announced financial and operating results for the third quarter of 2026.",
+          "url": "https://finnhub.io/api/news?id=9db999faf65caccdb4a3c4f1733c3c2e58b7ec4117f6103d4cc213945076c444",
+          "published_at": "2026-10-28T21:30:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "6a43951411fc",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-29",
+          "discovery_score": 54.3,
+          "market_attention_score": 26.9,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-29",
+          "signal_score": 63.0,
+          "discovery_score": 78.3
+        }
+      ]
+    },
+    {
+      "ticker": "ADIL",
+      "company_name": "ADIAL PHARMACEUTICALS, INC.",
+      "signal_score": 76.6,
+      "market_attention_score": 32.2,
+      "discovery_score": 64.6,
+      "confidence_score": 83.8,
+      "primary_catalyst": "ADIAL PHARMACEUTICALS, INC. (0001513525) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-28T20:02:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 70,
+      "change": {
+        "signal_delta": 14.1,
+        "discovery_delta": 14.0
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 20,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 13.7,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 1000000000.0,
+        "market_cap_ratio": 75.4106,
+        "score": 20,
+        "label": "Potentially transformative",
+        "basis": "Adial Pharmaceuticals Expects To Appoint Celia Economides As CFO At Its Annual Meeting, Succeeding Vinay Shah",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Adial Pharmaceuticals Inc",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2018-07-27",
+        "weburl": "https://www.adial.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950252483506.png",
+        "market_cap": 13260743.274932615,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 1.1111,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 4.4247,
+        "debt_equity": 0,
+        "beta": 1.699678
+      },
+      "profile": {
+        "name": "Adial Pharmaceuticals Inc",
+        "description": "Learn how Adial Pharmaceuticals is leading the way in science-driven treatments for Alcohol Use Disorder and advancing the future of addiction recovery.",
+        "industry": "Pharmaceuticals",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.adialpharma.com/",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "ADIL",
+          "company_name": "ADIAL PHARMACEUTICALS, INC.",
+          "source": "SEC EDGAR",
+          "title": "ADIAL PHARMACEUTICALS, INC. (0001513525) (Filer)",
+          "summary": "Filed: 2026-10-28 AccNo: 0001213900-26-113337 Size: 271 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 7.01: Regulation FD Disclosure Item 9.01: Financial…",
+          "url": "https://www.sec.gov/Archives/edgar/data/1513525/000121390026113337/0001213900-26-113337-index.htm",
+          "published_at": "2026-10-28T16:30:23-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "1a0e9fd8fc7a",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-17",
+          "discovery_score": 50.6,
+          "market_attention_score": 25.9,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-18",
+          "discovery_score": 50.6,
+          "market_attention_score": 25.9,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-29",
+          "discovery_score": 56.2,
+          "market_attention_score": 26.6,
+          "signal_score": 66.5
+        },
+        {
+          "date": "2026-10-29",
+          "signal_score": 76.6,
+          "discovery_score": 64.6
         }
       ]
     },
@@ -1869,6 +2445,12 @@
         },
         {
           "date": "2026-10-29",
+          "discovery_score": 49.3,
+          "market_attention_score": 35.6,
+          "signal_score": 72.9
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 72.9,
           "discovery_score": 49.3
         }
@@ -2012,6 +2594,12 @@
         },
         {
           "date": "2026-10-29",
+          "discovery_score": 70.9,
+          "market_attention_score": 30.0,
+          "signal_score": 72.5
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 72.5,
           "discovery_score": 70.9
         }
@@ -2131,6 +2719,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-29",
+          "discovery_score": 54.9,
+          "market_attention_score": 32.2,
+          "signal_score": 71.5
+        },
         {
           "date": "2026-10-29",
           "signal_score": 71.5,
@@ -2259,6 +2853,12 @@
         },
         {
           "date": "2026-10-29",
+          "discovery_score": 71.3,
+          "market_attention_score": 31.6,
+          "signal_score": 68.5
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 68.5,
           "discovery_score": 71.3
         }
@@ -2380,6 +2980,12 @@
         },
         {
           "date": "2026-10-29",
+          "discovery_score": 62.6,
+          "market_attention_score": 29.9,
+          "signal_score": 70.5
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 70.5,
           "discovery_score": 62.6
         }
@@ -2495,60 +3101,66 @@
       "history": [
         {
           "date": "2026-10-29",
+          "discovery_score": 70.3,
+          "market_attention_score": 28.4,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 62.5,
           "discovery_score": 70.3
         }
       ]
     },
     {
-      "ticker": "ADIL",
-      "company_name": "ADIAL PHARMACEUTICALS, INC.",
-      "signal_score": 66.5,
-      "market_attention_score": 26.6,
-      "discovery_score": 56.2,
-      "confidence_score": 79.8,
-      "primary_catalyst": "ADIAL PHARMACEUTICALS, INC. (0001513525) (Filer)",
-      "catalyst_category": "Financing",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
+      "ticker": "BHLL",
+      "company_name": "Bunker Hill Mining Corp.",
+      "signal_score": 66.0,
+      "market_attention_score": 29.3,
+      "discovery_score": 65.3,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Bunker Hill Mining Corp. (0001407583) (Filer)",
+      "catalyst_category": "Regulatory / FDA",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-28T16:30:23-04:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-28T20:54:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 70,
+      "days_on_radar": 67,
       "change": {
-        "signal_delta": 4.0,
-        "discovery_delta": 5.6
+        "signal_delta": null,
+        "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 3
+        "independent_sources": 2,
+        "unique_story_clusters": 2
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 11,
-        "corroboration": 10.0,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 18,
+        "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
-        "catalyst_strength": 8.2,
+        "attention_lift": 16.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 0.0,
         "days_available": 30,
         "maturity": "established"
       },
@@ -2560,74 +3172,36 @@
         "basis": "",
         "caution": "No reliably extractable event value found."
       },
-      "fundamentals": {
-        "name": "Adial Pharmaceuticals Inc",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2018-07-27",
-        "weburl": "https://www.adialpharma.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950252483506.png",
-        "market_cap": 9164355.433121018,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": 1.1111,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": 4.4247,
-        "debt_equity": 0,
-        "beta": -301.92154
-      },
-      "profile": {
-        "name": "Adial Pharmaceuticals Inc",
-        "description": "Learn how Adial Pharmaceuticals is leading the way in science-driven treatments for Alcohol Use Disorder and advancing the future of addiction recovery.",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.adialpharma.com/",
-        "products_markets": [
-          "Therapeutics"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Biotech & therapeutics"
-      ],
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
       "stories": [
         {
-          "ticker": "ADIL",
-          "company_name": "ADIAL PHARMACEUTICALS, INC.",
+          "ticker": "BHLL",
+          "company_name": "Bunker Hill Mining Corp.",
           "source": "SEC EDGAR",
-          "title": "ADIAL PHARMACEUTICALS, INC. (0001513525) (Filer)",
-          "summary": "Filed: 2026-10-28 AccNo: 0001213900-26-113337 Size: 271 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 7.01: Regulation FD Disclosure Item 9.01: Financial…",
-          "url": "https://www.sec.gov/Archives/edgar/data/1513525/000121390026113337/0001213900-26-113337-index.htm",
-          "published_at": "2026-10-28T16:30:23-04:00",
+          "title": "Bunker Hill Mining Corp. (0001407583) (Filer)",
+          "summary": "Filed: 2026-10-28 AccNo: 0001493152-26-049106 Size: 619 KB Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 5.07: Submission of Matters to a Vote of Security Holders Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1407583/000149315226049106/0001493152-26-049106-index.htm",
+          "published_at": "2026-10-28T17:21:14-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "1a0e9fd8fc7a",
+          "fingerprint": "ebdac980583d",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-10-17",
-          "discovery_score": 50.6,
-          "market_attention_score": 25.9,
-          "signal_score": 62.5
-        },
-        {
-          "date": "2026-10-18",
-          "discovery_score": 50.6,
-          "market_attention_score": 25.9,
-          "signal_score": 62.5
+          "date": "2026-10-29",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
         },
         {
           "date": "2026-10-29",
-          "signal_score": 66.5,
-          "discovery_score": 56.2
+          "signal_score": 66.0,
+          "discovery_score": 65.3
         }
       ]
     },
@@ -2711,6 +3285,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-29",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-10-29",
           "signal_score": 65.0,
@@ -2834,6 +3414,12 @@
         },
         {
           "date": "2026-10-29",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 65.0,
           "discovery_score": 58.5
         }
@@ -2921,8 +3507,109 @@
       "history": [
         {
           "date": "2026-10-29",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 65.0,
           "discovery_score": 58.5
+        }
+      ]
+    },
+    {
+      "ticker": "CMP",
+      "company_name": "COMPASS MINERALS INTERNATIONAL INC",
+      "signal_score": 62.6,
+      "market_attention_score": 24.4,
+      "discovery_score": 54.1,
+      "confidence_score": 79.8,
+      "primary_catalyst": "COMPASS MINERALS INTERNATIONAL INC (0001227654) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-29T06:28:43+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 44,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 6,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 13.7,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [
+        "Critical minerals"
+      ],
+      "stories": [
+        {
+          "ticker": "CMP",
+          "company_name": "COMPASS MINERALS INTERNATIONAL INC",
+          "source": "SEC EDGAR",
+          "title": "COMPASS MINERALS INTERNATIONAL INC (0001227654) (Filer)",
+          "summary": "Filed: 2026-10-28 AccNo: 0001227654-26-000084 Size: 525 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1227654/000122765426000084/0001227654-26-000084-index.htm",
+          "published_at": "2026-10-28T16:44:33-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "55e7d6d57fc8",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-29",
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-29",
+          "signal_score": 62.6,
+          "discovery_score": 54.1
         }
       ]
     },
@@ -3038,216 +3725,14 @@
       "history": [
         {
           "date": "2026-10-29",
-          "signal_score": 62.0,
-          "discovery_score": 62.3
-        }
-      ]
-    },
-    {
-      "ticker": "WHD",
-      "company_name": "Cactus, Inc.",
-      "signal_score": 61.5,
-      "market_attention_score": 26.9,
-      "discovery_score": 54.3,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Cactus, Inc. (0001699136) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-28T17:30:03-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 52,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "WHD",
-          "company_name": "Cactus, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Cactus, Inc. (0001699136) (Filer)",
-          "summary": "Filed: 2026-10-28 AccNo: 0001628280-26-067952 Size: 553 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1699136/000162828026067952/0001628280-26-067952-index.htm",
-          "published_at": "2026-10-28T17:30:03-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "a3c76ee5ca37",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-29",
-          "signal_score": 61.5,
-          "discovery_score": 54.3
-        }
-      ]
-    },
-    {
-      "ticker": "NNBR",
-      "company_name": "NN INC",
-      "signal_score": 61.5,
-      "market_attention_score": 26.9,
-      "discovery_score": 54.3,
-      "confidence_score": 67.8,
-      "primary_catalyst": "NN INC (0000918541) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-28T17:17:37-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 71,
-      "change": {
-        "signal_delta": 0.3,
-        "discovery_delta": -19.6
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "NN Inc",
-        "industry": "Machinery",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1994-03-15",
-        "weburl": "https://www.nninc.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959143716.png",
-        "market_cap": 372437815.2121212,
-        "pe_ttm": null,
-        "ps_ttm": 0.8171,
-        "pb_annual": 0.9721,
-        "revenue_growth_ttm_yoy": 5.09,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 15.01,
-        "net_margin_ttm": -6.21,
-        "current_ratio": 1.9969,
-        "debt_equity": 0.8846,
-        "beta": 2.7749903
-      },
-      "profile": {
-        "name": "NN Inc",
-        "description": "Discover how a precision components manufacturer can enhance your products with expert machining and global solutions.",
-        "industry": "Machinery",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.nninc.com/",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "NNBR",
-          "company_name": "NN INC",
-          "source": "SEC EDGAR",
-          "title": "NN INC (0000918541) (Filer)",
-          "summary": "Filed: 2026-10-28 AccNo: 0000918541-26-000118 Size: 3 MB Item 2.02: Results of Operations and Financial Condition Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/918541/000091854126000118/0000918541-26-000118-index.htm",
-          "published_at": "2026-10-28T17:17:37-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "964c5240eb00",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-02",
-          "discovery_score": 73.9,
-          "market_attention_score": 34.4,
-          "signal_score": 61.2
+          "discovery_score": 62.3,
+          "market_attention_score": 27.3,
+          "signal_score": 62.0
         },
         {
           "date": "2026-10-29",
-          "signal_score": 61.5,
-          "discovery_score": 54.3
+          "signal_score": 62.0,
+          "discovery_score": 62.3
         }
       ]
     },
@@ -3333,97 +3818,14 @@
       "history": [
         {
           "date": "2026-10-29",
-          "signal_score": 58.0,
-          "discovery_score": 53.2
-        }
-      ]
-    },
-    {
-      "ticker": "CMP",
-      "company_name": "COMPASS MINERALS INTERNATIONAL INC",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 52.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "COMPASS MINERALS INTERNATIONAL INC (0001227654) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-28T16:44:33-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 44,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [
-        "Critical minerals"
-      ],
-      "stories": [
-        {
-          "ticker": "CMP",
-          "company_name": "COMPASS MINERALS INTERNATIONAL INC",
-          "source": "SEC EDGAR",
-          "title": "COMPASS MINERALS INTERNATIONAL INC (0001227654) (Filer)",
-          "summary": "Filed: 2026-10-28 AccNo: 0001227654-26-000084 Size: 525 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1227654/000122765426000084/0001227654-26-000084-index.htm",
-          "published_at": "2026-10-28T16:44:33-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "55e7d6d57fc8",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
         {
           "date": "2026-10-29",
-          "signal_score": 56.5,
-          "discovery_score": 52.1
+          "signal_score": 58.0,
+          "discovery_score": 53.2
         }
       ]
     },
@@ -3517,95 +3919,14 @@
         },
         {
           "date": "2026-10-29",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "DBVTF",
-      "company_name": "DBV Technologies S.A.",
-      "signal_score": 53.5,
-      "market_attention_score": 23.6,
-      "discovery_score": 48.3,
-      "confidence_score": 71.8,
-      "primary_catalyst": "DBV Technologies S.A. (0001613780) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-28T17:24:57-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 30,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "DBVTF",
-          "company_name": "DBV Technologies S.A.",
-          "source": "SEC EDGAR",
-          "title": "DBV Technologies S.A. (0001613780) (Filer)",
-          "summary": "Filed: 2026-10-28 AccNo: 0001193125-26-436411 Size: 269 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1613780/000119312526436411/0001193125-26-436411-index.htm",
-          "published_at": "2026-10-28T17:24:57-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "a9e58e5f70da",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
         {
           "date": "2026-10-29",
-          "signal_score": 53.5,
-          "discovery_score": 48.3
+          "signal_score": 54.0,
+          "discovery_score": 51.8
         }
       ]
     },
@@ -3721,6 +4042,12 @@
       "history": [
         {
           "date": "2026-10-29",
+          "discovery_score": 48.3,
+          "market_attention_score": 22.9,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-29",
           "signal_score": 53.5,
           "discovery_score": 48.3
         }
@@ -3808,91 +4135,10 @@
       "history": [
         {
           "date": "2026-10-29",
-          "signal_score": 51.0,
-          "discovery_score": 48.0
-        }
-      ]
-    },
-    {
-      "ticker": "BHLL",
-      "company_name": "Bunker Hill Mining Corp.",
-      "signal_score": 51.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 48.0,
-      "confidence_score": 62,
-      "primary_catalyst": "Bunker Hill Mining Corp. (0001407583) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-28T17:21:14-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 67,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "BHLL",
-          "company_name": "Bunker Hill Mining Corp.",
-          "source": "SEC EDGAR",
-          "title": "Bunker Hill Mining Corp. (0001407583) (Filer)",
-          "summary": "Filed: 2026-10-28 AccNo: 0001493152-26-049106 Size: 619 KB Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 5.07: Submission of Matters to a Vote of Security Holders Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1407583/000149315226049106/0001493152-26-049106-index.htm",
-          "published_at": "2026-10-28T17:21:14-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "ebdac980583d",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
         {
           "date": "2026-10-29",
           "signal_score": 51.0,
@@ -3980,6 +4226,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-29",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
         {
           "date": "2026-10-29",
           "signal_score": 51.0,

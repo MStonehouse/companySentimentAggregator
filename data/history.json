@@ -29887,7 +29887,7 @@
     },
     "2026-10-29": {
       "ACTU": 1,
-      "ADIL": 1,
+      "ADIL": 2,
       "AIN": 7,
       "ALRS": 1,
       "AM": 3,
@@ -29897,21 +29897,21 @@
       "AXS-PE": 1,
       "BELFB": 1,
       "BHE": 1,
-      "BHLL": 1,
+      "BHLL": 2,
       "BLCO": 1,
       "BPRN": 1,
       "CBNA": 1,
       "CBRE": 2,
       "CHDN": 1,
       "CLB": 1,
-      "CMP": 1,
+      "CMP": 2,
       "CMPR": 1,
       "CWT": 1,
       "CYH": 1,
       "DAR": 1,
-      "DBVTF": 1,
+      "DBVTF": 5,
       "EHC": 1,
-      "EPAC": 10,
+      "EPAC": 9,
       "EURKU": 1,
       "FBDT": 3,
       "FBRT-PE": 1,
@@ -29943,7 +29943,7 @@
       "MUSA": 1,
       "NEU": 3,
       "NJR": 1,
-      "NNBR": 1,
+      "NNBR": 5,
       "NOW": 31,
       "NWPX": 1,
       "OBT": 1,
@@ -29972,7 +29972,7 @@
       "TYL": 1,
       "UFPI": 7,
       "WEX": 1,
-      "WHD": 1,
+      "WHD": 4,
       "Z": 1
     }
   },
@@ -39616,23 +39616,23 @@
         "AR",
         "NOW",
         "THG",
+        "DBVTF",
         "MKL",
         "AIN",
         "QUAD",
+        "NNBR",
+        "WHD",
         "EPAC",
         "FBDT",
         "UFPI",
         "AM",
         "NEU",
         "FCPT",
+        "BHLL",
+        "ADIL",
         "STBA",
         "STRRP",
-        "PFBX",
-        "SCQC",
-        "EURKU",
-        "ATLQU",
-        "ADIL",
-        "ACTU"
+        "PFBX"
       ],
       "market_leaders": [
         "NOW",
@@ -39644,17 +39644,17 @@
         "CBRE",
         "MKL",
         "FCPT",
+        "DBVTF",
         "ACTU",
+        "ADIL",
         "STBA",
         "FBDT",
+        "NNBR",
         "QUAD",
+        "WHD",
         "AM",
         "STRRP",
-        "SCQC",
-        "EURKU",
-        "ATLQU",
-        "NEU",
-        "PFBX"
+        "BHLL"
       ]
     }
   },
@@ -53731,9 +53731,9 @@
         "signal_score": 71.5
       },
       "ADIL": {
-        "discovery_score": 56.2,
-        "market_attention_score": 26.6,
-        "signal_score": 66.5
+        "discovery_score": 64.6,
+        "market_attention_score": 32.2,
+        "signal_score": 76.6
       },
       "AIN": {
         "discovery_score": 82.3,
@@ -53747,7 +53747,7 @@
       },
       "AR": {
         "discovery_score": 86.4,
-        "market_attention_score": 43.3,
+        "market_attention_score": 44.0,
         "signal_score": 82.0
       },
       "ATLQU": {
@@ -53756,9 +53756,9 @@
         "signal_score": 65.0
       },
       "BHLL": {
-        "discovery_score": 48.0,
-        "market_attention_score": 21.8,
-        "signal_score": 51.0
+        "discovery_score": 65.3,
+        "market_attention_score": 29.3,
+        "signal_score": 66.0
       },
       "CBRE": {
         "discovery_score": 49.3,
@@ -53766,19 +53766,19 @@
         "signal_score": 72.9
       },
       "CMP": {
-        "discovery_score": 52.1,
-        "market_attention_score": 22.9,
-        "signal_score": 56.5
+        "discovery_score": 54.1,
+        "market_attention_score": 24.4,
+        "signal_score": 62.6
       },
       "DBVTF": {
-        "discovery_score": 48.3,
-        "market_attention_score": 23.6,
-        "signal_score": 53.5
+        "discovery_score": 84.6,
+        "market_attention_score": 34.6,
+        "signal_score": 72.5
       },
       "EPAC": {
-        "discovery_score": 74.0,
-        "market_attention_score": 40.6,
-        "signal_score": 82.9
+        "discovery_score": 73.1,
+        "market_attention_score": 40.2,
+        "signal_score": 82.3
       },
       "EURKU": {
         "discovery_score": 58.5,
@@ -53826,9 +53826,9 @@
         "signal_score": 62.5
       },
       "NNBR": {
-        "discovery_score": 54.3,
-        "market_attention_score": 26.9,
-        "signal_score": 61.5
+        "discovery_score": 81.3,
+        "market_attention_score": 31.5,
+        "signal_score": 63.5
       },
       "NOW": {
         "discovery_score": 86.4,
@@ -53876,9 +53876,9 @@
         "signal_score": 85.9
       },
       "WHD": {
-        "discovery_score": 54.3,
-        "market_attention_score": 26.9,
-        "signal_score": 61.5
+        "discovery_score": 78.3,
+        "market_attention_score": 30.4,
+        "signal_score": 63.0
       }
     }
   }
