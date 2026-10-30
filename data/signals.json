@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-30T01:10:43.913937+00:00",
+    "generated_at": "2026-10-30T07:20:00.051254+00:00",
     "companies_scanned": 88,
     "sources_enabled": {
       "sec_edgar": true,
@@ -19,83 +19,87 @@
     "market_leaders": [
       "META",
       "IOVA",
-      "RKT",
       "ADT",
-      "KMB",
+      "RKT",
+      "DIN",
       "MPLX",
       "NEU",
-      "DIN",
+      "ASUR",
+      "KMB",
+      "MTX",
       "ATR",
       "TEVA",
       "BFST",
       "GCTK",
       "VRSK",
       "PROK",
-      "ASUR",
+      "KLXE",
       "DFNSW",
       "ADTN",
-      "SAMG",
-      "LCCCR",
-      "MTX",
       "BCC",
+      "SAMG",
+      "DRMA",
+      "LCCCR",
       "PPCB",
-      "KLXE",
+      "GLNDW",
       "BOF",
       "DAIO",
       "ALDFW",
-      "GLNDW",
       "CFR-PB",
-      "ESLAW",
-      "DRMA"
+      "KOSS"
     ],
     "emerging_signals": [
+      "DIN",
       "IOVA",
       "META",
       "NEU",
+      "MTX",
       "RKT",
-      "KMB",
       "ATR",
-      "MPLX",
       "GCTK",
-      "DIN",
-      "TEVA",
       "ADT",
-      "VRSK",
+      "KLXE",
+      "MPLX",
+      "TEVA",
+      "KMB",
       "ASUR",
+      "DRMA",
+      "VRSK",
       "BFST",
       "SAMG",
       "DFNSW",
       "ADTN",
+      "BCC",
+      "GLNDW",
       "BOF",
       "LCCCR",
       "PROK",
       "CFR-PB",
+      "KOSS",
+      "SSTK",
       "DAIO",
-      "MTX",
-      "KLXE",
-      "BCC",
-      "PPCB",
-      "ALDFW",
-      "GLNDW",
-      "ESLAW",
-      "DRMA"
+      "PPCB"
     ]
   },
   "briefing": {
     "new_emerging": [
+      "DIN",
       "IOVA",
       "META",
       "NEU",
+      "MTX",
       "RKT",
-      "KMB",
       "ATR",
-      "MPLX",
       "GCTK"
     ],
     "accelerating": [
       {
         "ticker": "META",
         "delta": 51.7
+      },
+      {
+        "ticker": "MTX",
+        "delta": 23.3
       },
       {
         "ticker": "GCTK",
@@ -108,9 +112,17 @@
       {
         "ticker": "ALDFW",
         "delta": 13.4
+      },
+      {
+        "ticker": "ADT",
+        "delta": 12.8
       }
     ],
     "cooling": [
+      {
+        "ticker": "KMB",
+        "delta": -21.7
+      },
       {
         "ticker": "DAIO",
         "delta": -19.3
@@ -122,10 +134,6 @@
       {
         "ticker": "VRSK",
         "delta": -13.0
-      },
-      {
-        "ticker": "KMB",
-        "delta": -10.7
       }
     ],
     "major_catalysts": [
@@ -183,6 +191,15 @@
   },
   "sectors": [
     {
+      "sector": "Hotels, Restaurants & Leisure",
+      "company_count": 1,
+      "discovery_intensity": 86.4,
+      "signal_intensity": 80.5,
+      "tickers": [
+        "DIN"
+      ]
+    },
+    {
       "sector": "Media",
       "company_count": 1,
       "discovery_intensity": 84.6,
@@ -192,12 +209,13 @@
       ]
     },
     {
-      "sector": "Consumer products",
-      "company_count": 1,
-      "discovery_intensity": 81.9,
-      "signal_intensity": 73.5,
+      "sector": "Chemicals",
+      "company_count": 2,
+      "discovery_intensity": 82.4,
+      "signal_intensity": 71.8,
       "tickers": [
-        "KMB"
+        "NEU",
+        "MTX"
       ]
     },
     {
@@ -210,15 +228,6 @@
       ]
     },
     {
-      "sector": "Energy",
-      "company_count": 1,
-      "discovery_intensity": 81.9,
-      "signal_intensity": 73.5,
-      "tickers": [
-        "MPLX"
-      ]
-    },
-    {
       "sector": "Health Care",
       "company_count": 1,
       "discovery_intensity": 80.5,
@@ -228,12 +237,22 @@
       ]
     },
     {
-      "sector": "Hotels, Restaurants & Leisure",
+      "sector": "Diversified Consumer Services",
       "company_count": 1,
-      "discovery_intensity": 75.4,
-      "signal_intensity": 78.5,
+      "discovery_intensity": 79.9,
+      "signal_intensity": 91.5,
       "tickers": [
-        "DIN"
+        "ADT"
+      ]
+    },
+    {
+      "sector": "Energy",
+      "company_count": 2,
+      "discovery_intensity": 79.0,
+      "signal_intensity": 68.5,
+      "tickers": [
+        "KLXE",
+        "MPLX"
       ]
     },
     {
@@ -256,42 +275,33 @@
       ]
     },
     {
-      "sector": "Diversified Consumer Services",
+      "sector": "Consumer products",
       "company_count": 1,
-      "discovery_intensity": 71.5,
-      "signal_intensity": 85.9,
+      "discovery_intensity": 70.9,
+      "signal_intensity": 72.5,
       "tickers": [
-        "ADT"
+        "KMB"
       ]
     },
     {
       "sector": "Biotechnology",
-      "company_count": 2,
-      "discovery_intensity": 71.2,
-      "signal_intensity": 77.0,
+      "company_count": 3,
+      "discovery_intensity": 68.9,
+      "signal_intensity": 75.3,
       "tickers": [
         "IOVA",
+        "DRMA",
         "PROK"
-      ]
-    },
-    {
-      "sector": "Chemicals",
-      "company_count": 2,
-      "discovery_intensity": 69.0,
-      "signal_intensity": 70.5,
-      "tickers": [
-        "NEU",
-        "MTX"
       ]
     },
     {
       "sector": "Professional Services",
       "company_count": 2,
-      "discovery_intensity": 63.5,
-      "signal_intensity": 75.2,
+      "discovery_intensity": 65.2,
+      "signal_intensity": 76.5,
       "tickers": [
-        "VRSK",
-        "ASUR"
+        "ASUR",
+        "VRSK"
       ]
     }
   ],
@@ -299,42 +309,54 @@
     {
       "theme": "Cloud & software",
       "company_count": 6,
-      "intensity": 71.2,
+      "intensity": 73.2,
       "tickers": [
         "META",
         "RKT",
         "ADT",
-        "VRSK",
         "ASUR",
+        "VRSK",
         "DFNSW"
       ]
     },
     {
       "theme": "AI infrastructure",
-      "company_count": 4,
-      "intensity": 70.6,
+      "company_count": 5,
+      "intensity": 74.6,
       "tickers": [
         "META",
+        "MTX",
         "ADT",
         "VRSK",
         "DFNSW"
       ]
     },
     {
+      "theme": "Defense & aerospace",
+      "company_count": 4,
+      "intensity": 72.8,
+      "tickers": [
+        "META",
+        "MTX",
+        "DFNSW",
+        "GLNDW"
+      ]
+    },
+    {
       "theme": "Biotech & therapeutics",
       "company_count": 4,
-      "intensity": 66.3,
+      "intensity": 70.5,
       "tickers": [
         "IOVA",
         "TEVA",
-        "PROK",
-        "DRMA"
+        "DRMA",
+        "PROK"
       ]
     },
     {
       "theme": "Semiconductors",
       "company_count": 3,
-      "intensity": 83.9,
+      "intensity": 80.2,
       "tickers": [
         "IOVA",
         "META",
@@ -342,12 +364,11 @@
       ]
     },
     {
-      "theme": "Defense & aerospace",
-      "company_count": 2,
-      "intensity": 73.6,
+      "theme": "Critical minerals",
+      "company_count": 1,
+      "intensity": 82.3,
       "tickers": [
-        "META",
-        "DFNSW"
+        "MTX"
       ]
     },
     {
@@ -364,48 +385,48 @@
     {
       "ticker": "ADT",
       "company_name": "ADT Inc.",
-      "signal_score": 85.9,
-      "market_attention_score": 40.2,
-      "discovery_score": 71.5,
+      "signal_score": 91.5,
+      "market_attention_score": 51.0,
+      "discovery_score": 79.9,
       "confidence_score": 93.8,
       "primary_catalyst": "ADT Inc. (0001703056) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "11 unique credible information items from 5 independent sources. Coverage is 3.2× the stored baseline.",
+      "why_it_matters": "22 unique credible information items from 5 independent sources. Coverage is 5.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 7,
+      "attention_status": "Breaking out",
+      "article_count_24h": 17,
       "latest_event_at": "2026-10-29T23:32:35+00:00",
       "new_to_radar": false,
       "days_on_radar": 67,
       "change": {
-        "signal_delta": 12.9,
-        "discovery_delta": 4.4
+        "signal_delta": 18.5,
+        "discovery_delta": 12.8
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 5,
-        "unique_story_clusters": 11
+        "unique_story_clusters": 22
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 13.4,
+        "coverage_acceleration": 19.0,
         "catalyst_strength": 20,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 3.2,
-        "weighted_coverage_24h": 1.6,
+        "coverage_ratio_vs_baseline": 5.2,
+        "weighted_coverage_24h": 2.6,
         "weighted_source_breadth": 1.4
       },
       "discovery_metrics": {
-        "attention_lift": 20.1,
+        "attention_lift": 28.5,
         "novelty": 19.7,
         "source_breadth": 4.2,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 3.2,
-        "weighted_coverage_24h": 1.6,
+        "coverage_ratio_vs_baseline": 5.2,
+        "weighted_coverage_24h": 2.6,
         "weighted_source_breadth": 1.4
       },
       "baseline": {
@@ -473,14 +494,14 @@
         {
           "ticker": "ADT",
           "company_name": "ADT Inc.",
-          "source": "Benzinga",
-          "title": "ADT To Be Acquired By Thrive Holdings For $10.00/Share In Cash At Equity Value Of ~$7.6B And EV Of $15.3B",
-          "summary": "Under the terms of the agreement, which ADT’s Board of Directors unanimously approved, ADT stockholders will receive $10.00 per share in cash upon completion. The per share price represents a premium of 45.6% to ADT’s",
-          "url": "https://finnhub.io/api/news?id=322c45a862c49130e99da554b1ea83f8bf0757a82c073b5393b364c710d7e456",
-          "published_at": "2026-10-29T09:23:22+00:00",
+          "source": "Yahoo",
+          "title": "A $15 Billion Reason Why ADT Stock Is Up Today",
+          "summary": "ADT shares rally as Thrive proposes a $15.3 billion take-private deal. But is it already too late to invest in ADT stock? Let’s find out!",
+          "url": "https://finnhub.io/api/news?id=56bb9a9938c8b6fed13bcf94ba7ff50f313dd0c2596812d811bf52fae16656cf",
+          "published_at": "2026-10-29T19:55:36+00:00",
           "sentiment": 0.0,
           "evidence_type": "Professional reporting",
-          "fingerprint": "8e51c70f38ad",
+          "fingerprint": "13a942619864",
           "display_relevance": 0.62,
           "display_relevant": true
         }
@@ -500,8 +521,267 @@
         },
         {
           "date": "2026-10-30",
-          "signal_score": 85.9,
-          "discovery_score": 71.5
+          "discovery_score": 71.5,
+          "market_attention_score": 40.2,
+          "signal_score": 85.9
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 91.5,
+          "discovery_score": 79.9
+        }
+      ]
+    },
+    {
+      "ticker": "IOVA",
+      "company_name": "IOVANCE BIOTHERAPEUTICS, INC.",
+      "signal_score": 86.5,
+      "market_attention_score": 52.4,
+      "discovery_score": 85.2,
+      "confidence_score": 93.8,
+      "primary_catalyst": "IOVANCE BIOTHERAPEUTICS, INC. (0001425205) (Filer)",
+      "catalyst_category": "Regulatory / FDA",
+      "why_it_matters": "31 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Accelerating leader",
+      "article_count_24h": 23,
+      "latest_event_at": "2026-10-29T20:35:04+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 71,
+      "change": {
+        "signal_delta": -7.5,
+        "discovery_delta": -13.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 5,
+        "unique_story_clusters": 31
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 16.0,
+        "catalyst_strength": 18,
+        "corroboration": 15.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 3.2,
+        "weighted_coverage_24h": 3.2,
+        "weighted_source_breadth": 1.4
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 4.2,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 3.2,
+        "weighted_coverage_24h": 3.2,
+        "weighted_source_breadth": 1.4
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Iovance Biotherapeutics Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2008-06-20",
+        "weburl": "https://www.iovance.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IOVA.png",
+        "market_cap": 4330407046.83052,
+        "pe_ttm": null,
+        "ps_ttm": 13.1653,
+        "pb_annual": 1.5513,
+        "revenue_growth_ttm_yoy": 34.55,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 48.4,
+        "net_margin_ttm": -89.09,
+        "current_ratio": 3.1996,
+        "debt_equity": 0.0014,
+        "beta": 0.760145
+      },
+      "profile": {
+        "name": "Iovance Biotherapeutics Inc",
+        "description": "Learn about our investigational tumor infiltrating lymphocyte (TIL) therapy. View our clinical trials and pipeline.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.iovance.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "Semiconductors",
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "IOVA",
+          "company_name": "IOVANCE BIOTHERAPEUTICS, INC.",
+          "source": "SEC EDGAR",
+          "title": "IOVANCE BIOTHERAPEUTICS, INC. (0001425205) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0001104659-26-120261 Size: 233 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926120261/0001104659-26-120261-index.htm",
+          "published_at": "2026-10-29T17:00:28-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "38213d981847",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-29",
+          "discovery_score": 98.3,
+          "market_attention_score": 75.6,
+          "signal_score": 94.0
+        },
+        {
+          "date": "2026-10-30",
+          "discovery_score": 85.2,
+          "market_attention_score": 46.0,
+          "signal_score": 79.5
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 86.5,
+          "discovery_score": 85.2
+        }
+      ]
+    },
+    {
+      "ticker": "DIN",
+      "company_name": "Dine Brands Global, Inc.",
+      "signal_score": 80.5,
+      "market_attention_score": 39.9,
+      "discovery_score": 86.4,
+      "confidence_score": 93.8,
+      "primary_catalyst": "Dine Brands Global, Inc. (0000049754) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "11 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Accelerating leader",
+      "article_count_24h": 7,
+      "latest_event_at": "2026-10-29T17:25:44-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 74,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 4,
+        "unique_story_clusters": 11
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 20,
+        "corroboration": 15.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.6,
+        "weighted_coverage_24h": 1.6,
+        "weighted_source_breadth": 1.3
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 3.9,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.6,
+        "weighted_coverage_24h": 1.6,
+        "weighted_source_breadth": 1.3
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 1400000000.0,
+        "market_cap_ratio": 3.1454,
+        "score": 20,
+        "label": "Potentially transformative",
+        "basis": "Wall Street Breakfast Podcast: Saving Wendy's Bacon(Ator)",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Dine Brands Global, Inc.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1991-07-12",
+        "weburl": "https://www.dinebrands.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/DIN.png",
+        "market_cap": 445095722.11072665,
+        "pe_ttm": 27.259,
+        "ps_ttm": 0.4964,
+        "pb_annual": 5.4354,
+        "revenue_growth_ttm_yoy": 8.39,
+        "eps_growth_ttm_yoy": -71.27,
+        "gross_margin_ttm": 40.06,
+        "net_margin_ttm": 1.82,
+        "current_ratio": 0.9623,
+        "debt_equity": 5.5775,
+        "beta": 1.0031494
+      },
+      "profile": {
+        "name": "Dine Brands Global, Inc.",
+        "description": "Dine Brands Global, Inc. is a publicly traded company operating in the Hotels, Restaurants & Leisure industry with company information identifying US as its home market.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.dinebrands.com",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "DIN",
+          "company_name": "Dine Brands Global, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Dine Brands Global, Inc. (0000049754) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0001193125-26-438102 Size: 210 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/49754/000119312526438102/0001193125-26-438102-index.htm",
+          "published_at": "2026-10-29T17:25:44-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "07dd2473e1cc",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "discovery_score": 75.4,
+          "market_attention_score": 34.5,
+          "signal_score": 78.5
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 80.5,
+          "discovery_score": 86.4
         }
       ]
     },
@@ -518,7 +798,7 @@
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Accelerating leader",
       "article_count_24h": 31,
-      "latest_event_at": "2026-10-29T23:14:09+00:00",
+      "latest_event_at": "2026-10-30T04:50:02+00:00",
       "new_to_radar": false,
       "days_on_radar": 74,
       "change": {
@@ -621,12 +901,6 @@
       ],
       "history": [
         {
-          "date": "2026-08-30",
-          "discovery_score": 46.3,
-          "market_attention_score": 56.4,
-          "signal_score": 47.5
-        },
-        {
           "date": "2026-09-09",
           "discovery_score": 77.4,
           "market_attention_score": 86.9,
@@ -706,134 +980,14 @@
         },
         {
           "date": "2026-10-30",
-          "signal_score": 85.5,
-          "discovery_score": 84.6
-        }
-      ]
-    },
-    {
-      "ticker": "IOVA",
-      "company_name": "IOVANCE BIOTHERAPEUTICS, INC.",
-      "signal_score": 79.5,
-      "market_attention_score": 46.0,
-      "discovery_score": 85.2,
-      "confidence_score": 93.8,
-      "primary_catalyst": "IOVANCE BIOTHERAPEUTICS, INC. (0001425205) (Filer)",
-      "catalyst_category": "Regulatory / FDA",
-      "why_it_matters": "19 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Accelerating leader",
-      "article_count_24h": 9,
-      "latest_event_at": "2026-10-29T20:00:32+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 71,
-      "change": {
-        "signal_delta": -14.5,
-        "discovery_delta": -13.1
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 5,
-        "unique_story_clusters": 19
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.0,
-        "catalyst_strength": 18,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.8,
-        "weighted_coverage_24h": 1.8,
-        "weighted_source_breadth": 1.4
-      },
-      "discovery_metrics": {
-        "attention_lift": 35.0,
-        "novelty": 20.0,
-        "source_breadth": 4.2,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.8,
-        "weighted_coverage_24h": 1.8,
-        "weighted_source_breadth": 1.4
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Iovance Biotherapeutics Inc",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2008-06-20",
-        "weburl": "https://www.iovance.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/IOVA.png",
-        "market_cap": 4330407046.83052,
-        "pe_ttm": null,
-        "ps_ttm": 13.1653,
-        "pb_annual": 1.5513,
-        "revenue_growth_ttm_yoy": 34.55,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 48.4,
-        "net_margin_ttm": -89.09,
-        "current_ratio": 3.1996,
-        "debt_equity": 0.0014,
-        "beta": 0.760145
-      },
-      "profile": {
-        "name": "Iovance Biotherapeutics Inc",
-        "description": "Learn about our investigational tumor infiltrating lymphocyte (TIL) therapy. View our clinical trials and pipeline.",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.iovance.com/",
-        "products_markets": [
-          "Biotechnology"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Semiconductors",
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "IOVA",
-          "company_name": "IOVANCE BIOTHERAPEUTICS, INC.",
-          "source": "SEC EDGAR",
-          "title": "IOVANCE BIOTHERAPEUTICS, INC. (0001425205) (Filer)",
-          "summary": "Filed: 2026-10-29 AccNo: 0001104659-26-120261 Size: 233 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1425205/000110465926120261/0001104659-26-120261-index.htm",
-          "published_at": "2026-10-29T17:00:28-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "38213d981847",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-29",
-          "discovery_score": 98.3,
-          "market_attention_score": 75.6,
-          "signal_score": 94.0
+          "discovery_score": 84.6,
+          "market_attention_score": 54.8,
+          "signal_score": 85.5
         },
         {
           "date": "2026-10-30",
-          "signal_score": 79.5,
-          "discovery_score": 85.2
+          "signal_score": 85.5,
+          "discovery_score": 84.6
         }
       ]
     },
@@ -961,8 +1115,147 @@
       "history": [
         {
           "date": "2026-10-30",
+          "discovery_score": 82.5,
+          "market_attention_score": 34.6,
+          "signal_score": 73.5
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 73.5,
           "discovery_score": 82.5
+        }
+      ]
+    },
+    {
+      "ticker": "MTX",
+      "company_name": "MINERALS TECHNOLOGIES INC",
+      "signal_score": 70.0,
+      "market_attention_score": 34.3,
+      "discovery_score": 82.3,
+      "confidence_score": 87.8,
+      "primary_catalyst": "MINERALS TECHNOLOGIES INC (0000891014) (Filer)",
+      "catalyst_category": "Government funding",
+      "why_it_matters": "8 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 6,
+      "latest_event_at": "2026-10-29T22:09:51+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 68,
+      "change": {
+        "signal_delta": 3.3,
+        "discovery_delta": 23.3
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 8
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 7.5,
+        "catalyst_strength": 15,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.5,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 35.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 11.2,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.5,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Minerals Technologies Inc.",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1992-10-23",
+        "weburl": "https://www.mineralstech.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MTX.png",
+        "market_cap": 1924691319.8559666,
+        "pe_ttm": null,
+        "ps_ttm": 0.905,
+        "pb_annual": 1.1075,
+        "revenue_growth_ttm_yoy": 4.06,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 24.52,
+        "net_margin_ttm": -3.13,
+        "current_ratio": 2.0807,
+        "debt_equity": 0.5613,
+        "beta": 1.1577376
+      },
+      "profile": {
+        "name": "Minerals Technologies Inc",
+        "description": "Minerals Technologies Inc. is a resource and technology-based company that develops and produces performance-enhancing minerals, mineral-based, and synthetic mineral products.",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.mineralstech.com/",
+        "products_markets": [
+          "Mining"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "AI infrastructure",
+        "Defense & aerospace",
+        "Critical minerals"
+      ],
+      "stories": [
+        {
+          "ticker": "MTX",
+          "company_name": "MINERALS TECHNOLOGIES INC",
+          "source": "SEC EDGAR",
+          "title": "MINERALS TECHNOLOGIES INC (0000891014) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0000891014-26-000201 Size: 736 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/891014/000089101426000201/0000891014-26-000201-index.htm",
+          "published_at": "2026-10-29T17:04:44-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "f7ea6c65f189",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-04",
+          "discovery_score": 59.0,
+          "market_attention_score": 30.9,
+          "signal_score": 66.7
+        },
+        {
+          "date": "2026-10-30",
+          "discovery_score": 55.4,
+          "market_attention_score": 28.6,
+          "signal_score": 67.5
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 70.0,
+          "discovery_score": 82.3
         }
       ]
     },
@@ -1081,139 +1374,13 @@
       "history": [
         {
           "date": "2026-10-30",
-          "signal_score": 77.5,
-          "discovery_score": 81.9
-        }
-      ]
-    },
-    {
-      "ticker": "KMB",
-      "company_name": "KIMBERLY CLARK CORP",
-      "signal_score": 73.5,
-      "market_attention_score": 35.3,
-      "discovery_score": 81.9,
-      "confidence_score": 93.8,
-      "primary_catalyst": "KIMBERLY CLARK CORP (0000055785) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "10 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Breaking out",
-      "article_count_24h": 5,
-      "latest_event_at": "2026-10-29T21:10:00+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 73,
-      "change": {
-        "signal_delta": -19.3,
-        "discovery_delta": -10.7
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 10
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 7.0,
-        "catalyst_strength": 14,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
-        "weighted_source_breadth": 1.3
-      },
-      "discovery_metrics": {
-        "attention_lift": 35.0,
-        "novelty": 20.0,
-        "source_breadth": 3.9,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
-        "weighted_source_breadth": 1.3
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": 4900000000.0,
-        "market_cap_ratio": 0.1339,
-        "score": 14,
-        "label": "Material",
-        "basis": "Kimberly-Clark Corporation Announces Successful Completion of $4.9 Billion Private Offering of Senior Notes",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "Kimberly-Clark Corporation",
-        "industry": "Consumer products",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1929-05-09",
-        "weburl": "https://www.kimberly-clark.com/en-us",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/KMB.png",
-        "market_cap": 36590346554.24372,
-        "pe_ttm": 18.5292,
-        "ps_ttm": 2.1846,
-        "pb_annual": 22.2911,
-        "revenue_growth_ttm_yoy": -12.19,
-        "eps_growth_ttm_yoy": -19.13,
-        "gross_margin_ttm": 37.61,
-        "net_margin_ttm": 11.79,
-        "current_ratio": 0.7453,
-        "debt_equity": 4.787,
-        "beta": 0.30310115
-      },
-      "profile": {
-        "name": "Kimberly-Clark Corporation",
-        "description": "Kimberly-Clark Corporation is an American multinational personal care corporation that produces mostly paper-based consumer products. The company manufactures sanitary paper products and surgical & medical instruments. Kimberly-Clark brand name products include Kleenex facial tissue, Kotex feminine hygiene products, Cottonelle, Scott and Andrex toilet paper, Wypall utility wipes, KimWipes scientific cleaning wipes and Huggies disposable diapers and baby wipes.",
-        "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
-        "sector": "CONSUMER DEFENSIVE",
-        "country": "USA",
-        "exchange": "NASDAQ",
-        "currency": "USD",
-        "products_markets": [
-          "Utilities"
-        ],
-        "source": "Alpha Vantage Company Overview"
-      },
-      "themes": [
-        "Semiconductors"
-      ],
-      "stories": [
-        {
-          "ticker": "KMB",
-          "company_name": "KIMBERLY CLARK CORP",
-          "source": "SEC EDGAR",
-          "title": "KIMBERLY CLARK CORP (0000055785) (Filer)",
-          "summary": "Filed: 2026-10-29 AccNo: 0001104659-26-120274 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926120274/0001104659-26-120274-index.htm",
-          "published_at": "2026-10-29T17:15:10-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "f5cf26f64357",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-10",
-          "discovery_score": 75.5,
-          "market_attention_score": 47.6,
-          "signal_score": 66.2
-        },
-        {
-          "date": "2026-10-01",
-          "discovery_score": 92.6,
-          "market_attention_score": 96.3,
-          "signal_score": 92.8
+          "discovery_score": 81.9,
+          "market_attention_score": 44.5,
+          "signal_score": 77.5
         },
         {
           "date": "2026-10-30",
-          "signal_score": 73.5,
+          "signal_score": 77.5,
           "discovery_score": 81.9
         }
       ]
@@ -1330,166 +1497,13 @@
       "history": [
         {
           "date": "2026-10-30",
-          "signal_score": 74.0,
-          "discovery_score": 81.9
-        }
-      ]
-    },
-    {
-      "ticker": "MPLX",
-      "company_name": "MPLX LP",
-      "signal_score": 73.5,
-      "market_attention_score": 35.3,
-      "discovery_score": 81.9,
-      "confidence_score": 93.8,
-      "primary_catalyst": "MPLX LP (0001552000) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "10 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Breaking out",
-      "article_count_24h": 5,
-      "latest_event_at": "2026-10-29T21:00:03+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 74,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 10
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 7.0,
-        "catalyst_strength": 14,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
-        "weighted_source_breadth": 1.3
-      },
-      "discovery_metrics": {
-        "attention_lift": 35.0,
-        "novelty": 20.0,
-        "source_breadth": 3.9,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.4,
-        "weighted_coverage_24h": 1.4,
-        "weighted_source_breadth": 1.3
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "MPLX LP",
-        "industry": "Energy",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2012-10-26",
-        "weburl": "https://www.mplx.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MPLX.png",
-        "market_cap": 60719972486.35737,
-        "pe_ttm": 12.6394,
-        "ps_ttm": 4.5191,
-        "pb_annual": 3.7956,
-        "revenue_growth_ttm_yoy": 8.71,
-        "eps_growth_ttm_yoy": 10.07,
-        "gross_margin_ttm": 59.69,
-        "net_margin_ttm": 35.75,
-        "current_ratio": 1.2293,
-        "debt_equity": 1.7938,
-        "beta": 0.47519448
-      },
-      "profile": {
-        "name": "MPLX LP",
-        "description": "MPLX LP is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
-        "industry": "Energy",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.mplx.com",
-        "products_markets": [
-          "Energy"
-        ],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "MPLX",
-          "company_name": "MPLX LP",
-          "source": "SEC EDGAR",
-          "title": "MPLX LP (0001552000) (Filer)",
-          "summary": "Filed: 2026-10-29 AccNo: 0001552000-26-000040 Size: 252 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1552000/000155200026000040/0001552000-26-000040-index.htm",
-          "published_at": "2026-10-29T17:00:42-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "6357a7eb1d4d",
-          "display_relevance": 1.0,
-          "display_relevant": true
+          "discovery_score": 81.9,
+          "market_attention_score": 34.2,
+          "signal_score": 74.0
         },
-        {
-          "ticker": "MPLX",
-          "company_name": "MPLX LP",
-          "source": "Yahoo",
-          "title": "MPLX LP (MPLX) Rises As Market Takes a Dip: Key Facts",
-          "summary": "MPLX LP (MPLX) reached $59.89 at the closing of the latest trading day, reflecting a +1.63% change compared to its last close.",
-          "url": "https://finnhub.io/api/news?id=3d4cb2b1c068874e88156838f42cf697729dc28a0750d2e8b27dc108aeede2ca",
-          "published_at": "2026-10-29T21:00:03+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "f20521347ead",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "MPLX",
-          "company_name": "MPLX LP",
-          "source": "Yahoo",
-          "title": "Gear Up for MPLX LP (MPLX) Q3 Earnings: Wall Street Estimates for Key Metrics",
-          "summary": "Besides Wall Street's top-and-bottom-line estimates for MPLX LP (MPLX), review projections for some of its key metrics to gain a deeper understanding of how the company might have fared during the quarter ended September 2026.",
-          "url": "https://finnhub.io/api/news?id=b8e5ef2c1cdcb00dabea5117468ed559a98b02646c5492f237d4710765e9cffc",
-          "published_at": "2026-10-29T12:15:08+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "a86e488b6cb5",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "MPLX",
-          "company_name": "MPLX LP",
-          "source": "Yahoo",
-          "title": "MPLX LP announces election of two new directors",
-          "summary": "MPLX LP (NYSE: MPLX) today announced that Micheal G. Dunn and Bruce L. Niemeyer have been elected to the board of directors of MPLX GP LLC, the general partner of MPLX, both effective Nov. 1, 2026.",
-          "url": "https://finnhub.io/api/news?id=a41fae4cfbf78db2ec3c48934fc507c18a66044729eaec96dbc957e176e5344f",
-          "published_at": "2026-10-29T10:45:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "4902c03719eb",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        }
-      ],
-      "history": [
         {
           "date": "2026-10-30",
-          "signal_score": 73.5,
+          "signal_score": 74.0,
           "discovery_score": 81.9
         }
       ]
@@ -1605,12 +1619,6 @@
       ],
       "history": [
         {
-          "date": "2026-08-30",
-          "discovery_score": 50.3,
-          "market_attention_score": 24.8,
-          "signal_score": 60.0
-        },
-        {
           "date": "2026-09-11",
           "discovery_score": 87.1,
           "market_attention_score": 51.0,
@@ -1636,140 +1644,31 @@
         },
         {
           "date": "2026-10-30",
+          "discovery_score": 80.5,
+          "market_attention_score": 31.8,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 62.5,
           "discovery_score": 80.5
         }
       ]
     },
     {
-      "ticker": "DIN",
-      "company_name": "Dine Brands Global, Inc.",
-      "signal_score": 78.5,
-      "market_attention_score": 34.5,
-      "discovery_score": 75.4,
-      "confidence_score": 93.8,
-      "primary_catalyst": "Dine Brands Global, Inc. (0000049754) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "6 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Breaking out",
-      "article_count_24h": 3,
-      "latest_event_at": "2026-10-29T17:25:44-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 74,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 6
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 6.0,
-        "catalyst_strength": 20,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.2,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.3
-      },
-      "discovery_metrics": {
-        "attention_lift": 24.0,
-        "novelty": 20.0,
-        "source_breadth": 3.9,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.2,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.3
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": 1400000000.0,
-        "market_cap_ratio": 3.1454,
-        "score": 20,
-        "label": "Potentially transformative",
-        "basis": "Wall Street Breakfast Podcast: Saving Wendy's Bacon(Ator)",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "Dine Brands Global, Inc.",
-        "industry": "Hotels, Restaurants & Leisure",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1991-07-12",
-        "weburl": "https://www.dinebrands.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/DIN.png",
-        "market_cap": 445095722.11072665,
-        "pe_ttm": 27.259,
-        "ps_ttm": 0.4964,
-        "pb_annual": 5.4354,
-        "revenue_growth_ttm_yoy": 8.39,
-        "eps_growth_ttm_yoy": -71.27,
-        "gross_margin_ttm": 40.06,
-        "net_margin_ttm": 1.82,
-        "current_ratio": 0.9623,
-        "debt_equity": 5.5775,
-        "beta": 1.0031494
-      },
-      "profile": {
-        "name": "Dine Brands Global, Inc.",
-        "description": "Dine Brands Global, Inc. is a publicly traded company operating in the Hotels, Restaurants & Leisure industry with company information identifying US as its home market.",
-        "industry": "Hotels, Restaurants & Leisure",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.dinebrands.com",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "DIN",
-          "company_name": "Dine Brands Global, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Dine Brands Global, Inc. (0000049754) (Filer)",
-          "summary": "Filed: 2026-10-29 AccNo: 0001193125-26-438102 Size: 210 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.03: Material Modifications to Rights of Security Holders Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/49754/000119312526438102/0001193125-26-438102-index.htm",
-          "published_at": "2026-10-29T17:25:44-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "07dd2473e1cc",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-30",
-          "signal_score": 78.5,
-          "discovery_score": 75.4
-        }
-      ]
-    },
-    {
       "ticker": "ASUR",
       "company_name": "ASURE SOFTWARE INC",
-      "signal_score": 77.5,
-      "market_attention_score": 31.1,
-      "discovery_score": 63.3,
+      "signal_score": 79.9,
+      "market_attention_score": 34.6,
+      "discovery_score": 66.9,
       "confidence_score": 93.8,
       "primary_catalyst": "ASURE SOFTWARE INC (0000884144) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "5 unique credible information items from 4 independent sources. Coverage is 2.6× the stored baseline.",
+      "why_it_matters": "8 unique credible information items from 4 independent sources. Coverage is 3.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 4,
-      "latest_event_at": "2026-10-29T22:00:34+00:00",
+      "article_count_24h": 7,
+      "latest_event_at": "2026-10-29T23:14:35+00:00",
       "new_to_radar": false,
       "days_on_radar": 71,
       "change": {
@@ -1779,28 +1678,28 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 5
+        "unique_story_clusters": 8
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 11.0,
+        "coverage_acceleration": 13.4,
         "catalyst_strength": 14,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.6,
-        "weighted_coverage_24h": 1.3,
+        "coverage_ratio_vs_baseline": 3.2,
+        "weighted_coverage_24h": 1.6,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
-        "attention_lift": 16.5,
+        "attention_lift": 20.1,
         "novelty": 19.8,
         "source_breadth": 3.9,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.6,
-        "weighted_coverage_24h": 1.3,
+        "coverage_ratio_vs_baseline": 3.2,
+        "weighted_coverage_24h": 1.6,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -1868,8 +1767,302 @@
       "history": [
         {
           "date": "2026-10-30",
-          "signal_score": 77.5,
-          "discovery_score": 63.3
+          "discovery_score": 63.3,
+          "market_attention_score": 31.1,
+          "signal_score": 77.5
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 79.9,
+          "discovery_score": 66.9
+        }
+      ]
+    },
+    {
+      "ticker": "KLXE",
+      "company_name": "KLX Energy Services Holdings, Inc.",
+      "signal_score": 64.0,
+      "market_attention_score": 30.9,
+      "discovery_score": 79.0,
+      "confidence_score": 79.8,
+      "primary_catalyst": "KLX Energy Services Holdings, Inc. (0001738827) (Filer)",
+      "catalyst_category": "Government funding",
+      "why_it_matters": "5 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-29T20:50:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 68,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 5
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.5,
+        "catalyst_strength": 15,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 32.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 11.2,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "KLX Energy Services Holdings Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2018-08-29",
+        "weburl": "https://klx.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/KLXE.png",
+        "market_cap": 122585511.69491525,
+        "pe_ttm": null,
+        "ps_ttm": 0.1912,
+        "pb_annual": 4.7615,
+        "revenue_growth_ttm_yoy": -4.76,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 21,
+        "net_margin_ttm": -9.71,
+        "current_ratio": 1.1878,
+        "debt_equity": 8.8273,
+        "beta": 0.7831646
+      },
+      "profile": {
+        "name": "KLX Energy Services Holdings Inc",
+        "description": "KLX Energy Services Holdings Inc is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://klx.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "KLXE",
+          "company_name": "KLX Energy Services Holdings, Inc.",
+          "source": "SEC EDGAR",
+          "title": "KLX Energy Services Holdings, Inc. (0001738827) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0001738827-26-000061 Size: 215 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/1738827/000173882726000061/0001738827-26-000061-index.htm",
+          "published_at": "2026-10-29T17:07:23-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "4b1254993b09",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "discovery_score": 55.0,
+          "market_attention_score": 27.4,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 64.0,
+          "discovery_score": 79.0
+        }
+      ]
+    },
+    {
+      "ticker": "MPLX",
+      "company_name": "MPLX LP",
+      "signal_score": 73.0,
+      "market_attention_score": 34.9,
+      "discovery_score": 78.9,
+      "confidence_score": 93.8,
+      "primary_catalyst": "MPLX LP (0001552000) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "10 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Breaking out",
+      "article_count_24h": 4,
+      "latest_event_at": "2026-10-29T21:00:03+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 74,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 4,
+        "unique_story_clusters": 10
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.5,
+        "catalyst_strength": 14,
+        "corroboration": 15.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.3
+      },
+      "discovery_metrics": {
+        "attention_lift": 32.0,
+        "novelty": 20.0,
+        "source_breadth": 3.9,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.3,
+        "weighted_coverage_24h": 1.3,
+        "weighted_source_breadth": 1.3
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "MPLX LP",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2012-10-26",
+        "weburl": "https://www.mplx.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MPLX.png",
+        "market_cap": 60719972486.35737,
+        "pe_ttm": 12.6394,
+        "ps_ttm": 4.5191,
+        "pb_annual": 3.7956,
+        "revenue_growth_ttm_yoy": 8.71,
+        "eps_growth_ttm_yoy": 10.07,
+        "gross_margin_ttm": 59.69,
+        "net_margin_ttm": 35.75,
+        "current_ratio": 1.2293,
+        "debt_equity": 1.7938,
+        "beta": 0.47519448
+      },
+      "profile": {
+        "name": "MPLX LP",
+        "description": "MPLX LP is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.mplx.com",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "MPLX",
+          "company_name": "MPLX LP",
+          "source": "SEC EDGAR",
+          "title": "MPLX LP (0001552000) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0001552000-26-000040 Size: 252 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1552000/000155200026000040/0001552000-26-000040-index.htm",
+          "published_at": "2026-10-29T17:00:42-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "6357a7eb1d4d",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "MPLX",
+          "company_name": "MPLX LP",
+          "source": "Yahoo",
+          "title": "MPLX LP (MPLX) Rises As Market Takes a Dip: Key Facts",
+          "summary": "MPLX LP (MPLX) reached $59.89 at the closing of the latest trading day, reflecting a +1.63% change compared to its last close.",
+          "url": "https://finnhub.io/api/news?id=3d4cb2b1c068874e88156838f42cf697729dc28a0750d2e8b27dc108aeede2ca",
+          "published_at": "2026-10-29T21:00:03+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "f20521347ead",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "MPLX",
+          "company_name": "MPLX LP",
+          "source": "Yahoo",
+          "title": "Gear Up for MPLX LP (MPLX) Q3 Earnings: Wall Street Estimates for Key Metrics",
+          "summary": "Besides Wall Street's top-and-bottom-line estimates for MPLX LP (MPLX), review projections for some of its key metrics to gain a deeper understanding of how the company might have fared during the quarter ended September 2026.",
+          "url": "https://finnhub.io/api/news?id=b8e5ef2c1cdcb00dabea5117468ed559a98b02646c5492f237d4710765e9cffc",
+          "published_at": "2026-10-29T12:15:08+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "a86e488b6cb5",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "MPLX",
+          "company_name": "MPLX LP",
+          "source": "Yahoo",
+          "title": "MPLX LP announces election of two new directors",
+          "summary": "MPLX LP (NYSE: MPLX) today announced that Micheal G. Dunn and Bruce L. Niemeyer have been elected to the board of directors of MPLX GP LLC, the general partner of MPLX, both effective Nov. 1, 2026.",
+          "url": "https://finnhub.io/api/news?id=a41fae4cfbf78db2ec3c48934fc507c18a66044729eaec96dbc957e176e5344f",
+          "published_at": "2026-10-29T10:45:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "4902c03719eb",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "discovery_score": 81.9,
+          "market_attention_score": 35.3,
+          "signal_score": 73.5
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 73.0,
+          "discovery_score": 78.9
         }
       ]
     },
@@ -1990,6 +2183,12 @@
           "discovery_score": 76.4,
           "market_attention_score": 35.7,
           "signal_score": 67.1
+        },
+        {
+          "date": "2026-10-30",
+          "discovery_score": 75.1,
+          "market_attention_score": 34.1,
+          "signal_score": 73.5
         },
         {
           "date": "2026-10-30",
@@ -2124,6 +2323,12 @@
       "history": [
         {
           "date": "2026-10-30",
+          "discovery_score": 63.1,
+          "market_attention_score": 33.5,
+          "signal_score": 74.6
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 74.6,
           "discovery_score": 63.1
         }
@@ -2241,6 +2446,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-30",
+          "discovery_score": 57.1,
+          "market_attention_score": 31.4,
+          "signal_score": 74.5
+        },
         {
           "date": "2026-10-30",
           "signal_score": 74.5,
@@ -2367,8 +2578,152 @@
         },
         {
           "date": "2026-10-30",
+          "discovery_score": 63.6,
+          "market_attention_score": 31.6,
+          "signal_score": 73.0
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 73.0,
           "discovery_score": 63.6
+        }
+      ]
+    },
+    {
+      "ticker": "KMB",
+      "company_name": "KIMBERLY CLARK CORP",
+      "signal_score": 72.5,
+      "market_attention_score": 34.5,
+      "discovery_score": 70.9,
+      "confidence_score": 93.8,
+      "primary_catalyst": "KIMBERLY CLARK CORP (0000055785) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "10 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-10-29T21:10:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 73,
+      "change": {
+        "signal_delta": -20.3,
+        "discovery_delta": -21.7
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 4,
+        "unique_story_clusters": 10
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 6.0,
+        "catalyst_strength": 14,
+        "corroboration": 15.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.3
+      },
+      "discovery_metrics": {
+        "attention_lift": 24.0,
+        "novelty": 20.0,
+        "source_breadth": 3.9,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.3
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 4900000000.0,
+        "market_cap_ratio": 0.1339,
+        "score": 14,
+        "label": "Material",
+        "basis": "Kimberly-Clark Corporation Announces Successful Completion of $4.9 Billion Private Offering of Senior Notes",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Kimberly-Clark Corporation",
+        "industry": "Consumer products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1929-05-09",
+        "weburl": "https://www.kimberly-clark.com/en-us",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/KMB.png",
+        "market_cap": 36590346554.24372,
+        "pe_ttm": 18.5292,
+        "ps_ttm": 2.1846,
+        "pb_annual": 22.2911,
+        "revenue_growth_ttm_yoy": -12.19,
+        "eps_growth_ttm_yoy": -19.13,
+        "gross_margin_ttm": 37.61,
+        "net_margin_ttm": 11.79,
+        "current_ratio": 0.7453,
+        "debt_equity": 4.787,
+        "beta": 0.30310115
+      },
+      "profile": {
+        "name": "Kimberly-Clark Corporation",
+        "description": "Kimberly-Clark Corporation is an American multinational personal care corporation that produces mostly paper-based consumer products. The company manufactures sanitary paper products and surgical & medical instruments. Kimberly-Clark brand name products include Kleenex facial tissue, Kotex feminine hygiene products, Cottonelle, Scott and Andrex toilet paper, Wypall utility wipes, KimWipes scientific cleaning wipes and Huggies disposable diapers and baby wipes.",
+        "industry": "HOUSEHOLD & PERSONAL PRODUCTS",
+        "sector": "CONSUMER DEFENSIVE",
+        "country": "USA",
+        "exchange": "NASDAQ",
+        "currency": "USD",
+        "products_markets": [
+          "Utilities"
+        ],
+        "source": "Alpha Vantage Company Overview"
+      },
+      "themes": [
+        "Semiconductors"
+      ],
+      "stories": [
+        {
+          "ticker": "KMB",
+          "company_name": "KIMBERLY CLARK CORP",
+          "source": "SEC EDGAR",
+          "title": "KIMBERLY CLARK CORP (0000055785) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0001104659-26-120274 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/55785/000110465926120274/0001104659-26-120274-index.htm",
+          "published_at": "2026-10-29T17:15:10-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "f5cf26f64357",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-10",
+          "discovery_score": 75.5,
+          "market_attention_score": 47.6,
+          "signal_score": 66.2
+        },
+        {
+          "date": "2026-10-01",
+          "discovery_score": 92.6,
+          "market_attention_score": 96.3,
+          "signal_score": 92.8
+        },
+        {
+          "date": "2026-10-30",
+          "discovery_score": 81.9,
+          "market_attention_score": 35.3,
+          "signal_score": 73.5
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 72.5,
+          "discovery_score": 70.9
         }
       ]
     },
@@ -2464,131 +2819,14 @@
         },
         {
           "date": "2026-10-30",
-          "signal_score": 70.5,
-          "discovery_score": 62.6
-        }
-      ]
-    },
-    {
-      "ticker": "MTX",
-      "company_name": "MINERALS TECHNOLOGIES INC",
-      "signal_score": 67.5,
-      "market_attention_score": 28.6,
-      "discovery_score": 55.4,
-      "confidence_score": 79.8,
-      "primary_catalyst": "MINERALS TECHNOLOGIES INC (0000891014) (Filer)",
-      "catalyst_category": "Government funding",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-29T17:04:44-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 68,
-      "change": {
-        "signal_delta": 0.8,
-        "discovery_delta": -3.6
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 15,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.6,
-        "catalyst_strength": 11.2,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Minerals Technologies Inc",
-        "industry": "Chemicals",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1992-10-23",
-        "weburl": "https://www.mineralstech.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MTX.png",
-        "market_cap": 2067883621.787358,
-        "pe_ttm": null,
-        "ps_ttm": 0.9603,
-        "pb_annual": 1.1075,
-        "revenue_growth_ttm_yoy": 4.06,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 24.52,
-        "net_margin_ttm": -3.13,
-        "current_ratio": 2.0807,
-        "debt_equity": 0.5613,
-        "beta": 1.1589378
-      },
-      "profile": {
-        "name": "Minerals Technologies Inc",
-        "description": "Minerals Technologies Inc. is a resource and technology-based company that develops and produces performance-enhancing minerals, mineral-based, and synthetic mineral products.",
-        "industry": "Chemicals",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.mineralstech.com/",
-        "products_markets": [
-          "Mining"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "MTX",
-          "company_name": "MINERALS TECHNOLOGIES INC",
-          "source": "SEC EDGAR",
-          "title": "MINERALS TECHNOLOGIES INC (0000891014) (Filer)",
-          "summary": "Filed: 2026-10-29 AccNo: 0000891014-26-000201 Size: 736 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/891014/000089101426000201/0000891014-26-000201-index.htm",
-          "published_at": "2026-10-29T17:04:44-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "f7ea6c65f189",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-04",
-          "discovery_score": 59.0,
-          "market_attention_score": 30.9,
-          "signal_score": 66.7
+          "discovery_score": 62.6,
+          "market_attention_score": 29.9,
+          "signal_score": 70.5
         },
         {
           "date": "2026-10-30",
-          "signal_score": 67.5,
-          "discovery_score": 55.4
+          "signal_score": 70.5,
+          "discovery_score": 62.6
         }
       ]
     },
@@ -2704,6 +2942,12 @@
       "history": [
         {
           "date": "2026-10-30",
+          "discovery_score": 62.7,
+          "market_attention_score": 29.6,
+          "signal_score": 67.5
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 67.5,
           "discovery_score": 62.7
         }
@@ -2791,8 +3035,140 @@
       "history": [
         {
           "date": "2026-10-30",
+          "discovery_score": 53.9,
+          "market_attention_score": 27.6,
+          "signal_score": 65.5
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 65.5,
           "discovery_score": 53.9
+        }
+      ]
+    },
+    {
+      "ticker": "DRMA",
+      "company_name": "Dermata Therapeutics, Inc.",
+      "signal_score": 65.0,
+      "market_attention_score": 28.8,
+      "discovery_score": 64.5,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Dermata Therapeutics, Inc. (0001853816) (Filer)",
+      "catalyst_category": "Clinical trial",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-29T20:05:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 67,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 17,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 16.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 12.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Dermata Therapeutics Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-08-13",
+        "weburl": "https://www.dermatarx.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950805177506.png",
+        "market_cap": 4167824.0664227735,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 0.3827,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 4.7937,
+        "debt_equity": 0,
+        "beta": 0.5784096
+      },
+      "profile": {
+        "name": "Dermata Therapeutics Inc",
+        "description": "Dermata Therapeutics Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.dermatarx.com/",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "DRMA",
+          "company_name": "Dermata Therapeutics, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Dermata Therapeutics, Inc. (0001853816) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0001493152-26-049312 Size: 204 KB Item 8.01: Other Events",
+          "url": "https://www.sec.gov/Archives/edgar/data/1853816/000149315226049312/0001493152-26-049312-index.htm",
+          "published_at": "2026-10-29T17:26:36-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "580440e7bfd0",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 65.0,
+          "discovery_score": 64.5
         }
       ]
     },
@@ -2878,95 +3254,14 @@
       "history": [
         {
           "date": "2026-10-30",
-          "signal_score": 65.0,
-          "discovery_score": 58.5
-        }
-      ]
-    },
-    {
-      "ticker": "KLXE",
-      "company_name": "KLX Energy Services Holdings, Inc.",
-      "signal_score": 62.5,
-      "market_attention_score": 27.4,
-      "discovery_score": 55.0,
-      "confidence_score": 67.8,
-      "primary_catalyst": "KLX Energy Services Holdings, Inc. (0001738827) (Filer)",
-      "catalyst_category": "Government funding",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-29T17:07:23-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 68,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 15,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 11.2,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "KLXE",
-          "company_name": "KLX Energy Services Holdings, Inc.",
-          "source": "SEC EDGAR",
-          "title": "KLX Energy Services Holdings, Inc. (0001738827) (Filer)",
-          "summary": "Filed: 2026-10-29 AccNo: 0001738827-26-000061 Size: 215 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/1738827/000173882726000061/0001738827-26-000061-index.htm",
-          "published_at": "2026-10-29T17:07:23-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "4b1254993b09",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-10-30",
-          "signal_score": 62.5,
-          "discovery_score": 55.0
+          "signal_score": 65.0,
+          "discovery_score": 58.5
         }
       ]
     },
@@ -3085,6 +3380,12 @@
       "history": [
         {
           "date": "2026-10-30",
+          "discovery_score": 62.3,
+          "market_attention_score": 29.6,
+          "signal_score": 62.0
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 62.0,
           "discovery_score": 62.3
         }
@@ -3093,17 +3394,17 @@
     {
       "ticker": "BCC",
       "company_name": "BOISE CASCADE Co",
-      "signal_score": 61.5,
-      "market_attention_score": 28.4,
-      "discovery_score": 54.3,
-      "confidence_score": 75.8,
+      "signal_score": 62.0,
+      "market_attention_score": 29.6,
+      "discovery_score": 62.3,
+      "confidence_score": 79.8,
       "primary_catalyst": "BOISE CASCADE Co (0001328581) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "4 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "5 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-29T17:15:40-04:00",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-29T21:06:00+00:00",
       "new_to_radar": false,
       "days_on_radar": 71,
       "change": {
@@ -3113,28 +3414,28 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 4
+        "unique_story_clusters": 5
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
+        "coverage_acceleration": 5.5,
         "catalyst_strength": 14,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
         "source_breadth": 3.3,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3172,6 +3473,20 @@
           "ticker": "BCC",
           "company_name": "BOISE CASCADE Co",
           "source": "Yahoo",
+          "title": "Boise Cascade Announces Quarterly Dividend of $0.23 Per Share",
+          "summary": "BOISE, Idaho, October 29, 2026--Boise Cascade Company’s (\"Boise Cascade\" or the \"Company\") (NYSE: BCC) Board of Directors (the \"Board\") declared a quarterly dividend of $0.23 per share to holders of its common stock. The dividend will be paid on December 16, 2026 to stockholders of record on December 1, 2026.",
+          "url": "https://finnhub.io/api/news?id=c1c71debff9697193afe0f87976e175eb61ab27b08b96f5782dd8a34b34718a2",
+          "published_at": "2026-10-29T21:06:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "4b6d2979705e",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        },
+        {
+          "ticker": "BCC",
+          "company_name": "BOISE CASCADE Co",
+          "source": "Yahoo",
           "title": "Boise Cascade Appoints Brian Carlson to Board of Directors",
           "summary": "BOISE, Idaho, October 27, 2026--Boise Cascade Company (\"Boise Cascade\" or the \"Company\") (NYSE: BCC) today announced the appointment of Brian Carlson to its Board of Directors, effective October 26, 2026. The appointment expands Boise Cascade’s Board to 11 directors.",
           "url": "https://finnhub.io/api/news?id=e446a306503fbb551cfe3ad6f6bd75797733a406c976a1ba8c6e19b5177844cc",
@@ -3200,8 +3515,14 @@
       "history": [
         {
           "date": "2026-10-30",
-          "signal_score": 61.5,
-          "discovery_score": 54.3
+          "discovery_score": 54.3,
+          "market_attention_score": 28.4,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 62.0,
+          "discovery_score": 62.3
         }
       ]
     },
@@ -3321,8 +3642,109 @@
         },
         {
           "date": "2026-10-30",
+          "discovery_score": 55.5,
+          "market_attention_score": 25.4,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 61.5,
           "discovery_score": 55.5
+        }
+      ]
+    },
+    {
+      "ticker": "GLNDW",
+      "company_name": "Greenland Energy Co",
+      "signal_score": 61.0,
+      "market_attention_score": 26.8,
+      "discovery_score": 61.5,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Greenland Energy Co (0002093507) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-29T16:30:17-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 52,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 13,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 16.0,
+        "novelty": 20.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 9.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [
+        "Defense & aerospace"
+      ],
+      "stories": [
+        {
+          "ticker": "GLNDW",
+          "company_name": "Greenland Energy Co",
+          "source": "SEC EDGAR",
+          "title": "Greenland Energy Co (0002093507) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0001829126-26-011775 Size: 255 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+          "url": "https://www.sec.gov/Archives/edgar/data/2093507/000182912626011775/0001829126-26-011775-index.htm",
+          "published_at": "2026-10-29T16:30:17-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "c1b425cfcde4",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-10-30",
+          "signal_score": 61.0,
+          "discovery_score": 61.5
         }
       ]
     },
@@ -3406,6 +3828,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-10-30",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
         {
           "date": "2026-10-30",
           "signal_score": 61.0,
@@ -3523,6 +3951,12 @@
       "history": [
         {
           "date": "2026-10-30",
+          "discovery_score": 60.8,
+          "market_attention_score": 26.3,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 60.0,
           "discovery_score": 60.8
         }
@@ -3622,57 +4056,63 @@
         },
         {
           "date": "2026-10-30",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-10-30",
           "signal_score": 58.0,
           "discovery_score": 53.2
         }
       ]
     },
     {
-      "ticker": "GLNDW",
-      "company_name": "Greenland Energy Co",
-      "signal_score": 58.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 53.2,
-      "confidence_score": 62,
-      "primary_catalyst": "Greenland Energy Co (0002093507) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
+      "ticker": "KOSS",
+      "company_name": "KOSS CORP",
+      "signal_score": 54.0,
+      "market_attention_score": 23.3,
+      "discovery_score": 56.3,
+      "confidence_score": 67.8,
+      "primary_catalyst": "KOSS CORP (0000056701) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-29T16:30:17-04:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-29T21:15:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 52,
+      "days_on_radar": 65,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
+        "independent_sources": 2,
+        "unique_story_clusters": 2
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 13,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 9.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -3692,74 +4132,88 @@
       "themes": [],
       "stories": [
         {
-          "ticker": "GLNDW",
-          "company_name": "Greenland Energy Co",
+          "ticker": "KOSS",
+          "company_name": "KOSS CORP",
           "source": "SEC EDGAR",
-          "title": "Greenland Energy Co (0002093507) (Filer)",
-          "summary": "Filed: 2026-10-29 AccNo: 0001829126-26-011775 Size: 255 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/2093507/000182912626011775/0001829126-26-011775-index.htm",
-          "published_at": "2026-10-29T16:30:17-04:00",
+          "title": "KOSS CORP (0000056701) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0000056701-26-000046 Size: 300 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/56701/000005670126000046/0000056701-26-000046-index.htm",
+          "published_at": "2026-10-29T17:20:02-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "c1b425cfcde4",
+          "fingerprint": "140944400860",
           "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "KOSS",
+          "company_name": "KOSS CORP",
+          "source": "Yahoo",
+          "title": "Koss Corporation Reports First Quarter Results",
+          "summary": "MILWAUKEE, Oct. 29, 2026 (GLOBE NEWSWIRE) -- Koss Corporation (NASDAQ: KOSS) (the “Company”), the U.S. based high-fidelity headphone company, has reported its results for the first quarter ended September 30, 2026. Net sales for the first quarter ended September 30, 2026 were $3,094,078, a decline of $976,700, or 24.0%, compared to net sales of $4,070,778 for the three months ended September 30, 2025. A net loss of…",
+          "url": "https://finnhub.io/api/news?id=5c570e5f9f3f18a2f6e583db4e21f40dec7213e9d9e51fb7c782ee96b215b963",
+          "published_at": "2026-10-29T21:15:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "e1c9cd6a3f86",
+          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
           "date": "2026-10-30",
-          "signal_score": 58.0,
-          "discovery_score": 53.2
+          "signal_score": 54.0,
+          "discovery_score": 56.3
         }
       ]
     },
     {
-      "ticker": "ESLAW",
-      "company_name": "Estrella Immunopharma, Inc.",
-      "signal_score": 51.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 48.0,
-      "confidence_score": 62,
-      "primary_catalyst": "Estrella Immunopharma, Inc. (0001844417) (Filer)",
+      "ticker": "SSTK",
+      "company_name": "Shutterstock, Inc.",
+      "signal_score": 54.0,
+      "market_attention_score": 23.3,
+      "discovery_score": 56.3,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Shutterstock, Inc. (0001549346) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-29T17:28:13-04:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-29T21:00:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 71,
+      "days_on_radar": 72,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
+        "independent_sources": 2,
+        "unique_story_clusters": 2
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
+        "coverage_acceleration": 5.5,
         "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 8.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
-        "source_breadth": 3.0,
+        "source_breadth": 3.3,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -3779,114 +4233,39 @@
       "themes": [],
       "stories": [
         {
-          "ticker": "ESLAW",
-          "company_name": "Estrella Immunopharma, Inc.",
+          "ticker": "SSTK",
+          "company_name": "Shutterstock, Inc.",
           "source": "SEC EDGAR",
-          "title": "Estrella Immunopharma, Inc. (0001844417) (Filer)",
-          "summary": "Filed: 2026-10-29 AccNo: 0001213900-26-113912 Size: 479 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1844417/000121390026113912/0001213900-26-113912-index.htm",
-          "published_at": "2026-10-29T17:28:13-04:00",
+          "title": "Shutterstock, Inc. (0001549346) (Filer)",
+          "summary": "Filed: 2026-10-29 AccNo: 0001140361-26-041191 Size: 584 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1549346/000114036126041191/0001140361-26-041191-index.htm",
+          "published_at": "2026-10-29T17:11:17-04:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "eb035a90100c",
+          "fingerprint": "a050906c5da6",
           "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "SSTK",
+          "company_name": "Shutterstock, Inc.",
+          "source": "Yahoo",
+          "title": "Shutterstock Founder Jon Oringer Returns as CEO; Hichame Assi Named President and COO",
+          "summary": "Shutterstock, Inc. (NYSE: SSTK), a family of brands delivering scalable creative and GenAI solutions to help customers fuel great work, today announced that Jon Oringer, the company's founder and Chairman of the Board, has been appointed Chief Executive Officer. Hichame Assi, currently Chief Executive Officer of Envato, a division of Shutterstock, has been appointed President and Chief Operating Officer. Both appoin…",
+          "url": "https://finnhub.io/api/news?id=3f6ba76c825aaa0f5125fb10dce3c9156452f9807ae63c6269d1323c0dd2ade3",
+          "published_at": "2026-10-29T21:00:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "807487d58a7b",
+          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
           "date": "2026-10-30",
-          "signal_score": 51.0,
-          "discovery_score": 48.0
-        }
-      ]
-    },
-    {
-      "ticker": "DRMA",
-      "company_name": "Dermata Therapeutics, Inc.",
-      "signal_score": 51.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 48.0,
-      "confidence_score": 62,
-      "primary_catalyst": "Dermata Therapeutics, Inc. (0001853816) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-29T17:26:36-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 67,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "DRMA",
-          "company_name": "Dermata Therapeutics, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Dermata Therapeutics, Inc. (0001853816) (Filer)",
-          "summary": "Filed: 2026-10-29 AccNo: 0001493152-26-049312 Size: 204 KB Item 8.01: Other Events",
-          "url": "https://www.sec.gov/Archives/edgar/data/1853816/000149315226049312/0001493152-26-049312-index.htm",
-          "published_at": "2026-10-29T17:26:36-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "580440e7bfd0",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-30",
-          "signal_score": 51.0,
-          "discovery_score": 48.0
+          "signal_score": 54.0,
+          "discovery_score": 56.3
         }
       ]
     }

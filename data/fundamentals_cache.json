@@ -27854,18 +27854,18 @@
       }
     },
     "MTX": {
-      "cached_at": "2026-10-03T17:27:21.589181+00:00",
+      "cached_at": "2026-10-30T07:20:00.051254+00:00",
       "data": {
-        "name": "Minerals Technologies Inc",
+        "name": "Minerals Technologies Inc.",
         "industry": "Chemicals",
         "country": "US",
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "ipo_date": "1992-10-23",
         "weburl": "https://www.mineralstech.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MTX.png",
-        "market_cap": 2067883621.787358,
+        "market_cap": 1924691319.8559666,
         "pe_ttm": null,
-        "ps_ttm": 0.9603,
+        "ps_ttm": 0.905,
         "pb_annual": 1.1075,
         "revenue_growth_ttm_yoy": 4.06,
         "eps_growth_ttm_yoy": null,
@@ -27873,7 +27873,7 @@
         "net_margin_ttm": -3.13,
         "current_ratio": 2.0807,
         "debt_equity": 0.5613,
-        "beta": 1.1589378
+        "beta": 1.1577376
       }
     },
     "ZSQR": {
@@ -38109,6 +38109,52 @@
         "current_ratio": 0.8944,
         "debt_equity": 0.0866,
         "beta": 0.6701327
+      }
+    },
+    "KLXE": {
+      "cached_at": "2026-10-30T07:20:00.051254+00:00",
+      "data": {
+        "name": "KLX Energy Services Holdings Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2018-08-29",
+        "weburl": "https://klx.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/KLXE.png",
+        "market_cap": 122585511.69491525,
+        "pe_ttm": null,
+        "ps_ttm": 0.1912,
+        "pb_annual": 4.7615,
+        "revenue_growth_ttm_yoy": -4.76,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 21,
+        "net_margin_ttm": -9.71,
+        "current_ratio": 1.1878,
+        "debt_equity": 8.8273,
+        "beta": 0.7831646
+      }
+    },
+    "DRMA": {
+      "cached_at": "2026-10-30T07:20:00.051254+00:00",
+      "data": {
+        "name": "Dermata Therapeutics Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-08-13",
+        "weburl": "https://www.dermatarx.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950805177506.png",
+        "market_cap": 4167824.0664227735,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 0.3827,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 4.7937,
+        "debt_equity": 0,
+        "beta": 0.5784096
       }
     }
   }

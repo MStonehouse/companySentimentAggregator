@@ -29554,14 +29554,14 @@
       "XRXDW": 1
     },
     "2026-10-30": {
-      "ADT": 7,
+      "ADT": 17,
       "ADTN": 2,
       "ALDFW": 1,
-      "ASUR": 4,
+      "ASUR": 7,
       "ATEC": 1,
       "ATOM": 1,
       "ATR": 6,
-      "BCC": 1,
+      "BCC": 2,
       "BFST": 2,
       "BOF": 2,
       "CDP": 1,
@@ -29578,9 +29578,9 @@
       "DAIO": 1,
       "DCI": 1,
       "DFNSW": 1,
-      "DIN": 3,
+      "DIN": 7,
       "DK": 1,
-      "DRMA": 1,
+      "DRMA": 2,
       "DROR": 1,
       "ERIE": 1,
       "ESLAW": 1,
@@ -29588,26 +29588,26 @@
       "FHI": 1,
       "FMC": 1,
       "GCTK": 5,
-      "GLNDW": 1,
+      "GLNDW": 2,
       "GOAI": 1,
       "HCXY": 1,
       "HRL": 1,
       "INN-PF": 1,
       "INVX": 1,
-      "IOVA": 9,
+      "IOVA": 23,
       "IVR-PC": 1,
       "JKHY": 1,
-      "KLXE": 1,
-      "KMB": 5,
-      "KOSS": 1,
+      "KLXE": 4,
+      "KMB": 3,
+      "KOSS": 2,
       "KWR": 1,
       "LCCCR": 1,
       "MBLY": 1,
       "META": 31,
       "MHK": 1,
       "MPC": 1,
-      "MPLX": 5,
-      "MTX": 1,
+      "MPLX": 4,
+      "MTX": 6,
       "MTZ": 1,
       "NEU": 5,
       "NFEGP": 1,
@@ -29629,7 +29629,7 @@
       "SFCX": 1,
       "SLGN": 1,
       "SMBC": 1,
-      "SSTK": 1,
+      "SSTK": 2,
       "STRT": 1,
       "SVCCU": 1,
       "SYM": 1,
@@ -39298,48 +39298,48 @@
     },
     "2026-10-30": {
       "emerging_signals": [
+        "DIN",
         "IOVA",
         "META",
         "NEU",
+        "MTX",
         "RKT",
-        "KMB",
         "ATR",
-        "MPLX",
         "GCTK",
-        "DIN",
-        "TEVA",
         "ADT",
-        "VRSK",
+        "KLXE",
+        "MPLX",
+        "TEVA",
+        "KMB",
         "ASUR",
+        "DRMA",
+        "VRSK",
         "BFST",
         "SAMG",
         "DFNSW",
-        "ADTN",
-        "BOF",
-        "LCCCR",
-        "PROK"
+        "ADTN"
       ],
       "market_leaders": [
         "META",
         "IOVA",
-        "RKT",
         "ADT",
-        "KMB",
+        "RKT",
+        "DIN",
         "MPLX",
         "NEU",
-        "DIN",
+        "ASUR",
+        "KMB",
+        "MTX",
         "ATR",
         "TEVA",
         "BFST",
         "GCTK",
         "VRSK",
         "PROK",
-        "ASUR",
+        "KLXE",
         "DFNSW",
         "ADTN",
-        "SAMG",
-        "LCCCR",
-        "MTX"
+        "BCC"
       ]
     }
   },
@@ -53336,9 +53336,9 @@
     },
     "2026-10-30": {
       "ADT": {
-        "discovery_score": 71.5,
-        "market_attention_score": 40.2,
-        "signal_score": 85.9
+        "discovery_score": 79.9,
+        "market_attention_score": 51.0,
+        "signal_score": 91.5
       },
       "ADTN": {
         "discovery_score": 62.3,
@@ -53351,9 +53351,9 @@
         "signal_score": 58.0
       },
       "ASUR": {
-        "discovery_score": 63.3,
-        "market_attention_score": 31.1,
-        "signal_score": 77.5
+        "discovery_score": 66.9,
+        "market_attention_score": 34.6,
+        "signal_score": 79.9
       },
       "ATR": {
         "discovery_score": 81.9,
@@ -53361,9 +53361,9 @@
         "signal_score": 74.0
       },
       "BCC": {
-        "discovery_score": 54.3,
-        "market_attention_score": 28.4,
-        "signal_score": 61.5
+        "discovery_score": 62.3,
+        "market_attention_score": 29.6,
+        "signal_score": 62.0
       },
       "BFST": {
         "discovery_score": 63.1,
@@ -53391,19 +53391,14 @@
         "signal_score": 70.5
       },
       "DIN": {
-        "discovery_score": 75.4,
-        "market_attention_score": 34.5,
-        "signal_score": 78.5
+        "discovery_score": 86.4,
+        "market_attention_score": 39.9,
+        "signal_score": 80.5
       },
       "DRMA": {
-        "discovery_score": 48.0,
-        "market_attention_score": 21.8,
-        "signal_score": 51.0
-      },
-      "ESLAW": {
-        "discovery_score": 48.0,
-        "market_attention_score": 21.8,
-        "signal_score": 51.0
+        "discovery_score": 64.5,
+        "market_attention_score": 28.8,
+        "signal_score": 65.0
       },
       "GCTK": {
         "discovery_score": 80.5,
@@ -53411,24 +53406,29 @@
         "signal_score": 62.5
       },
       "GLNDW": {
-        "discovery_score": 53.2,
-        "market_attention_score": 25.2,
-        "signal_score": 58.0
+        "discovery_score": 61.5,
+        "market_attention_score": 26.8,
+        "signal_score": 61.0
       },
       "IOVA": {
         "discovery_score": 85.2,
-        "market_attention_score": 46.0,
-        "signal_score": 79.5
+        "market_attention_score": 52.4,
+        "signal_score": 86.5
       },
       "KLXE": {
-        "discovery_score": 55.0,
-        "market_attention_score": 27.4,
-        "signal_score": 62.5
+        "discovery_score": 79.0,
+        "market_attention_score": 30.9,
+        "signal_score": 64.0
       },
       "KMB": {
-        "discovery_score": 81.9,
-        "market_attention_score": 35.3,
-        "signal_score": 73.5
+        "discovery_score": 70.9,
+        "market_attention_score": 34.5,
+        "signal_score": 72.5
+      },
+      "KOSS": {
+        "discovery_score": 56.3,
+        "market_attention_score": 23.3,
+        "signal_score": 54.0
       },
       "LCCCR": {
         "discovery_score": 58.5,
@@ -53441,14 +53441,14 @@
         "signal_score": 85.5
       },
       "MPLX": {
-        "discovery_score": 81.9,
-        "market_attention_score": 35.3,
-        "signal_score": 73.5
+        "discovery_score": 78.9,
+        "market_attention_score": 34.9,
+        "signal_score": 73.0
       },
       "MTX": {
-        "discovery_score": 55.4,
-        "market_attention_score": 28.6,
-        "signal_score": 67.5
+        "discovery_score": 82.3,
+        "market_attention_score": 34.3,
+        "signal_score": 70.0
       },
       "NEU": {
         "discovery_score": 82.5,
@@ -53474,6 +53474,11 @@
         "discovery_score": 62.7,
         "market_attention_score": 29.6,
         "signal_score": 67.5
+      },
+      "SSTK": {
+        "discovery_score": 56.3,
+        "market_attention_score": 23.3,
+        "signal_score": 54.0
       },
       "TEVA": {
         "discovery_score": 75.1,
