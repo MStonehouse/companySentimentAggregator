@@ -22426,26 +22426,26 @@
       }
     },
     "QVCG": {
-      "cached_at": "2026-09-23T06:08:14.051144+00:00",
+      "cached_at": "2026-10-31T07:08:08.694535+00:00",
       "data": {
-        "name": "QVC Group, Inc.",
+        "name": "Old QVC Group, Inc.",
         "industry": "Retail",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "",
-        "weburl": "https://corporate.qvc.com",
-        "logo": "",
-        "market_cap": 794498368.9735516,
+        "ipo_date": "1991-03-28",
+        "weburl": "https://www.qvcgrp.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/QRTEA.png",
+        "market_cap": 790000000.0,
         "pe_ttm": null,
-        "ps_ttm": null,
+        "ps_ttm": 0.0832,
         "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
+        "revenue_growth_ttm_yoy": -7.21,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 1.2544498
+        "gross_margin_ttm": 34.38,
+        "net_margin_ttm": -38.83,
+        "current_ratio": 1.2111,
+        "debt_equity": 17.174,
+        "beta": -0.6752403
       }
     },
     "MPWR": {
@@ -30936,18 +30936,18 @@
       }
     },
     "ACH": {
-      "cached_at": "2026-10-10T01:02:06.398206+00:00",
+      "cached_at": "2026-10-31T07:08:08.694535+00:00",
       "data": {
-        "name": "Accendra Health Inc",
+        "name": "Accendra Health, Inc.",
         "industry": "Health Care",
         "country": "US",
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "ipo_date": "1980-03-17",
         "weburl": "https://www.accendrahealth.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/OMI.png",
-        "market_cap": 32915211.561371833,
+        "market_cap": 19549174.630901285,
         "pe_ttm": null,
-        "ps_ttm": 0.0127,
+        "ps_ttm": 0.0069,
         "pb_annual": 1.9182,
         "revenue_growth_ttm_yoy": -69.68,
         "eps_growth_ttm_yoy": null,
@@ -30955,7 +30955,7 @@
         "net_margin_ttm": -11.41,
         "current_ratio": 0.5785,
         "debt_equity": 3.1401,
-        "beta": 1.5354337
+        "beta": 1.5476562
       }
     },
     "BETRW": {
@@ -38707,6 +38707,52 @@
         "current_ratio": null,
         "debt_equity": null,
         "beta": -0.5173434
+      }
+    },
+    "DV": {
+      "cached_at": "2026-10-31T07:08:08.694535+00:00",
+      "data": {
+        "name": "DoubleVerify Holdings, Inc.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2021-04-21",
+        "weburl": "https://www.doubleverify.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950800364516.png",
+        "market_cap": 2117833758.6941783,
+        "pe_ttm": 35.9815,
+        "ps_ttm": 2.7546,
+        "pb_annual": 1.6291,
+        "revenue_growth_ttm_yoy": 7.64,
+        "eps_growth_ttm_yoy": 17.51,
+        "gross_margin_ttm": 82.43,
+        "net_margin_ttm": 7.66,
+        "current_ratio": 4.2721,
+        "debt_equity": 0.0111,
+        "beta": 0.90774006
+      }
+    },
+    "DCH": {
+      "cached_at": "2026-10-31T07:08:08.694535+00:00",
+      "data": {
+        "name": "Dauch Corp",
+        "industry": "Auto Components",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1999-01-29",
+        "weburl": "https://www.aam.com/investors",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AXL.png",
+        "market_cap": 1135750004.284569,
+        "pe_ttm": null,
+        "ps_ttm": 0.1424,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 40.98,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 10.86,
+        "net_margin_ttm": -2.01,
+        "current_ratio": 2.9457,
+        "debt_equity": 6.4489,
+        "beta": 1.7746029
       }
     }
   }

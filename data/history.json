@@ -29235,7 +29235,7 @@
     },
     "2026-10-31": {
       "ACGLO": 1,
-      "ACH": 1,
+      "ACH": 2,
       "ACTU": 1,
       "AEI": 1,
       "ALB-PA": 1,
@@ -29254,10 +29254,10 @@
       "COPL-WT": 1,
       "CRTD": 1,
       "CYN": 1,
-      "DCH": 1,
-      "DINO": 2,
+      "DCH": 2,
+      "DINO": 3,
       "DLR-PJ": 1,
-      "DV": 1,
+      "DV": 7,
       "EDBLW": 1,
       "ELS": 1,
       "ENVA": 1,
@@ -29267,7 +29267,7 @@
       "HRMY": 1,
       "HWBK": 1,
       "HWKE": 1,
-      "IR": 8,
+      "IR": 10,
       "JAGU": 1,
       "KFIIU": 1,
       "KLNG": 1,
@@ -29291,9 +29291,9 @@
       "PLPC": 1,
       "POCI": 1,
       "PODC": 1,
-      "PRCH": 2,
+      "PRCH": 1,
       "PSA-PF": 1,
-      "QVCG": 1,
+      "QVCG": 2,
       "RAPP": 1,
       "RELY": 1,
       "RMBI": 2,
@@ -38991,31 +38991,32 @@
     "2026-10-31": {
       "emerging_signals": [
         "IR",
-        "PRCH",
-        "ANVS",
         "DINO",
+        "DV",
+        "ANVS",
+        "DCH",
         "LSCC",
         "RMBI",
         "SVAQW",
         "EDBLW",
         "KFIIU",
+        "ACH",
         "PARAW",
         "OPNW",
+        "QVCG",
+        "PRCH",
         "RAPP",
         "PODC",
         "BAERW",
         "COPL-WT",
-        "ZDPY",
-        "BTAIQ",
-        "KLNG",
-        "DV",
-        "DCH"
+        "ZDPY"
       ],
       "market_leaders": [
         "IR",
         "PRCH",
         "DINO",
         "RAPP",
+        "DV",
         "LSCC",
         "PODC",
         "OPNW",
@@ -39028,10 +39029,9 @@
         "KFIIU",
         "SVAQW",
         "EDBLW",
-        "BAERW",
-        "RMBI",
         "DCH",
-        "DV"
+        "BAERW",
+        "RMBI"
       ]
     }
   },
@@ -52958,9 +52958,9 @@
     },
     "2026-10-31": {
       "ACH": {
-        "discovery_score": 53.2,
-        "market_attention_score": 25.2,
-        "signal_score": 58.0
+        "discovery_score": 61.5,
+        "market_attention_score": 26.8,
+        "signal_score": 61.0
       },
       "ACTU": {
         "discovery_score": 53.2,
@@ -52971,11 +52971,6 @@
         "discovery_score": 53.2,
         "market_attention_score": 25.2,
         "signal_score": 58.0
-      },
-      "AMFN": {
-        "discovery_score": 51.7,
-        "market_attention_score": 21.8,
-        "signal_score": 54.0
       },
       "ANVS": {
         "discovery_score": 64.5,
@@ -53003,14 +52998,14 @@
         "signal_score": 58.0
       },
       "DCH": {
-        "discovery_score": 54.3,
-        "market_attention_score": 26.9,
-        "signal_score": 61.5
+        "discovery_score": 63.0,
+        "market_attention_score": 28.6,
+        "signal_score": 63.0
       },
       "DINO": {
-        "discovery_score": 63.5,
-        "market_attention_score": 42.4,
-        "signal_score": 72.0
+        "discovery_score": 71.5,
+        "market_attention_score": 42.8,
+        "signal_score": 72.5
       },
       "DLR-PJ": {
         "discovery_score": 48.0,
@@ -53018,9 +53013,9 @@
         "signal_score": 51.0
       },
       "DV": {
-        "discovery_score": 55.9,
-        "market_attention_score": 25.4,
-        "signal_score": 61.5
+        "discovery_score": 70.8,
+        "market_attention_score": 36.8,
+        "signal_score": 75.9
       },
       "EDBLW": {
         "discovery_score": 62.3,
@@ -53044,8 +53039,8 @@
       },
       "IR": {
         "discovery_score": 87.0,
-        "market_attention_score": 47.8,
-        "signal_score": 81.0
+        "market_attention_score": 48.6,
+        "signal_score": 82.0
       },
       "KFIIU": {
         "discovery_score": 62.2,
@@ -53083,14 +53078,14 @@
         "signal_score": 77.5
       },
       "PRCH": {
-        "discovery_score": 67.7,
-        "market_attention_score": 45.0,
-        "signal_score": 78.0
+        "discovery_score": 59.7,
+        "market_attention_score": 44.6,
+        "signal_score": 77.5
       },
       "QVCG": {
-        "discovery_score": 48.0,
-        "market_attention_score": 21.8,
-        "signal_score": 51.0
+        "discovery_score": 60.0,
+        "market_attention_score": 25.8,
+        "signal_score": 59.0
       },
       "RAPP": {
         "discovery_score": 59.4,
