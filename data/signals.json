@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-31T07:08:08.694535+00:00",
+    "generated_at": "2026-10-31T17:49:41.957917+00:00",
     "companies_scanned": 81,
     "sources_enabled": {
       "sec_edgar": true,
@@ -25,7 +25,9 @@
       "LSCC",
       "PODC",
       "OPNW",
+      "ENVA",
       "ANVS",
+      "DCH",
       "KLNG",
       "PARAW",
       "COPL-WT",
@@ -34,7 +36,6 @@
       "KFIIU",
       "SVAQW",
       "EDBLW",
-      "DCH",
       "BAERW",
       "RMBI",
       "ACH",
@@ -44,22 +45,21 @@
       "ACTU",
       "ELS",
       "SHFSW",
-      "ENVA",
       "PEBO",
       "DLR-PJ"
     ],
     "emerging_signals": [
       "IR",
-      "DINO",
       "DV",
       "ANVS",
-      "DCH",
+      "DINO",
       "LSCC",
       "RMBI",
       "SVAQW",
       "EDBLW",
       "KFIIU",
       "ACH",
+      "ENVA",
       "PARAW",
       "OPNW",
       "QVCG",
@@ -71,31 +71,31 @@
       "ZDPY",
       "BTAIQ",
       "KLNG",
-      "SHFSW",
+      "DCH",
       "ELS",
       "CYN",
       "AEI",
       "ACTU",
-      "ENVA",
       "PEBO",
+      "SHFSW",
       "GRDX"
     ]
   },
   "briefing": {
     "new_emerging": [
       "IR",
-      "DINO",
       "DV",
       "ANVS",
-      "DCH",
+      "DINO",
       "LSCC",
       "RMBI",
-      "SVAQW"
+      "SVAQW",
+      "EDBLW"
     ],
     "accelerating": [
       {
         "ticker": "DV",
-        "delta": 22.8
+        "delta": 22.0
       },
       {
         "ticker": "ACH",
@@ -104,6 +104,10 @@
       {
         "ticker": "GRDX",
         "delta": 11.7
+      },
+      {
+        "ticker": "ENVA",
+        "delta": 10.9
       }
     ],
     "cooling": [
@@ -134,6 +138,11 @@
         "headline": "PodcastOne, Inc. (0001940177) (Filer)"
       },
       {
+        "ticker": "DV",
+        "category": "M&A",
+        "headline": "DoubleVerify Holdings, Inc. (0001819928) (Filer)"
+      },
+      {
         "ticker": "LSCC",
         "category": "M&A",
         "headline": "8-K/A - LATTICE SEMICONDUCTOR CORP (0000855658) (Filer)"
@@ -144,14 +153,9 @@
         "headline": "OpenWorld, Inc. (0001104038) (Filer)"
       },
       {
-        "ticker": "DV",
-        "category": "M&A",
-        "headline": "DoubleVerify Holdings, Inc. (0001819928) (Filer)"
-      },
-      {
-        "ticker": "BAERW",
-        "category": "Government funding",
-        "headline": "Bridger Aerospace Group Holdings, Inc. (0001941536) (Filer)"
+        "ticker": "ENVA",
+        "category": "Major contract",
+        "headline": "Enova International, Inc. (0001529864) (Filer)"
       }
     ],
     "left_emerging_top20": [
@@ -170,7 +174,7 @@
       "sector": "Machinery",
       "company_count": 1,
       "discovery_intensity": 87.0,
-      "signal_intensity": 82.0,
+      "signal_intensity": 79.5,
       "tickers": [
         "IR"
       ]
@@ -178,30 +182,11 @@
     {
       "sector": "Media",
       "company_count": 2,
-      "discovery_intensity": 65.1,
-      "signal_intensity": 76.7,
+      "discovery_intensity": 64.7,
+      "signal_intensity": 78.8,
       "tickers": [
         "DV",
         "PODC"
-      ]
-    },
-    {
-      "sector": "Energy",
-      "company_count": 2,
-      "discovery_intensity": 64.4,
-      "signal_intensity": 69.0,
-      "tickers": [
-        "DINO",
-        "KLNG"
-      ]
-    },
-    {
-      "sector": "Auto Components",
-      "company_count": 1,
-      "discovery_intensity": 63.0,
-      "signal_intensity": 63.0,
-      "tickers": [
-        "DCH"
       ]
     },
     {
@@ -241,12 +226,31 @@
       ]
     },
     {
+      "sector": "Financial Services",
+      "company_count": 1,
+      "discovery_intensity": 61.4,
+      "signal_intensity": 73.5,
+      "tickers": [
+        "ENVA"
+      ]
+    },
+    {
       "sector": "Logistics & Transportation",
       "company_count": 1,
       "discovery_intensity": 60.6,
       "signal_intensity": 73.5,
       "tickers": [
         "OPNW"
+      ]
+    },
+    {
+      "sector": "Energy",
+      "company_count": 2,
+      "discovery_intensity": 60.4,
+      "signal_intensity": 68.8,
+      "tickers": [
+        "DINO",
+        "KLNG"
       ]
     },
     {
@@ -281,7 +285,7 @@
     {
       "theme": "AI infrastructure",
       "company_count": 4,
-      "intensity": 70.5,
+      "intensity": 70.2,
       "tickers": [
         "IR",
         "DV",
@@ -292,7 +296,7 @@
     {
       "theme": "Biotech & therapeutics",
       "company_count": 4,
-      "intensity": 58.9,
+      "intensity": 59.0,
       "tickers": [
         "ANVS",
         "RAPP",
@@ -303,7 +307,7 @@
     {
       "theme": "Cloud & software",
       "company_count": 3,
-      "intensity": 64.6,
+      "intensity": 64.3,
       "tickers": [
         "DV",
         "LSCC",
@@ -317,6 +321,14 @@
       "tickers": [
         "LSCC",
         "RAPP"
+      ]
+    },
+    {
+      "theme": "Financial technology",
+      "company_count": 1,
+      "intensity": 61.4,
+      "tickers": [
+        "ENVA"
       ]
     },
     {
@@ -336,14 +348,6 @@
       ]
     },
     {
-      "theme": "Financial technology",
-      "company_count": 1,
-      "intensity": 52.1,
-      "tickers": [
-        "ENVA"
-      ]
-    },
-    {
       "theme": "Power & grid",
       "company_count": 1,
       "intensity": 51.8,
@@ -357,17 +361,17 @@
     {
       "ticker": "IR",
       "company_name": "Ingersoll Rand Inc.",
-      "signal_score": 82.0,
-      "market_attention_score": 48.6,
+      "signal_score": 79.5,
+      "market_attention_score": 46.6,
       "discovery_score": 87.0,
       "confidence_score": 93.8,
       "primary_catalyst": "Ingersoll Rand Inc. (0001699150) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "22 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "23 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Accelerating leader",
-      "article_count_24h": 10,
-      "latest_event_at": "2026-10-31T04:19:11+00:00",
+      "article_count_24h": 5,
+      "latest_event_at": "2026-10-31T15:15:06+00:00",
       "new_to_radar": false,
       "days_on_radar": 74,
       "change": {
@@ -377,17 +381,17 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 6,
-        "unique_story_clusters": 22
+        "unique_story_clusters": 23
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.5,
+        "coverage_acceleration": 7.0,
         "catalyst_strength": 20,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.9,
-        "weighted_coverage_24h": 1.9,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
         "weighted_source_breadth": 1.5
       },
       "discovery_metrics": {
@@ -397,8 +401,8 @@
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.9,
-        "weighted_coverage_24h": 1.9,
+        "coverage_ratio_vs_baseline": 1.4,
+        "weighted_coverage_24h": 1.4,
         "weighted_source_breadth": 1.5
       },
       "baseline": {
@@ -467,13 +471,159 @@
         {
           "date": "2026-10-31",
           "discovery_score": 87.0,
-          "market_attention_score": 47.8,
-          "signal_score": 81.0
+          "market_attention_score": 48.6,
+          "signal_score": 82.0
         },
         {
           "date": "2026-10-31",
-          "signal_score": 82.0,
+          "signal_score": 79.5,
           "discovery_score": 87.0
+        }
+      ]
+    },
+    {
+      "ticker": "DV",
+      "company_name": "DoubleVerify Holdings, Inc.",
+      "signal_score": 80.2,
+      "market_attention_score": 37.5,
+      "discovery_score": 70.0,
+      "confidence_score": 87.8,
+      "primary_catalyst": "DoubleVerify Holdings, Inc. (0001819928) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "9 unique credible information items from 3 independent sources. Coverage is 3.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 6,
+      "latest_event_at": "2026-10-30T21:14:26+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 72,
+      "change": {
+        "signal_delta": 29.2,
+        "discovery_delta": 22.0
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 9
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 12.7,
+        "catalyst_strength": 20,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 3.0,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 19.0,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 3.0,
+        "weighted_coverage_24h": 1.5,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "DoubleVerify Holdings, Inc.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2021-04-21",
+        "weburl": "https://www.doubleverify.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950800364516.png",
+        "market_cap": 2117833758.6941783,
+        "pe_ttm": 35.9815,
+        "ps_ttm": 2.7546,
+        "pb_annual": 1.6291,
+        "revenue_growth_ttm_yoy": 7.64,
+        "eps_growth_ttm_yoy": 17.51,
+        "gross_margin_ttm": 82.43,
+        "net_margin_ttm": 7.66,
+        "current_ratio": 4.2721,
+        "debt_equity": 0.0111,
+        "beta": 0.90774006
+      },
+      "profile": {
+        "name": "DoubleVerify Holdings, Inc.",
+        "description": "DV is the leading media effectiveness platform that leverages AI to drive superior outcomes for global brands.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.doubleverify.com",
+        "products_markets": [
+          "AI & accelerated computing"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "AI infrastructure",
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "DV",
+          "company_name": "DoubleVerify Holdings, Inc.",
+          "source": "SEC EDGAR",
+          "title": "DoubleVerify Holdings, Inc. (0001819928) (Filer)",
+          "summary": "Filed: 2026-10-30 AccNo: 0001104659-26-120670 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1819928/000110465926120670/0001104659-26-120670-index.htm",
+          "published_at": "2026-10-30T16:10:46-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "6edc151fbe2b",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "DV",
+          "company_name": "DoubleVerify Holdings, Inc.",
+          "source": "Yahoo",
+          "title": "DoubleVerify Stockholders Approve Merger Agreement at Special Meeting",
+          "summary": "DoubleVerify (NYSE:DV) stockholders approved the company’s proposed merger agreement and an advisory proposal covering merger-related executive compensation during a special virtual meeting held Oct. 29, 2026. The company said the merger agreement, dated Aug. 6, 2026, is among DoubleVerify, Neptune",
+          "url": "https://finnhub.io/api/news?id=4b953366e781bff0b06db8fd5962d139729d6bba66869ff5950b4884c8b4c18c",
+          "published_at": "2026-10-30T21:14:26+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "e1d859f5e166",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-20",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-10-31",
+          "discovery_score": 70.8,
+          "market_attention_score": 36.8,
+          "signal_score": 75.9
+        },
+        {
+          "date": "2026-10-31",
+          "signal_score": 80.2,
+          "discovery_score": 70.0
         }
       ]
     },
@@ -486,7 +636,7 @@
       "confidence_score": 93.8,
       "primary_catalyst": "Porch Group, Inc. (0001784535) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "24 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "25 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 1,
@@ -500,7 +650,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 5,
-        "unique_story_clusters": 24
+        "unique_story_clusters": 25
       },
       "metrics": {
         "primary_evidence": 25,
@@ -587,9 +737,9 @@
       "history": [
         {
           "date": "2026-10-31",
-          "discovery_score": 67.7,
-          "market_attention_score": 45.0,
-          "signal_score": 78.0
+          "discovery_score": 59.7,
+          "market_attention_score": 44.6,
+          "signal_score": 77.5
         },
         {
           "date": "2026-10-31",
@@ -852,161 +1002,15 @@
       ]
     },
     {
-      "ticker": "DV",
-      "company_name": "DoubleVerify Holdings, Inc.",
-      "signal_score": 75.9,
-      "market_attention_score": 36.8,
-      "discovery_score": 70.8,
-      "confidence_score": 79.8,
-      "primary_catalyst": "DoubleVerify Holdings, Inc. (0001819928) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "8 unique credible information items from 2 independent sources. Coverage is 3.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 7,
-      "latest_event_at": "2026-10-30T21:14:26+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 72,
-      "change": {
-        "signal_delta": 24.9,
-        "discovery_delta": 22.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 8
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 13.4,
-        "catalyst_strength": 20,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 3.2,
-        "weighted_coverage_24h": 1.6,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 20.1,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 3.2,
-        "weighted_coverage_24h": 1.6,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "DoubleVerify Holdings, Inc.",
-        "industry": "Media",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2021-04-21",
-        "weburl": "https://www.doubleverify.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950800364516.png",
-        "market_cap": 2117833758.6941783,
-        "pe_ttm": 35.9815,
-        "ps_ttm": 2.7546,
-        "pb_annual": 1.6291,
-        "revenue_growth_ttm_yoy": 7.64,
-        "eps_growth_ttm_yoy": 17.51,
-        "gross_margin_ttm": 82.43,
-        "net_margin_ttm": 7.66,
-        "current_ratio": 4.2721,
-        "debt_equity": 0.0111,
-        "beta": 0.90774006
-      },
-      "profile": {
-        "name": "DoubleVerify Holdings, Inc.",
-        "description": "DV is the leading media effectiveness platform that leverages AI to drive superior outcomes for global brands.",
-        "industry": "Media",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.doubleverify.com",
-        "products_markets": [
-          "AI & accelerated computing"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "AI infrastructure",
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "DV",
-          "company_name": "DoubleVerify Holdings, Inc.",
-          "source": "SEC EDGAR",
-          "title": "DoubleVerify Holdings, Inc. (0001819928) (Filer)",
-          "summary": "Filed: 2026-10-30 AccNo: 0001104659-26-120670 Size: 1 MB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1819928/000110465926120670/0001104659-26-120670-index.htm",
-          "published_at": "2026-10-30T16:10:46-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "6edc151fbe2b",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "DV",
-          "company_name": "DoubleVerify Holdings, Inc.",
-          "source": "Yahoo",
-          "title": "DoubleVerify Stockholders Approve Merger Agreement at Special Meeting",
-          "summary": "DoubleVerify (NYSE:DV) stockholders approved the company’s proposed merger agreement and an advisory proposal covering merger-related executive compensation during a special virtual meeting held Oct. 29, 2026. The company said the merger agreement, dated Aug. 6, 2026, is among DoubleVerify, Neptune",
-          "url": "https://finnhub.io/api/news?id=4b953366e781bff0b06db8fd5962d139729d6bba66869ff5950b4884c8b4c18c",
-          "published_at": "2026-10-30T21:14:26+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "e1d859f5e166",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-20",
-          "discovery_score": 48.0,
-          "market_attention_score": 21.8,
-          "signal_score": 51.0
-        },
-        {
-          "date": "2026-10-31",
-          "discovery_score": 55.9,
-          "market_attention_score": 25.4,
-          "signal_score": 61.5
-        },
-        {
-          "date": "2026-10-31",
-          "signal_score": 75.9,
-          "discovery_score": 70.8
-        }
-      ]
-    },
-    {
       "ticker": "LSCC",
       "company_name": "LATTICE SEMICONDUCTOR CORP",
       "signal_score": 75.5,
-      "market_attention_score": 33.3,
+      "market_attention_score": 34.0,
       "discovery_score": 62.9,
       "confidence_score": 87.8,
       "primary_catalyst": "8-K/A - LATTICE SEMICONDUCTOR CORP (0000855658) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "7 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
       "article_count_24h": 1,
@@ -1020,7 +1024,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 6
+        "unique_story_clusters": 7
       },
       "metrics": {
         "primary_evidence": 25,
@@ -1304,18 +1308,173 @@
       ]
     },
     {
+      "ticker": "ENVA",
+      "company_name": "Enova International, Inc.",
+      "signal_score": 73.5,
+      "market_attention_score": 30.8,
+      "discovery_score": 61.4,
+      "confidence_score": 83.8,
+      "primary_catalyst": "Enova International, Inc. (0001529864) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-30T16:20:14-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 73,
+      "change": {
+        "signal_delta": 11.0,
+        "discovery_delta": 10.9
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 18,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 13.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 4800000.0,
+        "market_cap_ratio": 0.0011,
+        "score": 6,
+        "label": "Limited relative size",
+        "basis": "Kirk Chartier Executes Sell Order: Offloads $4.80M In Enova International Stock",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Enova International, Inc.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-10-30",
+        "weburl": "https://www.enova.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ENVA.png",
+        "market_cap": 4258254697.1526747,
+        "pe_ttm": 12.4581,
+        "ps_ttm": 2.15,
+        "pb_annual": 2.9138,
+        "revenue_growth_ttm_yoy": 22.52,
+        "eps_growth_ttm_yoy": 43.8,
+        "gross_margin_ttm": 100,
+        "net_margin_ttm": 17.26,
+        "current_ratio": 19.6214,
+        "debt_equity": 3.3652,
+        "beta": 1.3990501
+      },
+      "profile": {
+        "name": "Enova International Inc",
+        "description": "Enova International is a leading financial technology company that provides access to fast, trustworthy credit through world-class analytics and technology.",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.enova.com/",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "Financial technology"
+      ],
+      "stories": [
+        {
+          "ticker": "ENVA",
+          "company_name": "Enova International, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Enova International, Inc. (0001529864) (Filer)",
+          "summary": "Filed: 2026-10-30 AccNo: 0001193125-26-441719 Size: 144 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant",
+          "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526441719/0001193125-26-441719-index.htm",
+          "published_at": "2026-10-30T16:20:14-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "4ebe63664c85",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-03",
+          "discovery_score": 68.3,
+          "market_attention_score": 27.5,
+          "signal_score": 52.8
+        },
+        {
+          "date": "2026-09-25",
+          "discovery_score": 78.0,
+          "market_attention_score": 38.6,
+          "signal_score": 84.8
+        },
+        {
+          "date": "2026-09-26",
+          "discovery_score": 74.8,
+          "market_attention_score": 41.3,
+          "signal_score": 81.9
+        },
+        {
+          "date": "2026-10-17",
+          "discovery_score": 50.5,
+          "market_attention_score": 25.9,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-18",
+          "discovery_score": 50.5,
+          "market_attention_score": 25.9,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-10-31",
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-10-31",
+          "signal_score": 73.5,
+          "discovery_score": 61.4
+        }
+      ]
+    },
+    {
       "ticker": "DINO",
       "company_name": "HF Sinclair Corp",
-      "signal_score": 72.5,
-      "market_attention_score": 42.8,
-      "discovery_score": 71.5,
+      "signal_score": 72.0,
+      "market_attention_score": 42.4,
+      "discovery_score": 63.5,
       "confidence_score": 93.8,
       "primary_catalyst": "HF Sinclair Corp (0001915657) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "23 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "24 unique credible information items from 6 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 3,
+      "article_count_24h": 2,
       "latest_event_at": "2026-10-31T00:18:17+00:00",
       "new_to_radar": false,
       "days_on_radar": 72,
@@ -1326,28 +1485,28 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 6,
-        "unique_story_clusters": 23
+        "unique_story_clusters": 24
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 6.0,
+        "coverage_acceleration": 5.5,
         "catalyst_strength": 14,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.2,
-        "weighted_coverage_24h": 1.2,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.5
       },
       "discovery_metrics": {
-        "attention_lift": 24.0,
+        "attention_lift": 16.0,
         "novelty": 20.0,
         "source_breadth": 4.5,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.2,
-        "weighted_coverage_24h": 1.2,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.5
       },
       "baseline": {
@@ -1415,14 +1574,139 @@
       "history": [
         {
           "date": "2026-10-31",
-          "discovery_score": 63.5,
-          "market_attention_score": 42.4,
-          "signal_score": 72.0
+          "discovery_score": 71.5,
+          "market_attention_score": 42.8,
+          "signal_score": 72.5
         },
         {
           "date": "2026-10-31",
-          "signal_score": 72.5,
-          "discovery_score": 71.5
+          "signal_score": 72.0,
+          "discovery_score": 63.5
+        }
+      ]
+    },
+    {
+      "ticker": "ANVS",
+      "company_name": "Annovis Bio, Inc.",
+      "signal_score": 70.0,
+      "market_attention_score": 30.7,
+      "discovery_score": 64.8,
+      "confidence_score": 83.8,
+      "primary_catalyst": "Annovis Bio, Inc. (0001477845) (Filer)",
+      "catalyst_category": "Clinical trial",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-10-30T21:00:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 68,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 17,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 16.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 12.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.1,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Annovis Bio Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2020-01-29",
+        "weburl": "https://www.annovisbio.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ANVS.png",
+        "market_cap": 48227334.25490196,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 5.4417,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 5.799,
+        "debt_equity": 0,
+        "beta": 1.3183451
+      },
+      "profile": {
+        "name": "Annovis Bio Inc",
+        "description": "Annovis Bio is a Phase 3 clinical-stage biotechnology company developing buntanetap, an investigational once-daily oral therapy for Alzheimer's and Parkinson's diseases.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.annovisbio.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      },
+      "themes": [
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "ANVS",
+          "company_name": "Annovis Bio, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Annovis Bio, Inc. (0001477845) (Filer)",
+          "summary": "Filed: 2026-10-30 AccNo: 0001104659-26-120732 Size: 215 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926120732/0001104659-26-120732-index.htm",
+          "published_at": "2026-10-30T17:10:31-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "580c409eaab1",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-31",
+          "discovery_score": 64.5,
+          "market_attention_score": 29.6,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-10-31",
+          "signal_score": 70.0,
+          "discovery_score": 64.8
         }
       ]
     },
@@ -1928,6 +2212,141 @@
           "date": "2026-10-31",
           "signal_score": 68.0,
           "discovery_score": 62.3
+        }
+      ]
+    },
+    {
+      "ticker": "DCH",
+      "company_name": "Dauch Corp",
+      "signal_score": 67.5,
+      "market_attention_score": 29.3,
+      "discovery_score": 55.4,
+      "confidence_score": 83.8,
+      "primary_catalyst": "Dauch Corp (0001062231) (Filer)",
+      "catalyst_category": "Government funding",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-10-30T17:30:18+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 39,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 5.0,
+        "catalyst_strength": 15,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 8.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 11.2,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Dauch Corp",
+        "industry": "Auto Components",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1999-01-29",
+        "weburl": "https://www.aam.com/investors",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AXL.png",
+        "market_cap": 1135750004.284569,
+        "pe_ttm": null,
+        "ps_ttm": 0.1424,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 40.98,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 10.86,
+        "net_margin_ttm": -2.01,
+        "current_ratio": 2.9457,
+        "debt_equity": 6.4489,
+        "beta": 1.7746029
+      },
+      "profile": {
+        "name": "Dauch Corp",
+        "description": "AAM's experienced and credible leadership team is focused on strong execution, financial strength, profitable growth and driving value.",
+        "industry": "Auto Components",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.aam.com/investors",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "DCH",
+          "company_name": "Dauch Corp",
+          "source": "SEC EDGAR",
+          "title": "Dauch Corp (0001062231) (Filer)",
+          "summary": "Filed: 2026-10-30 AccNo: 0001062231-26-000148 Size: 174 KB Item 2.02: Results of Operations and Financial Condition",
+          "url": "https://www.sec.gov/Archives/edgar/data/1062231/000106223126000148/0001062231-26-000148-index.htm",
+          "published_at": "2026-10-30T17:20:38-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "ebf8f51db7ba",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "DCH",
+          "company_name": "Dauch Corp",
+          "source": "Benzinga",
+          "title": "Dauch Expects FY2026 Sales Of $10.8B-$10.88B; Expects Q3 Net Loss Of $42M-$47M",
+          "summary": "In light of requirements applicable to companies with a secondary listing on the London Stock Exchange, Dauch Corporation (\"Dauch\") (NYSE:DCH, LSE: DCH))) is announcing certain preliminary results for the third",
+          "url": "https://finnhub.io/api/news?id=db3afbfc7ab227bdf088befa347c01ac65f571e5cf0189b2a2b8bd415e8a68f4",
+          "published_at": "2026-10-30T17:30:18+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "d0dc4460ea7a",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-31",
+          "discovery_score": 63.0,
+          "market_attention_score": 28.6,
+          "signal_score": 63.0
+        },
+        {
+          "date": "2026-10-31",
+          "signal_score": 67.5,
+          "discovery_score": 55.4
         }
       ]
     },
@@ -2564,252 +2983,6 @@
       ]
     },
     {
-      "ticker": "ANVS",
-      "company_name": "Annovis Bio, Inc.",
-      "signal_score": 65.0,
-      "market_attention_score": 29.6,
-      "discovery_score": 64.5,
-      "confidence_score": 71.8,
-      "primary_catalyst": "Annovis Bio, Inc. (0001477845) (Filer)",
-      "catalyst_category": "Clinical trial",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-30T21:00:00+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 68,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.5,
-        "catalyst_strength": 17,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 16.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 12.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Annovis Bio Inc",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2020-01-29",
-        "weburl": "https://www.annovisbio.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ANVS.png",
-        "market_cap": 48227334.25490196,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": 5.4417,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": 5.799,
-        "debt_equity": 0,
-        "beta": 1.3183451
-      },
-      "profile": {
-        "name": "Annovis Bio Inc",
-        "description": "Annovis Bio is a Phase 3 clinical-stage biotechnology company developing buntanetap, an investigational once-daily oral therapy for Alzheimer's and Parkinson's diseases.",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.annovisbio.com/",
-        "products_markets": [
-          "Biotechnology"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "ANVS",
-          "company_name": "Annovis Bio, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Annovis Bio, Inc. (0001477845) (Filer)",
-          "summary": "Filed: 2026-10-30 AccNo: 0001104659-26-120732 Size: 215 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1477845/000110465926120732/0001104659-26-120732-index.htm",
-          "published_at": "2026-10-30T17:10:31-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "580c409eaab1",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-31",
-          "discovery_score": 64.5,
-          "market_attention_score": 29.6,
-          "signal_score": 65.0
-        },
-        {
-          "date": "2026-10-31",
-          "signal_score": 65.0,
-          "discovery_score": 64.5
-        }
-      ]
-    },
-    {
-      "ticker": "DCH",
-      "company_name": "Dauch Corp",
-      "signal_score": 63.0,
-      "market_attention_score": 28.6,
-      "discovery_score": 63.0,
-      "confidence_score": 71.8,
-      "primary_catalyst": "Dauch Corp (0001062231) (Filer)",
-      "catalyst_category": "Government funding",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-10-30T17:20:38-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 39,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.5,
-        "catalyst_strength": 15,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 16.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 11.2,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Dauch Corp",
-        "industry": "Auto Components",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1999-01-29",
-        "weburl": "https://www.aam.com/investors",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/AXL.png",
-        "market_cap": 1135750004.284569,
-        "pe_ttm": null,
-        "ps_ttm": 0.1424,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": 40.98,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 10.86,
-        "net_margin_ttm": -2.01,
-        "current_ratio": 2.9457,
-        "debt_equity": 6.4489,
-        "beta": 1.7746029
-      },
-      "profile": {
-        "name": "Dauch Corp",
-        "description": "AAM's experienced and credible leadership team is focused on strong execution, financial strength, profitable growth and driving value.",
-        "industry": "Auto Components",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.aam.com/investors",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "DCH",
-          "company_name": "Dauch Corp",
-          "source": "SEC EDGAR",
-          "title": "Dauch Corp (0001062231) (Filer)",
-          "summary": "Filed: 2026-10-30 AccNo: 0001062231-26-000148 Size: 174 KB Item 2.02: Results of Operations and Financial Condition",
-          "url": "https://www.sec.gov/Archives/edgar/data/1062231/000106223126000148/0001062231-26-000148-index.htm",
-          "published_at": "2026-10-30T17:20:38-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "ebf8f51db7ba",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-31",
-          "discovery_score": 54.3,
-          "market_attention_score": 26.9,
-          "signal_score": 61.5
-        },
-        {
-          "date": "2026-10-31",
-          "signal_score": 63.0,
-          "discovery_score": 63.0
-        }
-      ]
-    },
-    {
       "ticker": "RMBI",
       "company_name": "Richmond Mutual Bancorporation, Inc.",
       "signal_score": 62.0,
@@ -3060,9 +3233,9 @@
         },
         {
           "date": "2026-10-31",
-          "discovery_score": 53.2,
-          "market_attention_score": 25.2,
-          "signal_score": 58.0
+          "discovery_score": 61.5,
+          "market_attention_score": 26.8,
+          "signal_score": 61.0
         },
         {
           "date": "2026-10-31",
@@ -3183,9 +3356,9 @@
       "history": [
         {
           "date": "2026-10-31",
-          "discovery_score": 48.0,
-          "market_attention_score": 21.8,
-          "signal_score": 51.0
+          "discovery_score": 60.0,
+          "market_attention_score": 25.8,
+          "signal_score": 59.0
         },
         {
           "date": "2026-10-31",
@@ -3642,22 +3815,22 @@
     {
       "ticker": "SHFSW",
       "company_name": "SHF Holdings, Inc.",
-      "signal_score": 57.6,
-      "market_attention_score": 23.3,
-      "discovery_score": 53.6,
+      "signal_score": 56.5,
+      "market_attention_score": 22.9,
+      "discovery_score": 52.0,
       "confidence_score": 67.8,
       "primary_catalyst": "SHF Holdings, Inc. (0001854963) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Above baseline",
-      "article_count_24h": 2,
+      "article_count_24h": 1,
       "latest_event_at": "2026-10-30T17:24:19-04:00",
       "new_to_radar": false,
       "days_on_radar": 74,
       "change": {
-        "signal_delta": -3.4,
-        "discovery_delta": -3.5
+        "signal_delta": -4.5,
+        "discovery_delta": -5.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3666,24 +3839,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
+        "coverage_acceleration": 8.0,
         "catalyst_strength": 6,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
+        "attention_lift": 12.0,
         "novelty": 19.7,
         "source_breadth": 3.3,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3733,163 +3906,8 @@
         },
         {
           "date": "2026-10-31",
-          "signal_score": 57.6,
-          "discovery_score": 53.6
-        }
-      ]
-    },
-    {
-      "ticker": "ENVA",
-      "company_name": "Enova International, Inc.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 52.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Enova International, Inc. (0001529864) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-10-30T16:20:14-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 73,
-      "change": {
-        "signal_delta": -6.0,
-        "discovery_delta": 1.6
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Enova International Inc",
-        "industry": "Financial Services",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2014-10-30",
-        "weburl": "https://www.enova.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ENVA.png",
-        "market_cap": 4401534054.295139,
-        "pe_ttm": 12.612,
-        "ps_ttm": 2.1766,
-        "pb_annual": 2.9138,
-        "revenue_growth_ttm_yoy": 22.52,
-        "eps_growth_ttm_yoy": 43.8,
-        "gross_margin_ttm": 100,
-        "net_margin_ttm": 17.26,
-        "current_ratio": 19.6214,
-        "debt_equity": 3.3652,
-        "beta": 1.4006969
-      },
-      "profile": {
-        "name": "Enova International Inc",
-        "description": "Enova International is a leading financial technology company that provides access to fast, trustworthy credit through world-class analytics and technology.",
-        "industry": "Financial Services",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.enova.com/",
-        "products_markets": [
-          "Financial services"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Financial technology"
-      ],
-      "stories": [
-        {
-          "ticker": "ENVA",
-          "company_name": "Enova International, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Enova International, Inc. (0001529864) (Filer)",
-          "summary": "Filed: 2026-10-30 AccNo: 0001193125-26-441719 Size: 144 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant",
-          "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526441719/0001193125-26-441719-index.htm",
-          "published_at": "2026-10-30T16:20:14-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "4ebe63664c85",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-03",
-          "discovery_score": 68.3,
-          "market_attention_score": 27.5,
-          "signal_score": 52.8
-        },
-        {
-          "date": "2026-09-25",
-          "discovery_score": 78.0,
-          "market_attention_score": 38.6,
-          "signal_score": 84.8
-        },
-        {
-          "date": "2026-09-26",
-          "discovery_score": 74.8,
-          "market_attention_score": 41.3,
-          "signal_score": 81.9
-        },
-        {
-          "date": "2026-10-17",
-          "discovery_score": 50.5,
-          "market_attention_score": 25.9,
-          "signal_score": 62.5
-        },
-        {
-          "date": "2026-10-18",
-          "discovery_score": 50.5,
-          "market_attention_score": 25.9,
-          "signal_score": 62.5
-        },
-        {
-          "date": "2026-10-31",
-          "discovery_score": 52.1,
-          "market_attention_score": 22.9,
-          "signal_score": 56.5
-        },
-        {
-          "date": "2026-10-31",
           "signal_score": 56.5,
-          "discovery_score": 52.1
+          "discovery_score": 52.0
         }
       ]
     },
