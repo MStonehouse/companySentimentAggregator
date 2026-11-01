@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T07:41:30.603574+00:00",
+    "generated_at": "2026-11-01T18:27:35.484903+00:00",
     "companies_scanned": 81,
     "sources_enabled": {
       "sec_edgar": true,
@@ -17,14 +17,14 @@
   },
   "rankings": {
     "market_leaders": [
-      "IR",
       "PRCH",
+      "IR",
       "DINO",
       "TE",
       "OPNW",
       "ANVS",
-      "PARAW",
       "CRTD",
+      "PARAW",
       "DCH",
       "COPL-WT",
       "ZDPY",
@@ -481,15 +481,15 @@
       "ticker": "IR",
       "company_name": "Ingersoll Rand Inc.",
       "signal_score": 70.5,
-      "market_attention_score": 39.6,
+      "market_attention_score": 39.2,
       "discovery_score": 49.7,
       "confidence_score": 93.8,
       "primary_catalyst": "Ingersoll Rand Inc. (0001699150) (Filer)",
       "catalyst_category": "Major contract",
-      "why_it_matters": "19 unique credible information items from 6 independent sources. Coverage is 0.2× the stored baseline.",
+      "why_it_matters": "19 unique credible information items from 6 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
+      "article_count_24h": 0,
       "latest_event_at": "2026-10-31T15:15:06+00:00",
       "new_to_radar": false,
       "days_on_radar": 75,
@@ -509,8 +509,8 @@
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.5
       },
       "discovery_metrics": {
@@ -520,8 +520,8 @@
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.5
       },
       "baseline": {
@@ -596,7 +596,7 @@
         {
           "date": "2026-11-01",
           "discovery_score": 49.7,
-          "market_attention_score": 40.5,
+          "market_attention_score": 39.6,
           "signal_score": 70.5
         },
         {
@@ -1457,7 +1457,7 @@
         {
           "date": "2026-11-01",
           "discovery_score": 46.3,
-          "market_attention_score": 28.9,
+          "market_attention_score": 28.6,
           "signal_score": 61.5
         },
         {
@@ -1471,15 +1471,15 @@
       "ticker": "PARAW",
       "company_name": "Banzai International, Inc.",
       "signal_score": 60.5,
-      "market_attention_score": 26.1,
+      "market_attention_score": 25.6,
       "discovery_score": 49.0,
       "confidence_score": 71.8,
       "primary_catalyst": "Parabolic Technologies, Inc. (0001826011) (Filer)",
       "catalyst_category": "Financial distress",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 0.2× the stored baseline.",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
+      "article_count_24h": 0,
       "latest_event_at": "2026-10-31T13:31:15+00:00",
       "new_to_radar": false,
       "days_on_radar": 52,
@@ -1499,8 +1499,8 @@
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
@@ -1510,8 +1510,8 @@
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -1587,7 +1587,7 @@
         {
           "date": "2026-11-01",
           "discovery_score": 49.0,
-          "market_attention_score": 24.9,
+          "market_attention_score": 26.1,
           "signal_score": 60.5
         },
         {

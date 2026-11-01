@@ -28553,7 +28553,7 @@
       "HRMY": 0,
       "HWBK": 0,
       "HWKE": 0,
-      "IR": 1,
+      "IR": 0,
       "JAGU": 0,
       "KFIIU": 0,
       "KLNG": 0,
@@ -28567,7 +28567,7 @@
       "OMER": 0,
       "OPNW": 0,
       "PAL": 0,
-      "PARAW": 1,
+      "PARAW": 0,
       "PBF": 0,
       "PBFS": 0,
       "PDEX": 0,
@@ -38299,14 +38299,14 @@
         "AEI"
       ],
       "market_leaders": [
-        "IR",
         "PRCH",
+        "IR",
         "DINO",
         "TE",
         "OPNW",
         "ANVS",
-        "PARAW",
         "CRTD",
+        "PARAW",
         "DCH",
         "COPL-WT",
         "ZDPY",
@@ -52206,7 +52206,7 @@
       },
       "IR": {
         "discovery_score": 49.7,
-        "market_attention_score": 39.6,
+        "market_attention_score": 39.2,
         "signal_score": 70.5
       },
       "KFIIU": {
@@ -52226,7 +52226,7 @@
       },
       "PARAW": {
         "discovery_score": 49.0,
-        "market_attention_score": 26.1,
+        "market_attention_score": 25.6,
         "signal_score": 60.5
       },
       "PODC": {
