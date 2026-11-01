@@ -10305,26 +10305,26 @@
       }
     },
     "TE": {
-      "cached_at": "2026-08-28T23:05:42.008290+00:00",
+      "cached_at": "2026-11-01T00:13:23.324799+00:00",
       "data": {
-        "name": "T1 Energy Inc",
-        "industry": "Electrical Equipment",
+        "name": "T1 Energy Inc.",
+        "industry": "Semiconductors",
         "country": "US",
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "ipo_date": "2020-01-10",
         "weburl": "https://t1energy.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950867693306.png",
-        "market_cap": 1485889075.0665324,
+        "market_cap": 808646921.4335665,
         "pe_ttm": null,
-        "ps_ttm": 1.521,
+        "ps_ttm": 0.8112,
         "pb_annual": 5.0822,
         "revenue_growth_ttm_yoy": null,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 7.6,
-        "net_margin_ttm": -42.3,
+        "gross_margin_ttm": 5.9,
+        "net_margin_ttm": -38.49,
         "current_ratio": 1.4312,
         "debt_equity": 1.2121,
-        "beta": 2.3950553
+        "beta": 2.521642
       }
     },
     "ORLY": {
@@ -38753,6 +38753,29 @@
         "current_ratio": 2.9457,
         "debt_equity": 6.4489,
         "beta": 1.7746029
+      }
+    },
+    "CRTD": {
+      "cached_at": "2026-11-01T00:13:23.324799+00:00",
+      "data": {
+        "name": "Creatd Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "OTC MARKETS",
+        "ipo_date": "2005-12-19",
+        "weburl": "https://creatd.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959025126.png",
+        "market_cap": 37242938.0348653,
+        "pe_ttm": null,
+        "ps_ttm": 12.7435,
+        "pb_annual": 18.8475,
+        "revenue_growth_ttm_yoy": -45.91,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -7.72,
+        "net_margin_ttm": -1086.13,
+        "current_ratio": 0.0973,
+        "debt_equity": 0.8312,
+        "beta": 6.5928173
       }
     }
   }
