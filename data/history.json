@@ -28541,7 +28541,7 @@
       "CRTD": 0,
       "CYN": 0,
       "DCH": 0,
-      "DINO": 1,
+      "DINO": 0,
       "DLR-PJ": 0,
       "DV": 0,
       "EDBLW": 0,
@@ -28553,7 +28553,7 @@
       "HRMY": 0,
       "HWBK": 0,
       "HWKE": 0,
-      "IR": 3,
+      "IR": 1,
       "JAGU": 0,
       "KFIIU": 0,
       "KLNG": 0,
@@ -28567,7 +28567,7 @@
       "OMER": 0,
       "OPNW": 0,
       "PAL": 0,
-      "PARAW": 0,
+      "PARAW": 1,
       "PBF": 0,
       "PBFS": 0,
       "PDEX": 0,
@@ -38305,9 +38305,9 @@
         "TE",
         "OPNW",
         "ANVS",
+        "PARAW",
         "CRTD",
         "DCH",
-        "PARAW",
         "COPL-WT",
         "ZDPY",
         "BTAIQ",
@@ -52191,7 +52191,7 @@
       },
       "DINO": {
         "discovery_score": 46.3,
-        "market_attention_score": 28.9,
+        "market_attention_score": 28.6,
         "signal_score": 61.5
       },
       "DLR-PJ": {
@@ -52206,7 +52206,7 @@
       },
       "IR": {
         "discovery_score": 49.7,
-        "market_attention_score": 40.5,
+        "market_attention_score": 39.6,
         "signal_score": 70.5
       },
       "KFIIU": {
@@ -52226,7 +52226,7 @@
       },
       "PARAW": {
         "discovery_score": 49.0,
-        "market_attention_score": 24.9,
+        "market_attention_score": 26.1,
         "signal_score": 60.5
       },
       "PODC": {
