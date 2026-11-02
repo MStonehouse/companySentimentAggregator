@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T18:27:35.484903+00:00",
+    "generated_at": "2026-11-02T00:54:34.936382+00:00",
     "companies_scanned": 81,
     "sources_enabled": {
       "sec_edgar": true,
@@ -17,36 +17,36 @@
   },
   "rankings": {
     "market_leaders": [
-      "PRCH",
       "IR",
-      "DINO",
+      "PRCH",
       "TE",
-      "OPNW",
-      "ANVS",
       "CRTD",
-      "PARAW",
-      "DCH",
+      "ANVS",
       "COPL-WT",
       "ZDPY",
       "BTAIQ",
       "KFIIU",
       "SVAQW",
       "EDBLW",
-      "BAERW",
+      "DCH",
       "RMBI",
       "ACH",
+      "PARAW",
       "QVCG",
       "CYN",
       "AEI",
+      "BAERW",
       "ACTU",
+      "DINO",
       "SMBK",
       "SHFSW",
-      "PODC",
       "LVO",
+      "UTZ",
       "DLR-PJ",
       "VISM",
       "BSTT",
-      "WAL-PA"
+      "WAL-PA",
+      "OPNW"
     ],
     "emerging_signals": [
       "PRCH",
@@ -57,94 +57,52 @@
       "SVAQW",
       "EDBLW",
       "KFIIU",
-      "IR",
       "TE",
-      "PARAW",
-      "OPNW",
+      "IR",
       "ANVS",
       "DCH",
-      "BAERW",
-      "DINO",
       "RMBI",
       "ACH",
+      "PARAW",
       "CYN",
       "AEI",
       "ACTU",
+      "BAERW",
       "QVCG",
       "SMBK",
-      "PODC",
+      "DINO",
       "LVO",
+      "UTZ",
       "PSA-PL",
       "DLR-PJ",
       "VISM",
       "SHFSW",
-      "BSTT"
+      "BSTT",
+      "WAL-PA"
     ]
   },
   "briefing": {
     "new_emerging": [
-      "CRTD",
-      "BTAIQ",
-      "TE",
-      "DCH",
-      "CYN",
-      "AEI"
+      "ACTU",
+      "QVCG"
     ],
     "accelerating": [],
-    "cooling": [
-      {
-        "ticker": "IR",
-        "delta": -37.3
-      },
-      {
-        "ticker": "PODC",
-        "delta": -19.3
-      },
-      {
-        "ticker": "DINO",
-        "delta": -17.2
-      },
-      {
-        "ticker": "ANVS",
-        "delta": -16.3
-      },
-      {
-        "ticker": "RMBI",
-        "delta": -16.3
-      },
-      {
-        "ticker": "ACH",
-        "delta": -16.3
-      },
-      {
-        "ticker": "QVCG",
-        "delta": -16.3
-      },
-      {
-        "ticker": "KFIIU",
-        "delta": -12.2
-      }
-    ],
+    "cooling": [],
     "major_catalysts": [
-      {
-        "ticker": "PRCH",
-        "category": "M&A",
-        "headline": "Porch Group, Inc. (0001784535) (Filer)"
-      },
       {
         "ticker": "IR",
         "category": "Major contract",
         "headline": "Ingersoll Rand Inc. (0001699150) (Filer)"
       },
       {
+        "ticker": "PRCH",
+        "category": "M&A",
+        "headline": "Porch Group, Inc. (0001784535) (Filer)"
+      },
+      {
         "ticker": "TE",
         "category": "Major contract",
         "headline": "T1 Energy Inc. (0001992243) (Filer)"
-      },
-      {
-        "ticker": "OPNW",
-        "category": "Major contract",
-        "headline": "OpenWorld, Inc. (0001104038) (Filer)"
       },
       {
         "ticker": "ANVS",
@@ -157,30 +115,31 @@
         "headline": "Dauch Corp (0001062231) (Filer)"
       },
       {
-        "ticker": "PARAW",
-        "category": "Financial distress",
-        "headline": "Parabolic Technologies, Inc. (0001826011) (Filer)"
+        "ticker": "CRTD",
+        "category": "M&A",
+        "headline": "Creatd, Inc. (0001357671) (Filer)"
       },
       {
-        "ticker": "BAERW",
-        "category": "Government funding",
-        "headline": "Bridger Aerospace Group Holdings, Inc. (0001941536) (Filer)"
+        "ticker": "COPL-WT",
+        "category": "M&A",
+        "headline": "Copley Acquisition Corp (0002045473) (Filer)"
+      },
+      {
+        "ticker": "ZDPY",
+        "category": "M&A",
+        "headline": "Zoned Properties, Inc. (0001279620) (Filer)"
       }
     ],
     "left_emerging_top20": [
-      "DV",
-      "ENVA",
-      "LSCC",
-      "PODC",
-      "QVCG",
-      "RAPP"
+      "DINO",
+      "OPNW"
     ]
   },
   "sectors": [
     {
       "sector": "Insurance",
       "company_count": 1,
-      "discovery_intensity": 51.5,
+      "discovery_intensity": 51.1,
       "signal_intensity": 72.5,
       "tickers": [
         "PRCH"
@@ -205,15 +164,6 @@
       ]
     },
     {
-      "sector": "Machinery",
-      "company_count": 1,
-      "discovery_intensity": 49.7,
-      "signal_intensity": 70.5,
-      "tickers": [
-        "IR"
-      ]
-    },
-    {
       "sector": "Semiconductors",
       "company_count": 1,
       "discovery_intensity": 49.4,
@@ -223,12 +173,12 @@
       ]
     },
     {
-      "sector": "Logistics & Transportation",
+      "sector": "Machinery",
       "company_count": 1,
-      "discovery_intensity": 48.8,
-      "signal_intensity": 65.5,
+      "discovery_intensity": 49.1,
+      "signal_intensity": 70.5,
       "tickers": [
-        "OPNW"
+        "IR"
       ]
     },
     {
@@ -252,12 +202,13 @@
       ]
     },
     {
-      "sector": "Energy",
-      "company_count": 1,
-      "discovery_intensity": 46.3,
-      "signal_intensity": 61.5,
+      "sector": "Media",
+      "company_count": 2,
+      "discovery_intensity": 45.4,
+      "signal_intensity": 55.5,
       "tickers": [
-        "DINO"
+        "CRTD",
+        "LVO"
       ]
     },
     {
@@ -270,20 +221,6 @@
       ]
     },
     {
-      "sector": "Unclassified",
-      "company_count": 13,
-      "discovery_intensity": 44.3,
-      "signal_intensity": 52.5,
-      "tickers": [
-        "COPL-WT",
-        "SVAQW",
-        "EDBLW",
-        "PARAW",
-        "BAERW",
-        "CYN"
-      ]
-    },
-    {
       "sector": "Banking",
       "company_count": 2,
       "discovery_intensity": 44.2,
@@ -291,6 +228,29 @@
       "tickers": [
         "RMBI",
         "SMBK"
+      ]
+    },
+    {
+      "sector": "Retail",
+      "company_count": 1,
+      "discovery_intensity": 43.7,
+      "signal_intensity": 53.5,
+      "tickers": [
+        "QVCG"
+      ]
+    },
+    {
+      "sector": "Unclassified",
+      "company_count": 14,
+      "discovery_intensity": 43.6,
+      "signal_intensity": 51.5,
+      "tickers": [
+        "COPL-WT",
+        "SVAQW",
+        "EDBLW",
+        "PARAW",
+        "CYN",
+        "AEI"
       ]
     }
   ],
@@ -303,15 +263,6 @@
         "BTAIQ",
         "ANVS",
         "ACTU"
-      ]
-    },
-    {
-      "theme": "AI infrastructure",
-      "company_count": 2,
-      "intensity": 49.4,
-      "tickers": [
-        "IR",
-        "PARAW"
       ]
     },
     {
@@ -332,17 +283,17 @@
       ]
     },
     {
-      "theme": "Robotics & automation",
+      "theme": "AI infrastructure",
       "company_count": 1,
-      "intensity": 49.0,
+      "intensity": 49.1,
       "tickers": [
-        "PARAW"
+        "IR"
       ]
     },
     {
       "theme": "Defense & aerospace",
       "company_count": 1,
-      "intensity": 46.7,
+      "intensity": 44.9,
       "tickers": [
         "BAERW"
       ]
@@ -354,26 +305,26 @@
       "ticker": "PRCH",
       "company_name": "Porch Group, Inc.",
       "signal_score": 72.5,
-      "market_attention_score": 39.5,
-      "discovery_score": 51.5,
-      "confidence_score": 93.8,
+      "market_attention_score": 28.2,
+      "discovery_score": 51.1,
+      "confidence_score": 89.8,
       "primary_catalyst": "Porch Group, Inc. (0001784535) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "18 unique credible information items from 5 independent sources. Coverage is 0.2× the stored baseline.",
+      "why_it_matters": "4 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
+      "article_count_24h": 0,
       "latest_event_at": "2026-10-31T19:11:18+00:00",
       "new_to_radar": false,
-      "days_on_radar": 73,
+      "days_on_radar": 74,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": -0.4
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 5,
-        "unique_story_clusters": 18
+        "independent_sources": 4,
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
@@ -382,23 +333,23 @@
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
-        "weighted_source_breadth": 1.4
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 4.2,
+        "novelty": 19.7,
+        "source_breadth": 3.9,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
-        "weighted_source_breadth": 1.4
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.3
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 0.13,
         "days_available": 30,
         "maturity": "established"
       },
@@ -471,9 +422,9 @@
           "signal_score": 72.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 72.5,
-          "discovery_score": 51.5
+          "discovery_score": 51.1
         }
       ]
     },
@@ -481,26 +432,26 @@
       "ticker": "IR",
       "company_name": "Ingersoll Rand Inc.",
       "signal_score": 70.5,
-      "market_attention_score": 39.2,
-      "discovery_score": 49.7,
+      "market_attention_score": 32.5,
+      "discovery_score": 49.1,
       "confidence_score": 93.8,
       "primary_catalyst": "Ingersoll Rand Inc. (0001699150) (Filer)",
       "catalyst_category": "Major contract",
-      "why_it_matters": "19 unique credible information items from 6 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "11 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-31T15:15:06+00:00",
       "new_to_radar": false,
-      "days_on_radar": 75,
+      "days_on_radar": 76,
       "change": {
-        "signal_delta": -9.0,
-        "discovery_delta": -37.3
+        "signal_delta": 0.0,
+        "discovery_delta": -0.6
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 6,
-        "unique_story_clusters": 19
+        "independent_sources": 4,
+        "unique_story_clusters": 11
       },
       "metrics": {
         "primary_evidence": 25,
@@ -511,18 +462,18 @@
         "sentiment_signal": 5.0,
         "coverage_ratio_vs_baseline": 0.0,
         "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.5
+        "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
         "novelty": 19.2,
-        "source_breadth": 4.5,
+        "source_breadth": 3.9,
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
         "coverage_ratio_vs_baseline": 0.0,
         "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.5
+        "weighted_source_breadth": 1.3
       },
       "baseline": {
         "avg_items_24h": 0.33,
@@ -596,198 +547,13 @@
         {
           "date": "2026-11-01",
           "discovery_score": 49.7,
-          "market_attention_score": 39.6,
+          "market_attention_score": 39.2,
           "signal_score": 70.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 70.5,
-          "discovery_score": 49.7
-        }
-      ]
-    },
-    {
-      "ticker": "OPNW",
-      "company_name": "OpenWorld, Inc.",
-      "signal_score": 65.5,
-      "market_attention_score": 26.8,
-      "discovery_score": 48.8,
-      "confidence_score": 83.8,
-      "primary_catalyst": "OpenWorld, Inc. (0001104038) (Filer)",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-30T17:16:40-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 30,
-      "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -11.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 4
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 18,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.2,
-        "source_breadth": 3.6,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.33,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": 3500000.0,
-        "market_cap_ratio": 0.1764,
-        "score": 14,
-        "label": "Material",
-        "basis": "OpenWorld Announces Pricing of $3.5 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "OpenWorld, Inc.",
-        "industry": "Logistics & Transportation",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2001-06-29",
-        "weburl": "https://www.verifyme.com/#intro",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942958994166.png",
-        "market_cap": 19842892.8,
-        "pe_ttm": null,
-        "ps_ttm": 1.7872,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": -49.69,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 47.02,
-        "net_margin_ttm": -47.08,
-        "current_ratio": 3.8158,
-        "debt_equity": 0.0682,
-        "beta": 2.1852057
-      },
-      "profile": {
-        "name": "OPNW",
-        "description": "OPNW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "OPNW",
-          "company_name": "OpenWorld, Inc.",
-          "source": "SEC EDGAR",
-          "title": "OpenWorld, Inc. (0001104038) (Filer)",
-          "summary": "Filed: 2026-10-30 AccNo: 0001214659-26-013557 Size: 254 KB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013557/0001214659-26-013557-index.htm",
-          "published_at": "2026-10-30T17:16:40-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "107611c38682",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "OPNW",
-          "company_name": "OpenWorld, Inc.",
-          "source": "Yahoo",
-          "title": "OpenWorld Announces Pricing of $3.5 Million Registered Direct Offering Priced At-The-Market Under Nasdaq Rules",
-          "summary": "LAKE MARY, Fla., Oct. 29, 2026 (GLOBE NEWSWIRE) -- OpenWorld, Inc. (NASDAQ: OPNW) (\"OpenWorld\" or the \"Company\"), an innovation company advancing global real-world asset (“RWA”) tokenization, today announced that it has entered into a securities purchase agreement with a single institutional investor for the purchase and sale of 2,517,985 shares of common stock (or pre-funded warrants in-lieu thereof), together with…",
-          "url": "https://finnhub.io/api/news?id=9d98b2087fade8b2a8a3ff89bb4640f87468e0e82a652e31c13dd80add091597",
-          "published_at": "2026-10-29T12:34:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "cbd1fd911c10",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        },
-        {
-          "ticker": "OPNW",
-          "company_name": "OpenWorld, Inc.",
-          "source": "Benzinga",
-          "title": "OpenWorld Announces $3.5M Registered Direct Offering Of 2,517,985 Shares Of Common Stock At $1.39/Share, With Additional Series A And B Warrants",
-          "summary": "OpenWorld, Inc. (NASDAQ:OPNW) (\"OpenWorld\" or the \"Company\"), an innovation company advancing global real-world asset (\"RWA\") tokenization, today announced that it has entered into a securities",
-          "url": "https://finnhub.io/api/news?id=3b94e94e49ea9cdcc3813c97f1b2233f31ea4fa5bf7a0a6e8fd3b9514ef40284",
-          "published_at": "2026-10-29T08:36:16+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "72964ed3fa56",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-16",
-          "discovery_score": 57.4,
-          "market_attention_score": 26.6,
-          "signal_score": 62.6
-        },
-        {
-          "date": "2026-10-17",
-          "discovery_score": 43.4,
-          "market_attention_score": 22.1,
-          "signal_score": 53.5
-        },
-        {
-          "date": "2026-10-18",
-          "discovery_score": 43.4,
-          "market_attention_score": 22.1,
-          "signal_score": 53.5
-        },
-        {
-          "date": "2026-10-19",
-          "discovery_score": 55.0,
-          "market_attention_score": 25.2,
-          "signal_score": 58.6
-        },
-        {
-          "date": "2026-10-30",
-          "discovery_score": 60.8,
-          "market_attention_score": 30.8,
-          "signal_score": 73.5
-        },
-        {
-          "date": "2026-10-31",
-          "discovery_score": 60.6,
-          "market_attention_score": 30.8,
-          "signal_score": 73.5
-        },
-        {
-          "date": "2026-11-01",
-          "discovery_score": 48.8,
-          "market_attention_score": 26.8,
-          "signal_score": 65.5
-        },
-        {
-          "date": "2026-11-01",
-          "signal_score": 65.5,
-          "discovery_score": 48.8
+          "discovery_score": 49.1
         }
       ]
     },
@@ -795,26 +561,26 @@
       "ticker": "TE",
       "company_name": "T1 Energy Inc.",
       "signal_score": 65.5,
-      "market_attention_score": 28.3,
+      "market_attention_score": 26.8,
       "discovery_score": 49.4,
-      "confidence_score": 87.8,
+      "confidence_score": 83.8,
       "primary_catalyst": "T1 Energy Inc. (0001992243) (Filer)",
       "catalyst_category": "Major contract",
-      "why_it_matters": "6 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T16:55:04-04:00",
       "new_to_radar": false,
-      "days_on_radar": 74,
+      "days_on_radar": 75,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 6
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
@@ -925,7 +691,7 @@
           "signal_score": 65.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 65.5,
           "discovery_score": 49.4
         }
@@ -935,26 +701,26 @@
       "ticker": "ANVS",
       "company_name": "Annovis Bio, Inc.",
       "signal_score": 64.5,
-      "market_attention_score": 26.3,
+      "market_attention_score": 25.6,
       "discovery_score": 48.5,
-      "confidence_score": 83.8,
+      "confidence_score": 79.8,
       "primary_catalyst": "Annovis Bio, Inc. (0001477845) (Filer)",
       "catalyst_category": "Clinical trial",
-      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T21:00:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 69,
+      "days_on_radar": 70,
       "change": {
-        "signal_delta": -5.5,
-        "discovery_delta": -16.3
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 4
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
@@ -1056,7 +822,7 @@
           "signal_score": 64.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 64.5,
           "discovery_score": 48.5
         }
@@ -1066,26 +832,26 @@
       "ticker": "DCH",
       "company_name": "Dauch Corp",
       "signal_score": 62.5,
-      "market_attention_score": 25.3,
+      "market_attention_score": 24.6,
       "discovery_score": 47.2,
-      "confidence_score": 83.8,
+      "confidence_score": 79.8,
       "primary_catalyst": "Dauch Corp (0001062231) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:30:18+00:00",
       "new_to_radar": false,
-      "days_on_radar": 40,
+      "days_on_radar": 41,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 4
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
@@ -1197,7 +963,7 @@
           "signal_score": 62.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 62.5,
           "discovery_score": 47.2
         }
@@ -1218,10 +984,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T20:44:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 34,
+      "days_on_radar": 35,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1332,268 +1098,9 @@
           "signal_score": 62.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 62.5,
           "discovery_score": 50.6
-        }
-      ]
-    },
-    {
-      "ticker": "DINO",
-      "company_name": "HF Sinclair Corp",
-      "signal_score": 61.5,
-      "market_attention_score": 28.6,
-      "discovery_score": 46.3,
-      "confidence_score": 87.8,
-      "primary_catalyst": "HF Sinclair Corp (0001915657) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "9 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-31T00:18:17+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 73,
-      "change": {
-        "signal_delta": -10.5,
-        "discovery_delta": -17.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 9
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.7,
-        "source_breadth": 3.6,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "HF Sinclair Corporation",
-        "industry": "Energy",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1980-03-17",
-        "weburl": "https://www.hfsinclair.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950824478356.png",
-        "market_cap": 19707682692.465813,
-        "pe_ttm": 10.2912,
-        "ps_ttm": 0.8219,
-        "pb_annual": 0.9229,
-        "revenue_growth_ttm_yoy": -10.74,
-        "eps_growth_ttm_yoy": -40.03,
-        "gross_margin_ttm": 21,
-        "net_margin_ttm": 6.31,
-        "current_ratio": 1.9364,
-        "debt_equity": 0.3112,
-        "beta": 0.7397512
-      },
-      "profile": {
-        "name": "HF Sinclair Corporation",
-        "description": "An independent petroleum refiner in the United States with operations throughout the mid-continent, southwestern and Rocky Mountain regions. Subsidiaries of HollyFrontier produce and market gasoline, diesel, jet fuel, asphalt, heavy products and specialty lubricant products. Additionally, HollyFrontier owns Petro-Canada Lubricants Inc. whose Mississauga, Ontario facility produces 15,600 barrels per day of base oils and other specialized lubricant products.",
-        "industry": "Energy",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.hfsinclair.com/",
-        "products_markets": [
-          "Energy"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "DINO",
-          "company_name": "HF Sinclair Corp",
-          "source": "SEC EDGAR",
-          "title": "HF Sinclair Corp (0001915657) (Filer)",
-          "summary": "Filed: 2026-10-30 AccNo: 0001628280-26-068615 Size: 266 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1915657/000162828026068615/0001628280-26-068615-index.htm",
-          "published_at": "2026-10-30T17:03:41-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "fa1310bf3e1b",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-31",
-          "discovery_score": 63.5,
-          "market_attention_score": 42.4,
-          "signal_score": 72.0
-        },
-        {
-          "date": "2026-11-01",
-          "discovery_score": 46.3,
-          "market_attention_score": 28.6,
-          "signal_score": 61.5
-        },
-        {
-          "date": "2026-11-01",
-          "signal_score": 61.5,
-          "discovery_score": 46.3
-        }
-      ]
-    },
-    {
-      "ticker": "PARAW",
-      "company_name": "Banzai International, Inc.",
-      "signal_score": 60.5,
-      "market_attention_score": 25.6,
-      "discovery_score": 49.0,
-      "confidence_score": 71.8,
-      "primary_catalyst": "Parabolic Technologies, Inc. (0001826011) (Filer)",
-      "catalyst_category": "Financial distress",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-31T13:31:15+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 52,
-      "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.1
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 18,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.7,
-        "source_breadth": 3.3,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "ipo_date": "",
-        "weburl": "",
-        "logo": "",
-        "market_cap": null,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": null
-      },
-      "profile": {
-        "name": "PARAW",
-        "description": "PARAW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "AI infrastructure",
-        "Robotics & automation"
-      ],
-      "stories": [
-        {
-          "ticker": "PARAW",
-          "company_name": "Banzai International, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Parabolic Technologies, Inc. (0001826011) (Filer)",
-          "summary": "Filed: 2026-10-30 AccNo: 0001437749-26-034210 Size: 238 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1826011/000143774926034210/0001437749-26-034210-index.htm",
-          "published_at": "2026-10-30T16:07:09-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "854f2b0826d3",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-31",
-          "discovery_score": 61.1,
-          "market_attention_score": 28.9,
-          "signal_score": 68.5
-        },
-        {
-          "date": "2026-11-01",
-          "discovery_score": 49.0,
-          "market_attention_score": 26.1,
-          "signal_score": 60.5
-        },
-        {
-          "date": "2026-11-01",
-          "signal_score": 60.5,
-          "discovery_score": 49.0
         }
       ]
     },
@@ -1612,10 +1119,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:21:03-04:00",
       "new_to_radar": false,
-      "days_on_radar": 23,
+      "days_on_radar": 24,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1736,7 +1243,7 @@
           "signal_score": 60.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -1757,10 +1264,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:19:39-04:00",
       "new_to_radar": false,
-      "days_on_radar": 76,
+      "days_on_radar": 77,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1863,7 +1370,7 @@
           "signal_score": 60.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -1883,11 +1390,11 @@
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:15:18-04:00",
-      "new_to_radar": true,
-      "days_on_radar": 2,
+      "new_to_radar": false,
+      "days_on_radar": 3,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1995,7 +1502,7 @@
           "signal_score": 60.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -2016,10 +1523,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:11:36-04:00",
       "new_to_radar": false,
-      "days_on_radar": 73,
+      "days_on_radar": 74,
       "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2134,7 +1641,7 @@
           "signal_score": 60.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 60.0,
           "discovery_score": 50.0
         }
@@ -2155,10 +1662,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T16:10:27-04:00",
       "new_to_radar": false,
-      "days_on_radar": 75,
+      "days_on_radar": 76,
       "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2267,7 +1774,7 @@
           "signal_score": 60.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 60.0,
           "discovery_score": 50.2
         }
@@ -2288,10 +1795,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T16:09:55-04:00",
       "new_to_radar": false,
-      "days_on_radar": 70,
+      "days_on_radar": 71,
       "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2394,138 +1901,9 @@
           "signal_score": 60.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 60.0,
           "discovery_score": 50.2
-        }
-      ]
-    },
-    {
-      "ticker": "BAERW",
-      "company_name": "Bridger Aerospace Group Holdings, Inc.",
-      "signal_score": 57.5,
-      "market_attention_score": 24.1,
-      "discovery_score": 46.7,
-      "confidence_score": 71.8,
-      "primary_catalyst": "Bridger Aerospace Group Holdings, Inc. (0001941536) (Filer)",
-      "catalyst_category": "Government funding",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-30T16:11:57-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 41,
-      "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 15,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.7,
-        "source_breadth": 3.3,
-        "catalyst_strength": 11.2,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "ipo_date": "",
-        "weburl": "",
-        "logo": "",
-        "market_cap": null,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": -0.5173434
-      },
-      "profile": {
-        "name": "BAERW",
-        "description": "BAERW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "Defense & aerospace"
-      ],
-      "stories": [
-        {
-          "ticker": "BAERW",
-          "company_name": "Bridger Aerospace Group Holdings, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Bridger Aerospace Group Holdings, Inc. (0001941536) (Filer)",
-          "summary": "Filed: 2026-10-30 AccNo: 0001941536-26-000034 Size: 180 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1941536/000194153626000034/0001941536-26-000034-index.htm",
-          "published_at": "2026-10-30T16:11:57-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "869663a3e02b",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-31",
-          "discovery_score": 58.9,
-          "market_attention_score": 28.1,
-          "signal_score": 65.5
-        },
-        {
-          "date": "2026-11-01",
-          "discovery_score": 46.7,
-          "market_attention_score": 24.1,
-          "signal_score": 57.5
-        },
-        {
-          "date": "2026-11-01",
-          "signal_score": 57.5,
-          "discovery_score": 46.7
         }
       ]
     },
@@ -2544,10 +1922,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T23:55:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 74,
+      "days_on_radar": 75,
       "change": {
-        "signal_delta": -5.5,
-        "discovery_delta": -16.3
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2652,7 +2030,7 @@
           "signal_score": 56.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 56.5,
           "discovery_score": 46.0
         }
@@ -2673,10 +2051,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T20:45:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 69,
+      "days_on_radar": 70,
       "change": {
-        "signal_delta": -5.5,
-        "discovery_delta": -16.3
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2797,7 +2175,134 @@
           "signal_score": 55.5
         },
         {
+          "date": "2026-11-02",
+          "signal_score": 55.5,
+          "discovery_score": 45.2
+        }
+      ]
+    },
+    {
+      "ticker": "PARAW",
+      "company_name": "Banzai International, Inc.",
+      "signal_score": 55.5,
+      "market_attention_score": 22.4,
+      "discovery_score": 45.2,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Parabolic Technologies, Inc. (0001826011) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-31T13:31:15+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 53,
+      "change": {
+        "signal_delta": -5.0,
+        "discovery_delta": -3.8
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 13,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.7,
+        "source_breadth": 3.3,
+        "catalyst_strength": 9.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
+      },
+      "profile": {
+        "name": "PARAW",
+        "description": "PARAW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "PARAW",
+          "company_name": "Banzai International, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Parabolic Technologies, Inc. (0001826011) (Filer)",
+          "summary": "Filed: 2026-10-30 AccNo: 0001437749-26-034210 Size: 238 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1826011/000143774926034210/0001437749-26-034210-index.htm",
+          "published_at": "2026-10-30T16:07:09-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "854f2b0826d3",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-31",
+          "discovery_score": 61.1,
+          "market_attention_score": 28.9,
+          "signal_score": 68.5
+        },
+        {
           "date": "2026-11-01",
+          "discovery_score": 49.0,
+          "market_attention_score": 25.6,
+          "signal_score": 60.5
+        },
+        {
+          "date": "2026-11-02",
           "signal_score": 55.5,
           "discovery_score": 45.2
         }
@@ -2818,10 +2323,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T20:07:21+00:00",
       "new_to_radar": false,
-      "days_on_radar": 74,
+      "days_on_radar": 75,
       "change": {
-        "signal_delta": -5.5,
-        "discovery_delta": -16.3
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2926,9 +2431,138 @@
           "signal_score": 53.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 53.5,
           "discovery_score": 43.7
+        }
+      ]
+    },
+    {
+      "ticker": "DINO",
+      "company_name": "HF Sinclair Corp",
+      "signal_score": 53.5,
+      "market_attention_score": 20.8,
+      "discovery_score": 40.3,
+      "confidence_score": 83.8,
+      "primary_catalyst": "HF Sinclair Corp (0001915657) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-31T00:18:17+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 74,
+      "change": {
+        "signal_delta": -8.0,
+        "discovery_delta": -6.0
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.7,
+        "source_breadth": 3.6,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "HF Sinclair Corporation",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1980-03-17",
+        "weburl": "https://www.hfsinclair.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950824478356.png",
+        "market_cap": 19707682692.465813,
+        "pe_ttm": 10.2912,
+        "ps_ttm": 0.8219,
+        "pb_annual": 0.9229,
+        "revenue_growth_ttm_yoy": -10.74,
+        "eps_growth_ttm_yoy": -40.03,
+        "gross_margin_ttm": 21,
+        "net_margin_ttm": 6.31,
+        "current_ratio": 1.9364,
+        "debt_equity": 0.3112,
+        "beta": 0.7397512
+      },
+      "profile": {
+        "name": "HF Sinclair Corporation",
+        "description": "An independent petroleum refiner in the United States with operations throughout the mid-continent, southwestern and Rocky Mountain regions. Subsidiaries of HollyFrontier produce and market gasoline, diesel, jet fuel, asphalt, heavy products and specialty lubricant products. Additionally, HollyFrontier owns Petro-Canada Lubricants Inc. whose Mississauga, Ontario facility produces 15,600 barrels per day of base oils and other specialized lubricant products.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.hfsinclair.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "DINO",
+          "company_name": "HF Sinclair Corp",
+          "source": "SEC EDGAR",
+          "title": "HF Sinclair Corp (0001915657) (Filer)",
+          "summary": "Filed: 2026-10-30 AccNo: 0001628280-26-068615 Size: 266 KB Item 1.01: Entry into a Material Definitive Agreement Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1915657/000162828026068615/0001628280-26-068615-index.htm",
+          "published_at": "2026-10-30T17:03:41-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "fa1310bf3e1b",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-31",
+          "discovery_score": 63.5,
+          "market_attention_score": 42.4,
+          "signal_score": 72.0
+        },
+        {
+          "date": "2026-11-01",
+          "discovery_score": 46.3,
+          "market_attention_score": 28.6,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-11-02",
+          "signal_score": 53.5,
+          "discovery_score": 40.3
         }
       ]
     },
@@ -2947,10 +2581,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:20:24-04:00",
       "new_to_radar": false,
-      "days_on_radar": 33,
+      "days_on_radar": 34,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3031,7 +2665,7 @@
           "signal_score": 53.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3052,10 +2686,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:06:57-04:00",
       "new_to_radar": false,
-      "days_on_radar": 68,
+      "days_on_radar": 69,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3130,9 +2764,138 @@
           "signal_score": 53.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 53.0,
           "discovery_score": 45.1
+        }
+      ]
+    },
+    {
+      "ticker": "BAERW",
+      "company_name": "Bridger Aerospace Group Holdings, Inc.",
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 44.9,
+      "confidence_score": 62,
+      "primary_catalyst": "Bridger Aerospace Group Holdings, Inc. (0001941536) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-30T16:11:57-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 42,
+      "change": {
+        "signal_delta": -4.5,
+        "discovery_delta": -1.8
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 13,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.7,
+        "source_breadth": 3.0,
+        "catalyst_strength": 9.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": -0.5173434
+      },
+      "profile": {
+        "name": "BAERW",
+        "description": "BAERW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "Defense & aerospace"
+      ],
+      "stories": [
+        {
+          "ticker": "BAERW",
+          "company_name": "Bridger Aerospace Group Holdings, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Bridger Aerospace Group Holdings, Inc. (0001941536) (Filer)",
+          "summary": "Filed: 2026-10-30 AccNo: 0001941536-26-000034 Size: 180 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1941536/000194153626000034/0001941536-26-000034-index.htm",
+          "published_at": "2026-10-30T16:11:57-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "869663a3e02b",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-31",
+          "discovery_score": 58.9,
+          "market_attention_score": 28.1,
+          "signal_score": 65.5
+        },
+        {
+          "date": "2026-11-01",
+          "discovery_score": 46.7,
+          "market_attention_score": 24.1,
+          "signal_score": 57.5
+        },
+        {
+          "date": "2026-11-02",
+          "signal_score": 53.0,
+          "discovery_score": 44.9
         }
       ]
     },
@@ -3151,10 +2914,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T16:05:24-04:00",
       "new_to_radar": false,
-      "days_on_radar": 30,
+      "days_on_radar": 31,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.1
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3262,7 +3025,7 @@
           "signal_score": 53.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3272,26 +3035,26 @@
       "ticker": "SMBK",
       "company_name": "SMARTFINANCIAL INC.",
       "signal_score": 51.5,
-      "market_attention_score": 21.1,
+      "market_attention_score": 20.4,
       "discovery_score": 42.4,
-      "confidence_score": 71.8,
+      "confidence_score": 67.8,
       "primary_catalyst": "SMARTFINANCIAL INC. (0001038773) (Filer)",
       "catalyst_category": "Capital return",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T21:00:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 55,
+      "days_on_radar": 56,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 3
+        "unique_story_clusters": 2
       },
       "metrics": {
         "primary_evidence": 25,
@@ -3399,7 +3162,7 @@
           "signal_score": 51.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 51.5,
           "discovery_score": 42.4
         }
@@ -3420,10 +3183,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:24:19-04:00",
       "new_to_radar": false,
-      "days_on_radar": 75,
+      "days_on_radar": 76,
       "change": {
-        "signal_delta": -8.0,
-        "discovery_delta": -12.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3504,142 +3267,9 @@
           "signal_score": 48.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 48.5,
           "discovery_score": 39.8
-        }
-      ]
-    },
-    {
-      "ticker": "PODC",
-      "company_name": "PodcastOne, Inc.",
-      "signal_score": 48.5,
-      "market_attention_score": 18.9,
-      "discovery_score": 40.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "PodcastOne, Inc. (0001940177) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-10-30T17:00:29-04:00",
-      "new_to_radar": false,
-      "days_on_radar": 73,
-      "change": {
-        "signal_delta": -29.0,
-        "discovery_delta": -19.3
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Podcastone Inc",
-        "industry": "Media",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2023-09-08",
-        "weburl": "https://www.podcastone.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950744943946.png",
-        "market_cap": 72303939.15830116,
-        "pe_ttm": null,
-        "ps_ttm": 1.1513,
-        "pb_annual": 3.2413,
-        "revenue_growth_ttm_yoy": 16.4,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 12.79,
-        "net_margin_ttm": -5.01,
-        "current_ratio": 0.9221,
-        "debt_equity": 0,
-        "beta": 2.230805
-      },
-      "profile": {
-        "name": "Podcastone Inc",
-        "description": "Listen to the best podcasts in comedy, true crime, sports, pop culture, and news — featuring Adam Carolla, Jordan Harbinger, Kaitlyn Bristowe, LadyGang, and more.",
-        "industry": "Media",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.podcastone.com/",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "PODC",
-          "company_name": "PodcastOne, Inc.",
-          "source": "SEC EDGAR",
-          "title": "PodcastOne, Inc. (0001940177) (Filer)",
-          "summary": "Filed: 2026-10-30 AccNo: 0001213900-26-114477 Size: 191 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/1940177/000121390026114477/0001213900-26-114477-index.htm",
-          "published_at": "2026-10-30T17:00:29-04:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "436c809b5260",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-19",
-          "discovery_score": 60.2,
-          "market_attention_score": 29.8,
-          "signal_score": 55.2
-        },
-        {
-          "date": "2026-10-31",
-          "discovery_score": 59.4,
-          "market_attention_score": 32.2,
-          "signal_score": 77.5
-        },
-        {
-          "date": "2026-11-01",
-          "discovery_score": 40.1,
-          "market_attention_score": 18.9,
-          "signal_score": 48.5
-        },
-        {
-          "date": "2026-11-01",
-          "signal_score": 48.5,
-          "discovery_score": 40.1
         }
       ]
     },
@@ -3658,10 +3288,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:04:39+00:00",
       "new_to_radar": false,
-      "days_on_radar": 60,
+      "days_on_radar": 61,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3749,7 +3379,94 @@
           "signal_score": 48.5
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
+          "signal_score": 48.5,
+          "discovery_score": 40.1
+        }
+      ]
+    },
+    {
+      "ticker": "UTZ",
+      "company_name": "Utz Brands, Inc.",
+      "signal_score": 48.5,
+      "market_attention_score": 18.9,
+      "discovery_score": 40.1,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Utz Brands, Inc. (0001739566) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-30T16:55:45+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 3,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "UTZ",
+          "company_name": "Utz Brands, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Utz Brands, Inc. (0001739566) (Filer)",
+          "summary": "Filed: 2026-10-30 AccNo: 0001193125-26-441801 Size: 258 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 8.01: Other Events",
+          "url": "https://www.sec.gov/Archives/edgar/data/1739566/000119312526441801/0001193125-26-441801-index.htm",
+          "published_at": "2026-10-30T16:51:32-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "983c5dc0729c",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-02",
           "signal_score": 48.5,
           "discovery_score": 40.1
         }
@@ -3770,10 +3487,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:28:54-04:00",
       "new_to_radar": false,
-      "days_on_radar": 75,
+      "days_on_radar": 76,
       "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3854,7 +3571,7 @@
           "signal_score": 46.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -3875,10 +3592,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:24:42-04:00",
       "new_to_radar": false,
-      "days_on_radar": 52,
+      "days_on_radar": 53,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3947,7 +3664,7 @@
           "signal_score": 46.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -3968,10 +3685,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:19:44-04:00",
       "new_to_radar": false,
-      "days_on_radar": 74,
+      "days_on_radar": 75,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -4040,7 +3757,7 @@
           "signal_score": 46.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -4061,10 +3778,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T17:18:25-04:00",
       "new_to_radar": false,
-      "days_on_radar": 13,
+      "days_on_radar": 14,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -4133,9 +3850,166 @@
           "signal_score": 46.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 46.0,
           "discovery_score": 39.8
+        }
+      ]
+    },
+    {
+      "ticker": "OPNW",
+      "company_name": "OpenWorld, Inc.",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.2,
+      "confidence_score": 62,
+      "primary_catalyst": "OpenWorld, Inc. (0001104038) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-10-30T17:16:40-04:00",
+      "new_to_radar": false,
+      "days_on_radar": 31,
+      "change": {
+        "signal_delta": -19.5,
+        "discovery_delta": -9.6
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.2,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.33,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "OpenWorld, Inc.",
+        "industry": "Logistics & Transportation",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2001-06-29",
+        "weburl": "https://www.verifyme.com/#intro",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942958994166.png",
+        "market_cap": 19842892.8,
+        "pe_ttm": null,
+        "ps_ttm": 1.7872,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": -49.69,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 47.02,
+        "net_margin_ttm": -47.08,
+        "current_ratio": 3.8158,
+        "debt_equity": 0.0682,
+        "beta": 2.1852057
+      },
+      "profile": {
+        "name": "OPNW",
+        "description": "OPNW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "OPNW",
+          "company_name": "OpenWorld, Inc.",
+          "source": "SEC EDGAR",
+          "title": "OpenWorld, Inc. (0001104038) (Filer)",
+          "summary": "Filed: 2026-10-30 AccNo: 0001214659-26-013557 Size: 254 KB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1104038/000121465926013557/0001214659-26-013557-index.htm",
+          "published_at": "2026-10-30T17:16:40-04:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "107611c38682",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "discovery_score": 57.4,
+          "market_attention_score": 26.6,
+          "signal_score": 62.6
+        },
+        {
+          "date": "2026-10-17",
+          "discovery_score": 43.4,
+          "market_attention_score": 22.1,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-18",
+          "discovery_score": 43.4,
+          "market_attention_score": 22.1,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-10-19",
+          "discovery_score": 55.0,
+          "market_attention_score": 25.2,
+          "signal_score": 58.6
+        },
+        {
+          "date": "2026-10-30",
+          "discovery_score": 60.8,
+          "market_attention_score": 30.8,
+          "signal_score": 73.5
+        },
+        {
+          "date": "2026-10-31",
+          "discovery_score": 60.6,
+          "market_attention_score": 30.8,
+          "signal_score": 73.5
+        },
+        {
+          "date": "2026-11-01",
+          "discovery_score": 48.8,
+          "market_attention_score": 26.8,
+          "signal_score": 65.5
+        },
+        {
+          "date": "2026-11-02",
+          "signal_score": 46.0,
+          "discovery_score": 39.2
         }
       ]
     },
@@ -4154,10 +4028,10 @@
       "article_count_24h": 0,
       "latest_event_at": "2026-10-30T16:32:58-04:00",
       "new_to_radar": true,
-      "days_on_radar": 1,
+      "days_on_radar": 2,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 0.0,
+        "discovery_delta": 0.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -4226,7 +4100,7 @@
           "signal_score": 46.0
         },
         {
-          "date": "2026-11-01",
+          "date": "2026-11-02",
           "signal_score": 46.0,
           "discovery_score": 40.0
         }
