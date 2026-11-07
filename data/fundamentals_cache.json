@@ -19689,7 +19689,7 @@
       }
     },
     "ENVA": {
-      "cached_at": "2026-10-31T17:49:41.957917+00:00",
+      "cached_at": "2026-11-07T18:07:09.840375+00:00",
       "data": {
         "name": "Enova International, Inc.",
         "industry": "Financial Services",
@@ -19698,17 +19698,17 @@
         "ipo_date": "2014-10-30",
         "weburl": "https://www.enova.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ENVA.png",
-        "market_cap": 4258254697.1526747,
-        "pe_ttm": 12.4581,
-        "ps_ttm": 2.15,
+        "market_cap": 4218873959.2396507,
+        "pe_ttm": 11.1465,
+        "ps_ttm": 1.9261,
         "pb_annual": 2.9138,
-        "revenue_growth_ttm_yoy": 22.52,
-        "eps_growth_ttm_yoy": 43.8,
+        "revenue_growth_ttm_yoy": 27.1,
+        "eps_growth_ttm_yoy": 33.42,
         "gross_margin_ttm": 100,
-        "net_margin_ttm": 17.26,
+        "net_margin_ttm": 17.28,
         "current_ratio": 19.6214,
         "debt_equity": 3.3652,
-        "beta": 1.3990501
+        "beta": 1.389444
       }
     },
     "DHI": {
@@ -40915,6 +40915,52 @@
         "current_ratio": 8.1544,
         "debt_equity": 0,
         "beta": 15.663958
+      }
+    },
+    "XHLD": {
+      "cached_at": "2026-11-07T18:07:09.840375+00:00",
+      "data": {
+        "name": "TEN Holdings Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2025-02-13",
+        "weburl": "https://www.tenholdingsinc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950923235636.png",
+        "market_cap": 9460000.0,
+        "pe_ttm": null,
+        "ps_ttm": 2.4899,
+        "pb_annual": 0.8198,
+        "revenue_growth_ttm_yoy": -11.69,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 74.83,
+        "net_margin_ttm": -627.5,
+        "current_ratio": 1.435,
+        "debt_equity": 1.0682,
+        "beta": 2.0601377
+      }
+    },
+    "ENTX": {
+      "cached_at": "2026-11-07T18:07:09.840375+00:00",
+      "data": {
+        "name": "Entera Bio Ltd",
+        "industry": "Biotechnology",
+        "country": "IL",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2018-06-28",
+        "weburl": "https://enterabio.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ENTX.png",
+        "market_cap": 546116393.5498393,
+        "pe_ttm": null,
+        "ps_ttm": 2417.7556,
+        "pb_annual": 6.7906,
+        "revenue_growth_ttm_yoy": -31.38,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 4.04,
+        "net_margin_ttm": -4525.11,
+        "current_ratio": 6.9442,
+        "debt_equity": 0,
+        "beta": 1.5272708
       }
     }
   }
