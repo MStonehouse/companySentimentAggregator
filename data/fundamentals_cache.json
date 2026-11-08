@@ -31580,26 +31580,26 @@
       }
     },
     "LAZ": {
-      "cached_at": "2026-10-14T06:18:02.256213+00:00",
+      "cached_at": "2026-11-08T00:48:05.926087+00:00",
       "data": {
-        "name": "Lazard Inc",
+        "name": "Lazard, Inc.",
         "industry": "Financial Services",
         "country": "US",
         "exchange": "NEW YORK STOCK EXCHANGE, INC.",
         "ipo_date": "2005-05-05",
         "weburl": "https://www.lazard.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950869586646.png",
-        "market_cap": 3558894712.4091773,
-        "pe_ttm": 15.6894,
-        "ps_ttm": 1.0753,
+        "market_cap": 3741443579.827349,
+        "pe_ttm": 16.4942,
+        "ps_ttm": 1.1304,
         "pb_annual": 5.3006,
         "revenue_growth_ttm_yoy": 6.37,
         "eps_growth_ttm_yoy": -28.7,
         "gross_margin_ttm": 93.12,
         "net_margin_ttm": 6.85,
         "current_ratio": 1.6712,
-        "debt_equity": 2.4169,
-        "beta": 1.4713414
+        "debt_equity": 2.3267,
+        "beta": 1.4507195
       }
     },
     "UTHR": {
@@ -40961,6 +40961,29 @@
         "current_ratio": 6.9442,
         "debt_equity": 0,
         "beta": 1.5272708
+      }
+    },
+    "HY": {
+      "cached_at": "2026-11-08T00:48:05.926087+00:00",
+      "data": {
+        "name": "Hyster-Yale Inc",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1999-02-26",
+        "weburl": "https://www.hyster-yale.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942967208916.png",
+        "market_cap": 509408428.3341106,
+        "pe_ttm": null,
+        "ps_ttm": 0.1451,
+        "pb_annual": 1.1163,
+        "revenue_growth_ttm_yoy": -11.14,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 15.36,
+        "net_margin_ttm": -3.3,
+        "current_ratio": 1.3446,
+        "debt_equity": 1.0472,
+        "beta": 1.6892768
       }
     }
   }
