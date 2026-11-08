@@ -24016,14 +24016,14 @@
       "ACR-PD": 0,
       "AHR": 0,
       "AME": 0,
-      "ASTS": 3,
+      "ASTS": 0,
       "ATYR": 0,
       "AUUD": 0,
       "AVA": 0,
       "BCIC": 0,
       "BH": 0,
       "BIAFW": 0,
-      "BIVIW": 1,
+      "BIVIW": 0,
       "BROS": 0,
       "CCXIW": 0,
       "CETY": 0,
@@ -24047,7 +24047,7 @@
       "FERAU": 0,
       "FFAI": 0,
       "FIEE": 0,
-      "FOX": 2,
+      "FOX": 1,
       "GATX": 0,
       "GEF-B": 0,
       "GOGO": 0,
@@ -33875,8 +33875,8 @@
         "XHLD",
         "AVA",
         "LAZ",
-        "BIVIW",
         "AUUD",
+        "BIVIW",
         "MLCIL",
         "RENX",
         "FBDT"
@@ -46882,7 +46882,7 @@
     "2026-11-08": {
       "ASTS": {
         "discovery_score": 49.4,
-        "market_attention_score": 41.0,
+        "market_attention_score": 39.8,
         "signal_score": 67.5
       },
       "AUUD": {
@@ -46902,7 +46902,7 @@
       },
       "BIVIW": {
         "discovery_score": 46.9,
-        "market_attention_score": 23.8,
+        "market_attention_score": 23.4,
         "signal_score": 57.5
       },
       "CCXIW": {
@@ -46952,7 +46952,7 @@
       },
       "FOX": {
         "discovery_score": 50.4,
-        "market_attention_score": 39.9,
+        "market_attention_score": 39.5,
         "signal_score": 67.7
       },
       "GEF-B": {
@@ -47007,7 +47007,7 @@
       },
       "ROKU": {
         "discovery_score": 50.3,
-        "market_attention_score": 37.2,
+        "market_attention_score": 38.0,
         "signal_score": 67.5
       },
       "SHPH": {
