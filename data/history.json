@@ -24016,14 +24016,14 @@
       "ACR-PD": 0,
       "AHR": 0,
       "AME": 0,
-      "ASTS": 4,
+      "ASTS": 3,
       "ATYR": 0,
       "AUUD": 0,
-      "AVA": 1,
+      "AVA": 0,
       "BCIC": 0,
       "BH": 0,
       "BIAFW": 0,
-      "BIVIW": 0,
+      "BIVIW": 1,
       "BROS": 0,
       "CCXIW": 0,
       "CETY": 0,
@@ -24047,7 +24047,7 @@
       "FERAU": 0,
       "FFAI": 0,
       "FIEE": 0,
-      "FOX": 1,
+      "FOX": 2,
       "GATX": 0,
       "GEF-B": 0,
       "GOGO": 0,
@@ -24063,8 +24063,8 @@
       "KG": 0,
       "KNX": 0,
       "KSCP": 0,
-      "KTB": 2,
-      "LAZ": 1,
+      "KTB": 1,
+      "LAZ": 0,
       "MDIA": 0,
       "MLCIL": 0,
       "MOH": 0,
@@ -33842,13 +33842,14 @@
         "DFNSW",
         "CCXIW",
         "FOX",
+        "HY",
         "DBCAW",
         "ROKU",
         "FERAU",
         "QNRX",
         "ASTS",
         "FFAI",
-        "HY",
+        "BIVIW",
         "LAZ",
         "AVA",
         "XHLD",
@@ -33856,8 +33857,7 @@
         "AUUD",
         "CRIS",
         "KSCP",
-        "RENX",
-        "FBDT"
+        "RENX"
       ],
       "market_leaders": [
         "KTB",
@@ -33871,15 +33871,15 @@
         "FFAI",
         "DBCAW",
         "FERAU",
-        "AVA",
-        "LAZ",
         "CRIS",
         "XHLD",
+        "AVA",
+        "LAZ",
+        "BIVIW",
         "AUUD",
         "MLCIL",
         "RENX",
-        "FBDT",
-        "KSCP"
+        "FBDT"
       ]
     }
   },
@@ -46882,7 +46882,7 @@
     "2026-11-08": {
       "ASTS": {
         "discovery_score": 49.4,
-        "market_attention_score": 41.4,
+        "market_attention_score": 41.0,
         "signal_score": 67.5
       },
       "AUUD": {
@@ -46892,7 +46892,7 @@
       },
       "AVA": {
         "discovery_score": 46.3,
-        "market_attention_score": 24.4,
+        "market_attention_score": 24.1,
         "signal_score": 61.5
       },
       "BIAFW": {
@@ -46901,9 +46901,9 @@
         "signal_score": 48.5
       },
       "BIVIW": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
+        "discovery_score": 46.9,
+        "market_attention_score": 23.8,
+        "signal_score": 57.5
       },
       "CCXIW": {
         "discovery_score": 50.5,
@@ -46952,7 +46952,7 @@
       },
       "FOX": {
         "discovery_score": 50.4,
-        "market_attention_score": 38.7,
+        "market_attention_score": 39.9,
         "signal_score": 67.7
       },
       "GEF-B": {
@@ -46961,9 +46961,9 @@
         "signal_score": 46.0
       },
       "HY": {
-        "discovery_score": 47.3,
-        "market_attention_score": 32.4,
-        "signal_score": 66.5
+        "discovery_score": 50.3,
+        "market_attention_score": 35.1,
+        "signal_score": 70.5
       },
       "KSCP": {
         "discovery_score": 45.1,
@@ -46972,12 +46972,12 @@
       },
       "KTB": {
         "discovery_score": 51.3,
-        "market_attention_score": 41.8,
+        "market_attention_score": 41.4,
         "signal_score": 72.5
       },
       "LAZ": {
         "discovery_score": 46.4,
-        "market_attention_score": 24.4,
+        "market_attention_score": 24.1,
         "signal_score": 61.5
       },
       "MLCIL": {
