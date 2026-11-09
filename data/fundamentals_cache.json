@@ -35122,18 +35122,18 @@
       }
     },
     "AUUD": {
-      "cached_at": "2026-10-23T00:01:39.164929+00:00",
+      "cached_at": "2026-11-09T01:02:18.999000+00:00",
       "data": {
-        "name": "Auddia Inc",
+        "name": "Auddia Inc.",
         "industry": "Technology",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
         "ipo_date": "2021-02-17",
-        "weburl": "https://auddia.com/",
+        "weburl": "https://www.auddia.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950799026136.png",
-        "market_cap": 5397417.460551231,
+        "market_cap": 2785463.7262357413,
         "pe_ttm": null,
-        "ps_ttm": 712.0604,
+        "ps_ttm": 367.4755,
         "pb_annual": 0.7101,
         "revenue_growth_ttm_yoy": null,
         "eps_growth_ttm_yoy": null,
@@ -35141,7 +35141,7 @@
         "net_margin_ttm": -39251.58,
         "current_ratio": 3.4616,
         "debt_equity": 0.0143,
-        "beta": 0.29933265
+        "beta": 0.43965152
       }
     },
     "DEVSF": {
@@ -40984,6 +40984,29 @@
         "current_ratio": 1.3446,
         "debt_equity": 1.0472,
         "beta": 1.6892768
+      }
+    },
+    "GOGO": {
+      "cached_at": "2026-11-09T01:02:18.999000+00:00",
+      "data": {
+        "name": "Gogo Inc.",
+        "industry": "Telecommunication",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2013-06-21",
+        "weburl": "https://ir.gogoair.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOGO.png",
+        "market_cap": 526448024.1225297,
+        "pe_ttm": 40.7373,
+        "ps_ttm": 0.5828,
+        "pb_annual": 6.168,
+        "revenue_growth_ttm_yoy": 30.03,
+        "eps_growth_ttm_yoy": -48.38,
+        "gross_margin_ttm": 41.6,
+        "net_margin_ttm": -0.09,
+        "current_ratio": 1.6042,
+        "debt_equity": 8.2685,
+        "beta": 1.0377406
       }
     }
   }
