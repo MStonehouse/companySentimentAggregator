@@ -21194,6 +21194,76 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "EZRA": {
+      "updated_at": "2026-11-09",
+      "data": {
+        "name": "Reliance Global Group Inc",
+        "description": "Reliance Global Group Inc is a publicly traded company operating in the Insurance industry with company information identifying US as its home market.",
+        "industry": "Insurance",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://relianceglobalgroup.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "HYAC-UN": {
+      "updated_at": "2026-11-09",
+      "data": {
+        "name": "HYAC-UN",
+        "description": "HYAC-UN is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "RXT": {
+      "updated_at": "2026-11-09",
+      "data": {
+        "name": "Rackspace Technology Inc",
+        "description": "Rackspace Technology Inc is a publicly traded company operating in the Technology industry with company information identifying US as its home market.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.rackspace.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "LSTA": {
+      "updated_at": "2026-11-09",
+      "data": {
+        "name": "Lisata Therapeutics, Inc.",
+        "description": "Lisata is a clinical-stage pharmaceutical company dedicated to improving lives through the discovery, development, and commercialization of innovative medicines.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.lisata.com",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
+        "source": "Company website"
+      }
+    },
+    "MCB": {
+      "updated_at": "2026-11-09",
+      "data": {
+        "name": "Metropolitan Bank Holding Corp",
+        "description": "Metropolitan Bank Holding Corp is a publicly traded company operating in the Banking industry with company information identifying US as its home market.",
+        "industry": "Banking",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://investors.mcbankny.com/corporate-profile/default.aspx#",
+        "products_markets": [
+          "Financial services"
+        ],
+        "source": "Structured company profile"
+      }
     }
   }
 }
