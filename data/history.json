@@ -23402,7 +23402,7 @@
       "ACR-PD": 0,
       "AHR": 0,
       "AME": 0,
-      "ASTS": 0,
+      "ASTS": 3,
       "ATYR": 0,
       "AUUD": 0,
       "AVA": 0,
@@ -23431,9 +23431,9 @@
       "FBDT": 0,
       "FBLA": 0,
       "FERAU": 0,
-      "FFAI": 0,
+      "FFAI": 1,
       "FIEE": 0,
-      "FOX": 1,
+      "FOX": 0,
       "GATX": 0,
       "GEF-B": 0,
       "GOGO": 0,
@@ -23465,7 +23465,7 @@
       "REI": 0,
       "RENX": 0,
       "RLYB": 0,
-      "ROKU": 1,
+      "ROKU": 2,
       "RPM": 0,
       "SELF": 0,
       "SHPH": 0,
@@ -46153,7 +46153,7 @@
     "2026-11-09": {
       "ASTS": {
         "discovery_score": 49.4,
-        "market_attention_score": 39.8,
+        "market_attention_score": 41.0,
         "signal_score": 67.5
       },
       "AUUD": {
@@ -46213,12 +46213,12 @@
       },
       "FFAI": {
         "discovery_score": 48.5,
-        "market_attention_score": 24.9,
+        "market_attention_score": 26.1,
         "signal_score": 60.5
       },
       "FOX": {
         "discovery_score": 50.0,
-        "market_attention_score": 31.6,
+        "market_attention_score": 31.1,
         "signal_score": 62.5
       },
       "GEF-B": {
@@ -46278,7 +46278,7 @@
       },
       "ROKU": {
         "discovery_score": 50.1,
-        "market_attention_score": 34.2,
+        "market_attention_score": 35.4,
         "signal_score": 67.5
       },
       "SHPH": {
