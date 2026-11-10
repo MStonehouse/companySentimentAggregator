@@ -38710,7 +38710,7 @@
       }
     },
     "DV": {
-      "cached_at": "2026-10-31T07:08:08.694535+00:00",
+      "cached_at": "2026-11-10T08:31:16.367340+00:00",
       "data": {
         "name": "DoubleVerify Holdings, Inc.",
         "industry": "Media",
@@ -38719,17 +38719,17 @@
         "ipo_date": "2021-04-21",
         "weburl": "https://www.doubleverify.com",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950800364516.png",
-        "market_cap": 2117833758.6941783,
-        "pe_ttm": 35.9815,
-        "ps_ttm": 2.7546,
+        "market_cap": 2118222861.0000002,
+        "pe_ttm": 32.7969,
+        "ps_ttm": 2.6955,
         "pb_annual": 1.6291,
-        "revenue_growth_ttm_yoy": 7.64,
-        "eps_growth_ttm_yoy": 17.51,
-        "gross_margin_ttm": 82.43,
-        "net_margin_ttm": 7.66,
+        "revenue_growth_ttm_yoy": 7.16,
+        "eps_growth_ttm_yoy": 51.35,
+        "gross_margin_ttm": 82.17,
+        "net_margin_ttm": 8.22,
         "current_ratio": 4.2721,
         "debt_equity": 0.0111,
-        "beta": 0.90774006
+        "beta": 0.8768841
       }
     },
     "DCH": {
@@ -41099,6 +41099,190 @@
         "current_ratio": null,
         "debt_equity": 0.0425,
         "beta": 0.9954878
+      }
+    },
+    "MVST": {
+      "cached_at": "2026-11-10T08:31:16.367340+00:00",
+      "data": {
+        "name": "Microvast Holdings, Inc.",
+        "industry": "Machinery",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2017-01-04",
+        "weburl": "https://microvast.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MVST.png",
+        "market_cap": 238306726.566725,
+        "pe_ttm": 4.7321,
+        "ps_ttm": 0.6601,
+        "pb_annual": 2.2384,
+        "revenue_growth_ttm_yoy": -13.03,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 33.96,
+        "net_margin_ttm": 13.95,
+        "current_ratio": 0.9189,
+        "debt_equity": 0.8945,
+        "beta": 3.8530173
+      }
+    },
+    "TDGMW": {
+      "cached_at": "2026-11-10T08:31:16.367340+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": -0.47011796
+      }
+    },
+    "JBS": {
+      "cached_at": "2026-11-10T08:31:16.367340+00:00",
+      "data": {
+        "name": "Jbs NV",
+        "industry": "Food Products",
+        "country": "NL",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2025-06-12",
+        "weburl": "https://jbsglobal.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950846072756.png",
+        "market_cap": 14062793958.179485,
+        "pe_ttm": 11.992,
+        "ps_ttm": 0.1466,
+        "pb_annual": 1.7703,
+        "revenue_growth_ttm_yoy": 13.36,
+        "eps_growth_ttm_yoy": -47.94,
+        "gross_margin_ttm": 11.8,
+        "net_margin_ttm": 1.22,
+        "current_ratio": 1.5975,
+        "debt_equity": 2.6482,
+        "beta": 0.1393604
+      }
+    },
+    "MAPS": {
+      "cached_at": "2026-11-10T08:31:16.367340+00:00",
+      "data": {
+        "name": "WM Technology Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-01-13",
+        "weburl": "https://ir.weedmaps.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/MAPS.png",
+        "market_cap": 44190462.56051409,
+        "pe_ttm": 22.5232,
+        "ps_ttm": 0.2529,
+        "pb_annual": 2.2688,
+        "revenue_growth_ttm_yoy": -5.32,
+        "eps_growth_ttm_yoy": -76.66,
+        "gross_margin_ttm": 94.94,
+        "net_margin_ttm": 1.12,
+        "current_ratio": 2.3435,
+        "debt_equity": 0,
+        "beta": 1.0731981
+      }
+    },
+    "BCSF": {
+      "cached_at": "2026-11-10T08:31:16.367340+00:00",
+      "data": {
+        "name": "Bain Capital Specialty Finance Inc",
+        "industry": "Financial Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2018-11-15",
+        "weburl": "https://baincapitalspecialtyfinance.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950467212306.png",
+        "market_cap": 711607548.3976661,
+        "pe_ttm": 11.151,
+        "ps_ttm": 2.7008,
+        "pb_annual": 0.8075,
+        "revenue_growth_ttm_yoy": -6.95,
+        "eps_growth_ttm_yoy": -40.72,
+        "gross_margin_ttm": 47.96,
+        "net_margin_ttm": 24.22,
+        "current_ratio": 1.1628,
+        "debt_equity": 1.3163,
+        "beta": 0.65172637
+      }
+    },
+    "NINE": {
+      "cached_at": "2026-11-10T08:31:16.367340+00:00",
+      "data": {
+        "name": "Nine Energy Service Inc",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2018-01-19",
+        "weburl": "https://nineenergyservice.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950388654056.png",
+        "market_cap": 93046435.45161289,
+        "pe_ttm": 1.4193,
+        "ps_ttm": 0.1797,
+        "pb_annual": 4.2082,
+        "revenue_growth_ttm_yoy": -7.15,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 13.91,
+        "net_margin_ttm": 12.66,
+        "current_ratio": 1.847,
+        "debt_equity": 16.951,
+        "beta": -299.2672
+      }
+    },
+    "DSP": {
+      "cached_at": "2026-11-10T08:31:16.367340+00:00",
+      "data": {
+        "name": "Viant Technology Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2021-02-10",
+        "weburl": "https://investors.viantinc.com/financial-information/sec-filings?field_nir_sec_form_group_target_id[]=471&field_nir_sec_date_filed_value=&items_per_page=10#views-exposed-form-widget-sec-filings-table",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950506402196.png",
+        "market_cap": 933643411.048657,
+        "pe_ttm": 107.4883,
+        "ps_ttm": 2.4032,
+        "pb_annual": 22.1029,
+        "revenue_growth_ttm_yoy": 21.99,
+        "eps_growth_ttm_yoy": 110.1,
+        "gross_margin_ttm": 44.55,
+        "net_margin_ttm": 2.24,
+        "current_ratio": 2.4966,
+        "debt_equity": 0,
+        "beta": 1.1648357
+      }
+    },
+    "EXOD": {
+      "cached_at": "2026-11-10T08:31:16.367340+00:00",
+      "data": {
+        "name": "Exodus Movement Inc",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2021-09-15",
+        "weburl": "https://www.exodus.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950800799626.png",
+        "market_cap": 135310599.07616708,
+        "pe_ttm": null,
+        "ps_ttm": 1.2448,
+        "pb_annual": 1.7575,
+        "revenue_growth_ttm_yoy": -14.22,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 22.49,
+        "net_margin_ttm": -79.94,
+        "current_ratio": 13.4869,
+        "debt_equity": 0,
+        "beta": 3.4860075
       }
     }
   }
