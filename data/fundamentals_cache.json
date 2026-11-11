@@ -41698,6 +41698,52 @@
         "debt_equity": 0,
         "beta": 0.7546382
       }
+    },
+    "REGCO": {
+      "cached_at": "2026-11-11T20:15:49.626849+00:00",
+      "data": {
+        "name": "Regency Centers Corp",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1993-10-29",
+        "weburl": "https://www.regencycenters.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959048126.png",
+        "market_cap": 14016046583.740116,
+        "pe_ttm": 25.2901,
+        "ps_ttm": 8.6946,
+        "pb_annual": 1.8429,
+        "revenue_growth_ttm_yoy": 8.24,
+        "eps_growth_ttm_yoy": 36.94,
+        "gross_margin_ttm": 70.35,
+        "net_margin_ttm": 34.38,
+        "current_ratio": 0.5706,
+        "debt_equity": 0.6862,
+        "beta": 0.8036539
+      }
+    },
+    "ACRV": {
+      "cached_at": "2026-11-11T20:15:49.626849+00:00",
+      "data": {
+        "name": "Acrivon Therapeutics, Inc.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2022-11-15",
+        "weburl": "https://acrivon.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950637337356.png",
+        "market_cap": 67279781.3607595,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 0.6759,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 7.6893,
+        "debt_equity": 0,
+        "beta": 1.9944961
+      }
     }
   }
 }

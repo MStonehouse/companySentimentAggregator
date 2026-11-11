@@ -21675,6 +21675,34 @@
         "products_markets": [],
         "source": "Company website"
       }
+    },
+    "REGCO": {
+      "updated_at": "2026-11-11",
+      "data": {
+        "name": "Regency Centers Corp",
+        "description": "We own, operate, and develop shopping centers located in suburban trade areas with compelling demographics.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.regencycenters.com/",
+        "products_markets": [],
+        "source": "Company website"
+      }
+    },
+    "ACRV": {
+      "updated_at": "2026-11-11",
+      "data": {
+        "name": "Acrivon Therapeutics, Inc.",
+        "description": "Developing best-in-class targeted therapies to improve the lives of patients.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://acrivon.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
