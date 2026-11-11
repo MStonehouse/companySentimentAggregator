@@ -22116,28 +22116,28 @@
       "XLO": 1
     },
     "2026-11-11": {
-      "ACRV": 1,
+      "ACRV": 2,
       "AHT-PI": 1,
       "AIRI": 3,
       "ALZN": 1,
       "AMPX-WT": 1,
       "ANGX": 1,
       "ASNS": 2,
-      "AUBN": 1,
+      "AUBN": 2,
       "AUMN": 1,
       "AVX": 1,
       "AZTA": 4,
       "BFH-PA": 1,
-      "BHLL": 1,
+      "BHLL": 2,
       "BYND": 1,
-      "CAKE": 2,
-      "CLVT": 1,
-      "CON": 1,
-      "COTY": 1,
+      "CAKE": 3,
+      "CLVT": 2,
+      "CON": 2,
+      "COTY": 2,
       "CPIX": 1,
       "CPK": 1,
       "CRCW": 1,
-      "CRMD": 5,
+      "CRMD": 4,
       "CYAB": 1,
       "DLPN": 1,
       "DTCX": 1,
@@ -22156,15 +22156,15 @@
       "IBIO": 1,
       "INBS": 1,
       "INM": 1,
-      "IRHOR": 1,
+      "IRHOR": 2,
       "KN": 1,
       "KRMD": 1,
       "KULR": 5,
       "LABT": 2,
-      "LEU": 2,
+      "LEU": 3,
       "LOVIU": 2,
-      "LVO": 1,
-      "MAN": 1,
+      "LVO": 2,
+      "MAN": 3,
       "MRDN": 1,
       "NG": 1,
       "NHP": 1,
@@ -22172,31 +22172,31 @@
       "NORD": 1,
       "NRGV": 1,
       "NRT": 1,
-      "NXXT": 2,
+      "NXXT": 4,
       "OBAI": 1,
       "ORC": 1,
       "PPIH": 1,
       "RDN": 1,
-      "REGCO": 1,
+      "REGCO": 2,
       "RENT": 1,
       "RLI": 1,
-      "RLYB": 1,
+      "RLYB": 2,
       "RM": 1,
-      "SEV": 4,
+      "SEV": 6,
       "SNTI": 1,
       "SNWV": 1,
-      "SPRO": 1,
+      "SPRO": 2,
       "STRRP": 1,
-      "SUNS": 1,
+      "SUNS": 3,
       "SWAGW": 1,
-      "TLF": 1,
+      "TLF": 3,
       "TRON": 1,
-      "UCTT": 2,
+      "UCTT": 1,
       "UONEK": 1,
-      "VIVK": 3,
+      "VIVK": 2,
       "WAFDP": 1,
       "WMS": 1,
-      "ZDPY": 1
+      "ZDPY": 2
     }
   },
   "first_seen": {
@@ -31957,47 +31957,47 @@
     "2026-11-11": {
       "emerging_signals": [
         "CRMD",
+        "NXXT",
         "AIRI",
-        "VIVK",
+        "CAKE",
+        "SUNS",
+        "TLF",
+        "SEV",
+        "IRHOR",
         "GPI",
         "LOVIU",
-        "SEV",
+        "BHLL",
+        "LEU",
         "GGG",
         "ASNS",
-        "LEU",
+        "RLYB",
+        "ACRV",
         "KULR",
+        "COTY",
         "AZTA",
-        "LABT",
-        "CAKE",
-        "ELMT",
-        "NXXT",
-        "UCTT",
-        "BHLL",
-        "INM",
-        "IRHOR",
-        "OBAI"
+        "VIVK"
       ],
       "market_leaders": [
         "CRMD",
         "LEU",
         "SEV",
         "AIRI",
+        "CAKE",
         "KULR",
+        "COTY",
         "INM",
         "GGG",
+        "BHLL",
         "ELMT",
         "VIVK",
-        "COTY",
-        "LOVIU",
-        "CAKE",
-        "AZTA",
-        "BHLL",
-        "ASNS",
-        "NHP",
+        "CON",
         "IRHOR",
+        "RLYB",
+        "LOVIU",
+        "ACRV",
+        "AZTA",
         "REGCO",
-        "LABT",
-        "GPI"
+        "NXXT"
       ]
     }
   },
@@ -44659,9 +44659,9 @@
     },
     "2026-11-11": {
       "ACRV": {
-        "discovery_score": 51.8,
-        "market_attention_score": 21.8,
-        "signal_score": 54.0
+        "discovery_score": 64.3,
+        "market_attention_score": 30.3,
+        "signal_score": 71.6
       },
       "AIRI": {
         "discovery_score": 73.6,
@@ -44673,45 +44673,40 @@
         "market_attention_score": 29.3,
         "signal_score": 66.0
       },
-      "AVX": {
-        "discovery_score": 51.8,
-        "market_attention_score": 24.2,
-        "signal_score": 56.0
+      "AUBN": {
+        "discovery_score": 55.9,
+        "market_attention_score": 24.8,
+        "signal_score": 60.6
       },
       "AZTA": {
         "discovery_score": 63.0,
         "market_attention_score": 30.0,
         "signal_score": 72.5
       },
-      "BFH-PA": {
-        "discovery_score": 51.8,
-        "market_attention_score": 21.8,
-        "signal_score": 54.0
-      },
       "BHLL": {
-        "discovery_score": 58.8,
-        "market_attention_score": 29.9,
-        "signal_score": 67.5
+        "discovery_score": 66.8,
+        "market_attention_score": 31.1,
+        "signal_score": 68.0
       },
       "CAKE": {
-        "discovery_score": 62.3,
-        "market_attention_score": 30.3,
-        "signal_score": 62.0
+        "discovery_score": 70.6,
+        "market_attention_score": 31.9,
+        "signal_score": 67.5
       },
       "CON": {
-        "discovery_score": 53.9,
-        "market_attention_score": 25.8,
-        "signal_score": 63.5
+        "discovery_score": 60.8,
+        "market_attention_score": 30.4,
+        "signal_score": 71.6
       },
       "COTY": {
-        "discovery_score": 55.2,
-        "market_attention_score": 30.4,
-        "signal_score": 71.5
+        "discovery_score": 63.2,
+        "market_attention_score": 31.5,
+        "signal_score": 72.0
       },
       "CRMD": {
-        "discovery_score": 86.1,
-        "market_attention_score": 37.9,
-        "signal_score": 74.5
+        "discovery_score": 83.1,
+        "market_attention_score": 37.5,
+        "signal_score": 74.0
       },
       "ELMT": {
         "discovery_score": 61.6,
@@ -44734,9 +44729,9 @@
         "signal_score": 67.5
       },
       "IRHOR": {
-        "discovery_score": 58.5,
-        "market_attention_score": 28.8,
-        "signal_score": 65.0
+        "discovery_score": 66.8,
+        "market_attention_score": 30.3,
+        "signal_score": 68.0
       },
       "KULR": {
         "discovery_score": 64.1,
@@ -44749,14 +44744,24 @@
         "signal_score": 62.0
       },
       "LEU": {
-        "discovery_score": 64.4,
-        "market_attention_score": 36.0,
-        "signal_score": 76.6
+        "discovery_score": 65.9,
+        "market_attention_score": 37.1,
+        "signal_score": 77.6
       },
       "LOVIU": {
         "discovery_score": 66.8,
         "market_attention_score": 30.3,
         "signal_score": 68.0
+      },
+      "LVO": {
+        "discovery_score": 59.6,
+        "market_attention_score": 27.3,
+        "signal_score": 65.6
+      },
+      "MAN": {
+        "discovery_score": 59.0,
+        "market_attention_score": 26.9,
+        "signal_score": 63.6
       },
       "NHP": {
         "discovery_score": 54.6,
@@ -44764,9 +44769,9 @@
         "signal_score": 66.5
       },
       "NXXT": {
-        "discovery_score": 61.5,
-        "market_attention_score": 26.8,
-        "signal_score": 61.0
+        "discovery_score": 77.8,
+        "market_attention_score": 29.5,
+        "signal_score": 67.0
       },
       "OBAI": {
         "discovery_score": 55.4,
@@ -44774,59 +44779,49 @@
         "signal_score": 61.5
       },
       "REGCO": {
-        "discovery_score": 54.6,
-        "market_attention_score": 28.8,
-        "signal_score": 66.5
-      },
-      "RENT": {
-        "discovery_score": 53.2,
-        "market_attention_score": 25.2,
-        "signal_score": 58.0
+        "discovery_score": 62.6,
+        "market_attention_score": 29.9,
+        "signal_score": 67.0
       },
       "RLYB": {
-        "discovery_score": 51.8,
-        "market_attention_score": 21.8,
-        "signal_score": 54.0
+        "discovery_score": 64.3,
+        "market_attention_score": 30.3,
+        "signal_score": 71.6
       },
       "SEV": {
-        "discovery_score": 66.6,
-        "market_attention_score": 33.5,
-        "signal_score": 81.5
+        "discovery_score": 69.1,
+        "market_attention_score": 35.9,
+        "signal_score": 83.2
       },
       "SPRO": {
-        "discovery_score": 48.0,
-        "market_attention_score": 21.8,
-        "signal_score": 51.0
-      },
-      "STRRP": {
-        "discovery_score": 48.0,
-        "market_attention_score": 21.8,
-        "signal_score": 51.0
+        "discovery_score": 56.3,
+        "market_attention_score": 23.3,
+        "signal_score": 54.0
       },
       "SUNS": {
-        "discovery_score": 48.0,
-        "market_attention_score": 21.8,
-        "signal_score": 51.0
+        "discovery_score": 70.3,
+        "market_attention_score": 28.4,
+        "signal_score": 62.5
       },
       "TLF": {
-        "discovery_score": 52.5,
-        "market_attention_score": 24.8,
-        "signal_score": 57.0
+        "discovery_score": 70.3,
+        "market_attention_score": 28.4,
+        "signal_score": 62.5
       },
       "UCTT": {
-        "discovery_score": 61.1,
-        "market_attention_score": 27.4,
-        "signal_score": 65.0
+        "discovery_score": 53.1,
+        "market_attention_score": 27.1,
+        "signal_score": 64.5
       },
       "VIVK": {
-        "discovery_score": 70.9,
-        "market_attention_score": 30.8,
-        "signal_score": 72.5
+        "discovery_score": 62.9,
+        "market_attention_score": 30.4,
+        "signal_score": 72.0
       },
       "ZDPY": {
-        "discovery_score": 51.8,
-        "market_attention_score": 21.8,
-        "signal_score": 54.0
+        "discovery_score": 56.0,
+        "market_attention_score": 24.8,
+        "signal_score": 60.6
       }
     }
   }
