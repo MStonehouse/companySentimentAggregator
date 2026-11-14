@@ -42687,6 +42687,75 @@
         "debt_equity": 0,
         "beta": 1.9277048
       }
+    },
+    "TPST": {
+      "cached_at": "2026-11-14T18:46:13.053906+00:00",
+      "data": {
+        "name": "Tempest Therapeutics Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2012-10-04",
+        "weburl": "https://www.tempesttx.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950373670076.png",
+        "market_cap": 7552246.604177546,
+        "pe_ttm": null,
+        "ps_ttm": 25.1742,
+        "pb_annual": 2.1207,
+        "revenue_growth_ttm_yoy": -6.25,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -46.67,
+        "net_margin_ttm": -9760,
+        "current_ratio": 2.4952,
+        "debt_equity": 0,
+        "beta": -1.3449337
+      }
+    },
+    "BBGI": {
+      "cached_at": "2026-11-14T18:46:13.053906+00:00",
+      "data": {
+        "name": "Beasley Broadcast Group Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2000-02-11",
+        "weburl": "https://bbgi.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959126356.png",
+        "market_cap": 11433823.930728242,
+        "pe_ttm": null,
+        "ps_ttm": 0.0606,
+        "pb_annual": 0.1133,
+        "revenue_growth_ttm_yoy": -16.12,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 6.89,
+        "net_margin_ttm": -55.68,
+        "current_ratio": 1.0038,
+        "debt_equity": 1.6786,
+        "beta": 4.980614
+      }
+    },
+    "NXB": {
+      "cached_at": "2026-11-14T18:46:13.053906+00:00",
+      "data": {
+        "name": "Nextboat Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NYSE MKT LLC",
+        "ipo_date": "2025-11-13",
+        "weburl": "https://www.offthehookys.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950959364026.png",
+        "market_cap": 35200051.623931624,
+        "pe_ttm": null,
+        "ps_ttm": 0.1959,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 12.54,
+        "net_margin_ttm": -5.49,
+        "current_ratio": 1.2917,
+        "debt_equity": 2.1468,
+        "beta": 2.3894289
+      }
     }
   }
 }
