@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-15T01:07:45.357770+00:00",
+    "generated_at": "2026-11-15T07:58:16.847889+00:00",
     "companies_scanned": 89,
     "sources_enabled": {
       "sec_edgar": true,
@@ -19,25 +19,18 @@
     "market_leaders": [
       "IONQ",
       "WU",
-      "BKNG",
-      "SOUNW",
       "BCIC",
-      "NHI",
       "XAIR",
-      "NTLA",
       "WFCF",
       "HIT",
       "DOUG",
-      "MGNX",
-      "CINGW",
-      "BBGI",
       "BYNOW",
       "HCACR",
+      "MGNX",
+      "CINGW",
       "MMTXW",
       "WINVR",
-      "CTRE",
       "TPST",
-      "BYSI",
       "CTNT",
       "ARAY",
       "FLUX",
@@ -46,7 +39,14 @@
       "SGLY",
       "DDD",
       "DLB",
-      "MG"
+      "BYSI",
+      "MG",
+      "CTRE",
+      "JSM",
+      "PMHS",
+      "YYAI",
+      "AZIO",
+      "BKNG"
     ],
     "emerging_signals": [
       "WU",
@@ -54,23 +54,16 @@
       "HCACR",
       "MMTXW",
       "WINVR",
-      "BKNG",
       "BCIC",
       "IONQ",
-      "NTLA",
       "XAIR",
       "DOUG",
-      "SOUNW",
       "CINGW",
       "WFCF",
-      "NHI",
       "MGNX",
-      "CTRE",
-      "BBGI",
-      "HIT",
       "TPST",
-      "BYSI",
       "CTNT",
+      "HIT",
       "ARAY",
       "FLUX",
       "DVLT",
@@ -78,34 +71,51 @@
       "SGLY",
       "DDD",
       "DLB",
-      "MG"
+      "BYSI",
+      "MG",
+      "CTRE",
+      "JSM",
+      "PMHS",
+      "YYAI",
+      "AZIO",
+      "BBGI"
     ]
   },
   "briefing": {
     "new_emerging": [
       "IONQ",
       "XAIR",
-      "SOUNW",
       "CINGW",
-      "NHI",
-      "BBGI"
+      "CTNT",
+      "ARAY",
+      "FLUX",
+      "DVLT",
+      "QCLS"
     ],
     "accelerating": [],
     "cooling": [
       {
         "ticker": "BKNG",
-        "delta": -35.8
-      },
-      {
-        "ticker": "NHI",
-        "delta": -21.2
+        "delta": -46.6
       },
       {
         "ticker": "MG",
         "delta": -15.1
       },
       {
+        "ticker": "CTRE",
+        "delta": -15.1
+      },
+      {
+        "ticker": "BBGI",
+        "delta": -14.8
+      },
+      {
         "ticker": "DDD",
+        "delta": -14.5
+      },
+      {
+        "ticker": "BYSI",
         "delta": -14.5
       },
       {
@@ -113,12 +123,8 @@
         "delta": -12.4
       },
       {
-        "ticker": "HIT",
-        "delta": -12.1
-      },
-      {
-        "ticker": "XAIR",
-        "delta": -11.4
+        "ticker": "YYAI",
+        "delta": -12.2
       }
     ],
     "major_catalysts": [
@@ -138,11 +144,6 @@
         "headline": "IonQ, Inc. (0001824920) (Filer)"
       },
       {
-        "ticker": "NTLA",
-        "category": "Regulatory / FDA",
-        "headline": "8-K/A - Intellia Therapeutics, Inc. (0001652130) (Filer)"
-      },
-      {
         "ticker": "XAIR",
         "category": "Regulatory / FDA",
         "headline": "Beyond Air, Inc. (0001641631) (Filer)"
@@ -153,26 +154,43 @@
         "headline": "Douglas Elliman Inc. (0001878897) (Filer)"
       },
       {
-        "ticker": "BKNG",
+        "ticker": "BYNOW",
         "category": "M&A",
-        "headline": "Booking Holdings Inc. (0001075531) (Filer)"
+        "headline": "byNordic Acquisition Corp (0001801417) (Filer)"
       },
       {
-        "ticker": "SOUNW",
-        "category": "Major contract",
-        "headline": "SOUNDHOUND AI, INC. (0001840856) (Filer)"
+        "ticker": "HCACR",
+        "category": "M&A",
+        "headline": "Hall Chadwick Acquisition Corp (0002079013) (Filer)"
+      },
+      {
+        "ticker": "CINGW",
+        "category": "Regulatory / FDA",
+        "headline": "Cingulate Inc. (0001862150) (Filer)"
       }
     ],
     "left_emerging_top20": [
       "AVHHL",
+      "BKNG",
       "CODX",
       "CTGO",
+      "CTRE",
       "DDD",
-      "NXB",
-      "RDN"
+      "NTLA",
+      "NXB"
     ]
   },
   "sectors": [
+    {
+      "sector": "N/A",
+      "company_count": 2,
+      "discovery_intensity": 50.5,
+      "signal_intensity": 61.2,
+      "tickers": [
+        "HCACR",
+        "WINVR"
+      ]
+    },
     {
       "sector": "Financial Services",
       "company_count": 2,
@@ -181,25 +199,6 @@
       "tickers": [
         "WU",
         "BCIC"
-      ]
-    },
-    {
-      "sector": "N/A",
-      "company_count": 2,
-      "discovery_intensity": 50.3,
-      "signal_intensity": 60.0,
-      "tickers": [
-        "HCACR",
-        "WINVR"
-      ]
-    },
-    {
-      "sector": "Hotels, Restaurants & Leisure",
-      "company_count": 1,
-      "discovery_intensity": 50.0,
-      "signal_intensity": 62.5,
-      "tickers": [
-        "BKNG"
       ]
     },
     {
@@ -213,17 +212,6 @@
       ]
     },
     {
-      "sector": "Real Estate",
-      "company_count": 3,
-      "discovery_intensity": 47.5,
-      "signal_intensity": 64.5,
-      "tickers": [
-        "DOUG",
-        "NHI",
-        "CTRE"
-      ]
-    },
-    {
       "sector": "Semiconductors",
       "company_count": 2,
       "discovery_intensity": 47.4,
@@ -234,38 +222,12 @@
       ]
     },
     {
-      "sector": "Biotechnology",
-      "company_count": 4,
-      "discovery_intensity": 47.0,
-      "signal_intensity": 60.0,
-      "tickers": [
-        "NTLA",
-        "MGNX",
-        "TPST",
-        "BYSI"
-      ]
-    },
-    {
-      "sector": "Media",
+      "sector": "Logistics & Transportation",
       "company_count": 1,
       "discovery_intensity": 46.4,
       "signal_intensity": 61.5,
       "tickers": [
-        "BBGI"
-      ]
-    },
-    {
-      "sector": "Unclassified",
-      "company_count": 8,
-      "discovery_intensity": 46.3,
-      "signal_intensity": 55.9,
-      "tickers": [
-        "BYNOW",
-        "MMTXW",
-        "SOUNW",
-        "CINGW",
-        "CTNT",
-        "QCLS"
+        "CTNT"
       ]
     },
     {
@@ -294,39 +256,81 @@
       "tickers": [
         "SGLY"
       ]
+    },
+    {
+      "sector": "Real Estate",
+      "company_count": 2,
+      "discovery_intensity": 44.5,
+      "signal_intensity": 55.8,
+      "tickers": [
+        "DOUG",
+        "CTRE"
+      ]
+    },
+    {
+      "sector": "Biotechnology",
+      "company_count": 3,
+      "discovery_intensity": 44.2,
+      "signal_intensity": 56.3,
+      "tickers": [
+        "MGNX",
+        "TPST",
+        "BYSI"
+      ]
+    },
+    {
+      "sector": "Unclassified",
+      "company_count": 10,
+      "discovery_intensity": 43.4,
+      "signal_intensity": 51.7,
+      "tickers": [
+        "BYNOW",
+        "MMTXW",
+        "CINGW",
+        "QCLS",
+        "DDD",
+        "DLB"
+      ]
+    },
+    {
+      "sector": "Professional Services",
+      "company_count": 2,
+      "discovery_intensity": 43.2,
+      "signal_intensity": 56.2,
+      "tickers": [
+        "WFCF",
+        "MG"
+      ]
     }
   ],
   "themes": [
     {
-      "theme": "AI infrastructure",
-      "company_count": 5,
-      "intensity": 48.6,
-      "tickers": [
-        "BKNG",
-        "IONQ",
-        "DOUG",
-        "SOUNW",
-        "DVLT"
-      ]
-    },
-    {
       "theme": "Cloud & software",
-      "company_count": 5,
-      "intensity": 48.2,
+      "company_count": 4,
+      "intensity": 47.8,
       "tickers": [
-        "BKNG",
         "IONQ",
         "CINGW",
-        "BBGI",
+        "TPST",
         "HIT"
       ]
     },
     {
-      "theme": "Biotech & therapeutics",
+      "theme": "AI infrastructure",
       "company_count": 4,
-      "intensity": 48.5,
+      "intensity": 46.0,
       "tickers": [
-        "NTLA",
+        "IONQ",
+        "DOUG",
+        "DVLT",
+        "AZIO"
+      ]
+    },
+    {
+      "theme": "Biotech & therapeutics",
+      "company_count": 3,
+      "intensity": 48.3,
+      "tickers": [
         "XAIR",
         "CINGW",
         "TPST"
@@ -343,11 +347,10 @@
     },
     {
       "theme": "Semiconductors",
-      "company_count": 2,
-      "intensity": 49.2,
+      "company_count": 1,
+      "intensity": 49.4,
       "tickers": [
-        "IONQ",
-        "SOUNW"
+        "IONQ"
       ]
     },
     {
@@ -487,6 +490,12 @@
         },
         {
           "date": "2026-11-15",
+          "discovery_score": 49.6,
+          "market_attention_score": 29.7,
+          "signal_score": 72.5
+        },
+        {
+          "date": "2026-11-15",
           "signal_score": 72.5,
           "discovery_score": 49.6
         }
@@ -496,12 +505,12 @@
       "ticker": "WU",
       "company_name": "Western Union CO",
       "signal_score": 72.5,
-      "market_attention_score": 31.9,
+      "market_attention_score": 33.5,
       "discovery_score": 51.1,
       "confidence_score": 93.8,
       "primary_catalyst": "Western Union CO (0001365135) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "9 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
+      "why_it_matters": "11 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
@@ -515,7 +524,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 4,
-        "unique_story_clusters": 9
+        "unique_story_clusters": 11
       },
       "metrics": {
         "primary_evidence": 25,
@@ -601,6 +610,20 @@
           "fingerprint": "79ebe7483adb",
           "display_relevance": 1.0,
           "display_relevant": true
+        },
+        {
+          "ticker": "WU",
+          "company_name": "Western Union CO",
+          "source": "Yahoo",
+          "title": "Western Union (WU) Ends Acquisition Fight And Heads To Court Over Collapsed Deal",
+          "summary": "Western Union (NYSE:WU) has ended its planned acquisition of International Money Express after a dispute with California regulators. The terminated deal has triggered a legal clash between Western Union and Intermex, with both sides preparing for court action. California authorities raised regulatory objections that the parties were unable to resolve before closing, leading to the collapse of the transaction. The ha…",
+          "url": "https://finnhub.io/api/news?id=bc52ac624d279350e62f3bdcea5564cbadba3826859e3f144a09a14f201242cd",
+          "published_at": "2026-11-13T07:16:22+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "62997251bcde",
+          "display_relevance": 0.62,
+          "display_relevant": true
         }
       ],
       "history": [
@@ -609,6 +632,12 @@
           "discovery_score": 63.5,
           "market_attention_score": 41.6,
           "signal_score": 80.5
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 51.1,
+          "market_attention_score": 31.9,
+          "signal_score": 72.5
         },
         {
           "date": "2026-11-15",
@@ -733,144 +762,9 @@
         },
         {
           "date": "2026-11-15",
-          "signal_score": 66.5,
-          "discovery_score": 46.7
-        }
-      ]
-    },
-    {
-      "ticker": "NHI",
-      "company_name": "NATIONAL HEALTH INVESTORS INC",
-      "signal_score": 66.5,
-      "market_attention_score": 29.0,
-      "discovery_score": 46.7,
-      "confidence_score": 93.8,
-      "primary_catalyst": "NATIONAL HEALTH INVESTORS INC (0000877860) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "8 unique credible information items from 4 independent sources. Coverage is 0.4× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-14T16:42:51+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 86,
-      "change": {
-        "signal_delta": 4.8,
-        "discovery_delta": -21.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 8
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 15.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.4,
-        "weighted_coverage_24h": 0.2,
-        "weighted_source_breadth": 1.3
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.9,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.4,
-        "weighted_coverage_24h": 0.2,
-        "weighted_source_breadth": 1.3
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "National Health Investors, Inc.",
-        "industry": "Real Estate",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "1991-07-24",
-        "weburl": "https://www.nhireit.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959045906.png",
-        "market_cap": 3091502059.519752,
-        "pe_ttm": 18.5344,
-        "ps_ttm": 7.1543,
-        "pb_annual": 2.429,
-        "revenue_growth_ttm_yoy": 23.94,
-        "eps_growth_ttm_yoy": 10.39,
-        "gross_margin_ttm": 74,
-        "net_margin_ttm": 38.6,
-        "current_ratio": 1.1918,
-        "debt_equity": 0.7649,
-        "beta": 0.5157863
-      },
-      "profile": {
-        "name": "National Health Investors, Inc.",
-        "description": "National Health Investors, Inc. (NYSE: NHI) is a real estate investment trust specializing in sale-leaseback, joint-venture, mortgage, and mezzanine financing.",
-        "industry": "Real Estate",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.nhireit.com",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "NHI",
-          "company_name": "NATIONAL HEALTH INVESTORS INC",
-          "source": "SEC EDGAR",
-          "title": "NATIONAL HEALTH INVESTORS INC (0000877860) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0000877860-26-000230 Size: 249 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/877860/000087786026000230/0000877860-26-000230-index.htm",
-          "published_at": "2026-11-13T17:04:36-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "8e9f6611de62",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "NHI",
-          "company_name": "NATIONAL HEALTH INVESTORS INC",
-          "source": "Yahoo",
-          "title": "National Health Investors (NHI) Q3 Results Raise The Question Of Whether It Is Still Undervalued",
-          "summary": "National Health Investors (NHI) has just put fresh numbers on the table, reporting third quarter 2026 results that show US$113.48 million in revenue and a sharp jump in net income and earnings per share. Despite stronger third quarter figures and new 2026 guidance, National Health Investors’ recent share price performance has been weak. The stock is down 9.82% over the past week and 16.01% year to date at US$64.55.…",
-          "url": "https://finnhub.io/api/news?id=0c3679d3e80f67e1033160b61d2c0273cb799f0387e6307335b0202f186046a2",
-          "published_at": "2026-11-13T11:13:25+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "d827e99dc781",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-20",
-          "discovery_score": 53.0,
-          "market_attention_score": 18.8,
-          "signal_score": 39.7
-        },
-        {
-          "date": "2026-10-03",
-          "discovery_score": 67.9,
-          "market_attention_score": 30.6,
-          "signal_score": 61.7
+          "discovery_score": 46.7,
+          "market_attention_score": 26.7,
+          "signal_score": 66.5
         },
         {
           "date": "2026-11-15",
@@ -1007,12 +901,6 @@
       ],
       "history": [
         {
-          "date": "2026-09-15",
-          "discovery_score": 77.2,
-          "market_attention_score": 43.6,
-          "signal_score": 63.7
-        },
-        {
           "date": "2026-10-16",
           "discovery_score": 65.2,
           "market_attention_score": 45.0,
@@ -1023,6 +911,12 @@
           "discovery_score": 54.6,
           "market_attention_score": 40.8,
           "signal_score": 66.5
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 49.4,
+          "market_attention_score": 39.2,
+          "signal_score": 65.5
         },
         {
           "date": "2026-11-15",
@@ -1149,134 +1043,14 @@
         },
         {
           "date": "2026-11-15",
-          "signal_score": 65.5,
-          "discovery_score": 49.3
-        }
-      ]
-    },
-    {
-      "ticker": "NTLA",
-      "company_name": "Intellia Therapeutics, Inc.",
-      "signal_score": 65.5,
-      "market_attention_score": 27.6,
-      "discovery_score": 49.4,
-      "confidence_score": 87.8,
-      "primary_catalyst": "8-K/A - Intellia Therapeutics, Inc. (0001652130) (Filer)",
-      "catalyst_category": "Regulatory / FDA",
-      "why_it_matters": "5 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-11-13T17:05:40-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 90,
-      "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 5
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 18,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Intellia Therapeutics, Inc.",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2016-05-06",
-        "weburl": "https://www.intelliatx.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/NTLA.png",
-        "market_cap": 1361477673.4218009,
-        "pe_ttm": null,
-        "ps_ttm": 24.578,
-        "pb_annual": 1.551,
-        "revenue_growth_ttm_yoy": 12.58,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": -672.16,
-        "current_ratio": 5.0798,
-        "debt_equity": 0,
-        "beta": 1.8274171
-      },
-      "profile": {
-        "name": "Intellia Therapeutics Inc",
-        "description": "Intellia Therapeutics, a leading clinical-stage genome editing company, is developing novel, potentially curative therapeutics leveraging CRISPR-based technologies.",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.intelliatx.com/",
-        "products_markets": [
-          "Biotechnology",
-          "Therapeutics"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "NTLA",
-          "company_name": "Intellia Therapeutics, Inc.",
-          "source": "SEC EDGAR",
-          "title": "8-K/A - Intellia Therapeutics, Inc. (0001652130) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001193125-26-460948 Size: 29 MB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1652130/000119312526460948/0001193125-26-460948-index.htm",
-          "published_at": "2026-11-13T17:05:40-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "14d2f6e4ed7c",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-14",
-          "discovery_score": 57.6,
-          "market_attention_score": 31.6,
-          "signal_score": 70.5
+          "discovery_score": 49.3,
+          "market_attention_score": 26.1,
+          "signal_score": 65.5
         },
         {
           "date": "2026-11-15",
           "signal_score": 65.5,
-          "discovery_score": 49.4
+          "discovery_score": 49.3
         }
       ]
     },
@@ -1407,35 +1181,41 @@
         },
         {
           "date": "2026-11-15",
+          "discovery_score": 49.4,
+          "market_attention_score": 28.3,
+          "signal_score": 65.5
+        },
+        {
+          "date": "2026-11-15",
           "signal_score": 65.5,
           "discovery_score": 49.4
         }
       ]
     },
     {
-      "ticker": "BKNG",
-      "company_name": "Booking Holdings Inc.",
+      "ticker": "BYNOW",
+      "company_name": "byNordic Acquisition Corp",
       "signal_score": 62.5,
-      "market_attention_score": 31.9,
-      "discovery_score": 50.0,
-      "confidence_score": 79.8,
-      "primary_catalyst": "Booking Holdings Inc. (0001075531) (Filer)",
+      "market_attention_score": 25.9,
+      "discovery_score": 50.6,
+      "confidence_score": 67.8,
+      "primary_catalyst": "byNordic Acquisition Corp (0001801417) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "9 unique credible information items from 2 independent sources. Coverage is 0.4× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-14T02:08:00+00:00",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T21:57:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 90,
+      "days_on_radar": 63,
       "change": {
-        "signal_delta": -7.0,
-        "discovery_delta": -35.8
+        "signal_delta": -2.5,
+        "discovery_delta": -7.9
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 9
+        "unique_story_clusters": 2
       },
       "metrics": {
         "primary_evidence": 25,
@@ -1444,23 +1224,23 @@
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.4,
-        "weighted_coverage_24h": 0.2,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
         "attention_lift": 0.0,
-        "novelty": 19.2,
+        "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.4,
-        "weighted_coverage_24h": 0.2,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.33,
+        "avg_items_24h": 0.07,
         "days_available": 30,
         "maturity": "established"
       },
@@ -1473,72 +1253,196 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Booking Holdings Inc.",
-        "industry": "Hotels, Restaurants & Leisure",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1999-03-29",
-        "weburl": "https://www.bookingholdings.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BKNG.png",
-        "market_cap": 118679840501.48933,
-        "pe_ttm": 16.5489,
-        "ps_ttm": 4.0925,
-        "pb_annual": 28.099,
-        "revenue_growth_ttm_yoy": 11.47,
-        "eps_growth_ttm_yoy": 50.68,
-        "gross_margin_ttm": 98.09,
-        "net_margin_ttm": 24.73,
-        "current_ratio": 1.3333,
-        "debt_equity": 4.5068,
-        "beta": 1.1293739
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 0.7721774
       },
       "profile": {
-        "name": "Booking Holdings Inc",
-        "description": "Booking Holdings is the world's leader in online travel. Brands include Booking.com, priceline.com, agoda.com, Kayak, Rentalcars.com & OpenTable.",
-        "industry": "Hotels, Restaurants & Leisure",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.bookingholdings.com/",
+        "name": "BYNOW",
+        "description": "BYNOW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
         "products_markets": [],
-        "source": "Company website"
+        "source": "Structured company profile"
       },
-      "themes": [
-        "AI infrastructure",
-        "Cloud & software"
-      ],
+      "themes": [],
       "stories": [
         {
-          "ticker": "BKNG",
-          "company_name": "Booking Holdings Inc.",
+          "ticker": "BYNOW",
+          "company_name": "byNordic Acquisition Corp",
           "source": "SEC EDGAR",
-          "title": "Booking Holdings Inc. (0001075531) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001104659-26-127223 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1075531/000110465926127223/0001104659-26-127223-index.htm",
-          "published_at": "2026-11-13T17:12:18-05:00",
+          "title": "byNordic Acquisition Corp (0001801417) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001213900-26-119837 Size: 258 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1801417/000121390026119837/0001213900-26-119837-index.htm",
+          "published_at": "2026-11-13T16:59:49-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "e40cb7a67749",
+          "fingerprint": "47c1d7441485",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-09-23",
-          "discovery_score": 76.9,
-          "market_attention_score": 86.6,
-          "signal_score": 65.9
+          "date": "2026-11-14",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
         },
         {
-          "date": "2026-11-14",
-          "discovery_score": 85.8,
-          "market_attention_score": 40.5,
-          "signal_score": 69.5
+          "date": "2026-11-15",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
           "date": "2026-11-15",
           "signal_score": 62.5,
-          "discovery_score": 50.0
+          "discovery_score": 50.6
+        }
+      ]
+    },
+    {
+      "ticker": "HCACR",
+      "company_name": "Hall Chadwick Acquisition Corp",
+      "signal_score": 62.5,
+      "market_attention_score": 25.9,
+      "discovery_score": 50.6,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Hall Chadwick Acquisition Corp (0002079013) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T16:48:36-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 45,
+      "change": {
+        "signal_delta": -2.5,
+        "discovery_delta": -7.9
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 20,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": 400000000.0,
+        "market_cap_ratio": 1.3379,
+        "score": 20,
+        "label": "Potentially transformative",
+        "basis": "REEcycle Holdings, Inc. and Hall Chadwick Acquisition Corp. Announce SEC Effectiveness of Registration Statement, Advancing Proposed Nasdaq Listing",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+      },
+      "fundamentals": {
+        "name": "Hall Chadwick Acquisition Corp",
+        "industry": "N/A",
+        "country": "KY",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2025-11-21",
+        "weburl": "",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950961800956.png",
+        "market_cap": 298980263.1093673,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 0.03575749
+      },
+      "profile": {
+        "name": "Hall Chadwick Acquisition Corp",
+        "description": "Hall Chadwick Acquisition Corp is a publicly traded company operating in the N/A industry with company information identifying KY as its home market.",
+        "industry": "N/A",
+        "country": "KY",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "HCACR",
+          "company_name": "Hall Chadwick Acquisition Corp",
+          "source": "SEC EDGAR",
+          "title": "Hall Chadwick Acquisition Corp (0002079013) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001829126-26-012409 Size: 327 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/2079013/000182912626012409/0001829126-26-012409-index.htm",
+          "published_at": "2026-11-13T16:48:36-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "b5791d5fd81c",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-14",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-11-15",
+          "signal_score": 62.5,
+          "discovery_score": 50.6
         }
       ]
     },
@@ -1660,30 +1564,36 @@
         },
         {
           "date": "2026-11-15",
+          "discovery_score": 46.4,
+          "market_attention_score": 25.6,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-11-15",
           "signal_score": 61.5,
           "discovery_score": 46.4
         }
       ]
     },
     {
-      "ticker": "CTRE",
-      "company_name": "CareTrust REIT, Inc.",
+      "ticker": "TPST",
+      "company_name": "Tempest Therapeutics, Inc.",
       "signal_score": 61.5,
       "market_attention_score": 24.1,
       "discovery_score": 46.4,
       "confidence_score": 79.8,
-      "primary_catalyst": "CareTrust REIT, Inc. (0001590717) (Filer)",
+      "primary_catalyst": "Tempest Therapeutics, Inc. (0001544227) (Filer)",
       "catalyst_category": "Earnings / guidance",
       "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
       "article_count_24h": 0,
-      "latest_event_at": "2026-11-13T17:25:32-05:00",
+      "latest_event_at": "2026-11-13T21:47:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 85,
+      "days_on_radar": 86,
       "change": {
-        "signal_delta": -10.0,
-        "discovery_delta": -8.5
+        "signal_delta": -5.0,
+        "discovery_delta": -8.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1718,86 +1628,205 @@
         "maturity": "established"
       },
       "materiality": {
-        "estimated_event_value": 637500000.0,
-        "market_cap_ratio": 0.065,
-        "score": 10,
-        "label": "Meaningful",
-        "basis": "CareTrust REIT, Inc. Announces Pricing of Public Offering of Common Stock",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "CareTrust REIT, Inc.",
-        "industry": "Real Estate",
+        "name": "Tempest Therapeutics Inc",
+        "industry": "Biotechnology",
         "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2014-05-20",
-        "weburl": "https://www.caretrustreit.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950406309776.png",
-        "market_cap": 9809037728.89856,
-        "pe_ttm": 27.6582,
-        "ps_ttm": 17.2017,
-        "pb_annual": 2.0436,
-        "revenue_growth_ttm_yoy": 53.03,
-        "eps_growth_ttm_yoy": 32.2,
-        "gross_margin_ttm": 98.79,
-        "net_margin_ttm": 62.19,
-        "current_ratio": 1.0674,
-        "debt_equity": 0.2216,
-        "beta": 0.7704412
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2012-10-04",
+        "weburl": "https://www.tempesttx.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950373670076.png",
+        "market_cap": 7552246.604177546,
+        "pe_ttm": null,
+        "ps_ttm": 25.1742,
+        "pb_annual": 2.1207,
+        "revenue_growth_ttm_yoy": -6.25,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": -46.67,
+        "net_margin_ttm": -9760,
+        "current_ratio": 2.4952,
+        "debt_equity": 0,
+        "beta": -1.3449337
       },
       "profile": {
-        "name": "CareTrust REIT Inc",
-        "description": "CareTrust acquires and leases senior housing and healthcare properties across the country to operators of all sizes. Our mission is two-fold: To help top-notch healthcare operators realize their growth potential, while delivering steady value to our shareholders through accretive investments, a well-protected dividend, and a best-in-class tenant roster. Our real estate portfolio is …",
-        "industry": "Real Estate",
+        "name": "Tempest Therapeutics Inc",
+        "description": "Tempest Therapeutics is developing first-in-class small molecule product candidates with broad potential benefit to patients.",
+        "industry": "Biotechnology",
         "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.caretrustreit.com/",
-        "products_markets": [],
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.tempesttx.com/",
+        "products_markets": [
+          "Biotechnology",
+          "Therapeutics"
+        ],
         "source": "Company website"
       },
-      "themes": [],
+      "themes": [
+        "Biotech & therapeutics",
+        "Cloud & software"
+      ],
       "stories": [
         {
-          "ticker": "CTRE",
-          "company_name": "CareTrust REIT, Inc.",
+          "ticker": "TPST",
+          "company_name": "Tempest Therapeutics, Inc.",
           "source": "SEC EDGAR",
-          "title": "CareTrust REIT, Inc. (0001590717) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001140361-26-043831 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1590717/000114036126043831/0001140361-26-043831-index.htm",
-          "published_at": "2026-11-13T17:25:32-05:00",
+          "title": "Tempest Therapeutics, Inc. (0001544227) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001213900-26-119916 Size: 339 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026119916/0001213900-26-119916-index.htm",
+          "published_at": "2026-11-13T17:27:38-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "4e5ef1c93209",
+          "fingerprint": "8be253214c3c",
           "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "CTRE",
-          "company_name": "CareTrust REIT, Inc.",
-          "source": "Yahoo",
-          "title": "CareTrust REIT, Inc. Announces Pricing of Public Offering of Common Stock",
-          "summary": "DANA POINT, Calif., November 12, 2026--CareTrust REIT, Inc. (NYSE: CTRE) (\"CareTrust REIT\" or the \"Company\") announced the pricing of an underwritten public offering of an aggregate of 17,000,000 shares of its common stock sold on a forward basis in connection with the forward sale agreements described below, for gross proceeds of approximately $637.5 million. The underwriters may also purchase up to an additional 2…",
-          "url": "https://finnhub.io/api/news?id=c1038affa252863ec109ce0751d903c6c9059ce8aa00e134cfae4deabc0c8da4",
-          "published_at": "2026-11-12T05:30:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "fda4b8a7808a",
-          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-10-02",
-          "discovery_score": 96.3,
-          "market_attention_score": 61.2,
-          "signal_score": 94.9
+          "date": "2026-11-14",
+          "discovery_score": 54.6,
+          "market_attention_score": 28.8,
+          "signal_score": 66.5
         },
         {
+          "date": "2026-11-15",
+          "discovery_score": 46.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-11-15",
+          "signal_score": 61.5,
+          "discovery_score": 46.4
+        }
+      ]
+    },
+    {
+      "ticker": "CTNT",
+      "company_name": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
+      "signal_score": 61.5,
+      "market_attention_score": 24.1,
+      "discovery_score": 46.4,
+      "confidence_score": 79.8,
+      "primary_catalyst": "CHEETAH NET SUPPLY CHAIN SERVICE INC. (0001951667) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T22:05:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 81,
+      "change": {
+        "signal_delta": 0.0,
+        "discovery_delta": -7.9
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 14,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 10.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Cheetah Net Supply Chain Service Inc",
+        "industry": "Logistics & Transportation",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2023-08-01",
+        "weburl": "https://cheetah-net.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950836227546.png",
+        "market_cap": 2146844.4374999995,
+        "pe_ttm": null,
+        "ps_ttm": 1.5159,
+        "pb_annual": 0.413,
+        "revenue_growth_ttm_yoy": 4.83,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 8.12,
+        "net_margin_ttm": -206.78,
+        "current_ratio": 6.7372,
+        "debt_equity": 0.0739,
+        "beta": -0.57906616
+      },
+      "profile": {
+        "name": "Cheetah Net Supply Chain Service Inc",
+        "description": "Cheetah Net Supply Chain Service Inc is a publicly traded company operating in the Logistics & Transportation industry with company information identifying US as its home market.",
+        "industry": "Logistics & Transportation",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://cheetah-net.com",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "CTNT",
+          "company_name": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
+          "source": "SEC EDGAR",
+          "title": "CHEETAH NET SUPPLY CHAIN SERVICE INC. (0001951667) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001104659-26-127228 Size: 409 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1951667/000110465926127228/0001104659-26-127228-index.htm",
+          "published_at": "2026-11-13T17:16:05-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "f0ebddf87244",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
           "date": "2026-11-14",
-          "discovery_score": 54.9,
-          "market_attention_score": 30.7,
-          "signal_score": 71.5
+          "discovery_score": 54.3,
+          "market_attention_score": 26.9,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 46.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
         },
         {
           "date": "2026-11-15",
@@ -1956,131 +1985,14 @@
         },
         {
           "date": "2026-11-15",
-          "signal_score": 61.5,
-          "discovery_score": 46.3
-        }
-      ]
-    },
-    {
-      "ticker": "BBGI",
-      "company_name": "BEASLEY BROADCAST GROUP INC",
-      "signal_score": 61.5,
-      "market_attention_score": 24.8,
-      "discovery_score": 46.4,
-      "confidence_score": 83.8,
-      "primary_catalyst": "BEASLEY BROADCAST GROUP INC (0001099160) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-11-13T17:09:13+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 89,
-      "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 4
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Beasley Broadcast Group Inc",
-        "industry": "Media",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2000-02-11",
-        "weburl": "https://bbgi.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959126356.png",
-        "market_cap": 11433823.930728242,
-        "pe_ttm": null,
-        "ps_ttm": 0.0606,
-        "pb_annual": 0.1133,
-        "revenue_growth_ttm_yoy": -16.12,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 6.89,
-        "net_margin_ttm": -55.68,
-        "current_ratio": 1.0038,
-        "debt_equity": 1.6786,
-        "beta": 4.980614
-      },
-      "profile": {
-        "name": "Beasley Broadcast Group Inc",
-        "description": "Beasley offers music, news, sports commentary, and entertainment to over 20 million listeners weekly.",
-        "industry": "Media",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://bbgi.com",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [
-        "Cloud & software"
-      ],
-      "stories": [
-        {
-          "ticker": "BBGI",
-          "company_name": "BEASLEY BROADCAST GROUP INC",
-          "source": "SEC EDGAR",
-          "title": "BEASLEY BROADCAST GROUP INC (0001099160) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001193125-26-460951 Size: 934 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1099160/000119312526460951/0001193125-26-460951-index.htm",
-          "published_at": "2026-11-13T17:06:46-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "be572f8dcfb1",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-14",
-          "discovery_score": 54.6,
-          "market_attention_score": 28.8,
-          "signal_score": 66.5
+          "discovery_score": 46.3,
+          "market_attention_score": 26.3,
+          "signal_score": 61.5
         },
         {
           "date": "2026-11-15",
           "signal_score": 61.5,
-          "discovery_score": 46.4
+          "discovery_score": 46.3
         }
       ]
     },
@@ -2203,368 +2115,14 @@
         },
         {
           "date": "2026-11-15",
-          "signal_score": 60.5,
-          "discovery_score": 49.0
-        }
-      ]
-    },
-    {
-      "ticker": "SOUNW",
-      "company_name": "SOUNDHOUND AI, INC.",
-      "signal_score": 60.5,
-      "market_attention_score": 30.1,
-      "discovery_score": 49.1,
-      "confidence_score": 79.8,
-      "primary_catalyst": "SOUNDHOUND AI, INC. (0001840856) (Filer)",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "9 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-11-13T17:00:22-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 75,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 9
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 18,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 13.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "ipo_date": "",
-        "weburl": "",
-        "logo": "",
-        "market_cap": null,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 7.9305706
-      },
-      "profile": {
-        "name": "SOUNW",
-        "description": "SOUNW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "AI infrastructure",
-        "Semiconductors"
-      ],
-      "stories": [
-        {
-          "ticker": "SOUNW",
-          "company_name": "SOUNDHOUND AI, INC.",
-          "source": "SEC EDGAR",
-          "title": "SOUNDHOUND AI, INC. (0001840856) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001213900-26-119843 Size: 243 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1840856/000121390026119843/0001213900-26-119843-index.htm",
-          "published_at": "2026-11-13T17:00:22-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "9bb26e5d3371",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 49.0,
+          "market_attention_score": 24.9,
+          "signal_score": 60.5
+        },
         {
           "date": "2026-11-15",
           "signal_score": 60.5,
-          "discovery_score": 49.1
-        }
-      ]
-    },
-    {
-      "ticker": "BYNOW",
-      "company_name": "byNordic Acquisition Corp",
-      "signal_score": 60.0,
-      "market_attention_score": 24.8,
-      "discovery_score": 50.3,
-      "confidence_score": 62,
-      "primary_catalyst": "byNordic Acquisition Corp (0001801417) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-11-13T16:59:49-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 63,
-      "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "ipo_date": "",
-        "weburl": "",
-        "logo": "",
-        "market_cap": null,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 0.7721774
-      },
-      "profile": {
-        "name": "BYNOW",
-        "description": "BYNOW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "BYNOW",
-          "company_name": "byNordic Acquisition Corp",
-          "source": "SEC EDGAR",
-          "title": "byNordic Acquisition Corp (0001801417) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001213900-26-119837 Size: 258 KB Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1801417/000121390026119837/0001213900-26-119837-index.htm",
-          "published_at": "2026-11-13T16:59:49-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "47c1d7441485",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-14",
-          "discovery_score": 58.5,
-          "market_attention_score": 28.8,
-          "signal_score": 65.0
-        },
-        {
-          "date": "2026-11-15",
-          "signal_score": 60.0,
-          "discovery_score": 50.3
-        }
-      ]
-    },
-    {
-      "ticker": "HCACR",
-      "company_name": "Hall Chadwick Acquisition Corp",
-      "signal_score": 60.0,
-      "market_attention_score": 24.8,
-      "discovery_score": 50.3,
-      "confidence_score": 62,
-      "primary_catalyst": "Hall Chadwick Acquisition Corp (0002079013) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-11-13T16:48:36-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 45,
-      "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Hall Chadwick Acquisition Corp",
-        "industry": "N/A",
-        "country": "KY",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2025-11-21",
-        "weburl": "",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950961800956.png",
-        "market_cap": 298980263.1093673,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 0.03575749
-      },
-      "profile": {
-        "name": "Hall Chadwick Acquisition Corp",
-        "description": "Hall Chadwick Acquisition Corp is a publicly traded company operating in the N/A industry with company information identifying KY as its home market.",
-        "industry": "N/A",
-        "country": "KY",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "HCACR",
-          "company_name": "Hall Chadwick Acquisition Corp",
-          "source": "SEC EDGAR",
-          "title": "Hall Chadwick Acquisition Corp (0002079013) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001829126-26-012409 Size: 327 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/2079013/000182912626012409/0001829126-26-012409-index.htm",
-          "published_at": "2026-11-13T16:48:36-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "b5791d5fd81c",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-14",
-          "discovery_score": 58.5,
-          "market_attention_score": 28.8,
-          "signal_score": 65.0
-        },
-        {
-          "date": "2026-11-15",
-          "signal_score": 60.0,
-          "discovery_score": 50.3
+          "discovery_score": 49.0
         }
       ]
     },
@@ -2681,6 +2239,12 @@
           "discovery_score": 58.5,
           "market_attention_score": 28.8,
           "signal_score": 65.0
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
           "date": "2026-11-15",
@@ -2811,356 +2375,14 @@
         },
         {
           "date": "2026-11-15",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-11-15",
           "signal_score": 60.0,
           "discovery_score": 50.3
-        }
-      ]
-    },
-    {
-      "ticker": "TPST",
-      "company_name": "Tempest Therapeutics, Inc.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 46.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Tempest Therapeutics, Inc. (0001544227) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-11-13T17:49:30+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 86,
-      "change": {
-        "signal_delta": -10.0,
-        "discovery_delta": -8.5
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Tempest Therapeutics Inc",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2012-10-04",
-        "weburl": "https://www.tempesttx.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950373670076.png",
-        "market_cap": 7552246.604177546,
-        "pe_ttm": null,
-        "ps_ttm": 25.1742,
-        "pb_annual": 2.1207,
-        "revenue_growth_ttm_yoy": -6.25,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": -46.67,
-        "net_margin_ttm": -9760,
-        "current_ratio": 2.4952,
-        "debt_equity": 0,
-        "beta": -1.3449337
-      },
-      "profile": {
-        "name": "Tempest Therapeutics Inc",
-        "description": "Tempest Therapeutics is developing first-in-class small molecule product candidates with broad potential benefit to patients.",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.tempesttx.com/",
-        "products_markets": [
-          "Biotechnology",
-          "Therapeutics"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "TPST",
-          "company_name": "Tempest Therapeutics, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Tempest Therapeutics, Inc. (0001544227) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001213900-26-119916 Size: 339 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1544227/000121390026119916/0001213900-26-119916-index.htm",
-          "published_at": "2026-11-13T17:27:38-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "8be253214c3c",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-14",
-          "discovery_score": 54.6,
-          "market_attention_score": 28.8,
-          "signal_score": 66.5
-        },
-        {
-          "date": "2026-11-15",
-          "signal_score": 56.5,
-          "discovery_score": 46.1
-        }
-      ]
-    },
-    {
-      "ticker": "BYSI",
-      "company_name": "BeyondSpring Inc.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 46.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "BeyondSpring Inc. (0001677940) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-11-13T18:18:17+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 59,
-      "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Beyondspring Inc",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2017-03-09",
-        "weburl": "https://www.beyondspringpharma.com/en/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950521437276.png",
-        "market_cap": 28467251.80877863,
-        "pe_ttm": null,
-        "ps_ttm": 21.9448,
-        "pb_annual": 6.645,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": -4750.48,
-        "current_ratio": 1.5382,
-        "debt_equity": 0.0588,
-        "beta": -0.25873467
-      },
-      "profile": {
-        "name": "Beyondspring Inc",
-        "description": "Beyondspring Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
-        "industry": "Biotechnology",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.beyondspringpharma.com/en/",
-        "products_markets": [
-          "Biotechnology"
-        ],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "BYSI",
-          "company_name": "BeyondSpring Inc.",
-          "source": "SEC EDGAR",
-          "title": "BeyondSpring Inc. (0001677940) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001171843-26-007431 Size: 313 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1677940/000117184326007431/0001171843-26-007431-index.htm",
-          "published_at": "2026-11-13T17:27:36-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "12cdaa1f57ef",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-29",
-          "discovery_score": 90.2,
-          "market_attention_score": 53.4,
-          "signal_score": 90.7
-        },
-        {
-          "date": "2026-11-14",
-          "discovery_score": 54.3,
-          "market_attention_score": 26.9,
-          "signal_score": 61.5
-        },
-        {
-          "date": "2026-11-15",
-          "signal_score": 56.5,
-          "discovery_score": 46.1
-        }
-      ]
-    },
-    {
-      "ticker": "CTNT",
-      "company_name": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 46.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "CHEETAH NET SUPPLY CHAIN SERVICE INC. (0001951667) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 0,
-      "latest_event_at": "2026-11-13T18:15:48+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 81,
-      "change": {
-        "signal_delta": -5.0,
-        "discovery_delta": -8.2
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 0.0,
-        "catalyst_strength": 14,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 0.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 10.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.0,
-        "weighted_coverage_24h": 0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "CTNT",
-          "company_name": "CHEETAH NET SUPPLY CHAIN SERVICE INC.",
-          "source": "SEC EDGAR",
-          "title": "CHEETAH NET SUPPLY CHAIN SERVICE INC. (0001951667) (Filer)",
-          "summary": "Filed: 2026-11-13 AccNo: 0001104659-26-127228 Size: 409 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1951667/000110465926127228/0001104659-26-127228-index.htm",
-          "published_at": "2026-11-13T17:16:05-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "f0ebddf87244",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-14",
-          "discovery_score": 54.3,
-          "market_attention_score": 26.9,
-          "signal_score": 61.5
-        },
-        {
-          "date": "2026-11-15",
-          "signal_score": 56.5,
-          "discovery_score": 46.1
         }
       ]
     },
@@ -3277,6 +2499,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-15",
+          "discovery_score": 46.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
         {
           "date": "2026-11-15",
           "signal_score": 56.5,
@@ -3399,6 +2627,12 @@
           "discovery_score": 53.5,
           "market_attention_score": 26.4,
           "signal_score": 60.5
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 45.4,
+          "market_attention_score": 22.4,
+          "signal_score": 55.5
         },
         {
           "date": "2026-11-15",
@@ -3534,6 +2768,12 @@
         },
         {
           "date": "2026-11-15",
+          "discovery_score": 45.4,
+          "market_attention_score": 22.4,
+          "signal_score": 55.5
+        },
+        {
+          "date": "2026-11-15",
           "signal_score": 55.5,
           "discovery_score": 45.4
         }
@@ -3624,6 +2864,12 @@
           "discovery_score": 53.2,
           "market_attention_score": 25.2,
           "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
           "date": "2026-11-15",
@@ -3752,6 +2998,12 @@
         },
         {
           "date": "2026-11-15",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-11-15",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3842,6 +3094,12 @@
           "discovery_score": 54.6,
           "market_attention_score": 28.1,
           "signal_score": 66.5
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 40.1,
+          "market_attention_score": 18.9,
+          "signal_score": 48.5
         },
         {
           "date": "2026-11-15",
@@ -3938,8 +3196,149 @@
         },
         {
           "date": "2026-11-15",
+          "discovery_score": 40.1,
+          "market_attention_score": 18.9,
+          "signal_score": 48.5
+        },
+        {
+          "date": "2026-11-15",
           "signal_score": 48.5,
           "discovery_score": 40.1
+        }
+      ]
+    },
+    {
+      "ticker": "BYSI",
+      "company_name": "BeyondSpring Inc.",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
+      "confidence_score": 62,
+      "primary_catalyst": "BeyondSpring Inc. (0001677940) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T17:27:36-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 59,
+      "change": {
+        "signal_delta": -15.5,
+        "discovery_delta": -14.5
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Beyondspring Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2017-03-09",
+        "weburl": "https://www.beyondspringpharma.com/en/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950521437276.png",
+        "market_cap": 28467251.80877863,
+        "pe_ttm": null,
+        "ps_ttm": 21.9448,
+        "pb_annual": 6.645,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": -4750.48,
+        "current_ratio": 1.5382,
+        "debt_equity": 0.0588,
+        "beta": -0.25873467
+      },
+      "profile": {
+        "name": "Beyondspring Inc",
+        "description": "Beyondspring Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.beyondspringpharma.com/en/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "BYSI",
+          "company_name": "BeyondSpring Inc.",
+          "source": "SEC EDGAR",
+          "title": "BeyondSpring Inc. (0001677940) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001171843-26-007431 Size: 313 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1677940/000117184326007431/0001171843-26-007431-index.htm",
+          "published_at": "2026-11-13T17:27:36-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "12cdaa1f57ef",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-29",
+          "discovery_score": 90.2,
+          "market_attention_score": 53.4,
+          "signal_score": 90.7
+        },
+        {
+          "date": "2026-11-14",
+          "discovery_score": 54.3,
+          "market_attention_score": 26.9,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 46.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-11-15",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
         }
       ]
     },
@@ -4063,6 +3462,767 @@
           "discovery_score": 54.9,
           "market_attention_score": 35.5,
           "signal_score": 74.4
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-11-15",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
+        }
+      ]
+    },
+    {
+      "ticker": "CTRE",
+      "company_name": "CareTrust REIT, Inc.",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
+      "confidence_score": 62,
+      "primary_catalyst": "CareTrust REIT, Inc. (0001590717) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T17:25:32-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 85,
+      "change": {
+        "signal_delta": -25.5,
+        "discovery_delta": -15.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "CareTrust REIT, Inc.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-05-20",
+        "weburl": "https://www.caretrustreit.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950406309776.png",
+        "market_cap": 9809037728.89856,
+        "pe_ttm": 27.6582,
+        "ps_ttm": 17.2017,
+        "pb_annual": 2.0436,
+        "revenue_growth_ttm_yoy": 53.03,
+        "eps_growth_ttm_yoy": 32.2,
+        "gross_margin_ttm": 98.79,
+        "net_margin_ttm": 62.19,
+        "current_ratio": 1.0674,
+        "debt_equity": 0.2216,
+        "beta": 0.7704412
+      },
+      "profile": {
+        "name": "CareTrust REIT Inc",
+        "description": "CareTrust acquires and leases senior housing and healthcare properties across the country to operators of all sizes. Our mission is two-fold: To help top-notch healthcare operators realize their growth potential, while delivering steady value to our shareholders through accretive investments, a well-protected dividend, and a best-in-class tenant roster. Our real estate portfolio is …",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.caretrustreit.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "CTRE",
+          "company_name": "CareTrust REIT, Inc.",
+          "source": "SEC EDGAR",
+          "title": "CareTrust REIT, Inc. (0001590717) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001140361-26-043831 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1590717/000114036126043831/0001140361-26-043831-index.htm",
+          "published_at": "2026-11-13T17:25:32-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "4e5ef1c93209",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-02",
+          "discovery_score": 96.3,
+          "market_attention_score": 61.2,
+          "signal_score": 94.9
+        },
+        {
+          "date": "2026-11-14",
+          "discovery_score": 54.9,
+          "market_attention_score": 30.7,
+          "signal_score": 71.5
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 46.4,
+          "market_attention_score": 24.1,
+          "signal_score": 61.5
+        },
+        {
+          "date": "2026-11-15",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
+        }
+      ]
+    },
+    {
+      "ticker": "JSM",
+      "company_name": "Navient Holdings, Inc.",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
+      "confidence_score": 62,
+      "primary_catalyst": "Navient Holdings, Inc. (0002152623) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T17:21:46-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 86,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "JSM",
+          "company_name": "Navient Holdings, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Navient Holdings, Inc. (0002152623) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001140361-26-043829 Size: 154 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/2152623/000114036126043829/0001140361-26-043829-index.htm",
+          "published_at": "2026-11-13T17:21:46-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "9e16ab626006",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-15",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
+        }
+      ]
+    },
+    {
+      "ticker": "PMHS",
+      "company_name": "Polomar Health Services, Inc.",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
+      "confidence_score": 62,
+      "primary_catalyst": "Polomar Health Services, Inc. (0001265521) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T17:21:31-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 27,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "PMHS",
+          "company_name": "Polomar Health Services, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Polomar Health Services, Inc. (0001265521) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001493152-26-051849 Size: 252 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1265521/000149315226051849/0001493152-26-051849-index.htm",
+          "published_at": "2026-11-13T17:21:31-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "28090dbff6a6",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-15",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
+        }
+      ]
+    },
+    {
+      "ticker": "YYAI",
+      "company_name": "AIRWA INC.",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
+      "confidence_score": 62,
+      "primary_catalyst": "AIRWA INC. (0001674440) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T17:15:19-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 80,
+      "change": {
+        "signal_delta": -12.5,
+        "discovery_delta": -12.2
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "YYAI",
+          "company_name": "AIRWA INC.",
+          "source": "SEC EDGAR",
+          "title": "AIRWA INC. (0001674440) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001493152-26-051834 Size: 480 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1674440/000149315226051834/0001493152-26-051834-index.htm",
+          "published_at": "2026-11-13T17:15:19-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "889e9e28f694",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-14",
+          "discovery_score": 52.0,
+          "market_attention_score": 25.4,
+          "signal_score": 58.5
+        },
+        {
+          "date": "2026-11-15",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
+        }
+      ]
+    },
+    {
+      "ticker": "AZIO",
+      "company_name": "AZIO AI HOLDINGS, INC.",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
+      "confidence_score": 62,
+      "primary_catalyst": "AZIO AI HOLDINGS, INC. (0001563568) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T17:15:08-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 88,
+      "change": {
+        "signal_delta": -5.0,
+        "discovery_delta": -8.2
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [
+        "AI infrastructure"
+      ],
+      "stories": [
+        {
+          "ticker": "AZIO",
+          "company_name": "AZIO AI HOLDINGS, INC.",
+          "source": "SEC EDGAR",
+          "title": "AZIO AI HOLDINGS, INC. (0001563568) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001437749-26-036953 Size: 200 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.07: Submission of Matters to a Vote of Security Holders",
+          "url": "https://www.sec.gov/Archives/edgar/data/1563568/000143774926036953/0001437749-26-036953-index.htm",
+          "published_at": "2026-11-13T17:15:08-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "24a91bec89ae",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-11-15",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
+        }
+      ]
+    },
+    {
+      "ticker": "BKNG",
+      "company_name": "Booking Holdings Inc.",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.2,
+      "confidence_score": 62,
+      "primary_catalyst": "Booking Holdings Inc. (0001075531) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T17:12:18-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 90,
+      "change": {
+        "signal_delta": -23.5,
+        "discovery_delta": -46.6
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.2,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.33,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Booking Holdings Inc.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1999-03-29",
+        "weburl": "https://www.bookingholdings.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/BKNG.png",
+        "market_cap": 118679840501.48933,
+        "pe_ttm": 16.5489,
+        "ps_ttm": 4.0925,
+        "pb_annual": 28.099,
+        "revenue_growth_ttm_yoy": 11.47,
+        "eps_growth_ttm_yoy": 50.68,
+        "gross_margin_ttm": 98.09,
+        "net_margin_ttm": 24.73,
+        "current_ratio": 1.3333,
+        "debt_equity": 4.5068,
+        "beta": 1.1293739
+      },
+      "profile": {
+        "name": "Booking Holdings Inc",
+        "description": "Booking Holdings is the world's leader in online travel. Brands include Booking.com, priceline.com, agoda.com, Kayak, Rentalcars.com & OpenTable.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.bookingholdings.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "BKNG",
+          "company_name": "Booking Holdings Inc.",
+          "source": "SEC EDGAR",
+          "title": "Booking Holdings Inc. (0001075531) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001104659-26-127223 Size: 1 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1075531/000110465926127223/0001104659-26-127223-index.htm",
+          "published_at": "2026-11-13T17:12:18-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "e40cb7a67749",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-23",
+          "discovery_score": 76.9,
+          "market_attention_score": 86.6,
+          "signal_score": 65.9
+        },
+        {
+          "date": "2026-11-14",
+          "discovery_score": 85.8,
+          "market_attention_score": 40.5,
+          "signal_score": 69.5
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 50.0,
+          "market_attention_score": 31.9,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-11-15",
+          "signal_score": 46.0,
+          "discovery_score": 39.2
+        }
+      ]
+    },
+    {
+      "ticker": "BBGI",
+      "company_name": "BEASLEY BROADCAST GROUP INC",
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
+      "confidence_score": 62,
+      "primary_catalyst": "BEASLEY BROADCAST GROUP INC (0001099160) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-13T17:06:46-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 89,
+      "change": {
+        "signal_delta": -20.5,
+        "discovery_delta": -14.8
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Beasley Broadcast Group Inc",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2000-02-11",
+        "weburl": "https://bbgi.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959126356.png",
+        "market_cap": 11433823.930728242,
+        "pe_ttm": null,
+        "ps_ttm": 0.0606,
+        "pb_annual": 0.1133,
+        "revenue_growth_ttm_yoy": -16.12,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 6.89,
+        "net_margin_ttm": -55.68,
+        "current_ratio": 1.0038,
+        "debt_equity": 1.6786,
+        "beta": 4.980614
+      },
+      "profile": {
+        "name": "Beasley Broadcast Group Inc",
+        "description": "Beasley offers music, news, sports commentary, and entertainment to over 20 million listeners weekly.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://bbgi.com",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "BBGI",
+          "company_name": "BEASLEY BROADCAST GROUP INC",
+          "source": "SEC EDGAR",
+          "title": "BEASLEY BROADCAST GROUP INC (0001099160) (Filer)",
+          "summary": "Filed: 2026-11-13 AccNo: 0001193125-26-460951 Size: 934 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1099160/000119312526460951/0001193125-26-460951-index.htm",
+          "published_at": "2026-11-13T17:06:46-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "be572f8dcfb1",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-14",
+          "discovery_score": 54.6,
+          "market_attention_score": 28.8,
+          "signal_score": 66.5
+        },
+        {
+          "date": "2026-11-15",
+          "discovery_score": 46.4,
+          "market_attention_score": 24.8,
+          "signal_score": 61.5
         },
         {
           "date": "2026-11-15",
