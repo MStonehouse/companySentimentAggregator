@@ -19466,7 +19466,7 @@
       "IAUM": 0,
       "IBIT": 0,
       "INDP": 0,
-      "IONQ": 1,
+      "IONQ": 0,
       "IRLA": 0,
       "ISMCF": 0,
       "JSM": 0,
@@ -29315,29 +29315,35 @@
         "HCACR",
         "MMTXW",
         "WINVR",
+        "BKNG",
         "BCIC",
+        "BYSI",
         "IONQ",
+        "NTLA",
         "XAIR",
         "DOUG",
+        "SOUNW",
         "CINGW",
         "WFCF",
+        "NHI",
         "MGNX",
         "TPST",
-        "CTNT",
-        "HIT",
-        "ARAY",
-        "FLUX",
-        "DVLT",
-        "QCLS",
-        "SGLY"
+        "CTRE",
+        "CTNT"
       ],
       "market_leaders": [
         "IONQ",
         "WU",
+        "BKNG",
+        "SOUNW",
         "BCIC",
         "XAIR",
+        "NHI",
+        "NTLA",
         "WFCF",
         "HIT",
+        "BBGI",
+        "BYSI",
         "DOUG",
         "BYNOW",
         "HCACR",
@@ -29345,13 +29351,7 @@
         "CINGW",
         "MMTXW",
         "WINVR",
-        "TPST",
-        "CTNT",
-        "ARAY",
-        "FLUX",
-        "DVLT",
-        "QCLS",
-        "SGLY"
+        "TPST"
       ]
     }
   },
@@ -41532,15 +41532,10 @@
         "market_attention_score": 22.9,
         "signal_score": 56.5
       },
-      "AZIO": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
-      },
       "BBGI": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
+        "discovery_score": 46.4,
+        "market_attention_score": 26.3,
+        "signal_score": 61.5
       },
       "BCIC": {
         "discovery_score": 49.6,
@@ -41548,9 +41543,9 @@
         "signal_score": 72.5
       },
       "BKNG": {
-        "discovery_score": 39.2,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
+        "discovery_score": 50.0,
+        "market_attention_score": 31.1,
+        "signal_score": 62.5
       },
       "BYNOW": {
         "discovery_score": 50.6,
@@ -41558,9 +41553,9 @@
         "signal_score": 62.5
       },
       "BYSI": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
+        "discovery_score": 49.4,
+        "market_attention_score": 26.1,
+        "signal_score": 65.5
       },
       "CINGW": {
         "discovery_score": 49.0,
@@ -41573,9 +41568,9 @@
         "signal_score": 61.5
       },
       "CTRE": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
+        "discovery_score": 46.4,
+        "market_attention_score": 24.1,
+        "signal_score": 61.5
       },
       "DDD": {
         "discovery_score": 40.1,
@@ -41614,13 +41609,8 @@
       },
       "IONQ": {
         "discovery_score": 49.4,
-        "market_attention_score": 39.2,
+        "market_attention_score": 38.8,
         "signal_score": 65.5
-      },
-      "JSM": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
       },
       "MG": {
         "discovery_score": 39.8,
@@ -41637,10 +41627,15 @@
         "market_attention_score": 24.8,
         "signal_score": 60.0
       },
-      "PMHS": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
+      "NHI": {
+        "discovery_score": 46.7,
+        "market_attention_score": 28.2,
+        "signal_score": 66.5
+      },
+      "NTLA": {
+        "discovery_score": 49.4,
+        "market_attention_score": 27.6,
+        "signal_score": 65.5
       },
       "QCLS": {
         "discovery_score": 45.1,
@@ -41651,6 +41646,11 @@
         "discovery_score": 45.1,
         "market_attention_score": 21.2,
         "signal_score": 53.0
+      },
+      "SOUNW": {
+        "discovery_score": 49.1,
+        "market_attention_score": 30.9,
+        "signal_score": 60.5
       },
       "TPST": {
         "discovery_score": 46.4,
@@ -41676,11 +41676,6 @@
         "discovery_score": 49.4,
         "market_attention_score": 28.3,
         "signal_score": 65.5
-      },
-      "YYAI": {
-        "discovery_score": 39.8,
-        "market_attention_score": 17.8,
-        "signal_score": 46.0
       }
     }
   }
