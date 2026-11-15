@@ -14974,7 +14974,7 @@
       }
     },
     "SOUNW": {
-      "cached_at": "2026-09-07T18:17:31.101904+00:00",
+      "cached_at": "2026-11-15T01:07:45.357770+00:00",
       "data": {
         "name": "",
         "industry": "",
@@ -14993,7 +14993,7 @@
         "net_margin_ttm": null,
         "current_ratio": null,
         "debt_equity": null,
-        "beta": 7.5276337
+        "beta": 7.9305706
       }
     },
     "LPSN": {
@@ -27808,7 +27808,7 @@
       }
     },
     "XAIR": {
-      "cached_at": "2026-10-03T17:27:21.589181+00:00",
+      "cached_at": "2026-11-15T01:07:45.357770+00:00",
       "data": {
         "name": "Beyond Air Inc",
         "industry": "Health Care",
@@ -27817,9 +27817,9 @@
         "ipo_date": "2019-05-07",
         "weburl": "https://www.beyondair.net/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/XAIR.png",
-        "market_cap": 3910000.0,
+        "market_cap": 3730000.0,
         "pe_ttm": null,
-        "ps_ttm": 0.3603,
+        "ps_ttm": 0.4173,
         "pb_annual": 1.1863,
         "revenue_growth_ttm_yoy": 60.75,
         "eps_growth_ttm_yoy": null,
@@ -27827,7 +27827,7 @@
         "net_margin_ttm": -435.71,
         "current_ratio": 3.8039,
         "debt_equity": 3.5978,
-        "beta": 0.29516438
+        "beta": 0.38755298
       }
     },
     "GWRS": {
@@ -42755,6 +42755,52 @@
         "current_ratio": 1.2917,
         "debt_equity": 2.1468,
         "beta": 2.3894289
+      }
+    },
+    "NHI": {
+      "cached_at": "2026-11-15T01:07:45.357770+00:00",
+      "data": {
+        "name": "National Health Investors, Inc.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1991-07-24",
+        "weburl": "https://www.nhireit.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959045906.png",
+        "market_cap": 3091502059.519752,
+        "pe_ttm": 18.5344,
+        "ps_ttm": 7.1543,
+        "pb_annual": 2.429,
+        "revenue_growth_ttm_yoy": 23.94,
+        "eps_growth_ttm_yoy": 10.39,
+        "gross_margin_ttm": 74,
+        "net_margin_ttm": 38.6,
+        "current_ratio": 1.1918,
+        "debt_equity": 0.7649,
+        "beta": 0.5157863
+      }
+    },
+    "CINGW": {
+      "cached_at": "2026-11-15T01:07:45.357770+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 0.6950154
       }
     }
   }
