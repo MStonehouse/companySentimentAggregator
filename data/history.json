@@ -18773,7 +18773,7 @@
       "BBGI": 0,
       "BCIC": 0,
       "BITA": 0,
-      "BKNG": 0,
+      "BKNG": 2,
       "BOC": 0,
       "BYNOW": 0,
       "BYSI": 0,
@@ -18836,7 +18836,7 @@
       "SGLY": 0,
       "SLV": 0,
       "SNUS-PH": 0,
-      "SOUNW": 0,
+      "SOUNW": 2,
       "SRG-PA": 0,
       "TBLA": 0,
       "TKO": 0,
@@ -28675,12 +28675,13 @@
       ],
       "market_leaders": [
         "IONQ",
-        "WU",
         "SOUNW",
+        "WU",
         "NHI",
         "BYSI",
         "DOUG",
         "BCIC",
+        "BKNG",
         "BYNOW",
         "HCACR",
         "BBGI",
@@ -28689,7 +28690,6 @@
         "WINVR",
         "TPST",
         "CTNT",
-        "BKNG",
         "HIT",
         "ARAY",
         "FLUX",
@@ -40766,7 +40766,7 @@
       },
       "BKNG": {
         "discovery_score": 43.2,
-        "market_attention_score": 23.6,
+        "market_attention_score": 25.9,
         "signal_score": 53.5
       },
       "BYNOW": {
@@ -40876,7 +40876,7 @@
       },
       "SOUNW": {
         "discovery_score": 49.1,
-        "market_attention_score": 27.1,
+        "market_attention_score": 29.4,
         "signal_score": 60.5
       },
       "TPST": {
