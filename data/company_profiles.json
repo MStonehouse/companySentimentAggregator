@@ -22745,6 +22745,75 @@
         ],
         "source": "Company website"
       }
+    },
+    "TRAK": {
+      "updated_at": "2026-11-18",
+      "data": {
+        "name": "ReposiTrak Inc",
+        "description": "ReposiTrak Inc is a publicly traded company operating in the Technology industry with company information identifying US as its home market.",
+        "industry": "Technology",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://repositrak.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "SGRP": {
+      "updated_at": "2026-11-18",
+      "data": {
+        "name": "SPAR Group Inc",
+        "description": "SPAR Group Inc is a publicly traded company operating in the Media industry with company information identifying US as its home market.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.sparinc.com",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "APD": {
+      "updated_at": "2026-11-18",
+      "data": {
+        "name": "Air Products and Chemicals, Inc.",
+        "description": "Air Products and Chemicals, Inc. is a publicly traded company operating in the Chemicals industry with company information identifying US as its home market.",
+        "industry": "Chemicals",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.airproducts.com/",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "ADACW": {
+      "updated_at": "2026-11-18",
+      "data": {
+        "name": "ADACW",
+        "description": "ADACW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      }
+    },
+    "GUER": {
+      "updated_at": "2026-11-18",
+      "data": {
+        "name": "Guerrilla RF Inc",
+        "description": "Guerrilla RF designs high-performance MMICs — LNAs, gain blocks, linear and saturated power amplifiers, mixers, and switches for cellular, automotive, and defense.",
+        "industry": "Semiconductors",
+        "country": "US",
+        "exchange": "OTC MARKETS",
+        "website": "https://www.guerrilla-rf.com/",
+        "products_markets": [
+          "Semiconductors",
+          "Automotive",
+          "Aerospace & defense"
+        ],
+        "source": "Company website"
+      }
     }
   }
 }
