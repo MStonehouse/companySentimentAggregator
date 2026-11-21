@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-21T02:39:32.505998+00:00",
+    "generated_at": "2026-11-21T20:09:47.744925+00:00",
     "companies_scanned": 68,
     "sources_enabled": {
       "sec_edgar": true,
@@ -18,27 +18,26 @@
   "rankings": {
     "market_leaders": [
       "POST",
-      "LQDT",
       "TSN",
+      "LQDT",
       "UTZ",
+      "SUNE",
       "VWAVW",
       "DEC",
       "IQST",
-      "SUNE",
-      "SZZLU",
       "NRGV",
-      "CODX",
+      "SZZLU",
       "FMACR",
       "OYSEU",
       "CLYD",
+      "CODX",
       "RIBBR",
       "VAI",
       "ONEN",
+      "CMPX",
       "FTCO",
       "STK",
-      "BCML",
       "AIMDW",
-      "CMPX",
       "SXTPW",
       "BFRI",
       "BCDA",
@@ -46,65 +45,66 @@
       "SQFTW",
       "ICUCW",
       "UONEK",
-      "ADNT"
+      "BCML",
+      "TRUG"
     ],
     "emerging_signals": [
-      "POST",
+      "TSN",
       "LQDT",
       "SUNE",
-      "TSN",
-      "VWAVW",
+      "POST",
       "UTZ",
       "NRGV",
       "IQST",
+      "VWAVW",
       "DEC",
       "RIBBR",
       "VAI",
       "STK",
-      "CODX",
       "SZZLU",
       "FMACR",
       "OYSEU",
       "CLYD",
+      "CODX",
       "FTCO",
       "SXTPW",
       "IBIO",
       "BCDA",
       "UONEK",
-      "TRUG",
       "BCML",
       "ADNT",
-      "AIMDW",
       "CMPX",
+      "AIMDW",
       "BFRI",
       "SQFTW",
-      "ICUCW"
+      "ICUCW",
+      "ONEN"
     ]
   },
   "briefing": {
     "new_emerging": [
-      "POST",
+      "TSN",
       "LQDT",
       "SUNE",
-      "TSN",
-      "VWAVW",
+      "POST",
       "NRGV",
       "IQST",
+      "VWAVW",
       "RIBBR"
     ],
-    "accelerating": [
-      {
-        "ticker": "POST",
-        "delta": 14.9
-      }
-    ],
+    "accelerating": [],
     "cooling": [
       {
         "ticker": "NRGV",
-        "delta": -25.6
+        "delta": -25.3
       }
     ],
     "major_catalysts": [
+      {
+        "ticker": "POST",
+        "category": "Major contract",
+        "headline": "Post Holdings, Inc. (0001530950) (Filer)"
+      },
       {
         "ticker": "LQDT",
         "category": "M&A",
@@ -121,21 +121,6 @@
         "headline": "Utz Brands, Inc. (0001739566) (Filer)"
       },
       {
-        "ticker": "VWAVW",
-        "category": "M&A",
-        "headline": "VisionWave Holdings, Inc. (0002038439) (Filer)"
-      },
-      {
-        "ticker": "DEC",
-        "category": "M&A",
-        "headline": "Diversified Energy Co (0001922446) (Filer)"
-      },
-      {
-        "ticker": "IQST",
-        "category": "M&A",
-        "headline": "iQSTEL Inc (0001527702) (Filer)"
-      },
-      {
         "ticker": "NRGV",
         "category": "Major contract",
         "headline": "Energy Vault Holdings, Inc. (0001828536) (Filer)"
@@ -144,6 +129,16 @@
         "ticker": "SUNE",
         "category": "M&A",
         "headline": "SUNation Energy, Inc. (0000022701) (Filer)"
+      },
+      {
+        "ticker": "VWAVW",
+        "category": "M&A",
+        "headline": "VisionWave Holdings, Inc. (0002038439) (Filer)"
+      },
+      {
+        "ticker": "DEC",
+        "category": "M&A",
+        "headline": "Diversified Energy Co (0001922446) (Filer)"
       }
     ],
     "left_emerging_top20": [
@@ -170,19 +165,19 @@
     {
       "sector": "Food Products",
       "company_count": 3,
-      "discovery_intensity": 66.9,
-      "signal_intensity": 78.3,
+      "discovery_intensity": 67.3,
+      "signal_intensity": 77.6,
       "tickers": [
-        "POST",
         "TSN",
+        "POST",
         "UTZ"
       ]
     },
     {
       "sector": "Electrical Equipment",
       "company_count": 2,
-      "discovery_intensity": 64.8,
-      "signal_intensity": 68.8,
+      "discovery_intensity": 65.1,
+      "signal_intensity": 73.8,
       "tickers": [
         "SUNE",
         "NRGV"
@@ -216,15 +211,6 @@
       ]
     },
     {
-      "sector": "Health Care",
-      "company_count": 1,
-      "discovery_intensity": 59.9,
-      "signal_intensity": 70.6,
-      "tickers": [
-        "CODX"
-      ]
-    },
-    {
       "sector": "N/A",
       "company_count": 5,
       "discovery_intensity": 59.6,
@@ -238,6 +224,15 @@
       ]
     },
     {
+      "sector": "Health Care",
+      "company_count": 1,
+      "discovery_intensity": 58.3,
+      "signal_intensity": 69.5,
+      "tickers": [
+        "CODX"
+      ]
+    },
+    {
       "sector": "Biotechnology",
       "company_count": 1,
       "discovery_intensity": 56.9,
@@ -247,18 +242,9 @@
       ]
     },
     {
-      "sector": "Media",
-      "company_count": 1,
-      "discovery_intensity": 56.3,
-      "signal_intensity": 54.0,
-      "tickers": [
-        "TRUG"
-      ]
-    },
-    {
       "sector": "Unclassified",
       "company_count": 13,
-      "discovery_intensity": 56.0,
+      "discovery_intensity": 55.6,
       "signal_intensity": 61.0,
       "tickers": [
         "VWAVW",
@@ -272,10 +258,19 @@
     {
       "sector": "Auto Components",
       "company_count": 1,
-      "discovery_intensity": 55.6,
-      "signal_intensity": 63.6,
+      "discovery_intensity": 54.1,
+      "signal_intensity": 62.6,
       "tickers": [
         "ADNT"
+      ]
+    },
+    {
+      "sector": "Media",
+      "company_count": 1,
+      "discovery_intensity": 48.3,
+      "signal_intensity": 53.5,
+      "tickers": [
+        "TRUG"
       ]
     }
   ],
@@ -283,28 +278,29 @@
     {
       "theme": "Cloud & software",
       "company_count": 5,
-      "intensity": 64.4,
+      "intensity": 65.1,
       "tickers": [
-        "LQDT",
         "TSN",
-        "VWAVW",
+        "LQDT",
         "IQST",
+        "VWAVW",
         "CODX"
       ]
     },
     {
       "theme": "AI infrastructure",
-      "company_count": 2,
-      "intensity": 61.1,
+      "company_count": 3,
+      "intensity": 58.7,
       "tickers": [
         "TSN",
+        "CMPX",
         "TRUG"
       ]
     },
     {
       "theme": "Biotech & therapeutics",
       "company_count": 2,
-      "intensity": 59.6,
+      "intensity": 63.9,
       "tickers": [
         "TSN",
         "CMPX"
@@ -313,7 +309,7 @@
     {
       "theme": "Semiconductors",
       "company_count": 1,
-      "intensity": 65.8,
+      "intensity": 62.6,
       "tickers": [
         "VWAVW"
       ]
@@ -321,7 +317,7 @@
     {
       "theme": "Defense & aerospace",
       "company_count": 1,
-      "intensity": 65.8,
+      "intensity": 62.6,
       "tickers": [
         "VWAVW"
       ]
@@ -329,7 +325,7 @@
     {
       "theme": "Critical minerals",
       "company_count": 1,
-      "intensity": 65.8,
+      "intensity": 62.6,
       "tickers": [
         "VWAVW"
       ]
@@ -356,48 +352,48 @@
     {
       "ticker": "POST",
       "company_name": "Post Holdings, Inc.",
-      "signal_score": 81.3,
-      "market_attention_score": 44.5,
-      "discovery_score": 69.5,
+      "signal_score": 79.6,
+      "market_attention_score": 44.4,
+      "discovery_score": 64.0,
       "confidence_score": 93.8,
       "primary_catalyst": "Post Holdings, Inc. (0001530950) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "19 unique credible information items from 6 independent sources. Coverage is 3.6× the stored baseline.",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "20 unique credible information items from 6 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 9,
-      "latest_event_at": "2026-11-20T17:59:56+00:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-11-21T02:18:34+00:00",
       "new_to_radar": false,
       "days_on_radar": 90,
       "change": {
-        "signal_delta": 14.8,
-        "discovery_delta": 14.9
+        "signal_delta": 13.1,
+        "discovery_delta": 9.4
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 6,
-        "unique_story_clusters": 19
+        "unique_story_clusters": 20
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 14.8,
-        "catalyst_strength": 14,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 18,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 3.6,
-        "weighted_coverage_24h": 1.8,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.5
       },
       "discovery_metrics": {
-        "attention_lift": 22.2,
+        "attention_lift": 13.7,
         "novelty": 19.8,
         "source_breadth": 4.5,
-        "catalyst_strength": 10.5,
+        "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 3.6,
-        "weighted_coverage_24h": 1.8,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.5
       },
       "baseline": {
@@ -497,8 +493,14 @@
         },
         {
           "date": "2026-11-21",
-          "signal_score": 81.3,
-          "discovery_score": 69.5
+          "discovery_score": 69.5,
+          "market_attention_score": 44.5,
+          "signal_score": 81.3
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 79.6,
+          "discovery_score": 64.0
         }
       ]
     },
@@ -506,16 +508,16 @@
       "ticker": "LQDT",
       "company_name": "LIQUIDITY SERVICES INC",
       "signal_score": 78.0,
-      "market_attention_score": 39.8,
+      "market_attention_score": 40.5,
       "discovery_score": 67.7,
       "confidence_score": 93.8,
       "primary_catalyst": "LIQUIDITY SERVICES INC (0001235468) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "13 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "14 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
       "article_count_24h": 2,
-      "latest_event_at": "2026-11-20T17:17:29-05:00",
+      "latest_event_at": "2026-11-21T09:12:36+00:00",
       "new_to_radar": false,
       "days_on_radar": 93,
       "change": {
@@ -525,7 +527,7 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 5,
-        "unique_story_clusters": 13
+        "unique_story_clusters": 14
       },
       "metrics": {
         "primary_evidence": 25,
@@ -628,6 +630,12 @@
       "history": [
         {
           "date": "2026-11-21",
+          "discovery_score": 67.7,
+          "market_attention_score": 39.8,
+          "signal_score": 78.0
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 78.0,
           "discovery_score": 67.7
         }
@@ -636,22 +644,22 @@
     {
       "ticker": "UTZ",
       "company_name": "Utz Brands, Inc.",
-      "signal_score": 77.6,
-      "market_attention_score": 32.6,
-      "discovery_score": 65.3,
+      "signal_score": 76.6,
+      "market_attention_score": 32.2,
+      "discovery_score": 63.8,
       "confidence_score": 83.8,
       "primary_catalyst": "Utz Brands, Inc. (0001739566) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.4× the stored baseline.",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 3,
+      "article_count_24h": 2,
       "latest_event_at": "2026-11-20T23:29:10+00:00",
       "new_to_radar": false,
       "days_on_radar": 22,
       "change": {
-        "signal_delta": 7.1,
-        "discovery_delta": 3.3
+        "signal_delta": 6.1,
+        "discovery_delta": 1.8
       },
       "evidence": {
         "primary_source_count": 1,
@@ -660,24 +668,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 10.1,
+        "coverage_acceleration": 9.1,
         "catalyst_strength": 20,
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 15.2,
+        "attention_lift": 13.7,
         "novelty": 19.0,
         "source_breadth": 3.6,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -763,25 +771,31 @@
         },
         {
           "date": "2026-11-21",
-          "signal_score": 77.6,
-          "discovery_score": 65.3
+          "discovery_score": 65.3,
+          "market_attention_score": 32.6,
+          "signal_score": 77.6
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 76.6,
+          "discovery_score": 63.8
         }
       ]
     },
     {
       "ticker": "TSN",
       "company_name": "TYSON FOODS, INC.",
-      "signal_score": 76.0,
-      "market_attention_score": 39.1,
-      "discovery_score": 65.9,
+      "signal_score": 76.5,
+      "market_attention_score": 41.4,
+      "discovery_score": 74.2,
       "confidence_score": 93.8,
       "primary_catalyst": "TYSON FOODS, INC. (0000100493) (Filer)",
       "catalyst_category": "Major contract",
-      "why_it_matters": "14 unique credible information items from 4 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "16 unique credible information items from 5 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-20T18:12:44+00:00",
+      "article_count_24h": 3,
+      "latest_event_at": "2026-11-21T15:07:00+00:00",
       "new_to_radar": false,
       "days_on_radar": 95,
       "change": {
@@ -790,30 +804,30 @@
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 4,
-        "unique_story_clusters": 14
+        "independent_sources": 5,
+        "unique_story_clusters": 16
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.5,
+        "coverage_acceleration": 6.0,
         "catalyst_strength": 18,
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.3
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.4
       },
       "discovery_metrics": {
-        "attention_lift": 16.0,
+        "attention_lift": 24.0,
         "novelty": 20.0,
-        "source_breadth": 3.9,
+        "source_breadth": 4.2,
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.3
+        "coverage_ratio_vs_baseline": 1.2,
+        "weighted_coverage_24h": 1.2,
+        "weighted_source_breadth": 1.4
       },
       "baseline": {
         "avg_items_24h": 0.0,
@@ -896,57 +910,63 @@
       "history": [
         {
           "date": "2026-11-21",
-          "signal_score": 76.0,
-          "discovery_score": 65.9
+          "discovery_score": 65.9,
+          "market_attention_score": 39.1,
+          "signal_score": 76.0
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 76.5,
+          "discovery_score": 74.2
         }
       ]
     },
     {
-      "ticker": "VWAVW",
-      "company_name": "VisionWave Holdings, Inc.",
-      "signal_score": 72.6,
-      "market_attention_score": 32.2,
-      "discovery_score": 65.8,
-      "confidence_score": 75.8,
-      "primary_catalyst": "VisionWave Holdings, Inc. (0002038439) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "4 unique credible information items from 2 independent sources. Coverage is 2.4× the stored baseline.",
+      "ticker": "NRGV",
+      "company_name": "Energy Vault Holdings, Inc.",
+      "signal_score": 74.6,
+      "market_attention_score": 30.4,
+      "discovery_score": 63.1,
+      "confidence_score": 79.8,
+      "primary_catalyst": "Energy Vault Holdings, Inc. (0001828536) (Filer)",
+      "catalyst_category": "Major contract",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 3,
-      "latest_event_at": "2026-11-20T17:03:08-05:00",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-11-20T21:05:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 95,
+      "days_on_radar": 96,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": -14.6,
+        "discovery_delta": -25.3
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 4
+        "independent_sources": 3,
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 10.1,
-        "catalyst_strength": 20,
-        "corroboration": 5.0,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 18,
+        "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 15.2,
+        "attention_lift": 13.7,
         "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 15.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
       },
       "baseline": {
         "avg_items_24h": 0.07,
@@ -962,185 +982,209 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "ipo_date": "",
-        "weburl": "",
-        "logo": "",
-        "market_cap": null,
+        "name": "Energy Vault Holdings, Inc.",
+        "industry": "Electrical Equipment",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2021-03-29",
+        "weburl": "https://investors.energyvault.com/overview/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950796879266.png",
+        "market_cap": 510872634.36274505,
         "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
+        "ps_ttm": 2.4986,
+        "pb_annual": 11.461,
+        "revenue_growth_ttm_yoy": 336.76,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 3.3632348
+        "gross_margin_ttm": 22.47,
+        "net_margin_ttm": -48.58,
+        "current_ratio": 0.7337,
+        "debt_equity": 1.4034,
+        "beta": 1.3574032
       },
       "profile": {
-        "name": "VWAVW",
-        "description": "VWAVW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
+        "name": "Energy Vault Holdings Inc",
+        "description": "Energy Vault Holdings, Inc. develops and sells energy storage solutions. The company is headquartered in Westlake Village, California.",
+        "industry": "UTILITIES - RENEWABLE",
+        "sector": "UTILITIES",
+        "country": "USA",
+        "exchange": "NYSE",
+        "currency": "USD",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Alpha Vantage Company Overview"
       },
-      "themes": [
-        "Semiconductors",
-        "Defense & aerospace",
-        "Critical minerals",
-        "Cloud & software"
-      ],
+      "themes": [],
       "stories": [
         {
-          "ticker": "VWAVW",
-          "company_name": "VisionWave Holdings, Inc.",
+          "ticker": "NRGV",
+          "company_name": "Energy Vault Holdings, Inc.",
           "source": "SEC EDGAR",
-          "title": "VisionWave Holdings, Inc. (0002038439) (Filer)",
-          "summary": "Filed: 2026-11-20 AccNo: 0001731122-26-001474 Size: 6 MB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/2038439/000173112226001474/0001731122-26-001474-index.htm",
-          "published_at": "2026-11-20T17:03:08-05:00",
+          "title": "Energy Vault Holdings, Inc. (0001828536) (Filer)",
+          "summary": "Filed: 2026-11-20 AccNo: 0001828536-26-000123 Size: 4 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1828536/000182853626000123/0001828536-26-000123-index.htm",
+          "published_at": "2026-11-20T16:30:43-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "38c036956d3e",
+          "fingerprint": "996dc75eb461",
           "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "NRGV",
+          "company_name": "Energy Vault Holdings, Inc.",
+          "source": "Yahoo",
+          "title": "Energy Vault Holdings, Inc. Announces New Hire Awards Under NYSE Listing Rule 303A.08",
+          "summary": "WESTLAKE VILLAGE, Calif., November 20, 2026--Energy Vault Holdings, Inc. (\"Energy Vault\") (NYSE: NRGV), a global energy storage company today announced that, effective on November 4, 2026, the Compensation Committee of Energy Vault’s Board of Directors granted to 22 new employees restricted stock unit awards covering an aggregate 1,230,250 shares of its common stock under the Energy Vault Holdings, Inc. 2022 Employm…",
+          "url": "https://finnhub.io/api/news?id=26d0ab7d855ef0a97127030c680d364e36c56d0260eab8b4e33bf189e2d27ad8",
+          "published_at": "2026-11-20T21:05:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "401956511a35",
+          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
+          "date": "2026-09-22",
+          "discovery_score": 88.4,
+          "market_attention_score": 46.2,
+          "signal_score": 89.2
+        },
+        {
           "date": "2026-11-21",
-          "signal_score": 72.6,
-          "discovery_score": 65.8
+          "discovery_score": 62.8,
+          "market_attention_score": 29.3,
+          "signal_score": 69.6
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 74.6,
+          "discovery_score": 63.1
         }
       ]
     },
     {
-      "ticker": "CODX",
-      "company_name": "Co-Diagnostics, Inc.",
-      "signal_score": 70.6,
-      "market_attention_score": 29.2,
-      "discovery_score": 59.9,
-      "confidence_score": 83.8,
-      "primary_catalyst": "Co-Diagnostics, Inc. (0001692415) (Filer)",
-      "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
+      "ticker": "SUNE",
+      "company_name": "SUNation Energy, Inc.",
+      "signal_score": 73.0,
+      "market_attention_score": 31.4,
+      "discovery_score": 67.1,
+      "confidence_score": 79.8,
+      "primary_catalyst": "SUNation Energy, Inc. (0000022701) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
+      "attention_status": "Emerging",
       "article_count_24h": 2,
-      "latest_event_at": "2026-11-20T16:30:23-05:00",
+      "latest_event_at": "2026-11-20T22:15:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 79,
+      "days_on_radar": 75,
       "change": {
-        "signal_delta": 1.1,
-        "discovery_delta": 1.5
+        "signal_delta": null,
+        "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 4
+        "unique_story_clusters": 3
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 14,
+        "coverage_acceleration": 5.5,
+        "catalyst_strength": 20,
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
+        "coverage_ratio_vs_baseline": 1.1,
         "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.7,
+        "attention_lift": 16.0,
+        "novelty": 20.0,
         "source_breadth": 3.6,
-        "catalyst_strength": 10.5,
+        "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
+        "coverage_ratio_vs_baseline": 1.1,
         "weighted_coverage_24h": 1.1,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
-        "avg_items_24h": 0.13,
+        "avg_items_24h": 0.0,
         "days_available": 30,
         "maturity": "established"
       },
       "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
+        "estimated_event_value": 11200000.0,
+        "market_cap_ratio": 1.0056,
+        "score": 20,
+        "label": "Potentially transformative",
+        "basis": "SUNation Energy Announces Third Quarter 2026 Results; Reports Sequential Revenue and Gross Margin Improvement and Provides Suniva Merger Update",
+        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
       },
       "fundamentals": {
-        "name": "Co-Diagnostics Inc",
-        "industry": "Health Care",
+        "name": "Sunation Energy Inc",
+        "industry": "Electrical Equipment",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2017-07-12",
-        "weburl": "https://codiagnostics.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CODX.png",
-        "market_cap": 1361329.018833536,
+        "ipo_date": "1981-11-19",
+        "weburl": "https://www.sunation.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950907227476.png",
+        "market_cap": 11137414.5,
         "pe_ttm": null,
-        "ps_ttm": 1.8711,
-        "pb_annual": 0.4977,
-        "revenue_growth_ttm_yoy": -28.13,
+        "ps_ttm": 0.1952,
+        "pb_annual": 0.1441,
+        "revenue_growth_ttm_yoy": 10.34,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 43.48,
-        "net_margin_ttm": -6523.11,
-        "current_ratio": 3.8686,
-        "debt_equity": 0,
-        "beta": 3.4076254
+        "gross_margin_ttm": 35.73,
+        "net_margin_ttm": -8.48,
+        "current_ratio": 1.0692,
+        "debt_equity": 0.2711,
+        "beta": 2.806791
       },
       "profile": {
-        "name": "Co-Diagnostics Inc",
-        "description": "ON-SITE PCR testing for everyone Partner with Us Email us for more information info@co-dx.com Contact Us Amplifying human potential through real-time PCR It all starts with a single sample. Add chemistry, heat, and light to make the fragments of a single virus visible by amplification up to a billion fold by polymerase chain reaction (PCR). […]",
-        "industry": "Health Care",
+        "name": "Sunation Energy Inc",
+        "description": "SUNation Energy is a solar provider in Long Island trusted since 2003 for professionally designing & installing high quality solar panel systems. Get a free estimate today!",
+        "industry": "Electrical Equipment",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://codiagnostics.com/",
-        "products_markets": [],
+        "website": "https://www.sunation.com/",
+        "products_markets": [
+          "Energy"
+        ],
         "source": "Company website"
       },
-      "themes": [
-        "Cloud & software"
-      ],
+      "themes": [],
       "stories": [
         {
-          "ticker": "CODX",
-          "company_name": "Co-Diagnostics, Inc.",
+          "ticker": "SUNE",
+          "company_name": "SUNation Energy, Inc.",
           "source": "SEC EDGAR",
-          "title": "Co-Diagnostics, Inc. (0001692415) (Filer)",
-          "summary": "Filed: 2026-11-20 AccNo: 0001493152-26-053511 Size: 359 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1692415/000149315226053511/0001493152-26-053511-index.htm",
-          "published_at": "2026-11-20T16:30:23-05:00",
+          "title": "SUNation Energy, Inc. (0000022701) (Filer)",
+          "summary": "Filed: 2026-11-20 AccNo: 0001213900-26-122794 Size: 389 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/22701/000121390026122794/0001213900-26-122794-index.htm",
+          "published_at": "2026-11-20T17:26:25-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "8d908c3e67e5",
+          "fingerprint": "92de526cbf04",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-11-14",
-          "discovery_score": 58.4,
-          "market_attention_score": 28.8,
-          "signal_score": 69.5
+          "date": "2026-11-21",
+          "discovery_score": 66.8,
+          "market_attention_score": 30.3,
+          "signal_score": 68.0
         },
         {
           "date": "2026-11-21",
-          "signal_score": 70.6,
-          "discovery_score": 59.9
+          "signal_score": 73.0,
+          "discovery_score": 67.1
         }
       ]
     },
@@ -1259,6 +1303,138 @@
           "discovery_score": 54.6,
           "market_attention_score": 29.6,
           "signal_score": 66.5
+        },
+        {
+          "date": "2026-11-21",
+          "discovery_score": 62.6,
+          "market_attention_score": 30.6,
+          "signal_score": 70.5
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 70.5,
+          "discovery_score": 62.6
+        }
+      ]
+    },
+    {
+      "ticker": "VWAVW",
+      "company_name": "VisionWave Holdings, Inc.",
+      "signal_score": 70.5,
+      "market_attention_score": 31.4,
+      "discovery_score": 62.6,
+      "confidence_score": 75.8,
+      "primary_catalyst": "VisionWave Holdings, Inc. (0002038439) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "4 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-20T17:03:08-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 95,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 4
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 20,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 3.3632348
+      },
+      "profile": {
+        "name": "VWAVW",
+        "description": "VWAVW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "Semiconductors",
+        "Defense & aerospace",
+        "Critical minerals",
+        "Cloud & software"
+      ],
+      "stories": [
+        {
+          "ticker": "VWAVW",
+          "company_name": "VisionWave Holdings, Inc.",
+          "source": "SEC EDGAR",
+          "title": "VisionWave Holdings, Inc. (0002038439) (Filer)",
+          "summary": "Filed: 2026-11-20 AccNo: 0001731122-26-001474 Size: 6 MB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 5.07: Submission of Matters to a Vote of Security Holders Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/2038439/000173112226001474/0001731122-26-001474-index.htm",
+          "published_at": "2026-11-20T17:03:08-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "38c036956d3e",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-21",
+          "discovery_score": 65.8,
+          "market_attention_score": 32.2,
+          "signal_score": 72.6
         },
         {
           "date": "2026-11-21",
@@ -1385,60 +1561,66 @@
         },
         {
           "date": "2026-11-21",
+          "discovery_score": 62.5,
+          "market_attention_score": 31.4,
+          "signal_score": 70.5
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 70.5,
           "discovery_score": 62.5
         }
       ]
     },
     {
-      "ticker": "NRGV",
-      "company_name": "Energy Vault Holdings, Inc.",
-      "signal_score": 69.6,
-      "market_attention_score": 29.3,
-      "discovery_score": 62.8,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Energy Vault Holdings, Inc. (0001828536) (Filer)",
-      "catalyst_category": "Major contract",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "ticker": "CODX",
+      "company_name": "Co-Diagnostics, Inc.",
+      "signal_score": 69.5,
+      "market_attention_score": 28.8,
+      "discovery_score": 58.3,
+      "confidence_score": 83.8,
+      "primary_catalyst": "Co-Diagnostics, Inc. (0001692415) (Filer)",
+      "catalyst_category": "Earnings / guidance",
+      "why_it_matters": "4 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-20T21:05:00+00:00",
+      "attention_status": "Above baseline",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-20T16:30:23-05:00",
       "new_to_radar": false,
-      "days_on_radar": 96,
+      "days_on_radar": 79,
       "change": {
-        "signal_delta": -19.6,
-        "discovery_delta": -25.6
+        "signal_delta": 0.0,
+        "discovery_delta": -0.1
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
+        "independent_sources": 3,
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 18,
-        "corroboration": 5.0,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 14,
+        "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 13.5,
+        "attention_lift": 12.0,
+        "novelty": 19.7,
+        "source_breadth": 3.6,
+        "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 0.13,
         "days_available": 30,
         "maturity": "established"
       },
@@ -1451,197 +1633,71 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Energy Vault Holdings, Inc.",
-        "industry": "Electrical Equipment",
-        "country": "US",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2021-03-29",
-        "weburl": "https://investors.energyvault.com/overview/default.aspx",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950796879266.png",
-        "market_cap": 510872634.36274505,
-        "pe_ttm": null,
-        "ps_ttm": 2.4986,
-        "pb_annual": 11.461,
-        "revenue_growth_ttm_yoy": 336.76,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 22.47,
-        "net_margin_ttm": -48.58,
-        "current_ratio": 0.7337,
-        "debt_equity": 1.4034,
-        "beta": 1.3574032
-      },
-      "profile": {
-        "name": "Energy Vault Holdings Inc",
-        "description": "Energy Vault Holdings, Inc. develops and sells energy storage solutions. The company is headquartered in Westlake Village, California.",
-        "industry": "UTILITIES - RENEWABLE",
-        "sector": "UTILITIES",
-        "country": "USA",
-        "exchange": "NYSE",
-        "currency": "USD",
-        "products_markets": [
-          "Energy"
-        ],
-        "source": "Alpha Vantage Company Overview"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "NRGV",
-          "company_name": "Energy Vault Holdings, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Energy Vault Holdings, Inc. (0001828536) (Filer)",
-          "summary": "Filed: 2026-11-20 AccNo: 0001828536-26-000123 Size: 4 MB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1828536/000182853626000123/0001828536-26-000123-index.htm",
-          "published_at": "2026-11-20T16:30:43-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "996dc75eb461",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "NRGV",
-          "company_name": "Energy Vault Holdings, Inc.",
-          "source": "Yahoo",
-          "title": "Energy Vault Holdings, Inc. Announces New Hire Awards Under NYSE Listing Rule 303A.08",
-          "summary": "WESTLAKE VILLAGE, Calif., November 20, 2026--Energy Vault Holdings, Inc. (\"Energy Vault\") (NYSE: NRGV), a global energy storage company today announced that, effective on November 4, 2026, the Compensation Committee of Energy Vault’s Board of Directors granted to 22 new employees restricted stock unit awards covering an aggregate 1,230,250 shares of its common stock under the Energy Vault Holdings, Inc. 2022 Employm…",
-          "url": "https://finnhub.io/api/news?id=26d0ab7d855ef0a97127030c680d364e36c56d0260eab8b4e33bf189e2d27ad8",
-          "published_at": "2026-11-20T21:05:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "401956511a35",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-09-22",
-          "discovery_score": 88.4,
-          "market_attention_score": 46.2,
-          "signal_score": 89.2
-        },
-        {
-          "date": "2026-11-21",
-          "signal_score": 69.6,
-          "discovery_score": 62.8
-        }
-      ]
-    },
-    {
-      "ticker": "SUNE",
-      "company_name": "SUNation Energy, Inc.",
-      "signal_score": 68.0,
-      "market_attention_score": 30.3,
-      "discovery_score": 66.8,
-      "confidence_score": 67.8,
-      "primary_catalyst": "SUNation Energy, Inc. (0000022701) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-20T22:15:00+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 75,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.5,
-        "catalyst_strength": 20,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 16.0,
-        "novelty": 20.0,
-        "source_breadth": 3.3,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": 11200000.0,
-        "market_cap_ratio": 1.0056,
-        "score": 20,
-        "label": "Potentially transformative",
-        "basis": "SUNation Energy Announces Third Quarter 2026 Results; Reports Sequential Revenue and Gross Margin Improvement and Provides Suniva Merger Update",
-        "caution": "Automated estimate from amounts mentioned in coverage; verify context at the source."
-      },
-      "fundamentals": {
-        "name": "Sunation Energy Inc",
-        "industry": "Electrical Equipment",
+        "name": "Co-Diagnostics Inc",
+        "industry": "Health Care",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1981-11-19",
-        "weburl": "https://www.sunation.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950907227476.png",
-        "market_cap": 11137414.5,
+        "ipo_date": "2017-07-12",
+        "weburl": "https://codiagnostics.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/CODX.png",
+        "market_cap": 1361329.018833536,
         "pe_ttm": null,
-        "ps_ttm": 0.1952,
-        "pb_annual": 0.1441,
-        "revenue_growth_ttm_yoy": 10.34,
+        "ps_ttm": 1.8711,
+        "pb_annual": 0.4977,
+        "revenue_growth_ttm_yoy": -28.13,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 35.73,
-        "net_margin_ttm": -8.48,
-        "current_ratio": 1.0692,
-        "debt_equity": 0.2711,
-        "beta": 2.806791
+        "gross_margin_ttm": 43.48,
+        "net_margin_ttm": -6523.11,
+        "current_ratio": 3.8686,
+        "debt_equity": 0,
+        "beta": 3.4076254
       },
       "profile": {
-        "name": "Sunation Energy Inc",
-        "description": "SUNation Energy is a solar provider in Long Island trusted since 2003 for professionally designing & installing high quality solar panel systems. Get a free estimate today!",
-        "industry": "Electrical Equipment",
+        "name": "Co-Diagnostics Inc",
+        "description": "ON-SITE PCR testing for everyone Partner with Us Email us for more information info@co-dx.com Contact Us Amplifying human potential through real-time PCR It all starts with a single sample. Add chemistry, heat, and light to make the fragments of a single virus visible by amplification up to a billion fold by polymerase chain reaction (PCR). […]",
+        "industry": "Health Care",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.sunation.com/",
-        "products_markets": [
-          "Energy"
-        ],
+        "website": "https://codiagnostics.com/",
+        "products_markets": [],
         "source": "Company website"
       },
-      "themes": [],
+      "themes": [
+        "Cloud & software"
+      ],
       "stories": [
         {
-          "ticker": "SUNE",
-          "company_name": "SUNation Energy, Inc.",
+          "ticker": "CODX",
+          "company_name": "Co-Diagnostics, Inc.",
           "source": "SEC EDGAR",
-          "title": "SUNation Energy, Inc. (0000022701) (Filer)",
-          "summary": "Filed: 2026-11-20 AccNo: 0001213900-26-122794 Size: 389 KB Item 2.02: Results of Operations and Financial Condition Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/22701/000121390026122794/0001213900-26-122794-index.htm",
-          "published_at": "2026-11-20T17:26:25-05:00",
+          "title": "Co-Diagnostics, Inc. (0001692415) (Filer)",
+          "summary": "Filed: 2026-11-20 AccNo: 0001493152-26-053511 Size: 359 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1692415/000149315226053511/0001493152-26-053511-index.htm",
+          "published_at": "2026-11-20T16:30:23-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "92de526cbf04",
+          "fingerprint": "8d908c3e67e5",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
+          "date": "2026-11-14",
+          "discovery_score": 58.4,
+          "market_attention_score": 28.8,
+          "signal_score": 69.5
+        },
+        {
           "date": "2026-11-21",
-          "signal_score": 68.0,
-          "discovery_score": 66.8
+          "discovery_score": 59.9,
+          "market_attention_score": 29.2,
+          "signal_score": 70.6
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 69.5,
+          "discovery_score": 58.3
         }
       ]
     },
@@ -1779,6 +1835,12 @@
         },
         {
           "date": "2026-11-21",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 68.0,
           "discovery_score": 62.3
         }
@@ -1903,6 +1965,12 @@
         },
         {
           "date": "2026-11-21",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 68.0,
           "discovery_score": 62.3
         }
@@ -2016,6 +2084,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-21",
+          "discovery_score": 58.8,
+          "market_attention_score": 29.9,
+          "signal_score": 67.5
+        },
         {
           "date": "2026-11-21",
           "signal_score": 67.5,
@@ -2133,6 +2207,12 @@
       "history": [
         {
           "date": "2026-11-21",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 65.0,
           "discovery_score": 58.5
         }
@@ -2246,6 +2326,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-21",
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-11-21",
           "signal_score": 65.0,
@@ -2363,125 +2449,14 @@
       "history": [
         {
           "date": "2026-11-21",
-          "signal_score": 65.0,
-          "discovery_score": 58.5
-        }
-      ]
-    },
-    {
-      "ticker": "ADNT",
-      "company_name": "Adient plc",
-      "signal_score": 63.6,
-      "market_attention_score": 24.9,
-      "discovery_score": 55.6,
-      "confidence_score": 79.8,
-      "primary_catalyst": "Adient plc (0001670541) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.4× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 3,
-      "latest_event_at": "2026-11-21T00:29:09+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 93,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 10.1,
-        "catalyst_strength": 6,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 15.2,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Adient PLC",
-        "industry": "Auto Components",
-        "country": "IE",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "ipo_date": "2016-10-17",
-        "weburl": "https://www.adient.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ADNT.png",
-        "market_cap": 1423980288.0828304,
-        "pe_ttm": 29.2808,
-        "ps_ttm": 0.0929,
-        "pb_annual": 1.0793,
-        "revenue_growth_ttm_yoy": 4.98,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 6.56,
-        "net_margin_ttm": 0.32,
-        "current_ratio": 1.121,
-        "debt_equity": 1.3573,
-        "beta": 1.6583834
-      },
-      "profile": {
-        "name": "Adient PLC",
-        "description": "We are Adient. A rich heritage. A passion for precision. Meet automotive seating, reimagined.",
-        "industry": "Auto Components",
-        "country": "IE",
-        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
-        "website": "https://www.adient.com/",
-        "products_markets": [
-          "Automotive"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "ADNT",
-          "company_name": "Adient plc",
-          "source": "SEC EDGAR",
-          "title": "Adient plc (0001670541) (Filer)",
-          "summary": "Filed: 2026-11-20 AccNo: 0001670541-26-000145 Size: 167 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/1670541/000167054126000145/0001670541-26-000145-index.htm",
-          "published_at": "2026-11-20T16:15:07-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "0ddc14aa7a20",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
+        },
         {
           "date": "2026-11-21",
-          "signal_score": 63.6,
-          "discovery_score": 55.6
+          "signal_score": 65.0,
+          "discovery_score": 58.5
         }
       ]
     },
@@ -2567,8 +2542,137 @@
       "history": [
         {
           "date": "2026-11-21",
+          "discovery_score": 57.5,
+          "market_attention_score": 25.8,
+          "signal_score": 62.6
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 62.6,
           "discovery_score": 57.5
+        }
+      ]
+    },
+    {
+      "ticker": "ADNT",
+      "company_name": "Adient plc",
+      "signal_score": 62.6,
+      "market_attention_score": 24.4,
+      "discovery_score": 54.1,
+      "confidence_score": 79.8,
+      "primary_catalyst": "Adient plc (0001670541) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-11-21T00:29:09+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 93,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 6,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 13.7,
+        "novelty": 19.8,
+        "source_breadth": 3.6,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Adient PLC",
+        "industry": "Auto Components",
+        "country": "IE",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2016-10-17",
+        "weburl": "https://www.adient.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ADNT.png",
+        "market_cap": 1423980288.0828304,
+        "pe_ttm": 29.2808,
+        "ps_ttm": 0.0929,
+        "pb_annual": 1.0793,
+        "revenue_growth_ttm_yoy": 4.98,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 6.56,
+        "net_margin_ttm": 0.32,
+        "current_ratio": 1.121,
+        "debt_equity": 1.3573,
+        "beta": 1.6583834
+      },
+      "profile": {
+        "name": "Adient PLC",
+        "description": "We are Adient. A rich heritage. A passion for precision. Meet automotive seating, reimagined.",
+        "industry": "Auto Components",
+        "country": "IE",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "website": "https://www.adient.com/",
+        "products_markets": [
+          "Automotive"
+        ],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "ADNT",
+          "company_name": "Adient plc",
+          "source": "SEC EDGAR",
+          "title": "Adient plc (0001670541) (Filer)",
+          "summary": "Filed: 2026-11-20 AccNo: 0001670541-26-000145 Size: 167 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/1670541/000167054126000145/0001670541-26-000145-index.htm",
+          "published_at": "2026-11-20T16:15:07-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "0ddc14aa7a20",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-21",
+          "discovery_score": 55.6,
+          "market_attention_score": 24.9,
+          "signal_score": 63.6
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 62.6,
+          "discovery_score": 54.1
         }
       ]
     },
@@ -2657,6 +2761,12 @@
           "discovery_score": 61.1,
           "market_attention_score": 29.6,
           "signal_score": 68.5
+        },
+        {
+          "date": "2026-11-21",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
         },
         {
           "date": "2026-11-21",
@@ -2789,6 +2899,12 @@
         },
         {
           "date": "2026-11-21",
+          "discovery_score": 56.9,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 61.0,
           "discovery_score": 56.9
         }
@@ -2874,6 +2990,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-21",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
         {
           "date": "2026-11-21",
           "signal_score": 61.0,
@@ -2969,27 +3091,33 @@
         },
         {
           "date": "2026-11-21",
+          "discovery_score": 56.9,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 61.0,
           "discovery_score": 56.9
         }
       ]
     },
     {
-      "ticker": "BCML",
-      "company_name": "BayCom Corp",
-      "signal_score": 60.6,
-      "market_attention_score": 25.6,
-      "discovery_score": 56.0,
-      "confidence_score": 71.8,
-      "primary_catalyst": "BayCom Corp (0001730984) (Filer)",
-      "catalyst_category": "Capital return",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "ticker": "CMPX",
+      "company_name": "Compass Therapeutics, Inc.",
+      "signal_score": 60.5,
+      "market_attention_score": 26.4,
+      "discovery_score": 53.5,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Compass Therapeutics, Inc. (0001738021) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-20T18:00:00+00:00",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-20T17:06:10+00:00",
       "new_to_radar": false,
-      "days_on_radar": 95,
+      "days_on_radar": 61,
       "change": {
         "signal_delta": null,
         "discovery_delta": null
@@ -2997,32 +3125,32 @@
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 3
+        "unique_story_clusters": 2
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 9,
+        "coverage_acceleration": 5.0,
+        "catalyst_strength": 13,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 1.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.8,
+        "attention_lift": 8.0,
+        "novelty": 20.0,
         "source_breadth": 3.3,
-        "catalyst_strength": 6.8,
+        "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 1.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
-        "avg_items_24h": 0.07,
+        "avg_items_24h": 0.0,
         "days_available": 30,
         "maturity": "established"
       },
@@ -3036,42 +3164,37 @@
       },
       "fundamentals": {},
       "profile": {},
-      "themes": [],
+      "themes": [
+        "AI infrastructure",
+        "Biotech & therapeutics"
+      ],
       "stories": [
         {
-          "ticker": "BCML",
-          "company_name": "BayCom Corp",
+          "ticker": "CMPX",
+          "company_name": "Compass Therapeutics, Inc.",
           "source": "SEC EDGAR",
-          "title": "BayCom Corp (0001730984) (Filer)",
-          "summary": "Filed: 2026-11-20 AccNo: 0001730984-26-000094 Size: 173 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1730984/000173098426000094/0001730984-26-000094-index.htm",
-          "published_at": "2026-11-20T16:31:37-05:00",
+          "title": "Compass Therapeutics, Inc. (0001738021) (Filer)",
+          "summary": "Filed: 2026-11-20 AccNo: 0001171843-26-007621 Size: 186 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1738021/000117184326007621/0001171843-26-007621-index.htm",
+          "published_at": "2026-11-20T17:00:15-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "e7b5577344f7",
+          "fingerprint": "be0febdadb12",
           "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "BCML",
-          "company_name": "BayCom Corp",
-          "source": "Yahoo",
-          "title": "BayCom Corp Announces Cash Dividend",
-          "summary": "WALNUT CREEK, Calif., November 19, 2026--BayCom Corp (NASDAQ: BCML) (\"BayCom\" or the \"Company\"), the parent company of United Business Bank, today announced that its Board of Directors declared a quarterly cash dividend of $0.30 per share on the Company's common stock. The dividend is payable on January 7, 2027, to shareholders of record as of the close of business on December 10, 2026.",
-          "url": "https://finnhub.io/api/news?id=3da3ff55f904c180ede47bd16738d0f8156dd9a2ce516719308e0ab51b0e4a8c",
-          "published_at": "2026-11-19T21:00:00+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "4a5e926b6c8a",
-          "display_relevance": 0.62,
           "display_relevant": true
         }
       ],
       "history": [
         {
           "date": "2026-11-21",
-          "signal_score": 60.6,
-          "discovery_score": 56.0
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 60.5,
+          "discovery_score": 53.5
         }
       ]
     },
@@ -3185,6 +3308,12 @@
       "history": [
         {
           "date": "2026-11-21",
+          "discovery_score": 60.0,
+          "market_attention_score": 25.8,
+          "signal_score": 59.0
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 59.0,
           "discovery_score": 60.0
         }
@@ -3275,8 +3404,121 @@
       "history": [
         {
           "date": "2026-11-21",
+          "discovery_score": 52.8,
+          "market_attention_score": 26.6,
+          "signal_score": 59.5
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 59.5,
           "discovery_score": 52.8
+        }
+      ]
+    },
+    {
+      "ticker": "BCML",
+      "company_name": "BayCom Corp",
+      "signal_score": 59.5,
+      "market_attention_score": 25.1,
+      "discovery_score": 54.4,
+      "confidence_score": 71.8,
+      "primary_catalyst": "BayCom Corp (0001730984) (Filer)",
+      "catalyst_category": "Capital return",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-20T18:00:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 95,
+      "change": {
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 9,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 6.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "BCML",
+          "company_name": "BayCom Corp",
+          "source": "SEC EDGAR",
+          "title": "BayCom Corp (0001730984) (Filer)",
+          "summary": "Filed: 2026-11-20 AccNo: 0001730984-26-000094 Size: 173 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1730984/000173098426000094/0001730984-26-000094-index.htm",
+          "published_at": "2026-11-20T16:31:37-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "e7b5577344f7",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "BCML",
+          "company_name": "BayCom Corp",
+          "source": "Yahoo",
+          "title": "BayCom Corp Announces Cash Dividend",
+          "summary": "WALNUT CREEK, Calif., November 19, 2026--BayCom Corp (NASDAQ: BCML) (\"BayCom\" or the \"Company\"), the parent company of United Business Bank, today announced that its Board of Directors declared a quarterly cash dividend of $0.30 per share on the Company's common stock. The dividend is payable on January 7, 2027, to shareholders of record as of the close of business on December 10, 2026.",
+          "url": "https://finnhub.io/api/news?id=3da3ff55f904c180ede47bd16738d0f8156dd9a2ce516719308e0ab51b0e4a8c",
+          "published_at": "2026-11-19T21:00:00+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "4a5e926b6c8a",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-21",
+          "discovery_score": 56.0,
+          "market_attention_score": 25.6,
+          "signal_score": 60.6
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 59.5,
+          "discovery_score": 54.4
         }
       ]
     },
@@ -3362,93 +3604,10 @@
       "history": [
         {
           "date": "2026-11-21",
-          "signal_score": 58.0,
-          "discovery_score": 53.2
-        }
-      ]
-    },
-    {
-      "ticker": "CMPX",
-      "company_name": "Compass Therapeutics, Inc.",
-      "signal_score": 58.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 53.2,
-      "confidence_score": 62,
-      "primary_catalyst": "Compass Therapeutics, Inc. (0001738021) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. This company is new to the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Normal",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-20T17:00:15-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 61,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 5.0,
-        "catalyst_strength": 13,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 8.0,
-        "novelty": 20.0,
-        "source_breadth": 3.0,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.0,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "CMPX",
-          "company_name": "Compass Therapeutics, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Compass Therapeutics, Inc. (0001738021) (Filer)",
-          "summary": "Filed: 2026-11-20 AccNo: 0001171843-26-007621 Size: 186 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1738021/000117184326007621/0001171843-26-007621-index.htm",
-          "published_at": "2026-11-20T17:00:15-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "be0febdadb12",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
         {
           "date": "2026-11-21",
           "signal_score": 58.0,
@@ -3538,6 +3697,12 @@
       "history": [
         {
           "date": "2026-11-21",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 58.0,
           "discovery_score": 53.2
         }
@@ -3623,6 +3788,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-21",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
         {
           "date": "2026-11-21",
           "signal_score": 58.0,
@@ -3712,6 +3883,12 @@
       "history": [
         {
           "date": "2026-11-21",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-21",
           "signal_score": 58.0,
           "discovery_score": 53.2
         }
@@ -3720,48 +3897,48 @@
     {
       "ticker": "TRUG",
       "company_name": "TruGolf Holdings, Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 24.1,
-      "discovery_score": 56.3,
-      "confidence_score": 71.8,
+      "signal_score": 53.5,
+      "market_attention_score": 24.4,
+      "discovery_score": 48.3,
+      "confidence_score": 75.8,
       "primary_catalyst": "TruGolf Holdings, Inc. (0001857086) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
+      "why_it_matters": "4 unique credible information items from 2 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-20T17:12:34-05:00",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-20T18:44:11+00:00",
       "new_to_radar": false,
       "days_on_radar": 93,
       "change": {
-        "signal_delta": -7.5,
-        "discovery_delta": 2.0
+        "signal_delta": -8.0,
+        "discovery_delta": -6.0
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 3
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 5.5,
+        "coverage_acceleration": 5.0,
         "catalyst_strength": 6,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 1.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 16.0,
+        "attention_lift": 8.0,
         "novelty": 20.0,
         "source_breadth": 3.3,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.1,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 1.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3841,8 +4018,14 @@
         },
         {
           "date": "2026-11-21",
-          "signal_score": 54.0,
-          "discovery_score": 56.3
+          "discovery_score": 56.3,
+          "market_attention_score": 24.1,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-11-21",
+          "signal_score": 53.5,
+          "discovery_score": 48.3
         }
       ]
     }
