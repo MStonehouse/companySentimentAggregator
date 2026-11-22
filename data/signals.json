@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-22T01:26:42.148859+00:00",
+    "generated_at": "2026-11-22T20:24:30.285749+00:00",
     "companies_scanned": 68,
     "sources_enabled": {
       "sec_edgar": true,
@@ -359,15 +359,15 @@
       "ticker": "LQDT",
       "company_name": "LIQUIDITY SERVICES INC",
       "signal_score": 72.5,
-      "market_attention_score": 36.5,
+      "market_attention_score": 36.1,
       "discovery_score": 51.4,
       "confidence_score": 93.8,
       "primary_catalyst": "LIQUIDITY SERVICES INC (0001235468) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "14 unique credible information items from 5 independent sources. Coverage is 0.2× the stored baseline.",
+      "why_it_matters": "14 unique credible information items from 5 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 1,
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-21T09:12:36+00:00",
       "new_to_radar": false,
       "days_on_radar": 94,
@@ -387,8 +387,8 @@
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.4
       },
       "discovery_metrics": {
@@ -398,8 +398,8 @@
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.2,
-        "weighted_coverage_24h": 0.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.4
       },
       "baseline": {
@@ -487,6 +487,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 51.4,
+          "market_attention_score": 36.5,
+          "signal_score": 72.5
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 72.5,
           "discovery_score": 51.4
         }
@@ -496,15 +502,15 @@
       "ticker": "TSN",
       "company_name": "TYSON FOODS, INC.",
       "signal_score": 70.5,
-      "market_attention_score": 31.0,
+      "market_attention_score": 30.2,
       "discovery_score": 49.4,
       "confidence_score": 93.8,
       "primary_catalyst": "TYSON FOODS, INC. (0000100493) (Filer)",
       "catalyst_category": "Major contract",
-      "why_it_matters": "8 unique credible information items from 4 independent sources. Coverage is 0.4× the stored baseline.",
+      "why_it_matters": "8 unique credible information items from 4 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Normal",
-      "article_count_24h": 2,
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-21T15:07:00+00:00",
       "new_to_radar": false,
       "days_on_radar": 96,
@@ -524,8 +530,8 @@
         "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 0.4,
-        "weighted_coverage_24h": 0.2,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
@@ -535,8 +541,8 @@
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 0.4,
-        "weighted_coverage_24h": 0.2,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.3
       },
       "baseline": {
@@ -621,6 +627,12 @@
           "discovery_score": 74.2,
           "market_attention_score": 41.4,
           "signal_score": 76.5
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 49.4,
+          "market_attention_score": 31.0,
+          "signal_score": 70.5
         },
         {
           "date": "2026-11-22",
@@ -744,6 +756,12 @@
           "discovery_score": 67.1,
           "market_attention_score": 31.4,
           "signal_score": 73.0
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 50.8,
+          "market_attention_score": 27.1,
+          "signal_score": 67.5
         },
         {
           "date": "2026-11-22",
@@ -888,6 +906,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 50.4,
+          "market_attention_score": 27.8,
+          "signal_score": 67.5
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 67.5,
           "discovery_score": 50.4
         }
@@ -1014,6 +1038,12 @@
           "discovery_score": 62.6,
           "market_attention_score": 30.6,
           "signal_score": 70.5
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 50.5,
+          "market_attention_score": 26.6,
+          "signal_score": 62.5
         },
         {
           "date": "2026-11-22",
@@ -1146,6 +1176,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 50.3,
+          "market_attention_score": 26.6,
+          "signal_score": 62.5
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 62.5,
           "discovery_score": 50.3
         }
@@ -1261,6 +1297,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-22",
+          "discovery_score": 49.1,
+          "market_attention_score": 25.6,
+          "signal_score": 60.5
+        },
         {
           "date": "2026-11-22",
           "signal_score": 60.5,
@@ -1381,6 +1423,12 @@
           "discovery_score": 58.5,
           "market_attention_score": 28.8,
           "signal_score": 65.0
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
           "date": "2026-11-22",
@@ -1505,6 +1553,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -1626,6 +1680,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 60.0,
           "discovery_score": 50.3
         }
@@ -1744,6 +1804,12 @@
           "discovery_score": 58.5,
           "market_attention_score": 28.8,
           "signal_score": 65.0
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 50.3,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
         },
         {
           "date": "2026-11-22",
@@ -1892,6 +1958,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 50.2,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 60.0,
           "discovery_score": 50.2
         }
@@ -2022,6 +2094,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 50.2,
+          "market_attention_score": 24.8,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 60.0,
           "discovery_score": 50.2
         }
@@ -2137,6 +2215,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-22",
+          "discovery_score": 44.2,
+          "market_attention_score": 23.3,
+          "signal_score": 58.5
+        },
         {
           "date": "2026-11-22",
           "signal_score": 58.5,
@@ -2266,6 +2350,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 45.4,
+          "market_attention_score": 22.4,
+          "signal_score": 55.5
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 55.5,
           "discovery_score": 45.4
         }
@@ -2392,6 +2482,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 44.6,
+          "market_attention_score": 22.6,
+          "signal_score": 54.5
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 54.5,
           "discovery_score": 44.6
         }
@@ -2510,6 +2606,12 @@
           "discovery_score": 60.0,
           "market_attention_score": 25.8,
           "signal_score": 59.0
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 43.7,
+          "market_attention_score": 21.4,
+          "signal_score": 53.5
         },
         {
           "date": "2026-11-22",
@@ -2634,6 +2736,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -2733,6 +2841,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -2823,6 +2937,12 @@
           "discovery_score": 53.2,
           "market_attention_score": 25.2,
           "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
           "date": "2026-11-22",
@@ -2961,6 +3081,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3051,6 +3177,12 @@
           "discovery_score": 57.1,
           "market_attention_score": 25.2,
           "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 44.9,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
           "date": "2026-11-22",
@@ -3147,6 +3279,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 53.0,
           "discovery_score": 45.1
         }
@@ -3237,6 +3375,12 @@
           "discovery_score": 53.2,
           "market_attention_score": 25.2,
           "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 45.1,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
           "date": "2026-11-22",
@@ -3336,6 +3480,12 @@
           "discovery_score": 56.9,
           "market_attention_score": 25.2,
           "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-22",
+          "discovery_score": 44.8,
+          "market_attention_score": 21.2,
+          "signal_score": 53.0
         },
         {
           "date": "2026-11-22",
@@ -3472,6 +3622,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 40.1,
+          "market_attention_score": 19.6,
+          "signal_score": 48.5
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 48.5,
           "discovery_score": 40.1
         }
@@ -3561,6 +3717,12 @@
       "history": [
         {
           "date": "2026-11-22",
+          "discovery_score": 40.1,
+          "market_attention_score": 18.9,
+          "signal_score": 48.5
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 48.5,
           "discovery_score": 40.1
         }
@@ -3646,6 +3808,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-22",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
         {
           "date": "2026-11-22",
           "signal_score": 46.0,
@@ -3753,6 +3921,12 @@
         },
         {
           "date": "2026-11-22",
+          "discovery_score": 39.7,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 46.0,
           "discovery_score": 39.7
         }
@@ -3840,6 +4014,12 @@
       "history": [
         {
           "date": "2026-11-22",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
+        {
+          "date": "2026-11-22",
           "signal_score": 46.0,
           "discovery_score": 39.8
         }
@@ -3925,6 +4105,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-22",
+          "discovery_score": 39.8,
+          "market_attention_score": 17.8,
+          "signal_score": 46.0
+        },
         {
           "date": "2026-11-22",
           "signal_score": 46.0,
