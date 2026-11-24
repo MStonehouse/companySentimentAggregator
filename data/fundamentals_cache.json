@@ -11984,7 +11984,7 @@
       }
     },
     "SAFX": {
-      "cached_at": "2026-10-23T00:01:39.164929+00:00",
+      "cached_at": "2026-11-24T11:10:23.437129+00:00",
       "data": {
         "name": "XCF Global Inc",
         "industry": "Energy",
@@ -11993,9 +11993,9 @@
         "ipo_date": "2021-11-26",
         "weburl": "https://xcf.global/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950899938246.png",
-        "market_cap": 66405972.63399434,
-        "pe_ttm": 0.8973,
-        "ps_ttm": 4.3461,
+        "market_cap": 31189564.921428572,
+        "pe_ttm": 0.4215,
+        "ps_ttm": 2.0413,
         "pb_annual": 1.5105,
         "revenue_growth_ttm_yoy": null,
         "eps_growth_ttm_yoy": 27.12,
@@ -12003,7 +12003,7 @@
         "net_margin_ttm": -397.54,
         "current_ratio": 0.111,
         "debt_equity": 6.7809,
-        "beta": -0.5108449
+        "beta": 0.10289103
       }
     },
     "MSCI": {
@@ -38158,7 +38158,7 @@
       }
     },
     "TEX": {
-      "cached_at": "2026-11-12T20:57:56.027208+00:00",
+      "cached_at": "2026-11-24T11:10:23.437129+00:00",
       "data": {
         "name": "Terex Corporation",
         "industry": "Machinery",
@@ -38167,9 +38167,9 @@
         "ipo_date": "1991-03-19",
         "weburl": "https://www.terex.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/TEX.png",
-        "market_cap": 6478736157.081757,
-        "pe_ttm": 32.6982,
-        "ps_ttm": 0.8647,
+        "market_cap": 6129172287.628385,
+        "pe_ttm": 30.8703,
+        "ps_ttm": 0.8164,
         "pb_annual": 1.6712,
         "revenue_growth_ttm_yoy": 40.1,
         "eps_growth_ttm_yoy": -15.56,
@@ -38177,7 +38177,7 @@
         "net_margin_ttm": 2.64,
         "current_ratio": 2.2957,
         "debt_equity": 1.2334,
-        "beta": 1.4900995
+        "beta": 1.4730887
       }
     },
     "USO": {
@@ -44733,6 +44733,98 @@
         "current_ratio": null,
         "debt_equity": null,
         "beta": 2.0716462
+      }
+    },
+    "INSM": {
+      "cached_at": "2026-11-24T11:10:23.437129+00:00",
+      "data": {
+        "name": "Insmed Incorporated",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1991-02-15",
+        "weburl": "https://insmed.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/INSM.png",
+        "market_cap": 32707410850.09538,
+        "pe_ttm": null,
+        "ps_ttm": 21.0463,
+        "pb_annual": 50.2291,
+        "revenue_growth_ttm_yoy": 239.97,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 84.4,
+        "net_margin_ttm": -39.85,
+        "current_ratio": 3.8266,
+        "debt_equity": 0.985,
+        "beta": 0.7023331
+      }
+    },
+    "CTSO": {
+      "cached_at": "2026-11-24T11:10:23.437129+00:00",
+      "data": {
+        "name": "Cytosorbents Corp",
+        "industry": "Health Care",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2005-06-17",
+        "weburl": "https://cytosorbents.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950579501646.png",
+        "market_cap": 12548497.990384614,
+        "pe_ttm": null,
+        "ps_ttm": 0.3524,
+        "pb_annual": 6.8007,
+        "revenue_growth_ttm_yoy": 8.64,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 71.61,
+        "net_margin_ttm": -48.94,
+        "current_ratio": 2.1252,
+        "debt_equity": 2.8235,
+        "beta": 1.5214586
+      }
+    },
+    "SPKWF": {
+      "cached_at": "2026-11-24T11:10:23.437129+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": null
+      }
+    },
+    "BGSF": {
+      "cached_at": "2026-11-24T11:10:23.437129+00:00",
+      "data": {
+        "name": "BGSF, Inc.",
+        "industry": "Professional Services",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-03-20",
+        "weburl": "https://bgsf.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950004868066.png",
+        "market_cap": 39557360.91712707,
+        "pe_ttm": null,
+        "ps_ttm": 0.4214,
+        "pb_annual": 1.0989,
+        "revenue_growth_ttm_yoy": -42.1,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 35.49,
+        "net_margin_ttm": -8.99,
+        "current_ratio": 4.1193,
+        "debt_equity": 0.0093,
+        "beta": 0.53376514
       }
     }
   }
