@@ -44987,6 +44987,75 @@
         "debt_equity": null,
         "beta": null
       }
+    },
+    "ANF": {
+      "cached_at": "2026-11-25T09:57:56.771216+00:00",
+      "data": {
+        "name": "Abercrombie & Fitch Co.",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "1996-09-26",
+        "weburl": "https://www.abercrombie.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/ANF.png",
+        "market_cap": 7133219051.792097,
+        "pe_ttm": 13.8004,
+        "ps_ttm": 1.3849,
+        "pb_annual": 3.3138,
+        "revenue_growth_ttm_yoy": 4.73,
+        "eps_growth_ttm_yoy": 10.51,
+        "gross_margin_ttm": 63.67,
+        "net_margin_ttm": 10.04,
+        "current_ratio": 1.4923,
+        "debt_equity": 0,
+        "beta": 1.092241
+      }
+    },
+    "GOOGM": {
+      "cached_at": "2026-11-25T09:57:56.771216+00:00",
+      "data": {
+        "name": "Alphabet Inc.",
+        "industry": "Media",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2004-08-19",
+        "weburl": "https://abc.xyz/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/GOOG.png",
+        "market_cap": 3430640700000.0,
+        "pe_ttm": 14.5643,
+        "ps_ttm": 7.2866,
+        "pb_annual": 9.1044,
+        "revenue_growth_ttm_yoy": 22.21,
+        "eps_growth_ttm_yoy": 91.92,
+        "gross_margin_ttm": 60.86,
+        "net_margin_ttm": 50.03,
+        "current_ratio": 2.0053,
+        "debt_equity": 0.1229,
+        "beta": 1.2467246
+      }
+    },
+    "QSR": {
+      "cached_at": "2026-11-25T09:57:56.771216+00:00",
+      "data": {
+        "name": "Restaurant Brands International Inc.",
+        "industry": "Hotels, Restaurants & Leisure",
+        "country": "US",
+        "exchange": "NEW YORK STOCK EXCHANGE, INC.",
+        "ipo_date": "2014-12-10",
+        "weburl": "https://www.rbi.com/English/corporate-profile/default.aspx",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/QSR.png",
+        "market_cap": 34103000996.138317,
+        "pe_ttm": 22.1848,
+        "ps_ttm": 3.4043,
+        "pb_annual": 8.539,
+        "revenue_growth_ttm_yoy": 5.52,
+        "eps_growth_ttm_yoy": 62.03,
+        "gross_margin_ttm": 54.23,
+        "net_margin_ttm": 15.35,
+        "current_ratio": 0.9789,
+        "debt_equity": 3.7367,
+        "beta": 0.559206
+      }
     }
   }
 }
