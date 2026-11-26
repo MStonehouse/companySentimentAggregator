@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-26T09:41:44.615972+00:00",
+    "generated_at": "2026-11-26T22:27:43.934930+00:00",
     "companies_scanned": 80,
     "sources_enabled": {
       "sec_edgar": true,
@@ -43,24 +43,24 @@
       "MNTS",
       "BNKK",
       "BURUW",
+      "LE",
       "ATNM",
       "PSNL",
-      "SYBX",
-      "CYCUW"
+      "SYBX"
     ],
     "emerging_signals": [
-      "CATY",
       "DTSQR",
       "BKHAR",
       "LCCCU",
       "JACS-RI",
       "OBAWW",
       "CAPNU",
-      "NXPI",
       "RLYB",
+      "CATY",
       "DARE",
-      "SCLXW",
+      "NXPI",
       "VTIX",
+      "SCLXW",
       "SLNHP",
       "HDRNW",
       "PWCM",
@@ -74,11 +74,11 @@
       "SWRD",
       "BNKK",
       "BURUW",
+      "LE",
       "ATNM",
       "MNTS",
       "PSNL",
-      "SYBX",
-      "CYCUW"
+      "SYBX"
     ]
   },
   "briefing": {
@@ -95,7 +95,35 @@
     "cooling": [
       {
         "ticker": "ATNM",
-        "delta": -23.5
+        "delta": -35.5
+      },
+      {
+        "ticker": "NXPI",
+        "delta": -24.2
+      },
+      {
+        "ticker": "BURUW",
+        "delta": -18.7
+      },
+      {
+        "ticker": "MNTS",
+        "delta": -16.3
+      },
+      {
+        "ticker": "CATY",
+        "delta": -13.0
+      },
+      {
+        "ticker": "RLYB",
+        "delta": -12.2
+      },
+      {
+        "ticker": "CAPNU",
+        "delta": -12.1
+      },
+      {
+        "ticker": "VTIX",
+        "delta": -12.1
       }
     ],
     "major_catalysts": [
@@ -152,19 +180,10 @@
   },
   "sectors": [
     {
-      "sector": "Banking",
-      "company_count": 1,
-      "discovery_intensity": 65.5,
-      "signal_intensity": 71.5,
-      "tickers": [
-        "CATY"
-      ]
-    },
-    {
       "sector": "N/A",
       "company_count": 4,
-      "discovery_intensity": 62.3,
-      "signal_intensity": 68.0,
+      "discovery_intensity": 50.3,
+      "signal_intensity": 60.0,
       "tickers": [
         "DTSQR",
         "BKHAR",
@@ -173,29 +192,38 @@
       ]
     },
     {
-      "sector": "Semiconductors",
+      "sector": "Banking",
       "company_count": 1,
-      "discovery_intensity": 62.0,
-      "signal_intensity": 72.6,
+      "discovery_intensity": 49.3,
+      "signal_intensity": 65.5,
       "tickers": [
-        "NXPI"
+        "CATY"
       ]
     },
     {
       "sector": "Pharmaceuticals",
       "company_count": 2,
-      "discovery_intensity": 59.1,
-      "signal_intensity": 64.8,
+      "discovery_intensity": 47.1,
+      "signal_intensity": 56.8,
       "tickers": [
         "DARE",
         "PCSA"
       ]
     },
     {
+      "sector": "Semiconductors",
+      "company_count": 1,
+      "discovery_intensity": 47.1,
+      "signal_intensity": 67.5,
+      "tickers": [
+        "NXPI"
+      ]
+    },
+    {
       "sector": "Technology",
       "company_count": 3,
-      "discovery_intensity": 57.6,
-      "signal_intensity": 63.8,
+      "discovery_intensity": 45.6,
+      "signal_intensity": 55.8,
       "tickers": [
         "VTIX",
         "SLNHP",
@@ -205,8 +233,8 @@
     {
       "sector": "Biotechnology",
       "company_count": 3,
-      "discovery_intensity": 57.1,
-      "signal_intensity": 61.8,
+      "discovery_intensity": 45.1,
+      "signal_intensity": 53.8,
       "tickers": [
         "RLYB",
         "DRMA",
@@ -216,17 +244,17 @@
     {
       "sector": "Aerospace & Defense",
       "company_count": 1,
-      "discovery_intensity": 57.1,
-      "signal_intensity": 61.0,
+      "discovery_intensity": 45.1,
+      "signal_intensity": 53.0,
       "tickers": [
         "FBDT"
       ]
     },
     {
       "sector": "Unclassified",
-      "company_count": 13,
-      "discovery_intensity": 56.1,
-      "signal_intensity": 60.5,
+      "company_count": 12,
+      "discovery_intensity": 44.4,
+      "signal_intensity": 53.0,
       "tickers": [
         "JACS-RI",
         "OBAWW",
@@ -239,17 +267,26 @@
     {
       "sector": "Financial Services",
       "company_count": 1,
-      "discovery_intensity": 54.1,
-      "signal_intensity": 62.6,
+      "discovery_intensity": 40.4,
+      "signal_intensity": 53.5,
       "tickers": [
         "SWRD"
       ]
     },
     {
+      "sector": "Retail",
+      "company_count": 1,
+      "discovery_intensity": 40.1,
+      "signal_intensity": 48.5,
+      "tickers": [
+        "LE"
+      ]
+    },
+    {
       "sector": "Life Sciences Tools & Services",
       "company_count": 1,
-      "discovery_intensity": 51.8,
-      "signal_intensity": 54.0,
+      "discovery_intensity": 39.8,
+      "signal_intensity": 46.0,
       "tickers": [
         "PSNL"
       ]
@@ -259,7 +296,7 @@
     {
       "theme": "Biotech & therapeutics",
       "company_count": 5,
-      "intensity": 59.9,
+      "intensity": 47.9,
       "tickers": [
         "BKHAR",
         "RLYB",
@@ -271,7 +308,7 @@
     {
       "theme": "AI infrastructure",
       "company_count": 2,
-      "intensity": 59.7,
+      "intensity": 46.2,
       "tickers": [
         "NXPI",
         "SLNHP"
@@ -280,7 +317,7 @@
     {
       "theme": "Cloud & software",
       "company_count": 1,
-      "intensity": 62.3,
+      "intensity": 50.3,
       "tickers": [
         "DTSQR"
       ]
@@ -288,7 +325,7 @@
     {
       "theme": "Semiconductors",
       "company_count": 1,
-      "intensity": 62.0,
+      "intensity": 47.1,
       "tickers": [
         "NXPI"
       ]
@@ -296,7 +333,7 @@
     {
       "theme": "Defense & aerospace",
       "company_count": 1,
-      "intensity": 58.0,
+      "intensity": 46.0,
       "tickers": [
         "VTIX"
       ]
@@ -304,7 +341,7 @@
     {
       "theme": "Nuclear & uranium",
       "company_count": 1,
-      "intensity": 57.4,
+      "intensity": 45.4,
       "tickers": [
         "HDRNW"
       ]
@@ -315,49 +352,49 @@
     {
       "ticker": "NXPI",
       "company_name": "NXP Semiconductors N.V.",
-      "signal_score": 72.6,
-      "market_attention_score": 33.1,
-      "discovery_score": 62.0,
-      "confidence_score": 87.8,
+      "signal_score": 67.5,
+      "market_attention_score": 30.6,
+      "discovery_score": 47.1,
+      "confidence_score": 93.8,
       "primary_catalyst": "8-K/A - NXP Semiconductors N.V. (0001413447) (Filer)",
       "catalyst_category": "Government funding",
-      "why_it_matters": "8 unique credible information items from 3 independent sources. Coverage is 2.4× the stored baseline.",
+      "why_it_matters": "10 unique credible information items from 4 independent sources. Coverage is 0.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 3,
-      "latest_event_at": "2026-11-25T18:47:51+00:00",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-26T15:30:15+00:00",
       "new_to_radar": false,
       "days_on_radar": 101,
       "change": {
-        "signal_delta": 4.1,
-        "discovery_delta": -9.3
+        "signal_delta": -1.0,
+        "discovery_delta": -24.2
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 8
+        "independent_sources": 4,
+        "unique_story_clusters": 10
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 10.1,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 15,
-        "corroboration": 10.0,
+        "corroboration": 15.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.3
       },
       "discovery_metrics": {
-        "attention_lift": 15.2,
+        "attention_lift": 0.0,
         "novelty": 19.5,
-        "source_breadth": 3.6,
+        "source_breadth": 3.9,
         "catalyst_strength": 11.2,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.2
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.3
       },
       "baseline": {
         "avg_items_24h": 0.2,
@@ -433,57 +470,63 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 72.6,
-          "discovery_score": 62.0
+          "discovery_score": 62.0,
+          "market_attention_score": 33.1,
+          "signal_score": 72.6
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 67.5,
+          "discovery_score": 47.1
         }
       ]
     },
     {
       "ticker": "CATY",
       "company_name": "CATHAY GENERAL BANCORP",
-      "signal_score": 71.5,
-      "market_attention_score": 31.6,
-      "discovery_score": 65.5,
-      "confidence_score": 75.8,
+      "signal_score": 65.5,
+      "market_attention_score": 27.9,
+      "discovery_score": 49.3,
+      "confidence_score": 87.8,
       "primary_catalyst": "CATHAY GENERAL BANCORP (0000861842) (Filer)",
       "catalyst_category": "Regulatory / FDA",
-      "why_it_matters": "4 unique credible information items from 2 independent sources. Coverage is 2.6× the stored baseline.",
+      "why_it_matters": "5 unique credible information items from 3 independent sources. Coverage is 0.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 4,
+      "attention_status": "Normal",
+      "article_count_24h": 1,
       "latest_event_at": "2026-11-25T23:02:01+00:00",
       "new_to_radar": false,
       "days_on_radar": 80,
       "change": {
-        "signal_delta": 9.5,
-        "discovery_delta": 3.2
+        "signal_delta": 3.5,
+        "discovery_delta": -13.0
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 4
+        "independent_sources": 3,
+        "unique_story_clusters": 5
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 11.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 18,
-        "corroboration": 5.0,
+        "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.6,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 16.5,
+        "attention_lift": 0.0,
         "novelty": 19.7,
-        "source_breadth": 3.3,
+        "source_breadth": 3.6,
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.6,
-        "weighted_coverage_24h": 1.3,
-        "weighted_source_breadth": 1.1
+        "coverage_ratio_vs_baseline": 0.2,
+        "weighted_coverage_24h": 0.1,
+        "weighted_source_breadth": 1.2
       },
       "baseline": {
         "avg_items_24h": 0.13,
@@ -549,12 +592,6 @@
       ],
       "history": [
         {
-          "date": "2026-09-26",
-          "discovery_score": 71.3,
-          "market_attention_score": 32.0,
-          "signal_score": 62.9
-        },
-        {
           "date": "2026-11-25",
           "discovery_score": 62.3,
           "market_attention_score": 27.3,
@@ -562,30 +599,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 71.5,
-          "discovery_score": 65.5
+          "discovery_score": 65.5,
+          "market_attention_score": 31.6,
+          "signal_score": 71.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 65.5,
+          "discovery_score": 49.3
         }
       ]
     },
     {
       "ticker": "DARE",
       "company_name": "Dare Bioscience, Inc.",
-      "signal_score": 68.5,
-      "market_attention_score": 28.9,
-      "discovery_score": 61.1,
+      "signal_score": 60.5,
+      "market_attention_score": 24.9,
+      "discovery_score": 49.1,
       "confidence_score": 67.8,
       "primary_catalyst": "Dare Bioscience, Inc. (0001401914) (Filer)",
       "catalyst_category": "Major contract",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:30:30-05:00",
       "new_to_radar": false,
       "days_on_radar": 94,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
+        "signal_delta": -5.0,
+        "discovery_delta": -8.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -594,24 +637,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 18,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 13.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -687,30 +730,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 68.5,
-          "discovery_score": 61.1
+          "discovery_score": 61.1,
+          "market_attention_score": 28.9,
+          "signal_score": 68.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 60.5,
+          "discovery_score": 49.1
         }
       ]
     },
     {
       "ticker": "DTSQR",
       "company_name": "DT Cloud Star Acquisition Corp",
-      "signal_score": 68.0,
-      "market_attention_score": 28.8,
-      "discovery_score": 62.3,
+      "signal_score": 60.0,
+      "market_attention_score": 24.8,
+      "discovery_score": 50.3,
       "confidence_score": 62,
       "primary_catalyst": "DT Cloud Star Acquisition Corp (0002017950) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:00:18-05:00",
       "new_to_radar": false,
       "days_on_radar": 65,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
+        "signal_delta": -5.0,
+        "discovery_delta": -8.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -719,24 +768,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -822,30 +871,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 68.0,
-          "discovery_score": 62.3
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 60.0,
+          "discovery_score": 50.3
         }
       ]
     },
     {
       "ticker": "CAPNU",
       "company_name": "Cayson Acquisition Corp",
-      "signal_score": 68.0,
-      "market_attention_score": 28.8,
-      "discovery_score": 62.2,
+      "signal_score": 60.0,
+      "market_attention_score": 24.8,
+      "discovery_score": 50.2,
       "confidence_score": 62,
       "primary_catalyst": "Cayson Acquisition Corp (0002024203) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:30:31-05:00",
       "new_to_radar": false,
       "days_on_radar": 65,
       "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": -0.1
+        "signal_delta": -8.0,
+        "discovery_delta": -12.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -854,24 +909,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.7,
         "source_breadth": 3.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -896,7 +951,7 @@
         "weburl": "https://www.caysonspac.com/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950884409726.png",
         "market_cap": 60601528.14612678,
-        "pe_ttm": 48.901,
+        "pe_ttm": 35.6955,
         "ps_ttm": null,
         "pb_annual": 1.3606,
         "revenue_growth_ttm_yoy": null,
@@ -949,30 +1004,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 68.0,
-          "discovery_score": 62.2
+          "discovery_score": 62.2,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 60.0,
+          "discovery_score": 50.2
         }
       ]
     },
     {
       "ticker": "BKHAR",
       "company_name": "Vesicor Therapeutics Holdings, Inc.",
-      "signal_score": 68.0,
-      "market_attention_score": 28.8,
-      "discovery_score": 62.3,
+      "signal_score": 60.0,
+      "market_attention_score": 24.8,
+      "discovery_score": 50.3,
       "confidence_score": 62,
       "primary_catalyst": "Vesicor Therapeutics Holdings, Inc. (0002000775) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:30:24-05:00",
       "new_to_radar": false,
       "days_on_radar": 94,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
+        "signal_delta": -5.0,
+        "discovery_delta": -8.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -981,24 +1042,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -1090,30 +1151,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 68.0,
-          "discovery_score": 62.3
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 60.0,
+          "discovery_score": 50.3
         }
       ]
     },
     {
       "ticker": "LCCCU",
       "company_name": "Lakeshore Acquisition III Corp.",
-      "signal_score": 68.0,
-      "market_attention_score": 28.8,
-      "discovery_score": 62.3,
+      "signal_score": 60.0,
+      "market_attention_score": 24.8,
+      "discovery_score": 50.3,
       "confidence_score": 62,
       "primary_catalyst": "Lakeshore Acquisition III Corp. (0002049248) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:15:33-05:00",
       "new_to_radar": false,
       "days_on_radar": 60,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
+        "signal_delta": -5.0,
+        "discovery_delta": -8.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1122,24 +1189,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -1211,30 +1278,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 68.0,
-          "discovery_score": 62.3
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 60.0,
+          "discovery_score": 50.3
         }
       ]
     },
     {
       "ticker": "JACS-RI",
       "company_name": "Jackson Acquisition Co II",
-      "signal_score": 68.0,
-      "market_attention_score": 28.8,
-      "discovery_score": 62.3,
+      "signal_score": 60.0,
+      "market_attention_score": 24.8,
+      "discovery_score": 50.3,
       "confidence_score": 62,
       "primary_catalyst": "Jackson Acquisition Co II (0002039058) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:15:23-05:00",
       "new_to_radar": true,
       "days_on_radar": 2,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
+        "signal_delta": -5.0,
+        "discovery_delta": -8.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1243,24 +1316,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -1332,30 +1405,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 68.0,
-          "discovery_score": 62.3
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 60.0,
+          "discovery_score": 50.3
         }
       ]
     },
     {
       "ticker": "OBAWW",
       "company_name": "Oxley Bridge Acquisition Ltd",
-      "signal_score": 68.0,
-      "market_attention_score": 28.8,
-      "discovery_score": 62.3,
+      "signal_score": 60.0,
+      "market_attention_score": 24.8,
+      "discovery_score": 50.3,
       "confidence_score": 62,
       "primary_catalyst": "Oxley Bridge Acquisition Ltd (0002034313) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:05:20-05:00",
       "new_to_radar": true,
       "days_on_radar": 2,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
+        "signal_delta": -5.0,
+        "discovery_delta": -8.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1364,24 +1443,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -1453,30 +1532,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 68.0,
-          "discovery_score": 62.3
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 60.0,
+          "discovery_score": 50.3
         }
       ]
     },
     {
       "ticker": "RLYB",
       "company_name": "Rallybio Corp",
-      "signal_score": 68.0,
-      "market_attention_score": 28.8,
-      "discovery_score": 62.0,
+      "signal_score": 60.0,
+      "market_attention_score": 24.8,
+      "discovery_score": 50.0,
       "confidence_score": 62,
       "primary_catalyst": "Avenzo Therapeutics, Inc. (0001739410) (Filer)",
       "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:02:16-05:00",
       "new_to_radar": false,
       "days_on_radar": 79,
       "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": -0.2
+        "signal_delta": -8.0,
+        "discovery_delta": -12.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1485,24 +1570,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 20,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.5,
         "source_breadth": 3.0,
         "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -1596,30 +1681,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 68.0,
-          "discovery_score": 62.0
+          "discovery_score": 62.0,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 60.0,
+          "discovery_score": 50.0
         }
       ]
     },
     {
       "ticker": "SCLXW",
       "company_name": "Scilex Holding Co",
-      "signal_score": 65.6,
-      "market_attention_score": 27.3,
-      "discovery_score": 59.5,
+      "signal_score": 56.5,
+      "market_attention_score": 22.9,
+      "discovery_score": 45.8,
       "confidence_score": 67.8,
       "primary_catalyst": "Scilex Holding Co (0001820190) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T22:20:00+00:00",
       "new_to_radar": false,
       "days_on_radar": 58,
       "change": {
-        "signal_delta": 4.6,
-        "discovery_delta": 2.6
+        "signal_delta": -4.5,
+        "discovery_delta": -11.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1628,24 +1719,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 14,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
+        "attention_lift": 0.0,
         "novelty": 19.5,
         "source_breadth": 3.3,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -1723,30 +1814,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 65.6,
-          "discovery_score": 59.5
+          "discovery_score": 59.5,
+          "market_attention_score": 27.3,
+          "signal_score": 65.6
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 56.5,
+          "discovery_score": 45.8
         }
       ]
     },
     {
       "ticker": "VTIX",
       "company_name": "Virtuix Holdings Inc.",
-      "signal_score": 64.5,
-      "market_attention_score": 27.6,
-      "discovery_score": 58.0,
+      "signal_score": 56.5,
+      "market_attention_score": 23.6,
+      "discovery_score": 46.0,
       "confidence_score": 71.8,
       "primary_catalyst": "Virtuix Holdings Inc. (0001606242) (Filer)",
       "catalyst_category": "Earnings / guidance",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:00:13-05:00",
       "new_to_radar": false,
       "days_on_radar": 99,
       "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": -0.1
+        "signal_delta": -8.0,
+        "discovery_delta": -12.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1755,24 +1852,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 14,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.7,
         "source_breadth": 3.3,
         "catalyst_strength": 10.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -1866,30 +1963,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 64.5,
-          "discovery_score": 58.0
+          "discovery_score": 58.0,
+          "market_attention_score": 27.6,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 56.5,
+          "discovery_score": 46.0
         }
       ]
     },
     {
       "ticker": "SLNHP",
       "company_name": "Soluna Holdings, Inc",
-      "signal_score": 63.5,
-      "market_attention_score": 26.4,
-      "discovery_score": 57.4,
+      "signal_score": 55.5,
+      "market_attention_score": 22.4,
+      "discovery_score": 45.4,
       "confidence_score": 67.8,
       "primary_catalyst": "Soluna Holdings, Inc (0000064463) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:15:32-05:00",
       "new_to_radar": false,
       "days_on_radar": 95,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -1898,24 +2001,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -1995,30 +2098,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 63.5,
-          "discovery_score": 57.4
+          "discovery_score": 57.4,
+          "market_attention_score": 26.4,
+          "signal_score": 63.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 55.5,
+          "discovery_score": 45.4
         }
       ]
     },
     {
       "ticker": "HDRNW",
       "company_name": "Hadron Energy, Inc.",
-      "signal_score": 63.5,
-      "market_attention_score": 26.4,
-      "discovery_score": 57.4,
+      "signal_score": 55.5,
+      "market_attention_score": 22.4,
+      "discovery_score": 45.4,
       "confidence_score": 67.8,
       "primary_catalyst": "Hadron Energy, Inc. (0002023730) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:00:15-05:00",
       "new_to_radar": false,
       "days_on_radar": 80,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2027,24 +2136,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -2118,30 +2227,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 63.5,
-          "discovery_score": 57.4
+          "discovery_score": 57.4,
+          "market_attention_score": 26.4,
+          "signal_score": 63.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 55.5,
+          "discovery_score": 45.4
         }
       ]
     },
     {
       "ticker": "PWCM",
       "company_name": "POWERCOMPUTE, INC.",
-      "signal_score": 63.5,
-      "market_attention_score": 26.4,
-      "discovery_score": 57.4,
+      "signal_score": 55.5,
+      "market_attention_score": 22.4,
+      "discovery_score": 45.4,
       "confidence_score": 67.8,
       "primary_catalyst": "POWERCOMPUTE, INC. (0001640384) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:00:15-05:00",
       "new_to_radar": false,
       "days_on_radar": 99,
       "change": {
-        "signal_delta": 0.0,
-        "discovery_delta": 0.0
+        "signal_delta": -8.0,
+        "discovery_delta": -12.0
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2150,24 +2265,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -2257,24 +2372,30 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 63.5,
-          "discovery_score": 57.4
+          "discovery_score": 57.4,
+          "market_attention_score": 26.4,
+          "signal_score": 63.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 55.5,
+          "discovery_score": 45.4
         }
       ]
     },
     {
       "ticker": "SWRD",
       "company_name": "Stewards, Inc.",
-      "signal_score": 62.6,
-      "market_attention_score": 24.4,
-      "discovery_score": 54.1,
+      "signal_score": 53.5,
+      "market_attention_score": 20.1,
+      "discovery_score": 40.4,
       "confidence_score": 79.8,
       "primary_catalyst": "Stewards, Inc. (0001795851) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:00:26-05:00",
       "new_to_radar": false,
       "days_on_radar": 84,
@@ -2289,24 +2410,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 6,
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.6,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
@@ -2374,30 +2495,36 @@
       "history": [
         {
           "date": "2026-11-26",
-          "signal_score": 62.6,
-          "discovery_score": 54.1
+          "discovery_score": 54.1,
+          "market_attention_score": 24.4,
+          "signal_score": 62.6
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 53.5,
+          "discovery_score": 40.4
         }
       ]
     },
     {
       "ticker": "FBDT",
       "company_name": "First Breach, Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
       "confidence_score": 62,
       "primary_catalyst": "First Breach, Inc. (0001892704) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:00:18-05:00",
       "new_to_radar": false,
       "days_on_radar": 97,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2406,24 +2533,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -2509,30 +2636,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
         }
       ]
     },
     {
       "ticker": "DRMA",
       "company_name": "Dermata Therapeutics, Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
       "confidence_score": 62,
       "primary_catalyst": "Dermata Therapeutics, Inc. (0001853816) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:00:18-05:00",
       "new_to_radar": false,
       "days_on_radar": 94,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2541,24 +2674,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -2635,30 +2768,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
         }
       ]
     },
     {
       "ticker": "SDSTW",
       "company_name": "Stardust Power Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
       "confidence_score": 62,
       "primary_catalyst": "Stardust Power Inc. (0001831979) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:00:18-05:00",
       "new_to_radar": false,
       "days_on_radar": 98,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2667,24 +2806,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -2728,30 +2867,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
         }
       ]
     },
     {
       "ticker": "PLRX",
       "company_name": "PLIANT THERAPEUTICS, INC.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
       "confidence_score": 62,
       "primary_catalyst": "PLIANT THERAPEUTICS, INC. (0001746473) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:16:21-05:00",
       "new_to_radar": false,
       "days_on_radar": 100,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2760,24 +2905,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -2823,30 +2968,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
         }
       ]
     },
     {
       "ticker": "PTN",
       "company_name": "PALATIN TECHNOLOGIES INC",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
       "confidence_score": 62,
       "primary_catalyst": "PALATIN TECHNOLOGIES INC (0000911216) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:15:24-05:00",
       "new_to_radar": false,
       "days_on_radar": 60,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2855,24 +3006,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -2922,30 +3073,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
         }
       ]
     },
     {
       "ticker": "PCSA",
       "company_name": "Processa Pharmaceuticals, Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
       "confidence_score": 62,
       "primary_catalyst": "Processa Pharmaceuticals, Inc. (0001533743) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:05:32-05:00",
       "new_to_radar": false,
       "days_on_radar": 77,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2954,24 +3111,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -3057,30 +3214,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
         }
       ]
     },
     {
       "ticker": "CRBU",
       "company_name": "Caribou Biosciences, Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
       "confidence_score": 62,
       "primary_catalyst": "Caribou Biosciences, Inc. (0001619856) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T16:05:15-05:00",
       "new_to_radar": true,
       "days_on_radar": 2,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3089,24 +3252,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 13,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -3150,30 +3313,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
         }
       ]
     },
     {
       "ticker": "MNTS",
       "company_name": "Momentus Inc.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 52.0,
+      "signal_score": 48.5,
+      "market_attention_score": 18.9,
+      "discovery_score": 40.0,
       "confidence_score": 67.8,
       "primary_catalyst": "Momentus Inc. (0001781162) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:15:20-05:00",
       "new_to_radar": false,
       "days_on_radar": 94,
       "change": {
-        "signal_delta": 2.5,
-        "discovery_delta": -4.3
+        "signal_delta": -5.5,
+        "discovery_delta": -16.3
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3182,24 +3351,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 6,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.7,
         "source_breadth": 3.3,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3257,24 +3426,30 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 56.5,
-          "discovery_score": 52.0
+          "discovery_score": 52.0,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 48.5,
+          "discovery_score": 40.0
         }
       ]
     },
     {
       "ticker": "BNKK",
       "company_name": "BONK, INC.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 52.1,
+      "signal_score": 48.5,
+      "market_attention_score": 18.9,
+      "discovery_score": 40.1,
       "confidence_score": 67.8,
       "primary_catalyst": "BONK, INC. (0001760903) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:13:19-05:00",
       "new_to_radar": false,
       "days_on_radar": 100,
@@ -3289,24 +3464,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 6,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3344,30 +3519,36 @@
       "history": [
         {
           "date": "2026-11-26",
-          "signal_score": 56.5,
-          "discovery_score": 52.1
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 48.5,
+          "discovery_score": 40.1
         }
       ]
     },
     {
       "ticker": "BURUW",
       "company_name": "Nuburu, Inc.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 52.1,
+      "signal_score": 48.5,
+      "market_attention_score": 18.9,
+      "discovery_score": 40.1,
       "confidence_score": 67.8,
       "primary_catalyst": "Nuburu, Inc. (0001814215) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:10:13-05:00",
       "new_to_radar": false,
       "days_on_radar": 51,
       "change": {
-        "signal_delta": -11.0,
-        "discovery_delta": -6.7
+        "signal_delta": -19.0,
+        "discovery_delta": -18.7
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3376,24 +3557,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 6,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3437,30 +3618,36 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 56.5,
-          "discovery_score": 52.1
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 48.5,
+          "discovery_score": 40.1
         }
       ]
     },
     {
-      "ticker": "ATNM",
-      "company_name": "Actinium Pharmaceuticals, Inc.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 52.1,
+      "ticker": "LE",
+      "company_name": "LANDS' END, INC.",
+      "signal_score": 48.5,
+      "market_attention_score": 18.9,
+      "discovery_score": 40.1,
       "confidence_score": 67.8,
-      "primary_catalyst": "Actinium Pharmaceuticals, Inc. (0001388320) (Filer)",
+      "primary_catalyst": "LANDS' END, INC. (0000799288) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-25T17:00:14-05:00",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-25T18:04:48+00:00",
       "new_to_radar": false,
-      "days_on_radar": 43,
+      "days_on_radar": 99,
       "change": {
-        "signal_delta": -4.0,
-        "discovery_delta": -23.5
+        "signal_delta": null,
+        "discovery_delta": null
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3469,24 +3656,139 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 6,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Lands' End Inc",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1986-10-03",
+        "weburl": "https://www.landsend.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/LE.png",
+        "market_cap": 336305082.00739366,
+        "pe_ttm": 0.9763,
+        "ps_ttm": 0.2562,
+        "pb_annual": 2.221,
+        "revenue_growth_ttm_yoy": -1.93,
+        "eps_growth_ttm_yoy": 9701.43,
+        "gross_margin_ttm": 47.91,
+        "net_margin_ttm": 26.24,
+        "current_ratio": 1.6121,
+        "debt_equity": 0.9301,
+        "beta": 2.2791333
+      },
+      "profile": {
+        "name": "Lands' End Inc",
+        "description": "Lands",
+        "industry": "Retail",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.landsend.com",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "LE",
+          "company_name": "LANDS' END, INC.",
+          "source": "SEC EDGAR",
+          "title": "LANDS' END, INC. (0000799288) (Filer)",
+          "summary": "Filed: 2026-11-25 AccNo: 0001193125-26-478630 Size: 146 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/799288/000119312526478630/0001193125-26-478630-index.htm",
+          "published_at": "2026-11-25T17:00:15-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "abeefceacf06",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-26",
+          "signal_score": 48.5,
+          "discovery_score": 40.1
+        }
+      ]
+    },
+    {
+      "ticker": "ATNM",
+      "company_name": "Actinium Pharmaceuticals, Inc.",
+      "signal_score": 48.5,
+      "market_attention_score": 18.9,
+      "discovery_score": 40.1,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Actinium Pharmaceuticals, Inc. (0001388320) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-25T17:00:14-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 43,
+      "change": {
+        "signal_delta": -12.0,
+        "discovery_delta": -35.5
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3561,24 +3863,30 @@
         },
         {
           "date": "2026-11-26",
-          "signal_score": 56.5,
-          "discovery_score": 52.1
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 48.5,
+          "discovery_score": 40.1
         }
       ]
     },
     {
       "ticker": "PSNL",
       "company_name": "Personalis, Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
       "confidence_score": 62,
       "primary_catalyst": "Personalis, Inc. (0001527753) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:26:14-05:00",
       "new_to_radar": false,
       "days_on_radar": 99,
@@ -3593,24 +3901,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 6,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -3676,24 +3984,30 @@
       "history": [
         {
           "date": "2026-11-26",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-11-26",
+          "signal_score": 46.0,
+          "discovery_score": 39.8
         }
       ]
     },
     {
       "ticker": "SYBX",
       "company_name": "SYNLOGIC, INC.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
+      "signal_score": 46.0,
+      "market_attention_score": 17.8,
+      "discovery_score": 39.8,
       "confidence_score": 62,
       "primary_catalyst": "SYNLOGIC, INC. (0001527599) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
+      "attention_status": "Normal",
+      "article_count_24h": 0,
       "latest_event_at": "2026-11-25T17:19:35-05:00",
       "new_to_radar": true,
       "days_on_radar": 2,
@@ -3708,24 +4022,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
+        "coverage_acceleration": 0.0,
         "catalyst_strength": 6,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -3763,123 +4077,14 @@
       "history": [
         {
           "date": "2026-11-26",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
-        }
-      ]
-    },
-    {
-      "ticker": "CYCUW",
-      "company_name": "Cycurion, Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
-      "confidence_score": 62,
-      "primary_catalyst": "Cycurion, Inc. (0001868419) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-25T17:18:51-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 101,
-      "change": {
-        "signal_delta": null,
-        "discovery_delta": null
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "ipo_date": "",
-        "weburl": "",
-        "logo": "",
-        "market_cap": null,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 1.6997188
-      },
-      "profile": {
-        "name": "CYCUW",
-        "description": "CYCUW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "CYCUW",
-          "company_name": "Cycurion, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Cycurion, Inc. (0001868419) (Filer)",
-          "summary": "Filed: 2026-11-25 AccNo: 0001493152-26-054300 Size: 4 MB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1868419/000149315226054300/0001493152-26-054300-index.htm",
-          "published_at": "2026-11-25T17:18:51-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "aaaa17d5d9f2",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
         {
           "date": "2026-11-26",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
+          "signal_score": 46.0,
+          "discovery_score": 39.8
         }
       ]
     }
