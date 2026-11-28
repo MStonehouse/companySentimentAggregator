@@ -36663,7 +36663,7 @@
       }
     },
     "IPST": {
-      "cached_at": "2026-10-27T18:46:40.585083+00:00",
+      "cached_at": "2026-11-28T21:06:35.545546+00:00",
       "data": {
         "name": "IP Strategy Holdings Inc",
         "industry": "Beverages",
@@ -36672,17 +36672,17 @@
         "ipo_date": "2024-11-22",
         "weburl": "https://ir.ipstrategy.co/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950711727306.png",
-        "market_cap": 2572693.7738967137,
+        "market_cap": 1464022.0000000002,
         "pe_ttm": null,
-        "ps_ttm": 0.1431,
+        "ps_ttm": 0.1442,
         "pb_annual": 0.1518,
-        "revenue_growth_ttm_yoy": 37.89,
+        "revenue_growth_ttm_yoy": 39.71,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 60.13,
-        "net_margin_ttm": -1875.55,
+        "gross_margin_ttm": 65.38,
+        "net_margin_ttm": -2063.99,
         "current_ratio": 0.3091,
         "debt_equity": 0.0262,
-        "beta": 0.012939005
+        "beta": 0.69183815
       }
     },
     "UHS": {
@@ -45446,6 +45446,29 @@
         "current_ratio": 0.5682,
         "debt_equity": 0.8819,
         "beta": 3.7656248
+      }
+    },
+    "ASBPW": {
+      "cached_at": "2026-11-28T21:06:35.545546+00:00",
+      "data": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": -1.2921288
       }
     }
   }

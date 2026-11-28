@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-28T08:59:21.511198+00:00",
+    "generated_at": "2026-11-28T21:06:35.545546+00:00",
     "companies_scanned": 76,
     "sources_enabled": {
       "sec_edgar": true,
@@ -25,68 +25,70 @@
       "ASCRF",
       "CSTWF",
       "MCGAU",
-      "NHP",
-      "IEP",
-      "JAGX",
       "VVOS",
+      "IEP",
       "QDMI",
       "MLR",
       "SPWRW",
-      "MSS",
       "IPST",
       "IQST",
-      "RMCF",
-      "TRNR",
-      "ORBS",
-      "CRDF",
-      "MGX",
-      "SEV",
+      "NHP",
       "ASBPW",
-      "SBMT",
+      "SEV",
+      "MSS",
       "HSCSW",
       "OLOX",
       "VJET",
-      "SNTL"
+      "SNTL",
+      "MBRX",
+      "CHGA",
+      "AIRI",
+      "LGVN",
+      "RMCF",
+      "TRNR",
+      "ORBS"
     ],
     "emerging_signals": [
-      "IEP",
-      "VTRS",
-      "EU",
       "GURE",
+      "EU",
       "SXTPW",
+      "VTRS",
       "MACIU",
       "ASCRF",
       "CSTWF",
       "MCGAU",
-      "NHP",
-      "MLR",
-      "SPWRW",
-      "MSS",
-      "QDMI",
-      "JAGX",
       "VVOS",
+      "MLR",
+      "QDMI",
+      "SPWRW",
       "IPST",
-      "RMCF",
-      "TRNR",
-      "ORBS",
-      "CRDF",
-      "MGX",
       "IQST",
-      "SEV",
       "ASBPW",
-      "SBMT",
+      "SEV",
       "HSCSW",
       "AIRI",
       "LGVN",
-      "CEPF"
+      "MBRX",
+      "CHGA",
+      "NHP",
+      "IEP",
+      "OLOX",
+      "VJET",
+      "SNTL",
+      "MSS",
+      "RMCF",
+      "TRNR",
+      "ORBS"
     ]
   },
   "briefing": {
     "new_emerging": [
-      "IEP",
-      "MSS",
-      "TRNR",
-      "ORBS"
+      "ASBPW",
+      "SEV",
+      "HSCSW",
+      "AIRI",
+      "LGVN",
+      "MBRX"
     ],
     "accelerating": [],
     "cooling": [
@@ -97,6 +99,10 @@
       {
         "ticker": "AIRI",
         "delta": -21.8
+      },
+      {
+        "ticker": "VTRS",
+        "delta": -12.5
       }
     ],
     "major_catalysts": [
@@ -143,30 +149,14 @@
     ],
     "left_emerging_top20": [
       "GRDX",
-      "IQST",
+      "JAGX",
       "MEDS",
+      "NHP",
+      "RMCF",
       "VWAVW"
     ]
   },
   "sectors": [
-    {
-      "sector": "Industrial Conglomerates",
-      "company_count": 1,
-      "discovery_intensity": 72.6,
-      "signal_intensity": 60.0,
-      "tickers": [
-        "IEP"
-      ]
-    },
-    {
-      "sector": "Energy",
-      "company_count": 1,
-      "discovery_intensity": 64.4,
-      "signal_intensity": 76.6,
-      "tickers": [
-        "EU"
-      ]
-    },
     {
       "sector": "Chemicals",
       "company_count": 1,
@@ -177,22 +167,31 @@
       ]
     },
     {
-      "sector": "Real Estate",
+      "sector": "Energy",
       "company_count": 1,
-      "discovery_intensity": 62.3,
-      "signal_intensity": 68.0,
+      "discovery_intensity": 62.8,
+      "signal_intensity": 75.5,
       "tickers": [
-        "NHP"
+        "EU"
       ]
     },
     {
       "sector": "Pharmaceuticals",
-      "company_count": 2,
-      "discovery_intensity": 61.8,
-      "signal_intensity": 73.0,
+      "company_count": 1,
+      "discovery_intensity": 62.6,
+      "signal_intensity": 75.5,
       "tickers": [
-        "VTRS",
-        "JAGX"
+        "VTRS"
+      ]
+    },
+    {
+      "sector": "N/A",
+      "company_count": 2,
+      "discovery_intensity": 62.3,
+      "signal_intensity": 68.0,
+      "tickers": [
+        "MACIU",
+        "MCGAU"
       ]
     },
     {
@@ -202,26 +201,6 @@
       "signal_intensity": 64.6,
       "tickers": [
         "MLR"
-      ]
-    },
-    {
-      "sector": "Retail",
-      "company_count": 1,
-      "discovery_intensity": 59.0,
-      "signal_intensity": 64.6,
-      "tickers": [
-        "MSS"
-      ]
-    },
-    {
-      "sector": "N/A",
-      "company_count": 3,
-      "discovery_intensity": 58.9,
-      "signal_intensity": 64.2,
-      "tickers": [
-        "MACIU",
-        "MCGAU",
-        "SBMT"
       ]
     },
     {
@@ -243,15 +222,6 @@
       ]
     },
     {
-      "sector": "Food Products",
-      "company_count": 1,
-      "discovery_intensity": 57.1,
-      "signal_intensity": 61.0,
-      "tickers": [
-        "RMCF"
-      ]
-    },
-    {
       "sector": "Telecommunication",
       "company_count": 1,
       "discovery_intensity": 56.8,
@@ -259,23 +229,66 @@
       "tickers": [
         "IQST"
       ]
+    },
+    {
+      "sector": "Unclassified",
+      "company_count": 9,
+      "discovery_intensity": 54.1,
+      "signal_intensity": 59.6,
+      "tickers": [
+        "SXTPW",
+        "ASCRF",
+        "CSTWF",
+        "SPWRW",
+        "ASBPW",
+        "HSCSW"
+      ]
+    },
+    {
+      "sector": "Health Care",
+      "company_count": 2,
+      "discovery_intensity": 53.5,
+      "signal_intensity": 57.8,
+      "tickers": [
+        "VVOS",
+        "VJET"
+      ]
+    },
+    {
+      "sector": "Automobiles",
+      "company_count": 1,
+      "discovery_intensity": 52.1,
+      "signal_intensity": 56.5,
+      "tickers": [
+        "SEV"
+      ]
+    },
+    {
+      "sector": "Biotechnology",
+      "company_count": 2,
+      "discovery_intensity": 51.8,
+      "signal_intensity": 54.0,
+      "tickers": [
+        "LGVN",
+        "MBRX"
+      ]
     }
   ],
   "themes": [
     {
       "theme": "Biotech & therapeutics",
       "company_count": 3,
-      "intensity": 60.1,
+      "intensity": 57.8,
       "tickers": [
         "VTRS",
         "VVOS",
-        "MGX"
+        "MBRX"
       ]
     },
     {
       "theme": "Nuclear & uranium",
       "company_count": 1,
-      "intensity": 64.4,
+      "intensity": 62.8,
       "tickers": [
         "EU"
       ]
@@ -299,276 +312,6 @@
   ],
   "general_news": [],
   "companies": [
-    {
-      "ticker": "VTRS",
-      "company_name": "Viatris Inc",
-      "signal_score": 77.6,
-      "market_attention_score": 35.6,
-      "discovery_score": 65.8,
-      "confidence_score": 87.8,
-      "primary_catalyst": "Viatris Inc (0001792044) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "8 unique credible information items from 3 independent sources. Coverage is 2.4× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 3,
-      "latest_event_at": "2026-11-27T18:29:54+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 103,
-      "change": {
-        "signal_delta": 4.1,
-        "discovery_delta": -9.3
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 8
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 10.1,
-        "catalyst_strength": 20,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 15.2,
-        "novelty": 19.5,
-        "source_breadth": 3.6,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.4,
-        "weighted_coverage_24h": 1.2,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.2,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Viatris Inc.",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1973-02-01",
-        "weburl": "https://www.viatris.com/en",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/VTRS.png",
-        "market_cap": 21863430000.0,
-        "pe_ttm": null,
-        "ps_ttm": 1.5193,
-        "pb_annual": 0.9747,
-        "revenue_growth_ttm_yoy": 4.27,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 41.13,
-        "net_margin_ttm": -4.13,
-        "current_ratio": 1.3799,
-        "debt_equity": 0.9796,
-        "beta": 0.82425916
-      },
-      "profile": {
-        "name": "Viatris Inc",
-        "description": "At Viatris, we empower people worldwide to live healthier at every stage of life.",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.viatris.com/en",
-        "products_markets": [
-          "Therapeutics"
-        ],
-        "source": "Company website"
-      },
-      "themes": [
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "VTRS",
-          "company_name": "Viatris Inc",
-          "source": "SEC EDGAR",
-          "title": "Viatris Inc (0001792044) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001140361-26-045892 Size: 134 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/1792044/000114036126045892/0001140361-26-045892-index.htm",
-          "published_at": "2026-11-27T16:19:23-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "499300c10d4d",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        },
-        {
-          "ticker": "VTRS",
-          "company_name": "Viatris Inc",
-          "source": "Yahoo",
-          "title": "Is Viatris (VTRS) A Bargain On Its Pacira Deal And Product Pipeline?",
-          "summary": "Viatris (VTRS) just tied its growth story to the racetrack by signing a multiyear deal as Official Global Pharmaceutical Partner of the Cadillac Formula 1 Team starting with the 2027 season. The partnership headlines arrive while Viatris shares have been on a strong run, with a 1 month share price return of 8.42% and a 90 day gain of 17.41%. The year to date share price return of 59.15% combines with a 1 year total…",
-          "url": "https://finnhub.io/api/news?id=f19803f0750deb724c39e113e1cfb624b3137733016ca3a8372d6fd0934e9f78",
-          "published_at": "2026-11-26T06:18:42+00:00",
-          "sentiment": 0.0,
-          "evidence_type": "Professional reporting",
-          "fingerprint": "d079282c1205",
-          "display_relevance": 0.62,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-08",
-          "discovery_score": 75.1,
-          "market_attention_score": 47.1,
-          "signal_score": 89.1
-        },
-        {
-          "date": "2026-11-27",
-          "discovery_score": 75.1,
-          "market_attention_score": 37.1,
-          "signal_score": 73.5
-        },
-        {
-          "date": "2026-11-28",
-          "signal_score": 77.6,
-          "discovery_score": 65.8
-        }
-      ]
-    },
-    {
-      "ticker": "EU",
-      "company_name": "enCore Energy Corp.",
-      "signal_score": 76.6,
-      "market_attention_score": 31.4,
-      "discovery_score": 64.4,
-      "confidence_score": 79.8,
-      "primary_catalyst": "enCore Energy Corp. (0001500881) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-27T16:15:15-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 101,
-      "change": {
-        "signal_delta": 3.6,
-        "discovery_delta": -2.7
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 20,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.7,
-        "source_breadth": 3.6,
-        "catalyst_strength": 15.0,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.13,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "enCore Energy Corp",
-        "industry": "Energy",
-        "country": "US",
-        "exchange": "TSX VENTURE EXCHANGE - NEX",
-        "ipo_date": "2010-05-12",
-        "weburl": "https://encoreuranium.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950007122366.png",
-        "market_cap": 142089005.68990043,
-        "pe_ttm": null,
-        "ps_ttm": 1.5838,
-        "pb_annual": 2.2186,
-        "revenue_growth_ttm_yoy": 42.87,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 2.06,
-        "net_margin_ttm": -145.1,
-        "current_ratio": 2.9,
-        "debt_equity": 0.0699,
-        "beta": 2.7139058
-      },
-      "profile": {
-        "name": "enCore Energy Corp",
-        "description": "enCore Energy Corp is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
-        "industry": "Energy",
-        "country": "US",
-        "exchange": "TSX VENTURE EXCHANGE - NEX",
-        "website": "https://encoreuranium.com/",
-        "products_markets": [
-          "Energy"
-        ],
-        "source": "Structured company profile"
-      },
-      "themes": [
-        "Nuclear & uranium"
-      ],
-      "stories": [
-        {
-          "ticker": "EU",
-          "company_name": "enCore Energy Corp.",
-          "source": "SEC EDGAR",
-          "title": "enCore Energy Corp. (0001500881) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001193125-26-480288 Size: 182 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1500881/000119312526480288/0001193125-26-480288-index.htm",
-          "published_at": "2026-11-27T16:15:15-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "d04a45c44336",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-27",
-          "discovery_score": 67.1,
-          "market_attention_score": 31.4,
-          "signal_score": 73.0
-        },
-        {
-          "date": "2026-11-28",
-          "signal_score": 76.6,
-          "discovery_score": 64.4
-        }
-      ]
-    },
     {
       "ticker": "GURE",
       "company_name": "GULF RESOURCES, INC.",
@@ -713,60 +456,66 @@
         },
         {
           "date": "2026-11-28",
+          "discovery_score": 62.9,
+          "market_attention_score": 31.8,
+          "signal_score": 75.5
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 75.5,
           "discovery_score": 62.9
         }
       ]
     },
     {
-      "ticker": "IEP",
-      "company_name": "ICAHN ENTERPRISES L.P.",
-      "signal_score": 60.0,
-      "market_attention_score": 28.2,
-      "discovery_score": 72.6,
+      "ticker": "VTRS",
+      "company_name": "Viatris Inc",
+      "signal_score": 75.5,
+      "market_attention_score": 34.8,
+      "discovery_score": 62.6,
       "confidence_score": 87.8,
-      "primary_catalyst": "ICAHN ENTERPRISES L.P. (0000813762) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "7 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
+      "primary_catalyst": "Viatris Inc (0001792044) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "8 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Emerging",
-      "article_count_24h": 4,
-      "latest_event_at": "2026-11-27T17:15:20-05:00",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-27T18:29:54+00:00",
       "new_to_radar": false,
-      "days_on_radar": 101,
+      "days_on_radar": 103,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": 2.0,
+        "discovery_delta": -12.5
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 3,
-        "unique_story_clusters": 7
+        "unique_story_clusters": 8
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 6.5,
-        "catalyst_strength": 6,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 20,
         "corroboration": 10.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 1.3,
-        "weighted_coverage_24h": 1.3,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.2
       },
       "discovery_metrics": {
-        "attention_lift": 32.0,
-        "novelty": 20.0,
+        "attention_lift": 12.0,
+        "novelty": 19.5,
         "source_breadth": 3.6,
-        "catalyst_strength": 4.5,
+        "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 1.3,
-        "weighted_coverage_24h": 1.3,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.2
       },
       "baseline": {
-        "avg_items_24h": 0.0,
+        "avg_items_24h": 0.2,
         "days_available": 30,
         "maturity": "established"
       },
@@ -779,57 +528,224 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Icahn Enterprises LP",
-        "industry": "Industrial Conglomerates",
+        "name": "Viatris Inc.",
+        "industry": "Pharmaceuticals",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1987-07-23",
-        "weburl": "https://www.ielp.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959033436.png",
-        "market_cap": 1952959955.2295723,
+        "ipo_date": "1973-02-01",
+        "weburl": "https://www.viatris.com/en",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/VTRS.png",
+        "market_cap": 21863430000.0,
         "pe_ttm": null,
-        "ps_ttm": 0.183,
-        "pb_annual": 2.3335,
-        "revenue_growth_ttm_yoy": 20.04,
+        "ps_ttm": 1.5193,
+        "pb_annual": 0.9747,
+        "revenue_growth_ttm_yoy": 4.27,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 4.86,
-        "net_margin_ttm": -9.56,
-        "current_ratio": 2.7853,
-        "debt_equity": 3.4068,
-        "beta": 0.8630033
+        "gross_margin_ttm": 41.13,
+        "net_margin_ttm": -4.13,
+        "current_ratio": 1.3799,
+        "debt_equity": 0.9796,
+        "beta": 0.82425916
       },
       "profile": {
-        "name": "Icahn Enterprises LP",
-        "description": "Icahn Enterprises LP is a publicly traded company operating in the Industrial Conglomerates industry with company information identifying US as its home market.",
-        "industry": "Industrial Conglomerates",
+        "name": "Viatris Inc",
+        "description": "At Viatris, we empower people worldwide to live healthier at every stage of life.",
+        "industry": "Pharmaceuticals",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.ielp.com",
-        "products_markets": [],
-        "source": "Structured company profile"
+        "website": "https://www.viatris.com/en",
+        "products_markets": [
+          "Therapeutics"
+        ],
+        "source": "Company website"
       },
-      "themes": [],
+      "themes": [
+        "Biotech & therapeutics"
+      ],
       "stories": [
         {
-          "ticker": "IEP",
-          "company_name": "ICAHN ENTERPRISES L.P.",
+          "ticker": "VTRS",
+          "company_name": "Viatris Inc",
           "source": "SEC EDGAR",
-          "title": "ICAHN ENTERPRISES L.P. (0000813762) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001104659-26-132525 Size: 197 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/813762/000110465926132525/0001104659-26-132525-index.htm",
-          "published_at": "2026-11-27T17:15:20-05:00",
+          "title": "Viatris Inc (0001792044) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001140361-26-045892 Size: 134 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/1792044/000114036126045892/0001140361-26-045892-index.htm",
+          "published_at": "2026-11-27T16:19:23-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "3b6744644a50",
+          "fingerprint": "499300c10d4d",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        },
+        {
+          "ticker": "VTRS",
+          "company_name": "Viatris Inc",
+          "source": "Yahoo",
+          "title": "Is Viatris (VTRS) A Bargain On Its Pacira Deal And Product Pipeline?",
+          "summary": "Viatris (VTRS) just tied its growth story to the racetrack by signing a multiyear deal as Official Global Pharmaceutical Partner of the Cadillac Formula 1 Team starting with the 2027 season. The partnership headlines arrive while Viatris shares have been on a strong run, with a 1 month share price return of 8.42% and a 90 day gain of 17.41%. The year to date share price return of 59.15% combines with a 1 year total…",
+          "url": "https://finnhub.io/api/news?id=f19803f0750deb724c39e113e1cfb624b3137733016ca3a8372d6fd0934e9f78",
+          "published_at": "2026-11-26T06:18:42+00:00",
+          "sentiment": 0.0,
+          "evidence_type": "Professional reporting",
+          "fingerprint": "d079282c1205",
+          "display_relevance": 0.62,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-08",
+          "discovery_score": 75.1,
+          "market_attention_score": 47.1,
+          "signal_score": 89.1
+        },
+        {
+          "date": "2026-11-27",
+          "discovery_score": 75.1,
+          "market_attention_score": 37.1,
+          "signal_score": 73.5
+        },
+        {
+          "date": "2026-11-28",
+          "discovery_score": 65.8,
+          "market_attention_score": 35.6,
+          "signal_score": 77.6
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 75.5,
+          "discovery_score": 62.6
+        }
+      ]
+    },
+    {
+      "ticker": "EU",
+      "company_name": "enCore Energy Corp.",
+      "signal_score": 75.5,
+      "market_attention_score": 31.1,
+      "discovery_score": 62.8,
+      "confidence_score": 79.8,
+      "primary_catalyst": "enCore Energy Corp. (0001500881) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Emerging",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-27T16:15:15-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 101,
+      "change": {
+        "signal_delta": 2.5,
+        "discovery_delta": -4.3
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 3
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 20,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.7,
+        "source_breadth": 3.6,
+        "catalyst_strength": 15.0,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "enCore Energy Corp",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "TSX VENTURE EXCHANGE - NEX",
+        "ipo_date": "2010-05-12",
+        "weburl": "https://encoreuranium.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950007122366.png",
+        "market_cap": 142089005.68990043,
+        "pe_ttm": null,
+        "ps_ttm": 1.5838,
+        "pb_annual": 2.2186,
+        "revenue_growth_ttm_yoy": 42.87,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 2.06,
+        "net_margin_ttm": -145.1,
+        "current_ratio": 2.9,
+        "debt_equity": 0.0699,
+        "beta": 2.7139058
+      },
+      "profile": {
+        "name": "enCore Energy Corp",
+        "description": "enCore Energy Corp is a publicly traded company operating in the Energy industry with company information identifying US as its home market.",
+        "industry": "Energy",
+        "country": "US",
+        "exchange": "TSX VENTURE EXCHANGE - NEX",
+        "website": "https://encoreuranium.com/",
+        "products_markets": [
+          "Energy"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "Nuclear & uranium"
+      ],
+      "stories": [
+        {
+          "ticker": "EU",
+          "company_name": "enCore Energy Corp.",
+          "source": "SEC EDGAR",
+          "title": "enCore Energy Corp. (0001500881) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001193125-26-480288 Size: 182 KB Item 1.01: Entry into a Material Definitive Agreement Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1500881/000119312526480288/0001193125-26-480288-index.htm",
+          "published_at": "2026-11-27T16:15:15-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "d04a45c44336",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
+          "date": "2026-11-27",
+          "discovery_score": 67.1,
+          "market_attention_score": 31.4,
+          "signal_score": 73.0
+        },
+        {
           "date": "2026-11-28",
-          "signal_score": 60.0,
-          "discovery_score": 72.6
+          "discovery_score": 64.4,
+          "market_attention_score": 31.4,
+          "signal_score": 76.6
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 75.5,
+          "discovery_score": 62.8
         }
       ]
     },
@@ -973,137 +889,14 @@
         },
         {
           "date": "2026-11-28",
-          "signal_score": 69.6,
-          "discovery_score": 62.6
-        }
-      ]
-    },
-    {
-      "ticker": "JAGX",
-      "company_name": "Jaguar Health, Inc.",
-      "signal_score": 68.5,
-      "market_attention_score": 27.6,
-      "discovery_score": 57.7,
-      "confidence_score": 79.8,
-      "primary_catalyst": "Jaguar Health, Inc. (0001585608) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "3 unique credible information items from 3 independent sources. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T12:35:12-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 102,
-      "change": {
-        "signal_delta": -2.0,
-        "discovery_delta": 0.1
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 3,
-        "unique_story_clusters": 3
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 13,
-        "corroboration": 10.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.6,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.2
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Jaguar Health Inc",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2015-05-13",
-        "weburl": "https://jaguar.health/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/JAGX.png",
-        "market_cap": 6998628.999999999,
-        "pe_ttm": null,
-        "ps_ttm": 0.2516,
-        "pb_annual": 1.2197,
-        "revenue_growth_ttm_yoy": 135.52,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 82.31,
-        "net_margin_ttm": -130.85,
-        "current_ratio": 0.5004,
-        "debt_equity": 3.6378,
-        "beta": 0.13354477
-      },
-      "profile": {
-        "name": "Jaguar Health Inc",
-        "description": "Learn About Our Key Near-Term Milestones In conjunction with Jaguar family companies Napo Pharmaceuticals, Inc. and Napo Therapeutics S.p.A., we are sharply focused on our ongoing global development program for our novel powder for oral solution formulation of crofelemer for rare intestinal failure indications in adults and",
-        "industry": "Pharmaceuticals",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://jaguar.health/",
-        "products_markets": [
-          "Therapeutics"
-        ],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "JAGX",
-          "company_name": "Jaguar Health, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Jaguar Health, Inc. (0001585608) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001193125-26-479783 Size: 142 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1585608/000119312526479783/0001193125-26-479783-index.htm",
-          "published_at": "2026-11-27T12:35:12-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "ba1ce160bc0a",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-03",
-          "discovery_score": 81.9,
-          "market_attention_score": 39.1,
-          "signal_score": 77.0
-        },
-        {
-          "date": "2026-11-27",
-          "discovery_score": 57.6,
-          "market_attention_score": 32.3,
-          "signal_score": 70.5
+          "discovery_score": 62.6,
+          "market_attention_score": 29.3,
+          "signal_score": 69.6
         },
         {
           "date": "2026-11-28",
-          "signal_score": 68.5,
-          "discovery_score": 57.7
+          "signal_score": 69.6,
+          "discovery_score": 62.6
         }
       ]
     },
@@ -1229,6 +1022,12 @@
         },
         {
           "date": "2026-11-28",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 68.0,
           "discovery_score": 62.3
         }
@@ -1347,6 +1146,12 @@
           "discovery_score": 58.5,
           "market_attention_score": 28.8,
           "signal_score": 65.0
+        },
+        {
+          "date": "2026-11-28",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
         },
         {
           "date": "2026-11-28",
@@ -1471,6 +1276,12 @@
         },
         {
           "date": "2026-11-28",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 68.0,
           "discovery_score": 62.3
         }
@@ -1592,57 +1403,63 @@
         },
         {
           "date": "2026-11-28",
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 68.0,
           "discovery_score": 62.3
         }
       ]
     },
     {
-      "ticker": "NHP",
-      "company_name": "National Healthcare Properties, Inc.",
-      "signal_score": 68.0,
-      "market_attention_score": 28.8,
-      "discovery_score": 62.3,
-      "confidence_score": 62,
-      "primary_catalyst": "National Healthcare Properties, Inc. (0001561032) (Filer)",
-      "catalyst_category": "M&A",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "ticker": "VVOS",
+      "company_name": "Vivos Therapeutics, Inc.",
+      "signal_score": 64.6,
+      "market_attention_score": 28.3,
+      "discovery_score": 59.0,
+      "confidence_score": 75.8,
+      "primary_catalyst": "Vivos Therapeutics, Inc. (0001716166) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "4 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Emerging",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T13:07:43-05:00",
+      "attention_status": "Above baseline",
+      "article_count_24h": 2,
+      "latest_event_at": "2026-11-27T22:00:37+00:00",
       "new_to_radar": false,
-      "days_on_radar": 24,
+      "days_on_radar": 101,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
+        "signal_delta": 4.1,
+        "discovery_delta": 5.5
       },
       "evidence": {
         "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
+        "independent_sources": 2,
+        "unique_story_clusters": 4
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 20,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
+        "coverage_acceleration": 9.1,
+        "catalyst_strength": 13,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 13.7,
         "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 15.0,
+        "source_breadth": 3.3,
+        "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
+        "coverage_ratio_vs_baseline": 2.2,
+        "weighted_coverage_24h": 1.1,
+        "weighted_source_breadth": 1.1
       },
       "baseline": {
         "avg_items_24h": 0.07,
@@ -1658,69 +1475,71 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "National Healthcare Properties, Inc.",
-        "industry": "Real Estate",
+        "name": "Vivos Therapeutics Inc",
+        "industry": "Health Care",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2020-03-30",
-        "weburl": "https://nhpreit.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950379424396.png",
-        "market_cap": 1122159635.7,
+        "ipo_date": "2020-12-11",
+        "weburl": "https://vivos.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950708259576.png",
+        "market_cap": 3820000.0,
         "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
+        "ps_ttm": 0.085,
+        "pb_annual": 3.1765,
+        "revenue_growth_ttm_yoy": 45.21,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 0.25094205
+        "gross_margin_ttm": 61.9,
+        "net_margin_ttm": -121.8,
+        "current_ratio": 0.2425,
+        "debt_equity": 0,
+        "beta": 6.676649
       },
       "profile": {
-        "name": "National Healthcare Properties, Inc.",
-        "description": "National Healthcare Properties offers a balanced platform focused on senior housing and outpatient medical assets, delivering disciplined growth and long-term value creation.",
-        "industry": "Real Estate",
+        "name": "Vivos Therapeutics Inc",
+        "description": "To Breathe Well is to Live Fully The only FDA-cleared oral appliance alternative to CPAP for moderate to severe OSA. No Masks. No Surgery. No Lifetime Treatment. Rethinking Sleep Apnea Treatment.",
+        "industry": "Health Care",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://nhpreit.com",
+        "website": "https://vivos.com/",
         "products_markets": [],
         "source": "Company website"
       },
-      "themes": [],
+      "themes": [
+        "Biotech & therapeutics"
+      ],
       "stories": [
         {
-          "ticker": "NHP",
-          "company_name": "National Healthcare Properties, Inc.",
+          "ticker": "VVOS",
+          "company_name": "Vivos Therapeutics, Inc.",
           "source": "SEC EDGAR",
-          "title": "National Healthcare Properties, Inc. (0001561032) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001561032-26-000077 Size: 622 KB Item 2.01: Completion of Acquisition or Disposition of Assets Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1561032/000156103226000077/0001561032-26-000077-index.htm",
-          "published_at": "2026-11-27T13:07:43-05:00",
+          "title": "Vivos Therapeutics, Inc. (0001716166) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054507 Size: 213 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1716166/000149315226054507/0001493152-26-054507-index.htm",
+          "published_at": "2026-11-27T16:39:13-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "8276f6a48cc5",
+          "fingerprint": "00ea4d06222c",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-11-11",
-          "discovery_score": 62.9,
-          "market_attention_score": 31.1,
-          "signal_score": 72.0
-        },
-        {
           "date": "2026-11-27",
-          "discovery_score": 58.5,
-          "market_attention_score": 28.8,
-          "signal_score": 65.0
+          "discovery_score": 53.5,
+          "market_attention_score": 27.1,
+          "signal_score": 60.5
         },
         {
           "date": "2026-11-28",
-          "signal_score": 68.0,
-          "discovery_score": 62.3
+          "discovery_score": 57.4,
+          "market_attention_score": 27.1,
+          "signal_score": 63.5
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 64.6,
+          "discovery_score": 59.0
         }
       ]
     },
@@ -1840,245 +1659,9 @@
         },
         {
           "date": "2026-11-28",
-          "signal_score": 64.6,
-          "discovery_score": 59.0
-        }
-      ]
-    },
-    {
-      "ticker": "SPWRW",
-      "company_name": "SunPower Inc.",
-      "signal_score": 64.6,
-      "market_attention_score": 26.8,
-      "discovery_score": 59.0,
-      "confidence_score": 67.8,
-      "primary_catalyst": "SunPower Inc. (0001838987) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-27T18:20:00+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 93,
-      "change": {
-        "signal_delta": 6.6,
-        "discovery_delta": 5.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 13,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "ipo_date": "",
-        "weburl": "",
-        "logo": "",
-        "market_cap": null,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": null,
-        "debt_equity": null,
-        "beta": 2.8580792
-      },
-      "profile": {
-        "name": "SPWRW",
-        "description": "SPWRW is a publicly traded company.",
-        "industry": "",
-        "country": "",
-        "exchange": "",
-        "website": "",
-        "products_markets": [],
-        "source": "Structured company profile"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "SPWRW",
-          "company_name": "SunPower Inc.",
-          "source": "SEC EDGAR",
-          "title": "SunPower Inc. (0001838987) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124574 Size: 270 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1838987/000121390026124574/0001213900-26-124574-index.htm",
-          "published_at": "2026-11-27T16:15:13-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "9bcf53577d68",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-27",
-          "discovery_score": 53.2,
-          "market_attention_score": 25.2,
-          "signal_score": 58.0
-        },
-        {
-          "date": "2026-11-28",
-          "signal_score": 64.6,
-          "discovery_score": 59.0
-        }
-      ]
-    },
-    {
-      "ticker": "MSS",
-      "company_name": "Maison Solutions Inc.",
-      "signal_score": 64.6,
-      "market_attention_score": 26.8,
-      "discovery_score": 59.0,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Maison Solutions Inc. (0001892292) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-27T21:00:00+00:00",
-      "new_to_radar": false,
-      "days_on_radar": 96,
-      "change": {
-        "signal_delta": 6.6,
-        "discovery_delta": 5.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
-        "catalyst_strength": 13,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 13.7,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {
-        "name": "Maison Solutions Inc",
-        "industry": "Retail",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2023-10-05",
-        "weburl": "https://maisonsolutionsinc.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950865537456.png",
-        "market_cap": 2371049.644158416,
-        "pe_ttm": 2.0278,
-        "ps_ttm": 0.0208,
-        "pb_annual": 1.6877,
-        "revenue_growth_ttm_yoy": 1.78,
-        "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 20.17,
-        "net_margin_ttm": -10.56,
-        "current_ratio": 0.5682,
-        "debt_equity": 0.8819,
-        "beta": 3.7656248
-      },
-      "profile": {
-        "name": "Maison Solutions Inc",
-        "description": "Make Buying Fresh Groceries as Easy as Breathing Air We are a leading and rapidly growing grocery store operator and retail solutions integrator catering to traditional Asian-American family and cultural values, lifestyle of younger generations, and the diverse makeup of the communities in which we operate. We operate through brick-and-mortar stores and an online platform, […]",
-        "industry": "Retail",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://maisonsolutionsinc.com/",
-        "products_markets": [],
-        "source": "Company website"
-      },
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "MSS",
-          "company_name": "Maison Solutions Inc.",
-          "source": "SEC EDGAR",
-          "title": "Maison Solutions Inc. (0001892292) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124552 Size: 203 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1892292/000121390026124552/0001213900-26-124552-index.htm",
-          "published_at": "2026-11-27T16:01:31-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "80982472b545",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-27",
-          "discovery_score": 53.2,
-          "market_attention_score": 25.2,
-          "signal_score": 58.0
+          "discovery_score": 59.0,
+          "market_attention_score": 26.8,
+          "signal_score": 64.6
         },
         {
           "date": "2026-11-28",
@@ -2206,35 +1789,41 @@
         },
         {
           "date": "2026-11-28",
+          "discovery_score": 58.1,
+          "market_attention_score": 26.9,
+          "signal_score": 64.5
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 64.5,
           "discovery_score": 58.1
         }
       ]
     },
     {
-      "ticker": "VVOS",
-      "company_name": "Vivos Therapeutics, Inc.",
+      "ticker": "SPWRW",
+      "company_name": "SunPower Inc.",
       "signal_score": 63.5,
-      "market_attention_score": 27.1,
+      "market_attention_score": 26.4,
       "discovery_score": 57.4,
-      "confidence_score": 71.8,
-      "primary_catalyst": "Vivos Therapeutics, Inc. (0001716166) (Filer)",
+      "confidence_score": 67.8,
+      "primary_catalyst": "SunPower Inc. (0001838987) (Filer)",
       "catalyst_category": "IPO / listing",
-      "why_it_matters": "3 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
       "attention_status": "Above baseline",
       "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T16:39:13-05:00",
+      "latest_event_at": "2026-11-27T18:20:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 101,
+      "days_on_radar": 93,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": 5.5,
+        "discovery_delta": 4.2
       },
       "evidence": {
         "primary_source_count": 1,
         "independent_sources": 2,
-        "unique_story_clusters": 3
+        "unique_story_clusters": 2
       },
       "metrics": {
         "primary_evidence": 25,
@@ -2272,50 +1861,48 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Vivos Therapeutics Inc",
-        "industry": "Health Care",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "2020-12-11",
-        "weburl": "https://vivos.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950708259576.png",
-        "market_cap": 3820000.0,
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
         "pe_ttm": null,
-        "ps_ttm": 0.085,
-        "pb_annual": 3.1765,
-        "revenue_growth_ttm_yoy": 45.21,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 61.9,
-        "net_margin_ttm": -121.8,
-        "current_ratio": 0.2425,
-        "debt_equity": 0,
-        "beta": 6.676649
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 2.8580792
       },
       "profile": {
-        "name": "Vivos Therapeutics Inc",
-        "description": "To Breathe Well is to Live Fully The only FDA-cleared oral appliance alternative to CPAP for moderate to severe OSA. No Masks. No Surgery. No Lifetime Treatment. Rethinking Sleep Apnea Treatment.",
-        "industry": "Health Care",
-        "country": "US",
-        "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://vivos.com/",
+        "name": "SPWRW",
+        "description": "SPWRW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
         "products_markets": [],
-        "source": "Company website"
+        "source": "Structured company profile"
       },
-      "themes": [
-        "Biotech & therapeutics"
-      ],
+      "themes": [],
       "stories": [
         {
-          "ticker": "VVOS",
-          "company_name": "Vivos Therapeutics, Inc.",
+          "ticker": "SPWRW",
+          "company_name": "SunPower Inc.",
           "source": "SEC EDGAR",
-          "title": "Vivos Therapeutics, Inc. (0001716166) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054507 Size: 213 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1716166/000149315226054507/0001493152-26-054507-index.htm",
-          "published_at": "2026-11-27T16:39:13-05:00",
+          "title": "SunPower Inc. (0001838987) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124574 Size: 270 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1838987/000121390026124574/0001213900-26-124574-index.htm",
+          "published_at": "2026-11-27T16:15:13-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "00ea4d06222c",
+          "fingerprint": "9bcf53577d68",
           "display_relevance": 1.0,
           "display_relevant": true
         }
@@ -2323,9 +1910,15 @@
       "history": [
         {
           "date": "2026-11-27",
-          "discovery_score": 53.5,
-          "market_attention_score": 27.1,
-          "signal_score": 60.5
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-28",
+          "discovery_score": 59.0,
+          "market_attention_score": 26.8,
+          "signal_score": 64.6
         },
         {
           "date": "2026-11-28",
@@ -2402,17 +1995,17 @@
         "ipo_date": "2024-11-22",
         "weburl": "https://ir.ipstrategy.co/",
         "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950711727306.png",
-        "market_cap": 2572693.7738967137,
+        "market_cap": 1464022.0000000002,
         "pe_ttm": null,
-        "ps_ttm": 0.1431,
+        "ps_ttm": 0.1442,
         "pb_annual": 0.1518,
-        "revenue_growth_ttm_yoy": 37.89,
+        "revenue_growth_ttm_yoy": 39.71,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 60.13,
-        "net_margin_ttm": -1875.55,
+        "gross_margin_ttm": 65.38,
+        "net_margin_ttm": -2063.99,
         "current_ratio": 0.3091,
         "debt_equity": 0.0262,
-        "beta": 0.012939005
+        "beta": 0.69183815
       },
       "profile": {
         "name": "IP Strategy Holdings Inc",
@@ -2453,6 +2046,12 @@
           "discovery_score": 53.2,
           "market_attention_score": 25.2,
           "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-28",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
         },
         {
           "date": "2026-11-28",
@@ -2595,30 +2194,36 @@
         },
         {
           "date": "2026-11-28",
+          "discovery_score": 56.8,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 61.0,
           "discovery_score": 56.8
         }
       ]
     },
     {
-      "ticker": "RMCF",
-      "company_name": "Rocky Mountain Chocolate Factory, Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
+      "ticker": "NHP",
+      "company_name": "National Healthcare Properties, Inc.",
+      "signal_score": 60.0,
+      "market_attention_score": 24.8,
+      "discovery_score": 50.3,
       "confidence_score": 62,
-      "primary_catalyst": "Rocky Mountain Chocolate Factory, Inc. (0001616262) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "primary_catalyst": "National Healthcare Properties, Inc. (0001561032) (Filer)",
+      "catalyst_category": "M&A",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T16:05:35-05:00",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-27T13:07:43-05:00",
       "new_to_radar": false,
-      "days_on_radar": 97,
+      "days_on_radar": 24,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
+        "signal_delta": -5.0,
+        "discovery_delta": -8.2
       },
       "evidence": {
         "primary_source_count": 1,
@@ -2627,24 +2232,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 13,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 20,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
-        "catalyst_strength": 9.8,
+        "catalyst_strength": 15.0,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -2661,459 +2266,218 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Rocky Mountain Chocolate Factory Inc (Delaware)",
-        "industry": "Food Products",
+        "name": "National Healthcare Properties, Inc.",
+        "industry": "Real Estate",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "ipo_date": "1986-02-11",
-        "weburl": "https://www.rmcf.com/",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950460390286.png",
-        "market_cap": 8807134.192168478,
+        "ipo_date": "2020-03-30",
+        "weburl": "https://nhpreit.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950379424396.png",
+        "market_cap": 1122159635.7,
         "pe_ttm": null,
-        "ps_ttm": 0.3315,
-        "pb_annual": 4.5691,
-        "revenue_growth_ttm_yoy": -7.81,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": 14.44,
-        "net_margin_ttm": -19.84,
-        "current_ratio": 1.2921,
-        "debt_equity": 1.2561,
-        "beta": 0.68959737
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": 0.25094205
       },
       "profile": {
-        "name": "Rocky Mountain Chocolate Factory Inc (Delaware)",
-        "description": "Discover Rocky Mountain Chocolate Factory. Handcrafted chocolates, caramel apples, and gourmet gifts. Shop online or visit one of our stores nationwide.",
-        "industry": "Food Products",
+        "name": "National Healthcare Properties, Inc.",
+        "description": "National Healthcare Properties offers a balanced platform focused on senior housing and outpatient medical assets, delivering disciplined growth and long-term value creation.",
+        "industry": "Real Estate",
         "country": "US",
         "exchange": "NASDAQ NMS - GLOBAL MARKET",
-        "website": "https://www.rmcf.com/",
+        "website": "https://nhpreit.com",
         "products_markets": [],
         "source": "Company website"
       },
       "themes": [],
       "stories": [
         {
-          "ticker": "RMCF",
-          "company_name": "Rocky Mountain Chocolate Factory, Inc.",
+          "ticker": "NHP",
+          "company_name": "National Healthcare Properties, Inc.",
           "source": "SEC EDGAR",
-          "title": "Rocky Mountain Chocolate Factory, Inc. (0001616262) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124560 Size: 248 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/1616262/000121390026124560/0001213900-26-124560-index.htm",
-          "published_at": "2026-11-27T16:05:35-05:00",
+          "title": "National Healthcare Properties, Inc. (0001561032) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001561032-26-000077 Size: 622 KB Item 2.01: Completion of Acquisition or Disposition of Assets Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1561032/000156103226000077/0001561032-26-000077-index.htm",
+          "published_at": "2026-11-27T13:07:43-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "bc1cdff60186",
+          "fingerprint": "8276f6a48cc5",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
+          "date": "2026-11-11",
+          "discovery_score": 62.9,
+          "market_attention_score": 31.1,
+          "signal_score": 72.0
+        },
+        {
           "date": "2026-11-27",
-          "discovery_score": 53.2,
-          "market_attention_score": 25.2,
-          "signal_score": 58.0
+          "discovery_score": 58.5,
+          "market_attention_score": 28.8,
+          "signal_score": 65.0
         },
         {
           "date": "2026-11-28",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
+          "discovery_score": 62.3,
+          "market_attention_score": 28.8,
+          "signal_score": 68.0
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 60.0,
+          "discovery_score": 50.3
         }
       ]
     },
     {
-      "ticker": "TRNR",
-      "company_name": "Interactive Strength, Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
-      "confidence_score": 62,
-      "primary_catalyst": "Interactive Strength, Inc. (0001785056) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T16:00:39-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 46,
-      "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 13,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "TRNR",
-          "company_name": "Interactive Strength, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Interactive Strength, Inc. (0001785056) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001193125-26-480235 Size: 158 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/1785056/000119312526480235/0001193125-26-480235-index.htm",
-          "published_at": "2026-11-27T16:00:39-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "fd6efd615a25",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-27",
-          "discovery_score": 53.2,
-          "market_attention_score": 25.2,
-          "signal_score": 58.0
-        },
-        {
-          "date": "2026-11-28",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
-        }
-      ]
-    },
-    {
-      "ticker": "ORBS",
-      "company_name": "Eightco Holdings Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
-      "confidence_score": 62,
-      "primary_catalyst": "Eightco Holdings Inc. (0001892492) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T13:15:13-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 101,
-      "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 13,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "ORBS",
-          "company_name": "Eightco Holdings Inc.",
-          "source": "SEC EDGAR",
-          "title": "Eightco Holdings Inc. (0001892492) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054465 Size: 209 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1892492/000149315226054465/0001493152-26-054465-index.htm",
-          "published_at": "2026-11-27T13:15:13-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "ef7c5912658e",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-27",
-          "discovery_score": 53.2,
-          "market_attention_score": 25.2,
-          "signal_score": 58.0
-        },
-        {
-          "date": "2026-11-28",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
-        }
-      ]
-    },
-    {
-      "ticker": "CRDF",
-      "company_name": "Cardiff Oncology, Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
-      "confidence_score": 62,
-      "primary_catalyst": "Cardiff Oncology, Inc. (0001213037) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T13:10:30-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 88,
-      "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 13,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "CRDF",
-          "company_name": "Cardiff Oncology, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Cardiff Oncology, Inc. (0001213037) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054461 Size: 199 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1213037/000149315226054461/0001493152-26-054461-index.htm",
-          "published_at": "2026-11-27T13:10:30-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "d49e6ef01dcb",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-27",
-          "discovery_score": 53.2,
-          "market_attention_score": 25.2,
-          "signal_score": 58.0
-        },
-        {
-          "date": "2026-11-28",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
-        }
-      ]
-    },
-    {
-      "ticker": "MGX",
-      "company_name": "Metagenomi Therapeutics, Inc.",
-      "signal_score": 61.0,
-      "market_attention_score": 25.2,
-      "discovery_score": 57.1,
-      "confidence_score": 62,
-      "primary_catalyst": "Metagenomi Therapeutics, Inc. (0001785279) (Filer)",
-      "catalyst_category": "IPO / listing",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T13:05:12-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 89,
-      "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.9
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 1,
-        "unique_story_clusters": 1
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 13,
-        "corroboration": 0.0,
-        "source_quality": 10.0,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.0,
-        "catalyst_strength": 9.8,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.0
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [
-        "Biotech & therapeutics"
-      ],
-      "stories": [
-        {
-          "ticker": "MGX",
-          "company_name": "Metagenomi Therapeutics, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Metagenomi Therapeutics, Inc. (0001785279) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001193125-26-479830 Size: 154 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
-          "url": "https://www.sec.gov/Archives/edgar/data/1785279/000119312526479830/0001193125-26-479830-index.htm",
-          "published_at": "2026-11-27T13:05:12-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "d8bfd33793a2",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-11-27",
-          "discovery_score": 53.2,
-          "market_attention_score": 25.2,
-          "signal_score": 58.0
-        },
-        {
-          "date": "2026-11-28",
-          "signal_score": 61.0,
-          "discovery_score": 57.1
-        }
-      ]
-    },
-    {
-      "ticker": "SEV",
-      "company_name": "Aptera Motors Corp",
-      "signal_score": 57.6,
-      "market_attention_score": 23.3,
-      "discovery_score": 53.8,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Aptera Motors Corp (0001786471) (Filer)",
+      "ticker": "IEP",
+      "company_name": "ICAHN ENTERPRISES L.P.",
+      "signal_score": 58.5,
+      "market_attention_score": 27.1,
+      "discovery_score": 48.6,
+      "confidence_score": 87.8,
+      "primary_catalyst": "ICAHN ENTERPRISES L.P. (0000813762) (Filer)",
       "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.2× the stored baseline.",
+      "why_it_matters": "7 unique credible information items from 3 independent sources. This company is new to the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 2,
-      "latest_event_at": "2026-11-27T21:05:00+00:00",
+      "attention_status": "Normal",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-27T17:15:20-05:00",
       "new_to_radar": false,
       "days_on_radar": 101,
       "change": {
-        "signal_delta": -20.9,
-        "discovery_delta": -8.2
+        "signal_delta": null,
+        "discovery_delta": null
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 3,
+        "unique_story_clusters": 7
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 5.0,
+        "catalyst_strength": 6,
+        "corroboration": 10.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 1.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "discovery_metrics": {
+        "attention_lift": 8.0,
+        "novelty": 20.0,
+        "source_breadth": 3.6,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 1.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.2
+      },
+      "baseline": {
+        "avg_items_24h": 0.0,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Icahn Enterprises LP",
+        "industry": "Industrial Conglomerates",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1987-07-23",
+        "weburl": "https://www.ielp.com",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/942959033436.png",
+        "market_cap": 1952959955.2295723,
+        "pe_ttm": null,
+        "ps_ttm": 0.183,
+        "pb_annual": 2.3335,
+        "revenue_growth_ttm_yoy": 20.04,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 4.86,
+        "net_margin_ttm": -9.56,
+        "current_ratio": 2.7853,
+        "debt_equity": 3.4068,
+        "beta": 0.8630033
+      },
+      "profile": {
+        "name": "Icahn Enterprises LP",
+        "description": "Icahn Enterprises LP is a publicly traded company operating in the Industrial Conglomerates industry with company information identifying US as its home market.",
+        "industry": "Industrial Conglomerates",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.ielp.com",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "IEP",
+          "company_name": "ICAHN ENTERPRISES L.P.",
+          "source": "SEC EDGAR",
+          "title": "ICAHN ENTERPRISES L.P. (0000813762) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001104659-26-132525 Size: 197 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/813762/000110465926132525/0001104659-26-132525-index.htm",
+          "published_at": "2026-11-27T17:15:20-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "3b6744644a50",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-28",
+          "discovery_score": 72.6,
+          "market_attention_score": 28.2,
+          "signal_score": 60.0
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 58.5,
+          "discovery_score": 48.6
+        }
+      ]
+    },
+    {
+      "ticker": "ASBPW",
+      "company_name": "Aspire-Lakewood Holdings, Inc.",
+      "signal_score": 56.5,
+      "market_attention_score": 22.9,
+      "discovery_score": 52.1,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Aspire-Lakewood Holdings, Inc. (0001847345) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-27T16:30:12-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 102,
+      "change": {
+        "signal_delta": 3.0,
+        "discovery_delta": 3.8
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3122,24 +2486,157 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 9.1,
+        "coverage_acceleration": 8.0,
         "catalyst_strength": 6,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 13.7,
+        "attention_lift": 12.0,
         "novelty": 19.8,
         "source_breadth": 3.3,
         "catalyst_strength": 4.5,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.2,
-        "weighted_coverage_24h": 1.1,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "ipo_date": "",
+        "weburl": "",
+        "logo": "",
+        "market_cap": null,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": null,
+        "debt_equity": null,
+        "beta": -1.2921288
+      },
+      "profile": {
+        "name": "ASBPW",
+        "description": "ASBPW is a publicly traded company.",
+        "industry": "",
+        "country": "",
+        "exchange": "",
+        "website": "",
+        "products_markets": [],
+        "source": "Structured company profile"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "ASBPW",
+          "company_name": "Aspire-Lakewood Holdings, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Aspire-Lakewood Holdings, Inc. (0001847345) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054501 Size: 251 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315226054501/0001493152-26-054501-index.htm",
+          "published_at": "2026-11-27T16:30:12-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "6b7ad22da0b1",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-20",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-11-27",
+          "discovery_score": 48.3,
+          "market_attention_score": 22.9,
+          "signal_score": 53.5
+        },
+        {
+          "date": "2026-11-28",
+          "discovery_score": 52.1,
+          "market_attention_score": 22.9,
+          "signal_score": 56.5
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 56.5,
+          "discovery_score": 52.1
+        }
+      ]
+    },
+    {
+      "ticker": "SEV",
+      "company_name": "Aptera Motors Corp",
+      "signal_score": 56.5,
+      "market_attention_score": 22.9,
+      "discovery_score": 52.1,
+      "confidence_score": 67.8,
+      "primary_catalyst": "Aptera Motors Corp (0001786471) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-27T21:05:00+00:00",
+      "new_to_radar": false,
+      "days_on_radar": 101,
+      "change": {
+        "signal_delta": -22.0,
+        "discovery_delta": -9.9
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 2,
+        "unique_story_clusters": 2
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 6,
+        "corroboration": 5.0,
+        "source_quality": 7.5,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.1
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.8,
+        "source_breadth": 3.3,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3213,102 +2710,9 @@
         },
         {
           "date": "2026-11-28",
-          "signal_score": 57.6,
-          "discovery_score": 53.8
-        }
-      ]
-    },
-    {
-      "ticker": "ASBPW",
-      "company_name": "Aspire-Lakewood Holdings, Inc.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 52.1,
-      "confidence_score": 67.8,
-      "primary_catalyst": "Aspire-Lakewood Holdings, Inc. (0001847345) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
-      "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T16:30:12-05:00",
-      "new_to_radar": false,
-      "days_on_radar": 102,
-      "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
-      },
-      "evidence": {
-        "primary_source_count": 1,
-        "independent_sources": 2,
-        "unique_story_clusters": 2
-      },
-      "metrics": {
-        "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
-        "corroboration": 5.0,
-        "source_quality": 7.5,
-        "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "discovery_metrics": {
-        "attention_lift": 12.0,
-        "novelty": 19.8,
-        "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
-        "primary_evidence": 10.0,
-        "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
-        "weighted_source_breadth": 1.1
-      },
-      "baseline": {
-        "avg_items_24h": 0.07,
-        "days_available": 30,
-        "maturity": "established"
-      },
-      "materiality": {
-        "estimated_event_value": null,
-        "market_cap_ratio": null,
-        "score": 5,
-        "label": "Unquantified",
-        "basis": "",
-        "caution": "No reliably extractable event value found."
-      },
-      "fundamentals": {},
-      "profile": {},
-      "themes": [],
-      "stories": [
-        {
-          "ticker": "ASBPW",
-          "company_name": "Aspire-Lakewood Holdings, Inc.",
-          "source": "SEC EDGAR",
-          "title": "Aspire-Lakewood Holdings, Inc. (0001847345) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054501 Size: 251 KB Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
-          "url": "https://www.sec.gov/Archives/edgar/data/1847345/000149315226054501/0001493152-26-054501-index.htm",
-          "published_at": "2026-11-27T16:30:12-05:00",
-          "sentiment": 0.0,
-          "evidence_type": "SEC filing",
-          "fingerprint": "6b7ad22da0b1",
-          "display_relevance": 1.0,
-          "display_relevant": true
-        }
-      ],
-      "history": [
-        {
-          "date": "2026-10-20",
-          "discovery_score": 48.0,
-          "market_attention_score": 21.8,
-          "signal_score": 51.0
-        },
-        {
-          "date": "2026-11-27",
-          "discovery_score": 48.3,
-          "market_attention_score": 22.9,
-          "signal_score": 53.5
+          "discovery_score": 53.8,
+          "market_attention_score": 23.3,
+          "signal_score": 57.6
         },
         {
           "date": "2026-11-28",
@@ -3318,24 +2722,24 @@
       ]
     },
     {
-      "ticker": "SBMT",
-      "company_name": "SILVER BOW MINING CORP.",
-      "signal_score": 56.5,
-      "market_attention_score": 22.9,
-      "discovery_score": 52.1,
+      "ticker": "MSS",
+      "company_name": "Maison Solutions Inc.",
+      "signal_score": 55.5,
+      "market_attention_score": 22.4,
+      "discovery_score": 45.4,
       "confidence_score": 67.8,
-      "primary_catalyst": "SILVER BOW MINING CORP. (0002067674) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 2.0× the stored baseline.",
+      "primary_catalyst": "Maison Solutions Inc. (0001892292) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "2 unique credible information items from 2 independent sources. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T16:05:37-05:00",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-27T21:00:00+00:00",
       "new_to_radar": false,
-      "days_on_radar": 97,
+      "days_on_radar": 96,
       "change": {
-        "signal_delta": 3.0,
-        "discovery_delta": 3.8
+        "signal_delta": -2.5,
+        "discovery_delta": -7.8
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3344,24 +2748,24 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 13,
         "corroboration": 5.0,
         "source_quality": 7.5,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.3,
-        "catalyst_strength": 4.5,
+        "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.1
       },
       "baseline": {
@@ -3378,83 +2782,69 @@
         "caution": "No reliably extractable event value found."
       },
       "fundamentals": {
-        "name": "Silver Bow Mining Corp",
-        "industry": "N/A",
+        "name": "Maison Solutions Inc",
+        "industry": "Retail",
         "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "ipo_date": "2026-04-30",
-        "weburl": "https://silverbowmining.com",
-        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950960872436.png",
-        "market_cap": 192525820.0,
-        "pe_ttm": null,
-        "ps_ttm": null,
-        "pb_annual": null,
-        "revenue_growth_ttm_yoy": null,
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2023-10-05",
+        "weburl": "https://maisonsolutionsinc.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950865537456.png",
+        "market_cap": 2371049.644158416,
+        "pe_ttm": 2.0278,
+        "ps_ttm": 0.0208,
+        "pb_annual": 1.6877,
+        "revenue_growth_ttm_yoy": 1.78,
         "eps_growth_ttm_yoy": null,
-        "gross_margin_ttm": null,
-        "net_margin_ttm": null,
-        "current_ratio": 7.2625,
-        "debt_equity": 0,
-        "beta": 3.0044823
+        "gross_margin_ttm": 20.17,
+        "net_margin_ttm": -10.56,
+        "current_ratio": 0.5682,
+        "debt_equity": 0.8819,
+        "beta": 3.7656248
       },
       "profile": {
-        "name": "Silver Bow Mining Corp",
-        "description": "Silver Bow Mining Corp. is advancing the Butte Mining District of Montana, targeting U.S.-designated Critical Minerals including silver, zinc, gold and lead.",
-        "industry": "N/A",
+        "name": "Maison Solutions Inc",
+        "description": "Make Buying Fresh Groceries as Easy as Breathing Air We are a leading and rapidly growing grocery store operator and retail solutions integrator catering to traditional Asian-American family and cultural values, lifestyle of younger generations, and the diverse makeup of the communities in which we operate. We operate through brick-and-mortar stores and an online platform, […]",
+        "industry": "Retail",
         "country": "US",
-        "exchange": "NYSE MKT LLC",
-        "website": "https://silverbowmining.com",
-        "products_markets": [
-          "Mining"
-        ],
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://maisonsolutionsinc.com/",
+        "products_markets": [],
         "source": "Company website"
       },
       "themes": [],
       "stories": [
         {
-          "ticker": "SBMT",
-          "company_name": "SILVER BOW MINING CORP.",
+          "ticker": "MSS",
+          "company_name": "Maison Solutions Inc.",
           "source": "SEC EDGAR",
-          "title": "SILVER BOW MINING CORP. (0002067674) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001539497-26-003114 Size: 203 KB Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
-          "url": "https://www.sec.gov/Archives/edgar/data/2067674/000153949726003114/0001539497-26-003114-index.htm",
-          "published_at": "2026-11-27T16:05:37-05:00",
+          "title": "Maison Solutions Inc. (0001892292) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124552 Size: 203 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 7.01: Regulation FD Disclosure Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1892292/000121390026124552/0001213900-26-124552-index.htm",
+          "published_at": "2026-11-27T16:01:31-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "e3689402d64b",
+          "fingerprint": "80982472b545",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
-          "date": "2026-10-23",
-          "discovery_score": 51.7,
-          "market_attention_score": 21.8,
-          "signal_score": 54.0
-        },
-        {
-          "date": "2026-10-24",
-          "discovery_score": 48.8,
-          "market_attention_score": 24.9,
-          "signal_score": 60.5
-        },
-        {
-          "date": "2026-10-25",
-          "discovery_score": 49.0,
-          "market_attention_score": 24.9,
-          "signal_score": 60.5
-        },
-        {
           "date": "2026-11-27",
-          "discovery_score": 48.3,
-          "market_attention_score": 22.9,
-          "signal_score": 53.5
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
         },
         {
           "date": "2026-11-28",
-          "signal_score": 56.5,
-          "discovery_score": 52.1
+          "discovery_score": 59.0,
+          "market_attention_score": 26.8,
+          "signal_score": 64.6
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 55.5,
+          "discovery_score": 45.4
         }
       ]
     },
@@ -3546,8 +2936,290 @@
         },
         {
           "date": "2026-11-28",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 54.0,
           "discovery_score": 51.8
+        }
+      ]
+    },
+    {
+      "ticker": "MBRX",
+      "company_name": "Moleculin Biotech, Inc.",
+      "signal_score": 54.0,
+      "market_attention_score": 21.8,
+      "discovery_score": 51.7,
+      "confidence_score": 62,
+      "primary_catalyst": "Moleculin Biotech, Inc. (0001659617) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-27T17:00:31-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 96,
+      "change": {
+        "signal_delta": 0.0,
+        "discovery_delta": 0.2
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.7,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Moleculin Biotech Inc",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2016-06-02",
+        "weburl": "https://moleculin.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950502673406.png",
+        "market_cap": 10907332.978723405,
+        "pe_ttm": null,
+        "ps_ttm": null,
+        "pb_annual": 0.4558,
+        "revenue_growth_ttm_yoy": null,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": null,
+        "net_margin_ttm": null,
+        "current_ratio": 1.4132,
+        "debt_equity": 0,
+        "beta": 2.1052377
+      },
+      "profile": {
+        "name": "Moleculin Biotech Inc",
+        "description": "Moleculin Biotech Inc is a publicly traded company operating in the Biotechnology industry with company information identifying US as its home market.",
+        "industry": "Biotechnology",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://moleculin.com/",
+        "products_markets": [
+          "Biotechnology"
+        ],
+        "source": "Structured company profile"
+      },
+      "themes": [
+        "Biotech & therapeutics"
+      ],
+      "stories": [
+        {
+          "ticker": "MBRX",
+          "company_name": "Moleculin Biotech, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Moleculin Biotech, Inc. (0001659617) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001437749-26-038383 Size: 5 MB Item 7.01: Regulation FD Disclosure Item 8.01: Other Events Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1659617/000143774926038383/0001437749-26-038383-index.htm",
+          "published_at": "2026-11-27T17:00:31-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "cb7ab46cd5f0",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-09-29",
+          "discovery_score": 93.1,
+          "market_attention_score": 59.5,
+          "signal_score": 90.8
+        },
+        {
+          "date": "2026-10-10",
+          "discovery_score": 40.6,
+          "market_attention_score": 22.9,
+          "signal_score": 50.2
+        },
+        {
+          "date": "2026-11-12",
+          "discovery_score": 60.8,
+          "market_attention_score": 29.7,
+          "signal_score": 71.6
+        },
+        {
+          "date": "2026-11-18",
+          "discovery_score": 58.3,
+          "market_attention_score": 28.8,
+          "signal_score": 69.5
+        },
+        {
+          "date": "2026-11-27",
+          "discovery_score": 51.5,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 54.0,
+          "discovery_score": 51.7
+        }
+      ]
+    },
+    {
+      "ticker": "CHGA",
+      "company_name": "Change Agents Corporation.",
+      "signal_score": 54.0,
+      "market_attention_score": 21.8,
+      "discovery_score": 51.7,
+      "confidence_score": 62,
+      "primary_catalyst": "Change Agents Corporation. (0001630212) (Filer)",
+      "catalyst_category": "Other material development",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Above baseline",
+      "article_count_24h": 1,
+      "latest_event_at": "2026-11-27T16:30:20-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 103,
+      "change": {
+        "signal_delta": 0.0,
+        "discovery_delta": -0.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 8.0,
+        "catalyst_strength": 6,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 12.0,
+        "novelty": 19.7,
+        "source_breadth": 3.0,
+        "catalyst_strength": 4.5,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 2.0,
+        "weighted_coverage_24h": 1.0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.13,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Avalon Globocare Corp",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "2016-02-22",
+        "weburl": "https://www.avalon-globocare.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950460510366.png",
+        "market_cap": 2542890.3966244725,
+        "pe_ttm": null,
+        "ps_ttm": 1.7974,
+        "pb_annual": null,
+        "revenue_growth_ttm_yoy": 6.66,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 25.7,
+        "net_margin_ttm": -1355.2,
+        "current_ratio": 0.1057,
+        "debt_equity": 0.1012,
+        "beta": 0.5517308
+      },
+      "profile": {
+        "name": "Avalon Globocare Corp",
+        "description": "Change Agents Corp. builds breakthrough agentic software products designed to deliver material revenue increases for small businesses and content creators.",
+        "industry": "Real Estate",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.avalon-globocare.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "CHGA",
+          "company_name": "Change Agents Corporation.",
+          "source": "SEC EDGAR",
+          "title": "Change Agents Corporation. (0001630212) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124589 Size: 736 KB Item 1.01: Entry into a Material Definitive Agreement Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant Item 3.02: Unregistered Sales of Equity Securities Item 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1630212/000121390026124589/0001213900-26-124589-index.htm",
+          "published_at": "2026-11-27T16:30:20-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "1aaa3845b22a",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-10-08",
+          "discovery_score": 64.3,
+          "market_attention_score": 30.3,
+          "signal_score": 71.6
+        },
+        {
+          "date": "2026-11-27",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 54.0,
+          "discovery_score": 51.7
         }
       ]
     },
@@ -3669,6 +3341,12 @@
         },
         {
           "date": "2026-11-28",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 54.0,
           "discovery_score": 51.8
         }
@@ -3786,30 +3464,36 @@
       "history": [
         {
           "date": "2026-11-28",
+          "discovery_score": 51.8,
+          "market_attention_score": 21.8,
+          "signal_score": 54.0
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 54.0,
           "discovery_score": 51.8
         }
       ]
     },
     {
-      "ticker": "CEPF",
-      "company_name": "Cantor Equity Partners IV, Inc.",
-      "signal_score": 54.0,
-      "market_attention_score": 21.8,
-      "discovery_score": 51.8,
+      "ticker": "RMCF",
+      "company_name": "Rocky Mountain Chocolate Factory, Inc.",
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
       "confidence_score": 62,
-      "primary_catalyst": "Cantor Equity Partners IV, Inc. (0002034267) (Filer)",
-      "catalyst_category": "Other material development",
-      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 2.0× the stored baseline.",
+      "primary_catalyst": "Rocky Mountain Chocolate Factory, Inc. (0001616262) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
       "sentiment_label": "Mixed / neutral",
-      "attention_status": "Above baseline",
-      "article_count_24h": 1,
-      "latest_event_at": "2026-11-27T16:05:36-05:00",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-27T16:05:35-05:00",
       "new_to_radar": false,
-      "days_on_radar": 96,
+      "days_on_radar": 97,
       "change": {
-        "signal_delta": null,
-        "discovery_delta": null
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
       },
       "evidence": {
         "primary_source_count": 1,
@@ -3818,24 +3502,151 @@
       },
       "metrics": {
         "primary_evidence": 25,
-        "coverage_acceleration": 8.0,
-        "catalyst_strength": 6,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 13,
         "corroboration": 0.0,
         "source_quality": 10.0,
         "sentiment_signal": 5.0,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "discovery_metrics": {
-        "attention_lift": 12.0,
+        "attention_lift": 0.0,
         "novelty": 19.8,
         "source_breadth": 3.0,
-        "catalyst_strength": 4.5,
+        "catalyst_strength": 9.8,
         "primary_evidence": 10.0,
         "sentiment": 2.5,
-        "coverage_ratio_vs_baseline": 2.0,
-        "weighted_coverage_24h": 1.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {
+        "name": "Rocky Mountain Chocolate Factory Inc (Delaware)",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "ipo_date": "1986-02-11",
+        "weburl": "https://www.rmcf.com/",
+        "logo": "https://static2.finnhub.io/file/publicdatany/finnhubimage/stock_logo/950460390286.png",
+        "market_cap": 8807134.192168478,
+        "pe_ttm": null,
+        "ps_ttm": 0.3315,
+        "pb_annual": 4.5691,
+        "revenue_growth_ttm_yoy": -7.81,
+        "eps_growth_ttm_yoy": null,
+        "gross_margin_ttm": 14.44,
+        "net_margin_ttm": -19.84,
+        "current_ratio": 1.2921,
+        "debt_equity": 1.2561,
+        "beta": 0.68959737
+      },
+      "profile": {
+        "name": "Rocky Mountain Chocolate Factory Inc (Delaware)",
+        "description": "Discover Rocky Mountain Chocolate Factory. Handcrafted chocolates, caramel apples, and gourmet gifts. Shop online or visit one of our stores nationwide.",
+        "industry": "Food Products",
+        "country": "US",
+        "exchange": "NASDAQ NMS - GLOBAL MARKET",
+        "website": "https://www.rmcf.com/",
+        "products_markets": [],
+        "source": "Company website"
+      },
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "RMCF",
+          "company_name": "Rocky Mountain Chocolate Factory, Inc.",
+          "source": "SEC EDGAR",
+          "title": "Rocky Mountain Chocolate Factory, Inc. (0001616262) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124560 Size: 248 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers Item 9.01: Financial Statements and Exhibits",
+          "url": "https://www.sec.gov/Archives/edgar/data/1616262/000121390026124560/0001213900-26-124560-index.htm",
+          "published_at": "2026-11-27T16:05:35-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "bc1cdff60186",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-27",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-28",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
+        }
+      ]
+    },
+    {
+      "ticker": "TRNR",
+      "company_name": "Interactive Strength, Inc.",
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
+      "confidence_score": 62,
+      "primary_catalyst": "Interactive Strength, Inc. (0001785056) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-27T16:00:39-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 46,
+      "change": {
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 13,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 9.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
         "weighted_source_breadth": 1.0
       },
       "baseline": {
@@ -3856,25 +3667,136 @@
       "themes": [],
       "stories": [
         {
-          "ticker": "CEPF",
-          "company_name": "Cantor Equity Partners IV, Inc.",
+          "ticker": "TRNR",
+          "company_name": "Interactive Strength, Inc.",
           "source": "SEC EDGAR",
-          "title": "Cantor Equity Partners IV, Inc. (0002034267) (Filer)",
-          "summary": "Filed: 2026-11-27 AccNo: 0001213900-26-124563 Size: 190 KB Item 8.01: Other Events",
-          "url": "https://www.sec.gov/Archives/edgar/data/2034267/000121390026124563/0001213900-26-124563-index.htm",
-          "published_at": "2026-11-27T16:05:36-05:00",
+          "title": "Interactive Strength, Inc. (0001785056) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001193125-26-480235 Size: 158 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+          "url": "https://www.sec.gov/Archives/edgar/data/1785056/000119312526480235/0001193125-26-480235-index.htm",
+          "published_at": "2026-11-27T16:00:39-05:00",
           "sentiment": 0.0,
           "evidence_type": "SEC filing",
-          "fingerprint": "e2b357d51353",
+          "fingerprint": "fd6efd615a25",
           "display_relevance": 1.0,
           "display_relevant": true
         }
       ],
       "history": [
         {
+          "date": "2026-11-27",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
           "date": "2026-11-28",
-          "signal_score": 54.0,
-          "discovery_score": 51.8
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
+        }
+      ]
+    },
+    {
+      "ticker": "ORBS",
+      "company_name": "Eightco Holdings Inc.",
+      "signal_score": 53.0,
+      "market_attention_score": 21.2,
+      "discovery_score": 45.1,
+      "confidence_score": 62,
+      "primary_catalyst": "Eightco Holdings Inc. (0001892492) (Filer)",
+      "catalyst_category": "IPO / listing",
+      "why_it_matters": "1 unique credible information item from 1 independent source. Coverage is 0.0× the stored baseline.",
+      "sentiment_label": "Mixed / neutral",
+      "attention_status": "Normal",
+      "article_count_24h": 0,
+      "latest_event_at": "2026-11-27T13:15:13-05:00",
+      "new_to_radar": false,
+      "days_on_radar": 101,
+      "change": {
+        "signal_delta": -5.0,
+        "discovery_delta": -8.1
+      },
+      "evidence": {
+        "primary_source_count": 1,
+        "independent_sources": 1,
+        "unique_story_clusters": 1
+      },
+      "metrics": {
+        "primary_evidence": 25,
+        "coverage_acceleration": 0.0,
+        "catalyst_strength": 13,
+        "corroboration": 0.0,
+        "source_quality": 10.0,
+        "sentiment_signal": 5.0,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "discovery_metrics": {
+        "attention_lift": 0.0,
+        "novelty": 19.8,
+        "source_breadth": 3.0,
+        "catalyst_strength": 9.8,
+        "primary_evidence": 10.0,
+        "sentiment": 2.5,
+        "coverage_ratio_vs_baseline": 0.0,
+        "weighted_coverage_24h": 0,
+        "weighted_source_breadth": 1.0
+      },
+      "baseline": {
+        "avg_items_24h": 0.07,
+        "days_available": 30,
+        "maturity": "established"
+      },
+      "materiality": {
+        "estimated_event_value": null,
+        "market_cap_ratio": null,
+        "score": 5,
+        "label": "Unquantified",
+        "basis": "",
+        "caution": "No reliably extractable event value found."
+      },
+      "fundamentals": {},
+      "profile": {},
+      "themes": [],
+      "stories": [
+        {
+          "ticker": "ORBS",
+          "company_name": "Eightco Holdings Inc.",
+          "source": "SEC EDGAR",
+          "title": "Eightco Holdings Inc. (0001892492) (Filer)",
+          "summary": "Filed: 2026-11-27 AccNo: 0001493152-26-054465 Size: 209 KB Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+          "url": "https://www.sec.gov/Archives/edgar/data/1892492/000149315226054465/0001493152-26-054465-index.htm",
+          "published_at": "2026-11-27T13:15:13-05:00",
+          "sentiment": 0.0,
+          "evidence_type": "SEC filing",
+          "fingerprint": "ef7c5912658e",
+          "display_relevance": 1.0,
+          "display_relevant": true
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-27",
+          "discovery_score": 53.2,
+          "market_attention_score": 25.2,
+          "signal_score": 58.0
+        },
+        {
+          "date": "2026-11-28",
+          "discovery_score": 57.1,
+          "market_attention_score": 25.2,
+          "signal_score": 61.0
+        },
+        {
+          "date": "2026-11-28",
+          "signal_score": 53.0,
+          "discovery_score": 45.1
         }
       ]
     },
@@ -3994,6 +3916,12 @@
         },
         {
           "date": "2026-11-28",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 51.0,
           "discovery_score": 48.0
         }
@@ -4109,6 +4037,12 @@
       "history": [
         {
           "date": "2026-11-28",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
+        {
+          "date": "2026-11-28",
           "signal_score": 51.0,
           "discovery_score": 48.0
         }
@@ -4194,6 +4128,12 @@
         }
       ],
       "history": [
+        {
+          "date": "2026-11-28",
+          "discovery_score": 48.0,
+          "market_attention_score": 21.8,
+          "signal_score": 51.0
+        },
         {
           "date": "2026-11-28",
           "signal_score": 51.0,
